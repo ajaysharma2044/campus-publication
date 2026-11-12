@@ -10,10 +10,10 @@ readers: [sophomore, off-campus, low-budget, parent, grad-student]
 brief: intel/off-campus-housing/brief.md
 sources:
   - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown properties (per-bed prices, 2027-28)", accessed: "2026-11-10"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire", title: "Cornell Off-Campus Living: Housemate compatibility questionnaire", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire", title: "Cornell Off-Campus Living: Housemate compatibility questionnaire", accessed: "2026-11-10"}
   - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease", title: "Cornell Law School Tenants Advocacy: Understanding your lease (February 2026)", accessed: "2026-11-10"}
   - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "New York General Obligations Law 7-108, Security deposits", accessed: "2026-11-10"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources", title: "Cornell Off-Campus Living: Resources", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources", title: "Cornell Off-Campus Living: Resources", accessed: "2026-11-10"}
   - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/", title: "Cornell Law School Tenants Advocacy: Tenants' rights", accessed: "2026-11-10"}
 redirect_from:
   - /cornell/housing/rent-split-calculator-unequal-rooms/
@@ -78,7 +78,7 @@ Your student's share in the group's split does not limit what you sign for. Read
 | Collegetown Plaza Premium 4BR, 1 bath | $1,185 to $1,200 per bed a month (midpoint $1,192.50) | 2027-28, read 2026-11-10 | [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) |
 | Default private-bath value | $107.50 a month ($1,300 - $1,192.50) | Our calc on the two rows above | [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) |
 | Example unit rent | $5,200 a month (4 x $1,300) | Our calc | From the first row |
-| Joint and several leases | Most local leases bind housemates "jointly and severally": each is responsible for the others' rent and damages | Page as read 2026-11-10 | [Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire) |
+| Joint and several leases | Most local leases bind housemates "jointly and severally": each is responsible for the others' rent and damages | Page as read 2026-11-10 | [Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire) |
 | Contribution | A tenant who pays more than their share can sue the co-tenant who failed to pay | February 2026 | [Cornell Law Tenants Advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease) |
 
 ### What a better room costs
@@ -124,7 +124,7 @@ The bold line gives the largest and smallest monthly share and the gap between t
 
 **Someone wants to renegotiate mid-year.** Fix: write into the agreement that the split holds for the full lease unless everyone agrees in writing to change it.
 
-If a dispute stalls, the Community Dispute Resolution Center mediates roommate conflicts at 607-273-9347 ([Cornell Off-Campus Living resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). For legal questions about a lease, call the Cornell Law Tenants Advocacy hotline at 607-301-1560 ([Tenants Advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/)).
+If a dispute stalls, the Community Dispute Resolution Center mediates roommate conflicts at 607-273-9347 ([Cornell Off-Campus Living resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)). For legal questions about a lease, call the Cornell Law Tenants Advocacy hotline at 607-301-1560 ([Tenants Advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/)).
 
 ## Related guides
 

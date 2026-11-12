@@ -7,7 +7,7 @@ primary_query: why does cornell require sophomores to live on campus
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 287
 rewrites: ''
 readers:
@@ -31,16 +31,16 @@ sources:
 - url: https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life
   title: Cornell welcomes students, marks milestone in residential life, Cornell Chronicle, Aug. 2022
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for rising sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New changes to fall housing selection leave some rising juniors and seniors disappointed, The Cornell Daily Sun, Nov. 2025
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images:
@@ -75,13 +75,13 @@ Cornell's own explanation of why it wants sophomores on campus, in terms of grad
 
 ## What does the rule require, step by step?
 
-In year one, first-year and transfer students who need the requirement are assigned to university residence halls. In year two, you can stay in a residence hall or live in approved university-affiliated housing. That means housing owned or controlled by a registered student organization, a recognized fraternity or sorority house, or one of the eight university-owned co-ops ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). The [guide to co-ops and Greek houses](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers cost and how to join.
+In year one, first-year and transfer students who need the requirement are assigned to university residence halls. In year two, you can stay in a residence hall or live in approved university-affiliated housing. That means housing owned or controlled by a registered student organization, a recognized fraternity or sorority house, or one of the eight university-owned co-ops ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). The [guide to co-ops and Greek houses](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers how a sophomore gets in.
 
-The deadlines are firm. For fall 2027, rising sophomores have these dates from Cornell's spring selection page: the housing application opens Feb. 1, and the application and exemption deadline is April 4 at 11:59 p.m. Room timeslots are April 7, and open selection runs April 13 to 16. Living in a chapter house or co-op means you must affirm that plan by March 15 ([Cornell Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+The deadlines are firm. For fall 2027, rising sophomores have these dates from Cornell's spring selection page: the housing application opens Feb. 1, and the application and exemption deadline is April 4 at 11:59 p.m. Room timeslots are April 7, and open selection runs April 13 to 16. Living in a chapter house or co-op means you must affirm that plan by March 15 ([Cornell Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 ## What does a Cornell room cost, and is it more than renting?
 
-A residence hall double costs $13,744 per academic year, and the Unlimited meal plan costs $7,604 per year, for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Together that is $21,348 ($13,744 plus $7,604). Whether living off campus would cost less is a separate question, which the [off-campus versus dorm comparison](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) works through.
+A residence hall double costs $13,744 per academic year, and the Unlimited meal plan costs $7,604 per year, for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Together that is $21,348 ($13,744 plus $7,604). Whether living off campus would cost less is a separate question, which the [off-campus versus dorm comparison](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) works through.
 
 ## Who is exempt?
 
@@ -98,7 +98,7 @@ Cornell lists these exemptions in its residential policy:
 
 Source: Cornell Residential Policy.
 
-An exemption lasts one academic year, and you reapply each year ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Requests are accepted during the open application period, not after a signed housing license. Students who neither meet the requirement nor hold an exemption are billed for the full year ([Cornell housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)). See [exemptions to the residential requirement](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for the process in full, or run the quiz.
+An exemption lasts one academic year, and you reapply each year ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Requests are accepted during the open application period, not after a signed housing license. Students who neither meet the requirement nor hold an exemption are billed for the full year ([Cornell housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)). See [exemptions to the residential requirement](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for the process in full, or run the quiz.
 
 ```tool can-i-live-off-campus-cornell-quiz
 ```
@@ -119,6 +119,6 @@ The requirement covers two years, and the cost is a combined room and meal plan.
 
 ## What to do next
 
-Mark the dates from the [spring selection page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores) in your calendar for the 2027-28 cycle. If you think you qualify for an exemption, gather your documents before you apply, since supporting documentation may be required. Questions go to [Housing Operations](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory) at housing@cornell.edu or 607-255-5368.
+Mark the dates from the [spring selection page](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores) in your calendar for the 2027-28 cycle. If you think you qualify for an exemption, gather your documents before you apply, since supporting documentation may be required. Questions go to [Housing Operations](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory) at housing@cornell.edu or 607-255-5368.
 
 Related guides: [exemptions to the residential requirement](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/), [off-campus housing for sophomores](/cornell/housing/off-campus-housing-cornell-sophomores/), [co-ops and Greek houses](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).

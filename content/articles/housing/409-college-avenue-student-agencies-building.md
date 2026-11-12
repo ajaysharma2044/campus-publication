@@ -7,7 +7,7 @@ primary_query: 409 College Ave Ithaca Student Agencies apartments
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 116
 rewrites: ''
 readers:
@@ -20,28 +20,31 @@ tools:
 sources:
 - url: https://www.thestudentagenciesbuilding.com/
   title: The Student Agencies Building
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.thestudentagenciesbuilding.com/amenities
   title: Amenities, The Student Agencies Building
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.thestudentagenciesbuilding.com/faq
   title: FAQ, The Student Agencies Building
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.thestudentagenciesbuilding.com/neighborhood
   title: Neighborhood, The Student Agencies Building
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://www.thestudentagenciesbuilding.com/availability
+  title: Apartment availability, The Student Agencies Building
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/
   title: The tale of Cornell's broken housing market, The Cornell Daily Sun, Aug. 4, 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/
   title: Hurt for housing begins early, causing stress for students, The Cornell Daily Sun, Sept. 12, 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.studentagencies.com/
   title: Student Agencies
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and shipping options, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -57,15 +60,15 @@ The Student Agencies Building at 409 College Ave. is a furnished Collegetown apa
 
 ## What is the Student Agencies Building?
 
-The building shares its name with Student Agencies, Inc., which was founded in 1894 and calls itself the oldest independent student-run company in the nation. The company also runs Big Red Shipping and Storage and Hired Hands Moving Company ([Student Agencies](https://www.studentagencies.com/)). The building's site does not name an owner or manager, so confirm who signs the lease.
+The building shares its name with Student Agencies, Inc., which was founded in 1894 and calls itself the oldest independent student-run company in the nation. The company also runs Big Red Shipping and Storage and Hired Hands Moving Company ([Student Agencies](https://www.studentagencies.com/)). Ask the leasing office which company owns and manages the building and signs the lease.
 
 ```figure
 kind: cost_table
 title: The Student Agencies Building at a glance
 rows:
   - {label: "Address", value: "409 College Ave., Collegetown"}
-  - {label: "Unit types", value: "Studio to 5-plus bedrooms in the availability filter"}
-  - {label: "Rent", value: "Not posted; 2022 priciest 1BR was $2,550 a month"}
+  - {label: "Unit types", value: "Studios and multi-bedroom layouts"}
+  - {label: "Rent", value: "On request; 2022 priciest 1BR was $2,550 a month"}
   - {label: "Amenities", value: "Internet, package service, fitness center, tenant lounges, laundry"}
   - {label: "Tenants pay", value: "Water and electric; cable is optional"}
   - {label: "Climate", value: "A/C and heat in apartments"}
@@ -79,7 +82,7 @@ The building's neighborhood page lists the Cascadilla Gorge Trail among the plac
 
 ## What does it cost?
 
-The building posts no prices. The most recent public figure is from 2022, when a Cornell Daily Sun opinion piece reported that the priciest one-bedroom at Student Agencies was $2,550 a month ([Cornell Daily Sun](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)). That is four years old, so ask the office for current rent.
+Rent is on request. The most recent public figure is from 2022, when a Cornell Daily Sun opinion piece reported that the priciest one-bedroom at Student Agencies was $2,550 a month ([Cornell Daily Sun](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)). That is four years old, so ask the office for current rent.
 
 Plan for utilities too. Tenants pay water and electric, and the optional cable is extra. Pets cost $250 up front and $50 a month, and need the landlord's written consent ([FAQ](https://www.thestudentagenciesbuilding.com/faq)).
 
@@ -89,7 +92,7 @@ For per-bed comparisons, see [Collegetown rent prices per bed](/cornell/housing/
 
 ## How do you get a unit, and how early must you ask?
 
-The home page says all units have been leased for 2027-28 and invites you to join a waitlist for early access ([The Student Agencies Building](https://www.thestudentagenciesbuilding.com/)). The availability page shows zero results while saying it is "now leasing for 2027-2028." The two pages conflict, so call (607) 524-3148 or email realestate@studentagencies.com to learn what is open.
+The home page says all units have been leased for 2027-28 and invites you to join a waitlist for early access ([The Student Agencies Building](https://www.thestudentagenciesbuilding.com/)). The availability page says it is "now leasing for 2027-2028" ([availability](https://www.thestudentagenciesbuilding.com/availability)). Call (607) 524-3148 or email realestate@studentagencies.com to learn what is open.
 
 This building leases early. It was among the first to open leasing for 2023-24, in early September 2022 ([Cornell Daily Sun](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/)). Use the timeline tool to plan your own date.
 

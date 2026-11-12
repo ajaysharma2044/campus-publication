@@ -55,7 +55,7 @@ images: []
 ```glance
 - Collegetown Terrace is at 115 S. Quarry St., with studios to 3-bedroom apartments and townhomes.
 - Rates for 2027-28 run $605 to $2,265 per bedroom, paid in 12 installments.
-- Leases are per person, units are furnished, and cats and dogs are allowed.
+- Leases are per person, units are furnished, and a cat or dog is allowed in designated apartments.
 - New applicants can lock in a rate by Nov. 15, 2026.
 ```
 
@@ -91,7 +91,7 @@ The Cornell marketplace listing puts the walk to The Oval on campus at 1.2 miles
 
 ## What does it cost?
 
-Bedroom-only plans, which share a kitchen and sometimes a bathroom, top out at $1,115. A bedroom in a 2- or 3-bedroom apartment, cottage or townhome costs $1,075 to $1,405. Studios cost $1,309 to $2,005, and 1-bedroom apartments start at $1,605. Rates can change until the contract is fully signed ([Collegetown Terrace](https://collegetownterrace.com/rates-floorplans/)). Over 12 installments, the cheapest bedroom comes to $7,260 and the priciest 1-bedroom to $27,180. A 2022 Sun opinion column put studios at up to $1,795 ([Cornell Daily Sun](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)).
+Bedroom-only plans, which share a kitchen and sometimes a bathroom, top out at $1,115. A bedroom in a 2- or 3-bedroom apartment, cottage or townhome costs $1,075 to $1,405, since every rate is quoted per bedroom. Studios cost $1,309 to $2,005, and 1-bedroom apartments start at $1,605. Rates can change until the contract is fully signed ([Collegetown Terrace](https://collegetownterrace.com/rates-floorplans/)). Over 12 installments, the cheapest bedroom comes to $7,260 and the priciest 1-bedroom to $27,180. A 2022 Sun opinion column put studios at up to $1,795 ([Cornell Daily Sun](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/)).
 
 The rate covers furnishings, high-speed internet, water and sewer, and community features such as the fitness center and shuttle ([Collegetown Terrace](https://collegetownterrace.com/faqs/)). The sample agreement adds trash pickup to the included utilities. Each resident also pays a share of the apartment's electricity bill, plus a service fee of up to $72 up front or up to $6 per monthly bill ([sample agreement](https://collegetownterrace.com/sample_agreement.pdf)). Garage and surface parking cost extra ([Collegetown Terrace](https://collegetownterrace.com/faqs/)).
 
@@ -109,7 +109,7 @@ On the per-person contract, you pay only for your own bedroom, even if a roommat
 
 ```reader
 If you're a graduate student
-Collegetown Terrace is one of several options within a short walk of campus. The [Cornell graduate housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) compares it with Hasbrouck and Maplewood.
+Collegetown Terrace is one of several furnished off-campus options for graduate students. The [Cornell graduate housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) compares it with Hasbrouck and Maplewood.
 ```
 
 ## What to do next

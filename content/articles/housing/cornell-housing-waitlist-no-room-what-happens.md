@@ -7,7 +7,7 @@ primary_query: cornell housing waitlist
 topic: housing
 school: cornell-university
 type: scenario
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 34
 rewrites: ''
 readers:
@@ -24,52 +24,52 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun, Nov. 4, 2025
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
   title: Housing License Cancellation Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process
   title: New Undergraduate Application Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate and Professional Student Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.thestudentagenciesbuilding.com/
   title: The Student Agencies Building
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+  accessed: '2026-11-11'
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Sheldon Court, a brick residence hall on College Avenue in Collegetown, seen from the street corner
@@ -85,7 +85,7 @@ images:
 
 ```glance
 - Only rising juniors and seniors can end up with no Cornell room; first-years and sophomores always get one.
-- Juniors and seniors who miss selection join a waitlist; offers come through the year and summer, unranked and unguaranteed.
+- Juniors and seniors who miss selection join a waitlist; offers come through the year and summer, with no guarantee.
 - Canceling a junior or senior room costs $50 through Jan. 31, then climbs to $2,000 by Aug. 15.
 - If you need certainty, sign a Collegetown lease; 2027-28 beds start at $695 a month.
 ```
@@ -94,13 +94,13 @@ If you're a rising junior or senior who didn't get a room in Cornell's fall sele
 
 ## Who can end up without a Cornell room?
 
-Only juniors and seniors. Cornell requires full-time first- and second-year students on the Ithaca campus to live on campus or in approved affiliated housing, and it houses everyone that rule covers. "Juniors and seniors are not guaranteed on-campus housing," the university says plainly ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process)). The rules for who must live on campus, and who can get out of it, are in our guide to [Cornell's residential requirement and exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Only juniors and seniors. Cornell requires full-time first- and second-year students on the Ithaca campus to live on campus or in approved affiliated housing, and it houses everyone that rule covers. "Juniors and seniors are not guaranteed on-campus housing," the university says plainly ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process)). The rules for who must live on campus, and who can get out of it, are in our guide to [Cornell's residential requirement and exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 The squeeze showed up in October 2025, during selection for 2026-27. Housing and Residential Life (HRL), the office that runs campus housing, said housing "is not guaranteed beyond the first two years." It said it has to balance upper-class demand against its duty to house first-years, transfers and rising sophomores. Ryan Lee '28, a sophomore transfer, drew a 7:30 p.m. timeslot on the last day. By then, only triples in Clara Dickson Hall and doubles in Sheldon Court were left. Annira Benitez '27 kept her North Campus building rather than gamble on Open Room Selection (The Cornell Daily Sun, [Nov. 4, 2025](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)).
 
 ## How does the Cornell housing waitlist work?
 
-The waitlist opens right after Open Room Selection, the last round of fall selection, when any junior or senior can pick any open bed. Anyone who didn't pick a room can join. You list the campus areas and room types you would accept, and HRL offers rooms as they open up ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Students who missed the Sept. 27, 2026, application deadline got no timeslot at all and were sent straight to the waitlist.
+The waitlist opens right after Open Room Selection, the last round of fall selection, when any junior or senior can pick any open bed. Anyone who didn't pick a room can join. You list the campus areas and room types you would accept, and HRL offers rooms as they open up ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Students who missed the Sept. 27, 2026, application deadline got no timeslot at all and were sent straight to the waitlist.
 
 ```figure
 kind: timeline
@@ -129,9 +129,9 @@ Source: Cornell Student & Campus Life, Room Selection FAQs.
 
 ## What are my chances of getting off the waitlist?
 
-Cornell does not publish how long the waitlist is or how many students it placed in past years. Call Housing Operations at 607-255-5368 or email housing@cornell.edu and ask where you stand; the office sits at 1520 Clara Dickson Hall ([HRL directory](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
+To ask where you stand, call Housing Operations at 607-255-5368 or email housing@cornell.edu; the office sits at 1520 Clara Dickson Hall ([HRL directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
 
-Rooms open when other juniors and seniors cancel. Since August 2026, rising juniors and seniors can cancel a housing license, Cornell's word for the room contract, any time before check-in, for a fee that grows as the year goes on ([cancellation policy](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)). HRL told the Sun the change was meant in part to enable "movement from the waitlist."
+Rooms open when other juniors and seniors cancel. Since August 2026, rising juniors and seniors can cancel a housing license, Cornell's word for the room contract, any time before check-in, for a fee that grows as the year goes on ([cancellation policy](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy)). HRL told the Sun the change was meant in part to enable "movement from the waitlist."
 
 ```figure
 kind: cost_table
@@ -145,7 +145,7 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Academic Year Housing License 2027-2028.
 
-That schedule tells you something about timing. A student holding a room they no longer want pays the least by canceling before Jan. 31, so that window is when cancellations are cheapest. Cornell does not say when it sends offers, only that they come "throughout the academic year and summer" ([Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
+That schedule tells you something about timing. A student holding a room they no longer want pays the least by canceling before Jan. 31, so that window is when cancellations are cheapest. Waitlist offers go out "throughout the academic year and summer" ([Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
 
 <!-- ad-break -->
 
@@ -166,7 +166,7 @@ rows:
 ```
 Source: Cornell housing rates 2026-27; Ithaca Renting asking rents per bed per month for 2027-28. Campus rate is room only; apartment rows exclude any utilities not in the rent.
 
-A bed in a big Collegetown house can cost less than a campus double ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). A studio costs far more. The 2027-28 campus rate is not set yet, so the comparison uses 2026-27 prices.
+A bed in a big Collegetown house can cost less than a campus double ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). A studio costs far more. Cornell publishes final rates each March before the academic year, so the comparison uses 2026-27 prices ([Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
 
 Where to look, from Cornell's own marketplace to local landlords, is in our [off-campus listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/). To see which signing date fits your plans, use the timeline tool.
 
@@ -176,13 +176,13 @@ Where to look, from Cornell's own marketplace to local landlords, is in our [off
 
 You can turn it down. The waitlist is voluntary, and Cornell asks students to tell the Housing office when they no longer want a spot.
 
-The risk runs the other way. If you accept a waitlist room and then find an apartment, you owe the fee in the table above. After Aug. 15, it is half the fall room rate. At the 2026-27 double rate, that is $3,436 ($6,872 ÷ 2). Cornell's FAQ says the fee is "not appealable, waivable, or amendable," except for students going abroad, withdrawing or taking a leave. Study-away and graduating students can cancel free by June 15, 2027, for fall, or Dec. 1, 2027, for spring ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The license also bars you from handing your room to anyone else, so you can't sublet your way out.
+The risk runs the other way. If you accept a waitlist room and then find an apartment, you owe the fee in the table above. After Aug. 15, it is half the fall room rate. At the 2026-27 double rate, that is $3,436 ($6,872 ÷ 2). Cornell's FAQ says the fee is "not appealable, waivable, or amendable," except for students going abroad, withdrawing or taking a leave. Study-away and graduating students can cancel free by June 15, 2027, for fall, or Dec. 1, 2027, for spring ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The license also bars you from handing your room to anyone else, so you can't sublet your way out.
 
 ## What if no offer comes by August?
 
-Then you're living off campus, and Cornell's Off-Campus Living office is the place to start. It offers one-on-one consultations and lease advice at 607-255-2310 ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). Its email list carries apartments, roommate searches and sublets; to join, send an email with "Join" in the subject line and a blank body ([rental resources](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). In 2025, HRL also promised in-person and virtual housing fairs for students without campus rooms.
+Then you're living off campus, and Cornell's Off-Campus Living office is the place to start. It offers one-on-one consultations and lease advice at 607-255-2310 ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)). Its email list carries apartments, roommate searches and sublets; to join, send an email with "Join" in the subject line and a blank body ([rental resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)). In 2025, HRL also promised in-person and virtual housing fairs for students without campus rooms (The Cornell Daily Sun, [Nov. 4, 2025](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)).
 
-Two other routes skip the private market. Cornell's eight university-owned cooperative houses take transfer and upper-level students and pick members through their own process; costs and how to join are in our [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/). And some landlords rent by the semester: Collegetown Court lists fall 2027 semester studios at $1,635 to $1,735 a month per bed, and 210 Dryden Road lists spring 2027 single rooms at $695 to $795.
+Two other routes skip the private market. Cornell's eight university-owned cooperative houses take transfer and upper-level students and pick members through their own process; how to join is in our [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/). And some landlords rent by the semester: Collegetown Court lists fall 2027 semester studios at $1,635 to $1,735 a month, and 210 Dryden Road lists spring 2027 single rooms at $695 to $795 ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
 <!-- ad-break -->
 
@@ -195,7 +195,7 @@ Your "waitlist" is a different thing. Every first-year is guaranteed a campus ro
 ```
 
 ```reader "If you're a rising sophomore"
-There is no waitlist for you, because you get a room either way. Spring Housing Selection for 2027-28 runs from Feb. 1 to April 4, 2027, with open selection April 13 to April 16 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). If you don't pick a room and have no co-op, Greek or affiliated house placement, Cornell assigns you one from what is left and bills you. To live in a co-op or chapter house instead, declare it by March 15, 2027. Our [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/) covers the narrow exceptions.
+There is no waitlist for you, because you get a room either way. Spring Housing Selection for 2027-28 runs from Feb. 1 to April 4, 2027, with open selection April 13 to April 16 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). If you don't pick a room and have no co-op, Greek or affiliated house placement, Cornell assigns you one from what is left and bills you. To live in a co-op or chapter house instead, declare it by March 15, 2027. Our [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/) covers the narrow exceptions.
 ```
 
 ```reader "If you're a transfer student"

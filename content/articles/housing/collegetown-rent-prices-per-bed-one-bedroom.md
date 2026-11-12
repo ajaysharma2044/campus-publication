@@ -7,7 +7,7 @@ primary_query: collegetown rent by unit size 2027-28
 topic: housing
 school: cornell-university
 type: cost
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 56
 rewrites: content/articles/housing/collegetown-rent-prices-per-bed-one-bedroom.md
 queue_id: q-housing-0038
@@ -77,6 +77,9 @@ sources:
 - url: https://www.cityofithacany.gov/705/Parking-Information
   title: 'City of Ithaca: Parking information'
   accessed: '2026-11-10'
+- url: https://www.cityofithacany.gov/718/Dryden-Road-Garage
+  title: 'City of Ithaca: Dryden Road Garage'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/
   title: 'The Cornell Daily Sun: Cornell students sleep on sidewalk for cheaper, more desirable leases (Sept. 19, 2019)'
   accessed: '2026-11-10'
@@ -269,7 +272,7 @@ Parking is extra at Ithaca Renting. A monthly permit at the city's Dryden Road G
 
 Fast, and the biggest units go first. By Nov. 8, 2026, 14 of the 67 rows on [Ithaca Renting's Collegetown page](https://ithacarenting.com/collegetown/) (20.9%) were marked sold out for 2027-28, nine months before an August move-in. The sold-out rows included the eight-bedroom at 105 Dryden Court, the 14-bedroom at 214 Dryden Road and the Collegetown Plaza deluxe six-bedroom. At [Dryden South](https://drydensouth.com/availability/), all 10 four-bedroom suites for 2027-28 were marked rented by Nov. 10, 2026, at $1,360 to $1,575 a person. Only its two studios, at $1,990 and $2,190, were still open.
 
-The prices in this guide are asking rents and can change until you sign. On the same day, Ithaca Renting's home page showed the Collegetown Center deluxe studio at $1,935 to $2,035, while its Collegetown page showed $1,830 to $1,950. When to sign, and when waiting is fine, is covered in [When to sign a Collegetown lease](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
+The prices in this guide are asking rents and can change until you sign. On Nov. 8, 2026, Ithaca Renting's home page listed the Collegetown Center deluxe studio at $1,935 to $2,035, while its Collegetown page listed $1,830 to $1,950. When to sign, and when waiting is fine, is covered in [When to sign a Collegetown lease](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
 
 ```reader "If you're a spring transfer student"
 These 2027-28 prices are a guide, not your market. Spring transfers live on campus for their first spring semester and the following academic year ([Cornell transfer housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates)). If you arrive in January 2027, your first Collegetown lease would start in 2028, and you would sign it during the fall 2027 rush.
@@ -292,10 +295,10 @@ Source: [The Cornell Daily Sun, Sept. 19, 2019](https://cornellsun.com/2019/09/1
 ## FAQ
 
 **Are these the prices people actually pay?**
-They are asking rents, the prices landlords list before anyone signs. No source publishes what Collegetown tenants actually paid, so ask each landlord for the final rent in writing before you sign.
+They are asking rents, the prices landlords list before anyone signs. Signed Collegetown rents are not public, so ask each landlord for the final rent in writing before you sign.
 
 **Is a price per person or for the whole unit?**
-It varies by landlord, and some listings do not say. Ithaca Renting, Dryden South and The Ivy's bedroom prices are per person. CSP Management and most marketplace listings quote the whole unit. Ask before you split a price with roommates.
+It varies by landlord. Ithaca Renting, Dryden South and The Ivy's bedroom prices are per person. CSP Management and most marketplace listings quote the whole unit. Ask before you split a price with roommates.
 
 ## What to do next
 

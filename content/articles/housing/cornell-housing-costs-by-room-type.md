@@ -7,7 +7,7 @@ primary_query: cornell housing cost per year
 topic: housing
 school: cornell-university
 type: cost
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 51
 rewrites: ''
 readers:
@@ -20,42 +20,42 @@ subject: Gothic residence halls on West Campus, Cornell University, Ithaca
 tools:
 - ithaca-rent-commute-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell requires university housing for sophomores, students weigh options, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New changes to fall housing selection leave some rising juniors, seniors disappointed, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.greystar.com/maplewood-ithaca-ny/p_15697
   title: Maplewood, Greystar
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
   title: Housing License Cancellation Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/cost-to-attend
   title: Cost to Attend, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Baker Tower, a stone Gothic residence hall on Cornell's West Campus
@@ -69,7 +69,7 @@ images:
 ---
 
 
-A Cornell residence hall double costs $13,744 for the 2026-27 academic year, or $6,872 per semester ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). A triple costs $12,644, a single $15,566 and a super single $16,595. Add the required meal plan and its fee, and a first-year double comes to $21,398 for the year.
+A Cornell residence hall double costs $13,744 for the 2026-27 academic year, or $6,872 per semester ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). A triple costs $12,644, a single $15,566 and a super single $16,595. Add the required meal plan and its fee, and a first-year double comes to $21,398 for the year.
 
 ```glance
 - A double or standard quad is $13,744 for 2026-27; a triple is $12,644.
@@ -80,7 +80,7 @@ A Cornell residence hall double costs $13,744 for the 2026-27 academic year, or 
 
 ## How much does each Cornell room type cost for 2026-27?
 
-Cornell charges one price per room type, whatever the building. North Campus halls, the five West Campus houses, program houses and the Collegetown-area halls all use the same table. The rate is per student, not per room, so each person in a double pays the full double rate ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Cornell charges one price per room type, whatever the building. North Campus halls, the five West Campus houses, program houses and the Collegetown-area halls all use the same table. The rate is per student, not per room, so each person in a double pays the full double rate ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ```figure
 kind: cost_table
@@ -95,11 +95,11 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Housing Rates 2026-2027.
 
-Two labels trip people up. A "one-room quad" puts four people in a single room, so Cornell prices it like a triple. A "quad" spreads four people across more than one room and costs the same as a double. A "townhouse double" is a shared bedroom in the North Campus Townhouse Apartments. It costs the same as a single, and the unit comes with a full-size refrigerator ([2027-28 Housing License](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). A super single is the top rate on the table, a single Cornell prices above its regular singles.
+Two labels trip people up. A "one-room quad" puts four people in a single room, so Cornell prices it like a triple. A "quad" spreads four people across more than one room and costs the same as a double. A "townhouse double" is a shared bedroom in the North Campus Townhouse Apartments. It costs the same as a single, and the unit comes with a full-size refrigerator ([2027-28 Housing License](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). A super single is the top rate on the table, a single Cornell prices above its regular singles.
 
-A single costs $1,822 more a year than a double. A super single costs $2,851 more. A triple saves $1,100 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+A single costs $1,822 more a year than a double. A super single costs $2,851 more. A triple saves $1,100 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
-Every rate includes gas, electricity, garbage pickup and internet up to 200 GB a month. Cornell asks for no security or damage deposit. Instead, the Bursar, Cornell's billing office, charges you after move-out if a room needs extra cleaning or repair ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Every rate includes gas, electricity, garbage pickup and internet up to 200 GB a month. Cornell asks for no security or damage deposit. Instead, the Bursar, Cornell's billing office, charges you after move-out if a room needs extra cleaning or repair ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What does a full year cost with the meal plan?
 
@@ -143,7 +143,7 @@ Cornell's estimated cost of attendance budgets housing and food at the price of 
 
 ## Which room types can you get each year?
 
-What you pay depends partly on what is left when your turn comes. First-year and transfer students are assigned to residence halls. Rising sophomores choose rooms in the spring ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)), and rising juniors and seniors choose in the fall for the following year.
+What you pay depends partly on what is left when your turn comes. First-year and transfer students are assigned to residence halls. Rising sophomores choose rooms in the spring ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)), and rising juniors and seniors choose in the fall for the following year.
 
 ```figure
 kind: timeline
@@ -158,14 +158,14 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Spring Housing Selection for Rising Sophomores and Fall Housing Selection for Rising Juniors and Seniors.
 
-Juniors and seniors have no promise of a room. Cornell says it is "unable to guarantee housing to juniors and seniors" ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Late time slots get what remains. One transfer student with a 7:30 p.m. slot on the last day of fall 2025 selection found only triples in Clara Dickson Hall and doubles in Sheldon Court left ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)). If a single matters to you, apply on time and plan for a double as your fallback.
+Juniors and seniors have no promise of a room. Cornell says it is "unable to guarantee housing to juniors and seniors" ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Late time slots get what remains. One transfer student with a 7:30 p.m. slot on the last day of fall 2025 selection found only triples in Clara Dickson Hall and doubles in Sheldon Court left ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)). If a single matters to you, apply on time and plan for a double as your fallback.
 ```reader "If you're a sophomore"
 Your housing is binding once you accept it. A second-year student can cancel only by leaving Cornell, winning an exemption, or getting accepted to a Greek house, an affiliated house or one of the eight co-ops before the spring selection deadline. If you want a cheaper co-op room, line it up through the early February co-op round so it lands before April 4, 2027.
 ```
 
 ## How much do Cornell co-ops cost?
 
-Cornell's eight co-ops are the cheapest rooms the university rents. A co-op double costs $3,487 to $4,981 per semester for 2026-27, well under the residence hall double rate ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Prices differ by house and sometimes by room. Co-ops count toward the second-year requirement.
+Cornell's eight co-ops are the cheapest rooms the university rents. A co-op double costs $3,487 to $4,981 per semester for 2026-27, well under the residence hall double rate ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Prices differ by house and sometimes by room. Co-ops count toward the second-year requirement.
 
 ```figure
 kind: cost_table
@@ -182,15 +182,15 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Housing Rates 2026-2027.
 
-For two semesters, a co-op double runs $6,974 at Red Bud ($3,487 times two) to $9,962 at 660 Stewart or Wari ($4,981 times two). The cheapest bed Cornell rents is the Red Bud triple at $5,530 a year, which is $7,114 less than a residence hall triple ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+For two semesters, a co-op double runs $6,974 at Red Bud ($3,487 times two) to $9,962 at 660 Stewart or Wari ($4,981 times two). The cheapest bed Cornell rents is the Red Bud triple at $5,530 a year, which is $7,114 less than a residence hall triple ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
-Food works differently in a co-op. Four of the eight houses have meal plans, and all have shared kitchens ([Cornell Cooperative Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). The rates page does not list what a co-op meal plan costs, so ask the house before you compare totals. Housing and Residential Life answers general co-op questions at co-ops@cornell.edu or 607-255-3445. Each house picks its own members, starting in early February and early November. How to get in, and what Greek houses charge, is in [our co-op and Greek house guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
+Food works differently in a co-op. Four of the eight houses have meal plans, and all have shared kitchens ([Cornell Cooperative Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Ask the house what its meal plan costs before you compare totals. Housing and Residential Life answers general co-op questions at co-ops@cornell.edu or 607-255-3445. Each house picks its own members, starting in early February and early November. How a sophomore gets into a co-op or Greek house is in [our co-op and Greek house guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/); what each chapter charges is in our [fraternity and sorority housing guide](/cornell/housing/cornell-fraternity-sorority-housing-2026-27/).
 
 <!-- ad-break -->
 
 ## How much does Cornell graduate housing cost?
 
-Hasbrouck Apartments, Cornell's graduate and family community on North Campus, costs $620 to $1,530 a month for 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Contracts run 12 months, and the Bursar bills graduate residents each month. The first month's rent usually appears on the August bill.
+Hasbrouck Apartments, Cornell's graduate and family community on North Campus, costs $620 to $1,530 a month for 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Contracts run 12 months, and the Bursar bills graduate residents each month. The first month's rent usually appears on the August bill.
 
 ```figure
 kind: cost_table
@@ -207,7 +207,7 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Housing Rates 2026-2027. Yearly figures are the monthly rate times 12.
 
-Maplewood, the other graduate complex on Cornell land, is run by Greystar. Cornell posts no Maplewood prices, and Greystar's page asks you to contact the office for pricing. Greystar does list a one-time $130.00 community amenity fee per leaseholder at move-in and requires renters liability insurance ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)). Call Maplewood at (607) 821-0248 for current rents. Students moving with a partner or children can compare Hasbrouck's family units with other options in [our student family housing guide](/cornell/housing/cornell-student-family-housing-ithaca/).
+Maplewood, the other graduate complex on Cornell land, is run by Greystar. Maplewood rents are on request from Greystar. Greystar charges a one-time $130.00 community amenity fee per leaseholder at move-in and requires renters liability insurance ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)). Call Maplewood at (607) 821-0248 for current rents. Students moving with a partner or children can compare Hasbrouck's family units with other options in [our student family housing guide](/cornell/housing/cornell-student-family-housing-ithaca/).
 
 ## When is the bill due, and what does it cost to cancel?
 
@@ -227,11 +227,11 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Academic Year Housing License 2027-2028.
 
-After Aug. 15, half the fall rate is $3,436.00 for a double ($6,872 divided by two) and $3,891.50 for a single ($7,783 divided by two). Students who do not check in by the first day of classes are billed the same 50%. If you cancel to study away, take a leave or graduate, there is no fee if you file by June 15, 2027, for fall or Dec. 1, 2027, for spring. After those dates the fee is $500 ([Housing License Cancellation Policy](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)).
+After Aug. 15, half the fall rate is $3,436.00 for a double ($6,872 divided by two) and $3,891.50 for a single ($7,783 divided by two). Students who do not check in by the first day of classes are billed the same 50%. If you cancel to study away, take a leave or graduate, there is no fee if you file by June 15, 2027, for fall or Dec. 1, 2027, for spring. After those dates the fee is $500 ([Housing License Cancellation Policy](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy)).
 
 ## What will Cornell housing cost for 2027-28?
 
-Cornell posts final 2027-28 rates in March 2027. The prices students saw during fall selection were projected rates, still subject to approval by the university president and Board of Trustees. Cornell's license says students sign "with the knowledge that rates could change" ([2027-28 Housing License](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Budget from the 2026-27 tables above until then, and check the rates page again before the first August bill.
+Cornell posts final 2027-28 rates in March 2027. The prices students saw during fall selection were projected rates, still subject to approval by the university president and Board of Trustees. Cornell's license says students sign "with the knowledge that rates could change" ([2027-28 Housing License](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Budget from the 2026-27 tables above until then, and check the rates page again before the first August bill.
 
 ## Is off-campus housing cheaper than a Cornell room?
 
@@ -260,10 +260,10 @@ No. The housing license says storage for students' belongings and university fur
 
 ## What to do next
 
-If you're picking a room for 2027-28, price the room type together with the meal plan its building requires, since the plan moves the total as much as the room does. Rising sophomores file the housing application by April 4, 2027 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+If you're picking a room for 2027-28, price the room type together with the meal plan its building requires, since the plan moves the total as much as the room does. Rising sophomores file the housing application by April 4, 2027 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 Related guides:
 - [Is off-campus housing cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/)
-- [Cornell co-ops and Greek houses: cost and how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
+- [Cornell co-op or Greek house instead of a dorm: how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
 - [Is the Cornell meal plan worth it?](/cornell/money/cornell-meal-plan-worth-it/)
 - [Cost of a year of housing at Cornell, 28 options](/datasets/ithaca-housing-cost-by-living-situation-2026-27/)

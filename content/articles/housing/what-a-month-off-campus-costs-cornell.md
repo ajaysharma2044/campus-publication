@@ -48,7 +48,7 @@ sources:
 - url: https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/
   title: Average renters insurance cost in New York, Insure.com
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: Living on Campus, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
@@ -57,6 +57,9 @@ sources:
 - url: https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/
   title: Non-First-Year Cornell Students No Longer Able to Access TCAT for Free, The Cornell Daily Sun, November 3, 2024
   accessed: '2026-11-07'
+- url: https://www.cityofithacany.gov/293/Rates-Metering-Billing
+  title: Rates, Metering and Billing, City of Ithaca
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags
   title: Trash and Yard Waste Collection Tags, City of Ithaca
   accessed: '2026-11-08'
@@ -74,10 +77,10 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: Residential Parking Permit Issuance, City of Ithaca
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/node/278473
-  title: Cornell Chronicle item on Collegetown residential parking permits
-  accessed: '2026-11-08'
+  title: Cornell Chronicle item on Collegetown residential parking permits, October 30, 1998
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/living-campus
   title: Living Off Campus, Cornell Financial Aid
   accessed: '2026-11-08'
@@ -93,7 +96,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -108,7 +111,7 @@ sources:
 - url: https://www.fingerlakes1.com/2026/05/15/nyseg-and-rge-win-temporary-rate-hikes-as-larger-increases-still-loom/
   title: NYSEG and RG&E win temporary rate hikes as larger increases still loom, FingerLakes1, May 15, 2026
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -136,7 +139,7 @@ images:
 - The number to beat: $1,145 a person a month over 12 months ($1,374 over 10) equals Cornell's $13,744 double for 2026-27, utilities and internet included.
 - A shared Collegetown 4BR costs about $1,285 to $1,373 a person a month all in, on a $1,246.25 median bed for 2027-28.
 - A shared downtown 2BR costs about $1,081 to $1,236 a person a month, bus pass included, on a $992.50 median bed.
-- Add-ons per person: electricity $17 to $280, internet $5 to $120, renters insurance $5 to $27, depending on how many share.
+- Add-ons per person: electricity $17 to $280, internet $5 to $120, renters insurance $5 to $27, and water and sewer about $20 to $81 if the lease leaves it out, depending on how many share.
 - The bus: free after 6 p.m. and on weekends after year one; otherwise $1.50 a ride or $200 a year for OmniRide.
 - Trash tags cost $6 each from January 1, 2026, if trash is not in the rent; a car adds $359.77 a year for a Cornell B permit.
 ```
@@ -144,7 +147,7 @@ images:
 With rent, electricity, internet, insurance and the bus counted, a month costs about $1,285 to $1,373 a person in a shared Collegetown 4BR and $1,081 to $1,236 in a shared downtown 2BR (our arithmetic on [Ithaca Renting asking rents](https://ithacarenting.com/collegetown/) read November 8, 2026). Compare that with $1,145, which is Cornell's [$13,744 double for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) spread over 12 months. Big shares (6BR and up, shared-suite rooms, downtown 3BR splits) come in under it; a 1BR alone costs about twice as much.
 
 ```reader "If you're a sophomore planning junior year"
-You cannot sign for this year without an approved exemption. For junior year, settle group size first, because it moves the monthly number more than anything else. At Ithaca Renting's 2027-28 Collegetown medians a 4BR bed is $1,246.25 a month and a 6BR bed is $800, a gap of $446.25 a month, or $5,355 a year. All in, the 4BR runs about $1,285 to $1,373 a person, $140 to $228 over the $1,145 break-even. The 6BR comes in $251 to $318 under. The mistake that costs most is a group that shrinks after signing: on most local leases each housemate is [jointly and severally liable](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire) for the whole rent. Timing is on [its own page](/housing/when-to-sign-collegetown-lease-cornell/).
+You cannot sign for this year without an approved exemption. For junior year, settle group size first, because it moves the monthly number more than anything else. At Ithaca Renting's 2027-28 Collegetown medians a 4BR bed is $1,246.25 a month and a 6BR bed is $800, a gap of $446.25 a month, or $5,355 a year. All in, the 4BR runs about $1,285 to $1,373 a person, $140 to $228 over the $1,145 break-even. The 6BR comes in $251 to $318 under. The mistake that costs most is a group that shrinks after signing: on most local leases each housemate is [jointly and severally liable](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire) for the whole rent. Timing is on [its own page](/housing/when-to-sign-collegetown-lease-cornell/).
 ```
 
 ```reader "If you're a parent paying the rent"
@@ -164,7 +167,7 @@ You do not need a Social Security number to [rent an apartment or open a bank ac
 ```
 
 ```reader "If you're a student with a car"
-Parking is the line that changes most. A Cornell [B commuter permit is $359.77 a year](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students), about $30 a month, but it covers campus lots only. Overnight in central Collegetown, an older Cornell item says [no residential street permits are issued](https://news.cornell.edu/node/278473) in its R-3 zone, so the fallback is the [Dryden Road Garage at $232 a month](https://www.cityofithacany.gov/718/Dryden-Road-Garage), $2,784 a year with no guaranteed space. In permit zones outside central Collegetown, a City [residential permit is $45 a year](https://www.cityofithacany.gov/731/Permit-Issuance). In a shared unit, a garage permit adds more to the month than electricity, internet and insurance combined.
+Parking is the line that changes most. A Cornell [B commuter permit is $359.77 a year](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students), about $30 a month, but it covers campus lots only. When the City set up residential permits in 1998, it [left out R-3 zones such as central Collegetown](https://news.cornell.edu/node/278473), so the overnight fallback there is the [Dryden Road Garage at $232 a month](https://www.cityofithacany.gov/718/Dryden-Road-Garage), $2,784 a year with no guaranteed space. In permit zones outside central Collegetown, a City [residential permit is $45 a year](https://www.cityofithacany.gov/731/Permit-Issuance). In a shared unit, a garage permit adds more to the month than electricity, internet and insurance combined.
 ```
 
 ```reader "If you're a family"
@@ -192,9 +195,9 @@ At both, heat and hot water are in the rent and units come furnished. Electricit
 
 Our arithmetic: median rent plus one household's electricity and internet split evenly, plus one insurance policy per person, using the ranges in the next section. The bus is left out here and added in the worked months below. Collegetown rows are 2027-28; downtown rows are mostly 2026-27.
 
-## What electricity, internet and insurance add
+## What electricity, internet, insurance and water add
 
-These are the three bills a typical Ithaca Renting tenant pays on top of rent. None has a neutral, student-specific source, so each comes as a range.
+These are the three bills a typical Ithaca Renting tenant pays on top of rent, plus water and sewer where a lease leaves them out. Each varies with the unit and the plan, so each comes as a range.
 
 ```figure
 kind: cost_table
@@ -203,23 +206,24 @@ rows:
   - {label: "Electricity, household average", value: "$104.20 to $280"}
   - {label: "Internet", value: "$30 to $120"}
   - {label: "Renters insurance, per policy", value: "$5 to $27"}
+  - {label: "Water and sewer minimum, if not in the rent", value: "$80.72"}
   - {label: "OmniRide bus pass, spread over 12 months", value: "$16.67"}
   - {label: "Trash tag, if trash is not in the rent", value: "$6 a tag"}
 ```
 
 **Electricity.** EnergySage puts the [average Ithaca bill at about $280 a month](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) at about 1,116 kWh (page updated November 1, 2026). That is a self-selected household average and probably includes homes with electric heat, so treat it as an upper bound. PowerOutage.us shows [$104.20 at 698 kWh](https://poweroutage.us/electricity-rates/ny/ithaca). Split four ways, that is $26 to $70 a person; split two ways, $52 to $140. NYSEG's [temporary rate increase took effect June 1, 2026](https://www.fingerlakes1.com/2026/05/15/nyseg-and-rge-win-temporary-rate-hikes-as-larger-increases-still-loom/), with a typical electric bill impact of 0.2%, and a larger permanent decision is still pending.
 
-**Internet.** Aggregator listings give a [range of $30 to $120 a month](https://ispreports.org/internet-service-providers-ithaca-ny/), with Spectrum's cheapest plan about $30 for 100 Mbps. Those figures do not separate promotional from regular prices. Many listings fold internet into the rent: the [709 N Tioga St listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258) in Fall Creek has the landlord paying internet and water, while the tenant pays electric and buys garbage tags.
+**Internet.** Aggregator listings give a [range of $30 to $120 a month](https://ispreports.org/internet-service-providers-ithaca-ny/), with Spectrum's cheapest plan about $30 for 100 Mbps. Many listings fold internet into the rent: the [709 N Tioga St listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258) in Fall Creek has the landlord paying internet and water, while the tenant pays electric and buys garbage tags.
 
-**Renters insurance.** Cornell names GradGuard as its [preferred insurer](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus), covering theft, fire, smoke and vandalism on and off campus, but publishes no price. SafeButler collected [Ithaca quotes of $5 and $10 a month](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny) for renters aged 18 to 24 (September 11, 2026). Insure.com's New York average is [$328 a year, about $27 a month](https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/), for $40,000 of property and $300,000 of liability cover. The range is $5 to $27 a month.
+**Renters insurance.** Cornell names GradGuard as its [preferred insurer](https://scl.cornell.edu/residential-life/housing/living-off-campus), covering theft, fire, smoke and vandalism on and off campus. SafeButler collected [Ithaca quotes of $5 and $10 a month](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny) for renters aged 18 to 24 (September 11, 2026). Insure.com's New York average is [$328 a year, about $27 a month](https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/), for $40,000 of property and $300,000 of liability cover. The range is $5 to $27 a month.
 
-Not confirmed: what water and sewer add when a lease does not include them.
+**Water and sewer.** Ithaca Renting includes water downtown, but some leases do not. The City of Ithaca bills water and sewer quarterly at a combined [$20.18 per unit in 2026](https://www.cityofithacany.gov/293/Rates-Metering-Billing) ($10.83 water, $9.35 sewer), a unit being 100 cubic feet, or 748 gallons. The city's minimum-charge table, labeled 2025, sets a small meter's quarterly minimum at $242.16 for 12 units, about $80.72 a month, or $20.18 each for four people (our arithmetic).
 
 ## The bus and trash tags
 
 **The bus.** New degree students ride TCAT free with a Cornell ID in their first year. After that, Cornell students ride free [after 6 p.m. on weekdays and all day on weekends](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Daytime weekday rides have cost [$1.50 each](https://cornellsun.com/2024/11/03/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free/) since non-first-years lost free daytime access in November 2024. The OmniRide pass is $200 a year, valid through August 31, and refundable through March 31 for a $40 fee.
 
-At $1.50 a ride, the pass pays off after 134 rides. Two daytime rides every weekday reach that in about 13 to 14 weeks, less than a semester (our arithmetic). A Collegetown tenant who walks pays nothing. A downtown tenant faces a 20 to 30 minute [uphill walk](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods), so the pass is worth $16.67 a month spread over a year.
+At $1.50 a ride, the pass pays off after 134 rides. Two daytime rides every weekday reach that in about 13 to 14 weeks, less than a semester (our arithmetic). A Collegetown tenant who walks pays nothing. A downtown tenant faces a 20 to 30 minute [uphill walk](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods), so the pass is worth $16.67 a month spread over a year.
 
 ```tool omniride-break-even-calculator```
 
@@ -296,13 +300,13 @@ For a shared 4BR, no, by $140 to $228 a month. For a 6BR, a shared-suite room or
 
 ## FAQ
 
-**Can I see past heating or electric bills before I sign?** Cornell suggests asking NYSEG at [(800) 572-1111](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) for a unit's average annual heating bills, especially for West Hill cottages.
+**Can I see past heating or electric bills before I sign?** Cornell suggests asking NYSEG at [(800) 572-1111](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) for a unit's average annual heating bills, especially for West Hill cottages.
 
 **Where do I buy trash tags?** City Hall at 108 E. Green St., Ace Hardware, the Cornell Campus Store, GreenStar, P&C Fresh, Tops and [Wegmans](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags) all sell them; sales are final.
 
 **Does financial aid send me money for rent?** Aid is calculated as it is on campus; the Bursar stops billing housing, and if aid exceeds Bursar charges, Cornell [refunds the difference](https://finaid.cornell.edu/living-campus) for living costs. You pay the landlord yourself.
 
-**Will Ithaca rents be lower next year?** No one publishes a forecast. RentCafe's large-building Ithaca average was $2,263 on October 30, 2026, down 0.59% from $2,277, and Ithaca Renting says rents [may change until a lease is signed](https://ithacarenting.com/downtown/).
+**Will Ithaca rents be lower next year?** The latest figures show little movement. RentCafe's large-building Ithaca average was $2,263 on October 30, 2026, down 0.59% from $2,277, and Ithaca Renting says rents [may change until a lease is signed](https://ithacarenting.com/downtown/).
 
 **Is OmniRide worth it if I live in Collegetown?** Usually not. Evening and weekend rides are already free, so only daytime weekday trips count toward the 134-ride break-even.
 

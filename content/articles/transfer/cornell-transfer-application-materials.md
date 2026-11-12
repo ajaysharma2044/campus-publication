@@ -205,6 +205,18 @@ Cornell's FAQ names the Writing Supplement, your academics at your current colle
 
 Your college's number is the one to judge against. CALS sets a [3.0 minimum, 3.5 for Biological Sciences](https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants). Most ILR admits have [at least a 3.4](https://www.ilr.cornell.edu/programs/undergraduate-admissions/apply-ilr/transfer-guidelines). AAP requires good standing and [at least a 2.7](https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/). Engineering states [no minimum](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements) but will not review an application missing any of its required math, physics or chemistry courses.
 
+```figure
+kind: cost_table
+title: Transfer GPA markers by college, fall 2027 entry
+rows:
+  - {label: "AAP minimum", value: "2.7"}
+  - {label: "CALS minimum", value: "3.0"}
+  - {label: "Cornell admits, generally", value: "3.3 or better"}
+  - {label: "Most ILR admits", value: "3.4 or better"}
+  - {label: "CALS Biological Sciences minimum", value: "3.5"}
+  - {label: "Engineering", value: "No minimum stated"}
+```
+
 ## Common mistakes
 
 - **Asking a professor for the College Report.** It is a standing form from a school official. A file without it on April 15 is incomplete, however good the recommendation.

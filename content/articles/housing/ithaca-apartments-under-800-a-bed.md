@@ -20,7 +20,7 @@ subject: Collegetown houses on Eddy Street, Ithaca
 tools:
 - ithaca-rent-commute-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -59,13 +59,13 @@ sources:
 - url: https://www.collegetownterrace.com/
   title: Collegetown Terrace
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes
@@ -162,7 +162,7 @@ South Hill adds one more: a furnished 4-bedroom at 174 Kendall Ave. rents for $2
 
 ## What does an $800 bed cost over a year?
 
-A bed at this page's top price, on a 12-month lease, costs $9,600 a year, $4,144 less than a 2026-27 Cornell residence hall double at $13,744 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Spread over 12 months, the double is $1,145.33 a month, so every bed on this page undercuts it on rent alone. The double covers gas, electricity, garbage and internet, so add your share of the bills a cheap house leaves to you.
+A bed at this page's top price, on a 12-month lease, costs $9,600 a year, $4,144 less than a 2026-27 Cornell residence hall double at $13,744 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Spread over 12 months, the double is $1,145.33 a month, so every bed on this page undercuts it on rent alone. The double covers gas, electricity, garbage and internet, so add your share of the bills a cheap house leaves to you.
 
 ```figure
 kind: cost_table
@@ -186,20 +186,20 @@ Ithaca Renting includes heat and hot water at every property, but tenants pay el
 
 ## Why are the cheap beds all in big shares?
 
-The rent per bed falls as the unit gets bigger, because a landlord spreads one kitchen, one living room and one lot over more tenants. At Ithaca Renting, the 2027-28 median bed costs $1,246.25 in a 4-bedroom, $800 in a 6-bedroom and $775 in a 10-bedroom, so a 6-bedroom bed costs $446.25 a month less than a 4-bedroom one ([EduExplained Collegetown dataset](/datasets/collegetown-rent-per-bed-2027-28/)). Cornell's own advice says rooms in a student or private house tend to be the cheapest option ([Cornell checklists](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)).
+The rent per bed falls as the unit gets bigger, because a landlord spreads one kitchen, one living room and one lot over more tenants. At Ithaca Renting, the 2027-28 median bed costs $1,246.25 in a 4-bedroom, $800 in a 6-bedroom and $775 in a 10-bedroom, so a 6-bedroom bed costs $446.25 a month less than a 4-bedroom one ([EduExplained Collegetown dataset](/datasets/collegetown-rent-per-bed-2027-28/)). Cornell's own advice says rooms in a student or private house tend to be the cheapest option ([Cornell checklists](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)).
 
-The catch is the lease. Cornell says most local leases bind housemates "jointly and severally," which means each tenant owes the whole house's rent and damages if someone else stops paying ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). In PPM's 7-bedroom on S. Aurora St., one housemate who leaves in March leaves that room's rent for the other six to cover, or $116.67 each. The rules on who pays, and how to protect yourself, are in [our guide to roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
+The catch is the lease. Cornell says most local leases bind housemates "jointly and severally," which means each tenant owes the whole house's rent and damages if someone else stops paying ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)). In PPM's 7-bedroom on S. Aurora St., one housemate who leaves in March leaves that room's rent for the other six to cover, or $116.67 each. The rules on who pays, and how to protect yourself, are in [our guide to roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
 
 Check the building before you check the price. The Cornell and City of Ithaca [Safety Program for Off-Campus Living](https://safety.offcampusliving.cornell.edu/) lets you look up whether a rental holds a current certificate, the city's safety inspection permit. Several of the cheapest houses on this page name no owner or manager on their listings, so read [our guide to Ithaca landlords and tenant reviews](/housing/how-to-check-an-ithaca-landlords-record/) before you send a deposit.
 
 <!-- ad-break -->
 
 ```reader "If you're a first-year or sophomore"
-Cornell says first- and second-year undergraduates should not sign a lease unless they have an approved exemption from Housing and Residential Life ([Cornell housing search](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)). Use this list to plan junior year, and settle your group of six or more before you look.
+Cornell says first- and second-year undergraduates should not sign a lease unless they have an approved exemption from Housing and Residential Life ([Cornell housing search](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)). Use this list to plan junior year, and settle your group of six or more before you look.
 ```
 
 ```reader "If you're a grad student"
-Cornell's own housing undercuts every bed here: a regular single in a Hasbrouck 2-bedroom townhouse costs $620 a month on a 12-month contract for 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Off campus, Kelvin Place says its residents are all Cornell students, mostly graduate students, and its rooms include every utility.
+Cornell's own housing undercuts every bed here: a regular single in a Hasbrouck 2-bedroom townhouse costs $620 a month on a 12-month contract for 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Off campus, Kelvin Place says its residents are all Cornell students, mostly graduate students, and its rooms include every utility.
 ```
 
 ```reader "If you don't have a car"

@@ -2,7 +2,7 @@
 title: "Should I bring a car to Cornell? Full-cost calculator"
 meta: "Enter your status, housing, gas, insurance and upkeep quotes, Carshare hours and trips home; get a year with a car against a year without, 2026-27."
 topic: getting-around
-updated: 2026-11-10
+updated: 2026-11-11
 numbers_as_of: 2026-11-10
 idea_id: 27
 kind: tool
@@ -150,7 +150,7 @@ The bold line is the answer: leave the car home, or the car costs less, with the
 
 ## Related guides
 
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
+- [Cornell parking: campus, Collegetown and Ithaca guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Cornell student parking permits: cost, rules, who qualifies](/cornell/getting-around/cornell-student-parking-permit-cost-rules/)
 - [Ithaca Carshare for Cornell students: plans, cost, rules](/cornell/getting-around/ithaca-carshare-cornell-students-cost/)
 - [Is TCAT free for Cornell students? Hours, routes, passes](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/)

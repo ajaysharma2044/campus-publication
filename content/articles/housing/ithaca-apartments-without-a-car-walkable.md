@@ -20,7 +20,7 @@ tools:
 - ithaca-rent-commute-calculator
 - do-i-need-a-car-at-cornell-quiz
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/property-details/?pid=4
@@ -94,7 +94,7 @@ images:
 - Listing walk times vary, so check any building's distance on a map before you sign.
 ```
 
-If you want to walk to class, live in Collegetown: Cornell lists it at [0.1 to 0.5 miles, a walk of up to a quarter hour](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods), uphill from the lower blocks. Fall Creek, downtown and South Hill add a bus ride, and Lansing and West Hill need a car or a long bus trip.
+If you want to walk to class, live in Collegetown: Cornell lists it at [0.1 to 0.5 miles, a walk of up to a quarter hour](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods), uphill from the lower blocks. Fall Creek, downtown and South Hill add a bus ride, and Lansing and West Hill need a car or a long bus trip.
 
 ```reader "If you're a grad student"
 Grad housing is mostly off campus, so distance matters more for you than for a sophomore. Cornell's Hasbrouck Apartments sit on North Campus, a [10-minute walk to central campus](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments), with 338 units. Outside it, Cornell lists Cayuga Heights and Cornell Heights at 1 to 4 miles.
@@ -119,7 +119,7 @@ Cornell's own neighborhood guide gives distances and walk times for each area. A
 | West Hill | 4 miles; rural; not practical on foot | Not listed |
 | Lansing | 5 to 10 miles; bus or car recommended | Not listed |
 
-Source: [Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) and the [Ithaca off-campus listings](https://offcampushousing.ithaca.edu/listing). Listing prices mix bases, so use the last column to compare areas, not to budget.
+Source: [Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) and the [Ithaca off-campus listings](https://offcampushousing.ithaca.edu/listing). Listing prices mix bases, so use the last column to compare areas, not to budget.
 
 Cornell's page gives the same walk time for Belle Sherman and East Hill, so the table keeps only their distances. Measure the walk from the exact address on a map.
 

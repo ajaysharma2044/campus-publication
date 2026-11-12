@@ -69,6 +69,8 @@ images:
 
 Ithaca's Common Council voted 9-1 on Oct. 7, 2026, to withhold new permits for events run by Cornell groups, fraternities and sororities. The measure covered assembly, special-event, Commons and noise permits ([Ithaca Times](https://www.ithaca.com/news/ithaca/common-council-sets-moratorium-on-cornell-event-permits-following-gang-rape-allegations/article_6c84a345-d112-483a-98bc-316f3b64f0a1.html)). The City let it lapse on Nov. 5, 2026, rather than extend it ([Spectrum News](https://spectrumlocalnews.com/nys/central-ny/politics/2026/11/05/ithaca-moratorium-cornell-student-permits-end)).
 
+This page is general information, not legal advice.
+
 ## What did the moratorium do?
 
 A moratorium is a temporary pause. Here, the City stopped issuing new permits of four kinds to Cornell groups, fraternities and sororities: assembly, special event, Commons and noise ([Ithaca Times](https://www.ithaca.com/news/ithaca/common-council-sets-moratorium-on-cornell-event-permits-following-gang-rape-allegations/article_6c84a345-d112-483a-98bc-316f3b64f0a1.html)). Constitutionally protected activities, such as religious exercise, free speech, peaceful assembly and petitioning, were exempt ([City of Ithaca](https://www.cityofithacany.gov/m/newsflash/home/detail/1510)). The Ithaca Times headline ties the vote to gang rape allegations. The Cornell Daily Sun described the permit pause as primarily affecting Greek organizations ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year)).

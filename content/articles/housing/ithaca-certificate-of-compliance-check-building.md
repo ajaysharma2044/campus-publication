@@ -30,10 +30,10 @@ sources:
 - url: https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees
   title: Certificate of Compliance Fees, City of Ithaca
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://safety.offcampusliving.cornell.edu/
@@ -67,13 +67,13 @@ images:
 
 A Certificate of Compliance is the City of Ithaca's inspection permit for rental housing, and you check it by calling the Building Division at 607-274-6508 or emailing ibd@cityofithaca.org ([City Building Division](https://www.cityofithacany.gov/130/Building-Division)). Ask whether your address has a valid certificate and when it expires.
 
+This page is general information, not legal advice.
+
 ## Who needs a Certificate of Compliance?
 
 The City page names multiple dwellings: buildings with three or more units, or individual units housing six or more unrelated people. Dormitories, fraternities and sororities are covered too. If your group is near that size, ask the Building Division whether your house needs a certificate.
 
-The City says inspections are required for all residential rental dwellings inside the City. Hotels, motels, mobile homes and temporary housing are exempt, and short-term rentals need a separate permit ([Housing Inspections](https://www.cityofithacany.gov/145/Housing-Inspections)).
-
-One gap remains for houses. The fee schedule lists one-family and two-family dwellings, which points to inspections for houses. The City pages do not state the rule for a single house in plain terms, so ask the Building Division by phone.
+The City says inspections are required for all residential rental dwellings inside the City, including one-family and two-family houses. Hotels, motels, mobile homes and temporary housing are exempt, and short-term rentals need a separate permit ([Housing Inspections](https://www.cityofithacany.gov/145/Housing-Inspections)).
 
 ## How long does a certificate last?
 
@@ -98,7 +98,7 @@ rows:
   - {label: "Ask the landlord for the inspection date in writing if it has lapsed"}
 ```
 
-The City's page lists no public database. Cornell points tenants to a Building Department property information site and to the phone and email above ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). The easiest route for a student is the [safety tool](https://safety.offcampusliving.cornell.edu/), which Cornell Off-Campus Living and the Building Division run. It shows certificate status, sprinklers, extinguishers, smoke and carbon monoxide alarms, construction type and property use, updated daily ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)).
+Cornell points tenants to a Building Department property information site and to the phone and email above ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)). The easiest route for a student is the [safety tool](https://safety.offcampusliving.cornell.edu/), which Cornell Off-Campus Living and the Building Division run. It shows certificate status, sprinklers, extinguishers, smoke and carbon monoxide alarms, construction type and property use, updated daily ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)).
 
 It covers City rentals only, so Town of Ithaca, Lansing and Cayuga Heights buildings do not appear. Of 92 City addresses looked up on Nov. 10, 2026, 8 showed an expired certificate, so the check is worth the five minutes. The [City versus town guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) explains which rules follow your address.
 

@@ -41,7 +41,7 @@ sources:
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: 'Grad Tips: Renting, Cornell Graduate School'
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/
@@ -203,7 +203,7 @@ How it works, per the City's [COC page](https://www.cityofithacany.gov/146/Certi
 
 Source: City Code [section 210-43](https://ecode360.com/8390192), amended through March 5, 2025.
 
-The certificate also decides whether students can find you. Cornell's listing site, the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), requires a current COC for City properties, and the Graduate School says listings are [checked against the City's COC database](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). Cornell and the Building Division also run a [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) that shows every City rental's sprinklers, extinguishers, smoke and carbon monoxide alarms, construction type and code. Students look you up there.
+The certificate also decides whether students can find you. Cornell's listing site, the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), requires a current COC for City properties, and the Graduate School says listings are [checked against the City's COC database](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). Cornell and the Building Division also run a [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments) that shows every City rental's sprinklers, extinguishers, smoke and carbon monoxide alarms, construction type and code. Students look you up there.
 
 The Building Division is at 108 E. Green St., City Hall, 4th floor, open weekdays 8:30 a.m. to 4:00 p.m.; the [main line](https://www.cityofithacany.gov/130/Building-Division) is 607-274-6510.
 

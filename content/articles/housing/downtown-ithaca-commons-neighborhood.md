@@ -20,7 +20,7 @@ tools:
 - ithaca-rent-commute-calculator
 - omniride-break-even-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/downtown/
@@ -79,7 +79,7 @@ images:
 - Asteri's 181 apartments were under a vacate order from March 4 to March 20, 2026.
 ```
 
-Downtown is the cheaper side of town at the bottom of the hill, 0.5 to 1.5 miles from campus, with the Ithaca Commons about a mile away. Cornell calls the walk 20 to 30 minutes uphill ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). A bed there costs about 20 to 28 percent less than the same size in Collegetown.
+Downtown is the cheaper side of town at the bottom of the hill, 0.5 to 1.5 miles from campus, with the Ithaca Commons about a mile away. Cornell calls the walk 20 to 30 minutes uphill ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). A bed there costs about 20 to 28 percent less than the same size in Collegetown.
 
 ## How much cheaper is downtown than Collegetown?
 

@@ -1,7 +1,7 @@
 ---
 title: 'Northside Ithaca Neighborhood: Where It Is and What to Check'
 mode: answer
-dek: Northside is a City of Ithaca neighborhood west and south of Cascadilla Creek, a mile or more from campus, where rent data is thin and the name is easy to confuse with Fall Creek.
+dek: Northside is a City of Ithaca neighborhood west and south of Cascadilla Creek, a mile or more from campus, where RentCafe's average rent is $2,187 and the name is easy to confuse with Fall Creek.
 meta: 'Northside, Ithaca: where the neighborhood is, how it differs from Fall Creek, listings about 1.2 to 1.4 miles from campus and how CarShare and buses fit.'
 primary_query: northside ithaca neighborhood
 topic: housing
@@ -21,7 +21,7 @@ sources:
 - url: https://ithacavoice.org/2015/07/often-overlooked-ithacas-northside-residents-try-building-clout/
   title: Often overlooked, Ithaca's Northside residents try building clout, Ithaca Voice, 2015
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.rentcafe.com/apartments-for-rent/northwest-ithaca-ny/2-bedroom/
@@ -30,6 +30,12 @@ sources:
 - url: https://www.lambrourealestate.com/apartments
   title: Apartments, Lambrou Real Estate
   accessed: '2026-11-10'
+- url: https://www.lambrourealestate.com/723-west-court-st
+  title: 723 West Court St, Lambrou Real Estate
+  accessed: '2026-11-11'
+- url: https://www.rentcafe.com/apartments-for-rent/us/ny/ithaca/northside-triangle-inlet-island
+  title: Apartments for rent in Northside Triangle Inlet Island, Ithaca, RentCafe
+  accessed: '2026-11-11'
 - url: https://www.ithacacarshare.org
   title: Ithaca CarShare
   accessed: '2026-11-10'
@@ -44,14 +50,15 @@ images: []
 - Northside includes the Northside Triangle, enclosed by Cascadilla Street, Route 13 and Cascadilla Creek.
 - Landlords on Lake Avenue tell renters the area is Fall Creek; check the address on a map.
 - Listings on North Fulton and West Court streets sit 1.2 to 1.4 miles from Ho Plaza.
+- RentCafe puts the area's average rent at $2,187.
 - Student CarShare is $310 a year plus $6 an hour; a lighter plan is $30 plus $9.
 ```
 
-The Ithaca Voice describes the Northside Triangle as enclosed by Cascadilla Street, Route 13 and Cascadilla Creek ([Ithaca Voice](https://ithacavoice.org/2015/07/often-overlooked-ithacas-northside-residents-try-building-clout/)). Cornell's neighborhoods page does not list it, so check each address on a map before you rely on a listing's name.
+The Ithaca Voice describes the Northside Triangle as enclosed by Cascadilla Street, Route 13 and Cascadilla Creek ([Ithaca Voice](https://ithacavoice.org/2015/07/often-overlooked-ithacas-northside-residents-try-building-clout/)). Check each address on a map before you rely on a listing's name.
 
 ## Is Northside the same as Fall Creek?
 
-No, but landlords blur them. Landlords on Lake Avenue tell renters the area is Fall Creek, the Ithaca Voice reported in 2015 (Ithaca Voice). Cornell describes Fall Creek as 0.5 to 1 mile from campus with a 20 to 30 minute uphill walk ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)), but Northside has no Cornell walk time. Fall Creek is the nearer area.
+No, but landlords blur them. Landlords on Lake Avenue tell renters the area is Fall Creek, the Ithaca Voice reported in 2015 (Ithaca Voice). Cornell describes Fall Creek as 0.5 to 1 mile from campus with a 20 to 30 minute uphill walk ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). Fall Creek is the nearer area.
 
 ## What is Northside like?
 
@@ -59,11 +66,9 @@ Residents describe it as one of the city's least affluent neighborhoods, with pu
 
 ## How much does rent cost?
 
-No source gives a Northside rent. One datapoint helps:
+RentCafe puts the average rent in Northside Triangle and Inlet Island at $2,187, with prices last updated on 10 November 2026 ([RentCafe](https://www.rentcafe.com/apartments-for-rent/us/ny/ithaca/northside-triangle-inlet-island)). For a two-bedroom in Northwest Ithaca, RentCafe lists about $2,502 ([RentCafe Northwest Ithaca](https://www.rentcafe.com/apartments-for-rent/northwest-ithaca-ny/2-bedroom/)).
 
-- RentCafe lists an average of about $2,502 for a two-bedroom of 996 square feet in Northwest Ithaca, the closest published area, though RentCafe states no borders ([RentCafe](https://www.rentcafe.com/apartments-for-rent/northwest-ithaca-ny/2-bedroom/)).
-
-Lambrou Real Estate lists houses on West Court Street and apartments on North Fulton Street without printing rents, with a driveway and carport at 723 West Court St ([Lambrou Real Estate](https://www.lambrourealestate.com/723-west-court-st)). Ask each landlord for the price in writing, and whether it is per bed or per unit.
+Lambrou Real Estate lists houses on West Court Street and apartments on North Fulton Street. Its house at 723 West Court St has a driveway and carport ([Lambrou Real Estate](https://www.lambrourealestate.com/723-west-court-st)). Ask each landlord for the price in writing, and whether it is per bed or per unit.
 
 <!-- ad-break -->
 
@@ -80,7 +85,7 @@ Ithaca CarShare serves Northside, along with downtown, Fall Creek, Collegetown a
 If the address is inside the City of Ithaca, the City's 120-day renewal notice and certificate of compliance rules apply. Our [City, Town and Lansing guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows how to tell.
 
 ```reader "If you're a graduate student on a tight budget"
-Northside rents are not published the way Collegetown's are, so compare any listing with the graduate options on our [graduate housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) before you commit.
+Set any Northside listing against the $2,187 average, then compare it with the graduate options on our [graduate housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) before you commit.
 ```
 
 ## What to do next

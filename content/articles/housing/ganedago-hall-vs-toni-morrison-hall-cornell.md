@@ -7,7 +7,7 @@ primary_query: ganedago hall vs toni morrison hall
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 191
 rewrites: ''
 readers:
@@ -21,7 +21,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
   title: First-year undergraduate campus housing, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence hall configurations, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall
@@ -39,7 +39,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house
   title: Language House, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-in instructions for North Campus, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
@@ -53,7 +53,22 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall
   title: Toni Morrison Hall, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall
+  title: 'Ganędagǫ: Hall, Cornell Student and Campus Life'
+  accessed: '2026-11-11'
+- url: https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion
+  title: Cornell University - North Campus Residential Expansion (NCRE), Welliver
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
+  title: Upper-level Undergraduate On-Campus Housing, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+  title: Housing and Residential Life directory, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
+  title: Housing rates, Cornell Student and Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
@@ -74,26 +89,26 @@ images:
 - Ganędagǫ: residents unload at the Robert Purcell lot; both halls stay open over winter break.
 ```
 
-Ganędagǫ: and Toni Morrison are close twins: both are suite-style halls on North Campus that opened in 2021 ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)). Ganędagǫ: is the bigger one, with 564 residents against 306, and Toni Morrison is the one with a dining room and a cafe in the building.
+Ganędagǫ: and Toni Morrison are close twins: both are suite-style halls on North Campus that opened in 2021 ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)). Ganędagǫ: is the bigger one, with 564 residents against 306 in Cornell Housing's resident counts, and Toni Morrison is the one with a dining room and a cafe in the building.
 
-Cornell lists both halls as suites ([residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)) and says both are temperature-controlled. Resident counts come from the [Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ganedago-hall) and [Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall) pages, and the building dining from Cornell's [dining rooms list](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms).
+Cornell lists both halls as suites ([residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)) and says both are temperature-controlled. Resident counts come from the [Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall) and [Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall) pages, and the building dining from Cornell's [dining rooms list](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms). Welliver, the construction manager, counts beds instead: 577 in Ganędagǫ: and 314 in Toni Morrison ([Welliver](https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion)).
 
 ## How do the two halls compare?
 
 | | Ganędagǫ: Hall | Toni Morrison Hall |
 |---|---|---|
 | Opened | 2021 | 2021 |
-| Residents | 564 | 306 |
+| Residents (Cornell Housing count) | 564 | 306 |
 | Layout | Suites | Suites |
 | Air conditioning | Temperature-controlled or room air conditioning | Temperature-controlled or room air conditioning |
-| Dining in the building | Not listed | Morrison Dining and Crossings Cafe |
-| Program house inside | None listed | Language House |
+| Dining in the building | | Morrison Dining and Crossings Cafe |
+| Program house inside | | Language House |
 | Move-in unloading | Robert Purcell Community Center lot | Check your Move-In Ticket |
 | Winter break | Open in 2026-27 and 2027-28 | Open in 2026-27 and 2027-28 |
 
-Sources: Cornell hall pages, [residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations), [dining rooms](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms) and [move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus), as of Nov. 10, 2026.
+Sources: Cornell Housing hall pages for [Ganędagǫ:](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall) and [Toni Morrison](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall) (resident counts), [residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations), [dining rooms](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms) and [move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus), as of Nov. 10, 2026.
 
-The table shows why the halls are hard to tell apart. Cornell lists both as suites ([residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)), and both hall pages say the hall is temperature-controlled ([Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ganedago-hall), [Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). The fact set holds no room sizes, bathroom counts or Ganędagǫ: street address, and it does not say what Ganędagǫ: means or how to say it. Ask Cornell Housing at housing@cornell.edu or 607-255-5368 for those details.
+The table shows why the halls are hard to tell apart. Cornell lists both as suites ([residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)), and both hall pages say the hall is temperature-controlled ([Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall), [Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). In both, single and double rooms sit in suites with shared bathrooms, and Ganędagǫ:'s suites are single gender on mixed-gender floors ([Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall), [Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). Ganędagǫ: (pronounced Gah-NEH-dah-go) is a Cayuga word meaning "it's on the hill," the ancestral name for the area that is now Cornell's main campus ([Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)). For room sizes, ask Cornell Housing Operations at housing@cornell.edu or 607-255-5368 ([Cornell directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
 
 ## What are the suites like?
 
@@ -103,7 +118,7 @@ Both halls came from the North Campus expansion. The two 2021 halls added 800 be
 
 ## Which one has better dining?
 
-Toni Morrison. Morrison Dining, one of Cornell's ten residential dining rooms, and Crossings Cafe are both in Toni Morrison Hall. Cornell lists no dining room inside Ganędagǫ:. North Campus's other dining rooms are North Star Dining Room in Appel Commons and Risley Dining ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). The fact set does not give a walking time from Ganędagǫ: to North Star, so check a campus map. Toni Morrison's street address, 18 Sisson Place, is the one to use for delivery apps.
+Toni Morrison. Morrison Dining, one of Cornell's ten residential dining rooms, and Crossings Cafe are both in Toni Morrison Hall. North Campus's other dining rooms are North Star Dining Room in Appel Commons and Risley Dining ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). Check a campus map for the walk from Ganędagǫ: to North Star. For delivery apps, Cornell says to use Toni Morrison Hall, 18 Sisson Place, because another Morrison Hall is on campus ([Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)).
 
 ## Who lives in each?
 
@@ -124,7 +139,7 @@ You cannot request either hall. If you land in one, expect a suite and air condi
 ```
 
 ```reader "If you're a parent"
-Both halls cost the same as any other residence hall by room type, and the same meal plan rules apply. A double is $13,744 for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Both halls cost the same as any other residence hall by room type, and the same meal plan rules apply. A double is $13,744 for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 ```
 
 ## What to do next

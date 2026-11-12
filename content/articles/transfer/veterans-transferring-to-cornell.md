@@ -56,7 +56,7 @@ sources:
 - url: https://news.cornell.edu/node/333429
   title: Cornell welcomes new students, Cornell Chronicle, August 13, 2026
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
@@ -197,7 +197,7 @@ Most new transfers must [live on campus for one academic year](https://scl.corne
 
 Veterans are different. Cornell's [Veterans FAQ](https://veterans.cornell.edu/faqs) says student veterans are not required to live in campus housing and that the first-year residency requirements are waived. To be safe, also request the exemption [through the housing application](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) while it is open, and keep the FAQ handy.
 
-If you want campus housing, Veterans House is one of the Program Houses, the only halls you [choose by name](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) rather than through random allocation. Apply within ten days of getting your NetID. Our [Veterans House guide](/housing/veterans-house-cornell/) covers rooms, cost and the extra application.
+If you want campus housing, Veterans House is one of the Program Houses, the only halls you [choose by name](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) rather than through random allocation. Apply within ten days of getting your NetID. Our [Veterans House guide](/housing/veterans-house-cornell/) covers rooms, cost and the extra application.
 
 ```figure
 kind: cost_table

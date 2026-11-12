@@ -29,7 +29,7 @@ sources:
 - url: https://global.cornell.edu/resources/immigration-advice-and-resources
   title: Immigration Advice and Resources, Cornell Global
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images:
@@ -61,7 +61,7 @@ If visa issues make it hard to travel home over breaks, Cornell invites you to e
 ```
 
 ```reader "If you're a graduate student"
-The winter closing applies to undergraduate residences. Hasbrouck Apartments, Cornell's graduate and family housing, rents on 12-month contracts, from $620 to $1,530 a month for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). You don't need a break application to stay there.
+The winter closing applies to undergraduate residences. Hasbrouck Apartments, Cornell's graduate and family housing, rents on 12-month contracts, from $620 to $1,530 a month for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). You don't need a break application to stay there.
 ```
 
 ```reader "If you live off campus"

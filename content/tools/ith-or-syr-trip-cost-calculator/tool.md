@@ -2,7 +2,7 @@
 title: "ITH or SYR trip cost calculator: parking, bus and airfare"
 meta: "Enter days away, how you get to the airport and both airfares. Get the total trip cost from Ithaca (ITH) and Syracuse (SYR) and which is cheaper."
 topic: getting-around
-updated: 2026-11-08
+updated: 2026-11-11
 numbers_as_of: 2026-11-08
 queue_id: q-getting-around-0062
 kind: tool
@@ -93,4 +93,4 @@ Price is half the choice. ITH has 2 scheduled nonstops, so one cancellation can 
 - [Syracuse airport to Cornell: OurBus, car service, driving](/getting-around/syracuse-airport-to-cornell-ourbus-car-service/)
 - [Cornell to Ithaca airport: TCAT 32 and 72, taxis, parking](/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking/)
 - [Flying home from Cornell: airports, rides, bags, timing](/getting-around/flying-home-from-cornell-airports-rides/)
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
+- [Cornell parking: campus, Collegetown and Ithaca guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)

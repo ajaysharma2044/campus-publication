@@ -2,7 +2,7 @@
 title: "Do I need a car at Cornell? Quiz with 2026-27 costs"
 meta: "Enter your year, where you live, trips home, errands and license: get no car, Carshare, a B permit or a resident permit, with yearly costs."
 topic: getting-around
-updated: 2026-11-08
+updated: 2026-11-11
 numbers_as_of: 2026-11-08
 queue_id: q-getting-around-0058
 kind: tool
@@ -22,8 +22,7 @@ sources:
   - {url: "https://www.cityofithacany.gov/731/Permit-Issuance", title: "City of Ithaca: residential parking permit issuance", accessed: "2026-11-08"}
   - {url: "https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/", title: "Cornell Sun: on-campus parking fines increase for first time since 2014", accessed: "2026-11-08"}
   - {url: "https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1", title: "Cornell Transportation: citation fines increasing September 1", accessed: "2026-11-08"}
-  - {url: "https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430", title: "College Confidential: Should I bring a car?", accessed: "2026-11-08"}
-  - {url: "https://fcs.cornell.edu/node/17809", title: "Cornell Transportation: 2026-27 permit sales", accessed: "2026-11-08"}
+  - {url: "https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students", title: "Cornell Sun: Williams Street parking lot struggles to accommodate students", accessed: "2026-11-11"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules", title: "Cornell Transportation: winter and break parking rules", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation", title: "Cornell Family Resource Hub: parking and transportation", accessed: "2026-11-08"}
   - {url: "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free", title: "Cornell Sun: non-first-year students no longer able to ride TCAT free", accessed: "2026-11-08"}
@@ -45,7 +44,7 @@ This quiz tells you whether a car is worth it for your year at Cornell, and if i
 
 ## The inputs
 
-- **Your year and status.** Sets your TCAT cost. Fall first-years ride free at all hours until Aug 31, 2027. Spring entrants ride free Jan 1 to Dec 31. A 2024 Cornell Sun report says transfers count as first-years, but the TCAT manager is not quoted on that, so confirm with Transportation Services at 607-255-4600. PhD students and graduate assistants get a free OmniRide pass. Everyone else rides free after 6 p.m. on weekdays and all weekend, and pays $1.50 a daytime weekday ride or $200 a year for OmniRide. Johnson's MBA page says the first year is free for its students.
+- **Your year and status.** Sets your TCAT cost. Fall first-years ride free at all hours until Aug 31, 2027. Spring entrants ride free Jan 1 to Dec 31. A 2024 Cornell Sun report says transfers count as first-years; confirm with Transportation Services at 607-255-4600. PhD students and graduate assistants get a free OmniRide pass. Everyone else rides free after 6 p.m. on weekdays and all weekend, and pays $1.50 a daytime weekday ride or $200 a year for OmniRide. Johnson's MBA page says the first year is free for its students.
 - **Where you live.** Sets the permit. University housing on North, West, South or at Hasbrouck means a resident permit (ND, WD, SW or FH). Off campus you can only buy the B commuter permit, or with a full assistantship you get a free Outer Tier A or E permit.
 - **Months a year in Ithaca.** Multiplies your monthly driving hours into a year. Put 12 if you stay for the summer.
 - **Round trips home a year, and how you get home.** For NYC by bus, the quiz prices the trips at three fares. If you fly, it adds a week of ITH long-term parking per trip to the car option. For other bus cities it does not price the fares. If home is a drive with no good bus, it leans toward a car.
@@ -63,7 +62,7 @@ This quiz tells you whether a car is worth it for your year at Cornell, and if i
 - Just In Case = $30 + $20 sign-up + $9 × hours.
 - It's My Car = $310 + $20 sign-up + $6 × hours.
 - Just In Case is cheaper below (310 − 30) / (9 − 6) = 93.3 hours a year.
-- The quiz shows the cheaper plan before tax (low) and with 20% tax on the hourly charge (high). We apply the tax to hourly charges only. That is our assumption: the rates page does not say whether membership fees are taxed.
+- The quiz shows the cheaper plan before tax (low) and with 20% tax on the hourly charge (high). The rates page lists the 20% as a tax on usage, so we apply it to hourly charges only.
 - Mileage, 42 to 52 cents a mile, is not added.
 - The permit's price in Carshare hours = (permit − 310 − 20) / 6. For a resident permit that is 70.5 hours.
 
@@ -97,31 +96,30 @@ This quiz tells you whether a car is worth it for your year at Cornell, and if i
 | Bikeshare | $1.50 unlock + $0.25 a minute; $60 a month | Page undated, read 2026-11-08 | [Ithaca Bikeshare](https://www.ithacabikeshare.org) |
 | City residential parking permit | $45 a year | Page undated, read 2026-11-08 | [City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance) |
 | Ticket, no permit or payment | $50, plus $10 if unpaid in 10 days | From 2023-09-01 | [Cornell Sun](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/); [Cornell](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1) |
-| Forum against a first-year car | 67% of arguments; about 80% of posters | One thread, 2016-04-23 to 2016-05-13, 8 to 10 posters | [College Confidential](https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430) |
 
 ## Assumptions and what the quiz does not cover
 
-- **The car itself.** Our research has no prices for gas, insurance, tolls, repairs or the car itself. The "with a car" figure is parking only. That is why a permit can look cheaper than Carshare when it is not.
+- **The car itself.** The "with a car" figure is parking only: it leaves out gas, insurance, tolls, repairs and the car itself. That is why a permit can look cheaper than Carshare when it is not.
 - **Bus fares are advertised prices,** not fares anyone booked. The floor and the average come from one week of listings. Thanksgiving week ran about a third higher on other routes.
 - **One week of ITH parking per flight trip.** A 14-day stay is about $80. Winter break is longer than that.
-- **The 20% tax on hourly charges only** is our reading. Mileage is left out.
-- **Permit availability now.** The 2026-27 sale opened Aug 4, 2026, first come first served, and permits are limited. In 2023 the Williams St lot sold out within hours. Whether any are left today is not in our research. A summary of Cornell's sale notice says resident permits were capped to North Campus residents this year, but we could not open that page. Check myparking.cornell.edu.
-- **Whether a first-year may register a car at all** is not stated on the permit page. The families page says first-years are discouraged, with limited permits.
+- **Tax.** The quiz applies the 20% tax to hourly charges only. Mileage is left out.
+- **Permit sales and limits.** Permits are sold first come, first served, while space lasts, at myparking.cornell.edu. In fall 2023, students told the Cornell Sun that permits sold out within hours, and Cornell said the Williams St lot sold out faster than in earlier years. North Campus (ND) permits are extremely limited: sales are capped and open only to North Campus residents of university-owned housing.
+- **First-years and cars.** Cornell's families page says first-years are discouraged from bringing a car, and permits are limited.
 - **Proration.** Permits prorate daily (resident from Sept 1, commuter from Aug 16). A mid-year buyer pays less, but the quiz uses the full-year price.
-- Not in our research: Uber, Lyft and taxi fares newer than 2017, airfares, fares home to cities other than NYC (see our bus guides), and whether West Hill streets need a city permit.
+- **Other ways to travel.** The quiz does not price Uber, Lyft, taxis, airfares or fares home to cities other than NYC (see our bus guides).
 
 ## How to read the result
 
 - **The pick comes first.** "No car" means walking, TCAT and the bus cover you. "Carshare" means no car of your own, with the cheaper student plan for the hours you drive. A permit pick means a car can make sense, and names the permit you would need.
 - **The two costs.** "Without a car" is a range: the low end uses the OurBus floor and the free TCAT hours, the high end uses C2C, OmniRide and Carshare with tax. "With a car" is parking only.
-- **"Why"** shows the math behind the pick. **"Check before you decide"** lists the rules that could block it: Carshare age and license limits, permit eligibility and sale dates, winter and break parking, and the $50 ticket.
+- **"Why"** shows the math behind the pick. **"Check before you decide"** lists the rules that could block it: Carshare age and license limits, permit eligibility and how permits are sold, winter and break parking, and the $50 ticket.
 - **Change one input at a time** to see what flips the answer. For most students it is the hours a month they would drive. For first-years and PhD students the bus costs nothing, so a car has to earn its full price elsewhere.
 
 ## Related guides
 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/), the full guide to this topic
 - [Do you need a car at Cornell? Costs vs the alternatives](/tools/should-i-bring-a-car-cornell-ithaca-cost/)
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
+- [Cornell parking: campus, Collegetown and Ithaca guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Getting around Cornell after first year without a car](/getting-around/getting-around-cornell-upper-years-no-car/)
 - [Getting to and around Ithaca as a Cornell first-year](/getting-around/getting-around-cornell-first-year/)
 - [Getting around Ithaca as an off-campus Cornell renter](/getting-around/getting-around-ithaca-off-campus-renters/)

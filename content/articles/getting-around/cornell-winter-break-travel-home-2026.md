@@ -7,7 +7,7 @@ primary_query: how Cornell students get home for break bus flight
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 276
 rewrites: /getting-around/cornell-winter-break-travel-home-2026/
 queue_id: q-getting-around-0040
@@ -29,79 +29,79 @@ tools:
 sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice
   title: 2026 Winter Closing Checklist, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar 2026-27, Cornell Office of the University Registrar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ourbus.com/blog/?p=6269
   title: 'OurBus blog: Select membership, student discount and peak travel dates'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service
   title: Campus to Campus Bus Service, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4
   title: New Campus to Campus Reservation System Launches November 4, Cornell FCS
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
   title: C2C Rates, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations
   title: C2C Policies and Regulations, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/node/12488
   title: C2C riders and B Lot parking, Cornell FCS
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk
   title: OurBus expands daily Cornell to Manhattan service, The Cornell Daily Sun, Sept. 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university
   title: OurBus at Cornell University
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny
   title: Bus from Ithaca, NY to New York, NY, Greyhound
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
   title: OurBus moves Ithaca stop to South Cayuga Street, FingerLakes1, Nov. 6, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/
   title: Cheap buses from Ithaca to New York, Wanderu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://flyithaca.com/airlines
   title: Airlines, Ithaca Tompkins International Airport
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://flyithaca.com/taxis
   title: Taxis, Ithaca Tompkins International Airport
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.flyithaca.com/parking
   title: Parking, Ithaca Tompkins International Airport
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.flyithaca.com/public-transportation
   title: Public transportation, Ithaca Tompkins International Airport
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.syrairport.org/
   title: Syracuse Hancock International Airport
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny
   title: Ithaca, NY to Syracuse Airport, NY bus, OurBus
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026
   title: SA Resolution 18 (2025-2026), Cornell Student Assembly
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/
   title: Canceled flights and impromptu housing, The Cornell Daily Sun, Jan. 20, 2019
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
   title: Winter and Break Parking Rules, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ecode360.com/8395630
   title: City of Ithaca Code, winter odd/even parking
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Ithaca Tompkins Airport tower nov 2017
@@ -170,7 +170,7 @@ Say a first-year rides C2C both ways. That is [$187 round trip with a NetID](htt
 
 C2C moved to a new booking system on Nov. 4. Everyone needs a new account, including past riders, and signing in with Cornell single sign-on gets the NetID fare ([Cornell FCS](https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4)). The full rules are in our [C2C guide](/cornell/getting-around/cornell-c2c-bus-booking-fares-rules/).
 
-Two links split the season. "2026 Travel Reservations" covers departures through Dec. 23 and changes to existing bookings. "2027 Travel Reservations" covers departures from Jan. 6 ([C2C page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service)). No departures are listed between them, so a round trip is two bookings in two systems.
+Two links split the season. "2026 Travel Reservations" covers departures through Dec. 23 and changes to existing bookings. "2027 Travel Reservations" covers trips from Jan. 6, when the new system's first trips run ([C2C page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service)). A round trip over break is two bookings in two systems.
 
 1. Book the trip out on the 2026 link, for the last day of finals or closing day if you can.
 2. Book the trip back on the 2027 link, for a date after the halls reopen.
@@ -184,12 +184,12 @@ Ithaca's airport has two scheduled nonstops, Delta to JFK and United to Washingt
 
 | Getting to the plane | Cost | Notes |
 |---|---|---|
-| ITH by TCAT 32 (weekdays) or 72 (weekends) | Not stated | Routes per the [airport page](https://www.flyithaca.com/public-transportation) |
-| ITH by taxi | Not published | Three firms, open around the clock; prebook late flights |
+| ITH by TCAT 32 (weekdays) or 72 (weekends) | Pay the driver by cash, card or Tcard | Exact change if you pay cash |
+| ITH by taxi | On request | Three firms, open around the clock; prebook late flights |
 | ITH long-term parking | $40 a week | $160 for four weeks |
 | SYR by OurBus | $46.70 to $62.10 each way | Pickups at North and West Campus |
 
-Source: Ithaca airport [taxi](https://flyithaca.com/taxis) and [parking](https://www.flyithaca.com/parking) pages.
+Source: Ithaca airport [public transportation](https://www.flyithaca.com/public-transportation), [taxi](https://flyithaca.com/taxis) and [parking](https://www.flyithaca.com/parking) pages.
 
 Student Assembly paid $7,853.32 for free finals-week charters to the Ithaca and Syracuse airports in fall 2025 ([Student Assembly](https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026)). No fall 2026 charter has been announced, so check Campus Groups before you count on one.
 
@@ -237,7 +237,7 @@ Winter break housing is open to students returning to campus housing for spring.
 
 ## FAQ
 
-**Can I take C2C between Dec. 24 and Jan. 5?** No departures are listed for those dates, so use a commercial bus.
+**Can I take C2C between Dec. 24 and Jan. 5?** C2C's 2026 trips run through Dec. 23 and its 2027 trips start Jan. 6, so plan on a commercial bus for those dates.
 
 **Can my parents ride C2C with me?** Yes. C2C is open to the public, and the new system books several passengers on one reservation.
 

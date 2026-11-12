@@ -31,13 +31,13 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' Rights Guide, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
@@ -46,7 +46,7 @@ sources:
 - url: https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/
   title: Cornell Student Abandons House, Sleeps in Library After Months-Long Dispute With Landlord, The Cornell Daily Sun
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/
@@ -79,10 +79,10 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-I
   title: Real Property Law 235-i, NY Senate
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
@@ -178,17 +178,19 @@ You do not need a Social Security number: Cornell Global Learning says you can [
 Look at the address first. The 120-day rule and the Certificate of Compliance apply only inside the City of Ithaca, so check which municipality a house in Cayuga Heights, Lansing or the Town of Ithaca sits in. State deposit, fee, sublet and roommate law applies everywhere.
 ```
 
+This page is general information, not legal advice.
+
 ## Who can sign, and where the City rules stop
 
-First- and second-year undergraduates [should not sign a lease unless they have an approved exemption](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process) from Housing and Residential Life. Exemptions last one academic year, so a transfer or returning student reapplies each year, per the [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy). A student who skips the requirement still gets billed for the full year.
+First- and second-year undergraduates [should not sign a lease unless they have an approved exemption](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process) from Housing and Residential Life. Exemptions last one academic year, so a transfer or returning student reapplies each year, per the [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy). A student who skips the requirement still gets billed for the full year.
 
-Then check the address. The City of Ithaca's rental rules, including the Certificate of Compliance (the city's safety inspection permit for rentals), are a City of Ithaca program, so confirm the address is inside the city first. Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) shows fire protection and smoke alarms for City rentals. To check a certificate, call the Building Division at [607-274-6508](https://www.cityofithacany.gov/146/Certificate-of-Compliance).
+Then check the address. The City of Ithaca's rental rules, including the Certificate of Compliance (the city's safety inspection permit for rentals), are a City of Ithaca program, so confirm the address is inside the city first. Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments) shows fire protection and smoke alarms for City rentals. To check a certificate, call the Building Division at [607-274-6508](https://www.cityofithacany.gov/146/Certificate-of-Compliance).
 
 The reason to check: tenants at 117 Thurston Ave learned after signing that their certificate had [expired in November 2015](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/). They then waited 53 days between their first complaint and a fixed heater.
 
 ## What should I look for in each clause?
 
-Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) lists the terms to find: rent, due date, late penalty, deposit, termination, sublet, parking, extra costs, restrictions, occupancy dates and renewal notice. The table pairs each with the rule beside it.
+Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) lists the terms to find: rent, due date, late penalty, deposit, termination, sublet, parking, extra costs, restrictions, occupancy dates and renewal notice. The table pairs each with the rule beside it.
 
 | Clause | What to look for | The rule beside it |
 |---|---|---|
@@ -244,7 +246,7 @@ In buildings with six or more units, the landlord must [tell you the bank](https
 
 ## Who is liable if a housemate leaves?
 
-Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/campus-living/study-abroad/housemate-compatibility-questionnaire): each is responsible for the others' rent and damages for the whole term. A tenant who overpays can [sue a co-tenant](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease), but the landlord can collect from anyone on the lease.
+Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire): each is responsible for the others' rent and damages for the whole term. A tenant who overpays can [sue a co-tenant](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease), but the landlord can collect from anyone on the lease.
 
 In that 4-bedroom, if one housemate leaves and pays nothing, the other three owe the missing share every month. Over 12 months that is $14,955. The [roommates and joint liability page](/cornell/housing/cornell-off-campus-roommates-joint-liability/) covers how to protect yourself.
 
@@ -298,7 +300,7 @@ A lease with a written-changes clause generally bars oral changes, and an oral l
 
 **Can I negotiate a clause before I sign?** Yes. Ask for changes in writing and sign only the final version.
 
-**Do I need renters insurance?** Cornell's [checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations) says to buy it. Whether your landlord requires proof depends on the lease, so look for an insurance clause.
+**Do I need renters insurance?** Cornell's [checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations) says to buy it. Whether your landlord requires proof depends on the lease, so look for an insurance clause.
 
 **Can my housemate move a partner in?** Only within the roommate law above, and only if the lease allows the extra occupant.
 

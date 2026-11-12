@@ -20,32 +20,35 @@ tools: []
 sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: Real Property Law Section 226-b, Subletting or assignment by tenants, NY State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a Lease, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
   title: Real Property Law Section 238-a, Fees and charges, NY State Senate
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
-  title: 'Living Off Campus: tenant best practices, Cornell Student & Campus Life'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices
+  title: Tenant Best Practices, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
+  title: Signing the Lease, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ir.lawnet.fordham.edu/ulj/vol9/iss3/16
   title: Subletting and assignment under Real Property Law 226-b, Fordham Urban Law Journal
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' Rights, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
-  alt: College Park Apartments in Ithaca, a modern complex with a glass skybridge over a curving driveway
-  caption: College Park Apartments in Ithaca. In New York a landlord can refuse a sublet only in a small building or with a reasonable cause, and tenants have a remedy when the refusal is not reasonable.
+  alt: A student apartment complex in Ithaca, with a skybridge between two buildings.
+  caption: A student apartment complex in Ithaca, with a skybridge between two buildings. In New York a landlord can refuse a sublet only in a small building or with a reasonable cause, and tenants have a remedy when the refusal is not reasonable.
   credit: 颐园居 / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_at_Ithaca,_NY_20240526.jpg
   author: 颐园居
@@ -65,6 +68,8 @@ images:
 In a New York building with four or more residential units, a landlord cannot refuse a sublet without a reasonable cause ([Real Property Law 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)). The statute's sublet rule covers buildings with four or more units, so it does not reach a building with three or fewer.
 
 For the rest of a sublet, from finding a subtenant to the dates to mail, read the [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/).
+
+This is general information, not legal advice.
 
 ## Who has a legal right to sublet in New York?
 
@@ -116,7 +121,7 @@ An assignment hands the whole lease to a new tenant. The owner can refuse an ass
 
 **"A landlord can always refuse."** Not in a building with four or more units, where consent cannot be unreasonably withheld.
 
-**"Once someone sublets, I am off the lease."** You stay liable. Cornell's tenant page says [original tenants often remain responsible](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus) and tells you to get a written sublease.
+**"Once someone sublets, I am off the lease."** You stay liable. Cornell's tenant page says [original tenants often retain responsibility](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices) and that a subtenant should receive a written sublease.
 
 **"Silence means no."** In a building covered by the statute, silence after the deadline means yes.
 
@@ -127,7 +132,7 @@ Read the lease's sublet clause and the statute together. In a covered building, 
 ```
 
 ```reader "If you're signing a lease soon"
-Read the sublet clause before you sign. Cornell's list of lease terms to check names [the ability to sublet and its conditions](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) as something to confirm. The [lease-reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) covers the rest of the clauses.
+Read the sublet clause before you sign. Cornell's list of lease terms to check names [the ability to sublet and its conditions](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) as something to confirm. The [lease-reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) covers the rest of the clauses.
 ```
 
 ## What to do next

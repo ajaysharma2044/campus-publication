@@ -29,10 +29,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor
   title: 112 Edgemoor, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process (2027-2028), Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -47,13 +47,13 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
   accessed: '2026-11-10'
 images: []
@@ -94,13 +94,13 @@ Source: Cornell Housing, The Cornell Daily Sun and Cornell's 2026-27 rate table.
 
 ## Where is Veterans House?
 
-Two Cornell sources give two places. The Sun put the house at 625 University Ave. when it opened. Cornell's page for 112 Edgemoor, a 20-resident hall of singles with shared single-sex bathrooms, coin-operated laundry and no room air conditioning, says that beginning in 2027 the building is home to Veterans House ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor)). The 2027-28 selection page also lists the house at 112 Edgemoor Lane ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process)).
+Two Cornell sources give two places. The Sun put the house at 625 University Ave. when it opened. Cornell's page for 112 Edgemoor, a 20-resident hall of singles with shared single-sex bathrooms, coin-operated laundry and no room air conditioning, says that beginning in 2027 the building is home to Veterans House ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor)). The 2027-28 selection page also lists the house at 112 Edgemoor Lane ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process)).
 
 For 2027-28, go by 112 Edgemoor, because both pages are Cornell's own and name 2027 (Cornell Housing). The 20-resident count belongs to that hall as it is today, so ask whether Veterans House keeps its 26 beds and its super singles after the move. Email housing@cornell.edu before you plan around either address.
 
 ## What does Veterans House cost?
 
-Program houses share the residence hall rate table. A super single is $16,595 per academic year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). That is $2,851 more than a double at $13,744, so the room type, not the house, sets the price.
+Program houses share the residence hall rate table. A super single is $16,595 per academic year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). That is $2,851 more than a double at $13,744, so the room type, not the house, sets the price.
 
 A meal plan is required. Upper-level and transfer students can choose Bear Traditional at $7,056 a year, and Cornell adds a $50 yearly fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). One year comes to $23,701: the room rate plus the plan plus the fee.
 
@@ -110,9 +110,9 @@ For comparison, the [2026-27 housing cost dataset](/datasets/ithaca-housing-cost
 
 ## Who can live in Veterans House, and how do you apply?
 
-Cornell's pages list Veterans House with the Language House and the Sober Living Community as the three houses that need an extra application ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). The juniors and seniors round for 2027-28 ran from Sept. 1 to Sept. 27, 2026, and program house beds may not be left in later stages.
+Cornell's pages list Veterans House with the Language House and the Sober Living Community as the three houses that need an extra application ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). The juniors and seniors round for 2027-28 ran from Sept. 1 to Sept. 27, 2026, and program house beds may not be left in later stages.
 
-Rising sophomores apply in spring. The 2027-28 application closes April 4, 2027 at 11:59 p.m., and Priority Program House Selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+Rising sophomores apply in spring. The 2027-28 application closes April 4, 2027 at 11:59 p.m., and Priority Program House Selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 Cornell's pages do not list who qualifies for the house or what the extra application asks. Ask housing@cornell.edu before the deadline.
 
@@ -126,7 +126,7 @@ Yes. Veterans House has 12-month occupancy ([Cornell Housing](https://scl.cornel
 
 ## What should you watch before you sign?
 
-Check the cancellation schedule. Juniors and seniors who sign for 2027-28 can cancel for $50 through Jan. 31, 2027, and the fee then rises ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
+Check the cancellation schedule. Juniors and seniors who sign for 2027-28 can cancel for $50 through Jan. 31, 2027, and the fee then rises ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
 ## What to do next
 

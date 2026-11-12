@@ -29,13 +29,13 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun, Nov. 4, 2025
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall
   title: 'Move Instructions: South Campus halls, Cornell Housing'
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students
@@ -61,7 +61,7 @@ images:
 - A Sun feature says the elevator keeps breaking down.
 ```
 
-Sheldon Court is a 164-resident Cornell dorm at 420 College Ave., above Collegetown Bagels. It opened in 1903 and has singles and doubles with no air conditioning. A double costs $13,744 for 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Sheldon Court is a 164-resident Cornell dorm at 420 College Ave., above Collegetown Bagels. It opened in 1903 and has singles and doubles with no air conditioning. A double costs $13,744 for 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is Sheldon Court?
 
@@ -114,7 +114,7 @@ You rank it in room selection, and its rooms can last until the end. During fall
 
 ## How does move-in and parking work?
 
-Cornell's move-in instructions for neighboring Cascadilla Hall send residents to park at the Williams Street Lot after unloading ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)). A permit for that lot cost about $700 in 2023 and sold out within hours ([The Cornell Daily Sun](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students)). The [parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) lists the garages, and [getting around Ithaca without a car](/cornell/getting-around/getting-around-ithaca-off-campus-renters/) covers the bus from College & Oak.
+Cornell's move-in instructions for neighboring Cascadilla Hall send residents to park at the Williams Street Lot after unloading ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall)). A permit for that lot cost about $700 in 2023 and sold out within hours ([The Cornell Daily Sun](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students)). The [parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) lists the garages, and [getting around Ithaca without a car](/cornell/getting-around/getting-around-ithaca-off-campus-renters/) covers the bus from College & Oak.
 
 ## What to do next
 

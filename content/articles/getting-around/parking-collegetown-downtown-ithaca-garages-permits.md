@@ -28,7 +28,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328
   title: Parking Rate Changes, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/705/Parking-Information
   title: Parking Information, City of Ithaca
   accessed: '2026-11-10'
@@ -37,10 +37,10 @@ sources:
   accessed: '2026-11-10'
 - url: https://www.cityofithacany.gov/727/Parking-Regulations-Violations
   title: Parking Regulations and Violations, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: Permit Issuance, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/node/278473
   title: Collegetown parking and the city permit system, Cornell Chronicle
   accessed: '2026-11-10'
@@ -86,6 +86,12 @@ sources:
 - url: https://cityofithaca.org/DocumentCenter/View/20272/2026-Final-Budget-Proposal-20251107?bidId=
   title: 2026 Final Budget Proposal, City of Ithaca
   accessed: '2026-11-10'
+- url: https://www.cityofithacany.gov/711/Residential-Parking-Permits
+  title: Residential Parking Permits, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule
+  title: C2C Departure Schedule, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Street of shops and apartment buildings in Collegetown, Ithaca
@@ -117,7 +123,7 @@ Collegetown's closest paid parking is the city's Dryden Road Garage: $2.25 an ho
 ```glance
 - Dryden Road Garage is open 24/7 and caps a day at $18; downtown garages cap it at $12.
 - Street meters run 9 a.m. to 6 p.m., Monday to Saturday. Sunday is free.
-- The city permit is for residents. You apply in person; your landlord cannot.
+- The city permit is for residents. You apply online or by mail; your landlord cannot.
 - From Nov. 1, the city can turn on odd/even overnight parking.
 ```
 
@@ -131,8 +137,8 @@ Collegetown has three kinds of paid parking: a city garage, city street spaces a
 | Green Street Garage | $2.25 | $12 | $39 a week, $117 a month | Downtown; 120 E. Green St. |
 | Cayuga Street Garage | $2.25 | $12 | $108 a month standard | Downtown; 245 S. Cayuga St.; run by Premium Parking |
 | Seneca Street Garage | Closed | n/a | n/a | Closed April 10, 2026 |
-| Street ParkMobile and pay-station zones | $2.50 | None stated | None | Enforced 9 a.m. to 6 p.m., Monday to Saturday |
-| Coin meters farther out | $1.50 | None stated | None | Rate unchanged "for now" |
+| Street ParkMobile and pay-station zones | $2.50 |  | None | Enforced 9 a.m. to 6 p.m., Monday to Saturday |
+| Coin meters farther out | $1.50 |  | None | Rate unchanged "for now" |
 
 Source: City of Ithaca [rate notice](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328) and garage pages. The Cayuga monthly rate is from the city's [2026 budget proposal](https://cityofithaca.org/DocumentCenter/View/20272/2026-Final-Budget-Proposal-20251107?bidId=), so confirm it with Premium Parking.
 
@@ -150,7 +156,7 @@ These figures are the city's $2.25 hourly rate ([City of Ithaca](https://www.cit
 
 ## Which garage works for Collegetown or downtown?
 
-Use the [Dryden Road Garage](https://www.cityofithacany.gov/718/Dryden-Road-Garage), at 118 Dryden Road. The city recommends its monthly permit for Collegetown residents. Monthly permits come in 30-day blocks with no guaranteed space, and a Worker's Special costs $185 a month. In winter, from November to April, the uncovered 4th and 5th floors are closed from 2 a.m. to 8 a.m., and cars must move every 24 hours. A merchants' survey reported by the [Cornell Chronicle](https://news.cornell.edu/node/278473) found about a third of the ramp's 210 spaces empty in the daytime. The story ran in October 1998, so treat that as a guide, not a guarantee.
+Use the [Dryden Road Garage](https://www.cityofithacany.gov/718/Dryden-Road-Garage), at 118 Dryden Road. The city recommends its monthly permit for Collegetown residents. Monthly permits come in 30-day blocks with no guaranteed space, and a Worker's Special costs $185 a month. In winter, from November to April, the uncovered 4th and 5th floors are closed from 2 a.m. to 8 a.m., and cars must move every 24 hours. A merchants' survey reported by the [Cornell Chronicle](https://news.cornell.edu/node/278473) found about a third of the ramp's 210 spaces empty in the daytime. That survey dates from October 1998.
 
 Example: a renter keeps a car at Dryden Road for nine months. At the monthly rate ([City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage)) that is $2,088. The daily maximum for a 30-day month would be $540, so the monthly permit wins after 13 days.
 
@@ -161,7 +167,7 @@ Your home spot and your campus spot are separate costs. Check your lease for a s
 ```
 
 ```reader "If you're a parent or visitor"
-Park at the Cayuga Street Garage, with more than 300 spaces ([FingerLakes1](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/)). On Nov. 9, 2026, OurBus moved its downtown stop beside it, to [235 S. Cayuga St.](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/), which suits a pickup. Saturday is a paid day, and a May 2026 tourism guide that says weekends are free is out of date.
+Park at the Cayuga Street Garage, with more than 300 spaces ([FingerLakes1](https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/)). On Nov. 9, 2026, OurBus moved its downtown stop beside it, to [235 S. Cayuga St.](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/), which suits a pickup. Saturday is a paid day.
 ```
 
 ```reader "If you're a student in university housing"
@@ -174,7 +180,7 @@ Residents of Cascadilla Hall and Sheldon Court load at the City of Ithaca garage
 
 ## How do I get the city's $45 residential permit?
 
-Residents of permit blocks apply in person at the City Clerk with their vehicle registration and proof of residency, such as a lease ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)). A landlord cannot get the permit for a tenant, and every permit expires July 31, with no partial-year price. The system left out central Collegetown when it began in 1998 (Cornell Chronicle), so confirm your block with the Clerk first; the [residential permit guide](/cornell/getting-around/ithaca-residential-parking-permit-streets-how-to-apply/) has each step.
+Residents of permit blocks apply to the City Clerk online or by mail, with their vehicle registration and proof of residency, such as a lease signed by both tenant and landlord ([City of Ithaca](https://www.cityofithacany.gov/711/Residential-Parking-Permits)). A landlord cannot get the permit for a tenant, and every permit expires July 31, with no partial-year price ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)). The system left out central Collegetown when it began in 1998 ([Cornell Chronicle](https://news.cornell.edu/node/278473)), so confirm your block with the Clerk first; the [residential permit guide](/cornell/getting-around/ithaca-residential-parking-permit-streets-how-to-apply/) has each step.
 
 ## Can I park on campus if I live in Collegetown?
 
@@ -195,7 +201,7 @@ Your choices, in order of certainty, are your lease spot, the Dryden Road Garage
 
 On streets, the city's [odd/even code](https://ecode360.com/8395630) runs from Nov. 1 to April 1, 7 p.m. to 6 a.m., and the city turns it on only when needed. Park on the odd side on odd dates and the even side on even dates. A car that sits 72 hours counts as abandoned and can be towed. The city also has a 24-hour move rule Monday to Friday. Text SIREN to 67283 for alerts. The odd/even ticket is $15, then $30 and $45 for repeats ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)). The 2027 city budget plans higher fines, worth about $381,000 a year ([Ithaca Voice](https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/)). Our [winter parking guide](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/) has the break rules.
 
-For a stay of days rather than a night, the city says its garages offer no long-term parking and refers drivers who need it to Premium Parking on Cayuga Street, across from the Hotel Ithaca, at (607) 256-7275 ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)).
+For a stay of days rather than a night, the city says its garages offer no long-term parking and refers drivers who need it to Premium Parking on Cayuga Street, across from the Hotel Ithaca, at (607) 256-7275 ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)). Premium Parking is the operator the city's [rate notice](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328) names for the Cayuga Street Garage.
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 
@@ -209,7 +215,7 @@ For a stay of days rather than a night, the city says its garages offer no long-
 
 ## FAQ
 
-**Is parking free on Sundays in Ithaca?** Street meters are enforced [Monday to Saturday](https://www.cityofithacany.gov/705/Parking-Information), so Sunday is free on the street. Among the garages, Green Street is free on Sundays except on event days; Dryden Road and Cayuga Street post no Sunday rule, so read the posted sign.
+**Is parking free on Sundays in Ithaca?** Street meters are enforced [Monday to Saturday](https://www.cityofithacany.gov/705/Parking-Information), so Sunday is free on the street. Among the garages, Green Street is free on Sundays except on event days. At Dryden Road and Cayuga Street, check the sign at the entrance before you leave the car.
 
 **Where does a friend park when visiting?** If your block is in the permit system, the city sells a visitor pass. Otherwise use the Dryden Road Garage.
 
@@ -217,7 +223,7 @@ For a stay of days rather than a night, the city says its garages offer no long-
 
 ## What to do next
 
-Decide whether you need a car, using the quiz above or the commute calculator below. If you do, price your home spot first, then your campus spot.
+Decide whether you need a car, using the quiz above or the commute calculator below. If you do, price your home spot first, then your campus spot. For campus permits, winter rules, breaks and tickets in one place, read our [Cornell parking guide](/cornell/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
 
 ```tool ithaca-rent-commute-calculator```
 

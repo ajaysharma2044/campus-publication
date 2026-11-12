@@ -31,7 +31,7 @@ sources:
 - url: https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/
   title: Just months after move-in, next year's hectic housing search begins, The Cornell Daily Sun, Oct. 13, 2021
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -40,10 +40,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
@@ -106,7 +106,7 @@ For the other four Houses side by side, see [West Campus Houses compared](/corne
 
 ## What does a year in Rose cost?
 
-Cornell charges by room type, so Rose costs what any same-type room costs ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Every House resident must take the House Meal Plan, with all meals in ten residential dining rooms, and cannot change it while living on West ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Cornell charges by room type, so Rose costs what any same-type room costs ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Every House resident must take the House Meal Plan, with all meals in ten residential dining rooms, and cannot change it while living on West ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -123,9 +123,9 @@ For the bill against a lease, read [is off-campus cheaper than a Cornell dorm](/
 
 ## How do you get a room in Flora Rose House?
 
-Sophomores pick rooms in spring. For 2027-28 the application opens Feb. 1, 2027, and closes April 4, with open room selection April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). About 20% of rising sophomores have landed a West Campus space in past years. A student who does not select is assigned what is left ([Cornell Housing FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
+Sophomores pick rooms in spring. For 2027-28 the application opens Feb. 1, 2027, and closes April 4, with open room selection April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). About 20% of rising sophomores have landed a West Campus space in past years. A student who does not select is assigned what is left ([Cornell Housing FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
 
-The residential requirement applies to sophomores, and the [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/) lists the exemptions. Returning juniors and seniors can cancel a 2027-28 license for a fee that grows with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+The residential requirement applies to sophomores, and the [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/) lists the exemptions. Returning juniors and seniors can cancel a 2027-28 license for a fee that grows with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 

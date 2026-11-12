@@ -12,7 +12,7 @@ sources:
   - {url: "https://finaid.cornell.edu/apply-aid/graduate-students", title: "Graduate Students, Cornell Financial Aid", accessed: "2026-11-07"}
   - {url: "https://finaid.cornell.edu/special-circumstances/living-campus", title: "Living Off-Campus, Cornell Financial Aid", accessed: "2026-11-07"}
   - {url: "https://gradschool.cornell.edu/financial-support/tuition-rates/cost-of-attendance", title: "Cost of Attendance, Cornell Graduate School", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", title: "Ithaca Neighborhoods, Cornell Student & Campus Life", accessed: "2026-11-07"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods", title: "Ithaca Neighborhoods, Cornell Student & Campus Life", accessed: "2026-11-07"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Housing Rates, Cornell Student & Campus Life", accessed: "2026-11-07"}
   - {url: "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27", title: "SHP Costs & Dates (2026-27), Cornell Student Health Benefits", accessed: "2026-11-07"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Bus Services, Privileges & Passes, Cornell Transportation Services", accessed: "2026-11-07"}
@@ -67,7 +67,7 @@ The Stewart Avenue lease ran for the 2026-27 year. The $1,700 North Tioga unit w
 
 ## Cheap neighborhoods, by what you trade away
 
-Cornell's [neighborhood guide](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) groups Downtown, Fall Creek and the Commons together: lower rents, frequent bus service, a 20 to 30 minute uphill walk to campus, and the page says graduate students prefer them for the lower rents. In Fall Creek, the listing above put a one-bedroom at $1,600 a month. The guide puts Collegetown up to a 15-minute walk from campus (lower Collegetown is uphill), but its popularity raises rent; the Stewart Avenue room was $850. Cornell-owned Hasbrouck Apartments, a different option from the private market, list a studio at $1,355.
+Cornell's [neighborhood guide](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) groups Downtown, Fall Creek and the Commons together: lower rents, frequent bus service, a 20 to 30 minute uphill walk to campus, and the page says graduate students prefer them for the lower rents. In Fall Creek, the listing above put a one-bedroom at $1,600 a month. The guide puts Collegetown up to a 15-minute walk from campus (lower Collegetown is uphill), but its popularity raises rent; the Stewart Avenue room was $850. Cornell-owned Hasbrouck Apartments, a different option from the private market, list a studio at $1,355.
 
 Lansing and the Northeast are described as less expensive and somewhat remote, so you need a bus or a car. West Hill rents tend to be lower, but winter heating bills can be very high, and the page suggests asking NYSEG for a property's average yearly bills. No listing for Lansing/Northeast or West Hill is cited in this article, so we give no price for them.
 

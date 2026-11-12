@@ -1,13 +1,13 @@
 ---
 title: '104West Cornell kosher dining: Star K, hours and costs'
 mode: answer
-dek: 104West! is Cornell's kosher dining room, and this guide covers its certification, what a swipe covers and what Shabbat and holiday meals cost.
-meta: 104West! is Cornell's Star K kosher dining room. See what a swipe covers, the extra charge for Shabbat and holiday meals, and halal options.
+dek: 104West! is Cornell's kosher dining room, and this guide covers its certification, what a swipe covers and when Shabbat and holiday meals cost extra.
+meta: 104West! is Cornell's Star K kosher dining room. See what a swipe covers, when Shabbat and holiday meals cost extra, and halal options.
 primary_query: 104West Cornell kosher dining
 topic: dining
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 124
 rewrites: ''
 readers:
@@ -21,31 +21,31 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/food-allergies-special-diets
   title: 'Cornell Dining: Food allergies and special diets'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms
   title: 'Cornell Dining: Residential dining rooms'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: 'Cornell Dining: Undergraduate meal plans, 2026-2027'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
   title: 'Cornell Dining: Meal plans and rates, 2026-27 dining room prices'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/09/18/hidden-meal-plan-hotspots-on-campus/
   title: 'The Cornell Daily Sun: Hidden meal plan hotspots on campus, Sept. 18, 2024'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/104-mary-ann-wood-drive
   title: 'Cornell Housing: 104 Mary Ann Wood Drive'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/religious-observances-accommodations
   title: 'Cornell Dining: Religious observances and accommodations'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
   title: 'Cornell Dining: Terms and conditions, 2026-2027'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://now.dining.cornell.edu/
   title: Cornell Dining Now
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -77,7 +77,7 @@ rows:
 
 A 2024 Sun roundup described it as the kosher hall run with the Center for Jewish Living, open weekdays from 11 a.m. to 2 p.m. and 5 to 7 p.m., and said it takes swipes, Big Red Bucks, Cornell currency and credit cards ([The Sun](https://cornellsun.com/2024/09/18/hidden-meal-plan-hotspots-on-campus/)). The same piece said reviews call its food among the best on campus. Those hours are from 2024, so check current hours on [Dining Now](https://now.dining.cornell.edu/) before you go.
 
-Cornell's dining room list gives no street address for it, so confirm the entrance on Dining Now before your first visit.
+Cornell places it next to the Center for Jewish Living building on the south edge of West Campus ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/religious-observances-accommodations)).
 
 ## What sets 104West! apart from the other rooms?
 
@@ -87,7 +87,7 @@ Cornell's housing page lists it, with Keeton House and Okenshields, among the di
 
 ## What does it cost to eat at 104West!?
 
-For plan holders, regular meals cost a swipe. Shabbat, holiday and special meals at 104West! can carry extra charges, and you reserve them at kosher.scl.cornell.edu ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Cornell does not list the extra amount on the plan page, so ask Cornell Dining at dining@cornell.edu when you reserve.
+For plan holders, regular meals cost a swipe. Shabbat, holiday and special meals at 104West! can carry extra charges, and you reserve them at kosher.scl.cornell.edu ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Ask Cornell Dining at dining@cornell.edu for the amount when you reserve.
 
 Walk-ins without a plan can pay with Big Red Bucks, MealChoice or a credit card, and Cornell notes that kosher holiday meals can cost more ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). The standard door prices, such as $16.80 for lunch Monday to Saturday, are on the [rates page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates).
 
@@ -109,9 +109,9 @@ Cornell says 104West! serves halal food as well as kosher, and Keeton House serv
 
 ## What should I watch for?
 
-Holidays change service. Cornell lists Passover for April 21 to 29, 2027, on its religious observances page ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/religious-observances-accommodations)). The page does not say what 104West! serves during Passover, so email Cornell Dining at dining@cornell.edu well before the date.
+Holidays change service. Cornell lists Passover for April 21 to 29, 2027, on its religious observances page ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/nutrition-special-diets/religious-observances-accommodations)). Cornell Dining asks students keeping Passover to contact its Nutrition team for help, so reach out well before the date.
 
-Housing choice also changes your meal plan. Students who move into a co-op cannot cancel their plan but can switch to a similar or smaller one, and students who join a fraternity or sorority cannot cancel either ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)). If you plan to join a house, read [co-ops and Greek houses: cost and how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) before you sign a lease.
+Housing choice also changes your meal plan. Students who move into a co-op cannot cancel their plan but can switch to a similar or smaller one, and students who join a fraternity or sorority cannot cancel either ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)). If you plan to join a house, read [a co-op or Greek house instead of a dorm: how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) before you sign a lease.
 
 ## What to do next
 

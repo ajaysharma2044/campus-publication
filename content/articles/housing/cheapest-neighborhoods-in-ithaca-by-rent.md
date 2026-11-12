@@ -64,7 +64,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: 'Cornell Housing and Residential Life: Housing rates'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: 'Cornell Housing and Residential Life: Ithaca neighborhoods'
   accessed: '2026-11-10'
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
@@ -73,7 +73,7 @@ sources:
 - url: https://www.tcatbus.com/ride/fare-pass-options/
   title: 'TCAT: Fare and pass options'
   accessed: '2026-11-10'
-- url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-pri
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: 'Cornell Transportation Services: Bus services'
   accessed: '2026-11-10'
 images: []
@@ -116,7 +116,7 @@ For how the three main student areas compare on noise, walk and lease timing, se
 
 The cheapest Fall Creek one-bedroom asks $890 to $900 a month at 802 N. Cayuga St., listed on the [Ithaca College marketplace](https://offcampushousing.ithaca.edu/listing). CSP Management lists a one-bedroom at [909 N. Cayuga St.](https://cspmgmt.managebuilding.com/Resident/public/rentals/21495) for $1,400 a month, available Jan. 8, 2027. True Renew Homes asks $1,535 a month for an unfurnished one-bedroom at [310 Farm St.](https://www.ithacarents.com/4563-unfurnished-sun-filled-1br-in-fall-creek-1e-walk-to-cornell--commons), plus $33 a month per person for water and an $82 yearly recycling fee.
 
-Fall Creek is 0.5 to 1 mile from campus, a 20- to 30-minute uphill walk, with frequent buses ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)).
+Fall Creek is 0.5 to 1 mile from campus, a 20- to 30-minute uphill walk, with frequent buses ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
 Cornell Heights listings sit 0.29 to 0.89 mile from Ho Plaza, measured in a straight line from each listing address, so many are walkable. Travis Hyde Properties runs several of the cheaper ones. A 411-square-foot one-bedroom at [934 Edgecliff](https://www.travishyde.com/availability), 934 Stewart Ave., asks $1,305 a month. Lakeland Apartments at 319 Highland Road asks $1,420 for a one-bedroom and $1,005 for a studio ([Travis Hyde availability](https://www.travishyde.com/availability)). A private one-bedroom at 512 Wyckoff Road asks $950.
 

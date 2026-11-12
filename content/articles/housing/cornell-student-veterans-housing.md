@@ -7,7 +7,7 @@ primary_query: cornell student veterans housing
 topic: housing
 school: cornell-university
 type: scenario
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 198
 rewrites: ''
 readers:
@@ -20,34 +20,40 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor
   title: 112 Edgemoor, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2021/09/new-program-house-opens-creating-community-among-student-veterans
   title: New program house opens, creating community among student veterans, The Cornell Daily Sun, Sept. 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
   title: Program house room configurations, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments
   title: Hasbrouck Apartments, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a Lease, Cornell Law School Tenants Advocacy
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+  accessed: '2026-11-11'
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
+  title: Meal Plans & Rates, Cornell Dining
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
+  title: Undergraduate Meal Plans, Cornell Dining
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -80,26 +86,26 @@ The rooms are super singles ([Cornell program houses](https://scl.cornell.edu/re
 
 ## How do I apply to Veterans House?
 
-Veterans House needs an additional application beyond the main Housing application. For 2027-28 selection, rising juniors and seniors applied Sept. 1 to Sept. 27, 2026, and priority program house selection ran on Oct. 1, 2026 ([Cornell fall selection page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Program house beds can run out in later stages, so apply in the first window.
+Veterans House needs an additional application beyond the main Housing application. For 2027-28 selection, rising juniors and seniors applied Sept. 1 to Sept. 27, 2026, and priority program house selection ran on Oct. 1, 2026 ([Cornell fall selection page](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Program house beds can run out in later stages, so apply in the first window.
 
 ## What does Veterans House cost?
 
-Room price follows room type. A super single costs $16,595 for 2026-27, or $8,298 per semester ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). With the cheapest allowed meal plan, the Collegetown plan at $7,056, and the $50 annual fee, the year comes to $23,701 ($16,595 + $7,056 + $50). Compare that with a bed off campus before you commit; the [off-campus guide](/cornell/housing/cornell-off-campus-housing-guide/) maps the market.
+Room price follows room type. A super single costs $16,595 for 2026-27, or $8,298 per semester ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Program house residents must hold a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)). With the Collegetown plan, which Cornell offers to 112 Edgemoor residents, at $7,056 ([undergraduate meal plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)), and the $50 annual meal plan fee, the year comes to $23,701 ($16,595 + $7,056 + $50). Compare that with a bed off campus before you commit; the [off-campus guide](/cornell/housing/cornell-off-campus-housing-guide/) maps the market.
 
 ```figure
 kind: cost_table
 title: Veterans House year, 2026-27 rates
 rows:
   - {label: "Super single, per academic year", value: "$16,595"}
-  - {label: "Cheapest allowed meal plan, per year", value: "$7,056"}
-  - {label: "Annual fee", value: "$50"}
+  - {label: "Collegetown meal plan, per year", value: "$7,056"}
+  - {label: "Annual meal plan fee", value: "$50"}
   - {label: "Total", value: "$23,701"}
 ```
 
 <!-- ad-break -->
 
 ```reader "If you're a veteran with a spouse or children"
-You are exempt as a student with legal dependents as well as a veteran. Cornell's Hasbrouck Apartments hold family units at $1,475 to $1,530 a month on 12-month contracts, and they sit under graduate and professional housing. Cornell's pages do not say whether an undergraduate family may apply, so ask Housing Operations. See the [family housing guide](/cornell/housing/cornell-student-family-housing-ithaca/).
+You are exempt as a student with legal dependents as well as a veteran. Cornell's Hasbrouck Apartments hold family units at $1,475 to $1,530 a month on 12-month contracts, and they sit under graduate and professional housing. Cornell offers Hasbrouck to graduate and professional students, so an undergraduate family should ask Housing Operations about eligibility. See the [family housing guide](/cornell/housing/cornell-student-family-housing-ithaca/).
 ```
 
 ## Can I stay in Ithaca over breaks?

@@ -1,0 +1,138 @@
+{
+ "slug": "cornell-transfer-gpa-requirements-by-college",
+ "queue_id": "q-transfer-0003",
+ "verdict": "pass",
+ "checked": [
+  {
+   "claim": "Admitted transfers 'generally' 3.3 or better; 'selective and highly competitive'",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Matches the brief row for FAQ 325."
+  },
+  {
+   "claim": "About a quarter of transfers come from community colleges; no preference by institution type",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Brief row 'Institution preference'."
+  },
+  {
+   "claim": "CALS 3.0 overall minimum; 3.5 Biological Sciences; letter grades, C or better for credit; no pass/fail",
+   "source_url": "brief §2.4 and CALS credit row",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "CALS bars more than four semesters at a four-year school; associate's degree gives junior standing",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief standing row."
+  },
+  {
+   "claim": "ILR: most admits at least 3.4, typical not minimum; C floor for credit",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Human Ecology: 3.5 or higher, mostly As and Bs; letter grades; 23 sophomore credits, 8 lab science, 6 writing",
+   "source_url": "brief §2.4 and §2.6",
+   "status": "ok",
+   "note": "Matches the brief course-list row."
+  },
+  {
+   "claim": "Hotel: no minimum, admits generally 3.3+; current juniors and seniors not eligible; internal 3.0 Cornell GPA, transferees from other schools not eligible",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/",
+   "status": "ok",
+   "note": "Not all in the brief as external-bar wording, so opened the page: it says juniors and seniors are not eligible, admits generally 3.3, no minimum, internal minimum 3.0."
+  },
+  {
+   "claim": "Dyson: should have at least 3.5; B or better in calculus, microeconomics, statistics, writing; current juniors and seniors barred; internal 3.0 minimum, 3.3+ competitive",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Brooks: no minimum, 3.5+ increases competitiveness, As and B+s; 15 letter-graded credits (6+3+3+3)",
+   "source_url": "brief §2.4 and §2.6",
+   "status": "ok",
+   "note": "Recomputed 6+3+3+3 = 15."
+  },
+  {
+   "claim": "AAP: 2.7 cumulative and good standing; no external B.Arch. for fall 2027; internal 2.7",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Engineering: no minimum GPA; MATH 1910/1920, PHYS 1112 with 1110, CHEM 2090 with 2091; missing any means no review; C not C-; one major for a year",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "A&S Transfer Option: 3.5 each semester, no grade below B-; most CALS TO majors 3.0 and Biological Sciences 3.5 per Koppelman Group",
+   "source_url": "brief §2.5 and §7.5",
+   "status": "ok",
+   "note": "Attribution to a consultant matches the brief."
+  },
+  {
+   "claim": "A&S internal 3.0 cumulative and 3.0 in 12 credits; external transfers can move colleges only after two semesters",
+   "source_url": "brief §2.6",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "TC3 Sustainable Farming and Food Systems A.A.S.: 3.0 and B or better, priority consideration not a guarantee, CALS Agricultural Sciences",
+   "source_url": "brief §2.8",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Fall 2025: 7,381 applied, 864 admitted, 11.7%",
+   "source_url": "brief §3.1",
+   "status": "ok",
+   "note": "Recomputed 864 / 7,381 = 0.1171, which rounds to 11.7%."
+  },
+  {
+   "claim": "Application due March 15, 2027; $85 fee; Mid-Term Report and final high school transcript April 15",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "SAT and ACT neither required nor expected",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "Roughly 60-credit cap; junior transfer from a four-year school discouraged",
+   "source_url": "brief §1 and §2",
+   "status": "ok",
+   "note": "Matches the brief."
+  },
+  {
+   "claim": "College Confidential 2020 thread: posters cited a CALS FAQ saying those who miss requirements are reviewed with the regular pool",
+   "source_url": "brief §7.5",
+   "status": "ok",
+   "note": "Matches the brief, and the page keeps it as posters' claims."
+  },
+  {
+   "claim": "College Confidential 2014 poster said community college grades run about a point high, labelled unverified opinion",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "Matches the brief's voice entries, and the page labels it an opinion, not policy."
+  },
+  {
+   "claim": "A '3.75 competitive' figure circulates on third-party sites with no source",
+   "source_url": "brief §5.5",
+   "status": "fixed",
+   "note": "The brief names one site (College Transitions) as the source. Changed 'circulates on third-party sites' to 'appears on a third-party site'."
+  }
+ ],
+ "brief_updates": [],
+ "fixes": [],
+ "core_answer": "right",
+ "checked_at": "2026-11-11",
+ "page_sha": "999a7e4501afbb9a5a4fb170a47854b7c5f6d70e24812981f476b6d7f98a02ef"
+}

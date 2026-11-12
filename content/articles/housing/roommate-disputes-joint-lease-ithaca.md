@@ -19,7 +19,7 @@ subject: Shared rental house in Collegetown, Ithaca
 tools:
 - ithaca-sublet-request-timeline
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate compatibility questionnaire, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
@@ -40,13 +40,13 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: General Obligations Law 7-108, New York State Senate
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus Living Resources, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building issues and maintenance, Cornell Law Tenants Advocacy
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -63,7 +63,7 @@ images: []
 - Small claims courts handle disputes up to $3,000 in towns and $5,000 in Ithaca City Court.
 ```
 
-When roommates on one lease disagree, the landlord can still demand the full rent from any of you. Settle it with a written agreement, a sublet, free mediation or, last, small claims. Cornell says most local leases bind housemates "jointly and severally," so each owes the others' rent and damages for the term ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)).
+When roommates on one lease disagree, the landlord can still demand the full rent from any of you. Settle it with a written agreement, a sublet, free mediation or, last, small claims. Cornell says most local leases bind housemates "jointly and severally," so each owes the others' rent and damages for the term ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)). This page is general information, not legal advice.
 
 ## What happens when a roommate stops paying?
 
@@ -85,13 +85,13 @@ rows:
 
 ## What if a roommate damages the apartment?
 
-The landlord can charge the deposit for damage beyond normal wear, and on a joint lease the deposit is shared, so everyone loses it together. A move-in inspection protects you: the landlord must offer one before you move in, and if it is accepted, both sides sign a written condition record and the landlord cannot keep the deposit for the defects listed ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). Photograph the unit at move-in and move-out. The sources reviewed do not say how a deposit is divided among roommates, so write the split into a roommate agreement. The [deposit rules guide](/cornell/housing/ithaca-security-deposit-rules-tenants/) and [move-out guide](/cornell/housing/moving-out-ithaca-apartment-deposit-back/) cover the 14-day return and the inspection.
+The landlord can charge the deposit for damage beyond normal wear, and on a joint lease the deposit is shared, so everyone loses it together. A move-in inspection protects you: the landlord must offer one before you move in, and if it is accepted, both sides sign a written condition record and the landlord cannot keep the deposit for the defects listed ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). Photograph the unit at move-in and move-out. Write how the deposit is split into a roommate agreement. The [deposit rules guide](/cornell/housing/ithaca-security-deposit-rules-tenants/) and [move-out guide](/cornell/housing/moving-out-ithaca-apartment-deposit-back/) cover the 14-day return and the inspection.
 
 <!-- ad-break -->
 
 ## Can you make a roommate leave?
 
-Not by yourselves. A roommate who signed the lease has the same right to live there as you do. Only the landlord can change who is on the lease, and any change should be in writing, signed by the landlord and every tenant. The Cornell Law lease guide does not cover removing a tenant, so call the hotline before you try.
+Not by yourselves. A roommate who signed the lease has the same right to live there as you do. Only the landlord can change who is on the lease, and any change should be in writing, signed by the landlord and every tenant. Call the Tenants Advocacy hotline at 607-301-1560 before you try.
 
 A different case is a person who lives there but did not sign. State law says a tenant must give an occupant's name to the landlord within 30 days of move-in or of the landlord asking, and an occupant has no right to stay if the tenant leaves ([RPL 235-f](https://www.nysenate.gov/legislation/laws/RPP/235-F)). On a multiple-tenant lease, tenants plus occupants cannot exceed the number of tenants on the lease. A landlord must give a licensee, a person who lives there with permission but no lease, a 10-day notice to quit before an eviction.
 
@@ -104,7 +104,7 @@ Your options are the same as for any tenant: a written release, a sublet or an a
 
 ## Who can help settle it?
 
-The Community Dispute Resolution Center offers mediation for neighbor, family and tenant disputes at 607-273-9347 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). Cornell's Off-Campus Living, at 607-255-2310, offers guides on conflict resolution with roommates and landlords and one-on-one consultations, but it does not represent students in disputes ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)).
+The Community Dispute Resolution Center offers mediation for neighbor, family and tenant disputes at 607-273-9347 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)). Cornell's Off-Campus Living, at 607-255-2310, offers guides on conflict resolution with roommates and landlords and one-on-one consultations, but it does not represent students in disputes ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)).
 
 ## When does small claims make sense?
 
@@ -115,7 +115,7 @@ Agree on a written roommate plan before you sign: who pays what, who finds a sub
 ```
 
 ```reader "If you're a parent or guarantor"
-A guarantor's exposure comes from the guaranty you signed. The Cornell Law lease guide does not cover guarantors, so read the guaranty itself. The [joint liability guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/) explains how one roommate's default reaches everyone.
+A guarantor's exposure comes from the guaranty you signed, so read it before a dispute starts. The [joint liability guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/) explains how one roommate's default reaches everyone.
 ```
 
 ## What to do next

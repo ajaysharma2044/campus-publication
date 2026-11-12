@@ -32,7 +32,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
@@ -65,7 +65,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits
   title: Security Deposits, Cornell Law School Tenants Advocacy
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
@@ -74,13 +74,13 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: New York Real Property Law 226-b, NY Senate
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
@@ -113,7 +113,7 @@ Off campus at Cornell costs more than the [$13,744 residence hall double for 202
 
 Cornell's [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) requires full-time, Ithaca-based first- and second-year students to live in Cornell or affiliated housing. Year two can be a residence hall, one of the eight university-owned co-ops or a recognized fraternity or sorority house.
 
-First- and second-years [should not sign a lease](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process) without an approved exemption. A student who neither meets the requirement nor gets one [will still be billed for the full year](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing), on top of rent.
+First- and second-years [should not sign a lease](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process) without an approved exemption. A student who neither meets the requirement nor gets one [will still be billed for the full year](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing), on top of rent.
 
 Exemptions are narrow: 21 or older by the start of the academic year, married, coming with legal dependents, a veteran who is not in ROTC, a transfer entering as a junior or senior, or a commuter living with a parent within 25 miles. Each lasts one academic year (Cornell residential policy).
 
@@ -176,7 +176,7 @@ rows:
 
 ## What happens if a housemate leaves?
 
-Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire): each is responsible for the others' rent and damages for the whole term. A tenant who overpays can sue a co-tenant for contribution ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). That is a lawsuit among friends, not a refund from the landlord.
+Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire): each is responsible for the others' rent and damages for the whole term. A tenant who overpays can sue a co-tenant for contribution ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). That is a lawsuit among friends, not a refund from the landlord.
 
 Example: your child signs a four-bedroom at $1,246.25 a bed with three friends. In January one friend leaves school and stops paying. The three who remain owe that rent, about $415.42 each a month on top of their own. From February through July, that is about $2,493 each ($415.42 times 6; rent from [Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
@@ -184,7 +184,7 @@ If you are asked to co-sign, the Cornell Law guide does not address guarantors, 
 
 ## How can I check a building is safe?
 
-Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) lets only people who prove Cornell affiliation contact landlords. Two checks are open to anyone.
+Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) lets only people who prove Cornell affiliation contact landlords. Two checks are open to anyone.
 
 ```figure
 kind: steps
@@ -196,11 +196,11 @@ rows:
   - {label: "Ask past tenants whether their deposits came back"}
 ```
 
-A Certificate of Compliance is the City of Ithaca's safety permit for rentals. Buildings with three or more units need one ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). Call the Building Division at 607-274-6508 or email ibd@cityofithaca.org and ask whether the address has a current certificate ([Cornell listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)).
+A Certificate of Compliance is the City of Ithaca's safety permit for rentals. Buildings with three or more units need one ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). Call the Building Division at 607-274-6508 or email ibd@cityofithaca.org and ask whether the address has a current certificate ([Cornell listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)).
 
-The safety lookup at safety.offcampusliving.cornell.edu shows sprinklers, extinguishers, smoke and carbon monoxide alarms and construction type. It covers City of Ithaca rentals only, not the Town of Ithaca, Lansing or Cayuga Heights, and it does not measure landlord quality or neighborhood safety ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)).
+The safety lookup at safety.offcampusliving.cornell.edu shows sprinklers, extinguishers, smoke and carbon monoxide alarms and construction type. It covers City of Ithaca rentals only, not the Town of Ithaca, Lansing or Cayuga Heights, and it does not measure landlord quality or neighborhood safety ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)).
 
-Cornell's [lease page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) suggests asking how long the last tenants stayed, who does repairs, and how to reach the landlord in an emergency. Read [reviews of Collegetown landlords](/housing/how-to-check-an-ithaca-landlords-record/) too.
+Cornell's [lease page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) suggests asking how long the last tenants stayed, who does repairs, and how to reach the landlord in an emergency. Read [reviews of Collegetown landlords](/housing/how-to-check-an-ithaca-landlords-record/) too.
 
 ## Who helps in a dispute?
 

@@ -76,13 +76,13 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: New York General Obligations Law 7-108
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
   title: Co-op Housing 2026-2027 Terms and Conditions, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate & Professional Student On-Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
@@ -143,7 +143,7 @@ Yes. New York caps a security deposit, plus any rent advance, at one month's ren
 
 ## Can you keep a pet in a Cornell dorm or co-op?
 
-Co-op licenses for 2026-27 allow only small caged pets and aquariums under 10 gallons ([Co-op Housing terms](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)). Cats and dogs belong in an off-campus apartment.
+Co-op licenses for 2026-27 allow only small caged pets and aquariums under 10 gallons ([Co-op Housing terms](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)). Cats and dogs belong in an off-campus apartment.
 
 <!-- ad-break -->
 
@@ -159,7 +159,7 @@ Lansing West lists only cats, so ask before you bring a dog. Winston Square limi
 
 ## What should you check in the lease before you sign?
 
-Cornell's own list of lease terms to check names pets twice: under extra costs and under restrictions ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). Get the species, weight and breed rules, the one-time fee, the monthly rent and any damage terms in the lease itself, not in an email. Our guide to [reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows where each clause sits.
+Cornell's own list of lease terms to check names pets twice: under extra costs and under restrictions ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)). Get the species, weight and breed rules, the one-time fee, the monthly rent and any damage terms in the lease itself, not in an email. Our guide to [reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows where each clause sits.
 
 ## What to do next
 

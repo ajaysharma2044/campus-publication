@@ -151,12 +151,12 @@
       lines.push(li("The ways out: you stop attending, you hold an approved exemption, or (second-years only) you are accepted to a Greek house, affiliated house or co-op before the Spring Housing Selection deadline. Change the reason above to see each."));
     } else if (under && reason === "greek") {
       head = "<p><strong>Only second-years can cancel on a house or co-op acceptance, and only if it came before the Spring Housing Selection deadline.</strong>" + (st === "second" ? "" : " First-years and new transfers cannot cancel for this reason.") + "</p>";
-      lines.push(li("Rising sophomores' selection runs in April; Greek-house residents affirm in the Housing Application by March 15 (2026 dates). The exact deadline for " + lic + " is not in our sources."));
-      lines.push(li("The fee, if any, for this release is not in our sources. Ask Housing Operations (housing@cornell.edu, 607-255-5368) before you sign with the house."));
+      lines.push(li("Rising sophomores' selection runs in April; Greek-house residents affirm in the Housing Application by March 15 (2026 dates). Confirm the " + lic + " deadline with Housing Operations (housing@cornell.edu)."));
+      lines.push(li("Ask Housing Operations (housing@cornell.edu, 607-255-5368) whether this release carries a fee before you sign with the house."));
     } else if (under && reason === "exempt") {
       head = "<p><strong>You can cancel if your exemption is approved.</strong> Cornell does not take exemption requests after you sign a license or during the license period.</p>";
       lines.push(li("Exemptions last one academic year and are requested in the Housing application during the open window (spring and fall)."));
-      lines.push(li("The fee, if any, for cancelling on an exemption is not in our sources. Ask Housing Operations (housing@cornell.edu, 607-255-5368)."));
+      lines.push(li("Ask Housing Operations (housing@cornell.edu, 607-255-5368) whether cancelling on an exemption carries a fee."));
     } else if (extenuating) {
       if (d <= pf) {
         var left = days(d, pf);

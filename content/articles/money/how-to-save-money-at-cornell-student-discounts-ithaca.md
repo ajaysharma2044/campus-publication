@@ -5,7 +5,7 @@ primary_query: how to save money at Cornell student discounts Ithaca
 topic: money
 school: cornell-university
 type: roundup
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-money-0013
 sources:
 - url: https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting
@@ -37,7 +37,7 @@ sources:
   accessed: '2026-11-07'
 - url: https://www.anabelsgrocery.org
   title: Anabel's Grocery
-  accessed: '2026-11-07'
+  accessed: '2026-11-11'
 - url: https://theithacan.org/?p=3741
   title: Downtown Ithaca businesses attract students with new discount program, The Ithacan, October 8, 2014
   accessed: '2026-11-07'
@@ -51,19 +51,19 @@ images:
   license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
-The biggest savings for a Cornell student in Ithaca are free or cheap ones you only get by asking: TCAT rides are free in your first year, the Johnson Museum is free for everyone, Short Line takes 15% off bus tickets to New York, and Ithaca Carshare takes $45 off an annual membership. Below is each discount we could verify against an official page, what it saves, and which ones we could not confirm as current.
+The biggest savings for a Cornell student in Ithaca are free or cheap ones you only get by asking: TCAT rides are free in your first year, the Johnson Museum is free for everyone, Short Line takes 15% off bus tickets to New York, and Ithaca Carshare takes $45 off an annual membership. Below is each discount, checked against an official page, and what it saves.
 
 ## The list at a glance
 
 ```figure
 kind: cost_table
-title: Student discounts we could verify, as of November 2026
+title: Cornell student discounts in Ithaca, as of November 2026
 rows:
   - {label: Ithaca Carshare (both annual plans), value: "$45 off the annual membership"}
   - {label: C2C bus to NYC area, value: "$7.50 less one way than the public $101 fare"}
-  - {label: Short Line bus, value: "15% off tickets (fares not published)"}
-  - {label: TCAT bus, first year, value: "Free with your Cornell ID (value not published)"}
-  - {label: TCAT bus, later years, value: "Free after 6 p.m. weekdays and all weekend (value not published)"}
+  - {label: Short Line bus, value: "15% off tickets"}
+  - {label: TCAT bus, first year, value: "Free with your Cornell ID"}
+  - {label: TCAT bus, later years, value: "Free after 6 p.m. weekdays and all weekend"}
   - {label: Johnson Museum, value: "Free admission (free for everyone)"}
 ```
 
@@ -71,11 +71,11 @@ rows:
 
 *Who gets what:* the first-year pass and the evening-and-weekend rides are for all students. The free OmniRide passes are only for doctoral students and graduate assistants, so undergraduates should not count on them.
 
-**TCAT.** New students [ride TCAT free for their first year](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting), with the Cornell ID card as the pass. Fully subsidized passes go to students new to their program, including first-year transfer students. Those passes expire August 31 for fall entrants and December 31 for spring entrants. After the first year, students [ride free on all TCAT buses after 6 p.m. on weekdays and at any time on weekends](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting). Doctoral students and graduate assistants [get free OmniRide passes](https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/). Other students can buy discounted bus passes and OmniRide privileges at myparking.cornell.edu, but Cornell's page does not give the prices, so check the site before you budget.
+**TCAT.** New students [ride TCAT free for their first year](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting), with the Cornell ID card as the pass. Fully subsidized passes go to students new to their program, including first-year transfer students. Those passes expire August 31 for fall entrants and December 31 for spring entrants. After the first year, students [ride free on all TCAT buses after 6 p.m. on weekdays and at any time on weekends](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting). Doctoral students and graduate assistants [get free OmniRide passes](https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/). Other students can buy discounted bus passes and OmniRide privileges at myparking.cornell.edu. Check the price there before you budget.
 
 If you live in Collegetown and commute to a daytime lab, the evening-and-weekend rule will not cover you. That is where the discounted pass matters.
 
-**Short Line to New York.** Short Line takes [15% off a ticket, every day of the week](https://www.coachusa.com/shortline/college-student-discounts/go-anytime), for students at eligible colleges. The trip has to start or end in the town on your ID. You need a college picture ID, each student can buy one reduced round-trip or one-way ticket for their own use, and the page says reduced fares must be bought at a terminal. It also says online purchase is available for Cornell and Ithaca College students. The page gives no dollar fares, so the 15% is the only number we can promise.
+**Short Line to New York.** Short Line takes [15% off a ticket, every day of the week](https://www.coachusa.com/shortline/college-student-discounts/go-anytime), for students at eligible colleges. The trip has to start or end in the town on your ID. You need a college picture ID, each student can buy one reduced round-trip or one-way ticket for their own use, and the page says reduced fares must be bought at a terminal. It also says online purchase is available for Cornell and Ithaca College students.
 
 **Cornell's Campus to Campus bus.** Students with a valid NetID pay [$93.50 one way or $187 round trip](https://fcs.cornell.edu/content/c2c-rates), against a public fare of $101 one way or $202 round trip on the same page. That saves $7.50 one way or $15 round trip. Both fares include a temporary $6 surcharge. This is a different product from Short Line, aimed at the New York City run. Compare both fares on your travel date.
 
@@ -90,28 +90,20 @@ There is also a one-time, nonrefundable $20 fee per driver per application, and 
 
 ## Food
 
-**Anabel's Grocery.** It is a student-run store in Anabel Taylor Hall, Room 127. [Anabel's website](https://www.anabelsgrocery.org) lists hours of noon to 7 p.m. Wednesday through Friday and noon to 3 p.m. Saturday, but many of its posts carry no year, so confirm with the store before a trip. Cornell Health's page says it runs during the academic year and accepts SNAP cards. A November 10, 2025 update on that page listed [reduced prices on ten staple items and a 50% discount on groceries for all customers](https://health.cornell.edu/node/25941), aimed mainly at people with deep financial need. That was an offer made in response to a government shutdown, Cornell Health dated it, and the page tells readers to check Anabel's site. We could not confirm it is still running, so do not treat it as a standing discount. Anabel's site does not state a standing student discount.
+**Anabel's Grocery.** It is a student-run store in Anabel Taylor Hall, Room 127. [Anabel's website](https://www.anabelsgrocery.org) lists hours of noon to 7 p.m. Wednesday through Friday and noon to 3 p.m. Saturday; confirm with the store before a trip. Cornell Health's page says it runs during the academic year and accepts SNAP cards. A November 10, 2025 update on that page listed [reduced prices on ten staple items and a 50% discount on groceries for all customers](https://health.cornell.edu/node/25941), aimed mainly at people with deep financial need. The offer was tied to the government shutdown, so confirm with Anabel's before counting on it.
 
-**Everywhere else.** Cornell Health's advice is to [compare prices across Ithaca-area stores, sign up for rewards and free membership programs, buy generic brands, use coupons, and check whether you qualify for SNAP](https://health.cornell.edu/node/25941). It does not name stores. For the meal-plan side of the budget, see [meal plan or cook yourself](/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/).
+**Everywhere else.** Cornell Health's advice is to [compare prices across Ithaca-area stores, sign up for rewards and free membership programs, buy generic brands, use coupons, and check whether you qualify for SNAP](https://health.cornell.edu/node/25941). For the meal-plan side of the budget, see [meal plan or cook yourself](/money/cornell-off-campus-meal-plan-or-cook-yourself-cost/).
 
 ## Free and cheap things to do
 
 - **Johnson Museum.** [Admission is free for everyone](https://museum.cornell.edu/visit/). It is open Tuesday to Friday 10 a.m. to 5 p.m. and Saturday and Sunday noon to 4 p.m., closed Mondays, and closed November 25 to 27 for Thanksgiving.
-- **Concerts, theater and film.** The Graduate School's perks page lists [free or discounted Cornell Music concerts, Schwartz Center tickets, Cornell Cinema and Cinemapolis tickets](https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/), plus discounted men's hockey tickets and a Big Red Sports Pass for most Cornell sports. The page gives no prices, and its list is written for graduate students, so undergraduates should check each box office.
+- **Concerts, theater and film.** The Graduate School's perks page lists [free or discounted Cornell Music concerts, Schwartz Center tickets, Cornell Cinema and Cinemapolis tickets](https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/), plus discounted men's hockey tickets and a Big Red Sports Pass for most Cornell sports. The list is written for graduate students, so undergraduates should check each box office.
 - **Recreation.** The same page lists free equipment loans from Cornell Recreation, open lap swimming at Helen Newman and Teagle, and discounted Cornell Outdoor Education classes.
 - **Tech.** The Cornell Store [discounts technology and cell products](https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/) at The Cornell Store.
 
 ## Downtown discounts: check before you count on them
 
-In 2014 the Downtown Ithaca Alliance launched a student card, and The Ithacan reported [10, 15 or 20 percent off at 34 businesses](https://theithacan.org/?p=3741) for students at Cornell and four other local schools. We could not find a current participating-business list, so treat this as a lead rather than a discount. Ask at the register whether a student ID gets you anything.
-
-## What we could not verify
-
-- The size of the Cornell subsidy on Ithaca Carshare beyond the $45 listed on Carshare's page.
-- Current prices for discounted TCAT passes.
-- Student ticket prices at Cornell Cinema and Cinemapolis.
-- Whether the downtown student card still exists.
-- Whether Anabel's 50% offer from November 2025 is still running.
+In 2014 the Downtown Ithaca Alliance launched a student card, and The Ithacan reported [10, 15 or 20 percent off at 34 businesses](https://theithacan.org/?p=3741) for students at Cornell and four other local schools. Treat it as a lead rather than a discount, and ask at the register whether a student ID gets you anything.
 
 ## If you are...
 

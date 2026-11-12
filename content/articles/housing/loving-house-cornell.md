@@ -32,19 +32,19 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergraduate Application Process, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
   accessed: '2026-11-10'
 images:
@@ -67,7 +67,7 @@ images:
 - A double costs $13,744 for 2026-27, and a meal plan is required.
 ```
 
-Loving House is a Cornell program house with 30 residents on the first floor of Mews Hall, opened in 2019. Rooms are singles and doubles in mixed-gender pods. A program house is a themed residence hall, and a double costs $13,744 for 2026-27, the same as in any hall ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Loving House is a Cornell program house with 30 residents on the first floor of Mews Hall, opened in 2019. Rooms are singles and doubles in mixed-gender pods. A program house is a themed residence hall, and a double costs $13,744 for 2026-27, the same as in any hall ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is Loving House?
 
@@ -112,7 +112,7 @@ Off campus, a share of a Collegetown four-bedroom has a median asking rent of $1
 
 ## How do you get into Loving House?
 
-New students list a program house on the housing application. They apply within 10 days of getting a NetID, and halls not chosen are assigned by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027, and program house priority selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+New students list a program house on the housing application. They apply within 10 days of getting a NetID, and halls not chosen are assigned by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027, and program house priority selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 A program house counts as on-campus housing, so living there meets the two-year residential requirement. If you want to live off campus, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
@@ -124,7 +124,7 @@ Yes, and it costs nothing. Loving House and HILC residents stay free over winter
 
 Check the cancellation schedule before you commit. The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
-On move-in day, the Mews and Loving House entrance uses Program House Drive. In fall 2026 Cornell turned away U-Hauls and trailers ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)).
+On move-in day, the Mews and Loving House entrance uses Program House Drive. In fall 2026 Cornell turned away U-Hauls and trailers ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)).
 
 ## What to do next
 

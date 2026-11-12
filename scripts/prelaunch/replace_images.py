@@ -103,6 +103,9 @@ def main() -> int:
         else:
             remove_lead(page, slug)
             rows.append((slug, "removed", reason[:90], ""))
+    if APPLY:   # the scorer (scripts/prelaunch/score_pages.py) reads this: a replaced lead image passed Phase 6, a removed one leaves no image to judge
+        final = {slug: ("removed" if outcome.startswith("removed") else "keep") for slug, outcome, _, _ in rows if "not found" not in outcome}
+        (REPO / "reports" / "06-images-final.json").write_text(json.dumps(final, indent=1, sort_keys=True), encoding="utf-8")
     out = REPO / "reports" / "06-images.md"
     L = [f"# Phase 6: lead images ({date.today().isoformat()})", "",
          "Every lead image was judged by a reviewer (reports/06-images-review.json: shows the subject, generic, caption true, older than 20 years) and every replace or remove verdict rechecked by a skeptic (reports/06-images-rechecks.json). "

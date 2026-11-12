@@ -7,7 +7,7 @@ primary_query: breaking a lease in ithaca
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 queue_id: q-housing-0036
 idea_id: 179
 rewrites: /cornell/housing/breaking-a-lease-early-ithaca-cornell/
@@ -25,37 +25,37 @@ tools:
 sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a lease, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: Real Property Law 226-b, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/227-E
   title: Real Property Law 227-e, New York State Senate
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate compatibility questionnaire, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
   title: Understanding your lease, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/living-campus
   title: Living on campus and off, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: 'Ithaca Renting: Collegetown properties and per-bed prices'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic-year housing license 2026-27, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic-year housing license 2027-28, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: 'Grad tips: renting, Cornell Graduate School'
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Day Hall, a tall stone and brick administration building on the Cornell campus, under a blue sky
@@ -77,7 +77,9 @@ kind: reader_guide
 - Housemates on a joint lease stay liable for your share until the landlord releases you.
 ```
 
-Cornell warns that a local lease cannot be broken without consequences, and the consequence is usually money. Its housemate questions ask what happens to the lease if you study abroad, transfer or take a leave ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)).
+Cornell warns that a local lease cannot be broken without consequences, and the consequence is usually money. Its housemate questions ask what happens to the lease if you study abroad, transfer or take a leave ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)).
+
+This page is general information, not legal advice.
 
 ## What are your four options?
 
@@ -119,7 +121,7 @@ Cornell Financial Aid will not intervene in a mid-year attempt to break a lease 
 
 ## What do your housemates owe?
 
-Most local leases bind housemates jointly and severally, which means each is responsible for the housemates' rent and damages for the whole term ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). Cornell Law adds that where a lease makes rent joint and several, each tenant can be held for the whole rent ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). Here is the size of that exposure. A five-month semester in a Collegetown 4BR at the 2027-28 median of $1,246.25 per bed is $6,231.25 (5 x $1,246.25) ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Agree in writing before you sign who finds the subtenant and who pays if none turns up. The full liability picture is in the [roommate liability guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
+Most local leases bind housemates jointly and severally, which means each is responsible for the housemates' rent and damages for the whole term ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)). Cornell Law adds that where a lease makes rent joint and several, each tenant can be held for the whole rent ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). Here is the size of that exposure. A five-month semester in a Collegetown 4BR at the 2027-28 median of $1,246.25 per bed is $6,231.25 (5 x $1,246.25) ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Agree in writing before you sign who finds the subtenant and who pays if none turns up. The full liability picture is in the [roommate liability guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/).
 
 ## Are there legal exits?
 
@@ -150,7 +152,7 @@ A program ending early does not end the lease. Get a written termination or a si
 ```
 
 ```reader "If you're a parent or guarantor"
-The Cornell Law guide's lease page does not cover guarantors, so the guaranty you signed sets your exposure. A sublet request must include any guarantor's consent, so expect to sign.
+The guaranty you signed sets your exposure, so read its terms before your student leaves. A sublet request must include any guarantor's consent ([RPL 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)), so expect to sign.
 ```
 
 ## What to do next

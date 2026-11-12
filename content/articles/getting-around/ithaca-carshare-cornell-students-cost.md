@@ -89,14 +89,14 @@ images:
 - Cornell students pay $30 a year plus $9 an hour (Just In Case) or $310 a year plus $6 an hour (It's My Car).
 - Add a one-time $20 sign-up, 42 to 52 cents a mile and 20% in taxes on usage.
 - Under about 93 driving hours a year (about 78 counting tax), Just In Case is cheaper.
-- You must be 18 with a license held 2 years; under 21 needs your own insurance policy with $300,000 liability.
+- You must be 18 with a license held 2 years; under 21 needs a car insurance policy that lists you as a driver, with $300,000 liability.
 - An International Driving Permit is not accepted as a driving record.
 ```
 
 Ithaca Carshare is worth it for most Cornell students who drive a few times a month and do not own a car. Pick the Cornell-subsidized Just In Case plan, [$30 a year plus $9 an hour](https://www.ithacacarshare.org/students-commuters), unless you will drive more than about 78 to 93 hours a year. Check the [eligibility rules](https://www.ithacacarshare.org/eligibility) before you pay, because under-21s and foreign licenses face extra hurdles.
 
 ```reader "If you're an upper-year without a car"
-You lost free daytime TCAT after first year, so errands now cost $1.50 a ride before 6 p.m. on weekdays ([Cornell TDS](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Carshare fills the gaps the bus does not: a big grocery haul, a hardware run, moving a desk. Join Just In Case at $30 a year; a 2-hour, 8-mile grocery run then costs about $25.63 with tax, by our math. Do the trip after 6 p.m. or on a weekend and TCAT is free instead. The mistake that costs most: applying under 21 without your own car insurance policy. Carshare cannot approve you, and the $20 sign-up is non-refundable.
+You lost free daytime TCAT after first year, so errands now cost $1.50 a ride before 6 p.m. on weekdays ([Cornell TDS](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Carshare fills the gaps the bus does not: a big grocery haul, a hardware run, moving a desk. Join Just In Case at $30 a year; a 2-hour, 8-mile grocery run then costs about $25.63 with tax, by our math. Do the trip after 6 p.m. or on a weekend and TCAT is free instead. The mistake that costs most: applying under 21 without a car insurance policy that lists you as a driver. Carshare cannot approve you, and the $20 sign-up is non-refundable.
 ```
 
 ```reader "If you're a grad or professional student"
@@ -123,7 +123,7 @@ OmniRide passes expire Aug 31 ([Cornell TDS](https://fcs.cornell.edu/departments
 
 No. Cornell's car-sharing page points students to [Ithaca Carshare](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing), the local nonprofit, not Zipcar.
 
-Ithaca Carshare runs about 20 vehicles across the city, with maintenance and insurance included ([Ithaca Carshare](https://www.ithacacarshare.org)). The fleet has fuel-efficient cars, a minivan and a pickup truck, with 24/7 access ([Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation)). Cornell lists [four on-campus pickup spots plus four in Collegetown and nearby](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing). Each car parks at its own designated home space, and members see every car's exact location in the reservation system ([Carshare FAQ](https://www.ithacacarshare.org/frequently-asked-questions/)).
+Ithaca Carshare runs about 20 vehicles across the city, with maintenance and insurance included ([Ithaca Carshare](https://www.ithacacarshare.org)). The fleet has fuel-efficient cars, a minivan and a pickup truck, with 24/7 access ([Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation)). Cornell lists [four on-campus pickup spots plus four in Collegetown and nearby](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing). Each car parks at its own designated home space, and members see every car's accurate location in the reservation system ([Carshare FAQ](https://www.ithacacarshare.org/frequently-asked-questions/)).
 
 ## How much Ithaca Carshare costs a Cornell student
 
@@ -210,7 +210,7 @@ The under-21 rule is the one that stops sophomores. A parent's policy can work i
 kind: steps
 title: Joining Ithaca Carshare as a Cornell student
 rows:
-  - {label: "Check eligibility: 18+, license held 2 years, own policy if under 21"}
+  - {label: "Check eligibility: 18+, license held 2 years, listed on a car insurance policy if under 21"}
   - {label: "Apply at reserve.ithacacarshare.org/orientation and pay the $20 sign-up"}
   - {label: "Choose Just In Case ($30 a year) or It's My Car ($310 a year)"}
   - {label: "Reserve a car at a campus or Collegetown pod and drive"}
@@ -258,7 +258,7 @@ Old prices also still rank. In 2008, the frequent-use plan was $200 a year plus 
 
 **Can I rent the pickup truck for move-out?** The fleet includes a minivan and a pickup ([Ithaca College](https://www.ithaca.edu/orientation/family-and-guest-resources/transportation)). The truck bills at 52 cents a mile and the van at 44, against 42 for a car ([rates](https://www.ithacacarshare.org/rates)).
 
-**Is there a low-income plan?** Yes, but not for Cornell students. Easy Access costs $10 a month plus $6 an hour, with $20 a month in driving credits, for Tompkins County residents with income at or below 150% of the federal poverty guideline. Anyone eligible for a school or employer discount, or with a household member who is, cannot join ([Easy Access](https://www.ithacacarshare.org/easy-access/)). Cornell students qualify for the Cornell discount.
+**Is there a low-income plan?** Yes, but not for Cornell students. Easy Access costs $10 a month plus $6 an hour, with $20 a month in driving credits, for Tompkins County residents with income at or below 150% of the federal poverty guideline. Anyone eligible for a school or employer discount, or with a household member who is, cannot join ([Easy Access](https://www.ithacacarshare.org/easy-access/)). Cornell subsidizes annual memberships for its students instead ([students and commuters](https://www.ithacacarshare.org/students-commuters)).
 
 **Can two of us share one membership?** Student annual plans cover up to two drivers ([students and commuters](https://www.ithacacarshare.org/students-commuters)). Each driver pays the $20 sign-up.
 

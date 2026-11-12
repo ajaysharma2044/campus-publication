@@ -32,16 +32,16 @@ sources:
 - url: https://www.cornellsun.com/article/2025/02/bsu-holds-emergency-meeting-as-affinity-groups-program-houses-are-threatened-by-department-of-education-guidelines
   title: BSU Holds Emergency Meeting as Affinity Groups, Program Houses Are Threatened, The Cornell Daily Sun, Feb. 2025
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergraduate Application Process, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
@@ -70,7 +70,7 @@ images:
 - Student leaders told the Sun in 2025 that non-Indigenous students fill overflow rooms.
 ```
 
-Akwe:kon is a 35-resident Cornell program house on North Campus, opened in 1991, with singles and doubles and no air conditioning. A program house is a themed residence hall organized around a shared community. Rooms cost the same as any hall: $13,744 for a double in 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Akwe:kon is a 35-resident Cornell program house on North Campus, opened in 1991, with singles and doubles and no air conditioning. A program house is a themed residence hall organized around a shared community. Rooms cost the same as any hall: $13,744 for a double in 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is Akwe:kon?
 
@@ -117,7 +117,7 @@ Cheaper Cornell options exist. Double rooms across the eight co-ops run $6,974 t
 
 ## How do you get into Akwe:kon?
 
-New students list a program house on the housing application. They apply within 10 days of getting a NetID, and halls not chosen are assigned by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027, and program house priority selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+New students list a program house on the housing application. They apply within 10 days of getting a NetID, and halls not chosen are assigned by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027, and program house priority selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 At a March 10, 2026, town hall, administrators said most program houses have no formal application process. Placement uses preferences, availability, accommodations and roommate groups ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns)).
 

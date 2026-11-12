@@ -8,7 +8,8 @@ type: comparison
 updated: 2026-11-11
 queue_id: q-transfer-0010
 kind: spoke
-subject: Alice Cook House Cornell
+subject:
+- Alice Cook House Cornell
 readers:
 - transfer
 - parent
@@ -40,7 +41,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027
@@ -83,6 +84,7 @@ sources:
   title: Transferring Credits, Cornell Arts and Sciences Registrar
   accessed: '2026-11-11'
 images: []
+lead_photo: none-found 2026-11-11
 ---
 ```glance
 - The required on-campus year bills $95,218 (triple) to $99,169 (super single) at 2026-27 endowed or out-of-state prices, before aid.
@@ -96,7 +98,7 @@ images: []
 At 2026-27 prices, a new Cornell transfer's required year on campus bills $95,218 to $99,169 for tuition, fees, room and meal plan, at the [endowed and out-of-state tuition of $73,946](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). A New York resident in a contract college pays $49,816 tuition, so the same year bills $71,088 to $75,039. With books and personal costs, Cornell's [cost of attendance](https://finaid.cornell.edu/cost-attend) is $99,734 or $75,604, before need-based aid and before the health plan.
 
 ```reader "If you're a sophomore transfer"
-You must [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates), so room and meal plan are not optional. Budget $96,318 billed for a hall double with the Unlimited or House plan at endowed tuition. Apply on the Housing and Dining Portal within ten days of getting your NetID; there is [no application fee and no damage deposit](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process), and confirmations start in mid-June. Rooms are assigned by random auto-allocation, so you do not fully pick your price row. The costly mistake is signing a Collegetown lease for the required year: new transfers cannot cancel the housing license, so you would pay rent twice.
+You must [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates), so room and meal plan are not optional. Budget $96,318 billed for a hall double with the Unlimited or House plan at endowed tuition. Apply on the Housing and Dining Portal within ten days of getting your NetID; there is [no application fee and no damage deposit](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process), and confirmations start in mid-June. Rooms are assigned by random auto-allocation, so you do not fully pick your price row. The costly mistake is signing a Collegetown lease for the required year: new transfers cannot cancel the housing license, so you would pay rent twice.
 ```
 
 ```reader "If you're a parent of a transfer"
@@ -116,7 +118,7 @@ You pay $73,946 tuition at every Cornell college, so your required year bills $9
 ```
 
 ```reader "If you're a junior-entry transfer"
-Entering as a junior [exempts you from the one-year housing rule](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy), so your fixed bill is $74,970 in tuition and fees at endowed rates for 2026-27. Housing is your choice: a large-building Collegetown studio averaged $2,006 a month in October 2026, against about $1,527 a month for a hall double over nine months. Off-campus meal plans start at [$1,000 a year for Just Bucks](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). The costly mistake is arriving with too many credits: under [Arts and Sciences rules](https://as.cornell.edu/registrar/transferring-credits), 90 credits means 30 lost and a tenth semester, about $74,970 more.
+Entering as a junior [exempts you from the one-year housing rule](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy), so your fixed bill is $74,970 in tuition and fees at endowed rates for 2026-27. Housing is your choice: a large-building Collegetown studio averaged $2,006 a month in October 2026, against about $1,527 a month for a hall double over nine months. Off-campus meal plans start at [$1,000 a year for Just Bucks](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). The costly mistake is arriving with too many credits: under [Arts and Sciences rules](https://as.cornell.edu/registrar/transferring-credits), 90 credits means 30 lost and ten semesters instead of eight, about $74,970 more in tuition and fees.
 ```
 
 ```reader "If you're a transfer with a partner or children"
@@ -167,7 +169,7 @@ rows:
 
 Every row differs by $24,130 between the columns, the tuition gap. The cheapest and dearest rooms are $3,951 apart. The $96,318 double row matches Cornell's own [billed total](https://finaid.cornell.edu/cost-attend). Neither includes the $50 meal plan fee.
 
-You do not fully choose your row. Halls are filled by [random auto-allocation](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) from your preferences. Program Houses are the only places you pick by name. Transfers go to upper-level areas: [Program Houses, South Campus, the West Campus House System and the co-ops](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates).
+You do not fully choose your row. Halls are filled by [random auto-allocation](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) from your preferences. Program Houses are the only places you pick by name. Transfers go to upper-level areas: [Program Houses, South Campus, the West Campus House System and the co-ops](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates).
 
 Example: a sophomore from Ohio enters Arts and Sciences and lands in a West Campus double. Tuition $73,946, fees $1,024, room $13,744 and the House plan $7,604 make $96,318. The $50 meal plan fee brings it to $96,368. Without a health plan waiver, add $3,751: $100,119 billed in year one, before aid.
 
@@ -219,13 +221,23 @@ rows:
   - {label: "Spring tuition and meal plan billed", date: "January"}
 ```
 
-Fall housing appears on the [July or August Bursar bill](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process), spring housing in December. The meal plan is [billed in July and January](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). Payment tools include the Cornell Installment Plan and an elective Tuition Refund Plan.
+Fall housing appears on the [July or August Bursar bill](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process), spring housing in December. The meal plan is [billed in July and January](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). Payment tools include the Cornell Installment Plan and an elective Tuition Refund Plan.
 
 Fall 2027 entrants will pay 2027-28 prices, which are not yet published. The aid office says rates are [confirmed before the early April 2027 aid offers](https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants). If the next rise matched this year's 3.76%, endowed tuition would go up about $2,780; that is our arithmetic, not a forecast.
 
 ## Two years, and what changes in year two
 
 Arts and Sciences requires [four semesters at Cornell](https://as.cornell.edu/registrar/transferring-credits), so a sophomore transfer pays for at least two years. At 2026-27 rates, two years of Cornell's full cost of attendance come to $199,468 at endowed tuition and $151,208 at NY contract tuition, before aid and increases. Tuition alone is $147,892 or $99,632.
+
+```figure
+kind: cost_table
+title: Two years at 2026-27 rates, before aid and increases
+rows:
+  - {label: "Full cost of attendance, endowed tuition", value: "$199,468"}
+  - {label: "Full cost of attendance, NY contract tuition", value: "$151,208"}
+  - {label: "Tuition only, endowed", value: "$147,892"}
+  - {label: "Tuition only, NY contract", value: "$99,632"}
+```
 
 Year two can be off campus. A hall double works out to about $1,527 a month over the nine-month academic year. A large-building Collegetown studio averaged [$2,006 a month on October 30, 2026](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/), a one-bedroom $2,342 and a two-bedroom $3,414; RentCafe counts only buildings of 50 or more units. Desirable Collegetown leases leave the market [up to 16 months before move-in](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/), so start the year-two search in your first fall.
 
@@ -247,7 +259,7 @@ US transfers file the CSS Profile and FAFSA by [March 15, 2027 for fall 2027](ht
 
 ## FAQ
 
-**Is there a housing application fee or deposit?** No. For 2026-27 the housing application has [no fee and no damage deposit](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process).
+**Is there a housing application fee or deposit?** No. For 2026-27 the housing application has [no fee and no damage deposit](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process).
 
 **Does Cornell give transfers merit scholarships?** No. Aid is need-based only, and Cornell [meets 100% of demonstrated need](https://admissions.cornell.edu/apply/transfer-applicants) for admitted undergraduates.
 

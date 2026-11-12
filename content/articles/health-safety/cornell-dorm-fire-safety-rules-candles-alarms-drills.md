@@ -30,16 +30,16 @@ sources:
 - url: https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed
   title: 301 College Ave Opens for Student Housing, The Cornell Daily Sun, September 7, 2026
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Off-Campus Living
   accessed: '2026-11-10'
 - url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
   title: Certificate of Compliance, City of Ithaca
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: Living Off Campus, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads
@@ -106,11 +106,11 @@ Check the banned list above before you buy or ship dorm gear. A space heater, ca
 
 ## How do I check fire safety in an Ithaca apartment?
 
-A smoke detector is required by law, and each unit needs two means of egress, or ways out ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). Cornell Off-Campus Living and the City Building Division run an online tool at safety.offcampusliving.cornell.edu. It shows sprinklers, extinguishers, smoke and carbon monoxide alarms and building type for City of Ithaca rentals, and it updates daily ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)). The tool covers City rentals only, not the Town of Ithaca, Lansing or Cayuga Heights.
+A smoke detector is required by law, and each unit needs two means of egress, or ways out ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)). Cornell Off-Campus Living and the City Building Division run an online tool at safety.offcampusliving.cornell.edu. It shows sprinklers, extinguishers, smoke and carbon monoxide alarms and building type for City of Ithaca rentals, and it updates daily ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). The tool covers City rentals only, not the Town of Ithaca, Lansing or Cayuga Heights.
 
 A City rental also needs a Certificate of Compliance, the city's inspection permit. The inspection covers structure, fire protection, exits, electrical work and fire walls ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). A building with three or more units, or a unit with six or more unrelated people, must hold one. To check a property, call the City Building Division at 607-274-6508.
 
-Cornell also points renters to GradGuard renters insurance, which covers fire and smoke damage ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus)). The [parents' off-campus guide](/cornell/housing/cornell-off-campus-housing-for-parents/) covers the safety questions parents ask, and the [landlord rules guide](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/) explains what owners must provide.
+Cornell also points renters to GradGuard renters insurance, which covers fire and smoke damage ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus)). The [parents' off-campus guide](/cornell/housing/cornell-off-campus-housing-for-parents/) covers the safety questions parents ask, and the [landlord rules guide](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/) explains what owners must provide.
 
 ## What to do next
 

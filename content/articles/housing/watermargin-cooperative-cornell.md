@@ -7,7 +7,7 @@ primary_query: Watermargin co-op Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 102
 rewrites: ''
 readers:
@@ -32,7 +32,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
 images: []
@@ -74,15 +74,15 @@ Source: Cornell Housing, Cornell Chronicle and Cornell's 2026-27 rate table.
 
 For 2026-27 a double is $4,317 per semester, or $8,634 for two semesters. A single runs from $4,889 to $5,213 per semester, which is $9,778 to $10,426 for the year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
-A hall double costs $13,744 for the year, so the Watermargin double is $5,110 less. Watermargin is one of four houses that Cornell lists with a house meal plan ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Cornell's pages do not give its price, so ask the house before you compare totals. For leases, read [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
+A hall double costs $13,744 for the year, so the Watermargin double is $5,110 less. Watermargin is one of four houses that Cornell lists with a house meal plan ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Ask the house what the plan costs before you compare totals. For leases, read [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
 
 <!-- ad-break -->
 
 ## How do you get into Watermargin?
 
-The house picks residents by random lottery, aimed at a diverse mix, and it allows nonresidential membership. Each co-op runs its own selection, which starts in early November and early February (Cornell Housing). Write to co-ops@cornell.edu or call 607-255-3445 for current steps. Nonresidential membership lets you join house life without a room, and Cornell's page does not say what it costs.
+The house picks residents by random lottery, aimed at a diverse mix, and it allows nonresidential membership. Each co-op runs its own selection, which starts in early November and early February (Cornell Housing). Write to co-ops@cornell.edu or call 607-255-3445 for current steps. Nonresidential membership lets you join house life without a room.
 
-Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ## What should you watch?
 

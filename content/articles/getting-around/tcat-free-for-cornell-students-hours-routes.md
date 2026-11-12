@@ -202,7 +202,7 @@ Example: a junior lives downtown and takes Route 10 to campus and back on all fi
 
 Example: a sophomore in Collegetown walks to class and rides only on two rainy weekdays, round trip. That is 4 paid rides a week, or 120 over an assumed 30-week year. At $1.50, that is $180, so cash beats the $200 pass.
 
-If you ride a lot on one weekday, TCAT caps fares at [$3 a day](https://www.masstransitmag.com/technology/fare-collection/fare-collection-equipment/news/55324585/tompkins-consolidated-area-transit-inc-tcat-tcat-and-genfare-introduce-tap-to-pay-fare-collection-daily-fare-capping): pay with the same contactless card, phone or rechargeable T-card, and every ride after the second is free for the rest of that service day. TCAT's unlimited monthly pass costs $45, the price of 30 cash fares; five months of passes ($225) cost more than a year of OmniRide.
+If you ride a lot on one weekday, TCAT caps fares at [$3 a day](https://www.masstransitmag.com/technology/fare-collection/fare-collection-equipment/news/55324585/tompkins-consolidated-area-transit-inc-tcat-tcat-and-genfare-introduce-tap-to-pay-fare-collection-daily-fare-capping): pay with the same contactless card, phone or rechargeable T-card, and every ride after the second is free for the rest of that service day.
 
 ## How to pay when your ID fails
 

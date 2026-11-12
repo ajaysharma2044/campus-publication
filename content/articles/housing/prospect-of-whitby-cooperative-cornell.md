@@ -7,7 +7,7 @@ primary_query: Prospect of Whitby co-op Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 103
 rewrites: ''
 readers:
@@ -29,7 +29,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
 images: []
@@ -71,15 +71,15 @@ The same feature, from November 2023, describes a co-president who transferred i
 
 For 2026-27 a double is $4,318 per semester, or $8,636 for two semesters. A single is $4,889 to $5,213 per semester ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
-A hall double costs $13,744 for the year, so the Whitby double is $5,108 less. Whitby is one of four houses that Cornell lists with a house meal plan ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Cornell's pages do not give the plan's price, so email prospectofwhitby@cornell.edu before you compare totals. For leases, see [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
+A hall double costs $13,744 for the year, so the Whitby double is $5,108 less. Whitby is one of four houses that Cornell lists with a house meal plan ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Email prospectofwhitby@cornell.edu for the plan's price before you compare totals. For leases, see [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
 
 <!-- ad-break -->
 
 ## How do you get into Prospect of Whitby?
 
-Each co-op runs its own selection, and selection starts in early November and early February (Cornell Housing). Write to co-ops@cornell.edu or call 607-255-3445 for Whitby's steps, since Cornell's house page does not list them.
+Each co-op runs its own selection, and selection starts in early November and early February (Cornell Housing). Write to co-ops@cornell.edu or call 607-255-3445 for Whitby's steps.
 
-Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ```reader "If you're a graduate student"
 Whitby does not list graduate students as eligible ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/prospect-whitby)). Five other co-op pages do: [Wait Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [Redbud](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall).

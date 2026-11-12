@@ -37,7 +37,7 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-I
   title: New York Real Property Law Section 235-I, NY State Senate
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out
   title: Moving In and Out, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
@@ -46,7 +46,7 @@ sources:
 - url: https://ccetompkins.org/your-home-money/tenant-landlord-issues
   title: Tenant-Landlord Issues, Cornell Cooperative Extension Tompkins County
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus Living Resources, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
@@ -67,7 +67,7 @@ sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown, Ithaca Renting
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
@@ -79,9 +79,6 @@ sources:
 - url: https://cornellsun.com/2004/12/02/good-bad-and-slummy-collegetown-landlords/
   title: Good, Bad and Slummy Collegetown Landlords, The Cornell Daily Sun, December 2, 2004
   accessed: '2026-11-08'
-- url: https://ecode360.com/8391400
-  title: 'City of Ithaca Code Chapter 258, Rental Housing, Article I: Security Deposits, eCode360'
-  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: CollegeTown-2018-10-21
@@ -109,7 +106,7 @@ Your deposit stays capped at one month's rent, but at renewal the landlord [may 
 ```
 
 ```reader "If you're a sophomore signing for junior year"
-Expect to pay first month's rent plus a deposit at signing; [209 Stewart Ave](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095), at $850 a room, asks a one-month deposit with first month due at signing. Refuse any application fee, cleaning fee or non-refundable deposit, and pay no more than $20 for a background check (nothing if you bring one from the past 30 days). A deposit plus a "last month" cannot add up to more than one month's rent. Your Cornell room this year takes [no security deposit](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027), so this is the first one you will pay. Get a [written receipt](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations) for every payment.
+Expect to pay first month's rent plus a deposit at signing; [209 Stewart Ave](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095), at $850 a room, asks a one-month deposit with first month due at signing. Refuse any application fee, cleaning fee or non-refundable deposit, and pay no more than $20 for a background check (nothing if you bring one from the past 30 days). A deposit plus a "last month" cannot add up to more than one month's rent. Your Cornell room this year takes [no security deposit](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027), so this is the first one you will pay. Get a [written receipt](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations) for every payment.
 ```
 
 ```reader "If you're a parent paying the deposit"
@@ -168,13 +165,11 @@ A deposit is not the landlord's money. The [Attorney General](https://ag.ny.gov/
 
 In a building with six or more units, the deposit must go in a New York interest-bearing account at the prevailing rate. The landlord tells you the bank's name and address and the amount in writing. The landlord may keep a 1% annual administrative fee. You choose to get the interest each year, as a credit against rent, or at the end of the lease (GOL 7-103).
 
-Inside the City of Ithaca, the city's own deposit law ([Chapter 258, Article I, of the city code](https://ecode360.com/8391400), adopted in 1992) adds a step for buildings of any size. The landlord must give you a written receipt for the deposit and tell you in writing where it is held: the bank's name and address if it is in a bank, and whether the account pays interest.
-
 When the rent rises at renewal, the landlord may collect more to bring the deposit up to the new monthly rent. If the building is sold, a new owner who knew of the deposit becomes [liable for it](https://www.nysenate.gov/legislation/laws/GOB/7-108).
 
 ## The two inspections
 
-**Move-in.** After you sign but before you move in, the landlord must offer an inspection. If you accept, you both sign a written record of the unit's condition. The landlord then cannot keep any deposit money for defects listed on it. Take dated photos of every room as well; Cornell's [move-out page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out) advises photos at move-in and move-out.
+**Move-in.** After you sign but before you move in, the landlord must offer an inspection. If you accept, you both sign a written record of the unit's condition. The landlord then cannot keep any deposit money for defects listed on it. Take dated photos of every room as well; Cornell's [move-out page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out) advises photos at move-in and move-out.
 
 **Move-out.** When either side gives notice to end the tenancy, the landlord must tell you in writing that you can request an inspection. If you ask, it happens between two weeks and one week before the lease ends, with at least 48 hours' written notice. The landlord then tells you what it plans to charge, so you can fix it first. The inspection is not required if you give less than two weeks' notice.
 
@@ -204,19 +199,13 @@ The landlord carries the burden of proving that any amount withheld is reasonabl
 
 Source: the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits) and GOL 7-108.
 
-Inside the City of Ithaca, a lease may make you pay City code tickets on the property (those written under Chapter 178). The landlord must then tell you about each ticket within three weeks of the court sending it, or lose the right to charge it to you or take it from the deposit ([City Code 258-6](https://ecode360.com/8391400)).
+## The 14-day deadline
 
-## The 14-day deadline, and the 30 days you may see
-
-The landlord must return the rest of the deposit with an itemized statement within 14 days after you vacate, so the clock starts the day you leave. Miss that, and the landlord forfeits the right to keep any of it.
-
-You may also see "30 days" for Ithaca. That number is in the city's deposit law, [Chapter 258](https://ecode360.com/8391400). It gives a landlord 30 days after the tenancy ends, or after you hand back the unit if that is later, to return the full deposit or send a written statement of reasons for keeping part of it. The statement must give a good-faith cost estimate for each item of damage and come with the balance. State law applies inside the city as well, and its 14 days is the shorter deadline.
-
-The 30 days still matters inside the city, because Chapter 258 carries its own penalty. If a landlord willfully and without good cause keeps all or part of a deposit, a court may award up to three times the amount wrongly withheld, plus reasonable attorney's fees and court costs. A landlord who lets the 30 days pass without returning the deposit, or without sending that statement and the balance, is presumed to be withholding willfully and without good cause. The triple award and the fees do not apply when the landlord made a good-faith estimate and returned the balance on time.
+Under [GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108), the landlord must return the rest of the deposit with an itemized statement within 14 days after you vacate, so the clock starts the day you leave. Miss that, and the landlord forfeits the right to keep any of it.
 
 ## Cornell's cleaning-charge line
 
-Cornell's move-out page says the full deposit should come back if the apartment is clean and in satisfactory condition, but also that "charges for cleaning services will be deducted." Read that with the law beside it. A flat cleaning fee is banned. Cleaning a unit left dirty beyond normal wear may be deducted, but routine turnover cleaning may not. Inside the City of Ithaca, [Chapter 258](https://ecode360.com/8391400) also makes you responsible for leaving the unit in an overall clean condition, as it was when you moved in, apart from normal wear and tear. Trust the statute and the Cornell Law guide over the housing page.
+Cornell's move-out page says the full deposit should come back if the apartment is clean and in satisfactory condition, but also that "charges for cleaning services will be deducted." Read that with the law beside it. A flat cleaning fee is banned. Cleaning a unit left dirty beyond normal wear may be deducted, but routine turnover cleaning may not. Trust the statute and the Cornell Law guide over the housing page.
 
 ## Getting it back when the landlord keeps it
 
@@ -231,9 +220,9 @@ rows:
 ```
 
 1. **Write first.** Send a demand letter citing GOL 7-108, the 14-day date and the amount, and keep a copy.
-2. **Mediate.** The Community Dispute Resolution Center handles tenant cases at [607-273-9347](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources).
+2. **Mediate.** The Community Dispute Resolution Center handles tenant cases at [607-273-9347](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources).
 3. **Complain to the state.** The Attorney General takes deposit complaints after you have tried the landlord: 1-800-771-7755.
-4. **Sue in small claims.** Ithaca City Court, 118 East Clinton Street, hears claims up to $5,000; town and village courts cap at $3,000. Ask for actual damages, plus punitive damages up to twice the deposit if the violation was willful. At a City of Ithaca address, the city's Chapter 258 penalty applies too.
+4. **Sue in small claims.** Ithaca City Court, 118 East Clinton Street, hears claims up to $5,000; town and village courts cap at $3,000. Ask for actual damages, plus punitive damages up to twice the deposit if the violation was willful.
 
 ```figure
 kind: cost_table
@@ -266,13 +255,13 @@ Deposit fights are an old Ithaca complaint. The Sun reported in [2004](https://c
 
 **Can my landlord raise the deposit when I renew?** Yes, if the rent goes up: the landlord may collect enough to bring the deposit up to the new monthly rent.
 
-**Can someone check the deposit clause before I sign?** Yes, for free: the Cornell Law Tenants Advocacy hotline (607-301-1560) reviews leases, and Off-Campus Living offers one-on-one consultations.
+**Can someone check the deposit clause before I sign?** Yes, for free: the Cornell Law Tenants Advocacy hotline ([607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/)) takes lease questions.
 
 **Does a Cornell dorm room take a deposit?** No. A Cornell housing license is not a lease and carries [no security or key deposits](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027).
 
 **What if my landlord sells the building?** A new owner who knew of your deposit is liable for returning it ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)).
 
-**Do these rules apply in Lansing or Cayuga Heights?** Yes. The deposit and fee rules are state law, so they apply across New York, inside the City of Ithaca and outside it. The City's own Chapter 258 adds its rules only at City addresses. Small claims outside the City go to town or village courts, capped at $3,000.
+**Do these rules apply in Lansing or Cayuga Heights?** Yes. The deposit and fee rules are state law, so they apply across New York, inside the City of Ithaca and outside it. Small claims outside the City go to town or village courts, capped at $3,000.
 
 **Can my landlord charge for lost keys?** Up to 110% of the actual cost of a copy, until more than three copies of the same key in a calendar year ([RPL 235-i](https://www.nysenate.gov/legislation/laws/RPP/235-I)).
 
@@ -287,4 +276,4 @@ This page is general information, not legal advice.
 - [Renting near Cornell as an international student](/housing/off-campus-housing-cornell-international-students/): deposits, documents and signing from abroad.
 - [Off-campus housing at Cornell: a parent's guide](/housing/cornell-off-campus-housing-for-parents/): costs against the dorm, aid and co-signing.
 - [The cheapest ways to live off campus at Cornell](/housing/cheapest-off-campus-housing-cornell/): the lowest per-bed rents and what they leave out.
-- Renting to students in Ithaca: a landlord's legal checklist: certificates, notices and Good Cause from the owner's side.
+- [Renting to Cornell students: an Ithaca landlord checklist](/housing/becoming-ithaca-landlord-student-rental-rules/): certificates, notices and Good Cause from the owner's side.

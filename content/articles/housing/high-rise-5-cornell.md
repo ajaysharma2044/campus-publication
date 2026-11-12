@@ -22,13 +22,13 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/high-rise-5
   title: 'High Rise #5, Cornell Student & Campus Life'
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/
   title: New North Campus Dorms Widen Housing Condition Disparities, The Cornell Daily Sun, Sept. 9, 2021
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -40,10 +40,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3205
@@ -94,7 +94,7 @@ Source: Cornell Housing hall page, Residence Hall Configurations and Housing Rat
 
 ## What sets High Rise 5 apart?
 
-Cornell's configurations page lists High Rise 5 as corridor-style, with rooms along a shared hallway ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)).
+Cornell's configurations page lists High Rise 5 as corridor-style, with rooms along a shared hallway ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)).
 
 Quints, rooms for five, exist here and in Jameson Hall and Clara Dickson Hall. The top floor holds a Skylounge that looks out over the golf course and Fuertes Observatory.
 
@@ -108,7 +108,7 @@ The wider rules for North halls sit in [North Campus dorms compared](/cornell/ho
 
 ## What does a room in High Rise 5 cost?
 
-Cornell prices by room type, not by building, so High Rise 5 costs what the same room costs in a 2022 hall ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, trash pickup and internet, and there is no security deposit. First-years also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Cornell prices by room type, not by building, so High Rise 5 costs what the same room costs in a 2022 hall ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, trash pickup and internet, and there is no security deposit. First-years also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -128,7 +128,7 @@ For the bill against an apartment, read [is off-campus cheaper than a Cornell do
 
 First-years apply in the Housing and Dining Portal within 10 days of getting a NetID. Staff assign halls by random auto-allocation, and you cannot rank them ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process)). Ranking room types matters more, because a triple costs less than a double.
 
-Signing the license commits you. First-years cannot cancel it unless they leave Cornell or win an exemption, and [this guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) explains the exemptions. Returning juniors and seniors can cancel a later license for a fee, as the [2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028) sets out.
+Signing the license commits you. First-years cannot cancel it unless they leave Cornell or win an exemption, and [this guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) explains the exemptions. Returning juniors and seniors can cancel a later license for a fee, as the [2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028) sets out.
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -142,7 +142,7 @@ The hall does not change the rate. The one way to cut the housing bill is a trip
 
 ## Where do you unload on move-in day?
 
-In fall 2026, Cornell sent cars for High Rise 5 to the Robert Purcell lot, shared with Jameson, Donlon and Ganędagǫ: ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
+In fall 2026, Cornell sent cars for High Rise 5 to the Robert Purcell lot, shared with Jameson, Donlon and Ganędagǫ: ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
 
 ## What to do next
 

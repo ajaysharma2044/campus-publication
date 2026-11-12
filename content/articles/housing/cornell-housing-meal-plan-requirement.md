@@ -7,7 +7,7 @@ primary_query: cornell meal plan required on campus
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 48
 rewrites: ''
 readers:
@@ -22,61 +22,61 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
   title: Meal Plans & Rates, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
   title: Cornell Dining Terms and Conditions 2026-2027
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs
   title: Meal Plan FAQs, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental
   title: SFL Supplemental (Bear Supplemental) Meal Plan, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs
   title: City Bucks FAQs, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative
   title: Triphammer Cooperative, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue
   title: 660 Stewart Avenue, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin
   title: Watermargin, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/prospect-whitby
   title: Prospect of Whitby, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
   title: 301 College Avenue, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell Requires University Housing for Sophomores, Students Weigh Options, The Cornell Daily Sun, Nov. 9, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed
   title: 301 College Ave. Opens for Student Housing; Resident Describes It as Incomplete, Rushed, The Cornell Daily Sun, September 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court
   title: 'The Misunderstood Dorm: Sheldon Court, The Cornell Daily Sun, April 17, 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: View down Libe Slope to the stone Gothic halls of Cornell's West Campus, with Cayuga Lake and the hills beyond
@@ -127,7 +127,7 @@ Cornell's stated reason is nutrition. The residential policy says students keep 
 
 The sophomore half of the rule is recent. All first-years and sophomores had to live in university or affiliated housing starting in fall 2022 ([Cornell Daily Sun](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/)). Before that, some sophomores moved to Collegetown partly to escape the meal plan. One told the Sun, "Having an unlimited meal plan would have been a waste."
 
-Every undergraduate in a South Campus hall needs a plan. One line of Cornell's dining terms ties the South Campus rule to students who entered before fall 2021, but the next paragraph covers everyone who entered in fall 2021 or later ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)).
+Every undergraduate in a South Campus hall needs a plan. Cornell applies the South Campus rule to students who entered before fall 2021 and the campus-wide rule to everyone who entered in fall 2021 or later, so every class year is covered ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)).
 
 ## Which meal plan do you have to buy?
 
@@ -160,7 +160,7 @@ rows:
 
 Source: [Cornell Dining, undergraduate meal plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans).
 
-Sophomores can reduce to Bear Traditional by one Cornell page and not by another. The meal plan page lets upper-level students opt in; the [meal plan FAQ](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs) names only transfers and juniors. If you are a sophomore in a North Campus hall, get a written answer through Cornell Dining's help ticket form before the reduce deadline.
+Cornell says upper-level students living on campus may be able to reduce based on their housing contract ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027); [meal plan FAQ](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). If you are a sophomore in a North Campus hall, confirm with Cornell Dining through its help ticket form, in writing, before the reduce deadline.
 
 <!-- ad-break -->
 
@@ -178,13 +178,13 @@ Residents of Cornell's Collegetown halls must carry a plan, even though Cornell 
 
 The Collegetown plan is the only one with City Bucks, a balance you spend at participating off-campus restaurants and food stores in Ithaca ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks/city-bucks-faqs)). The swipes still have to be used on campus. From Sheldon Court, above Collegetown Bagels, the nearest dining hall is about a 12-minute walk on West Campus ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court)).
 
-301 College Avenue shows how the rule works at its edge. Cornell bought the building and opened it as campus housing in August 2026. Its units have kitchenettes with a refrigerator and microwave ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)). They have no stoves, and residents told the Sun in September 2026 that they still had to enroll in a meal plan ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)). At the time, the dining terms did not name the building. The 2026-27 terms now list 301 College Avenue among the Collegetown halls.
+301 College Avenue shows how the rule works at its edge. Cornell bought the building and opened it as campus housing in August 2026. Its units have kitchenettes with a refrigerator and microwave ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)). They have no stoves, and residents told the Sun in September 2026 that they still had to enroll in a meal plan ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)). The 2026-27 dining terms list 301 College Avenue among the Collegetown halls whose residents must carry a plan ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)).
 
 ![body-1]
 
 ## Do co-ops and Greek houses require a meal plan?
 
-No. Both count as second-year housing under the residential rule, and neither is on Cornell Dining's list of housing that carries a plan. For costs and how to get in, see the [co-op and Greek house guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
+No. Both count as second-year housing under the residential rule, and neither is on Cornell Dining's list of housing that carries a plan. For how a sophomore gets in, see the [co-op and Greek house guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
 
 **Co-ops.** Cornell owns eight co-ops, and four of them run their own house meal plans ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). These are house plans, cooked by residents, not Cornell Dining plans.
 
@@ -194,19 +194,19 @@ No. Both count as second-year housing under the residential rule, and neither is
 | Prospect of Whitby, 228 Wait Avenue | All-vegetarian house meal plan |
 | Watermargin, 103 McGraw Place | Vegetarian and non-vegetarian dishes |
 | 660 Stewart Avenue | Optional; dinners five nights a week with one cooking night, plus a mandatory food staples program |
-| Redbud in Von Cramm Hall, Wait Avenue Cooperative (302 Wait Ave.), Wait Terrace (308 Wait Ave.), Wari Cooperative | Not among the four with a meal plan |
+| Redbud in Von Cramm Hall, Wait Avenue Cooperative (302 Wait Ave.), Wait Terrace (308 Wait Ave.), Wari Cooperative | No house meal plan |
 
 Sources: [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Prospect of Whitby](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/prospect-whitby), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [660 Stewart Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue) house pages, Cornell Student & Campus Life.
 
-Each house's meal plan charge is not on [Cornell's rates page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), so email co-ops@cornell.edu or the house for it before you compare costs. 660 Stewart residents can also buy a Cornell Dining plan and eat at the West Campus houses next door.
+[Cornell's rates page](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) lists co-op room charges; for a house's meal plan charge, email co-ops@cornell.edu or the house before you compare costs. 660 Stewart residents can also buy a Cornell Dining plan and eat at the West Campus houses next door.
 
-**Greek chapter houses.** Cornell offers an optional SFL Supplemental plan, also called Bear Supplemental, with 127 meals and $500 Big Red Bucks per semester. Members living off campus can enroll. Members living on campus qualify only if their chapter requires out-of-house members to carry a plan of at least seven meals a week. Cornell's two pages disagree on its price: the undergraduate meal plan page lists $2,167.51 per semester ($4,335.02 a year), and the [SFL Supplemental page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental) lists $2,088.77 ($4,177.54). Budget for the higher figure until your bursar bill shows the actual charge.
+**Greek chapter houses.** Cornell offers an optional SFL Supplemental plan, also called Bear Supplemental, with 127 meals and $500 Big Red Bucks per semester. Members living off campus can enroll. Members living on campus qualify only if their chapter requires out-of-house members to carry a plan of at least seven meals a week. Cornell Dining publishes two prices for it: $2,167.51 per semester ($4,335.02 a year) with its undergraduate plans, and $2,088.77 ($4,177.54) on the [SFL Supplemental page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental). Budget for the higher figure and confirm the charge with Cornell Dining.
 
 <!-- ad-break -->
 
 ## What does a year of room and required meals cost?
 
-A standard double plus the required plan comes to $20,850 to $21,398 for 2026-27. The double is $6,872 per semester, or $13,744 for the year ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+A standard double plus the required plan comes to $20,850 to $21,398 for 2026-27. The double is $6,872 per semester, or $13,744 for the year ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ```figure
 kind: cost_table
@@ -250,7 +250,7 @@ First-year, sophomore and transfer students cannot cancel a plan. Moving mid-yea
 
 Cornell can cancel a plan if you withdraw, take a leave, get a medical leave, or leave for an internship, graduation or study away. It can also cancel for other grounds it judges adequate. You ask through a written petition on the Cornell Dining help ticket form. Refunds are prorated by the week. New York State tax law bars credits for missed meals, including meals missed because of special dietary needs.
 
-Cornell's dining terms set out no separate dietary or medical exemption from the requirement. A student with a medical diet should file a petition through Cornell Dining's help ticket form well before the Sept. 9 or Feb. 3 deadline and ask for a written answer.
+Cornell publishes no separate dietary or medical exemption from the requirement. A student with a medical diet should file a petition through Cornell Dining's help ticket form well before the Sept. 9 or Feb. 3 deadline and ask for a written answer.
 
 ## What if you live off campus?
 

@@ -21,10 +21,10 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: Real Property Law Section 226-b, Subletting or assignment by tenants, NY State Senate
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: 'Living Off Campus: tenant best practices, Cornell Student & Campus Life'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -62,7 +62,7 @@ The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-g
 
 ## Why does a sublet need a written agreement?
 
-Cornell tells tenants to get a [written sublease](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus), and it warns that original tenants can remain responsible after a sublet. If the subtenant stops paying, the landlord looks to you. A written agreement is your proof of what the subtenant promised. The [how-to guide](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/) covers the landlord's consent steps.
+Cornell tells tenants to get a [written sublease](https://scl.cornell.edu/residential-life/housing/living-off-campus), and it warns that original tenants can remain responsible after a sublet. If the subtenant stops paying, the landlord looks to you. A written agreement is your proof of what the subtenant promised. The [how-to guide](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/) covers the landlord's consent steps.
 
 The Cornell Law guide says an unpaid subtenant can be pursued for breach of contract in [small claims, city, town or supreme court](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). A court will look for the written terms.
 
@@ -79,7 +79,7 @@ Cornell's list of lease terms to check is a good model, because a sublease is a 
 - The sublet's term as the landlord will see it. Ithaca Renting sets a [two-month minimum](https://ithacarenting.com/downtown/) on downtown sublets and bans stays under a month in Collegetown.
 
 **The money**
-- Rent for each month, the due date, the late penalty and how it is paid. Cornell's list names [rent, due date and late penalty](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) as terms to read.
+- Rent for each month, the due date, the late penalty and how it is paid. Cornell's list names [rent, due date and late penalty](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) as terms to read.
 - A receipt for every payment, signed and dated.
 - Any sublet fee the landlord charges and who pays it. A landlord can charge one only if the lease allows it and it is reasonable.
 

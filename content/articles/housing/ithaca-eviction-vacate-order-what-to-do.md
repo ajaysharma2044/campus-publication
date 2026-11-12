@@ -35,7 +35,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus Living Resources, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords
@@ -83,7 +83,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a Lease, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://www.nyc.gov/site/hra/help/new-york-emergency-rental-assistance-program-erap.page
@@ -135,7 +135,7 @@ If you plan to renew for several years, Good Cause is your main protection. In a
 ```
 
 ```reader "If you're a parent"
-If you co-signed or pay the rent, a nonpayment case is the one to stop early. The landlord must send a 14-day written demand before filing, and paying within those 14 days ends it before court, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings). Ask your student to forward any certified letter the day it arrives. If the City orders the building vacated, the landlord owes double the monthly rent per day of displacement, and you should not let your student sign a cash-for-keys release. Free help: LawNY (607) 273-3667, the tenant hotline (607) 301-1560, and CDRC mediation (607) 273-9347, all listed by [Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources).
+If you co-signed or pay the rent, a nonpayment case is the one to stop early. The landlord must send a 14-day written demand before filing, and paying within those 14 days ends it before court, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings). Ask your student to forward any certified letter the day it arrives. If the City orders the building vacated, the landlord owes double the monthly rent per day of displacement, and you should not let your student sign a cash-for-keys release. Free help: LawNY (607) 273-3667, the tenant hotline (607) 301-1560, and CDRC mediation (607) 273-9347, all listed by [Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources).
 ```
 
 ## Day one: who to call
@@ -151,7 +151,7 @@ Call before you answer the landlord, sign anything or move out. Each of these is
 | City Building Division | (607) 274-6508 | Code complaints and inspections |
 | NY Attorney General | (800) 771-7755 | Tenant complaints |
 
-LawNY's number and the hotline come from the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/), which also takes online intake at ithacatenantresources.org. Cornell lists CDRC and 2-1-1 on its [campus living resources page](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources). The Building Division sits at 108 E. Green St., 4th floor, City Hall, per the [City](https://www.cityofithacany.gov/130/Building-Division). The [Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants) takes complaints online too. The Cornell Law guide's chatbot, Teny, is not for emergencies.
+LawNY's number and the hotline come from the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/), which also takes online intake at ithacatenantresources.org. Cornell lists CDRC and 2-1-1 on its [campus living resources page](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources). The Building Division sits at 108 E. Green St., 4th floor, City Hall, per the [City](https://www.cityofithacany.gov/130/Building-Division). The [Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants) takes complaints online too. The Cornell Law guide's chatbot, Teny, is not for emergencies.
 
 The [Ithaca Tenants Union](https://www.ithacatu.org/) is a tenant organization, not a government office or a law firm. It has a landlord issue form, and it called the 2026 Asteri cash offer predatory.
 
@@ -265,7 +265,7 @@ With a lease, a tenant cannot be evicted because of immigration status unless th
 
 **Does Good Cause apply if I live in the Town of Ithaca or Lansing?** No. Outside New York City it applies only where a municipality opts in, per the [lease renewal page](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal). On the state's [2026 opt-in list](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026), current to May 4, 2026, the City of Ithaca is the only Tompkins County municipality. For code problems, the Town of Ithaca's office is (607) 273-1783 and Lansing's is (607) 533-7054, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance).
 
-**If my housemates stop paying, am I on the hook?** Yes, on most local leases: Cornell says they bind housemates [jointly and severally](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire), so each is responsible for the others' rent. Pay your share in a way you can prove and call the hotline at (607) 301-1560.
+**If my housemates stop paying, am I on the hook?** Yes, on most local leases: Cornell says they bind housemates [jointly and severally](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire), so each is responsible for the others' rent. Pay your share in a way you can prove and call the hotline at (607) 301-1560.
 
 **Can I appeal an eviction judgment?** Yes, within 30 days of service, per the [eviction guide](https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings).
 

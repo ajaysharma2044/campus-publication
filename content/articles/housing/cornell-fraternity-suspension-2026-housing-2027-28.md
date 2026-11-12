@@ -1,5 +1,5 @@
 ---
-title: 'Does Cornell''s fraternity suspension change 2027-28 housing?'
+title: 'Does Cornell''s 2026 frat suspension change 2027-28 housing?'
 mode: answer
 dek: The Oct. 13, 2026 party ban does not change housing rules, but a chapter can house second-years only while Cornell recognizes it.
 meta: 'What Cornell''s 2026 fraternity suspension means for 2027-28 housing: which rules hold, which dates to watch and what to do if a chapter house closes.'
@@ -38,10 +38,10 @@ sources:
 - url: https://statements.cornell.edu/2017/20170330-alpha-xi-delta.cfm
   title: Alpha Xi Delta placed on interim suspension, Cornell Statements
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard
@@ -53,7 +53,7 @@ sources:
 - url: https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/
   title: Cornell Daily Sun, 2018
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement
   title: Affiliated Housing
   accessed: '2026-11-10'
 - url: https://news.cornell.edu/stories/2018/05/citing-health-and-safety-concerns-pollack-initiates-greek-life-reforms
@@ -100,7 +100,7 @@ Four rules from the residential policy decide it:
 1. The chapter must stay recognized. Recognized chapters earn automatic approval if they have a live-in advisor and four upper-level officers by Jan. 1 each year.
 2. A sophomore must be a member when the housing application is filed.
 3. You confirm the house plan on the housing application by March 15. If you miss it, you finish the requirement in a Cornell hall.
-4. You still file the application. For 2027-28 it is due April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+4. You still file the application. For 2027-28 it is due April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 The full path for a sophomore is in the [co-op and Greek house guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/). Each chapter house's rent and Cornell's rules for living in are in our [fraternity and sorority housing guide](/cornell/housing/cornell-fraternity-sorority-housing-2026-27/).
 
@@ -115,7 +115,7 @@ rows:
   - {label: "Housing application deadline", date: "April 4"}
 ```
 
-The fee dates are for juniors and seniors with a Cornell license ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+The fee dates are for juniors and seniors with a Cornell license ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ## Which chapters are suspended, and when can they return?
 
@@ -144,7 +144,7 @@ You live in a residence hall this year whatever you decide. Chapter housing matt
 ```
 
 ```reader "If you're a parent"
-Chapter rent is billed mostly through the Bursar, Cornell's student account office, and room and board fees vary ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)). A closed house changes where your student sleeps, and it also changes who bills you, so ask the chapter treasurer how a closure would be handled before the first payment.
+Chapter rent is billed mostly through the Bursar, Cornell's student account office, and room and board fees vary ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement)). A closed house changes where your student sleeps, and it also changes who bills you, so ask the chapter treasurer how a closure would be handled before the first payment.
 ```
 
 ## Why are chapter houses under this much scrutiny?

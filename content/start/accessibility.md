@@ -62,15 +62,15 @@ For the medical criteria for an exemption from the housing rule, meal plan exemp
 ## Dates to watch: Transfer
 
 - **Late April through June 2027:** regular transfer decisions arrive on a rolling basis ([Cornell transfer admissions](https://admissions.cornell.edu/apply/transfer-applicants)).
-- **Within ten days of getting your NetID:** register with SDS first, then apply for housing on the Housing and Dining Portal; no fee ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
-- **Mid-June:** a room confirmation or a place on the guaranteed waitlist with weekly updates ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
+- **Within ten days of getting your NetID:** register with SDS first, then apply for housing on the Housing and Dining Portal; no fee ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
+- **Mid-June:** a room confirmation or a place on the guaranteed waitlist with weekly updates ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 - **June 15 (2026 pattern):** last day to cancel a fall housing license without penalty for medical leave; after it, $500 ([2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027)).
-- **August 1:** last day to change your move-in timeslot ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
+- **August 1:** last day to change your move-in timeslot ([new undergraduate housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 - **Mid-August (Aug 18 for transfers in 2026):** transfer move-in and New Student Orientation ([New Student Orientation](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)).
 
 ## When you're done
 
-Bringing a car? Read [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) and [Cornell and Ithaca winter parking: odd/even, bays, breaks](/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
+Bringing a car? Read [Cornell parking: campus, Collegetown and Ithaca guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) and [Cornell and Ithaca winter parking: odd/even, bays, breaks](/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
 Flying home or riding a bus at the holidays? [Flying home from Cornell: airports, rides, bags, timing](/getting-around/flying-home-from-cornell-airports-rides/) is next, and [the topic page](/getting-around/) lists everything else.
 Signed a lease, or still choosing? [The housing topic page](/housing/) lists every housing guide, from deposits to renewals.
 Transferring in? [The transfer topic page](/transfer/) lists every transfer guide, from credit and aid to making friends once you arrive.

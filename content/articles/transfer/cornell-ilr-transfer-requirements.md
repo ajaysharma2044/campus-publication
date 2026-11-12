@@ -15,7 +15,8 @@ readers:
 - ny-resident
 pillar: /transfer/transferring-to-cornell-guide/
 brief: intel/transfer/brief.md
-subject: Ives Hall Cornell
+subject:
+- Ives Hall Cornell
 tools:
 - cornell-transfer-application-checklist
 - cornell-transfer-credit-calculator
@@ -89,7 +90,16 @@ sources:
 - url: https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/
   title: Spring Transfers Start Cornell Mid-Year and Prepare for Challenges Ahead, The Cornell Daily Sun, January 26, 2023
   accessed: '2026-11-11'
-images: []
+images:
+- file: 1.webp
+  alt: Ives Hall ILR School, Cornell University
+  caption: Ives Hall ILR School, Cornell University
+  credit: Kenneth C. Zirkel / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Ives_Hall_ILR_School,_Cornell_University.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: Kenneth C. Zirkel
+  source_url: https://commons.wikimedia.org/wiki/File:Ives_Hall_ILR_School,_Cornell_University.jpg
 ---
 ```glance
 - Fall entry only; the application and $85 fee are due March 15, 2027, everything else by April 15.

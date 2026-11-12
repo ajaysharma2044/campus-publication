@@ -26,10 +26,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall
   title: 'Move Instructions: South Campus halls, Cornell Housing'
   accessed: '2026-11-10'
 images:
@@ -52,7 +52,7 @@ images:
 - Mail and packages go through Cascadilla Hall, not the House.
 ```
 
-Schuyler House is a 125-resident South Campus hall at 112 Sage Place, mostly singles, built in 1910. Every resident gets a free TCAT bus pass, and rooms have no air conditioning. A single costs $15,566 for 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Schuyler House is a 125-resident South Campus hall at 112 Sage Place, mostly singles, built in 1910. Every resident gets a free TCAT bus pass, and rooms have no air conditioning. A single costs $15,566 for 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is Schuyler House?
 

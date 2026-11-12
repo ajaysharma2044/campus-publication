@@ -18,13 +18,13 @@ readers:
 subject: Cornell residence hall dorm room
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall
   title: Mary Donlon Hall, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
@@ -48,7 +48,7 @@ sources:
 - url: https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university
   title: OurBus Cornell University routes
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and shipping options, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images:
@@ -71,7 +71,7 @@ images:
 - Buses limit luggage: two suitcases on Campus-to-Campus, one free bag on OurBus.
 ```
 
-Pack light and for a room you cannot add storage to. Cornell's housing license says storage space for university furniture or students' belongings is not available ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)). Anything you bring must fit in the room and be gone at the end of the year.
+Pack light and for a room you cannot add storage to. Cornell's housing license says storage space for university furniture or students' belongings is not available ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027)). Anything you bring must fit in the room and be gone at the end of the year.
 
 Cornell's own what's-provided and prohibited-items lists are not in the pages this guide draws on, so this list covers what Cornell's hall, license and transport pages do state. Before you buy a bed set, a rug or an appliance, open your hall's page and the Housing and Dining Portal and match them. Housing staff answer questions at housing@cornell.edu.
 
@@ -81,12 +81,12 @@ Start with the room, because it differs by building.
 
 - **Air conditioning.** Donlon has no air conditioning in the rooms and cools only its lounge and library ([Cornell Donlon Hall page](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall)). Check your own hall's page, and pack a fan if it lists no cooling.
 - **Flooring.** 104 Mary Ann Wood Drive is uncarpeted, with newly installed flooring and common areas renovated in 2026 ([Cornell hall page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/104-mary-ann-wood-drive)). In a bare-floor room, slippers and a rug that fits matter more than they do over carpet.
-- **Refrigerators.** Full-size refrigerators are provided in the Townhouse Apartments and at 301 College Avenue ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). 301 College Avenue also has kitchenettes with a fridge and a microwave in its units, plus shared laundry ([Cornell hall page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)). If you live there, skip buying either.
+- **Refrigerators.** Full-size refrigerators are provided in the Townhouse Apartments and at 301 College Avenue ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). 301 College Avenue also has kitchenettes with a fridge and a microwave in its units, plus shared laundry ([Cornell hall page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)). If you live there, skip buying either.
 - **Laundry and kitchens.** Hall pages list laundry and shared kitchens by building. Pack a laundry bag and a few dishes only if your hall has a kitchen.
 
 ## What should you leave at home?
 
-Leave anything you cannot store or move twice. The [housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027) treats property you do not remove within 24 hours of check-out as abandoned, and a $60 daily charge applies to occupancy outside your license period.
+Leave anything you cannot store or move twice. The [housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027) treats property you do not remove within 24 hours of check-out as abandoned, and a $60 daily charge applies to occupancy outside your license period.
 
 Two items need care.
 
@@ -113,7 +113,7 @@ Do not buy duplicates of what your room or building provides. Check your hall's 
 
 ## What if it does not fit in the car or the bag?
 
-Ship it or store it off campus. Cornell's preferred vendor is Big Red Shipping and Storage, which has held that role for more than 40 years and operates year-round and offers free pickup at the room. Items left without a resident present were donated after 2 p.m. on May 17, 2026 ([Cornell storage and shipping options](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options)). The [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) compares the vendors and prices.
+Ship it or store it off campus. Cornell's preferred vendor is Big Red Shipping and Storage, which has held that role for more than 40 years and operates year-round and offers free pickup at the room. Items left without a resident present were donated after 2 p.m. on May 17, 2026 ([Cornell storage and shipping options](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)). The [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) compares the vendors and prices.
 
 If you are driving in, plan the unloading before you pack the car. See [move-in day parking and unloading](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
 

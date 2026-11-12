@@ -32,7 +32,7 @@ sources:
 - url: https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants
   title: Tenants, New York State Attorney General
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus living resources, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
@@ -101,7 +101,7 @@ rows:
 
 **The demand letter.** State what you are owed, why, and the date by which you want it paid. Attach your photos and your forwarding address. Send it by certified mail so you can prove delivery, and keep a copy.
 
-**Mediation.** The Community Dispute Resolution Center offers neighbor, family and tenant mediation at 607-273-9347 ([Cornell resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). A mediator helps both sides reach a deal and keeps the talk out of a courtroom.
+**Mediation.** The Community Dispute Resolution Center offers neighbor, family and tenant mediation at 607-273-9347 ([Cornell resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)). A mediator helps both sides reach a deal and keeps the talk out of a courtroom.
 
 **The Attorney General.** Deposit complaints go to the state Attorney General after you have tried the landlord ([Cornell Law tenant guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits)). The Attorney General's tenants page has a complaint form and lists the office's main line, 1-800-771-7755 ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)).
 
@@ -150,7 +150,7 @@ File the claim in the semester you move out, while photos and messages are fresh
 
 ## What to do next
 
-Send the demand letter with a payment deadline and book mediation ([CDRC](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)) if the landlord does not answer. Before you file, call the court clerk or the hotline (607-301-1560) to confirm the fee and the right court for your rental address.
+Send the demand letter with a payment deadline and book mediation ([CDRC](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)) if the landlord does not answer. Before you file, call the court clerk or the hotline (607-301-1560) to confirm the fee and the right court for your rental address.
 
 Related guides:
 

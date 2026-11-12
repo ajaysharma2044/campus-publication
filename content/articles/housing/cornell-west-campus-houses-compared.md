@@ -8,7 +8,7 @@ primary_query: cornell west campus houses
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 2
 rewrites: ''
 readers:
@@ -25,148 +25,148 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system
   title: West Campus House System, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/alice-cook-house
   title: Alice Cook House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house
   title: Carl Becker House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/hans-bethe-house
   title: Hans Bethe House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/william-keeton-house
   title: William Keeton House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/flora-rose-house
   title: Flora Rose House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane
   title: 1 Forest Park Lane, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://wchs.undergrad.cornell.edu/history
   title: History, West Campus House System
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/stories/2009/08/west-campus-house-system-officially-complete
   title: West Campus is officially complete, Cornell Chronicle, Aug. 25, 2009
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life
   title: Cornell welcomes students, marks milestone in residential life, Cornell Chronicle, August 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://alumni.cornell.edu/cornellians/u-hall-memories
   title: For Half a Century, the U-Halls Shaped the Campus Experience, Cornellians, Aug. 8, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2005/01/28/board-approves-wcri-phase-3
   title: Board Approves WCRI Phase 3, The Cornell Daily Sun, Jan. 28, 2005
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2007/07/28/west-campus-gets-new-look-after-recent-renovations
   title: West Campus Gets New Look After Recent Renovations, The Cornell Daily Sun, July 28, 2007
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2009/03/10/students-lament-w-campus-housing-discrepancies/
   title: Students Lament W. Campus Housing Discrepancies, The Cornell Daily Sun, March 10, 2009
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2012/09/27/architectural-tour-of-west-campus-yields-lessons-in-university-history/
   title: Architectural Tour of West Campus Yields Lessons in University History, The Cornell Daily Sun, Sept. 27, 2012
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2020/11/students-recount-social-struggles-limited-food-options-and-spiders-while-living-on-west-campus
   title: Students Recount Social Struggles, Limited Food Options and Spiders While Living on West Campus, The Cornell Daily Sun, Nov. 11, 2020
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell Requires University Housing for Sophomores, Students Weigh Options, The Cornell Daily Sun, Nov. 8, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2022/03/10/west-campus-house-dinners-suspended-leaving-residents-hungry-for-more/
   title: West Campus House Dinners Suspended, Leaving Residents Hungry for More, The Cornell Daily Sun, March 10, 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction
   title: McFaddin Hall Will Not House Students for Fall 2026 Due to Upcoming Construction, The Cornell Daily Sun, Sept. 22, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun, Nov. 4, 2025
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
   title: Meal Plans and Rates, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs
   title: Meal Plan FAQs, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners
   title: West Campus House Dinners, Cornell Dining
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
   title: Housing License Cancellation Policy, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-west-campus
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-west-campus
   title: Move-In Instructions for West Campus, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3031
   title: Alice H Cook House, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3004N
   title: Baker North, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3004T
   title: Baker Tower, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3006H
   title: Boldt Hall, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3006T
   title: Boldt Tower, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3032
   title: Carl Becker House, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3033
   title: Hans Bethe House, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3012
   title: McFaddin Hall, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3034
   title: William T Keeton House, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/4747
   title: Forest Park Lane 1, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3035
   title: Flora Rose House, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3005
   title: Founders Hall, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3011
   title: Lyon Hall, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3014
   title: Mennen Hall, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3004S
   title: Baker South, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: View down Libe Slope to the stone Gothic halls of Cornell's West Campus, with Cayuga Lake and the hills beyond
@@ -189,7 +189,7 @@ images:
 
 Every Wednesday at 6 p.m., the dining rooms on Cornell's West Campus close to outsiders. For one hour, each of the five Houses eats alone: residents, live-in faculty, their families and invited guests. A House Chef cooks the meal. At 7 p.m. the doors open again to everyone else ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners)).
 
-That hour is the promise of West Campus in small form. Cornell built the five Houses to give upper-level students a small community with professors living in the building. Getting a seat at that table is hard. In past years about one rising sophomore in five could pick a room there ([Cornell Housing FAQs](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)).
+That hour is the promise of West Campus in small form. Cornell built the five Houses to give upper-level students a small community with professors living in the building. Getting a seat at that table is hard. In past years about one rising sophomore in five could pick a room there ([Cornell Housing FAQs](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)).
 
 West Campus is really two places stacked on one hillside. One is five modern House buildings opened between 2004 and 2009. The other is a ring of stone Gothic halls built between 1913 and 1931. Both charge the same room rates and require the same meal plan (Cornell Housing rates; Cornell Dining). But the rooms inside them are very different.
 
@@ -225,7 +225,7 @@ Kramnick ended the project with a warning, not a victory lap. Faculty had shaped
 
 ## The five Houses, side by side
 
-On paper the Houses are alike. Cornell says all five are faculty-led, each has its own dining room and programs, and each holds about 350 students ([Cornell Housing FAQs](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). The real differences are in the buildings: how many suites, which rooms come in triples and quads, and whether you sleep in a 2000s brick House or a century-old stone hall.
+On paper the Houses are alike. Cornell says all five are faculty-led, each has its own dining room and programs, and each holds about 350 students ([Cornell Housing FAQs](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). The real differences are in the buildings: how many suites, which rooms come in triples and quads, and whether you sleep in a 2000s brick House or a century-old stone hall.
 
 A suite here means a group of bedrooms that shares its own bathroom and sitting room. Most West Campus suites hold five people in three singles and one double. Cornell counts 152 suites across the new buildings, and not all of them are open during selection (Cornell Housing FAQs). Everyone else lives in singles, doubles, triples or quads along a hallway with shared bathrooms.
 
@@ -251,7 +251,7 @@ Rose has more than 350 residents: about 135 in Rose Main and about 225 in four G
 
 ### 1 Forest Park Lane
 
-One more building sits beside the Houses without being one. 1 Forest Park Lane, at the base of Libe Slope, has singles, doubles and triples on two floors, with men on the second floor and women on the third. Its residents use Keeton's House Office, laundry and dining room. It has no air conditioning ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane)). Cornell Facilities lists it under the name "Forest Park Lane 1, Sigma Phi," built in 1932. Cornell's 2027-28 license, which names every building that must take the House Meal Plan, does not list it, so ask Cornell Housing at 607-255-5368 which meal plan applies before you choose it.
+One more building sits beside the Houses without being one. 1 Forest Park Lane, at the base of Libe Slope, has singles, doubles and triples on two floors, with men on the second floor and women on the third. Its residents use Keeton's House Office, laundry and dining room. It has no air conditioning ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane)). Cornell Facilities lists it under the name "Forest Park Lane 1, Sigma Phi," built in 1932. Ask Cornell Housing at 607-255-5368 which meal plan applies before you choose it.
 
 ### The Houses at a glance
 
@@ -262,7 +262,7 @@ One more building sits beside the Houses without being one. 1 Forest Park Lane, 
 | Hans Bethe House | 2007 | Bethe Main, McFaddin Hall | 350+ (about 315 main, 60 McFaddin) | Single, double, quad (quads in McFaddin only) | 38 (5 to 7 people) | No | Christopher Alabi |
 | William Keeton House | Aug. 2008 | Keeton Main | 300+ | Single, double | 37 (4 to 10 people) | No | Maria Park |
 | Flora Rose House | Aug. 2009 | Rose Main, Founders, Lyon (women only), Mennen, South Baker | 350+ (about 135 main, 225 Gothics) | Single, double, triple, quad | 16 (5 or 6 people) | No | Sharon Sassler |
-| 1 Forest Park Lane (not a House; served by Keeton) | Built 1932 | One building | Not stated | Single, double, triple | None | No | None |
+| 1 Forest Park Lane (not a House; served by Keeton) | Built 1932 | One building |  | Single, double, triple | None | No | None |
 
 Source: Cornell Housing house pages and Room Selection FAQs (suite counts); opening years from the West Campus House System history and Cornell Chronicle, Aug. 25, 2009. All rooms rent at the 2026-27 rates in the cost table below.
 
@@ -270,29 +270,29 @@ Source: Cornell Housing house pages and Room Selection FAQs (suite counts); open
 
 | Building | House | Street address | Built or opened | Architect |
 |---|---|---|---|---|
-| [Cook Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3031) | Alice Cook | 709 University Ave. | Opened Aug. 2004 | Not listed |
+| [Cook Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3031) | Alice Cook | 709 University Ave. | Opened Aug. 2004 |  |
 | [North Baker](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3004N) | Alice Cook | 117 Gothics Way | Built 1915 | Day & Klauder |
 | [Baker Tower](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3004T) | Alice Cook | 356 West Ave. | Built 1913 | Day & Klauder |
 | [Boldt Hall](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3006H) | Alice Cook | 727 University Ave. | Built 1921 | Charles Z. Klauder |
 | [Boldt Tower](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3006T) | Alice Cook | 727 University Ave. | Built 1928 | Charles Z. Klauder |
-| [Becker Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3032) | Carl Becker | 647 Stewart Ave. | Opened Aug. 2005 | Not listed |
-| [Bethe Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3033) | Hans Bethe | 314 West Ave. | Opened 2007 | Not listed |
+| [Becker Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3032) | Carl Becker | 647 Stewart Ave. | Opened Aug. 2005 |  |
+| [Bethe Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3033) | Hans Bethe | 314 West Ave. | Opened 2007 |  |
 | [McFaddin Hall](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3012) | Hans Bethe | 324 West Ave. | Built 1928 | Charles Z. Klauder |
-| [Keeton Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3034) | William Keeton | 4 Forest Park Lane | Opened Aug. 2008 | Not listed |
+| [Keeton Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3034) | William Keeton | 4 Forest Park Lane | Opened Aug. 2008 |  |
 | [1 Forest Park Lane](https://findfacilities-prod.fcs.cornell.edu/facilitypage/4747) | None (uses Keeton services) | 1 Forest Park Lane | Built 1932 | Frederick L. Ackermann |
-| [Rose Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3035) | Flora Rose | 134 Gothics Way | Opened Aug. 2009 | Not listed |
+| [Rose Main](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3035) | Flora Rose | 134 Gothics Way | Opened Aug. 2009 |  |
 | [Founders Hall](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3005) | Flora Rose | 352 West Ave. | Built 1914 | Day & Klauder |
 | [Lyon Hall](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3011) | Flora Rose | 336 West Ave. | Built 1928 | Charles Z. Klauder |
 | [Mennen Hall](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3014) | Flora Rose | 342 West Ave. | Built 1931 | Charles Z. Klauder |
 | [South Baker](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3004S) | Flora Rose | 123 Gothics Way | Built 1915 | Day & Klauder |
 
-Source: Cornell Facilities and Campus Services building records (street addresses and Gothic construction years); House opening years from the West Campus House System history. Facilities records list construction years for the five House buildings that differ from their opening dates, so the table shows when each House opened.
+Source: Cornell Facilities and Campus Services building records (street addresses and Gothic construction years); House opening years from the West Campus House System history. For the five House buildings, the table gives the month and year each House opened.
 
 <!-- ad-break -->
 
 ## What a year on West costs
 
-West Campus rooms cost exactly what North and South Campus rooms cost. Cornell uses one rate table for residence halls, program houses and the West Campus Houses. For 2026-27, a double is $6,872 per semester, or $13,744 for the year ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, garbage pickup and internet up to 200 GB a month. There is no security deposit. Cornell bills fall housing through the Bursar, the university's billing office, in August and spring housing in December.
+West Campus rooms cost exactly what North and South Campus rooms cost. Cornell uses one rate table for residence halls, program houses and the West Campus Houses. For 2026-27, a double is $6,872 per semester, or $13,744 for the year ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, garbage pickup and internet up to 200 GB a month. There is no security deposit. Cornell bills fall housing through the Bursar, the university's billing office, in August and spring housing in December.
 
 ```figure
 kind: cost_table
@@ -326,7 +326,7 @@ rows:
 
 Source: EduExplained calculation from Cornell Housing 2026-27 room rates and Cornell Dining's House Meal Plan price and annual fee.
 
-You also cannot trade down. Students living in the West Campus House System may not change or cancel their meal plan ([Cornell Dining FAQs](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). Outside West, Cornell's main meal plan page says upper-level students may opt into the Bear Traditional plan, up to 14 meals a week, at $7,056 a year. That is $548 less than the House plan. Cornell's FAQ names only transfers and juniors as able to reduce to it, so a sophomore weighing North against West should ask Cornell Dining whether that saving applies.
+You also cannot trade down. Students living in the West Campus House System may not change or cancel their meal plan ([Cornell Dining FAQs](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs)). Outside West, Cornell's main meal plan page says upper-level students may opt into the Bear Traditional plan, up to 14 meals a week, at $7,056 a year. That is $548 less than the House plan. Cornell Dining's FAQ lets transfers and juniors reduce to it; a sophomore weighing North against West should confirm with Cornell Dining whether that saving applies.
 
 The House plan has grown more expensive. In 2021, The Cornell Daily Sun reported it cost $6,434 a year, and two sophomores said the required plan was a reason they chose to live off campus that year ([Cornell Daily Sun, 2021](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/)). The 2026-27 price is $1,170 higher, an 18.2% rise ($1,170 divided by $6,434). That route is closed to most sophomores now, since the two-year requirement began in fall 2022.
 
@@ -346,7 +346,7 @@ The squeeze has a cause. In fall 2022 Cornell opened the last buildings of its N
 
 ### If you're a first-year now: Spring Housing Selection
 
-Rising sophomores choose rooms in the spring. For the 2027-28 year, the application opens in the Housing and Dining Portal on Feb. 1, 2027, and closes at 11:59 p.m. on April 4. Timeslots come out April 7. Open room selection runs April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+Rising sophomores choose rooms in the spring. For the 2027-28 year, the application opens in the Housing and Dining Portal on Feb. 1, 2027, and closes at 11:59 p.m. on April 4. Timeslots come out April 7. Open room selection runs April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 You can apply alone or in a roommate group, which Cornell calls a block. Timeslots are random. Cornell says there is no advantage or disadvantage to blocking, and everyone in a block gets the same timeslot. During your slot, the room you pick is held for four minutes while you assign beds, so have a first, second and third choice ready. Cornell posts bed availability reports and floor plans before selection.
 
@@ -354,11 +354,11 @@ Two other dates matter. If you plan to meet the second-year requirement in a fra
 
 ```tool can-i-live-off-campus-cornell-quiz```
 
-Once you sign, you are committed. Cornell requires second-year students to live on campus and does not let them cancel a housing license unless they leave the university, win an exemption, or are accepted to a Greek house, affiliated house or co-op before the spring selection deadline ([Cornell Housing cancellation policy](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)). A sophomore who skips the requirement without an exemption is still billed for the full year ([Cornell residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
+Once you sign, you are committed. Cornell requires second-year students to live on campus and does not let them cancel a housing license unless they leave the university, win an exemption, or are accepted to a Greek house, affiliated house or co-op before the spring selection deadline ([Cornell Housing cancellation policy](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy)). A sophomore who skips the requirement without an exemption is still billed for the full year ([Cornell residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 
 ### If you're already on West: Same Area selection
 
-Juniors and seniors choose in the fall. For 2027-28, the application ran Sept. 1 to Sept. 27, 2026. West Campus residents had their own Same Area round, Oct. 5 at 4 p.m. to Oct. 6 at noon, in which each student could pick only within their current House. Open Room Selection followed on Oct. 8, then a waitlist ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). In the 2026-27 cycle, Cornell stopped letting students keep the exact same room, though they could still use Same Area ([Cornell Daily Sun, 2025](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)).
+Juniors and seniors choose in the fall. For 2027-28, the application ran Sept. 1 to Sept. 27, 2026. West Campus residents had their own Same Area round, Oct. 5 at 4 p.m. to Oct. 6 at noon, in which each student could pick only within their current House. Open Room Selection followed on Oct. 8, then a waitlist ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). In the 2026-27 cycle, Cornell stopped letting students keep the exact same room, though they could still use Same Area ([Cornell Daily Sun, 2025](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)).
 
 Juniors and seniors can now back out. Starting with 2026-27 licenses, a returning junior or senior can cancel before moving in, for a fee that rises with the calendar (Cornell Housing cancellation policy). The cheapest window for a 2027-28 room closes Jan. 31, 2027. That matters if you picked a West room in October and are also chasing a Collegetown lease.
 
@@ -407,9 +407,9 @@ Location is West's quiet advantage. The Houses sit at the foot of Libe Slope, an
 
 West Campus is changing again. McFaddin Hall, the Gothic home to about 60 Bethe residents, was left out of selection for 2026-27 for "significant external construction" expected to start in summer 2026 ([Cornell Daily Sun, 2025](https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction)). Bethe's assistant dean told residents the work was expected to run well into the fall 2026 semester, and encouraged McFaddin residents to pick rooms in Bethe Main.
 
-The closure came during a crunch. The Class of 2029 was Cornell's largest, with 3,861 students enrolling, and Housing said it had moved students to South and West Campus to make room for first-years on North (Cornell Daily Sun, 2025). Cornell's 2027-28 license still lists McFaddin as part of Bethe House, but no Cornell page says when the construction ends. Check the bed availability reports in the Housing and Dining Portal before your timeslot, or call Cornell Housing.
+The closure came during a crunch. The Class of 2029 was Cornell's largest, with 3,861 students enrolling, and Housing said it had moved students to South and West Campus to make room for first-years on North (Cornell Daily Sun, 2025). Cornell's 2027-28 license still lists McFaddin as part of Bethe House, and Cornell has not announced when the construction ends. Check the bed availability reports in the Housing and Dining Portal before your timeslot, or call Cornell Housing.
 
-Prices for 2027-28 are not final either. The rates shown during fall selection are projected, and Cornell will post final 2027-28 rates in March 2027 after the president and trustees approve them ([Cornell Housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). A student who signs a 2027-28 license before March 2027 signs at a price that could still change.
+Prices for 2027-28 are not final either. The rates shown during fall selection are projected, and Cornell will post final 2027-28 rates in March 2027 after the president and trustees approve them ([Cornell Housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). A student who signs a 2027-28 license before March 2027 signs at a price that could still change.
 
 The larger questions are the ones Kramnick raised in 2009. Can faculty still lead Houses that now serve mostly required sophomores? Will Cornell spend to renovate the Gothics, which Brann said in 2009 was not possible in that economy? And as class sizes grow, will West stay a choice or become overflow? The answers will shape what a West room is worth for the classes of 2030 and beyond (Cornell Chronicle; Cornell Daily Sun, 2009).
 
@@ -417,7 +417,7 @@ The larger questions are the ones Kramnick raised in 2009. Can faculty still lea
 
 ## Moving in
 
-West Campus move-in runs through a central lot, not your building's door. In August 2026, students with a timeslot drove to the University Avenue Parking Lot at 627 University Ave., were guided to their building's unloading zone, signed out bins and checked in at their House Office. Cars then moved to three-hour short-term parking. Students arriving after hours called the Graduate Resident Fellow on call, using the number posted on their House's main doors ([Cornell Housing move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-west-campus)).
+West Campus move-in runs through a central lot, not your building's door. In August 2026, students with a timeslot drove to the University Avenue Parking Lot at 627 University Ave., were guided to their building's unloading zone, signed out bins and checked in at their House Office. Cars then moved to three-hour short-term parking. Students arriving after hours called the Graduate Resident Fellow on call, using the number posted on their House's main doors ([Cornell Housing move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-west-campus)).
 
 For after-hours unloading on West Avenue, there are loading spaces across from Baker Tower and a pull-off across from Founders and Lyon on the Slope side. Near Bethe and Keeton, use the loading spaces on Mary Ann Wood Drive behind Keeton or on Forest Park Lane behind the Noyes Community Recreation Center. Our guide to [move-in day parking and unloading at Cornell](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers the whole campus.
 
@@ -441,7 +441,7 @@ rows:
   - {label: "Cancellation fee becomes 50% of the fall room rate", date: "After Aug. 15, 2027"}
 ```
 
-Source: Cornell Housing spring selection page, cancellation policy and 2027-28 license. One line on the spring selection page prints the affiliation deadline as 2026; go by 2027, the cycle the rest of the page covers. Fall 2027 dates for rising juniors and seniors appear on the fall selection page; in 2026 the application ran Sept. 1 to Sept. 27.
+Source: Cornell Housing spring selection page, cancellation policy and 2027-28 license. Fall 2027 dates for rising juniors and seniors appear on the fall selection page; in 2026 the application ran Sept. 1 to Sept. 27.
 
 ## Before you pick a House: a checklist
 
@@ -458,12 +458,12 @@ Source: Cornell Housing spring selection page, cancellation policy and 2027-28 l
 - [West Campus House System](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system), Cornell Student & Campus Life
 - House pages: [Alice Cook House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/alice-cook-house), [Carl Becker House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house), [Hans Bethe House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/hans-bethe-house), [William Keeton House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/william-keeton-house), [Flora Rose House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/flora-rose-house), [1 Forest Park Lane](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/1-forest-park-lane), Cornell Student & Campus Life
 - [History](https://wchs.undergrad.cornell.edu/history), West Campus House System
-- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), Cornell Housing
+- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), Cornell Housing
 - [Undergraduate Meal Plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), [Meal Plans and Rates](https://scl.cornell.edu/residential-life/dining/meal-plans-rates), [Meal Plan FAQs](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/meal-plan-faqs) and [West Campus House Dinners](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners), Cornell Dining
-- [Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs), [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), [Fall Housing Selection for Rising Juniors and Seniors](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors), Cornell Housing
-- [Housing License Cancellation Policy](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy) and [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028), Cornell Housing
+- [Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs), [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), [Fall Housing Selection for Rising Juniors and Seniors](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors), Cornell Housing
+- [Housing License Cancellation Policy](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy) and [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028), Cornell Housing
 - [Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) and [New Transfer Undergraduates](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates), Cornell Housing
-- [Move-In Instructions for West Campus](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-west-campus), Cornell Housing
+- [Move-In Instructions for West Campus](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-west-campus), Cornell Housing
 - Building records for each West Campus building, Cornell Facilities and Campus Services (linked in the building table)
 - [West Campus is officially complete](https://news.cornell.edu/stories/2009/08/west-campus-house-system-officially-complete), Cornell Chronicle, Aug. 25, 2009
 - [Cornell welcomes students, marks milestone in residential life](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life), Cornell Chronicle, August 2022

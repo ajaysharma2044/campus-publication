@@ -7,7 +7,7 @@ primary_query: cornell general room selection timeslots
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 30
 rewrites: ''
 readers:
@@ -18,18 +18,18 @@ subject: Hans Bethe House residence hall, West Campus, Cornell University, Ithac
 tools:
 - cornell-housing-license-cancellation-fee-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Hans Bethe House, a stone and brick residence hall on Cornell's West Campus, seen from its lawn
@@ -52,7 +52,7 @@ page_type: answer
 - Each 20-minute slot holds about 65 to 70 students, so come with three ranked plans.
 ```
 
-Cornell assigns every room selection timeslot at random, so applying early or joining a block does not move you up ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). Rising sophomores get their slots by email April 7, 2027, and pick in Open Room Selection, April 13 to 16. The housing application is due April 4 at 11:59 p.m.
+Cornell assigns every room selection timeslot at random, so applying early or joining a block does not move you up ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). Rising sophomores get their slots by email April 7, 2027, and pick in Open Room Selection, April 13 to 16. The housing application is due April 4 at 11:59 p.m.
 
 ## How are Cornell room selection timeslots assigned?
 
@@ -64,7 +64,7 @@ Slots come in 20-minute waves, and in past years about 65 to 70 students shared 
 
 ## When is room selection for 2027-28?
 
-Rising sophomores, the students finishing their first year, pick in the spring round. Every date sits on Cornell's [Spring Housing Selection page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores).
+Rising sophomores, the students finishing their first year, pick in the spring round. Every date sits on Cornell's [Spring Housing Selection page](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores).
 
 ```figure
 kind: timeline
@@ -88,9 +88,7 @@ rows:
 
 Source: Cornell Student & Campus Life, Spring Housing Selection for Rising Sophomores.
 
-One line on Cornell's page still prints last cycle's year for the affiliated-house deadline. Go by the 2027 date in the timeline (Spring Housing Selection page).
-
-Every rising sophomore who must live on campus should sign up, including students going through fraternity and sorority recruitment. Cornell will post dates for its housing information sessions later in the fall 2026 semester (Spring Housing Selection page).
+Every rising sophomore who must live on campus should sign up, including students going through fraternity and sorority recruitment. Cornell holds housing information sessions in the weeks before Spring Housing Selection and will announce their dates later in the fall 2026 semester (Spring Housing Selection page).
 
 ## How do I pick a room with friends?
 
@@ -125,13 +123,13 @@ Source: Cornell Student & Campus Life, Spring Housing Selection for Rising Sopho
 
 **Watch out:** Cornell asks students not to log in before the slot begins or from two devices at once, because repeat attempts can crash the system. Gather the block around one screen instead.
 
-Blockmates the leader assigns get an email and must sign their own licenses. Cornell's pages disagree on the window: two hours (Spring Housing Selection page) or 12 (Room Selection FAQs). Go by two hours, because an unsigned license does not hold the room.
+Blockmates the leader assigns get an email and have two hours to sign their own licenses (Spring Housing Selection page). Sign right away, because an unsigned license does not hold the room.
 
 Rooms carry a gender label. "M" and "F" rooms are fixed. A dynamic room, marked "D," takes the gender of the first student who reserves a bed in it (Room Selection FAQs). A mixed-gender block can live together, but the system will not place them on its own. The block leader calls Cornell Housing at 607-255-5368 during the slot for an override.
 
 ## What is the best strategy for a late timeslot?
 
-Plan three ranked options before your timeslot email, and make the third one something you would accept. Cornell tells students to build several housing plans. The tools are the Bed Availability Report, the Bed Availability by Room report and the floor plans, all inside the Housing and Dining Portal. Floor plans are not posted publicly. Paper copies are kept at the Housing Office.
+Plan three ranked options before your timeslot email, and make the third one something you would accept. Cornell tells students to build several housing plans. The tools are the Bed Availability Report, the Bed Availability by Room report and the floor plans, all inside the Housing and Dining Portal. Cornell keeps floor plans off the public web for residents' security, and the Housing Office has paper copies you can look at (Room Selection FAQs).
 
 West Campus is the long shot. More students want it than it can hold, and in past years about 20% of rising sophomores picked a West Campus space (Room Selection FAQs). Most sophomores live on North and South Campus. If your slot falls late on April 15 or 16, plan around North and South first.
 
@@ -173,7 +171,7 @@ Declare it on your housing application by March 15, 2027, and confirm with your 
 
 ```reader
 If you're a rising junior or senior
-Your round runs in the fall, not the spring, and campus housing is not guaranteed. For 2027-28 the application closed Sept. 27, 2026, and Open Room Selection was Oct. 8, followed by a waitlist ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). You can cancel before move-in, but the fee rises with the date. If your fall selection did not go your way, see [when to sign a Collegetown lease](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
+Your round runs in the fall, not the spring, and campus housing is not guaranteed. For 2027-28 the application closed Sept. 27, 2026, and Open Room Selection was Oct. 8, followed by a waitlist ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). You can cancel before move-in, but the fee rises with the date. If your fall selection did not go your way, see [when to sign a Collegetown lease](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
 ```
 
 ```tool cornell-housing-license-cancellation-fee-calculator```

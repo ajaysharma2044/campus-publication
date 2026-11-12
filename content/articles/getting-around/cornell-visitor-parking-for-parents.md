@@ -114,7 +114,7 @@ Cornell sells student permits to students, for the areas listed on its [student 
 
 ## What are the risks of parking without paying?
 
-An unpaid space draws a $50 ticket, and a fire lane or accessible space draws a $150 fine ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule)). Under the rules that took effect Sept. 1, 2023, cars parked there are also towed automatically, and a no-payment ticket rises by $10 if it is still unpaid after 10 days ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)).
+An unpaid space draws a $50 ticket, and a fire lane or accessible space draws a $150 fine ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule)). Under the rules that took effect Sept. 1, 2023, cars in a fire lane or accessible space are also towed automatically, and a no-payment ticket rises by $10 if it is still unpaid after 10 days ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)).
 
 ## What if I am visiting without a car?
 

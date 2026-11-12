@@ -7,7 +7,7 @@ primary_query: cornell family housing students with children ithaca
 topic: housing
 school: cornell-university
 type: scenario
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 137
 rewrites: content/articles/housing/cornell-student-family-housing-ithaca.md
 queue_id: q-housing-0054
@@ -22,84 +22,84 @@ tools:
 - ithaca-lease-fee-deposit-checker
 - ithaca-rent-commute-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/your-cornell-community
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing/your-cornell-community
   title: Your Cornell Community
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell
   title: Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/graduate-students
   title: Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
   title: Lansing West Apartments, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
-  title: $2,459 a month
-  accessed: '2026-11-10'
+  title: Ithaca average rent, RentCafe
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/
   title: Downtown Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/
   title: RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: New York General Obligations Law 7-108
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
   title: Real Property Law 238-a
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/living-campus
   title: Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/life-cornell/faq-international-students
   title: International Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources
   title: Legal Resources
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html
   title: Graduate Student Resources
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-F
   title: Real Property Law 235-f
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html
   title: Drummond v Town of Ithaca ZBA
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus services, privileges and passes, Cornell Transportation
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://tcatbus.com/fare-pass-options
   title: TCAT
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/05/15/nyseg-and-rge-win-temporary-rate-hikes-as-larger-increases-still-loom/
   title: Finger Lakes 1
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Cornell Law tenants' guide
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: A two-story wooden house with a pitched roof behind a lawn and trees
@@ -121,7 +121,7 @@ kind: reader_guide
 - Spouses and partners with a CU ID can buy the $200 OmniRide pass.
 ```
 
-The cheapest family home near Cornell is Cornell's own: Hasbrouck family 2BR townhouses cost [$1,475 a month unfurnished or $1,530 furnished for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), with gas, electricity, garbage and internet included. A private Ithaca 2BR averages $2,459 a month before utilities, so apply to Hasbrouck early.
+The cheapest family home near Cornell is Cornell's own: Hasbrouck family 2BR townhouses cost [$1,475 a month unfurnished or $1,530 furnished for 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), with gas, electricity, garbage and internet included. A private Ithaca 2BR averages $2,459 a month before utilities, so apply to Hasbrouck early.
 
 ## What does Cornell's family housing cost?
 
@@ -136,9 +136,9 @@ rows:
   - {label: "Family 2BR townhouse, furnished", value: "$1,530 a month ($18,360 a year)"}
 ```
 
-Yearly figures are the monthly rate times 12. Demand is real: 51% of on-campus graduate households are family or partner households, and 49% are single students ([Your Cornell Community](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/your-cornell-community)). In 2024, the Cornell Daily Sun reported that visiting scholars compete with graduate students for Hasbrouck and Maplewood, and that family housing is scarce with high upfront costs ([Cornell Daily Sun](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell)).
+Yearly figures are the monthly rate times 12. Demand is real: 51% of on-campus graduate households are family or partner households, and 49% are single students ([Your Cornell Community](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing/your-cornell-community)). In 2024, the Cornell Daily Sun reported that visiting scholars compete with graduate students for Hasbrouck and Maplewood, and that family housing is scarce with high upfront costs ([Cornell Daily Sun](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell)).
 
-Maplewood, Cornell's other graduate complex, lists furnished studios to four-bedrooms ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Cornell's housing page does not say whether Hasbrouck takes undergraduate families, so ask Housing at 607-255-5368.
+Maplewood, Cornell's other graduate complex, lists furnished studios to four-bedrooms ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Cornell lists Hasbrouck under graduate and professional student housing, so an undergraduate with a family should ask Housing at 607-255-5368 about eligibility.
 
 ```reader "If you're a graduate or professional student"
 Cornell's 2026-27 Ithaca budget puts housing at $19,962 a year, or $1,663.50 a month ([Cornell Financial Aid](https://finaid.cornell.edu/graduate-students)). A Hasbrouck unfurnished townhouse is $17,700 a year, which is $2,262 under that line. Start your search with the [grad student off-campus guide](/cornell/housing/off-campus-housing-cornell-grad-students/) and the [monthly budget guide](/cornell/money/cornell-grad-student-off-campus-budget-monthly-rent-ithaca/).
@@ -150,13 +150,13 @@ Private family rents are quoted per unit, not per bed. Add utilities to any rent
 
 | Option | 2BR per month | 3BR per month | Source |
 |---|---|---|---|
-| Hasbrouck family unit | $1,475 to $1,530, utilities in | none | Cornell, 2026-27 |
+| Hasbrouck family unit | $1,475 to $1,530, utilities in | No 3BR units | Cornell, 2026-27 |
 | Lansing West, 700 Warren Road | $1,825 and $1,870+ | $1,694 | RentCafe, Nov. 2026 |
 | Ithaca average | $2,459 | $3,039 | RentCafe, Oct. 30, 2026 |
-| Downtown Ithaca average | $3,246 | none listed | RentCafe, Nov. 6, 2026 |
-| Collegetown average | $3,414 | none listed | RentCafe, Oct. 30, 2026 |
+| Downtown Ithaca average | $3,246 |  | RentCafe, Nov. 6, 2026 |
+| Collegetown average | $3,414 |  | RentCafe, Oct. 30, 2026 |
 
-Sources: [Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), [Lansing West](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx), [Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/), [Downtown Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/) and [Collegetown](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/). All private figures are asking rents. RentCafe's averages cover buildings of 50 or more units, so they skip the houses and small landlords where many families end up.
+Sources: [Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), [Lansing West](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx), [Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/), [Downtown Ithaca](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/downtown-ithaca/) and [Collegetown](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/). All private figures are asking rents. RentCafe's averages cover buildings of 50 or more units, so they skip the houses and small landlords where many families end up.
 
 Set the private numbers against the grad budget of $19,962 ([Cornell Financial Aid](https://finaid.cornell.edu/graduate-students)). An average 2BR costs $29,508 a year (2,459 times 12), which is $9,546 over that line. A Lansing West 2BR at $1,825 costs $21,900 a year, or $1,938 over, plus utilities. The calculator below adds commute costs to a rent.
 
@@ -172,7 +172,7 @@ State law also bars a landlord from charging any payment for processing an appli
 
 ## Can an undergraduate with a spouse or children live off campus?
 
-Yes. Married students and students coming to Ithaca with legal dependents are not bound by the two-year residential requirement ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). You still have to request the exemption on the Housing application. For 2027-28 the application and exemption deadline is April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Wait for approval before you sign a lease. The [exemptions guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) covers the steps and what happens if you sign first.
+Yes. Married students and students coming to Ithaca with legal dependents are not bound by the two-year residential requirement ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). You still have to request the exemption on the Housing application. For 2027-28 the application and exemption deadline is April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Wait for approval before you sign a lease. The [exemptions guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) covers the steps and what happens if you sign first.
 
 ```reader "If you're an international student bringing family"
 Cornell's International Services says you do not need a Social Security number to rent an apartment or open a bank account ([International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students)). Check that the landlord asks for no more than one month in deposit and advance rent combined. The Ithaca tenant hotline, 607-301-1560, gives advice with no income or geographic limits, though full representation is only for City of Ithaca residents ([Legal Resources](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources)).
@@ -180,7 +180,7 @@ Cornell's International Services says you do not need a Social Security number t
 
 ## Where do families live, and what does each area trade?
 
-Cornell's neighborhoods page lists distances from campus ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)):
+Cornell's neighborhoods page lists distances from campus ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)):
 
 - **Fall Creek**, 0.5 to 1 mile: a 20 to 30 minute uphill walk and a frequent bus.
 - **Belle Sherman and East Hill**, 0.75 to 2 miles: a 15-minute level walk.
@@ -188,9 +188,9 @@ Cornell's neighborhoods page lists distances from campus ([Ithaca Neighborhoods]
 - **West Hill**, 4 miles: rural and not practical on foot.
 - **Lansing**, 5 to 10 miles: bus or car. A 2023 grad guide puts Lansing about 20 minutes from campus by bus ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)).
 
-The city line matters for families. Cornell's rental safety tool covers City of Ithaca rentals only, and Town, Lansing and Cayuga Heights addresses fall outside it ([Safe Living Environments](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)). The [City vs Town guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) lists which rules go with each address.
+The city line matters for families. Cornell's rental safety tool covers City of Ithaca rentals only, and Town, Lansing and Cayuga Heights addresses fall outside it ([Safe Living Environments](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). The [City vs Town guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) lists which rules go with each address.
 
-For schools, Cornell points families to the Ithaca City School District and to Work-Life at worklife@cornell.edu ([Your Cornell Community](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/your-cornell-community)). Cornell's pages list no childcare prices or school boundaries by neighborhood, so ask Work-Life and the district before you sign.
+For schools, Cornell points families to the Ithaca City School District and to Work-Life at worklife@cornell.edu ([Your Cornell Community](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing/your-cornell-community)). Ask Work-Life about childcare costs and the district about which school serves an address before you sign.
 
 ## Who can live with you?
 
@@ -204,7 +204,7 @@ A spouse or partner with a CU ID can buy the OmniRide student pass at 116 Maple 
 
 ## What about heat?
 
-A house with a yard can cost more than its rent says. Cornell suggests asking NYSEG at (800) 572-1111 for an address's average annual heating bill, especially for West Hill cottages ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). A temporary NYSEG rate increase took effect June 1, 2026, and a permanent decision is pending ([Finger Lakes 1](https://www.fingerlakes1.com/2026/05/15/nyseg-and-rge-win-temporary-rate-hikes-as-larger-increases-still-loom/)). In Ithaca the heat season runs Sept. 15 to May 31. From 6 a.m. to 10 p.m. a landlord-heated unit must reach 68F when it is below 55F outside, and 62F overnight ([Cornell Law tenants' guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Read the [winter heating bill guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/) for typical bills.
+A house with a yard can cost more than its rent says. Cornell suggests asking NYSEG at (800) 572-1111 for an address's average annual heating bill, especially for West Hill cottages ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). A temporary NYSEG rate increase took effect June 1, 2026, and a permanent decision is pending ([Finger Lakes 1](https://www.fingerlakes1.com/2026/05/15/nyseg-and-rge-win-temporary-rate-hikes-as-larger-increases-still-loom/)). In Ithaca the heat season runs Sept. 15 to May 31. From 6 a.m. to 10 p.m. a landlord-heated unit must reach 68F when it is below 55F outside, and 62F overnight ([Cornell Law tenants' guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Read the [winter heating bill guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/) for typical bills.
 
 <!-- ad-break -->
 

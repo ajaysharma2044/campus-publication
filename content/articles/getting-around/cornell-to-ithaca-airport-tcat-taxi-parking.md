@@ -256,4 +256,4 @@ Holiday shuttles are rarer. In 2023 a Swarthout Coaches shuttle ran to ITH over 
 - [Flying home from Cornell](/getting-around/flying-home-from-cornell-airports-rides/): airports, bags and timing for every break.
 - [Getting to Cornell as an international student](/getting-around/getting-to-cornell-international-students/): landing in New York or Ithaca and the bus up.
 - [Getting around Cornell for parents and visitors](/getting-around/getting-around-cornell-parents-visitors/): fares, parking and rides on a visit.
-- [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, winter rules and breaks.
+- [Cornell parking guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, winter rules and breaks.

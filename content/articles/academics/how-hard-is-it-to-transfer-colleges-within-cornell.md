@@ -5,24 +5,24 @@ primary_query: how hard is it to transfer colleges within Cornell
 topic: academics
 school: cornell-university
 type: comparison
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-academics-0008
 sources:
-  - {url: "https://internaltransfer.cornell.edu/apply", title: "Internal Transfer application, Cornell University", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/admissions/transfer", title: "Internal Transfer to Arts & Sciences, Cornell", accessed: "2026-11-07"}
-  - {url: "https://www.aap.cornell.edu/admissions/undergraduate/internal-transfer", title: "Internal Transfer, Cornell AAP", accessed: "2026-11-07"}
-  - {url: "https://cals.cornell.edu/education/admissions/undergraduate-admissions/internal-transfer", title: "Internal Transfer, Cornell CALS", accessed: "2026-11-07"}
-  - {url: "https://www.duffield.cornell.edu/advising/incoming-internal-transfers/", title: "Internal Transfer to Engineering, Cornell Engineering", accessed: "2026-11-07"}
-  - {url: "https://www.ilr.cornell.edu/programs/undergraduate-admissions/apply-ilr/internal-transfer-guidelines", title: "Internal transfer guidelines, Cornell ILR", accessed: "2026-11-07"}
-  - {url: "https://human.cornell.edu/admissions/transfer/internal", title: "Internal Transfer, Cornell College of Human Ecology", accessed: "2026-11-07"}
-  - {url: "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/internal-transfers", title: "Internal transfers, Cornell Brooks School", accessed: "2026-11-07"}
-  - {url: "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/", title: "AEM undergraduate admissions: Dyson School requirements, Cornell", accessed: "2026-11-07"}
-  - {url: "https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/", title: "B.S. in Hotel Administration application requirements, Cornell", accessed: "2026-11-07"}
-  - {url: "https://cornellsun.com/article/2023/01/self-discovery-sparks-internal-transfers-across-cornells-eight-undergraduate-colleges", title: "Self-discovery sparks internal transfers across Cornell's eight undergraduate colleges, The Cornell Daily Sun, January 2023", accessed: "2026-11-07"}
+  - {url: "https://internaltransfer.cornell.edu/apply", title: "Internal Transfer application, Cornell University", accessed: "2026-11-11"}
+  - {url: "https://as.cornell.edu/admissions/transfer", title: "Internal Transfer to Arts & Sciences, Cornell", accessed: "2026-11-11"}
+  - {url: "https://www.aap.cornell.edu/admissions/undergraduate/internal-transfer", title: "Internal Transfer, Cornell AAP", accessed: "2026-11-11"}
+  - {url: "https://cals.cornell.edu/education/admissions/undergraduate-admissions/internal-transfer", title: "Internal Transfer, Cornell CALS", accessed: "2026-11-11"}
+  - {url: "https://www.duffield.cornell.edu/advising/incoming-internal-transfers/", title: "Internal Transfer to Engineering, Cornell Engineering", accessed: "2026-11-11"}
+  - {url: "https://www.ilr.cornell.edu/programs/undergraduate-admissions/apply-ilr/internal-transfer-guidelines", title: "Internal transfer guidelines, Cornell ILR", accessed: "2026-11-11"}
+  - {url: "https://human.cornell.edu/admissions/transfer/internal", title: "Internal Transfer, Cornell College of Human Ecology", accessed: "2026-11-11"}
+  - {url: "https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/internal-transfers", title: "Internal transfers, Cornell Brooks School", accessed: "2026-11-11"}
+  - {url: "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/", title: "AEM undergraduate admissions: Dyson School requirements, Cornell", accessed: "2026-11-11"}
+  - {url: "https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/", title: "B.S. in Hotel Administration application requirements, Cornell", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/article/2023/01/self-discovery-sparks-internal-transfers-across-cornells-eight-undergraduate-colleges", title: "Self-discovery sparks internal transfers across Cornell's eight undergraduate colleges, The Cornell Daily Sun, January 2023", accessed: "2026-11-11"}
 images: []
 ---
 
-Internal transfer at Cornell is possible but never guaranteed, and how hard it is depends on the college you want. Every college sets its own GPA floor and prerequisite courses, but Cornell's central page applies [one rule to all of them](https://internaltransfer.cornell.edu/apply): you must remain in your home college for two semesters before you can enroll in a new one. Meeting the requirements does not guarantee admission, and [decisions are final with no appeal](https://internaltransfer.cornell.edu/apply). Cornell does not publish acceptance rates; [the Cornell Daily Sun's 2023 article](https://cornellsun.com/article/2023/01/self-discovery-sparks-internal-transfers-across-cornells-eight-undergraduate-colleges) does not report how many students transfer internally either. So the table below compares what is published: GPA, timing, courses and deadlines.
+Internal transfer at Cornell is possible but never guaranteed, and how hard it is depends on the college you want. Every college sets its own GPA floor and prerequisite courses, but Cornell's central page applies [one rule to all of them](https://internaltransfer.cornell.edu/apply): you must remain in your home college for two semesters before you can enroll in a new one. Meeting the requirements does not guarantee admission, and [decisions are final with no appeal](https://internaltransfer.cornell.edu/apply). Cornell does not publish internal transfer acceptance rates, so the table below compares the rules each college sets: GPA, timing, courses and deadlines.
 
 ## The rules that apply everywhere
 
@@ -42,14 +42,14 @@ rows:
 
 ## Rules by destination college
 
-GPA is the minimum cumulative Cornell GPA each college publishes. Engineering publishes none. Details are as shown on each page on November 7, 2026, and change by year.
+GPA is the minimum cumulative Cornell GPA each college sets. Engineering sets no minimum but [weighs your cumulative GPA](https://www.duffield.cornell.edu/advising/incoming-internal-transfers/). Requirements change by year, so confirm with the college before you apply.
 
 | Destination | Minimum GPA | Timing | Course prerequisites | Notes |
 |---|---|---|---|---|
 | [Arts & Sciences](https://as.cornell.edu/admissions/transfer) | 3.0 cumulative, and 3.0 in 12 credits the semester you apply | After your second semester; latest is the end of your first junior semester | Second-semester sophomores and first-semester juniors need a course plan and proof of formal admission to an A&S major | Must be able to graduate on time. Seniors, current second-semester juniors and anyone who already transferred internally are not eligible |
 | [AAP](https://www.aap.cornell.edu/admissions/undergraduate/internal-transfer) | 2.7 | End of second semester; a first-semester application is denied | No course list. Portfolio required for B.Arch. or B.F.A. | Fall deadline May 1, spring December 1. Recommendation letter required |
 | [CALS](https://cals.cornell.edu/education/admissions/undergraduate-admissions/internal-transfer) | 2.0 to 3.0, by major (Biological Sciences and Nutritional Sciences 2.75; Global Development and Information Science 3.0) | After two full-time semesters; juniors uncommon; seniors not eligible | Major-specific, some with a B or better | Meet the major's advising contact first. Fall May 1, spring December 1 |
-| [Engineering](https://www.duffield.cornell.edu/advising/incoming-internal-transfers/) | None published | Second semester at the earliest; through the first semester of junior year | Math, chemistry, computer science, physics and engineering courses for your target major | You must be able to spend at least three semesters in an engineering major. Fall May 1, spring December 1 |
+| [Engineering](https://www.duffield.cornell.edu/advising/incoming-internal-transfers/) | No minimum; cumulative GPA is weighed | Second semester at the earliest; through the first semester of junior year | Math, chemistry, computer science, physics and engineering courses for your target major | You must be able to spend at least three semesters in an engineering major. Fall May 1, spring December 1 |
 | [ILR](https://www.ilr.cornell.edu/programs/undergraduate-admissions/apply-ilr/internal-transfer-guidelines) | 2.8 | Second semester of first year; juniors and seniors generally not accepted | One intro economics course, a first-year writing seminar and one ILR course | Email ILR admissions first |
 | [Human Ecology](https://human.cornell.edu/admissions/transfer/internal) | 3.0 cumulative and 3.0 in the application semester | End of second semester at the earliest; juniors rarely considered | Writing seminar, a quantitative course and natural sciences, plus major-specific courses | Must be able to graduate on time. Design majors add a supplement |
 | [Brooks School](https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/internal-transfers) | 3.0, with B or better in target-major courses | Two semesters at Cornell; juniors only in exceptional circumstances | ECON 1110, writing seminar, 3 graded PUBPOL credits, a quantitative course | Page calls the process highly selective |
@@ -96,6 +96,6 @@ Our advice, drawn from the pages above:
 
 **Can I go back if I change my mind?** CALS says admitted students whose plans change can request to return to their previous college by the deadline given with the decision. Cornell's central page adds that you are expected to transfer unless you decline by the date on your offer letter.
 
-**Is transferring into Engineering easier than business?** Engineering publishes no GPA minimum, so the pages do not say. Its published bar is completing the course criteria for your target major.
+**Is transferring into Engineering easier than business?** Cornell publishes no acceptance rates for either. Engineering sets no GPA minimum but weighs your cumulative GPA and how closely your courses match its curriculum; its bar is completing the course criteria for your target major.
 
-**Which college is the hardest to get into?** No official source ranks them, and Cornell publishes no acceptance rates.
+**Which college is the hardest to get into?** Cornell does not rank them and publishes no internal transfer acceptance rates.

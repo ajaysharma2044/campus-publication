@@ -5,7 +5,7 @@ primary_query: cornell pre-med weed out courses organic chemistry curve
 topic: academics
 school: cornell-university
 type: place
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-academics-0015
 sources:
   - {url: "https://prehealthadvising.cornell.edu/academic-preparation", title: "Academic Preparation, Cornell Health Professions Advising", accessed: "2026-11-07"}
@@ -22,7 +22,7 @@ sources:
 images: []
 ---
 
-The course Cornell pre-meds most often call the weed-out is CHEM 2070, General Chemistry I, taken in the first year, not organic chemistry. Nobody can give you a verified curve or median grade for it or for organic: Cornell [stopped posting course median grades in 2011](https://news.cornell.edu/node/270308), and no official grade distribution is public. What we can give you is the exact course sequence Cornell's pre-health office lists, the prerequisites that force the order, and what the Cornell Daily Sun and its columnists have said about how hard the first course is.
+The course Cornell pre-meds most often call the weed-out is CHEM 2070, General Chemistry I, taken in the first year, not organic chemistry. Cornell [stopped posting course median grades in 2011](https://news.cornell.edu/node/270308) and publishes no grade distribution for either course. Below are the course sequence Cornell's pre-health office lists, the prerequisites that force the order, and what the Cornell Daily Sun and its columnists have said about how hard the first course is.
 
 ## The sequence Cornell lists
 
@@ -60,11 +60,11 @@ Students see it differently. A first-year Arts & Sciences student, Asfi Tias, ar
 
 ### CHEM 2080 and organic chemistry
 
-We found no Cornell-specific reporting that names CHEM 2080 or organic as weed-outs, and no verified curve for either. What the rosters do show is how tightly they chain: [CHEM 2080](https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2080) requires CHEM 2070 or 2090, and [CHEM 3570](https://classes.cornell.edu/browse/roster/FA26/class/CHEM/3570), Organic Chemistry for the Life Sciences, requires CHEM 2080 and 2081 (or permission of the instructor). A weak grade in 2070 therefore follows you into every course behind it. If a friend tells you what the organic curve is, ask which semester and which instructor, because there is nothing official to check it against.
+The weed-out label at Cornell attaches to CHEM 2070, and Cornell publishes no curve for CHEM 2080 or organic. The rosters show how tightly they chain: [CHEM 2080](https://classes.cornell.edu/browse/roster/FA26/class/CHEM/2080) requires CHEM 2070 or 2090, and [CHEM 3570](https://classes.cornell.edu/browse/roster/FA26/class/CHEM/3570), Organic Chemistry for the Life Sciences, requires CHEM 2080 and 2081 (or permission of the instructor). A weak grade in 2070 therefore follows you into every course behind it. If a friend tells you what the organic curve is, ask which semester and which instructor, because Cornell publishes no curve to compare it with.
 
 ## Why you cannot look up a median
 
-Cornell's Faculty Senate [voted in May 2011](https://news.cornell.edu/node/270308) to stop posting medians on the registrar's website, where they had appeared since 1998; the registrar still records them offline for deans, department chairs and researchers. Medians had also appeared on transcripts, and the Faculty Senate ended that too, for [courses taken in fall 2023 and later](https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/), per the Sun. Older student forum posts quoting grade percentages cannot be verified.
+Cornell's Faculty Senate [voted in May 2011](https://news.cornell.edu/node/270308) to stop posting medians on the registrar's website, where they had appeared since 1998; the registrar still records them offline for deans, department chairs and researchers. Medians had also appeared on transcripts, and the Faculty Senate ended that too, for [courses taken in fall 2023 and later](https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/), per the Sun.
 
 ## How to sequence them
 
@@ -87,9 +87,9 @@ For enrolling in these courses, see our guides to [pre-enroll and add/drop](/aca
 
 ## FAQ
 
-**Is organic chemistry the weed-out course at Cornell?** The pre-med reputation in the Sun attaches to CHEM 2070. We found no Cornell reporting that names organic as the weeder, and no official curve.
+**Is organic chemistry the weed-out course at Cornell?** The pre-med reputation in the Sun attaches to CHEM 2070, and Cornell publishes no curve for organic.
 
-**Can I see the median grade for CHEM 2070?** No. Medians are [not posted publicly](https://news.cornell.edu/node/270308).
+**Can I see the median grade for CHEM 2070?** No. Cornell [stopped publishing course medians in 2011](https://news.cornell.edu/node/270308).
 
 **Do I have to take 2070 and 2071 together?** The roster lists CHEM 2071 as a corequisite of 2070.
 

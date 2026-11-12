@@ -18,22 +18,22 @@ readers:
 subject: Risley Hall Cornell
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
   title: Meal plans and rates, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New undergraduate application process, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current undergraduate application process, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall housing selection for rising juniors and seniors, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc
   title: HILC, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam
@@ -48,7 +48,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house
   title: Veterans House, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring housing selection for rising sophomores, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations
@@ -86,7 +86,7 @@ images:
 - Air conditioning varies by house: Ecology House has it in every room; most others do not.
 ```
 
-A Cornell program house costs the same as a regular residence hall, and the difference is community. You choose a themed house, such as the Language House or Ujamaa, instead of getting a hall by random assignment. Rooms, rates and the meal plan requirement stay the same ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+A Cornell program house costs the same as a regular residence hall, and the difference is community. You choose a themed house, such as the Language House or Ujamaa, instead of getting a hall by random assignment. Rooms, rates and the meal plan requirement stay the same ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is a program house?
 
@@ -114,15 +114,15 @@ Source: Cornell housing pages as listed Nov. 10, 2026. Veterans House moves to 1
 
 Four things differ: how you get in, who your neighbors are, what the community expects, and the room layout.
 
-**How you get in.** A new student who does not pick a program house gets a hall by random auto-allocation, and students do not rank halls. More than 500 first-year and transfer students live in program houses ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). You apply within 10 days of receiving your NetID, the university login. Administrators said at a March 2026 town hall that most program houses have no formal application process, and that placement uses preferences, availability, disability accommodations and roommate groupings ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns)). Language House, Veterans House and the Sober Living Community need an extra application when rising juniors and seniors select.
+**How you get in.** A new student who does not pick a program house gets a hall by random auto-allocation, and students do not rank halls. More than 500 first-year and transfer students live in program houses ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). You apply within 10 days of receiving your NetID, the university login. Administrators said at a March 2026 town hall that most program houses have no formal application process, and that placement uses preferences, availability, disability accommodations and roommate groupings ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns)). Language House, Veterans House and the Sober Living Community need an extra application when rising juniors and seniors select.
 
 **What the community expects.** Expectations differ by house. At Loving House, residents attend a retreat each fall and spring and at least two Fellow-sponsored programs per semester, and first-year and transfer residents enroll in LWYL 1156 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations)).
 
-**The room.** Layouts vary more than in the standard halls. Low Rises 8 to 10 use clusters of one double, one triple and two singles with a shared bathroom, and have no air conditioning ([HILC](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc), [JAM](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam), [Ujamaa](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college)). Ecology House has all doubles with a private bath and manually controlled in-room air conditioning ([Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)). Veterans House has super singles with window air conditioners on request ([Veterans House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)).
+**The room.** Layouts vary more than in the standard halls. Low Rises 8 to 10 use clusters of one double, one triple and two singles with a shared bathroom, and have no air conditioning ([HILC](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc), [JAM](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam), [Ujamaa](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college)). Ecology House has all doubles with a private bath and manually controlled in-room air conditioning ([Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)). Veterans House has super singles with window air conditioners on request ([Veterans House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)).
 
 ## What does a program house cost?
 
-The same as a dorm. Program houses share the residence hall rate table: $13,744 a year for a double, $15,566 for a single, $16,595 for a super single and $12,644 for a triple or one-room quad ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). All undergraduates in on-campus housing, including program houses, must enroll in a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)).
+The same as a dorm. Program houses share the residence hall rate table: $13,744 a year for a double, $15,566 for a single, $16,595 for a super single and $12,644 for a triple or one-room quad ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). All undergraduates in on-campus housing, including program houses, must enroll in a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)).
 
 ```figure
 kind: cost_table
@@ -145,7 +145,7 @@ Conditions are worth asking about. The Sun reported in 2026 on Ujamaa residents'
 
 ## When do you apply?
 
-Rising sophomores can list up to three program houses in spring. For 2027-28, priority program house selection is April 12, 2027, before open selection on April 13 to 16 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Rising juniors and seniors had Priority Program House Selection on Oct. 1, 2026, and program house beds can be gone by the later rounds ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Over winter break, HILC and Loving House stay open at no charge to residents ([Cornell winter break housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Veterans House is open year-round ([Veterans House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)).
+Rising sophomores can list up to three program houses in spring. For 2027-28, priority program house selection is April 12, 2027, before open selection on April 13 to 16 ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Rising juniors and seniors had Priority Program House Selection on Oct. 1, 2026, and program house beds can be gone by the later rounds ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Over winter break, HILC and Loving House stay open at no charge to residents ([Cornell winter break housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Veterans House is open year-round ([Veterans House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)).
 
 ```reader "If you're a first-year"
 You will not choose a regular hall; you can only choose a program house or accept the random assignment. Apply within 10 days of your NetID if you want one. Our [first-year start page](/start/first-year/) lists the other housing deadlines.

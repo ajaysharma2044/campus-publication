@@ -25,13 +25,13 @@ sources:
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3032
   title: Carl Becker House, Cornell Facilities and Campus Services
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
   title: West Campus House main buildings, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2012/09/27/architectural-tour-of-west-campus-yields-lessons-in-university-history/
   title: Architectural tour of West Campus yields lessons in university history, The Cornell Daily Sun, Sept. 27, 2012
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -40,10 +40,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
@@ -96,7 +96,7 @@ Cornell does not publish a recent resident review of the House. For comparison w
 
 ## What does a year in Becker cost?
 
-Cornell prices rooms by type, so Becker costs what the same room costs anywhere on campus ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). No price rises for air conditioning. The meal plan is the add-on. Every House resident must take the House Meal Plan, which covers all meals in ten residential dining rooms, and cannot change it while living on West ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Cornell prices rooms by type, so Becker costs what the same room costs anywhere on campus ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). No price rises for air conditioning. The meal plan is the add-on. Every House resident must take the House Meal Plan, which covers all meals in ten residential dining rooms, and cannot change it while living on West ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -113,11 +113,11 @@ Whether a House year beats a lease depends on group size. See [is off-campus che
 
 ## How do you get a room in Carl Becker House?
 
-Sophomores pick in spring. For 2027-28 the application opens Feb. 1, 2027, and closes April 4, with open room selection April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). About 20% of rising sophomores could select West Campus spaces in past years, so a first choice is not a safe bet ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)). A student who does not select is assigned what is left.
+Sophomores pick in spring. For 2027-28 the application opens Feb. 1, 2027, and closes April 4, with open room selection April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). About 20% of rising sophomores could select West Campus spaces in past years, so a first choice is not a safe bet ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)). A student who does not select is assigned what is left.
 
 Cornell's pages publish no per-House odds, so ask Housing and Residential Life at housing@cornell.edu how Becker filled last year.
 
-The residential requirement applies to sophomores, and the [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/) covers the exemptions. Returning juniors and seniors can cancel a 2027-28 license for a fee that rises with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+The residential requirement applies to sophomores, and the [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/) covers the exemptions. Returning juniors and seniors can cancel a 2027-28 license for a fee that rises with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 

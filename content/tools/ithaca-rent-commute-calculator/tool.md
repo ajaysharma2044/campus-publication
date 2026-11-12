@@ -21,8 +21,8 @@ sources:
   - {url: "https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx", title: "RentCafe: Lansing West Apartments, 700 Warren Rd", accessed: "2026-11-10"}
   - {url: "https://www.rentable.co/ithaca-ny/neighborhoods/fall-creek", title: "Rentable: Fall Creek, Ithaca apartments", accessed: "2026-11-08"}
   - {url: "https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258", title: "Cornell off-campus listings: 709 N Tioga St, Fall Creek", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates", title: "Cornell Housing: 2026-27 housing rates", accessed: "2026-11-10"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire", title: "Cornell Off-Campus Living: Housemate compatibility questionnaire (joint and several liability)", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell Housing: 2026-27 housing rates", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire", title: "Cornell Off-Campus Living: Housemate compatibility questionnaire (joint and several liability)", accessed: "2026-11-10"}
   - {url: "https://finaid.cornell.edu/graduate-students", title: "Cornell Financial Aid: Graduate students cost of attendance", accessed: "2026-11-10"}
   - {url: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", title: "EnergySage: Electricity cost in Ithaca, NY", accessed: "2026-11-10"}
   - {url: "https://poweroutage.us/electricity-rates/ny/ithaca", title: "PowerOutage.us: Ithaca electricity rates (search snippet)", accessed: "2026-11-08"}
@@ -31,7 +31,7 @@ sources:
   - {url: "https://www.cityofithacany.gov/718/Dryden-Road-Garage", title: "City of Ithaca: Dryden Road Garage", accessed: "2026-11-10"}
   - {url: "https://www.cityofithacany.gov/731/Permit-Issuance", title: "City of Ithaca: Residential parking permit issuance", accessed: "2026-11-10"}
   - {url: "https://ecode360.com/8391421", title: "City of Ithaca Code: residential parking permit zones", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", title: "Cornell Housing: Ithaca neighborhoods", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods", title: "Cornell Housing: Ithaca neighborhoods", accessed: "2026-11-10"}
 redirect_from:
   - /cornell/housing/ithaca-rent-commute-calculator/
   - /housing/ithaca-rent-commute-calculator/
@@ -83,7 +83,7 @@ A worked example: Collegetown Plaza's premium 4BR with 1.5 baths lists at $1,250
 | 174 Kendall Ave. | 4BR, $2,600 a month or $650 a person plus electricity and heat; Aug. 1 to June 30 | from Aug. 1, 2027 | [IthacaRents](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom) |
 | Lansing West, 700 Warren Rd. | Base rents from $1,302 (1BR), $1,625 (2BR), $2,072 (3BR) | November 2026 | [RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx) |
 | Fall Creek, whole unit | Studio $2,600; 1BR $1,600; 2BR $2,420; 709 N. Tioga St. 1BRs at $1,600 and $1,700 | Rentable undated; listing 2026 | [Rentable](https://www.rentable.co/ithaca-ny/neighborhoods/fall-creek); [709 N. Tioga](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258) |
-| Cornell residence hall double | $6,872 a semester, $13,744 a year; gas, electricity, garbage and internet included | AY 2026-27 | [Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) |
+| Cornell residence hall double | $6,872 a semester, $13,744 a year; gas, electricity, garbage and internet included | AY 2026-27 | [Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) |
 | Grad housing budget, Ithaca | $19,962 a year ($1,663.50 a month) | AY 2026-27 | [Cornell Financial Aid](https://finaid.cornell.edu/graduate-students) |
 | Electricity, high | $282 a month average household bill | updated 2026-11-08 | [EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/) |
 | Electricity, low | $104.20 a month average bill at 698 kWh | 2026, snippet | [PowerOutage.us](https://poweroutage.us/electricity-rates/ny/ithaca) |
@@ -91,7 +91,7 @@ A worked example: Collegetown Plaza's premium 4BR with 1.5 baths lists at $1,250
 | Cornell B commuter permit | $359.77 a year; commuters only | checked 2026-11-10 | [Cornell student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) |
 | Dryden Road Garage | $232 a month; no guaranteed space | checked 2026-11-10 | [City of Ithaca](https://www.cityofithacany.gov/718/Dryden-Road-Garage) |
 | City residential permit | $45 a year, to July 31; R-1 and R-2 zones | checked 2026-11-10 | [City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance); [City code](https://ecode360.com/8391421) |
-| Distances | Collegetown 0.1 to 0.5 mi; downtown 0.5 to 1.5 mi; Fall Creek 0.5 to 1 mi; Cornell Heights 1 to 4 mi; South Hill 1.5 to 3 mi; Lansing 5 to 10 mi | page as crawled 2026-11-06 | [Cornell neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) |
+| Distances | Collegetown 0.1 to 0.5 mi; downtown 0.5 to 1.5 mi; Fall Creek 0.5 to 1 mi; Cornell Heights 1 to 4 mi; South Hill 1.5 to 3 mi; Lansing 5 to 10 mi | page as crawled 2026-11-06 | [Cornell neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) |
 
 ## One person's rent for a year, by building
 
@@ -115,7 +115,7 @@ Rent alone runs from $7,150 for a share of a South Hill house to $29,940 for a d
 | Aces Apartments 6BR, per person ($727.50 x 12) | $8,730 |
 | 174 Kendall Ave. 4BR, per person, 11-month lease ($650 x 11) | $7,150 |
 
-Sources: [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) and [downtown](https://ithacarenting.com/downtown/) pages, [Dryden South](https://drydensouth.com/availability/), [The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026), the IthacaRents listings for [114 Stewart Ave.](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown), [117 Thurston Ave.](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights) and [174 Kendall Ave.](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom), and [Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates). Rent only, at the midpoint of each listed range.
+Sources: [Ithaca Renting Collegetown](https://ithacarenting.com/collegetown/) and [downtown](https://ithacarenting.com/downtown/) pages, [Dryden South](https://drydensouth.com/availability/), [The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026), the IthacaRents listings for [114 Stewart Ave.](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown), [117 Thurston Ave.](https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights) and [174 Kendall Ave.](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom), and [Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates). Rent only, at the midpoint of each listed range.
 
 ## Assumptions and what the tool does not cover
 
@@ -136,7 +136,7 @@ The table at the bottom keeps the unit and changes the head count. Read it to se
 
 Two people splitting a standard one-bedroom at Collegetown Court, listed at $1,625 to $1,725 a month ([Ithaca Renting](https://ithacarenting.com/collegetown/)), pay $1,675 for the unit at the midpoint. Alone, rent plus $282 of electricity comes to $23,484 a year. Split two ways, each pays $837.50 in rent and $141 in electricity a month, $11,742 a year, which is $2,002 under the double.
 
-In the other direction, take the Collegetown Plaza premium 4BR from the worked example above, $16,446 a year for each of four people. If one leaves and three cover the unit, each pays $1,733.33 in rent and $94 in electricity a month, and the year rises to $21,928, or $5,482 more each. On a joint lease the rest of the group owes the missing share: Cornell says most local leases bind housemates "jointly and severally," which means each person is responsible for the whole rent and for damages for the full term ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). Set the head count to three to see this for your own unit; [Off-campus roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/) covers what that clause means and how to protect yourself.
+In the other direction, take the Collegetown Plaza premium 4BR from the worked example above, $16,446 a year for each of four people. If one leaves and three cover the unit, each pays $1,733.33 in rent and $94 in electricity a month, and the year rises to $21,928, or $5,482 more each. On a joint lease the rest of the group owes the missing share: Cornell says most local leases bind housemates "jointly and severally," which means each person is responsible for the whole rent and for damages for the full term ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)). Set the head count to three to see this for your own unit; [Off-campus roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/) covers what that clause means and how to protect yourself.
 
 The date in the small print is when the prices were read. Asking prices change until a lease is signed, so check the listing before you sign.
 

@@ -4,129 +4,201 @@
  "verdict": "pass",
  "checked": [
   {
-   "claim": "Tuition $73,946 endowed/non-NY and $49,816 NY contract, up 3.76%",
-   "source_url": "brief §2 (cost table)",
+   "claim": "Tuition $73,946 endowed/non-NY, $49,816 NY contract; up 3.76%; contract colleges CALS, Human Ecology, ILR, Brooks, Dyson",
+   "source_url": "brief §10 (tuition rows)",
    "status": "ok",
-   "note": "brief §2; 73,946 / 1.0376 = 71,266 consistent"
+   "note": "Matches brief; 73,946/1.0376 = 71,266 consistent."
   },
   {
-   "claim": "Mandatory fees $1,024 ($424 + $600)",
-   "source_url": "brief §2",
+   "claim": "Mandatory fees $1,024 (activity $424, Cornell Health $600)",
+   "source_url": "brief §10",
    "status": "ok",
-   "note": "brief §2; 424 + 600 = 1,024"
+   "note": "424+600 = 1,024."
   },
   {
-   "claim": "Room $12,644 to $16,595; double $13,744; single $15,566; meal plans $7,604 and $7,056; $50 fee",
-   "source_url": "brief §3",
+   "claim": "Room rates $12,644 (triple) to $16,595 (super single), hall double $13,744, single/townhouse $15,566",
+   "source_url": "brief §3 housing rows",
    "status": "ok",
-   "note": "brief §3 and §10.1"
+   "note": "Single 7,783x2 = 15,566; page figures match brief."
+  },
+  {
+   "claim": "Meal plans: Unlimited/House $7,604, Collegetown $7,056, six named buildings, $50 admin fee, $1,000 Just Bucks",
+   "source_url": "brief §3 dining rows",
+   "status": "ok",
+   "note": "Matches brief."
   },
   {
    "claim": "Billed totals $95,218 / $95,770 / $96,318 / $98,140 / $99,169 and NY $71,088 / $71,640 / $72,188 / $74,010 / $75,039",
-   "source_url": "brief §10.1",
+   "source_url": "brief §10 worked sums",
    "status": "ok",
-   "note": "Recomputed 74,970 + room + meal plan for each row; NY rows subtract 24,130. All match."
+   "note": "Recomputed: 74,970 + room + meal plan for each row (e.g. 74,970+12,644+7,604 = 95,218; 74,970+13,744+7,056 = 95,770; 74,970+15,566+7,604 = 98,140; 74,970+16,595+7,604 = 99,169); NY = endowed minus 24,130."
   },
   {
-   "claim": "Cost of attendance $99,734 and $75,604; books $1,234; personal $2,182",
-   "source_url": "brief §2",
+   "claim": "Tuition gap $24,130; cheapest vs dearest room $3,951 apart",
+   "source_url": "brief §10",
    "status": "ok",
-   "note": "96,318 + 3,416 = 99,734; 72,188 + 3,416 = 75,604"
+   "note": "73,946-49,816 = 24,130; 99,169-95,218 = 3,951."
   },
   {
-   "claim": "Cheapest and dearest rooms $3,951 apart; $24,130 gap",
-   "source_url": "our math",
+   "claim": "Cost of attendance $99,734 / $75,604; books $1,234; personal $2,182",
+   "source_url": "brief §2/§10",
    "status": "ok",
-   "note": "99,169 - 95,218 = 3,951; 73,946 - 49,816 = 24,130"
+   "note": "96,318+3,416 = 99,734; 72,188+3,416 = 75,604."
   },
   {
-   "claim": "Worked examples: $96,368 with $50 fee; $100,119 with health plan; Redbud example $57,814; hall $64,584",
-   "source_url": "our math",
+   "claim": "Example Ohio sophomore: $96,318, +$50 = $96,368, +$3,751 = $100,119",
+   "source_url": "brief §10",
    "status": "ok",
-   "note": "96,318 + 50; + 3,751; 49,816 + 1,024 + 6,974; 49,816 + 1,024 + 13,744, all recomputed"
+   "note": "Arithmetic recomputed."
   },
   {
-   "claim": "Co-op rates per semester and per year; savings $6,770 / $5,110 / $5,108 / $4,314 / $3,782; Redbud triple $5,530",
-   "source_url": "brief §3.6, §10.3",
+   "claim": "Co-op doubles $3,487 to $4,981 a semester, yearly doubles and savings against $13,744; Redbud triple $2,765/$5,530; eight houses",
+   "source_url": "brief §3 co-op rows",
    "status": "ok",
-   "note": "Doubled each semester rate and subtracted from 13,744; all match"
+   "note": "Recomputed each: x2 and 13,744 minus yearly (6,770; 5,110; 5,110; 5,108; 4,314; 3,782; 3,782). Eight houses counted from table incl. 302 and 308 Wait."
   },
   {
-   "claim": "Two years: $199,468, $151,208; tuition alone $147,892, $99,632",
-   "source_url": "brief §10.2",
+   "claim": "Redbud ILR example: $57,814 before food; hall double $64,584 + $7,604",
+   "source_url": "brief §10",
    "status": "ok",
-   "note": "99,734 x 2; 75,604 x 2; 73,946 x 2; 49,816 x 2"
+   "note": "49,816+1,024+6,974 = 57,814; 49,816+1,024+13,744 = 64,584."
   },
   {
-   "claim": "3.76% rise would add about $2,780",
-   "source_url": "our math",
+   "claim": "Room rate includes gas, electricity, garbage, internet up to 200 GB",
+   "source_url": "brief §3",
    "status": "ok",
-   "note": "73,946 x 0.0376 = 2,780.4"
+   "note": "brief §3."
+  },
+  {
+   "claim": "Housing application within ten days of NetID, no fee or deposit, mid-June confirmations, random auto-allocation, Program Houses chosen by name, upper-level areas",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 rows."
+  },
+  {
+   "claim": "New transfers cannot cancel license; exemptions (two years on campus elsewhere, junior/senior entry), one year at a time; Hasbrouck graduate-only",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 rows."
+  },
+  {
+   "claim": "Student Health Plan: $1,705 fall + $2,046 spring = $3,751; spring entrant $2,046; dependents $4,092/$3,751, $8,184/$7,502",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief §7; 1,705+2,046 = 3,751."
+  },
+  {
+   "claim": "Waiver deadline July 31, 2026 (new fall) and January 21, 2027 (new spring); waivers lock after; reverified each semester",
+   "source_url": "https://studenthealthbenefits.cornell.edu/node/179",
+   "status": "ok",
+   "note": "Brief marked this snippet-only; opened the page and it confirms both dates, semester reverification and the lock and prorated termination."
+  },
+  {
+   "claim": "Full-time degree-seeking students must enroll or waive; non-responders enrolled and billed; plan outside COA",
+   "source_url": "brief §7",
+   "status": "ok",
+   "note": "brief §7."
+  },
+  {
+   "claim": "Billing: Cashnet, early July, due before registration, spring in January; 2024 example July 12 due Aug 7; parent must be invited; Installment Plan, Tuition Refund Plan",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "brief §9 rows."
+  },
+  {
+   "claim": "Fall housing billed July or August, spring in December; meal plan billed July and January",
+   "source_url": "brief §3/§9",
+   "status": "ok",
+   "note": "brief timeline."
+  },
+  {
+   "claim": "2027-28 prices not yet published; confirmed before early April 2027 offers; 3.76% rise would add about $2,780",
+   "source_url": "brief §9",
+   "status": "ok",
+   "note": "73,946 x 0.0376 = 2,780.3."
+  },
+  {
+   "claim": "Two years: $199,468 endowed, $151,208 NY; tuition only $147,892 / $99,632",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "99,734x2 = 199,468; 75,604x2 = 151,208; 73,946x2 = 147,892; 49,816x2 = 99,632."
   },
   {
    "claim": "Hall double about $1,527 a month over nine months",
-   "source_url": "brief §10.8",
+   "source_url": "brief §10",
    "status": "ok",
-   "note": "13,744 / 9 = 1,527.1"
+   "note": "13,744/9 = 1,527.1."
   },
   {
-   "claim": "Student Health Plan: $1,705 + $2,046 = $3,751; spring entrant $2,046; dependents $4,092/$3,751, $8,184/$7,502",
-   "source_url": "brief §2.14",
+   "claim": "RentCafe Collegetown Oct 30, 2026: studio $2,006, 1BR $2,342, 2BR $3,414; buildings of 50+ units",
+   "source_url": "brief §3.8",
    "status": "ok",
-   "note": "brief; sum recomputed"
+   "note": "brief §3.8."
   },
   {
-   "claim": "Waiver deadlines July 31, 2026 and January 21, 2027",
-   "source_url": "brief §2.14",
+   "claim": "Desirable Collegetown leases leave market up to 16 months before move-in (Sun, 2018)",
+   "source_url": "brief §3.8",
    "status": "ok",
-   "note": "brief"
+   "note": "brief; attribution matches."
   },
   {
-   "claim": "Aid thresholds $125,000 tuition and $75,000 full cost; 100% need; no merit",
+   "claim": "Aid: 100% of need, no merit; up to $125,000 grants cover tuition; up to $75,000 full COA; Unlimited plan fully covered by aid for eligible students",
    "source_url": "brief §2.15",
    "status": "ok",
-   "note": "brief"
+   "note": "brief rows."
   },
   {
-   "claim": "$85 application fee waiver; CSS Profile fee waived up to $100,000; HESC codes 0174/0175; March 15, 2027; 14% withholding",
-   "source_url": "brief §2.15, §2.16",
+   "claim": "CSS Profile and FAFSA March 15, 2027; CSS fee waiver automatic to $100,000 AGI; HESC codes 0174/0175; aid taxable beyond tuition and fees; Aid Estimate soon after admission",
+   "source_url": "brief §2.15",
    "status": "ok",
-   "note": "brief"
+   "note": "brief rows."
   },
   {
-   "claim": "Housing: one-year rule, no fee or deposit, ten days from NetID, mid-June confirmations, license cannot be cancelled, Hasbrouck graduate-only, 200 GB internet, Just Bucks $1,000",
-   "source_url": "brief §3",
+   "claim": "$85 application fee waived automatically if a burden and applying for aid",
+   "source_url": "brief §1",
    "status": "ok",
-   "note": "brief"
+   "note": "brief row."
   },
   {
-   "claim": "RentCafe Collegetown studio $2,006, 1BR $2,342, 2BR $3,414, Oct 30, 2026, 50+ unit buildings",
-   "source_url": "brief §3.8",
+   "claim": "International: $73,946 at every college, need-aware, CSS due March 15, 2027 generally no waiver, missing it ends aid, 14% withholding",
+   "source_url": "brief §2.18",
    "status": "ok",
-   "note": "brief"
+   "note": "brief rows."
   },
   {
-   "claim": "Collegetown leases leave market up to 16 months before move-in (Sun 2018)",
-   "source_url": "brief §3.8",
+   "claim": "Arts and Sciences: four semesters in residence, up to 60 credits accepted",
+   "source_url": "brief §1/§10.4",
    "status": "ok",
-   "note": "brief"
+   "note": "brief rows."
   },
   {
-   "claim": "90 credits: 30 lost, tenth semester, about $74,970 more",
+   "claim": "90 credits means 30 lost and a tenth semester, about $74,970 more",
    "source_url": "brief §10.4",
-   "status": "ok",
-   "note": "73,946 + 1,024 = 74,970"
+   "status": "fixed",
+   "note": "Brief: 90 credits = 30 lost, ten semesters (two extra, one year) costing 73,946+1,024 = 74,970. Page said 'a tenth semester', which implies one semester; reworded to 'ten semesters instead of eight, about $74,970 more in tuition and fees'."
   },
   {
-   "claim": "Fall 2021 Sun article: admitted first-years and transfers had to commit by May 3 before many aid offers came; one student described her offer as mostly loans",
-   "source_url": "https://cornellsun.com/2021/05/14/admitted-students-await-financial-aid-offers-weeks-after-commitment-deadlines/",
-   "status": "fixed",
-   "note": "Opened the article: it says first-year and transfer students were forced to commit without knowing aid status; May 3 appears only in a student's quote, not as the stated deadline. Removed 'by May 3'. 'Mostly in loans' (Ashley Servia '25) confirmed."
+   "claim": "Junior-entry fixed bill $74,970 tuition and fees",
+   "source_url": "brief §10",
+   "status": "ok",
+   "note": "73,946+1,024."
+  },
+  {
+   "claim": "Spring 2021 Sun story: commit before many aid offers; one student described offer as mostly loans",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Attribution matches brief (one student, her offer)."
+  },
+  {
+   "claim": "Cornell College in Mount Vernon, Iowa crowds the same searches",
+   "source_url": "brief §1",
+   "status": "ok",
+   "note": "brief."
   }
  ],
  "brief_updates": [],
  "fixes": [],
  "core_answer": "right",
  "checked_at": "2026-11-11",
- "page_sha": "74379c67a2ea6a09eadf357290c15450a80155c5cb385b64d8f7465247f1be14"
+ "page_sha": "72d43f465d0d4fcae6385b4820bf57fdcbd512e455d6330ea0cfa77f051d064d"
 }

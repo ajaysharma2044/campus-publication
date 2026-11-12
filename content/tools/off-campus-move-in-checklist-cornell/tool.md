@@ -10,7 +10,7 @@ readers: [upper-year-renter, sophomore, international, grad-student, student-fam
 brief: intel/off-campus-housing/brief.md
 sources:
   - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "NY General Obligations Law 7-108 (deposits, move-in inspection)", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out", title: "Cornell Housing: moving in and out", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out", title: "Cornell Housing: moving in and out", accessed: "2026-11-08"}
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/235-F", title: "NY Real Property Law 235-f (roommates and occupants)", accessed: "2026-11-08"}
   - {url: "https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags", title: "City of Ithaca: trash and yard waste collection tags", accessed: "2026-11-08"}
   - {url: "https://www.cityofithacany.gov/136/Exterior-Property-Maintenance", title: "City of Ithaca: exterior property maintenance", accessed: "2026-11-08"}
@@ -19,8 +19,8 @@ sources:
   - {url: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", title: "EnergySage: electricity cost in Ithaca", accessed: "2026-11-08"}
   - {url: "https://poweroutage.us/electricity-rates/ny/ithaca", title: "Poweroutage.us: Ithaca electricity rates", accessed: "2026-11-08"}
   - {url: "https://ispreports.org/internet-service-providers-ithaca-ny/", title: "ISP Reports: internet providers in Ithaca", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus", title: "Cornell Housing: living on campus (GradGuard renters insurance)", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations", title: "Cornell Housing: checklists and considerations", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus", title: "Cornell Housing: living on campus (GradGuard renters insurance)", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations", title: "Cornell Housing: checklists and considerations", accessed: "2026-11-08"}
   - {url: "https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny", title: "SafeButler: renters insurance in Ithaca", accessed: "2026-11-08"}
   - {url: "https://gradguard.com/blog/?p=14522", title: "GradGuard blog: renters insurance cost", accessed: "2026-11-08"}
   - {url: "https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/", title: "Insure.com: average renters insurance cost in New York", accessed: "2026-11-08"}
@@ -36,7 +36,7 @@ sources:
   - {url: "https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed", title: "301 College Ave opens for student housing (Cornell Sun, 2026)", accessed: "2026-11-08"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Cornell Transportation: bus services, privileges and passes", accessed: "2026-11-08"}
   - {url: "https://international.globallearning.cornell.edu/life-cornell/faq-international-students", title: "Cornell International Services: FAQ", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources", title: "Cornell Off-Campus Living: rental listings and resources", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources", title: "Cornell Off-Campus Living: rental listings and resources", accessed: "2026-11-08"}
 ---
 
 This checklist turns your move-in into a dated to-do list. Tell it whether the place is in the City of Ithaca, your lease start date, which bills you pay, how many people split them, whether you have a car and where it sleeps, your Cornell status, and three yes-or-no facts (someone living there who is not on the lease, arriving from abroad, a new building). It sorts the steps into before move-in day, move-in day, the first 30 days and later dates, computes the deadline to name an extra occupant and a prorated Cornell parking permit price, and gives a per-person range for the bills you add on top of rent.

@@ -7,7 +7,7 @@ primary_query: Alice Cook House Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 74
 rewrites: ''
 readers:
@@ -21,34 +21,34 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/alice-cook-house
   title: Alice Cook House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3031
   title: Alice H Cook House, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system
   title: West Campus House System, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2020/11/students-recount-social-struggles-limited-food-options-and-spiders-while-living-on-west-campus
   title: Students recount social struggles and spiders while living on West Campus, The Cornell Daily Sun, Nov. 2020
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -97,7 +97,7 @@ For the other four Houses side by side, see [West Campus Houses compared](/corne
 
 ## What does a year in Cook cost?
 
-Cornell charges by room type, not by building ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The meal plan is where West differs. Every House resident must take the House Meal Plan, with all meals in the ten residential dining rooms, and cannot change or cancel it while living on West ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Cornell charges by room type, not by building ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The meal plan is where West differs. Every House resident must take the House Meal Plan, with all meals in the ten residential dining rooms, and cannot change or cancel it while living on West ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -114,9 +114,9 @@ Is it worth it? The [meal plan guide](/cornell/money/cornell-meal-plan-worth-it/
 
 ## How do you get a room in Alice Cook House?
 
-Most rising sophomores do not land on West. Cornell says about 20% of rising sophomores have gotten a West Campus space in past years, and a student who does not select is assigned what is left ([Cornell Housing FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)). For 2027-28 the application opens Feb. 1, 2027, and closes April 4, and open room selection runs April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+Most rising sophomores do not land on West. Cornell says about 20% of rising sophomores have gotten a West Campus space in past years, and a student who does not select is assigned what is left ([Cornell Housing FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)). For 2027-28 the application opens Feb. 1, 2027, and closes April 4, and open room selection runs April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
-The two-year residential rule applies. For the exemptions, read the [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/). Returning juniors and seniors can cancel a 2027-28 license for a fee that grows with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+The two-year residential rule applies. For the exemptions, read the [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/). Returning juniors and seniors can cancel a 2027-28 license for a fee that grows with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -130,11 +130,11 @@ Only Cook and Rose have triples, the lowest room rate in Cornell's table. That i
 
 ## What should you watch for?
 
-The Gothic halls and Cook Main are one House on paper but two living situations. Ask which building you are placed in before you rank Cook. Cornell's pages do not give recent reviews of either, so tour both if you can.
+The Gothic halls and Cook Main are one House on paper but two living situations. Ask which building you are placed in before you rank Cook, and tour both if you can.
 
 ## What to do next
 
-Decide whether suites in Cook Main or larger Gothic rooms suit you. Then read the full West Campus guide and set a reminder for the February application.
+Decide whether suites in Cook Main or larger Gothic rooms suit you. Then read [West Campus Houses compared](/cornell/housing/cornell-west-campus-houses-compared/) and set a reminder for the February application.
 
 ## Related guides
 

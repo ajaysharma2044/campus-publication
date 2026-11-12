@@ -29,19 +29,19 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall
   title: Air conditioning by North Campus building, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergraduate Application Process, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
@@ -73,7 +73,7 @@ images:
 - Cornell lists it among 13 program houses, and it was founded in 1971.
 ```
 
-Ecology House is a 96-resident Cornell program house in Hurlburt House where every room is a double with a private bath and in-room air conditioning. A double costs $13,744 for 2026-27, the same as in any residence hall ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Ecology House is a 96-resident Cornell program house in Hurlburt House where every room is a double with a private bath and in-room air conditioning. A double costs $13,744 for 2026-27, the same as in any residence hall ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is Ecology House?
 
@@ -122,7 +122,7 @@ Off campus, a share of a Collegetown six-bedroom has a median asking rent of $9,
 
 ## How do you get into Ecology House?
 
-New students list a program house on the housing application. They apply within 10 days of getting a NetID, and halls not chosen are assigned by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027, and program house priority selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+New students list a program house on the housing application. They apply within 10 days of getting a NetID, and halls not chosen are assigned by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027, and program house priority selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 A program house counts as on-campus housing, so living there meets the two-year residential requirement. If you want to live off campus, read the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 

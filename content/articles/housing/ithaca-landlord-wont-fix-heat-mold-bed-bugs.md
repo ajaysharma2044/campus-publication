@@ -42,7 +42,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' rights guide, Cornell Law Tenants Advocacy
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus living resources, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal
@@ -63,7 +63,7 @@ sources:
 - url: https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme
   title: Asteri's aftermath, The Cornell Daily Sun
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe living environments, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants
@@ -221,9 +221,9 @@ Orders can also come from the City itself. A vacate order issued March 4, 2026, 
 
 - **Cornell Law Tenants Advocacy hotline**, 607-301-1560: free advice.
 - **LawNY**, (607) 273-3667: legal emergencies and free housing help.
-- **Community Dispute Resolution Center**, 607-273-9347: tenant mediation ([Cornell resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)).
+- **Community Dispute Resolution Center**, 607-273-9347: tenant mediation ([Cornell resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)).
 - **Cornell Cooperative Extension**, 607-272-2292, 615 Willow Ave., weekdays 8 a.m. to 4 p.m.
-- **Ithaca Tenants Union**: a tenant organization, not a government office, at [ithacatu.org](https://www.ithacatu.org/). Cornell's resource list links its Landlord Issue Form ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)).
+- **Ithaca Tenants Union**: a tenant organization, not a government office, at [ithacatu.org](https://www.ithacatu.org/). Cornell's resource list links its Landlord Issue Form ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)).
 - **New York Attorney General**: main office line 1-800-771-7755, with complaints filed online ([AG tenants page](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)).
 
 Check a landlord's record before you sign next time with our [landlords to avoid](/housing/how-to-check-an-ithaca-landlords-record/) guide, and see the [landlord rules guide](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/) for what the City requires of owners.
@@ -233,7 +233,7 @@ The fear of losing a renewal is the main reason renters stay quiet, and the reta
 ```
 
 ```reader "If you're a grad student"
-Check which side of the city line you live on. Fall Creek and downtown addresses go to the City Building Division. Varna, Lansing and Cayuga Heights are outside the City, so they go to their own code office. Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) covers City rentals only. Cornell staff advise grads to contact Off-Campus Living as soon as a problem starts ([Graduate School](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/)).
+Check which side of the city line you live on. Fall Creek and downtown addresses go to the City Building Division. Varna, Lansing and Cayuga Heights are outside the City, so they go to their own code office. Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments) covers City rentals only. Cornell staff advise grads to contact Off-Campus Living as soon as a problem starts ([Graduate School](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/)).
 ```
 
 ```reader "If you're living with a spouse, partner or children"

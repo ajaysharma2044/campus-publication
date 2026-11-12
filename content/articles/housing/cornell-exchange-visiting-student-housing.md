@@ -31,7 +31,7 @@ sources:
 - url: https://www.modernlivingrentals.com/
   title: Modern Living Rentals
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -71,7 +71,7 @@ Cornell does not post whether exchange or visiting undergraduates can get a resi
 
 ## Where do I find a one-semester rental?
 
-Start with Cornell's own channels. The Off-Campus Housing Marketplace shows listings and subletters only to people who [prove Cornell affiliation](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). The Off-Campus Living email list covers housing, roommates and sublets and needs a NetID. Admitted students without one forward the acceptance letter to offcampusliving@cornell.edu.
+Start with Cornell's own channels. The Off-Campus Housing Marketplace shows listings and subletters only to people who [prove Cornell affiliation](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources). The Off-Campus Living email list covers housing, roommates and sublets and needs a NetID. Admitted students without one forward the acceptance letter to offcampusliving@cornell.edu.
 
 Then check these:
 

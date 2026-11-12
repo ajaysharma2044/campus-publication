@@ -38,28 +38,28 @@ sources:
 - url: https://www.cornellsun.com/article/2025/02/bsu-holds-emergency-meeting-as-affinity-groups-program-houses-are-threatened-by-department-of-education-guidelines
   title: BSU Holds 'Emergency Meeting' As Affinity Groups, Program Houses Are Threatened, The Cornell Daily Sun, Feb. 23, 2025
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergraduate Application Process, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
   accessed: '2026-11-10'
 images:
@@ -119,7 +119,7 @@ If you want the community, list Ujamaa and write to the house before you apply. 
 
 ## What does Ujamaa cost?
 
-Ujamaa uses the residence hall rate table. A double is $6,872 per semester, or $13,744 per academic year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The cluster layout matters here, because a triple saves $1,100 a year against a double, and a single costs $1,822 more than a double (15,566 minus 13,744).
+Ujamaa uses the residence hall rate table. A double is $6,872 per semester, or $13,744 per academic year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The cluster layout matters here, because a triple saves $1,100 a year against a double, and a single costs $1,822 more than a double (15,566 minus 13,744).
 
 Every resident buys a meal plan: Unlimited at $7,604 for first-years, or Bear Traditional at $7,056 for upper-level and transfer students, plus a $50 yearly fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
@@ -137,11 +137,11 @@ Compare the double with a share of a Collegetown four-bedroom in the [2026-27 ho
 
 ## How do you get a spot in Ujamaa?
 
-List Ujamaa as a preference on the housing application. New first-year and transfer students apply within 10 days of getting a NetID, Cornell's student login. Unless you list a program house, your hall is set by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)).
+List Ujamaa as a preference on the housing application. New first-year and transfer students apply within 10 days of getting a NetID, Cornell's student login. Unless you list a program house, your hall is set by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
-Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027 at 11:59 p.m., and Priority Program House Selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027 at 11:59 p.m., and Priority Program House Selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
-Juniors and seniors had a round from Sept. 1 to Sept. 27, 2026. Cornell warns that program house beds may not be left in later stages ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). A program house meets the two-year residential requirement. To live off campus instead, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Juniors and seniors had a round from Sept. 1 to Sept. 27, 2026. Cornell warns that program house beds may not be left in later stages ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). A program house meets the two-year residential requirement. To live off campus instead, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ## What should you watch before you sign?
 
@@ -149,9 +149,9 @@ Ask about the building's condition. Residents told the Sun in May 2026 about hea
 
 Low Rise 10 is not on Cornell's list of buildings open over winter break ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Plan where you will stay between semesters.
 
-Juniors and seniors who sign for 2027-28 can cancel for $50 through Jan. 31, 2027, and the fee then rises ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
+Juniors and seniors who sign for 2027-28 can cancel for $50 through Jan. 31, 2027, and the fee then rises ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
-On move-in day in fall 2026, Ujamaa residents unloaded at Program House Drive, and U-Hauls and trailers were turned away ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) has the rest.
+On move-in day in fall 2026, Ujamaa residents unloaded at Program House Drive, and U-Hauls and trailers were turned away ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) has the rest.
 
 ## What to do next
 

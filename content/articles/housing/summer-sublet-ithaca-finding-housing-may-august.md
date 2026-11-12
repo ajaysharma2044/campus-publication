@@ -21,10 +21,10 @@ subject: Cayuga Lake summer Ithaca
 tools:
 - ithaca-sublet-request-timeline
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
@@ -33,10 +33,10 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a Lease, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: 'Living Off Campus: tenant best practices, Cornell Student & Campus Life'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
@@ -123,7 +123,7 @@ If you need a tenant for your own room rather than a place to live, read [how to
 
 ## What are your options between May and August?
 
-Cornell residence halls closed at [2 p.m. on Sunday, May 17, 2026](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options), and most Ithaca leases [end July 31](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing). Your route depends on where you live now and where you live in August.
+Cornell residence halls closed at [2 p.m. on Sunday, May 17, 2026](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options), and most Ithaca leases [end July 31](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing). Your route depends on where you live now and where you live in August.
 
 | Your situation | What covers the summer | The catch |
 |---|---|---|
@@ -138,7 +138,7 @@ Start dates vary by building. Dryden South leases all [end May 31, 2027](https:/
 
 ## Where do you find a summer sublet?
 
-Start on the [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources), which shows subletters only to people who prove Cornell affiliation. The Off-Campus Living email list carries sublets and roommate notices too: send "Join" as the subject with a blank body. Landlords post their own: Modern Living Rentals advertises [sublet and roommate openings from $900 per person](https://www.modernlivingrentals.com/), and Dryden South has a sublets page that said ["Nothing Currently Available"](https://drydensouth.com/availability/). The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers each channel, and June is the main sublet season.
+Start on the [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources), which shows subletters only to people who prove Cornell affiliation. The Off-Campus Living email list carries sublets and roommate notices too: send "Join" as the subject with a blank body. Landlords post their own: Modern Living Rentals advertises [sublet and roommate openings from $900 per person](https://www.modernlivingrentals.com/), and Dryden South has a sublets page that said ["Nothing Currently Available"](https://drydensouth.com/availability/). The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers each channel, and June is the main sublet season.
 
 ## What does a summer sublet cost?
 
@@ -173,7 +173,7 @@ rows:
   - {label: "Pay only after consent, with a receipt; photograph the room on move-in"}
 ```
 
-1. **Count the units.** In a building with four or more units a tenant has a legal right to sublet, with the landlord's advance written consent. In a smaller building, [the lease controls](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). Cornell's tenant page says [most leases require landlord approval](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus).
+1. **Count the units.** In a building with four or more units a tenant has a legal right to sublet, with the landlord's advance written consent. In a smaller building, [the lease controls](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease). Cornell's tenant page says [most leases require landlord approval](https://scl.cornell.edu/residential-life/housing/living-off-campus).
 2. **Ask to see the consent.** The tenant sends the request by certified mail. Silence from the landlord counts as consent after the deadline, so a dated copy plus the waiting period is the proof.
 3. **Get a written sublease.** Put in the dates, rent, deposit, utilities, keys and what furniture stays.
 4. **Know the fee rule.** A landlord can charge a sublet fee only if the lease allows it and it is reasonable.
@@ -197,7 +197,7 @@ rows:
   - {label: "OmniRide and first-year TCAT passes expire", date: "Aug. 31"}
 ```
 
-A Cornell room is no bridge. The 2026-27 housing license says storage is not available, and it charges [$60 a day outside the occupancy period](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027). Fifteen days from May 17 to June 1 would cost $900. City residential parking permits [expire July 31 with no partial-year option](https://www.cityofithacany.gov/731/Permit-Issuance), so a car at a new address needs a new permit.
+A Cornell room is no bridge. The 2026-27 housing license says storage is not available, and it charges [$60 a day outside the occupancy period](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027). Fifteen days from May 17 to June 1 would cost $900. City residential parking permits [expire July 31 with no partial-year option](https://www.cityofithacany.gov/731/Permit-Issuance), so a car at a new address needs a new permit.
 
 ## How do you store things for the gap?
 

@@ -8,7 +8,7 @@ primary_query: cornell program houses
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 4
 rewrites: ''
 readers:
@@ -54,7 +54,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house
   title: Language House, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/latino-living-center-llc
   title: Latino Living Center (LLC), Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
@@ -75,10 +75,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house
   title: Veterans House, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
@@ -87,16 +87,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process (2027-2028), Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://alumni.cornell.edu/cornellians/program-houses/
@@ -150,7 +150,7 @@ On Sunday evenings at 8:30, students gather in the main lounge of Low Rise 10 on
 
 That gap between what a house was built for and who ends up living in it is the open question hanging over Cornell's program houses. A program house is a themed residence hall: a dorm, or part of one, organized around a shared interest, identity or way of living. Cornell lists 13 of them for 2027-28, from an arts community in a 1913 hall to a substance-free floor that opened in fall 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). They cost exactly what any other hall costs. What you are choosing is the community, and whether that community shows up depends on who else chooses it.
 
-The 13 houses hold at least 1,078 students: 1,040 in the 12 houses that post counts, plus 38 in Sober Living in fall 2026. More than 500 of them are first-year and transfer students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). For a new student, a program house is the only part of campus where you choose your building.
+The 13 houses hold at least 1,078 students: 1,040 in the other 12 houses, plus 38 in Sober Living in fall 2026. More than 500 of them are first-year and transfer students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). For a new student, a program house is the only part of campus where you choose your building.
 
 ## What a program house is, and what it is not
 
@@ -216,7 +216,7 @@ Ujamaa Residential College has 144 residents in Low Rise 10 ([Cornell Housing](h
 
 Risley Residential College is the largest house, with 194 residents. Its building looks like a castle and has its own dining room, modeled on the hall at Christ Church, Oxford. Risley Dining is Cornell's dining room certified free of gluten, tree nuts and peanuts. Upstairs, rooms are singles and doubles on corridors, with all-gender bathrooms above the first floor and a kitchen on every floor. Residents run three hall councils and seven major programs a year ([Cornell Housing mission page](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations)). Risley also has creative shops, a theatre and a dance studio.
 
-Across from Risley, Anna Comstock Hall holds the Latino Living Center ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc)). Its 55 residents live in singles and doubles arranged in suites, with a kitchen, library, computer room and study lounge. Its building is named for Anna Botsford Comstock, the first woman at Cornell to hold the rank of professor. Residents are greeted with a Spanish welcome, Bienvenidos a Su Casa, or Welcome to Your Home. Cornellians reported a weekly Café con Leche discussion series in 2023.
+Across from Risley, Anna Comstock Hall holds the Latino Living Center ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/latino-living-center-llc)). Its 55 residents live in singles and doubles arranged in suites, with a kitchen, library, computer room and study lounge. Its building is named for Anna Botsford Comstock, the first woman at Cornell to hold the rank of professor. Residents are greeted with a Spanish welcome, Bienvenidos a Su Casa, or Welcome to Your Home. Cornellians reported a weekly Café con Leche discussion series in 2023.
 
 ### Akwe:kon and Ecology House
 
@@ -234,7 +234,7 @@ Loving House holds 30 residents in Mews Hall, at 172 Cradit Farm Drive ([Cornell
 
 The Language House is an immersion residence in Toni Morrison Hall for upper-level and transfer students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)). For 2026-27 its languages are Spanish, French, Mandarin, Korean and American Sign Language. It has more than 50 residents in suites with shared bathrooms, and its rooms are temperature-controlled. Each language group has a residential language fellow, a fluent or native speaker. Cornell surveys students each year to decide which languages to add or drop. Arabic, Farsi, Japanese, Italian and Russian have all been offered in past years.
 
-The Sober Living Community is for students who choose not to use alcohol or drugs, for any reason ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community)). It is open to undergraduates in every class year. Residents agree to keep their home substance-free. It took 38 residents in its first semester, with room to grow, the Sun reported. Jacob Carver, who coordinates alcohol and drug services at Cornell Health, called it an "oasis on North Campus." Before it, a privately run Cornell Sober House served students from 2016 to 2022. Its nonprofit blamed the pandemic for the closing. Cornell's page does not list room types or air conditioning for the floor, so ask housing@cornell.edu before you apply.
+The Sober Living Community is for students who choose not to use alcohol or drugs, for any reason ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community)). It is open to undergraduates in every class year. Residents agree to keep their home substance-free. It took 38 residents in its first semester, with room to grow, the Sun reported. Jacob Carver, who coordinates alcohol and drug services at Cornell Health, called it an "oasis on North Campus." Before it, a privately run Cornell Sober House served students from 2016 to 2022. Its nonprofit blamed the pandemic for the closing. Ask housing@cornell.edu about room types and air conditioning on the floor before you apply.
 
 ### Off North Campus: EEC and Veterans House
 
@@ -242,7 +242,7 @@ The Equity & Engagement Community, or EEC, sits at 2 Forest Park Lane, at the ba
 
 Veterans House has 26 residents, including one resident advisor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house)). It supports student veterans, but you do not need to have served. ROTC students, students with military families, and students in government or policy fields all qualify, as do graduate students. Every room is a super single. The house runs year-round, so window air conditioners are available on request at no charge.
 
-Veterans House is in the former Alpha Tau Omega house at 625 University Ave., the Sun reported when it opened. Cornell's housing directory gives the same address ([Cornell Housing facilities](https://scl.cornell.edu/residential-life/housing/facilities)). Cornell's 2027-28 selection page instead lists Veterans House at 112 Edgemoor Lane, which the same directory describes as a separate 20-bed hall. Go by 625 University Ave., and confirm with veterancommunity@cornell.edu before you plan around a location.
+Veterans House is in the former Alpha Tau Omega house at 625 University Ave., the Sun reported when it opened. Cornell's housing directory gives the same address ([Cornell Housing facilities](https://scl.cornell.edu/residential-life/housing/facilities)). Cornell's 2027-28 selection page instead lists Veterans House at 112 Edgemoor Lane, which the same directory describes as a separate 20-bed hall. Go by 625 University Ave., and ask veterancommunity@cornell.edu which address applies to your year.
 
 <!-- ad-break -->
 
@@ -252,7 +252,7 @@ Veterans House is in the former Alpha Tau Omega house at 625 University Ave., th
 |---|---|---|---|---|---|---|---|
 | Akwe:kon | Akwe:kon, North Campus, near Robert Purcell Community Center | 1991 (building built for it) | 35 | Singles, doubles | $13,744 to $15,566 | First-year, transfer, upper-level | No |
 | Ecology House | Hurlburt House, off Triphammer Road, North Campus (building 1953) | 1971 | 96 | Doubles, each with a private bathroom | $13,744 | First-year, transfer, upper-level | Yes, in-room units |
-| Equity & Engagement Community (EEC) | 2 Forest Park Lane, base of Libe Slope, South Campus | Not published | 37, including 2 RAs | Singles, super singles, doubles | $13,744 to $16,595 | Transfer, upper-level | No |
+| Equity & Engagement Community (EEC) | 2 Forest Park Lane, base of Libe Slope, South Campus |  | 37, including 2 RAs | Singles, super singles, doubles | $13,744 to $16,595 | Transfer, upper-level | No |
 | Holland International Living Center (HILC) | Low Rise 8, North Campus (building 1970) | 1970; renamed 1985 | 160+ | Clusters of 1 double, 1 triple, 2 singles | $12,644 to $15,566 | First-year, transfer, upper-level | No |
 | Just About Music (JAM) | Low Rise 9, North Campus (building 1970) | In Low Rise 9 since 2000 | 166 | Clusters of 1 double, 1 triple, 2 singles | $12,644 to $15,566 | First-year, transfer, upper-level | No |
 | Language House | Toni Morrison Hall, Sisson Place, North Campus | 1984; in Morrison since 2023 | 50+ | Singles, doubles in suites | $13,744 to $15,566 | Transfer, upper-level; extra application | Temperature-controlled |
@@ -260,7 +260,7 @@ Veterans House is in the former Alpha Tau Omega house at 625 University Ave., th
 | Loving House | Mews Hall, 172 Cradit Farm Drive, North Campus | 2019 | 30 | Singles, doubles in mixed-gender pods | $13,744 to $15,566 | First-year, transfer, upper-level | Air circulation system |
 | Multicultural Living Learning Unit (McLLU) | Clara Dickson Hall, 21 Northcross Road, North Campus | 1991 | 47, plus 3 RAs | Singles, triples | $12,644 to $15,566 | First-year, transfer, upper-level | No |
 | Risley Residential College | Prudence Risley Hall, North Campus (building 1913) | 1970 | 194 | Singles, doubles | $13,744 to $15,566 | First-year, transfer, upper-level | No |
-| Sober Living Community | Fourth floor of Bauer, Court-Kay-Bauer Hall, North Campus (building 2001) | Fall 2026 | 38 (fall 2026) | Not listed | Residence hall table ($12,644 to $16,595) | All undergraduates; extra application | Not listed |
+| Sober Living Community | Fourth floor of Bauer, Court-Kay-Bauer Hall, North Campus (building 2001) | Fall 2026 | 38 (fall 2026) |  | Residence hall table ($12,644 to $16,595) | All undergraduates; extra application |  |
 | Ujamaa Residential College | Low Rise 10, North Campus (building 1970) | 1972 | 144 | Clusters of 1 double, 1 triple, 2 singles | $12,644 to $15,566 | First-year, transfer, upper-level | No |
 | Veterans House | 625 University Ave., near Cook House | Fall 2021 | 26, including 1 RA | Super singles | $16,595 (undergraduates) | Transfer, upper-level, graduate; extra application | Window units on request |
 
@@ -270,7 +270,7 @@ Source: each house's Cornell Housing page and Cornell's housing facilities direc
 
 ## What a year costs
 
-A 2026-27 program house double costs $13,744 for the academic year, or $6,872 per semester. A single is $15,566, a triple $12,644 and a super single $16,595. Program houses share this rate table with every residence hall and West Campus house ([Cornell rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, garbage pickup and internet up to 200 GB a month. There is no security deposit.
+A 2026-27 program house double costs $13,744 for the academic year, or $6,872 per semester. A single is $15,566, a triple $12,644 and a super single $16,595. Program houses share this rate table with every residence hall and West Campus house ([Cornell rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, garbage pickup and internet up to 200 GB a month. There is no security deposit.
 
 Room type, not the house, sets your price. In the Low Rises and McLLU, a triple saves $1,100 a year against a double. At Veterans House, every room is a super single, so every undergraduate there pays the top rate (Cornell rates).
 
@@ -303,7 +303,7 @@ At a Black Students United town hall on March 10, 2026, administrators said most
 
 ### As a new student
 
-New first-years and transfers apply within 10 days of getting a NetID, Cornell's student login ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). There is no fee. The first question is whether you want a program house or a residence hall. Unless you list a program house, your hall is chosen by a random auto-allocation from your room-type preferences. You do not rank halls. Housing confirmations start arriving in mid-June. Our [first-year start page](/start/first-year/) collects the rest of the first-year housing steps.
+New first-years and transfers apply within 10 days of getting a NetID, Cornell's student login ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). There is no fee. The first question is whether you want a program house or a residence hall. Unless you list a program house, your hall is chosen by a random auto-allocation from your room-type preferences. You do not rank halls. Housing confirmations start arriving in mid-June. Our [first-year start page](/start/first-year/) collects the rest of the first-year housing steps.
 
 ```reader "If you're an incoming first-year"
 Ten of the 13 houses take first-years: Akwe:kon, Ecology House, HILC, JAM, the Latino Living Center, Loving House, McLLU, Risley, Sober Living and Ujamaa. List only houses whose mission you would support.
@@ -315,7 +315,7 @@ Transfers can live in every program house, including the three closed to first-y
 
 ### As a rising sophomore
 
-Every second-year must live in Cornell housing or approved affiliated housing, and a program house counts ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process)). You can return to your first-year house, move to another, or leave program houses for a regular hall. Cornell's sophomore selection for 2027-28 runs on fixed dates ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). The application opens Feb. 1, 2027, and closes April 4 at 11:59 p.m. On it, you can name up to three program houses. Timeslots go out April 7.
+Every second-year must live in Cornell housing or approved affiliated housing, and a program house counts ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process)). You can return to your first-year house, move to another, or leave program houses for a regular hall. Cornell's sophomore selection for 2027-28 runs on fixed dates ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). The application opens Feb. 1, 2027, and closes April 4 at 11:59 p.m. On it, you can name up to three program houses. Timeslots go out April 7.
 
 Priority Program House Selection is April 12, 2027, a day before Rising Sophomore Open Room Selection begins, so program house students pick rooms first (Cornell Housing). You can block with up to four friends, and your group gets one random timeslot. Students needing disability accommodations must have them approved by April 5, 2027.
 
@@ -336,11 +336,11 @@ rows:
 
 ### As a rising junior or senior
 
-Cornell does not guarantee housing after the second year. The fall round for 2027-28 has already run ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Applications ran from Sept. 1 to Sept. 27, 2026, and Priority Program House Selection was Oct. 1. Open Room Selection came a week later. Cornell warns that program house beds are not promised in the later stages.
+Cornell does not guarantee housing after the second year. The fall round for 2027-28 has already run ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Applications ran from Sept. 1 to Sept. 27, 2026, and Priority Program House Selection was Oct. 1. Open Room Selection came a week later. Cornell warns that program house beds are not promised in the later stages.
 
 That makes a program house the earliest door back to campus for upper-level students. It matters more now. In fall 2025, the first year of a new selection system, rising juniors and seniors told the Sun that rooms went fast and late timeslots left few choices ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)). Housing told the paper it must balance upper-level demand with its duty to house first-years, transfers and sophomores. If you want to stay on campus for 2028-29, list a program house you would enjoy in the fall 2027 round.
 
-Juniors and seniors who picked a program house room in the October round can still cancel, at a price that rises through the spring and summer ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Canceling costs $50 through Jan. 31, 2027, then $500 through March 31, $1,000 through June 30, and $2,000 through Aug. 15. After that, the charge is half the fall room rate. Study away, a leave or graduation lets you cancel the fall term free by June 15, 2027. Check your own fee in our [license cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/).
+Juniors and seniors who picked a program house room in the October round can still cancel, at a price that rises through the spring and summer ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Canceling costs $50 through Jan. 31, 2027, then $500 through March 31, $1,000 through June 30, and $2,000 through Aug. 15. After that, the charge is half the fall room rate. Study away, a leave or graduation lets you cancel the fall term free by June 15, 2027. Check your own fee in our [license cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -366,7 +366,7 @@ Every program house is open to any student who supports its mission. Ujamaa resi
 
 ## The trade-offs
 
-Air conditioning is the clearest physical trade-off. Of the 13 houses, eight say their rooms have none (Cornell Housing house pages): Akwe:kon, EEC, HILC, JAM, the Latino Living Center, McLLU, Risley and Ujamaa. Ecology House has in-room units, the Language House rooms are temperature-controlled, Veterans House offers window units, and Loving House has an air circulation system. The Sober Living page does not say.
+Air conditioning is the clearest physical trade-off. Of the 13 houses, eight say their rooms have none (Cornell Housing house pages): Akwe:kon, EEC, HILC, JAM, the Latino Living Center, McLLU, Risley and Ujamaa. Ecology House has in-room units, the Language House rooms are temperature-controlled, Veterans House offers window units, and Loving House has an air circulation system. For the Sober Living floor, ask housing@cornell.edu.
 
 Bathrooms differ just as much. Ecology House gives each double its own bathroom. The Low Rise houses put seven people on one bathroom. Loving House, and Risley above its first floor, use all-gender bathrooms. Veterans House uses single-sex corridor bathrooms.
 
@@ -427,14 +427,14 @@ Source: Cornell Housing's 2027-28 selection pages and the 2027-28 housing licens
 - [Program Houses (new undergraduates)](https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/program-houses), Cornell Student & Campus Life
 - [Program House Mission and Expectations](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/program-houses/program-house-mission-and-expectations), Cornell Student & Campus Life
 - [Housing Facilities](https://scl.cornell.edu/residential-life/housing/facilities), Cornell Student & Campus Life
-- House pages: [Akwe:kon](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon), [Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house), [EEC](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/equity-engagement-community-eec), [HILC](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc), [JAM](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam), [Language House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house), [Latino Living Center](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc), [Loving House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house), [McLLU](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu), [Risley](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college), [Sober Living Community](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community), [Ujamaa](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college), [Veterans House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house), Cornell Student & Campus Life
-- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), Cornell Student & Campus Life
-- [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028), Cornell Student & Campus Life
+- House pages: [Akwe:kon](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon), [Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house), [EEC](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/equity-engagement-community-eec), [HILC](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc), [JAM](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam), [Language House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house), [Latino Living Center](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/latino-living-center-llc), [Loving House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house), [McLLU](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu), [Risley](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college), [Sober Living Community](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community), [Ujamaa](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college), [Veterans House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/veterans-house), Cornell Student & Campus Life
+- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), Cornell Student & Campus Life
+- [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028), Cornell Student & Campus Life
 - [Meal Plans & Rates](https://scl.cornell.edu/residential-life/dining/meal-plans-rates) and [Undergraduate Meal Plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans), Cornell Dining
-- [New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process), Cornell Student & Campus Life
-- [Current Undergraduate Application Process](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process), Cornell Student & Campus Life
-- [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), Cornell Student & Campus Life
-- [Fall Housing Selection for Rising Juniors and Seniors](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors), Cornell Student & Campus Life
+- [New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process), Cornell Student & Campus Life
+- [Current Undergraduate Application Process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process), Cornell Student & Campus Life
+- [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), Cornell Student & Campus Life
+- [Fall Housing Selection for Rising Juniors and Seniors](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors), Cornell Student & Campus Life
 - [From 'Eco' to Ujamaa, Program Houses Offer Community](https://alumni.cornell.edu/cornellians/program-houses/), Cornellians, Aug. 28, 2023
 - [Language House opens to students learning ASL](https://news.cornell.edu/stories/2025/04/language-house-opens-students-learning-asl), Cornell Chronicle, April 1, 2025
 - [New Program House Opens, Creating Community Among Student Veterans](https://www.cornellsun.com/article/2021/09/new-program-house-opens-creating-community-among-student-veterans), The Cornell Daily Sun, Sept. 19, 2021

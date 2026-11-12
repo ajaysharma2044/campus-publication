@@ -7,7 +7,7 @@ primary_query: big group houses ithaca 5 to 10 bedrooms
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 153
 rewrites: ''
 readers:
@@ -22,58 +22,58 @@ tools:
 sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown rentals, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=19
   title: 202 Dryden Road, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=17
   title: 105 Dryden Court, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=16
   title: 214 Dryden Road, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=15
   title: Aces Apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-campus housing listings, Ithaca off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
   title: 209 Stewart Avenue listing, Ithaca off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3324-gorgeous-6-bedroom-house-near-cornell-august-2027
   title: 6-bedroom house near Cornell, Ithaca Rents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown
   title: 114 Stewart Avenue, Ithaca Rents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.lambrourealestate.com/apartments
   title: Apartments, Lambrou Real Estate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/
   title: Desirable Collegetown Leases Leave Market Up to 16 Months Before Residents Move In, The Cornell Daily Sun
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
   title: Understanding Your Lease, Cornell Law School Tenants' Rights Guide
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
   title: Certificate of Compliance, City of Ithaca
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: General Obligations Law 7-108, NY Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-F
   title: Real Property Law 235-f, NY Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -105,14 +105,14 @@ Check what the house costs per bed per year, not per month. A bed at the 6-bedro
 | Aces Apartments, 418 to 428 Eddy St | 6 | $695 to $760; $705 to $895 | Listed |
 | Collegetown Plaza, 111 Dryden Rd | 6 | $775 to $875; $785 to $795 | Listed |
 | 705 E Buffalo St | 6 | $1,020 to $1,120 | Listed |
-| 105 Dryden Court | 8 | Not posted | Sold out |
-| 214 Dryden Rd | 14 | Not posted | Sold out |
+| 105 Dryden Court | 8 | On request | Sold out |
+| 214 Dryden Rd | 14 | On request | Sold out |
 
 Source: [Ithaca Renting](https://ithacarenting.com/collegetown/), as of Nov. 8, 2026. Property pages: [202 Dryden](https://ithacarenting.com/property-details/?pid=19), [Aces](https://ithacarenting.com/property-details/?pid=15), [105 Dryden Court](https://ithacarenting.com/property-details/?pid=17) and [214 Dryden](https://ithacarenting.com/property-details/?pid=16). The Ithaca Renting houses are furnished, with heat and hot water included. The [cheapest housing guide](/cornell/housing/cheapest-off-campus-housing-cornell/) ranks these against other low-cost options.
 
 ## Which other landlords rent big houses?
 
-Several Collegetown landlords list whole houses on the [Ithaca marketplace](https://offcampushousing.ithaca.edu/listing). The prices print no period, so the table gives the whole-house price and the per-bedroom figure it implies. Divided by bedrooms, the whole-house prices land between $995 and $1,295 a bed, in the range of the per-bed rows at 111 Dewitt Pl, so read them as monthly totals.
+Several Collegetown landlords list whole houses on the [Ithaca marketplace](https://offcampushousing.ithaca.edu/listing). The table gives each whole-house price and the per-bedroom figure it implies. Divided by bedrooms, the whole-house prices land between $995 and $1,295 a bed, in the range of the monthly per-bed rows at 111 Dewitt Pl, so treat them as monthly totals and confirm the period with the landlord.
 
 | Address | Bedrooms | Listed price | Per bedroom |
 |---|---|---|---|
@@ -129,7 +129,7 @@ Source: [Ithaca marketplace listings](https://offcampushousing.ithaca.edu/listin
 
 Other listings state a price per person. At 111 Dewitt Pl, PJ Apartments lists beds at $1,195 in the 5-bedroom, $995 in the 6, $895 in the 7 and $795 in the 8. A 5-bedroom at [209 Stewart Ave](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095) is $850 per room with heat, water, electric and WiFi included. A furnished [6-bedroom house at 112 Ferris Place](https://www.ithacarents.com/3324-gorgeous-6-bedroom-house-near-cornell-august-2027) lists $5,100 a month for an Aug. 8, 2027 start, which is $850 per bedroom. The listing says internet, heat, electricity and trash are shared by housemates and not included in rent. The [8-bedroom at 114 Stewart Ave](https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown) is $900 per person, furnished, from June 10, 2027.
 
-Lambrou Real Estate lists houses of 7 to 12 bedrooms, including 410 Elmwood Ave (12), 305 Oak Ave (11 to 12), 202 Eddy St (11), and 801 E Seneca St and 133 N Quarry St (10 each), per its [apartments page](https://www.lambrourealestate.com/apartments). It prints no rents, so ask for a quote.
+Lambrou Real Estate lists houses of 7 to 12 bedrooms, including 410 Elmwood Ave (12), 305 Oak Ave (11 to 12), 202 Eddy St (11), and 801 E Seneca St and 133 N Quarry St (10 each), per its [apartments page](https://www.lambrourealestate.com/apartments). Rent is on request, so ask for a quote.
 
 <!-- ad-break -->
 
@@ -143,15 +143,15 @@ Nine months before an August 2027 start, 14 of Ithaca Renting's 67 rows were sol
 
 ## What happens if someone drops out?
 
-Everyone pays more. Cornell says most local leases bind housemates "jointly and severally", so each is responsible for the others' rent and damages for the whole term, per its [housemate guidance](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire). A tenant who overpays can [sue a co-tenant](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease) for the difference, but the landlord can collect from anyone.
+Everyone pays more. Cornell says most local leases bind housemates "jointly and severally", so each is responsible for the others' rent and damages for the whole term, per its [housemate guidance](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire). A tenant who overpays can [sue a co-tenant](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease) for the difference, but the landlord can collect from anyone.
 
 In a 10-bedroom house at [Ithaca Renting's median bed price](https://ithacarenting.com/collegetown/), one empty bed means nine people split its rent: $86.11 more each a month, or $1,033.33 over the year ($9,300 divided by 9). A group that shrinks from a 6-bedroom to a 4-bedroom pays $446.25 more per person a month ($1,246.25 minus the 6-bedroom median), or $5,355 a year.
 
 ## What rules apply to a house this size?
 
-The City of Ithaca requires a Certificate of Compliance, its rental safety permit, for buildings with three or more units, or for units with five or six or more unrelated occupants, depending on which City source you read, per the [Building Division page](https://www.cityofithacany.gov/146/Certificate-of-Compliance). A large house with many unrelated tenants is the case that rule targets. City zoning also defines a "cooperative household" as four or more unrelated persons in one dwelling, and no source found sets a Collegetown-specific occupancy cap.
+The City of Ithaca treats dwellings with three or more units, or individual units with six or more unrelated persons, as multiple dwellings that must hold a Certificate of Compliance, its rental safety permit, valid for three years, per the [Building Division page](https://www.cityofithacany.gov/146/Certificate-of-Compliance). A large house with many unrelated tenants is the case that rule targets.
 
-So check each house before you sign. Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) shows sprinklers, smoke and carbon monoxide alarms, construction type and property use for City addresses. Call the Building Division at 607-274-6508 with the address and ask whether the certificate is current and what occupancy it allows.
+So check each house before you sign. Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments) shows sprinklers, smoke and carbon monoxide alarms, construction type and property use for City addresses. Call the Building Division at 607-274-6508 with the address and ask whether the certificate is current and what occupancy it allows.
 
 ## What should I check before I sign?
 

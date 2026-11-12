@@ -7,7 +7,7 @@ primary_query: cornell dorm guest policy overnight
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 45
 rewrites: ''
 readers:
@@ -25,25 +25,25 @@ sources:
 - url: https://cornell.guardianconduct.com/student-portal/new-report?incident_type=residence%20hall/co-op%20overnight%20guest%20registration
   title: Residence Hall/Co-op Overnight Guest Registration Form, Cornell
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/sub/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/community-rules-standards/cooperative-housing-community-living-standards-2025-2026
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/cooperative-housing-community-living-standards-2025-2026
   title: Cooperative Housing Community Living Standards 2025-2026, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/sub/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/community-rules-standards/hasbrouck-community-living-standards-2025-26
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/hasbrouck-community-living-standards-2025-26
   title: Hasbrouck Community Living Standards 2025-26, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing the Lease, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-F
   title: New York Real Property Law Section 235-F, New York State Senate
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
@@ -89,7 +89,7 @@ The standards don't say whether the limit counts per guest or per room. If you p
 
 Yes, before any overnight stay, and a roommate can withdraw that permission. A visitor or guest can be asked to leave at any time, daytime visits included, if a roommate doesn't want them there. The roommate who says no wins.
 
-The housing license, the contract you sign for your room, backs this up. Only you and the roommates Cornell assigned may live in the room. You cannot let anyone else share any part of it ([Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)). A guest who stays week after week starts to look like an unassigned roommate, which the license forbids.
+The housing license, the contract you sign for your room, backs this up. Only you and the roommates Cornell assigned may live in the room. You cannot let anyone else share any part of it ([Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027)). A guest who stays week after week starts to look like an unassigned roommate, which the license forbids.
 
 <!-- ad-break -->
 
@@ -150,7 +150,7 @@ You answer for it, including any damage your visitors and guests cause to the bu
 
 A complaint goes to your RHD or HAD, who can call you to a student conduct meeting and decides there whether you broke the Community Living Standards.
 
-Serious or repeated problems reach the housing license. Cornell can revoke it, move you to other housing or take disciplinary action. A revoked license still leaves you owing housing charges for the whole term, plus a $500 revocation fee ([Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)).
+Serious or repeated problems reach the housing license. Cornell can revoke it, move you to other housing or take disciplinary action. A revoked license still leaves you owing housing charges for the whole term, plus a $500 revocation fee ([Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027)).
 
 ## Can you feed a guest on your meal plan?
 
@@ -183,12 +183,12 @@ rows:
   - {label: "Hasbrouck Apartments, family housing (2025-26)", value: "Guests up to 45 days per contract year; no use of the address as a legal address"}
 ```
 
-Source: [Cooperative Housing Community Living Standards 2025-26](https://scl.cornell.edu/sub/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/community-rules-standards/cooperative-housing-community-living-standards-2025-2026) and [Hasbrouck Community Living Standards 2025-26](https://scl.cornell.edu/sub/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/community-rules-standards/hasbrouck-community-living-standards-2025-26).
+Source: [Cooperative Housing Community Living Standards 2025-26](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/cooperative-housing-community-living-standards-2025-2026) and [Hasbrouck Community Living Standards 2025-26](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/hasbrouck-community-living-standards-2025-26).
 
 Program houses add one limit: an Out-of-House member, a student who registers with a program house without living there, can't bring guests or visitors into that house.
 
 ```reader "If you're in a Cornell co-op"
-Your house constitution can add guest rules on top of Cornell's, so check it. Quiet hours are set by the house membership, not by Cornell. How co-ops work and what they cost is in our [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
+Your house constitution can add guest rules on top of Cornell's, so check it. Quiet hours are set by the house membership, not by Cornell. How to get into a co-op is in our [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
 ```
 
 ```reader "If you're a grad student in Hasbrouck"
@@ -197,11 +197,11 @@ Your quiet hours run from 10 p.m. to 8 a.m. Sunday through Thursday, and midnigh
 
 ## What if you live off campus?
 
-Your lease sets the guest rules, not Cornell. Cornell's own lease checklist tells renters to look for charges for overnight or weekend guests and for limits on parties and noise before signing ([Signing the Lease](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)).
+Your lease sets the guest rules, not Cornell. Cornell's own lease checklist tells renters to look for charges for overnight or weekend guests and for limits on parties and noise before signing ([Signing the Lease](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)).
 
 New York law lets a tenant have someone live with them, within a cap. On a lease with several tenants, the total of tenants plus other occupants can't exceed the number of tenants on the lease. You must give the landlord an occupant's name within 30 days of move-in or of the landlord asking ([N.Y. Real Property Law 235-f](https://www.nysenate.gov/legislation/laws/RPP/235-F)). A short visit doesn't make someone an occupant. A friend who moves in for the semester does.
 
-Housemates share the consequences of a guest who damages the apartment, which is why Cornell's [Housemate Compatibility Questionnaire](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire) asks, "Do you mind if housemates have overnight guests?" Settle that answer before you sign. How a shared lease splits blame and bills is in our guide to [off-campus roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/), and the city's noise rules for a crowded weekend are in our [Ithaca trash, snow and noise rules guide](/cornell/housing/ithaca-trash-tags-snow-noise-rules-renters/).
+Housemates share the consequences of a guest who damages the apartment, which is why Cornell's [Housemate Compatibility Questionnaire](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire) asks, "Do you mind if housemates have overnight guests?" Settle that answer before you sign. How a shared lease splits blame and bills is in our guide to [off-campus roommates and joint liability](/cornell/housing/cornell-off-campus-roommates-joint-liability/), and the city's noise rules for a crowded weekend are in our [Ithaca trash, snow and noise rules guide](/cornell/housing/ithaca-trash-tags-snow-noise-rules-renters/).
 
 ```reader "If you're a parent"
 Parents get no exception: you need every roommate's agreement and count against the occupancy limit. Younger siblings under 16 can't stay overnight at all. Plan a hotel for family weekends. Our [parent guide](/start/parent/) covers the rest of the first year.

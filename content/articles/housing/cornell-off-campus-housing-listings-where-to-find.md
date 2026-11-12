@@ -22,7 +22,7 @@ tools:
 - when-to-sign-lease-timeline-cornell
 - ithaca-lease-fee-deposit-checker
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://offcampus.housing.cornell.edu/
@@ -31,7 +31,7 @@ sources:
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: 'Grad Tips: Renting, Cornell Graduate School, April 5, 2024'
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/115-117-college-ave-236800
@@ -73,7 +73,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
@@ -97,7 +97,7 @@ sources:
 - url: https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell
   title: High Costs and Limited Support Plague Visiting Scholars and Fellows at Cornell, The Cornell Daily Sun, November 12, 2024
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://international.globallearning.cornell.edu/life-cornell/faq-international-students
@@ -148,7 +148,7 @@ images:
 - Cornell's 2026-27 double works out to $1,145 a month over 12 months: the number to beat.
 ```
 
-Start with Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) on College Pads, open only to people with a proven Cornell affiliation, and the Off-Campus Living email list for rooms and sublets. Then go to landlord sites: [Ithaca Renting](https://ithacarenting.com/collegetown/) publishes per-bed prices for every building, while most other Collegetown landlords make you ask. Collegetown's August units go first, so search the fall before if you want to walk to class; downtown, Fall Creek, Lansing and sublets last into spring and summer.
+Start with Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) on College Pads, open only to people with a proven Cornell affiliation, and the Off-Campus Living email list for rooms and sublets. Then go to landlord sites: [Ithaca Renting](https://ithacarenting.com/collegetown/) publishes per-bed prices for every building, while most other Collegetown landlords make you ask. Collegetown's August units go first, so search the fall before if you want to walk to class; downtown, Fall Creek, Lansing and sublets last into spring and summer.
 
 ```reader "If you're a sophomore planning a junior-year lease"
 Your search runs this fall, not next spring. On 2026-11-08 Ithaca Renting already showed 14 of 67 Collegetown rows for 2027-28 as sold out, including its 8- and 14-bedroom houses. Decide your group size first, because the price list falls from a $1,765 median per bed for a studio to $800 in a 6-bedroom. Fill a group through the Cornell marketplace and the email list; get prices from landlord sites. The costly mistake is quoting a per-unit rent to roommates as if it were per person, or the reverse. Downtown and Fall Creek leftovers stay open into spring, so if Collegetown is gone, you have not lost the year.
@@ -171,7 +171,7 @@ You want furnished space by the month or semester, which most listings are not. 
 ```
 
 ```reader "If you're staying in Ithaca for the summer"
-Summer housing is mostly sublets from students whose leases run to July 31. Look on the Cornell marketplace and the Off-Campus Living email list. Modern Living advertises sublets "from $900 per person" without a stated period, so ask whether that is monthly. Check the end date: Dryden South's leases all end May 31, 2027, which leaves a June and July gap. Get the landlord's written consent and a written sublease. In a building with four or more units, the landlord [cannot unreasonably refuse](https://www.nysenate.gov/legislation/laws/RPP/226-B) a sublet; in a smaller house, the lease decides.
+Summer housing is mostly sublets from students whose leases run to July 31. Look on the Cornell marketplace and the Off-Campus Living email list. Modern Living advertises sublets "from $900 per person"; ask whether that is monthly. Check the end date: Dryden South's leases all end May 31, 2027, which leaves a June and July gap. Get the landlord's written consent and a written sublease. In a building with four or more units, the landlord [cannot unreasonably refuse](https://www.nysenate.gov/legislation/laws/RPP/226-B) a sublet; in a smaller house, the lease decides.
 ```
 
 ## Every place to look, ranked
@@ -188,7 +188,7 @@ Ranked by how far you can trust a listing and how much it tells you.
 | 6 | Cornell Daily Sun, Ithaca Journal, Ithaca Times, Sober@Cornell | Anyone | Classifieds and leads | Cornell "does not endorse" any of them |
 | 7 | Ithaca College portal (same College Pads platform) | Built for Ithaca College students | Some Collegetown units and roommate-matching leases | Check the walk to Cornell |
 
-Cornell names the marketplace, the email list, Ithacarents.com and the row 6 outlets on its [rental listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources), and takes no responsibility for disputes with any landlord there.
+Cornell names the marketplace, the email list, Ithacarents.com and the row 6 outlets on its [rental listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources), and takes no responsibility for disputes with any landlord there.
 
 ### 1. The Cornell marketplace on College Pads
 
@@ -196,17 +196,17 @@ The platform is "College Pads, now part of StarRez." Only people who prove a Cor
 
 ### 2. The Off-Campus Living email list
 
-You need a NetID to join; an admitted student without one forwards the acceptance letter to offcampusliving@cornell.edu. To subscribe, email the list address on Cornell's [rental listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) with the subject "Join" and a blank body. To leave, send "Leave" in the body with a blank subject. Questions go to Off-Campus Living at [607-255-2310](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease).
+You need a NetID to join; an admitted student without one forwards the acceptance letter to offcampusliving@cornell.edu. To subscribe, email the list address on Cornell's [rental listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) with the subject "Join" and a blank body. To leave, send "Leave" in the body with a blank subject. Questions go to Off-Campus Living at [607-255-2310](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease).
 
 ### 3. Landlord websites: who shows prices
 
 ```tool when-to-sign-lease-timeline-cornell```
 
-| Landlord | Prices on its site? | What the site showed on 2026-11-08 |
+| Landlord | Prices on its site? | Details as of 2026-11-08 |
 |---|---|---|
 | [Ithaca Renting](https://ithacarenting.com/collegetown/) | Yes, per bed, every unit | 18 properties in Collegetown and downtown; 2027-28 leasing open; 14 of 67 Collegetown rows sold out; heat and hot water included everywhere; furnished; parking extra |
-| [Modern Living Rentals](https://www.modernlivingrentals.com/) | No | Sublets and roommate spots "from $900 per person" (period not stated); "Lock-In November Rates" with no rates; availability page with 0 results |
-| [Student Agencies](https://www.studentagencies.com/) | No | No rentals section on the website; office at 409 College Ave, 607-272-2000 |
+| [Modern Living Rentals](https://www.modernlivingrentals.com/) | No | Sublets and roommate spots "from $900 per person"; ask whether that is per month, and ask for current rates |
+| [Student Agencies](https://www.studentagencies.com/) | No | Ask at the office at 409 College Ave, 607-272-2000 |
 | [Lansing West](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx) (via RentCafe) | Yes, dynamic pricing | 1-bedroom "now" units at $1,038 and $1,193 a month; apply by Nov 14 and move in by Dec 1, 2026 for rent free until January 2027 |
 
 Ithaca Renting opens leasing on a set day, which once drew an [overnight line before its 9 a.m. opening on Sept 12, 2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/). Its [downtown page](https://ithacarenting.com/downtown/) lists mostly 2026-27 and "Available Now" units, which is where late searchers find stock.
@@ -245,17 +245,17 @@ The Ithaca Renting rows are medians of range midpoints on [Ithaca Renting's Coll
 | "All in" or included utilities | Read the list, not the label | 209 Stewart Ave includes heat, water, electric and WiFi, but splits $100 a year in trash fees five ways |
 | Phone 555-555-5555 | A placeholder or test post | [115-117 College Ave](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/115-117-college-ave-236800): "Call For Price" on every unit |
 
-Two Sun pieces, from [2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/) and [2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/), give the same tip: confirm per person or per unit before you quote roommates a price. Say a four-person group finds a 4-bedroom listed at "$5,000" with no unit stated. Per unit, that is $1,250 each, close to Ithaca Renting's $1,246.25 median per bed. Per bed, each of them would owe four times that median. One email to the landlord settles it.
+Two Sun pieces, from [2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/) and [2022](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/), give the same tip: confirm per person or per unit before you quote roommates a price. Say a four-person group finds a 4-bedroom listed at a flat "$5,000". Per unit, that is $1,250 each, close to Ithaca Renting's $1,246.25 median per bed. Per bed, each of them would owe four times that median. One email to the landlord settles it.
 
 ## Check the listing before you pay
 
-For a City of Ithaca address, run it through the [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) that Off-Campus Living and the City Building Division run. It shows sprinklers, smoke and carbon monoxide alarms, and construction type, updated daily. It covers City rentals only and rates fire safety, not the landlord. For the Certificate of Compliance, Cornell's listings page points you to the Building Division at (607) 274-6508 or ibd@cityofithaca.org.
+For a City of Ithaca address, run it through the [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments) that Off-Campus Living and the City Building Division run. It shows sprinklers, smoke and carbon monoxide alarms, and construction type, updated daily. It covers City rentals only and rates fire safety, not the landlord. For the Certificate of Compliance, Cornell's listings page points you to the Building Division at (607) 274-6508 or ibd@cityofithaca.org.
 
 Then check the money. The [deposit plus any rent paid in advance cannot exceed one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108). This page is general information, not legal advice.
 
 ```tool ithaca-lease-fee-deposit-checker```
 
-Cornell's own [checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations) says rooms in a student or private house tend to be cheapest, and warns that a unit without a lease gives flexibility but limited legal protection.
+Cornell's own [checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations) says rooms in a student or private house tend to be cheapest, and warns that a unit without a lease gives flexibility but limited legal protection.
 
 ## Where each reader should look first
 
@@ -280,7 +280,7 @@ rows:
 
 ## FAQ
 
-**Can I see the Cornell marketplace before I have a NetID?** You need to prove Cornell affiliation to see listings and contact landlords. For the email list, forward your acceptance letter to offcampusliving@cornell.edu, per Cornell's [listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources).
+**Can I see the Cornell marketplace before I have a NetID?** You need to prove Cornell affiliation to see listings and contact landlords. For the email list, forward your acceptance letter to offcampusliving@cornell.edu, per Cornell's [listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources).
 
 **Can a sophomore sign a lease found on these sites?** For junior year, yes. For the current sophomore year, only with an approved exemption under Cornell's [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy).
 

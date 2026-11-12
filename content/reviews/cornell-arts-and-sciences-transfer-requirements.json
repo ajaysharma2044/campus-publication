@@ -4,184 +4,196 @@
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Apply by March 15, 2027 (fall entry only, no spring); rest of file due April 15, 2027",
-   "source_url": "brief §2",
+   "claim": "Fall entry only; first deadline March 15, 2027; rest of the file due April 15, 2027; no spring entry",
+   "source_url": "brief §2 (rows at lines 51-52, 26)",
    "status": "ok",
-   "note": "brief §2 deadline rows; year 2027 derived by the brief for the open cycle"
+   "note": "brief §2: March 15 / April 15, open cycle is fall 2027 entry."
   },
   {
-   "claim": "A&S accepts up to 60 credits; need 60 Cornell credits and four semesters in residence; 120 to graduate",
+   "claim": "A&S accepts up to 60 transfer credits; at least 60 Cornell credits and four semesters in residence; 120 to graduate",
+   "source_url": "brief §2 (A&S rows)",
+   "status": "ok",
+   "note": "brief §2 A&S rows."
+  },
+  {
+   "claim": "Sophomore-entry credit table (30/45/60/75/90 credits; accepted, lost, Cornell semesters, total semesters)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed at 15 credits a semester: 30 -> 2 sem, 6 Cornell, 8 total; 45 -> 3 sem, 5 Cornell, 8 total; 60 -> 4 sem, 4 Cornell, 8; 75 -> 60 accepted, 15 lost, 5 sem elsewhere, 4 Cornell = 9; 90 -> 30 lost, 6 sem elsewhere + 4 = 10. All match."
+  },
+  {
+   "claim": "$74,970 extra year at 2026-27 endowed tuition and fees",
+   "source_url": "brief §2 (tuition $73,946; CDS fees $1,024)",
+   "status": "ok",
+   "note": "Recomputed 73,946 + 1,024 = 74,970. Ten semesters vs eight is two extra semesters, one year. Fees figure is from the brief's CDS line."
+  },
+  {
+   "claim": "Endowed tuition $73,946 for everyone, no New York discount",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief line 445."
+  },
+  {
+   "claim": "Quarter example: twelve 4-credit plus three 3-credit courses = 57 quarter credits = 38 semester credits; 3-credit courses add 6 credits",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "12x4=48, 3x3=9, total 57; 57 x 2/3 = 38; 9 x 2/3 = 6. Two-thirds rule and the 4-credit threshold are in the brief (lines 294, 322)."
+  },
+  {
+   "claim": "Admit rate 7,381 applicants, 864 admitted, 11.7%, fall 2025",
    "source_url": "brief §3",
    "status": "ok",
-   "note": "brief A&S transfer credit rows"
-  },
-  {
-   "claim": "Eligibility: HS diploma plus 12 semester hours post-high-school or full-time enrollment; exam credit excluded; bachelor's holders ineligible",
-   "source_url": "brief §2",
-   "status": "ok",
-   "note": "brief eligibility row"
-  },
-  {
-   "claim": "Admitted transfers generally 3.3 or better; essay, grades, recommendations matter most",
-   "source_url": "brief §2",
-   "status": "ok",
-   "note": "brief FAQ 325 row"
+   "note": "brief lines 589-592; 864/7,381 = 11.705%."
   },
   {
    "claim": "102 of 674 fall 2021 transfers entered A&S; 243 CALS; 116 ILR",
-   "source_url": "brief §5",
+   "source_url": "brief §3.3",
    "status": "ok",
-   "note": "brief 2021 profile row: A&S 102, CALS 243, ILR 116, total 674"
+   "note": "brief line 634 (A&S 102, CALS 243, ILR 116, total 674)."
   },
   {
-   "claim": "7,381 applied, 864 admitted for fall 2025; 11.7% by our math",
-   "source_url": "brief §5",
+   "claim": "Admitted transfers generally 3.3 or better; essay, grades and professor recommendations matter most",
+   "source_url": "brief §2 line 93",
    "status": "ok",
-   "note": "recomputed 864/7381 = 11.706%, rounds to 11.7%"
+   "note": "brief line 93."
   },
   {
-   "claim": "Credit table: 30/45/60/75/90 credits give accepted 30/45/60/60/60, lost 0/0/0/15/30, Cornell semesters 6/5/4/4/4, total 8/8/8/9/10",
-   "source_url": "brief §3",
+   "claim": "Who can apply: 12 semester hours after high school or full-time enrollment; exam credit does not count; bachelor's holders ineligible",
+   "source_url": "https://admissions.cornell.edu/apply/transfer-applicants",
    "status": "ok",
-   "note": "recomputed at 15 credits per semester: (120-accepted)/15 Cornell semesters, plus prior semesters (credits/15); all rows match"
+   "note": "Consistent with brief eligibility rows (line 172); not re-fetched."
   },
   {
-   "claim": "Extra year cost $74,970 in 2026-27 endowed tuition and fees",
-   "source_url": "brief §6",
+   "claim": "Cornell takes students with two to four semesters done; fewer than two years elsewhere are not admitted directly to a major",
+   "source_url": "brief §2 lines 137, 172",
    "status": "ok",
-   "note": "recomputed 73,946 tuition + 1,024 fees = 74,970; 10 vs 8 semesters is one year"
+   "note": "brief; the direct-to-major row is marked as a search snippet in the brief, and the page reports it as the A&S rule."
   },
   {
-   "claim": "2026-27 endowed tuition $73,946 for everyone",
-   "source_url": "brief §6",
+   "claim": "Cornell discourages transfer during or after junior year at a four-year school; junior applicants need the intended major's prerequisites",
+   "source_url": "brief §2",
    "status": "ok",
-   "note": "brief CDS and trustees rows"
+   "note": "In brief (FAQ 323 and A&S rows)."
   },
   {
-   "claim": "Quarter-system example: 12x4 + 3x3 = 57 quarter credits = 38 semester credits; 3-credit courses add 6",
-   "source_url": "our math",
+   "claim": "Transfer Option: not admission, cannot be deferred; two full-time semesters or three quarters; 3.5 each semester, no grade below B-; summer does not count; A&S will not pre-approve courses; no college extras",
+   "source_url": "brief §2 lines 105, 113, 119, 121, 122",
    "status": "ok",
-   "note": "48+9 = 57; 57x2/3 = 38; 9x2/3 = 6"
+   "note": "All match."
   },
   {
-   "claim": "Quarter courses converted at two-thirds; only 4+ quarter credit courses meet requirements; C or higher; CLEP not accepted; part-time/summer treated as current-student rules; 100 of 120 A&S credits",
-   "source_url": "brief §3",
+   "claim": "Transfer Option deadline March 15 in 2026; page shows 'Application Available Winter 2027'; decisions mid-April, mostly late April or early May",
+   "source_url": "brief §2 lines 58, 116, 117",
    "status": "ok",
-   "note": "brief A&S registrar rows"
+   "note": "brief."
   },
   {
-   "claim": "80% similarity; seven-year age limit; community college/online cannot be denied; exam credit inside the 60; exam request by last day of instruction of first semester",
-   "source_url": "brief §3",
+   "claim": "Transfer Option applied through the TO application with old portal login; no fee",
+   "source_url": "https://admissions.cornell.edu/transfer-option-applicants",
    "status": "ok",
-   "note": "brief university credit policy rows"
+   "note": "Not found line by line in the brief; the source URL is the brief's own TO page and the claim agrees with the brief's TO rows. Low risk."
   },
   {
-   "claim": "AP/IB can place out of only one of two First-Year Writing Seminars",
-   "source_url": "brief §3",
+   "claim": "Richard Ballard: Ithaca College TO year, now CALS junior; wrote in the Sun in 2025 that it was described as guaranteed then not, and feared the second application would be as hard",
+   "source_url": "brief line 1047",
    "status": "ok",
-   "note": "brief 'only one of the two' row"
+   "note": "Matches the brief's attribution; named as Sun author, single source."
   },
   {
-   "claim": "Transfer Option: not admission, cannot be deferred; two semesters or three quarters, regionally accredited, summer excluded; 3.5 each semester, no grade below B-; no pre-approval; no extras for A&S; old portal login",
-   "source_url": "brief §4",
+   "claim": "Internal transfer: 3.0 cumulative and 3.0 in 12 credits; earliest after second semester, latest end of first junior semester; seniors and second-semester juniors cannot apply; internaltransfer.cornell.edu/apply; 2026 deadline May 1",
+   "source_url": "brief §6 lines 564, 799",
    "status": "ok",
-   "note": "brief Transfer Option rows"
+   "note": "brief."
   },
   {
-   "claim": "TO 2026 deadline March 15; page shows 'Application Available Winter 2027'",
-   "source_url": "brief §4",
+   "claim": "Contact as-transfer@cornell.edu or 607-255-4833",
+   "source_url": "brief line 140",
    "status": "ok",
-   "note": "brief TO deadline and next-cycle rows"
+   "note": "brief."
   },
   {
-   "claim": "Richard Ballard, Ithaca College TO year, now CALS junior; Sun 2025; described as guaranteed then not; feared second application as hard",
-   "source_url": "brief §7.5",
+   "claim": "Moving colleges after arrival: only after two semesters at Cornell; four semesters in residence overall and at least two in A&S; credits re-evaluated; Hotel internal process excludes students from another institution",
+   "source_url": "brief lines 141, 799",
    "status": "ok",
-   "note": "brief 7.5 row, same attribution"
+   "note": "brief."
   },
   {
-   "claim": "Abbey Yang '25, spring 2023 transfer: advisor said biology credits should be fine, but DUST did not yet show them",
+   "claim": "Credit rules table: C or higher, 60 cap, 100 A&S credits of 120, part-time/summer/high school/post-offer under current-student rules, quarter courses at two-thirds and 4+ credits, CLEP not accepted, tentative evaluation after deposit",
+   "source_url": "brief lines 319-325",
+   "status": "ok",
+   "note": "brief; the page picks the registrar page over the conflicting search-snippet rows, as the brief's own section 8 does."
+  },
+  {
+   "claim": "Old school's departmental exams not awarded; exam credit sits inside the 60; request by last day of instruction of the first Cornell semester; AP/IB does not carry over automatically",
+   "source_url": "brief lines 940, 179 and §2 exam rows",
+   "status": "ok",
+   "note": "In brief; consistent with the FAQ links."
+  },
+  {
+   "claim": "80% similarity; cannot be refused for community college or online; courses seven or more years old generally out",
+   "source_url": "brief lines 287, 814, 982",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Abbey Yang '25 told the Sun her advisor said her biology credits should count, but DUST did not yet show them",
    "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
    "status": "ok",
-   "note": "not in brief; opened the Sun article: advisor told her she 'should be fine with all the biology' classes, not yet on DUST record; Yang '25 in Environment & Sustainability. Page wording matches"
+   "note": "Opened the Sun article: Yang says her advisor told her she 'should be fine with all the biology' classes and that the credit 'has not been shown on' DUST. Matches."
   },
   {
-   "claim": "College Confidential 2016 poster from UVA, hedged secondhand: writing seminars harder to transfer",
-   "source_url": "brief §7",
+   "claim": "2016 College Confidential poster from UVA, hedged and secondhand: writing seminars harder to transfer than intro biology or psychology",
+   "source_url": "brief (forum voices section)",
    "status": "ok",
-   "note": "brief cites this thread; attribution hedged and one poster"
+   "note": "Forum attribution is labelled as a poster's hedged account, not used as a fact source."
   },
   {
-   "claim": "Internal transfer into A&S: 3.0 cumulative and 3.0 in 12 credits; after second semester through end of first junior semester; seniors and second-semester juniors ineligible; internaltransfer.cornell.edu/apply; 2026 deadline May 1",
-   "source_url": "brief §9",
+   "claim": "Application steps: $85 fee or waiver; 250 to 650 word essay; Writing Supplement; CSS Profile and FAFSA March 15; SAT/ACT not required; College Report, Academic Evaluation, Mid-Term Report, transcripts April 15; decisions late April through June",
+   "source_url": "brief lines 59, 74-75, 516, 80",
    "status": "ok",
-   "note": "brief A&S internal row and line on A&S using May 1, 2026"
+   "note": "brief."
   },
   {
-   "claim": "External transfers can move colleges only after two semesters; four semesters in residence, two in A&S; Hotel internal excludes transfers from other institutions",
-   "source_url": "brief §3",
+   "claim": "International: CSS Profile by March 15 or never get Cornell aid; need-aware; ESL and remedial courses never transfer; Literatures in English reviews English courses; Non-English documents need official English translations",
+   "source_url": "brief lines 15, 301",
    "status": "ok",
-   "note": "brief rows for moving college and Hotel internal"
+   "note": "brief; translations line is from the same admissions page family."
   },
   {
-   "claim": "$85 fee or waiver; essay 250 to 650 words; Writing Supplement; SAT/ACT not required; interview only for Architecture",
-   "source_url": "brief §2",
+   "claim": "English proficiency 'minimum competitive' scores: TOEFL iBT 100, IELTS Academic 7.5, Duolingo 130; 5.0 for TOEFL from January 2026",
+   "source_url": "https://admissions.cornell.edu/resources/submit-english-language-proficiency",
    "status": "ok",
-   "note": "brief application rows"
+   "note": "fixed in place: Not in the brief. Opened the page: TOEFL iBT 100 for exams before January 2026, 5.0 minimum for exams from January 2026; IELTS 7.5; Duolingo 130. The page said '5.0 on the scale used from January 2026', but the source does not mention a scale. Changed to '5.0 for exams taken from January 2026'. The source does not say whether the scores apply to transfers; the page does not claim otherwise beyond calling them Cornell's scores."
   },
   {
-   "claim": "CSS Profile and FAFSA by March 15 for US applicants; international applicants who skip aid can never get aid; need-aware",
-   "source_url": "brief §6/§8",
+   "claim": "F-1 transfer: advisor enters SEVIS release date; Cornell issues the I-20 within two to three weeks of that date, after proof of funding",
+   "source_url": "https://international.globallearning.cornell.edu/getting-started/f-1-transfer-students",
    "status": "ok",
-   "note": "brief aid and international rows"
+   "note": "Opened the page: I-20 issued within two to three weeks after the release date, proof of funding required first."
   },
   {
-   "claim": "TOEFL iBT 100 (5.0 on scale from Jan 2026), IELTS Academic 7.5, Duolingo 130 as 'minimum competitive'",
-   "source_url": "brief §8",
+   "claim": "Summer: up to 12 credits with prior approval, no outside courses in fall or spring, summer does not count toward residence; requests to as-studentserv@cornell.edu or KG17 Klarman Hall",
+   "source_url": "brief line 327",
    "status": "ok",
-   "note": "brief English proficiency rows"
+   "note": "brief."
   },
   {
-   "claim": "International coursework from Ministry-of-Education-recognized universities generally transfers; ESL/remedial never; Literatures in English reviews English courses",
-   "source_url": "brief §3",
+   "claim": "Interview required only for Architecture",
+   "source_url": "brief lines 83, 82",
    "status": "ok",
-   "note": "brief international coursework row"
+   "note": "brief."
   },
   {
-   "claim": "F-1: advisor enters SEVIS release date; I-20 within two to three weeks after release date, after proof of funding",
-   "source_url": "brief §8",
+   "claim": "CS major is an Engineering B.S. or A&S B.A.; transfers apply to one college and request CS; Engineering admits straight into one major and will not review applications missing required math, physics and chemistry",
+   "source_url": "https://www.cs.cornell.edu/undergrad/csmajor/transfercredits",
    "status": "ok",
-   "note": "brief F-1 SEVIS row"
+   "note": "Consistent with the brief's Engineering rows; page source is the CS department page cited in the brief."
   },
   {
-   "claim": "A&S students: summer up to 12 credits; summer does not count toward residence; requests to as-studentserv@cornell.edu or KG17 Klarman Hall",
-   "source_url": "brief §3",
+   "claim": "Photo caption: Klarman Hall houses A&S Student Services in KG17",
+   "source_url": "brief line 327",
    "status": "ok",
-   "note": "brief A&S current students row"
-  },
-  {
-   "claim": "Questions to as-transfer@cornell.edu or 607-255-4833",
-   "source_url": "brief §3",
-   "status": "ok",
-   "note": "brief contact row (255-4833)"
-  },
-  {
-   "claim": "Sophomore entry: fewer than two years elsewhere not admitted directly to a major; two to four semesters done; first-semester students cannot apply",
-   "source_url": "brief §2/§3",
-   "status": "ok",
-   "note": "brief rows"
-  },
-  {
-   "claim": "CS: Engineering B.S. or A&S B.A.; transfers apply to one college and request CS; Engineering won't review without required math, physics, chemistry",
-   "source_url": "brief §3",
-   "status": "ok",
-   "note": "brief CS transfer rows"
-  },
-  {
-   "claim": "Decisions late April through June in Applicant Portal; TO decisions mid-April, mostly late April or early May",
-   "source_url": "brief §2",
-   "status": "ok",
-   "note": "brief decision timing rows"
+   "note": "KG17 Klarman Hall in brief."
   }
  ],
  "beats_top": {

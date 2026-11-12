@@ -7,7 +7,7 @@ primary_query: cornell kosher halal housing
 topic: housing
 school: cornell-university
 type: decision
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 201
 rewrites: ''
 readers:
@@ -42,7 +42,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement
   title: Qualified Off-Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
@@ -97,7 +97,7 @@ Once you are free to choose, off campus has one clear benefit: you buy, store an
 
 ## What about co-ops and Greek houses?
 
-Cornell's eight co-ops are student-run houses that count as second-year housing. Four have meal plans ([Cornell co-op page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Co-ops cook for themselves, so a house can shape its menu around its members. Greek houses are self-governed, and room and board vary by house ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)). Ask a house before you join what its kitchen can do. The [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers cost and how to join.
+Cornell's eight co-ops are student-run houses that count as second-year housing. Four have meal plans ([Cornell co-op page](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Co-ops cook for themselves, so a house can shape its menu around its members. Greek houses are self-governed, and room and board vary by house ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement)). Ask a house before you join what its kitchen can do. The [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers how a sophomore gets in.
 
 ```reader "If you're a first-year"
 You will live in Cornell housing with Unlimited, so pick based on dining. Ask Housing Operations how a dietary or religious need affects assignment, and look at where each hall's dining room sits before you accept one.

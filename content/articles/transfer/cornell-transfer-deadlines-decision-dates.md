@@ -85,7 +85,7 @@ sources:
 - url: https://cals.cornell.edu/news/2025/08/cornell-cals-and-tc3-establish-transfer-pathway-for-agriculture-students
   title: Cornell CALS and TC3 establish transfer pathway for agriculture students, Cornell CALS, August 2025
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027
@@ -225,14 +225,14 @@ rows:
 
 | After admission | Date | Source |
 |---|---|---|
-| Apply for housing in the Housing and Dining Portal; no fee, no deposit | Within ten days of receiving your NetID | [Housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) |
+| Apply for housing in the Housing and Dining Portal; no fee, no deposit | Within ten days of receiving your NetID | [Housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) |
 | Room confirmation or a guaranteed waitlist place, with weekly updates | From mid-June | same |
 | Room swaps | Mid-June to mid-July | same |
 | College emails about credit and enrollment (2024 pattern; Engineering from early June) | Early to mid-June | [College links](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links) |
 | Free housing cancellation for leave or deferral (2026 license) | June 15 | [Housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027) |
 | Fall tuition bill, due before registration | Early July | [Finances](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/finances) |
 | Student Health Plan waiver (2026 pattern) | July 31 | [Waiver dates](https://studenthealthbenefits.cornell.edu/node/179) |
-| Change the move-in timeslot | Until August 1 | [Housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) |
+| Change the move-in timeslot | Until August 1 | [Housing application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) |
 | Transfer move-in and Family Orientation (2026 pattern) | August 18 | [Orientation](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation) |
 | Add deadline (2026 pattern) | September 8 | [Academic calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar) |
 | Written request for AP, IB or A-Level credit | Last day of your first semester's instruction (December 7 in 2026) | [Credit evaluation](https://registrar.cornell.edu/students/credit-evaluation-services) |

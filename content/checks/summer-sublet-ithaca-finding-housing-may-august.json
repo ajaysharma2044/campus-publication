@@ -125,7 +125,7 @@
   },
   {
    "claim": "Cornell's tenant page: most leases require landlord approval; written sublease recommended",
-   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/living-campus",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/living-off-campus",
    "status": "ok",
    "note": "Fetched. 'Most leases require landlord approval' and 'Subtenants should receive a written sublease.'"
   },
@@ -137,7 +137,7 @@
   },
   {
    "claim": "Move-out checklist: final inspection two weeks out, NYSEG and internet shutoff one week out",
-   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out",
    "status": "unverifiable",
    "note": "I did not fetch this checklist, and the brief row I found covers only the state inspection window. Low risk; the page does not depend on it."
   },

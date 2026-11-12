@@ -1,9 +1,9 @@
 ---
-title: 'Laundromat near Cornell Collegetown: your laundry options'
+title: 'Laundry near Cornell Collegetown: your options'
 mode: answer
-dek: If your apartment has no washer, you can use a building laundry room, a drop-off service or a coin laundry reached by free evening buses.
-meta: 'Laundromat near Cornell Collegetown: which buildings have machines, what Lazybones drop-off laundry costs, and how to reach a laundromat by TCAT bus.'
-primary_query: laundromat near Cornell Collegetown Ithaca
+dek: If your apartment has no washer, you can use a building laundry room, a drop-off service or a free evening bus ride to a laundromat.
+meta: 'Laundry near Cornell Collegetown: which buildings have machines, what Lazybones drop-off laundry costs, and when TCAT rides are free for Cornell students.'
+primary_query: laundry near Cornell Collegetown Ithaca
 topic: daily-life
 school: cornell-university
 type: place
@@ -20,9 +20,6 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships
   title: Housing Vendor Partnerships, Cornell Student and Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
-  title: Signing a Lease, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court
   title: The Misunderstood Dorm, Sheldon Court, The Cornell Daily Sun, April 17, 2026
@@ -56,10 +53,10 @@ sources:
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free
   title: Non-First-Year Cornell Students No Longer Able to Access TCAT for Free, The Cornell Daily Sun, November 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 redirect_from:
   - /cornell/getting-around/laundromats-in-ithaca-near-cornell-collegetown/
@@ -67,18 +64,18 @@ redirect_from:
 ---
 
 
-If your apartment has no washer, you have three choices: a laundry room in your building, a drop-off service such as Lazybones at [from $1.45 per pound](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships), or a coin laundry across town. Check the lease for laundry first, because it can save you a weekly bus trip.
+If your apartment has no washer, you have three choices: a laundry room in your building, a drop-off service such as Lazybones at [from $1.45 per pound](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships), or a bus ride to a laundromat. Check the lease for laundry first, because it can save you a weekly bus trip.
 
 ```glance
-- Check your lease for laundry before you sign; Cornell lists it among the terms to review.
+- Check your lease for laundry before you sign: in-building machines save a weekly trip.
 - A 15-pound load through Lazybones drop-off laundry works out to $21.75.
-- TCAT buses are free after 6 p.m. on weekdays and all weekend, so an evening laundry run costs no fare.
-- Several Collegetown buildings have shared machines, and newer ones put a washer and dryer in each unit.
+- TCAT buses are free for registered Cornell degree students after 6 p.m. on weekdays and all weekend, so an evening laundry run costs no fare.
+- Several Collegetown buildings have shared machines, and some newer ones have in-unit washers and dryers.
 ```
 
 ## Does my Collegetown building already have laundry?
 
-Many do, so look at your building before you look for a laundromat. Cornell's own list of lease terms to check includes laundry, next to rent, deposit and utilities ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). Ask whether machines are in the building, who runs them and whether they take coins, a card or an app.
+Many do, so look at your building before you look for a laundromat. Ask whether machines are in the building, who runs them and whether they take coins, a card or an app.
 
 | Building | Address | Laundry |
 |---|---|---|
@@ -90,14 +87,14 @@ Many do, so look at your building before you look for a laundromat. Cornell's ow
 | Collegetown Plaza | 111 Dryden Rd. | Shared laundry on the 5th floor |
 | Dryden South | 205 Dryden Rd. | Laundry listed in the building |
 | The Ivy | 325 College Ave. | Washer and dryer in each furnished unit |
-| The Summit | 201 Oak Ave. | Washer and dryer in each unit |
+| The Summit | 201 Oak Ave. | In-unit washers and dryers |
 
 Sources: Cornell residence hall pages for [Cascadilla](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall), [301 College Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue) and [112 Edgemoor](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor); [The Cornell Daily Sun on Sheldon Court](https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court); Ithaca Renting for [Collegetown Center](https://ithacarenting.com/unit-details/?uid=461) and [Collegetown Plaza](https://ithacarenting.com/unit-details/?uid=270); the [Dryden South listing](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961); [Modern Living Rentals](https://www.modernlivingrentals.com/the-ivy); [Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/).
 
 Outside Collegetown, a 709 N Tioga St listing in Fall Creek advertises a [free washer and dryer](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258) with the unit. Which neighborhood has the best mix of laundry, rent and walking distance is covered in [Collegetown vs. Fall Creek vs. downtown](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/).
 
 ```reader "If you're a sophomore or junior moving off campus"
-Dorm laundry is part of your room rate, and an apartment may not include it. Before you sign, ask the landlord in writing whether the unit has a washer or dryer, or whether machines are shared. The [lease checklist](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows where to look. The [off-campus guide](/start/off-campus/) walks through the full search.
+An apartment may not include laundry. Before you sign, ask the landlord in writing whether the unit has a washer or dryer, or whether machines are shared. The [lease checklist](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows where to look. The [off-campus guide](/start/off-campus/) walks through the full search.
 ```
 
 ## How much does drop-off laundry cost?
@@ -110,28 +107,22 @@ title: Laundry cost examples
 rows:
   - {label: "Lazybones, 15-pound load", value: "$21.75"}
   - {label: "Same load every week for 4 weeks", value: "$87.00"}
-  - {label: "TCAT daytime round trip, two rides at $1.50", value: "$3.00"}
   - {label: "TCAT round trip after 6 p.m. or on a weekend", value: "$0.00"}
 ```
 
 The Lazybones price is a starting rate ("from"), so the final total depends on the service you choose. Ask the vendor for its current price list and pickup schedule before you book. Drop-off service makes sense when a bus ride with a heavy bag costs you more in time than the extra dollars.
 
-## How do I get to a coin laundry without a car?
+## When is the bus to a laundromat free?
 
-Ride TCAT in the evening or on a weekend, when it costs nothing. Cornell students who are past their first year ride TCAT free after 6 p.m. on weekdays and all day Saturday and Sunday, and pay a $1.50 cash fare at other times ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). First-years ride free at any hour until Aug. 31 of the next year, per [Cornell's bus pass page](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes).
+Ride TCAT in the evening or on a weekend, when it costs nothing. Registered Cornell students who are enrolled in a degree program and have been in school a year or more ride all TCAT buses free after 6 p.m. on weekdays and all day Saturday and Sunday, per [Cornell's bus pass page](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Students without OmniRide passes can ride free in those hours ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). You swipe your Cornell ID at the fare box, and if the ID is not accepted you may need to pay the $1.50 fare in cash. For rides at other hours, these students can buy a discounted OmniRide pass. New students in degree programs get OmniRide privileges for unlimited rides until Aug. 31 (fall entrants) or Dec. 31 (spring entrants). Registered PhD students and graduate assistants get free OmniRide passes.
 
 The full route list, hours and holiday notes are in the [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/). A laundry run is a good fit for the free hours: load a bag after dinner, ride, wash and ride back.
-
-## How do I find a coin laundry?
-
-Search "laundromat" on a map app from your street address and sort by distance. Call before you carry a bag across town: ask the closing time, whether the machines take cards or coins, and the price of a large washer. Your landlord or a housemate who has lived there a year can often name the closest one.
 
 ## What to do next
 
 1. Open your lease or listing and find the laundry line. If it says nothing, ask in writing.
 2. If the building has machines, ask about hours and payment before move-in.
-3. If it has none, pick a plan: Lazybones for pickup, or a weekend TCAT run to a coin laundry.
-4. Save the laundromat's hours in your phone.
+3. If it has none, pick a plan: Lazybones for pickup, or an evening or weekend TCAT run to a laundromat.
 
 ## Related guides
 

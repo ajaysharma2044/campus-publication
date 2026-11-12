@@ -7,7 +7,7 @@ primary_query: Hasbrouck Apartments Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 111
 rewrites: ''
 readers:
@@ -20,40 +20,40 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments
   title: Hasbrouck Apartments, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate and Professional Student Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027 (billing), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/graduate-students
   title: Graduate students, Cornell Financial Aid
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus
   title: Apply for Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/your-cornell-community
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing/your-cornell-community
   title: Your Cornell Community, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/stories/2012/03/mingins-brings-international-community-together
   title: Mingins brings international community together, Cornell Chronicle, March 2012
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://assembly.cornell.edu/sites/default/files/gpci_-_housing_dec_2020.pdf
   title: GPSA housing report, Cornell Graduate and Professional Student Assembly, Dec. 2020
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/visiting-faculty-affiliate-campus-housing
   title: Visiting Faculty and Affiliate Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://tompkins.historyforge.net/narratives/7314
   title: Hasbrouck Apartments, Tompkins County history narrative
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -69,7 +69,7 @@ Hasbrouck Apartments is Cornell's graduate and professional student housing on N
 
 ## What is Hasbrouck Apartments?
 
-Cornell lists 338 units, furnished and unfurnished, and 705 residents, a 10-minute walk from central campus ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments)). Unit types are studios, one-bedrooms, shared two-bedroom apartments and shared two-bedroom townhouses. Family and partner units hold two to four people, with no more than two adults per unit ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). About 49% of on-campus graduate households are single students, and 51% are families or partners ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/your-cornell-community)).
+Cornell lists 338 units, furnished and unfurnished, and 705 residents, a 10-minute walk from central campus ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments)). Unit types are studios, one-bedrooms, shared two-bedroom apartments and shared two-bedroom townhouses. Family and partner units hold two to four people, with no more than two adults per unit ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). About 49% of on-campus graduate households are single students, and 51% are families or partners ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing/your-cornell-community)).
 
 The complex has a long family history. Construction began in 1960 on land Charles Hasbrouck gave to Cornell in 1910, and the Ithaca Journal reported 246 apartments at $4,137,000 ([Tompkins County history](https://tompkins.historyforge.net/narratives/7314)). In March 2012 the Chronicle counted 89 families with about 120 children from 47 countries ([Cornell Chronicle](https://news.cornell.edu/stories/2012/03/mingins-brings-international-community-together)).
 
@@ -92,13 +92,13 @@ Source: Cornell Housing rates for 2026-27. The 12-month column multiplies the mo
 
 Cornell's graduate budget for Ithaca sets housing at $19,962 a year, or $1,663.50 a month ([Cornell Financial Aid](https://finaid.cornell.edu/graduate-students)). A studio at $1,355 is $308.50 a month under that figure. Our guides to the [monthly graduate budget](/cornell/money/cornell-grad-student-off-campus-budget-monthly-rent-ithaca/) and [whether a stipend covers Ithaca costs](/cornell/money/cornell-grad-student-stipend-cost-of-living-ithaca-enough/) put the rest of the budget around that rent.
 
-Hasbrouck bills graduate students on 12-month contracts through the Bursar each month, with the first month on the August bill. There is no security deposit ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Hasbrouck bills graduate students on 12-month contracts through the Bursar each month, with the first month on the August bill. There is no security deposit ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 <!-- ad-break -->
 
 ## How do you apply?
 
-Applications are rolling ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). For 2026-27, renewals for current residents opened Feb. 3, 2026, and new applications opened at noon on April 1, 2026. The Housing office number is (607) 255-5368 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus)). Cornell's page does not post the 2027-28 opening dates, so call that number or email housing@cornell.edu in the winter.
+Applications are rolling ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). For 2026-27, renewals for current residents opened Feb. 3, 2026, and new applications opened at noon on April 1, 2026. The Housing office number is (607) 255-5368 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus)). Opening dates for 2027-28 are not yet announced, so call that number in the winter to ask.
 
 ```reader "If you're coming with a partner or children"
 Family and partner units hold up to four people but only two adults. Rates for the family units are per household, not per person. Read [Cornell student family housing](/cornell/housing/cornell-student-family-housing-ithaca/) for the other options.

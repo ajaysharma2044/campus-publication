@@ -2,7 +2,7 @@
 title: What to wear for an Ithaca winter at Cornell
 mode: answer
 dek: Plan for a down coat, mittens, insulated boots with treaded soles and layers, because January in Ithaca averages 22.8°F with 16.6 inches of snow.
-meta: 'What to wear for an Ithaca winter at Cornell: coat, boots, mittens and layers, month-by-month snow and temperatures, and where to get help paying for gear.'
+meta: 'What to wear for an Ithaca winter at Cornell: coat, boots, mittens and layers, how cold it gets, and where to get help paying for gear.'
 primary_query: what to wear for an Ithaca winter
 topic: daily-life
 school: cornell-university
@@ -20,7 +20,7 @@ tools: []
 sources:
 - url: https://international.globallearning.cornell.edu/life-cornell/student-resources
   title: Student Resources, Cornell International Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://health.cornell.edu/about/news/cold-weather-safety
   title: Cold Weather Safety, Cornell Health
   accessed: '2026-11-10'
@@ -81,29 +81,19 @@ Wear a down coat, mittens, a hat that covers your ears and insulated boots with 
 
 ## What does an Ithaca winter feel like?
 
-Cold, windy and snowy from December through March. The average January temperature is 22.8°F, and the average January snowfall is 16.6 inches ([Northeast Regional Climate Center](https://www.nrcc.cornell.edu/wxstation/ithaca/normal.html)). A year's normal snowfall is 62.9 inches.
-
-| Month | Average temperature | Average snowfall |
-|---|---|---|
-| November | 38.6°F | 4.6 in. |
-| December | 29.1°F | 12.2 in. |
-| January | 22.8°F | 16.6 in. |
-| February | 24.1°F | 14.5 in. |
-| March | 31.3°F | 12.0 in. |
-| April | 43.7°F | 2.8 in. |
-
-Source: Northeast Regional Climate Center, Ithaca normals. The first inch of snow normally arrives around Nov. 25, according to [The Cornell Daily Sun](https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/), which reported the date moved from Nov. 20 with the newest 30-year averages.
+Cold, windy and snowy from December through March. The average January temperature is 22.8°F, and the average January snowfall is 16.6 inches ([Northeast Regional Climate Center](https://www.nrcc.cornell.edu/wxstation/ithaca/normal.html)). A year's normal snowfall is 62.9 inches; our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/) has the month-by-month table. The first inch of snow normally arrives around Nov. 25, according to [The Cornell Daily Sun](https://cornellsun.com/2021/11/17/delayed-first-snowfall-in-ithaca-reflects-changing-climate-patterns/), which reported the date moved from Nov. 20 with the newest 30-year averages.
 
 Averages hide the worst weeks. Winter 2025-26 ran 3.1°F below normal, with about 19 days that never rose above freezing from Jan. 23 to Feb. 11 and a low of -7°F on Jan. 30 ([The Cornell Daily Sun](https://cornellsun.com/article/2026/03/5z6poblqwoea)). Wind makes it worse: at 0°F with a 15 mph wind, the wind chill is -19°F, and exposed skin can freeze in 30 minutes ([National Weather Service](https://www.weather.gov/safety/cold-wind-chill-chart)).
 
 ## What should I wear on my body?
 
-Dress in layers, with a water-resistant jacket on top, according to [Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety). A layered outfit lets you shed a sweater in a warm lecture hall and add it back for the walk across the Arts Quad.
+Dress in layers, with a water-resistant jacket on top, according to [Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety). Cornell International Services says to wear many layers of loose clothing, because the layers keep pockets of warmer air between them, and to put long underwear under loose-fitting pants ([Cornell International Services](https://international.globallearning.cornell.edu/life-cornell/student-resources)). A layered outfit lets you shed a sweater in a warm lecture hall and add it back for the walk across the Arts Quad.
 
 **Packing checklist**
 
 - A down coat, or a wool coat if you have no down one
 - Layers to wear under it, so you can adjust indoors
+- Long underwear to wear under loose-fitting pants
 - A hat that covers your ears
 - Mittens, which are warmer than gloves
 - Insulated boots with thick treaded rubber soles
@@ -159,6 +149,7 @@ Cornell's Graduate School lists more stores: Dick's Sporting Goods, Kohl's, REI 
 2. Buy boots and a coat first; they cost the most.
 3. If money is tight, apply to the Access Fund before the first snowfall.
 4. Save 607-255-5155 in your phone.
+5. Read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/) for the season's rules, dates and services.
 
 ## Related guides
 

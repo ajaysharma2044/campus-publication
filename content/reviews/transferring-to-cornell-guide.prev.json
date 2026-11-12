@@ -1,0 +1,180 @@
+{
+ "slug": "transferring-to-cornell-guide",
+ "queue_id": "q-transfer-0001",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Fall 2025: 7,381 applied, 864 admitted, 625 enrolled; 11.7% admit rate",
+   "source_url": "brief §10.5 / CDS D2",
+   "status": "ok",
+   "note": "brief; recomputed 864/7,381 = 11.71%."
+  },
+  {
+   "claim": "Yield 72.3%; transfers 14.0% of new class; first-years 8.4% (6,077 of 72,523)",
+   "source_url": "brief §10.5-10.6",
+   "status": "ok",
+   "note": "Recomputed 625/864 = 72.3%; 625/(3,827+625) = 14.0%; 6,077/72,523 = 8.38%."
+  },
+  {
+   "claim": "Fall 2024 9.3% and fall 2023 12.7% (third-party)",
+   "source_url": "brief §10.5",
+   "status": "ok",
+   "note": "brief rows, labeled third-party on the page."
+  },
+  {
+   "claim": "Admitted transfers generally 3.3 GPA or better; about a quarter from community colleges",
+   "source_url": "brief §3 (FAQ 325)",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Deadlines March 15, 2027 / April 15, 2027; $85 fee; 12 semester hours definition; fall only",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Cost sums: $96,318 / $72,188 billed; table rows $95,218, $95,770, $98,140, $99,169 and NY $71,088, $71,640, $74,010, $75,039",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Recomputed each from tuition $73,946 or $49,816 + fees $1,024 + room + meal plan; all match."
+  },
+  {
+   "claim": "$99,734 and $75,604 full budgets; ILR vs A&S two-year $151,208 vs $199,468; $24,130 gap; $74,970 extra year",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "Recomputed: 96,318+1,234+2,182 = 99,734; 72,188+3,416 = 75,604; x2 = 151,208 and 199,468; 73,946-49,816 = 24,130; 73,946+1,024 = 74,970."
+  },
+  {
+   "claim": "Co-op double $6,974 to $9,962 (doubling $3,487 and $4,981); room rates and per-semester figures",
+   "source_url": "brief §3.6",
+   "status": "ok",
+   "note": "Recomputed 3,487x2 and 4,981x2; 8,298 is 16,595/2 rounded."
+  },
+  {
+   "claim": "Credit table (30 to 105 credits, accepted, lost, semesters)",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed with 120-credit degree, 15 credits per semester, 60 cap, 4 Cornell semesters minimum; every row correct. 90 quarter credits x 2/3 = 60."
+  },
+  {
+   "claim": "Student Health Plan $1,705 fall + $2,046 spring = $3,751; dependents $4,092/$3,751, $8,184/$7,502; waiver July 31, 2026",
+   "source_url": "brief §10.7",
+   "status": "ok",
+   "note": "brief; sum recomputed; two-child rates are 2x the one-dependent rates."
+  },
+  {
+   "claim": "Hall double about $1,527 a month over nine months",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "13,744 / 9 = 1,527.1."
+  },
+  {
+   "claim": "Fall 2026 calendar: classes began Aug 24; add Sept 8; drop Oct 19; last day of classes Dec 7",
+   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
+   "status": "ok",
+   "note": "Opened the registrar page; all four dates match."
+  },
+  {
+   "claim": "Engineering transfer orientation 2026: Aug 18 fair and family briefing, Aug 20 math exam and drop-in, Aug 21 lunch; exam encouraged for AP Calc BC 4",
+   "source_url": "https://www.duffield.cornell.edu/advising/new-engineering-students/orientation/transfer-student-orientation/",
+   "status": "ok",
+   "note": "Opened the page; dates and the AP 4 wording match."
+  },
+  {
+   "claim": "Transfer move-in Aug 18, 2026; NSO Aug 18 to 23; Family Orientation Aug 18; 603 transfers, 23 veterans",
+   "source_url": "brief §3.6, §10",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Richard Ballard did his Transfer Option year at Ithaca College; described inconsistently as guaranteed and not; feared second application would be as hard",
+   "source_url": "https://www.cornellsun.com/article/2025/08/from-both-sides-of-the-hill-an-ic-transfers-perspective",
+   "status": "ok",
+   "note": "fixed in place: Content confirmed. The page used 'He'; the source is first-person and gives no pronoun, so changed to 'Ballard feared'."
+  },
+  {
+   "claim": "Rachel Eisenhart, ILR transfer, Class of 2027: same small talk, between first-years and upperclassmen, keep old friends, visit Ithaca, regular sophomore in weeks",
+   "source_url": "https://www.cornellsun.com/article/2025/05/a-letter-to-incoming-transfer-students-what-no-one-tells-you",
+   "status": "ok",
+   "note": "fixed in place: Content confirmed. Removed 'Her' and 'She' (no pronoun in the source); now 'The advice was...' and 'Eisenhart wrote that...'."
+  },
+  {
+   "claim": "Jessica Silverman moved from UCLA to Human Ecology and recommended the Tatkon Center, CUeLinks and West Campus house dinners",
+   "source_url": "https://hecec.human.cornell.edu/?p=8161",
+   "status": "ok",
+   "note": "Opened the post; matches. Page uses no pronoun."
+  },
+  {
+   "claim": "Dec 2020 Sun: transfer GroupMe 350+ members; 2016: about 30 transfers in converted lounges, some five to a lounge, placement by application date; 2018: learned June 22",
+   "source_url": "brief §5, §8",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Desirable Collegetown leases leave market up to 16 months ahead (Sun 2018); RentCafe studio $2,006, 1BR $2,342, updated Oct 30, 2026",
+   "source_url": "brief §3.8",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Aid: grants cover tuition up to $125,000, full cost up to $75,000; CSS waiver up to $100,000; codes 2098, 002711, 0174, 0175; 32.7% of fall 2021 transfers got grants averaging $44,712",
+   "source_url": "brief §2.15",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Credit rules: 60 cap, Engineering 66 (33 per year), Architecture 64 with 90 at Cornell; 80% similarity; C minimum; seven-year limit",
+   "source_url": "brief §2.4",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Housing: ten-day window, one-year rule, June 15 no-penalty cancel then $500, Hasbrouck graduate-only, over 500 in Program Houses, SDS 607-254-4545",
+   "source_url": "brief §3.6",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Meal plans $7,604 and $7,056; Bear Basic $4,978; Off-Campus Value $1,824.60; mandatory fees $1,024",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Internal transfer: Hotel and AAP December 1 / May 1; A&S two-semester wait for external transfers; Hotel excludes them; Hotel GPA 3.0, AAP 2.7",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief."
+  },
+  {
+   "claim": "Spring 2021: 88 spring transfers expected; many had to commit by May 3 before aid offers (Sun 2021)",
+   "source_url": "brief §3.2, §8",
+   "status": "ok",
+   "note": "brief. The 88 figure is marked in the brief as not re-verified because the PDF was unreadable; the page attributes it to the IRP profile."
+  },
+  {
+   "claim": "EOP/HEOP: OADI 607.255.3841, stateprograms@cornell.edu; CALS cals_admissions@cornell.edu, 607-255-2036; about 100 community college transfers a year",
+   "source_url": "brief §2.8, §5",
+   "status": "ok",
+   "note": "brief."
+  }
+ ],
+ "beats_top": {
+  "query": "transfer to cornell",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "visuals: 8 beyond the lead photo for 6865 words (11 required: one photo, figure, map or tool per 600 words)",
+  "source url returned 404: https://www.cs.cornell.edu/node/17"
+ ],
+ "lint_rounds": 1
+}

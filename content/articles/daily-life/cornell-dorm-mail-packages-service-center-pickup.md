@@ -33,7 +33,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
   title: 301 College Avenue, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall
   title: Move Instructions, Cascadilla Hall, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://cornellsun.com/article/2023/08/schuyler-house-service-center-closed-after-move-in-residents-directed-to-cascadilla-hall
@@ -87,7 +87,7 @@ Published pages for the other halls were not part of this guide's research. Ask 
 
 ## How do you pick up a package?
 
-The Cornell pages in this guide's research do not state the pickup steps, such as how you are notified or what ID the counter asks for. Ask the service center for your hall, since each posts its own hours. Cascadilla's center showed the pattern in August 2026: open 8 a.m. to 7 p.m. on Aug. 18 to 22 and 10 a.m. to 4 p.m. on Aug. 23, and closed on Aug. 17 ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)). Hours outside move-in week differ.
+The Cornell pages in this guide's research do not state the pickup steps, such as how you are notified or what ID the counter asks for. Ask the service center for your hall, since each posts its own hours. Cascadilla's center showed the pattern in August 2026: open 8 a.m. to 7 p.m. on Aug. 18 to 22 and 10 a.m. to 4 p.m. on Aug. 23, and closed on Aug. 17 ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall)). Hours outside move-in week differ.
 
 Schuyler House residents have a longer walk. The Schuyler service center closed on Aug. 21, 2023, and residents were sent to Cascadilla Hall, which one resident put at about 10 minutes each way and hilly. A Cornell official cited low package volume as the reason ([The Cornell Daily Sun](https://cornellsun.com/article/2023/08/schuyler-house-service-center-closed-after-move-in-residents-directed-to-cascadilla-hall)).
 

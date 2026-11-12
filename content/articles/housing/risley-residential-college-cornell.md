@@ -26,7 +26,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall
   title: North Campus hall pages, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Housing
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms
@@ -41,7 +41,7 @@ sources:
 - url: https://www.cornellsun.com/article/2025/09/abou-alfa-cornells-best-dining-hall
   title: Cornell's best dining hall, The Cornell Daily Sun, Sept. 10, 2025
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
@@ -53,19 +53,19 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergraduate Application Process, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns
   title: BSU Town Hall Addresses Housing, Financial Aid and Federal Policy Concerns, The Cornell Daily Sun, March 25, 2026
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/
@@ -77,7 +77,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
   title: Important Loading and Parking Information, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
   accessed: '2026-11-10'
 images:
@@ -106,7 +106,7 @@ Risley Residential College is Cornell's largest [program house](/cornell/housing
 
 A program house is a residence hall, or part of one, built around a shared interest or way of living. Cornell lists 194 residents at Risley ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college)).
 
-The Risley building dates to 1913 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)). Rooms open onto corridors, not into suites or apartments ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)).
+The Risley building dates to 1913 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)). Rooms open onto corridors, not into suites or apartments ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)).
 
 ```figure
 kind: cost_table
@@ -135,7 +135,7 @@ The rooms have no air conditioning ([Cornell Housing](https://scl.cornell.edu/re
 
 ## What does Risley cost?
 
-Program houses share the residence hall rate table, so the room rate is the same as in any hall. A double is $6,872 per semester, or $13,744 per academic year, and a single is $15,566 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, garbage pickup and internet up to 200 GB a month ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
+Program houses share the residence hall rate table, so the room rate is the same as in any hall. A double is $6,872 per semester, or $13,744 per academic year, and a single is $15,566 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, garbage pickup and internet up to 200 GB a month ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 Every undergraduate in on-campus housing, program houses included, must buy a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)). First-years must take Unlimited at $7,604 a year. Upper-level and transfer students can choose Bear Traditional at $7,056. Both carry a $50 administrative fee each year ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
@@ -156,11 +156,11 @@ Off campus, a share of a Collegetown four-bedroom has a median asking rent of $1
 
 ## How do you get a spot in Risley?
 
-List Risley as a preference on the housing application. Risley is not one of the three houses that ask for an extra application. Those are the Language House, Veterans House and the Sober Living Community ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+List Risley as a preference on the housing application. Risley is not one of the three houses that ask for an extra application. Those are the Language House, Veterans House and the Sober Living Community ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
-New first-year and transfer students apply within 10 days of getting a NetID, Cornell's student login. Unless you list a program house, your hall is set by random auto-allocation, and confirmations start in mid-June ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)).
+New first-year and transfer students apply within 10 days of getting a NetID, Cornell's student login. Unless you list a program house, your hall is set by random auto-allocation, and confirmations start in mid-June ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
-Rising sophomores can list up to three program houses, and they pick rooms in a priority round before open selection ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+Rising sophomores can list up to three program houses, and they pick rooms in a priority round before open selection ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 ```figure
 kind: timeline
@@ -183,9 +183,9 @@ The building is old, and the Sun reported in 2018 that Cornell's North Campus pl
 
 Risley is not on Cornell's list of North Campus buildings that stay open over winter break ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Plan where you will stay between semesters.
 
-Cancellation fees apply to juniors and seniors who sign for 2027-28. The fee is $50 through Jan. 31, 2027, and it climbs to $500, $1,000 and then $2,000 as the summer nears ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
+Cancellation fees apply to juniors and seniors who sign for 2027-28. The fee is $50 through Jan. 31, 2027, and it climbs to $500, $1,000 and then $2,000 as the summer nears ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
-On move-in day, Cornell's fall 2026 North Campus unloading list does not name Risley ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). Its move-out loading list names a Risley lot ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information)). Check your Move-In Ticket instructions and the [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
+On move-in day, Cornell's fall 2026 North Campus unloading list does not name Risley ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). Its move-out loading list names a Risley lot ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information)). Check your Move-In Ticket instructions and the [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
 
 ## What to do next
 

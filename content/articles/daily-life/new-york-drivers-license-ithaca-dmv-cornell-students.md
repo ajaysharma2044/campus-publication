@@ -1,9 +1,9 @@
 ---
-title: Get a New York driver's license or ID in Ithaca
+title: Get a New York driver's license in Ithaca
 mode: answer
 dek: Students from other states usually keep their home license, and they switch only if they become New York residents.
-meta: Do Cornell students need a New York driver's license or ID? Who keeps an out-of-state license, what international students need, and the Carshare license rules.
-primary_query: get New York driver's license or ID Ithaca DMV student
+meta: Do Cornell students need a New York driver's license? Who keeps an out-of-state license, what international students need, and the Carshare license rules.
+primary_query: get New York driver's license Ithaca DMV student
 topic: daily-life
 school: cornell-university
 type: how-to
@@ -43,6 +43,9 @@ sources:
 - url: https://tompkinscountyny.gov/dmv
   title: Department of Motor Vehicles, Tompkins County
   accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus
+  title: Parking on Campus, Cornell Facilities and Campus Services
+  accessed: '2026-11-11'
 images: []
 redirect_from:
   - /cornell/getting-around/new-york-drivers-license-ithaca-dmv-cornell-students/
@@ -65,7 +68,7 @@ No, if New York is not your home. The state DMV treats students who come to atte
 
 The state's own rules, not Cornell's, decide this. A student who makes New York home has 30 days from becoming a resident to exchange the old license, and living in the state for 90 days is what the DMV calls presumptive evidence of residency ([New York State DMV](https://dmv.ny.gov/driver-license/exchange-out-of-state-driver-license)). The exchange happens in person at a DMV office. You surrender the out-of-state license, which must carry a photo, be valid or expired for less than 24 months and have been issued at least 6 months before you apply. You pass a vision test at the office or bring a completed Eye Test Report (form MV-619), and the DMV's online pre-screening tool tells you which forms and documents to bring. You leave with a temporary non-photo document, and the card arrives by mail.
 
-You pay the DMV's fee for a first New York license: $64.25 to $67.50 for a Class D license at age 21 or older, and $76.75 to $80.00 between 18½ and 21 ([New York State DMV](https://dmv.ny.gov/driver-license/fees-refunds)). The table's higher figures add a surcharge for the 12 counties of the Metropolitan Commuter Transportation District, and Tompkins is not one of them. The Ithaca office is the Tompkins County DMV at 301 Third Street, open Monday to Friday from 8:30 am to 12:45 pm and 2:00 pm to 4:30 pm; permit tests run 8:30 am to 12:00 pm and 2:00 pm to 3:30 pm, road tests 8:00 am to 3:00 pm, and the phone is (607) 273-7187 ([Tompkins County](https://tompkinscountyny.gov/dmv)).
+You pay the DMV's fee for a first New York license: $64.25 to $67.50 for a Class D license at age 21 or older, and $76.75 to $80.00 between 18½ and 21 ([New York State DMV](https://dmv.ny.gov/driver-license/fees-refunds)). Those are the DMV's ranges for counties outside the Metropolitan Commuter Transportation District, which does not include Tompkins; the district's own ranges are higher ($73.25 to $77.50 and $85.75 to $90.00). The Ithaca office is the Tompkins County DMV at 301 Third Street, open Monday to Friday from 8:30 am to 12:45 pm and 2:00 pm to 4:30 pm; permit tests run 8:30 am to 12:00 pm and 2:00 pm to 3:30 pm, road tests 8:00 am to 3:00 pm, and the phone is (607) 273-7187 ([Tompkins County](https://tompkinscountyny.gov/dmv)).
 
 ## Can international students drive on their home license?
 
@@ -91,4 +94,4 @@ Keep your home license. Ask the DMV directly before you register a car in New Yo
 
 Check dmv.ny.gov for your situation, then decide about a car with the cost guide.
 
-Related guides: [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/), [Should I bring a car?](/tools/should-i-bring-a-car-cornell-ithaca-cost/), [Ithaca Carshare](/cornell/getting-around/ithaca-carshare-cornell-students-cost/).
+Related guides: [Cornell parking guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/), [Should I bring a car?](/tools/should-i-bring-a-car-cornell-ithaca-cost/), [Ithaca Carshare](/cornell/getting-around/ithaca-carshare-cornell-students-cost/).

@@ -32,7 +32,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall
   title: Cascadilla Hall Move Instructions, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
@@ -129,7 +129,7 @@ If you are weighing these against a Collegetown apartment, a bed in a four-bedro
 
 ## How do move-in and move-out differ?
 
-For fall 2026, Cascadilla residents unloaded at the Eddygate entrance, and drivers then moved their cars to the Williams Street Lot at Williams Street and Stewart Avenue. The same page lists limited spots in the Sheldon Court loading dock ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)).
+For fall 2026, Cascadilla residents unloaded at the Eddygate entrance, and drivers then moved their cars to the Williams Street Lot at Williams Street and Stewart Avenue. The same page lists limited spots in the Sheldon Court loading dock ([Cornell move instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall)).
 
 The Cascadilla Service Center was closed on Aug. 17, open 8 a.m. to 7 p.m. on Aug. 18 to 22, and open 10 a.m. to 4 p.m. on Aug. 23. Plan your key pickup around those hours. The full parking plan is in the [move-in day guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
 

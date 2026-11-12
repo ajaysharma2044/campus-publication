@@ -7,7 +7,7 @@ primary_query: cornell heights ithaca neighborhood
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 162
 rewrites: ''
 readers:
@@ -19,7 +19,7 @@ subject: Fraternity and sorority houses on Thurston Avenue in Cornell Heights, I
 tools:
 - ithaca-rent-commute-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.cityofithacany.gov/DocumentCenter/View/1589/Cornell-Heights-Historic-District-Significance-Statement
@@ -28,7 +28,7 @@ sources:
 - url: https://www.cornellsun.com/article/2013/09/ezras-oracle-sept-20-2013
   title: Ezra's Oracle, The Cornell Daily Sun, Sept. 20, 2013
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement
   title: Qualified Off-Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
@@ -67,7 +67,7 @@ sources:
 - url: https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/
   title: Cornell student abandons house, sleeps in library after months-long dispute with landlord, The Cornell Daily Sun, Nov. 25, 2018
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images:
@@ -94,19 +94,19 @@ Cornell Heights is the leafy neighborhood north of campus. It is a planned subur
 
 ## Where is Cornell Heights, and how far is it?
 
-North of central campus, around Thurston Avenue, University Avenue, Lake Street, Stewart Avenue and Wyckoff Road. Cornell's page lumps it with Cayuga Heights, 1 to 4 miles out and up to a 30-minute level walk ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). That range is wider than the real neighborhood. Straight-line from Ho Plaza, buildings on Lake Street and University Avenue sit about 0.4 miles away, and Westview Terrace on Country Club Road about 0.8 miles.
+North of central campus, around Thurston Avenue, University Avenue, Lake Street, Stewart Avenue and Wyckoff Road. Cornell's page lumps it with Cayuga Heights, 1 to 4 miles out and up to a 30-minute level walk ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). That range is wider than the real neighborhood. Straight-line from Ho Plaza, buildings on Lake Street and University Avenue sit about 0.4 miles away, and Westview Terrace on Country Club Road about 0.8 miles.
 
-Cornell Heights sits inside the City of Ithaca. Cayuga Heights, to its north, is a separate village outside the City's 120-day renewal rule and its rental certificate system, and Cornell's safety lookup covers City rentals only ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)). Our [City, Town and Lansing guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) explains the lines.
+Cornell Heights sits inside the City of Ithaca. Cayuga Heights, to its north, is a separate village outside the City's 120-day renewal rule and its rental certificate system, and Cornell's safety lookup covers City rentals only ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). Our [City, Town and Lansing guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) explains the lines.
 
 ## What are the Greek houses like?
 
-Sororities moved into houses in the late 1910s and early 1920s, mostly here ([The Cornell Daily Sun](https://www.cornellsun.com/article/2013/09/ezras-oracle-sept-20-2013)). Affiliated houses on the Cornell list include Alpha Zeta at 214 Thurston Ave., Seal and Serpent at 305 Thurston Ave. and the Center for Jewish Living at 106 West Ave. ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)).
+Sororities moved into houses in the late 1910s and early 1920s, mostly here ([The Cornell Daily Sun](https://www.cornellsun.com/article/2013/09/ezras-oracle-sept-20-2013)). Affiliated houses on the Cornell list include Alpha Zeta at 214 Thurston Ave., Seal and Serpent at 305 Thurston Ave. and the Center for Jewish Living at 106 West Ave. ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement)).
 
 A sophomore can live in a chapter house only if a member of the fraternity or sorority when applying for housing ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Rent covers housekeeping, utilities, internet, repairs and building insurance, and each chapter sets its own dues ([Cornell Student & Campus Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). Cornell's scorecard lists self-reported live-in charges for one spring semester from $2,000 (Delta Kappa Epsilon, spring 2026) to $14,673 (Alpha Xi Delta, spring 2025), with a median of $7,400 across 13 chapters that charge in spring 2026 ([Organization Scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard)). For exemptions from the live-on rule, see our [residential requirement guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ## Which co-ops are nearby?
 
-Cornell owns eight co-ops, with 10 to 35 members each, and selection starts in early November and early February, with each house running its own process ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Triphammer Cooperative at 150 Triphammer Rd. has 20 residents in 11 singles, three doubles and one triple, with vegetarian dinners Sunday through Thursday ([Triphammer Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative)). It charges $4,889 for a single, $4,317 for a double and $3,972 for a triple per semester ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Our [co-op and Greek guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers cost and how to join.
+Cornell owns eight co-ops, with 10 to 35 members each, and selection starts in early November and early February, with each house running its own process ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Triphammer Cooperative at 150 Triphammer Rd. has 20 residents in 11 singles, three doubles and one triple, with vegetarian dinners Sunday through Thursday ([Triphammer Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative)). It charges $4,889 for a single, $4,317 for a double and $3,972 for a triple per semester ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Our [co-op and Greek guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers how a sophomore gets in.
 
 <!-- ad-break -->
 

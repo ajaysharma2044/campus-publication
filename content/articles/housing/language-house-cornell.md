@@ -19,7 +19,7 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house
   title: Language House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/stories/2025/04/language-house-opens-students-learning-asl
   title: Language House opens to students learning ASL, Cornell Chronicle, April 1, 2025
   accessed: '2026-11-10'
@@ -29,10 +29,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
   title: Program house room configurations, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -61,7 +61,7 @@ images:
 - Room rates follow the shared table: a double is $13,744 for 2026-27.
 ```
 
-The Language House is a Cornell immersion community of more than 50 upper-level residents in suites in Toni Morrison Hall. For 2026-27 it offers Spanish, French, Mandarin, Korean and American Sign Language. Room rates follow the shared table, with a double at $13,744 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+The Language House is a Cornell immersion community of more than 50 upper-level residents in suites in Toni Morrison Hall. For 2026-27 it offers Spanish, French, Mandarin, Korean and American Sign Language. Room rates follow the shared table, with a double at $13,744 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is the Language House?
 
@@ -74,7 +74,7 @@ rows:
   - {label: "Building", value: "Toni Morrison Hall, North Campus"}
   - {label: "Founded", value: "1984; in Morrison Hall since 2023"}
   - {label: "Residents", value: "50+ upper-level students"}
-  - {label: "Room types", value: "Suites; temperature-controlled"}
+  - {label: "Room types", value: "Singles and doubles in suites; temperature-controlled"}
   - {label: "Languages, 2026-27", value: "Spanish, French, Mandarin, Korean, American Sign Language"}
   - {label: "Room rate", value: "Double $13,744 per academic year for 2026-27"}
   - {label: "Meal plan", value: "Required; $7,056 to $7,604 per academic year"}
@@ -95,11 +95,10 @@ Cornell itself says the Language House is not a traditional program house ([Corn
 
 ## What does the Language House cost?
 
-Program houses share the residence hall rate table. The sources cited here do not say which room types the suites contain, so check the rates page for yours. A meal plan is required: Bear Traditional at $7,056 for upper-level and transfer students, plus a $50 yearly fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Program houses share the residence hall rate table. The Language House has single and double rooms arranged in suites with shared bathrooms ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)). A meal plan is required: Bear Traditional at $7,056 for upper-level and transfer students, plus a $50 yearly fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 | Room type | Room per year | Year with Bear Traditional and fee |
 |---|---|---|
-| Triple | $12,644 | $19,750 |
 | Double | $13,744 | $20,850 |
 | Single | $15,566 | $22,672 |
 
@@ -111,7 +110,7 @@ Off campus, a share of a Collegetown five-bedroom has a median asking rent of $1
 
 ## How do you get into the Language House?
 
-Rising juniors and seniors need an additional application beyond room selection. For 2027-28, applications ran Sept. 1 to Sept. 27, 2026, and program house priority selection was Oct. 1. Cornell says it cannot guarantee housing to juniors and seniors, so apply by the deadline ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+Rising juniors and seniors need an additional application beyond room selection. For 2027-28, applications ran Sept. 1 to Sept. 27, 2026, and program house priority selection was Oct. 1. Cornell says it cannot guarantee housing to juniors and seniors, so apply by the deadline ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
 Check Cornell Housing's selection page each September for the next application dates and the Language House form.
 
@@ -121,11 +120,11 @@ A program house counts as on-campus housing, so living there meets the two-year 
 
 Ask where the house will be located in future years, since Cornell lists it as undecided. Check the cancellation schedule before you commit. The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
-The sources cited here list no move-in unloading zone for Toni Morrison Hall, so check the [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) and your move-in email.
+For move-in day unloading, see the [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
 
 ## What to do next
 
-Decide whether your language is on the current list, then ask Housing about the extra application and the suite layouts.
+Decide whether your language is on the current list, then send the extra application in September with your room selection.
 
 Related guides:
 

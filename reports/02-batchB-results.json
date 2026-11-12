@@ -1,0 +1,958 @@
+[
+ {
+  "file": "content/articles/daily-life/what-to-wear-ithaca-winter-cornell.md",
+  "url": "/cornell/daily-life/what-to-wear-ithaca-winter-cornell/",
+  "slug": "what-to-wear-ithaca-winter-cornell",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged line 131 (lint body line 70), under 'Where can I buy winter clothes in Ithaca and how much will it cost?': 'The sources behind this guide name no store, price range or sale dates.' and, in the same paragraph, 'The Access Fund caps are the only dollar figures Cornell publishes for winter gear.'",
+    "tried": "The page's own source, the Cornell Graduate School winter clothing page (Nov. 3, 2025), opened with WebFetch to get the exact store names (curl was blocked by Cloudflare). The local corpus copy of Cornell International Services Student Resources, which lists shopping areas but no prices. One WebSearch. The Cornell Daily Sun's 'Bundle Up Cheaply: Best Coat Bargains in Ithaca' (Oct. 31, 2024), opened with WebFetch and read in full with curl. Cornell's alumni 'Then vs. now' page, opened with WebFetch and curl (it 301s to /connect/downloads/then-and-now/).",
+    "outcome": "FOUND. Deleted both admissions and the 'only dollar figures' claim. In their place: advice to start at the South Meadow Square discount and secondhand stores, then a price table. Coat prices are from the Sun, fall 2024: Plato's Closet $25 to $40, Old Navy $34.99 on sale, Walmart about $40 on average, T.J. Maxx $59.99 to about $89.99. Winter boots are '$150 or more (2023)' from Cornell's alumni site, which cites The New York Times. A source line sits under the table. Added where the stores are (Plato's Closet in South Meadow Square, T.J. Maxx across the street, Old Navy a few doors down, Walmart an eight-minute walk away, TCAT Route 15 serving all four), per the Sun. Added the Graduate School's other stores: Dick's, Kohl's, REI Co-op, Ross and Target for new clothes, and EverGreen Ithaca, Goodwill, the Ithaca ReUse Center and MegaCenter, the Salvation Army and Thrifty Shopper for used. The heading is kept because the page now answers both halves. The Sun's 2024 figure of '$250' for the Access Fund was not used; the page keeps the Graduate School's $100 for boots and $150 for a coat set, which I re-verified."
+   },
+   {
+    "item": "Admission the linter did not flag, in 'What if I ride a bike in winter?': 'Cornell publishes no winter riding guidance, and its snow removal page does not mention bike lanes.'",
+    "tried": "Cornell Transportation's Cycling on Campus page, opened with WebFetch and read in full with curl. One WebSearch on cornell.edu for winter cycling guidance. The site's own winter biking guide, to confirm what the link-out covers.",
+    "outcome": "PARTLY FOUND, the admission is gone. Wrote what Cornell does say, with a citation: wear a helmet and brightly colored or reflective clothing, and use legal headlights and taillights at dusk or at night. No Cornell source on winter riding or bike-lane plowing turned up, so the sentence claiming that guidance is absent and the snow-removal remark are deleted rather than replaced. The heading stays: the section now answers what to wear on a bike and links to the winter biking guide, now described as covering brakes, locks and the bus backup."
+   }
+  ],
+  "sources_added": [
+   "https://www.cornellsun.com/article/2024/10/bundle-up-cheaply-best-coat-bargains-in-ithaca",
+   "https://alumni.cornell.edu/connect/downloads/then-and-now/",
+   "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File: /Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/what-to-wear-ithaca-winter-cornell.md, edited in place.\n\nChecks:\n- `python3 scripts/lint-content.py <file>` reports 0 matches.\n- `grep -c \"\u2014\" <file>` returns 0.\n- The page-checks script (.claude/skills/page-checks/scripts/page_check.py) passes: 684 prose words, reading grade 7.0. The boots price sits in the table, so \"$150\" is not counted a third time in prose.\n- The frontmatter YAML parses. Every body URL is in sources and every source is cited in the body.\n\nWhat changed:\n- Frontmatter: `updated` is now '2026-11-11', and the 3 new sources were added with accessed '2026-11-11'.\n- Only two sections' text changed. One Markdown table was added (the page already had one); no new fenced block types.\n- Title, slug, dek, meta, glance block, reader blocks, images block and every other section are unchanged.\n- No named store is characterized beyond prices and locations; the Sun writer's opinions are not used. No forum sources.\n- A word-run check against the downloaded Sun, cycling and alumni texts found no copied run longer than 7 words.\n\nNot run: the slower v2 publish lint (scripts/v2/lint.py). I started it with and without network checks, but about 14 other lint.py processes were already running and machine load was near 15, so I stopped my runs after 5 minutes. The task did not require it.\n\nNo reports/gaps.md entry was written. The gap decisions are in this result.",
+  "sound": true,
+  "problems": "None found. The linter reports 0 matches and the em-dash count is 0. I fetched the three new sources and the Graduate School page, and each supports the page's statements. The Sun article (Oct. 31, 2024) gives Plato's Closet $25 to $40, Old Navy $34.99, Walmart about $40, T.J. Maxx $59.99 to about $89.99, and the South Meadow Square layout and Route 15. The alumni page says \"Winter boots cost $150 or more in 2023\" and cites the NYT. The Cornell cycling page backs the helmet, bright or reflective clothing, and legal headlights and taillights wording. The Graduate School page lists the same stores and the $100 and $150 Access Fund caps. No sentence says what the sources or research lack, and every heading and FAQ question is answered in the body. Every body URL is in the frontmatter sources, and every source is cited. The page is not marked mandatory, so check 5 does not apply. Minor note: the coat prices come from 2024, but the page dates them.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/daily-life/winter-activities-ithaca-cornell-students.md",
+  "url": "/cornell/daily-life/winter-activities-ithaca-cornell-students/",
+  "slug": "winter-activities-ithaca-cornell-students",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Line 99: Beebe Lake ice carnivals dated to 1957 (skeptic issue 1)",
+    "tried": "Re-fetched the cited Cornellians article (alumni.cornell.edu/cornellians/cold-comforts-of-a-big-red-winter). It says the carnivals ran until the late Forties and that Big Red hockey played on Beebe until Lynah Rink was built in 1957.",
+    "outcome": "Fixed: 'Beebe Lake hosted ice carnivals until the late 1940s, and Big Red hockey teams played on it until Lynah Rink was built in 1957', with the same citation."
+   },
+   {
+    "item": "Dek (line 4) and image caption (line 68): 'a few cost nothing to try' (skeptic issue 2)",
+    "tried": "Checked the page body. No activity is stated to be free, and the Winter Market's admission is never given.",
+    "outcome": "Reworded both to prices the body supports: 'from a $10 gym day pass to $29 Monday ski nights' (Cornell Fitness Centers and Greek Peak, both already cited). Only the caption text changed; the image file, credit and license are as they were."
+   },
+   {
+    "item": "Lint flags (task said 3 matches)",
+    "tried": "Ran scripts/lint-content.py before editing.",
+    "outcome": "It already reported 0 matches, because the earlier pass had cleared them. There were no admissions left to fix."
+   }
+  ],
+  "sources_added": [],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "Edited /Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/winter-activities-ithaca-cornell-students.md in place. After the edits, lint reports 0 matches and the file has 0 em dashes. I added no new URLs: the Cornellians, Greek Peak and Fitness Centers sources were already in the frontmatter. Title, slug and structure are unchanged. I did not commit or push anything. The relayed user question 'did u push everything' is outside this page step, so the orchestrating session should answer it with git status.",
+  "sound": true,
+  "problems": "All five checks hold. (1) Lint prints 0 matches and the em-dash count is 0. (2) No sentence says what the sources or research lack, and each heading, glance line and the dek is answered in the body. (3) I fetched the three sources added today. Greek Peak confirms $125 for a one-day ticket, $79 for a night ticket from 3:30 p.m., $29 Monday College Night starting in January, and online-only purchase. Cass Park confirms the address, session times, closures, prices, $3.75 skate rental, 120 skaters, 4-day booking and proof of residency. Rutabaga Curl confirms Dec. 19, the 29th year, the pavilion address and on-site registration 10 to 11:30 a.m. at $5 with a rutabaga. Minor nit only: the Curl page also lists a $10 option with a bag, which the page omits. (4) Every body URL is in the frontmatter sources list. (5) Not a mandatory page, so this check does not apply.",
+  "retried": true
+ },
+ {
+  "file": "content/articles/dining/cornell-dining-hours-winter-break-closures.md",
+  "url": "/cornell/dining/cornell-dining-hours-winter-break-closures/",
+  "slug": "cornell-dining-hours-winter-break-closures",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "tool.html line 140: 'Holiday TCAT service is not confirmed (a 2013 column said none ran on Thanksgiving)'",
+    "tried": "WebSearch 'TCAT Thanksgiving 2026 holiday service schedule' (no TCAT or Tompkins County result); tool data and fact file",
+    "outcome": "Deleted the TCAT sentence, because no source gives TCAT's Thanksgiving 2026 service."
+   },
+   {
+    "item": "tool.html line 140: '2026 dining hours are not in our research'",
+    "tried": "intel/dining/facts.csv (dining-B11-5005); WebFetch of events.cornell.edu Celebration of Gratitude Dinner 2026",
+    "outcome": "Found. Replaced it with: Celebration of Gratitude Dinner at Morrison Dining, 11:30 a.m. to 2:30 p.m., reserve by noon Mon. Nov. 23, meal-plan students pay one swipe. Added the URL to the tool.md sources."
+   },
+   {
+    "item": "tool.html line 144: 'none found for fall 2026 as of Nov 8' (finals charters)",
+    "tried": "tool data (saVote2026, saCharters2024)",
+    "outcome": "Deleted the admission clause and kept the sourced line that charters ran in finals week in fall 2024 and 2025."
+   },
+   {
+    "item": "tool.html line 151: 'Spring move-in dates are not in our research.'",
+    "tried": "tool data and sources",
+    "outcome": "Deleted the clause. Nothing in the entry promised move-in dates."
+   },
+   {
+    "item": "tool.html line 158: 'Summer housing is not in our research.'",
+    "tried": "tool data and sources",
+    "outcome": "Deleted the clause. The move-out line is unchanged."
+   },
+   {
+    "item": "Article line 93: figure source line did not support the Aug. 17 row",
+    "tried": "WebFetch of the Cornell Dining Terms and Conditions 2026-2027 page",
+    "outcome": "Confirmed Aug. 17 lunch, Dec. 20 brunch, Jan. 19 lunch and May 28 dinner. The source line now links that terms page in place of the deadlines-terms page (which is still in the sources list), and the URL is added to the frontmatter."
+   },
+   {
+    "item": "Article line 71: 'on other break days' implied Jan. 2 and 3 are covered",
+    "tried": "Cornell Dining winter break page, already cited",
+    "outcome": "Reworded the glance line to the sourced windows: 'Fall BRBs work at open cafes and stores Dec. 21 to 24 and Jan. 4 to 18.'"
+   }
+  ],
+  "sources_added": [
+   "https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027 (article frontmatter)",
+   "https://events.cornell.edu/event/annual-celebration-of-gratitude-dinner-on-thanksgiving-day-2026 (tool.md sources)"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I fixed the gap admissions in the shared timeline tool, which is embedded in 10 articles, and the two minor problems in the article. Files edited in place:\n- /Users/ajaysharma/Ads/campus-publication/content/articles/dining/cornell-dining-hours-winter-break-closures.md\n- /Users/ajaysharma/Ads/campus-publication/content/tools/cornell-break-travel-timeline-2026-27/tool.html\n- /Users/ajaysharma/Ads/campus-publication/content/tools/cornell-break-travel-timeline-2026-27/tool.md (only the new source line was added)\n\nChecks: lint-content.py prints 0 matches on all three files (tool.html had 4 before), and each file has 0 em dashes. The tool's inline script still parses as valid JavaScript. The embed, the images block, the title and the slug are unchanged, and no sections were removed.\n\nIn the tool, 'The 2027-28 sale date is not yet published' is left as is: it says Cornell has not published the date, not that our research lacks it.\n\nNothing was committed, pushed or deployed. That was outside this step, so it does not answer the user's 'did u push everything'.",
+  "sound": true,
+  "problems": "No blocking problems. (1) Lint prints 0 matches and the em dash count is 0. (2) The page has no sentences about what sources or research lack, and each heading and glance line is answered in the body. (3) Both new URLs were fetched. The events page confirms Nov. 26, 11:30 a.m. to 2:30 p.m., Morrison Dining, a noon Nov. 23 reservation deadline, one swipe for meal-plan students and no door tickets. The 2026-27 terms page confirms Aug. 17 lunch, Dec. 20 brunch, Jan. 19 lunch and May 28 dinner. (4) Every body URL is in the frontmatter sources. (5) The requirement is met with official sources, though I did not confirm whether the page is mandatory. Minor notes, not blocking. Line 98 attributes \"about 30 days\" to the winter break page, which says the page doesn't state that total (Dec. 21 to Jan. 19 is roughly 30 days). The winter break page says Jan. 4 to 19, while the page says Jan. 4 to 18, which is consistent because Jan. 19 is the spring lunch start. Line 134 cites the dining home page for the Nov. 26 dinner, and I did not fetch that page. The two seatings (11:30 a.m. and 1 p.m.) are omitted but nothing is contradicted.",
+  "retried": true
+ },
+ {
+  "file": "content/articles/getting-around/biking-in-ithaca-winter-cornell.md",
+  "url": "/cornell/getting-around/biking-in-ithaca-winter-cornell/",
+  "slug": "biking-in-ithaca-winter-cornell",
+  "kind": "rewrite",
+  "queue_id": "q-getting-around-0084",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged line 151: 'Not confirmed: which campus bike lanes are plowed, and in what order' (plus the related admissions in the same section: 'which the page does not list', 'Bike lanes and bike paths do not appear on the page', 'The only campus document that speaks to bike routes in snow is old', 'That is a plan, not a current plowing order', the table row 'Are bike lanes plowed first? | Not stated', the heading 'Who clears what, and what nobody says', glance line 2 'its snow page never mentions bike lanes', and the off-campus reader line 'its snow page never mentions bike lanes')",
+    "tried": "Page sources (Cornell Snow Removal page re-read); brief 2.19 and 8.2; facts.csv rows 2.19-0322, 8.2-0631, new-9086, new-9089; WebSearch 'Cornell campus snow removal bike lanes cleared grounds winter'; WebFetch Cornellians 'What Does It Take to Heat and Plow the Ithaca Campus?' (Feb 28, 2025); WebFetch FCS 'Winter Weather Reminders from the Grounds Department' (node/5645); City of Ithaca DPW 'Snowplowing Basics and FAQ' PDF; the master plan PDF (text extracted locally)",
+    "outcome": "No source names which campus bike lanes are plowed or in what order. I deleted the 'Not confirmed' line, the 'Not stated' table row and every clause that admitted the gap. I renamed the heading to 'Who clears what, and when' and rewrote glance line 2 and the off-campus reader line. I added the facts I found, each cited. (1) Campus order and timing from Cornellians 2025: when snow falls overnight, crews plow roads and lots from 2 a.m. and sidewalks and stairs from about 4 a.m. Main areas take about four hours, and wet, heavy snow can take seven hours or more. (2) The master plan says on-street bike lanes should be cleared of snow and shared walk-and-bike paths kept clear in winter. This corrects the page's earlier 'paved routes should be cleared'. (3) The City of Ithaca DPW order: emergency travel lanes first, then the busiest roads, with steep roads also a priority and small residential streets last. Plows push snow toward the curb, clearing out to the curb can take several weeks after back-to-back storms, and salt loses effectiveness below 20\u00b0F."
+   },
+   {
+    "item": "Flagged line 210: 'Not confirmed: whether Ithaca Bikeshare runs through the winter' (plus 'The site does not say whether service pauses in winter', 'Email help@ithacabikeshare.org before you count on it from December to March', table answer 'Not on its site; ask help@ithacabikeshare.org', and the hedge 'if the bikes are out at all' in the Collegetown example)",
+    "tried": "ithacabikeshare.org (fact file read 2026-11-08: no winter info); sibling page ithaca-bikeshare-cost-cornell-students (cites the Ithaca Times); WebFetch Ithaca Times 'Ithaca Moves to Support BikeShare, Eyes Multi-Entity Funding Model' (Nov 6, 2024); WebSearch 'Ithaca Bikeshare winter year-round operation 2025' (nothing newer or contradicting)",
+    "outcome": "Found. The Ithaca Times (Nov 6, 2024) says BikeShare offers year-round, 24/7 access to shared e-bikes. The Bikeshare section now opens with that answer and its citation, and the table row says Yes, citing the Ithaca Times. I deleted all the admissions and workarounds listed above. The meta now says Bikeshare runs year-round."
+   },
+   {
+    "item": "Unflagged admission: 'Cornell publishes no winter cycling guidance; its cycling page sends you to a local bike shop' (glance line 1), 'Cornell's cycling page offers no winter guidance, so you plan it yourself' (opening), table row 'Does Cornell publish winter cycling advice? | No...', and meta 'Cornell has no winter cycling guidance'",
+    "tried": "Re-read Cornell Cycling on Campus page (no winter content; it only suggests a local bike shop for adjustments); WebFetch Cornell Rules and Regulations for the Control of Traffic and Parking 2023-24 PDF (text extracted locally, sections 8.4 to 8.9)",
+    "outcome": "Found a campus rule that covers winter riding. Section 8.5 bars riding in a manner unreasonable for the conditions and bans riding on any Libe Slope walkway. Glance line 1 now states this rule, and a new cited paragraph under 'What winter riding in Ithaca is like' gives it in full. I removed the admission from the opening, which is now 57 words with one link, and deleted the 'Does Cornell publish winter cycling advice?' table row. The meta no longer claims Cornell has no guidance."
+   },
+   {
+    "item": "Unflagged admission: 'Cornell can impound the bike; the impound fee is not on its page' (Common mistakes)",
+    "tried": "Cycling on Campus page (no amounts); WebSearch for a Cornell bike impound fee; WebFetch FCS Citation Fee Schedule (bicycles not listed); traffic regulations PDF 2023-24 sections 8.7 and 8.9",
+    "outcome": "Found the fine: up to $50 for improper bike parking if paid within ten calendar days, $60 after that. The university can also impound or boot the bike at the owner's expense. The bullet now states these facts with a citation, and the admission is deleted."
+   },
+   {
+    "item": "Unflagged admission: 'Other buildings are not covered here.' (FAQ: Are there showers for bike commuters?)",
+    "tried": "Two WebSearches; the Cornell Recreation 'Restroom & Changing Facilities' page (WebFetch failed twice with a certificate error, so I read it with curl); re-read the Johnson 'Living in Ithaca' page",
+    "outcome": "Found. Helen Newman Hall and Teagle Hall have locker rooms with showers and day-use lockers, and Noyes Community Recreation Center has one shower in its lower-level restrooms. I added this to the answer with a citation and deleted the admission. Sage Hall is still in the answer, re-verified."
+   },
+   {
+    "item": "Unflagged admission: 'The page urges it for bikes, e-bikes and scooters and does not call it mandatory' (setup step 1)",
+    "tried": "Re-read Cycling on Campus page ('Make sure to register your bike, e-bike, or scooter - it's free of charge!')",
+    "outcome": "Deleted the clause that described what the source leaves out. The sentence now ends at 'urges it for bikes, e-bikes and scooters.'"
+   }
+  ],
+  "sources_added": [
+   "https://fcs.cornell.edu/cornell-master-plan-ithaca-campus-2",
+   "https://alumni.cornell.edu/cornellians/heat-plow-campus",
+   "https://cityofithacany.gov/DocumentCenter/View/12559",
+   "https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf",
+   "https://scl.cornell.edu/recreation/recreation/recreation-locations/restroom-changing-facilities",
+   "https://www.ithaca.com/news/ithaca/ithaca-moves-to-support-bikeshare-eyes-multi-entity-funding-model/article_1d8a2850-9c75-11ef-bbd2-ab6266bd0b59.html"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited one file in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/biking-in-ithaca-winter-cornell.md. `python3 scripts/lint-content.py` reports 0 matches and `grep -c \"\u2014\"` returns 0. The frontmatter parses as YAML. All 25 sources are cited in the body, and every URL cited in the body is in sources.\n\nUnchanged: title, slug, file name, images block, and all figure, tool and reader block structure. No sections were removed. The only heading change is 'Who clears what, and what nobody says' to 'Who clears what, and when'.\n\nOther changes:\n- `updated` is now 2026-11-11.\n- `accessed` is 2026-11-11 on every source I re-read: Cycling on Campus, Snow Removal, the master plan PDF and the Johnson page.\n\nAccuracy fixes beyond the gaps:\n1. Master plan year. The page said 2011. The FCS master plan page says the trustees approved it on March 6, 2008, and the PDF was created in October 2008. I corrected the year in the body, the table and the source title, which is now 'Cornell Master Plan for the Ithaca Campus, Part 1: Transportation and Circulation (2008)'. The same 2011 error is still in intel/getting-around/brief.md, plan.md, facts.csv (row 8.2-0631) and content/checks and reviews JSON for this page. I did not touch those files.\n2. Libe Slope. Section 8.5 of the regulations bans riding on Libe Slope walkways all year. The page had presented the 2023 on-foot tip 'avoid the Slope while it snows' as if riding there were fine in other weather. I dropped that tip from glance line 3 (now 20 words), stated the rule in the 2023-tips paragraph, and rewrote the mistakes bullet as 'Riding on Libe Slope. Cornell bans riding on its walkways all year, snow or not.'\n3. Narration. I removed 'by our math' from the Collegetown example.\n\nThe page-check script still flags some lines, all of which were already there before this edit:\n- repetition of $1.50, $200, '2 miles' and '20 minutes' across the reader blocks and glance\n- 6 glance bullets, two of them over 20 words\n- the unsourced lead-in line to the tool\n\nI left these because the task said to keep the glance, reader and tool blocks as they are. My edits cleared that script's opener, not-confirmed and narration flags.\n\nNot done, because it was outside this step: reports/gaps.md is not written, and facts.csv is not updated. New facts that could be added there:\n- Cornellians plow timings\n- City DPW plow priorities and the curb and salt facts\n- regulations sections 8.5, 8.7 and 8.9\n- Ithaca Times: year-round, 24/7 Bikeshare\n- Recreation page: locker rooms with showers",
+  "sound": true,
+  "problems": "All five checks hold. Lint printed 0 matches and grep -c for the em dash printed 0. Every body URL is in the sources list, and every source is cited in the body. No sentence admits a gap, and the headings and FAQ questions are answered. The page is not mandatory, so check 5 does not apply.\n\nToday's sources:\n- Cornellians (2 a.m. roads and lots, around 4 a.m. sidewalks and stairs, about four hours, seven hours or more): confirmed.\n- City DPW PDF (WebFetch returned only binary, so I read the PDF locally): the priority order, the several weeks to clear to the curb, and salt ineffective below 20\u00b0F are all confirmed.\n- Ithaca Times (year-round, 24/7 e-bikes, November 6, 2024): confirmed.\n- Recreation page (showers at Helen Newman, Teagle and Noyes): confirmed.\n- Master plan page (trustees approved March 6, 2008; 30 to 60 years): confirmed.\n- Master plan PDF: \"on-street bike lanes should be cleared of snow\" is on p.134. The shared-path line is in the pedestrian-network text and says the network includes \"shared ped-bike pathways\" to be \"kept clear of snow in the winter\".\n- Traffic regulations 2023-24: section 8.5 (unreasonable for conditions; no riding on any walkways on Libe Slope), section 8.7 (up to $50, $60 after ten calendar days) and section 8.9 (impound or boot at the owner's expense) are all confirmed.\n\nMinor and optional: Cornellians never says the 2 a.m. and 4 a.m. start times apply \"when snow falls overnight\". That phrasing, in the glance and the section, is a small inference.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/cornell-motorcycle-scooter-bike-parking.md",
+  "url": "/cornell/getting-around/cornell-motorcycle-scooter-bike-parking/",
+  "slug": "cornell-motorcycle-scooter-bike-parking",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged sentence (body line 26): 'Cornell's cycling page lists no fine amounts.' What a bike parking violation or impound costs.",
+    "tried": "Re-opened the page's own source, the FCS Cycling on Campus page (it gives only the reasons for impound). Checked the fact file and brief, row 2.19 ('fine amounts not on the page'). Followed the cycling page's own 'Rules and Regulations' link to Cornell's Rules and Regulations for the Control of Traffic and Parking, 2023-24 PDF (sections 8.4, 8.7 and 8.9, text extracted locally). The current Paying and Appealing Citations and Cycling Rules and Regulations pages still link this edition. A WebSearch for a 2024-25 or later edition found none.",
+    "outcome": "FOUND. Added the fine for improper bike parking: up to $50 if paid within 10 calendar days, $60 after that. Cornell can also impound or boot the bike at the owner's expense. Staff may remove the lock, and Cornell does not pay to repair or replace it. Impounded bikes are stored at Cornell Police, and getting one back takes proof of ownership and a release form. All of this is cited to the 2023-24 rules. Deleted the admission."
+   },
+   {
+    "item": "'Cornell does not say on the student page which lots the M permit works in, so ask TDS at 607-255-4600 before you buy.' Where the M permit is valid.",
+    "tried": "Re-opened the Parking for Students page. It now says the permit is valid in spaces signed for motorcycle (M permit) parking and links a dedicated page. Opened that page, Cornell's Motorcycle, Motorscooter, and Mopeds page (29 M areas parsed from its table). Also read section 7.3 of the 2023-24 traffic rules.",
+    "outcome": "FOUND. The section now says the permit is valid only in spaces signed for motorcycle parking. Cornell lists 29 M areas, and the page names Willard Straight, Barton, Malott, Robert Purcell Community Center, Hasbrouck and the Appel Commons lot. A motorcyclist who already has a car permit can list the motorcycle's plate on it. The 2023-24 rules bar motorcycles, motor scooters and mopeds from bike racks and campus parking garages. Deleted the admission and the 'ask TDS' referral."
+   },
+   {
+    "item": "'The permit page says \"scooters\" without defining them ... If yours is heavier or faster, ask TDS which rules apply.' Which scooters the M permit covers.",
+    "tried": "Read the Motorcycle, Motorscooter, and Mopeds page (motor scooters and mopeds are motor vehicles, and mopeds must be registered with New York State). Re-opened the Cycling on Campus page (its e-scooter definition) and the Parking on Campus page (plate registration covers motor scooters).",
+    "outcome": "FOUND. Rewrote the paragraph. Cornell treats motor scooters and mopeds as motor vehicles under all vehicle and traffic laws, and every moped must be registered and licensed with New York State. Students register the plates of cars, motorcycles and motor scooters in MyParking. An e-scooter is a separate category: under 100 pounds with a top speed of 20 mph. Deleted the admission and the 'ask TDS' sentence."
+   },
+   {
+    "item": "'The page does not say it is mandatory.' Whether bike registration is required (heading: Do I need to register a bike?).",
+    "tried": "Re-opened the page's own source, the Student and Campus Life (SCL) Bicycle Registration and Storage page (live). Also checked the live SCL 'Prior to Your Arrival on Campus' page, the local corpus copy of the Community Living Standards for Undergrads 2026-2027, section 8.3 of the 2023-24 traffic rules and the FCS cycling page.",
+    "outcome": "FOUND. The section now opens 'Yes, if you live in university housing.' Housing requires every bike, e-bike and scooter to be registered through Cornell's Bike and Micromobility Registration Tool, and residents register before requesting bike room access. Registration is free, and Cornell urges everyone else to register (FCS cycling page). From the SCL page, added what happens after Commencement: bikes left in bike rooms or on racks go to the Lost and Found in Barton Hall, and Cornell Police send the owner of a registered bike a registered letter. Deleted the admission. Changed the dek from 'bikes need only a designated rack' to '...bikes go on a designated rack, and campus residents must register them' so the dek and the answer agree."
+   },
+   {
+    "item": "'Cornell's cycling page says nothing about winter storage or riding' and 'it does not mention bike lanes or bike paths' (What about winter? section).",
+    "tried": "Checked the FCS Cycling on Campus and Cycling Rules and Regulations pages (no winter content), re-opened the Snow Removal page, and read the Winter and Break Parking page and the Motorcycle page. The brief row 'Winter riding, storage, repair: not covered' agrees.",
+    "outcome": "PARTLY FOUND. No rule on winter bike storage or bike-lane clearing turned up, so both admissions are deleted and no line promises those answers. The section keeps its heading and now gives facts that were found. Some M permit areas are not available Dec. 1 to April 1, and Cornell says the list can change (Motorcycle page). Snow removal covers roads, parking lots, steps and sidewalks, and readers can report unsafe or slippery spots to Customer Service at 607-255-5322 (Snow Removal page). The link to the winter biking guide stays."
+   },
+   {
+    "item": "'This page has no city rule for motorcycles, so call the City Clerk or see our Collegetown parking guide.' City of Ithaca rules for parking a motorcycle off campus.",
+    "tried": "Two WebSearches ('City of Ithaca NY motorcycle parking rules meters garages' and 'site:cityofithacany.gov motorcycle parking'). Opened the City of Ithaca Parking Regulations and Violations page, which does not mention motorcycles or bikes. Tried the ecode360 City Code sections: 403 for both curl and WebFetch. Search snippets show the city's Motorcycle and Powered Vehicle Law covers riding, not parking.",
+    "outcome": "NOT FOUND (no city parking rule specific to motorcycles). Deleted the admission and the City Clerk referral. The section now gives the city's general on-street vehicle rules, cited to the City page. A vehicle on a city street must move at least once every 24 hours, Monday through Friday. One unmoved for 72 hours can be treated as abandoned and towed at the owner's expense. Parking on a sidewalk is a $25 ticket. The Collegetown parking guide link stays. Heading unchanged."
+   },
+   {
+    "item": "'Another Cornell page lists it at [$119.94](https://fcs.cornell.edu/node/1456); go by the student page.' A stale conflict between two sources (not a lint match).",
+    "tried": "Opened https://fcs.cornell.edu/node/1456. It now redirects to the Parking for Students page, which lists $120.01.",
+    "outcome": "The conflict is gone. Deleted the sentence and removed node/1456 from the frontmatter sources, since it is no longer cited and is the same page as the student parking page."
+   }
+  ],
+  "sources_added": [
+   "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/motorcycle-motorscooter-mopeds",
+   "https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf",
+   "https://www.cityofithacany.gov/727/Parking-Regulations-Violations"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-motorcycle-scooter-bike-parking.md.\n\nChecks:\n- `python3 scripts/lint-content.py <file>` prints 0 matches.\n- `grep -c \"\u2014\"` returns 0.\n- `.claude/skills/page-checks/scripts/page_check.py` passes (762 prose words, grade 9.0).\n- The frontmatter parses as YAML, and every cited URL is in the sources list.\n- The longest word-for-word run copied from any source is 11 words.\n- I started `scripts/v2/lint.py` as an extra check, but after several minutes it was still scanning directories with no result. I stopped it; it is not one of the required checks.\n\nOther changes:\n- `updated` set to 2026-11-11.\n- `accessed` set to 2026-11-11 on the six existing sources I re-opened today: Parking for Students, Parking on Campus, both Cycling on Campus URLs, the SCL bike page and Snow Removal.\n- New sources use `accessed: '2026-11-11'`.\n- The dek was edited as described under the registration gap.\n- Title, slug, headings, images, and the glance and reader blocks are unchanged.\n- All internal links point to final `/cornell/...` URLs that exist and are not redirect sources.\n\nFor review:\n- The reader block 'If you ride a motorcycle' still says 'Buy the M permit, not a car permit.' The body now adds that someone who already has a car permit can list the motorcycle's plate on it. These are consistent, but the block was left as-is under the keep-blocks rule.\n- The 2023-24 rules say the M permit is required Monday through Friday, 7:30 a.m. to 5 p.m. The current Motorcycle page says 'at all times'. The page therefore gives no enforcement hours.\n- The 2023-24 PDF is the newest edition Cornell posts. Its fine amounts carry that year in the citation.\n- The `sustainable-transportation-options/cycling-campus` URL is still in the sources but is not cited in the body. It was like this before the rework, and it redirects to the cited Cycling on Campus page.",
+  "sound": true,
+  "problems": "All five checks hold. The linter printed 0 matches and the em-dash count is 0. No sentence narrates a gap in the sources, and every heading, glance line and the dek is answered in the body. Every URL linked in the body appears in the sources list.\n\nSource checks:\n- Motorcycle page: supported on 29 M areas, the named areas, listing a plate on a car permit, motor vehicle status, NYS moped registration, and the Dec. 1 to April 1 closure.\n- City of Ithaca page: supported on the 24-hour rule, 72-hour towing and the $25 sidewalk fine.\n- 2023-24 PDF, extracted locally: the bike-parking fine of up to $50 within 10 days and $60 after, boot or impound at the owner's expense, lock removal, storage at Cornell Police, proof of ownership plus release form, and no motorcycles at bike racks or in garages all match.\n- SCL page: registration, bike room access and the Barton Hall Lost and Found match.\n\nMinor, non-blocking notes:\n1. Line 94, the reader block \"If you live in a residence hall\", says housing requires bikes in bike rooms, not rooms. SCL allows fold-up bicycles in rooms if they do not impede egress. This is a slight overstatement and the reader block was not edited today.\n2. \"Valid only in spaces signed for motorcycle parking\" (line 77) is not worded that way on the Motorcycle page. It reads as supported by the 2023-24 rules, section 7.3, which restrict M parking to designated motorcycle areas. I did not check the student parking page.\n3. \"Registration is free\" (line 99) and the registration wording citing the cycling page were not re-verified.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/cornell-student-parking-permit-cost-rules.md",
+  "url": "/cornell/getting-around/cornell-student-parking-permit-cost-rules/",
+  "slug": "cornell-student-parking-permit-cost-rules",
+  "kind": "spoke",
+  "queue_id": "q-getting-around-0035",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged (body line 14, 'page shows no'): 'Cornell sets rates as of July 1 and the permit page shows no year, so confirm the price when you buy.' Missing item: which rate year the posted prices ($752.98 / $359.77 / $120.01) belong to.",
+    "tried": "Re-opened the page's own source, the student parking page fcs.cornell.edu/.../parking-campus/parking-students (no year label; map labeled 2025-26; it says 'The rate is set as of July 1' and 'The current price will display at the time of purchase'). fcs.cornell.edu/node/17809 (2026/27 Student Permit Sales) now returns a Cornell login page ('Restricted access'). TDS Announcements page (no permit-rate item). WebSearch for 2026-27 Cornell student permit rates (none published). The 2026/27 employee renewal announcement (403). Brief 2.14 and 8.1 and facts.csv (rate year listed as undated).",
+    "outcome": "Rate year not found. Admission deleted and replaced with the source's own sourced wording: 'Cornell sets the rate as of July 1, and the current price shows when you buy.' No heading, glance line or title promised a rate year, so nothing else changed."
+   },
+   {
+    "item": "Flagged (body line 33, 'page lists no'): 'The student permit page lists no separate first-year permit.' Missing item: which permit a first-year can buy.",
+    "tried": "Families page scl.cornell.edu/families/.../parking-transportation (re-opened: 'discouraged from bringing a car to campus their first year, but limited permits are available', followed by the resident and commuter permit rules). Student parking page (ND covers North Campus residence halls and program houses; 'Extremely limited. Permit sales are capped and are limited to North Campus residents of university-owned housing'). Cornell first-year housing page scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing (first-years live in North Campus residence halls and program houses). Also the off-campus-housing fact file.",
+    "outcome": "FOUND. Admission deleted. New text, sourced: 'Cornell houses first-years in North Campus residence halls and program houses, so the resident permit they can buy is ND. ND is extremely limited: sales are capped, and only North Campus residents of university housing can buy it.'"
+   },
+   {
+    "item": "Unflagged admission (first-year section): 'Cornell does not say whether a first-year can be refused a permit because of class year alone, so call TDS...'",
+    "tried": "Student parking page, families page, first-year housing page (all opened). Eligibility is set by housing area and commuter status. None of the pages states a class-year rule.",
+    "outcome": "No class-year rule to cite, but the sourced ND eligibility above now answers the question. Admission clause deleted. The 'call TDS at 607-255-4600 before you drive up' advice was kept as a plain action."
+   },
+   {
+    "item": "Unflagged table cells 'Not stated': accessible (AP) proration and motorcycle (M) 'Where it works'.",
+    "tried": "Student parking page (re-opened and read in full).",
+    "outcome": "FOUND. M cell is now 'Spaces signed for M permits' (page: 'valid in spaces signed for motorcycle (M Permit) parking'). AP cell is now 'From Aug. 16' (the page-wide requirement: 'permits prorate beginning August 16'. Only resident and M permits have their own exceptions)."
+   },
+   {
+    "item": "Unflagged admissions in the 'If you're a spring transfer' reader block: 'Cornell lists no transfer-specific permit rule.' and 'If Cornell prorates by simple daily share... Cornell does not publish its formula, so confirm the amount at checkout.'",
+    "tried": "Student parking page (B prorates daily from Aug. 16; current price displays at purchase; refunds on a prorated schedule). WebSearch for a Cornell proration schedule or spring permit price (none published). Cornell first-year housing page (transfer exemption from the two-year residential requirement).",
+    "outcome": "FOUND what changes for a transfer. Both admissions deleted. The block now says, sourced: the two-year housing requirement does not apply to transfers with two years of on-campus housing elsewhere or entering as juniors or seniors, and off-campus students use B. The Jan. 15 example stays as labeled house math: 213 of 365 days, about $210 at a straight daily share (our math: the B price x 213 / 365). Checked: $359.77 x 213/365 = $209.95, and Jan. 15 to Aug. 15, 2027 is 213 days. The block ends with 'Checkout shows the exact price', which is sourced."
+   },
+   {
+    "item": "Unflagged admission in step 3: 'Cornell has not posted the 2027-28 date, so watch TDS announcements in July.'",
+    "tried": "TDS Announcements page (no 2027-28 sale item). node/17809 (login-restricted).",
+    "outcome": "Not found (the date is not announced yet). Sentence deleted. The step keeps the 2023 Williams Street sell-out fact. The existing 'What to do next' line still tells readers to watch TDS announcements for the 2027-28 sale date. No heading promised the date."
+   },
+   {
+    "item": "Unflagged hedge in the fines section: 'Cornell's notice is from 2023, so confirm current amounts with TDS.' Missing item: current fine amounts.",
+    "tried": "Paying and Appealing Citations page. The current Citation Fee Schedule page (.../paying-appealing-citations/citation-fee-schedule). The Control of Traffic and Parking rules PDF, 2023-24 (it lists only 'up to $150' maximums). The 2023 fines notice (re-opened).",
+    "outcome": "FOUND. The current fee schedule matches every row of the fines figure: $50 permit or payment, $150 accessible, fire lane, reserved and unauthorized permit, $150 boot release, $100 grass, $50 no parking, $50 winter rules, $35 over time, $10 plate. The citations page gives the $10 late fee. Hedge deleted and replaced with two sourced facts: pay or file a written appeal within 10 calendar days, and student tickets can be sent to the bursar. The figure's source line now cites the fee schedule and the 2023 Cornell notice (for the automatic tow) in place of the Cornell Daily Sun. The figure block itself is unchanged."
+   },
+   {
+    "item": "Unflagged FAQ admission: 'Cornell's permit page describes campus lots only.' (Does a Cornell permit cover Collegetown streets?)",
+    "tried": "Student parking page: 'permits are only valid in your selected parking area and are not valid in other areas on campus.'",
+    "outcome": "FOUND. Answer is now 'No. A Cornell permit works only in the campus lots listed for it (Cornell Transportation).' The pointer to city rules and the Collegetown guide is kept."
+   }
+  ],
+  "sources_added": [
+   "https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing",
+   "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule",
+   "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-student-parking-permit-cost-rules.md. The title, slug, headings and images block are unchanged. The glance, tool and figure blocks are unchanged. Only two reader blocks were edited inside (housing and spring transfer).\n\nChecks:\n- `python3 scripts/lint-content.py` prints 0 matches.\n- `grep -c \"\u2014\"` returns 0.\n- The house page_check.py passes (900 prose words). I fixed a 'Sept. 1' repetition it flagged in my first draft.\n- The frontmatter parses as YAML, and every URL linked in the body is in sources.\n\nOther changes needed for rule 3 (not gap admissions):\n1. Deleted the 'One conflict' paragraph, which said the motorcycle permit was $120.01 on the student page but $119.94 on fcs.cornell.edu/node/1456. node/1456 now 301-redirects to the student parking page, which shows $120.01. So $119.94 traces to no page I could open. I removed node/1456 from the frontmatter sources: it is no longer cited and it is the same page.\n2. In the 'If you're in university housing' block, 'because the capped ND permit is the first to go' became 'because ND sales are capped'. The sell-out order was not in any source.\n3. Set `updated` to 2026-11-11. Refreshed `accessed` to 2026-11-11 on the three sources I re-opened: the student parking page, the families page and the 2023 fines notice.\n\nOpen item for the orchestrator: fcs.cornell.edu/node/17809 (2026-27 Parking Permit Sales) now redirects to a Cornell NetID login ('Restricted access'). It stays in the sources as the origin of the timeline figure's Aug. 4, 2026 sale date, but it is not linked in the body. Only its search-result title ('2026/27 Student Permit Sales Begin August 4th') could be seen. Those timeline rows were not part of this gap pass and were left as they are.\n\nI started the optional v2 publish linter (`scripts/v2/lint.py --no-network`). It ran for more than 4 minutes with no output while other agents ran it in parallel, so I stopped it. Its result is unknown.\n\nI made no commit and did not write reports/gaps.md. The gap decisions above are for the orchestrator to log.",
+  "sound": true,
+  "problems": "All five checks hold. (1) lint-content printed 0 matches and grep -c for the em dash printed 0. (2) No sentence tells the reader what the sources or research lack, and no heading, glance line, FAQ question or title promises something the body does not answer. (3) I re-opened the three sources added today and the student parking page. Each statement matches its source: first-years live in North Campus halls and program houses, and the transfer exemptions are as written. Every fine row matches the fee schedule. The 10-day pay-or-appeal deadline, the $10 late fee and the bursar transfer match the citations page. Prices ($752.98, $359.77, $120.01), ND capped and limited to North Campus residents, M valid in M-signed spaces, rate set July 1, and the Mar. 31 return date all match the student parking page. (4) Every URL linked in the body appears in the frontmatter sources. (5) Not a mandatory page, so the requirement does not apply.\n\nMinor, non-blocking:\n- The AP table cell 'From Aug. 16' is inferred from the page-wide proration rule. The page gives no AP-specific proration date.\n- fcs.cornell.edu/node/17809 is login-restricted, so the Aug. 4, 2026 timeline row is unverifiable. It was not part of this pass.\n- The 'automatic tow' wording is from the 2023 notice, which I did not re-open. The fee schedule only says a boot not paid within 24 hours leads to a tow.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking.md",
+  "url": "/cornell/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking/",
+  "slug": "cornell-to-ithaca-airport-tcat-taxi-parking",
+  "kind": "spoke",
+  "queue_id": "q-getting-around-0031",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Route 32 clock times (flagged: 'This page lists no clock times...'; the page's primary query is the Route 32 schedule)",
+    "tried": "tcatbus.com live pages (403 to automated clients); TCAT PDFs 32_Late-Fall.pdf and 32_Summer24.pdf (404); Internet Archive copies of tcatbus.com/bus-schedules (Fall 2025 copy of Sept 6, 2025 and Fall 2026 copy of Oct 4, 2026); airport public-transportation page",
+    "outcome": "Found. TCAT's fall 2026 schedule (service Aug 16 to Dec 19, 2026) has full Route 32 weekday, Saturday and Sunday tables. Added a first-and-last-bus table by day, the date the schedule ends, and the TCAT phone number for later trips. Deleted the admission and the reference to the 2025 Sun guide's two conflicting sets of hours."
+   },
+   {
+    "item": "Whether the airport bus stops on campus (flagged: 'Not confirmed: whether Route 32 or 72 stops on Cornell's campus...')",
+    "tried": "Same TCAT fall 2026 schedule (Internet Archive copy), fall 2025 schedule copy, 2019 Route 72 page copy",
+    "outcome": "Found. Route 32 'Airport via Cornell' runs Monday to Sunday through central campus. Its timed stops are the Vet School and Rockefeller Hall going out, and Goldwin Smith Hall and the Boyce Thompson Institute coming back. Added this with ride times taken from the timetable, and replaced the Route 10 transfer step in the figure with the campus stops. The same schedule lists no Route 72, so every Route 72 claim was corrected (title, meta, glance, opening, H2, fare-table headers, figure, common-mistakes bullet). The airport's transit page still says 'Route 72 (weekends)', so the page states that disagreement once and tells readers to follow TCAT."
+   },
+   {
+    "item": "Which cab firm has a wheelchair-accessible vehicle (flagged: 'the airport taxi page does not say which of the three firms has one')",
+    "tried": "Current airport taxi page and its Dec 2025 archive copy; collegetowncab.com/ithaca/; ithacaairportcab.net; ithacadispatch.com (no response); CCE Tompkins Way2Go accessible-options page (404 now; 2024 archive copy, last updated May 2021, gives a different Collegetown Cab number); Tompkins County node/425 MV-1 taxi page (403/404, no archive copy); Cornell SDS transportation page",
+    "outcome": "Found. Collegetown Cab's own Ithaca page lists wheelchair transportation among its services. Wrote that with a citation plus the advice to ask for it when prebooking, and deleted the admission. The county MV-1/Ithaca Dispatch claim was not used because that page could not be opened."
+   },
+   {
+    "item": "Whether county paratransit serves the airport (flagged: 'Not confirmed: whether Tompkins County paratransit serves the airport.')",
+    "tried": "TCAT ADA Complementary Paratransit page and ADA Paratransit Info Guide (live 403; archive copies of Feb 25 and Feb 27, 2026); TCAT visitors paratransit page; TCAT Fixed Route Accessibility page (archive copy, Sept 13, 2026); Cornell SDS transportation page",
+    "outcome": "Found. Gadabout runs TCAT's ADA paratransit, booked at (607) 273-1878. The Tompkins County Airport is in Zone One at $2 one way. TCAT must certify eligibility first (review usually 1 to 3 weeks), rides are booked at least a day ahead, and service follows bus hours. Also added that every TCAT bus has a wheelchair lift or ramp. Admission deleted."
+   },
+   {
+    "item": "Current taxi fare, Cornell to the airport (flagged: 'Not confirmed: any 2026 taxi fare...'), plus related admissions: opening 'No current taxi fare is posted anywhere', glance 'No fares are posted', 'lists these three firms and no prices', 'older, undated airport page', 'Treat it as old', 'The newest dated sample is from 2017'",
+    "tried": "Current airport taxi page (no prices); old page flyithaca.com/?p=13 (now redirects to the airport home page); Internet Archive copy of flyithaca.com/ground/taxi-service/ (Dec 16, 2025); Collegetown Cab and Ithaca Airport Cab sites; ithacadispatch.com (down); Town of Ithaca 1988 taxi code (search result only, stale); The Ithacan, Sept 19, 2017 (opened and verified)",
+    "outcome": "Found. The airport's taxi page as of Dec 2025 lists single-rider sample fares from the airport to Cornell: $15 with Collegetown Cab (plus $1.50 a bag, $1.50 per extra rider, $0.50 a rider from 8 p.m. to 5 a.m.) and $16 with Ithaca Dispatch (no bag charge, $4 per extra family member, children under 13 free). Rebuilt the taxi table with these, recomputed the worked example (about $18.50), and rewrote the glance line and opening. All admissions deleted. No fare dated 2026 exists, so the page gives the Dec 2025 date and tells readers to confirm the total when booking."
+   },
+   {
+    "item": "Parking admissions: 'which shows no date', 'no stated maximum stay, and no holiday pricing is listed', car reader block 'The lot states no maximum stay', FAQ 'The lot has no stated maximum stay', SYR 'and no weekly rate'",
+    "tried": "Airport parking page (re-read 2026-11-11); SYR parking source already cited",
+    "outcome": "Found. The airport says you may park in either lot for as long as you need; wrote that in the parking section and the FAQ. Dropped the no-date and holiday-pricing clauses, removed the reader-block sentence, and reworded the SYR sentence as seven daily maximums without the absence claim."
+   },
+   {
+    "item": "FAQ rental cars: 'says several companies operate there, without naming them'",
+    "tried": "www.flyithaca.com/car-rentals",
+    "outcome": "Found. Avis, Budget and Hertz have desks there, open until 6 p.m. on weekdays with shorter weekend hours. Written with a citation; admission deleted."
+   },
+   {
+    "item": "Forum and wiki sourcing: College Confidential 2017 posters (common-mistakes bullet 'Booking one ITH flight with no backup'); LocalWiki for Ithaca Dispatch's fleet and affiliated cab names",
+    "tried": "Ithaca Dispatch's own site (no response); the airline-count point is already made from the airport's airlines page in the far-from-home reader block",
+    "outcome": "Removed the College Confidential bullet, the LocalWiki claim and both sources. Nothing else depended on them."
+   }
+  ],
+  "sources_added": [
+   "https://web.archive.org/web/20261004030053/https://tcatbus.com/bus-schedules",
+   "https://web.archive.org/web/20251216125647/https://flyithaca.com/ground/taxi-service/",
+   "https://web.archive.org/web/20260913070000/https://tcatbus.com/ada/accessibility/",
+   "https://web.archive.org/web/20260225180143/https://tcatbus.com/ada/ada-complementary-paratransit/",
+   "https://web.archive.org/web/20260227123641/https://tcatbus.com/ada/ada-complementary-paratransit/ada-paratransit-info-guide/",
+   "https://collegetowncab.com/ithaca/",
+   "https://www.flyithaca.com/car-rentals"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "Cornell to Ithaca airport: TCAT Route 32, taxis, parking",
+  "lost_purpose": false,
+  "notes": "File: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking.md (slug and filename unchanged; updated set to 2026-11-11). Checks: lint-content.py prints 0 matches, grep for the em dash returns 0, and the v2/v3 publish checks pass offline (2,057 words, 24 sources, 6 FAQs, average sentence 15.5 words). Every cited URL is in the sources list and every source is cited. Every newly cited URL returned 200.\n\nFOR AJAY, spec section 12 (official sources disagree):\n1. Two official sources conflict on weekend service. The airport's current transit page (flyithaca.com/public-transportation) and its news page still say 'Route 32 (weekday), Route 72 (weekends)'.\n2. TCAT's own fall 2026 schedule (Internet Archive copy, Oct 4, 2026) runs Route 32 'Airport via Cornell' Monday through Sunday with Saturday and Sunday tables, and lists no Route 72. TCAT's fall 2025 schedule shows the same.\n3. TCAT's 2019 pages show Route 72 was the weekend airport route then, so the airport text looks stale.\n4. I followed the operator (TCAT), stated the disagreement once on the page in the common-mistakes bullet (house 'sources disagree' rule) and changed the title to drop '72'. Please confirm.\n\nNot done, by rule:\n- The images block caption still says 'Route 32 on weekdays and Route 72 on weekends'. It needs an edit by whoever may touch images.\n- The same stale Route 72 claim is in these files, which I did not edit:\n  - intel/getting-around/facts.csv rows 2.7-0131, 2.7-0132, 2.7-0133 and 2.11-0210, and the brief's conflicts table.\n  - Articles in getting-around: getting-around-cornell-parents-visitors, getting-to-ithaca-and-around-cornell (pillar), cornell-winter-break-travel-home-2026, ithaca-to-jfk-lga-newark-airport-bus, ith-syr-or-elm-which-airport-for-cornell, tcat-free-for-cornell-students-hours-routes, cheapest-ways-to-get-around-cornell, getting-around-cornell-first-year, getting-around-cornell-upper-years-no-car, syracuse-airport-to-cornell-ourbus-car-service, uber-lyft-taxi-ithaca-cornell, flying-home-from-cornell-airports-rides, getting-to-cornell-international-students.\n  - Tools: ith-or-syr-trip-cost-calculator and before-break-travel-checklist (tool.md and tool.html).\n  - Start pages: accessibility, far-from-home, parent.\n\nOther notes:\n- Why archive links: tcatbus.com refuses automated clients (403), so all TCAT facts cite Internet Archive copies. A site precedent exists (the health-insurance page cites a web.archive.org copy).\n- The old airport page flyithaca.com/?p=13 now redirects to the home page. Its $12/$15/$1.50 figures came from a search summary, so the Dec 2025 archive copy replaced it.\n- Taxi fares are the airport's posted airport-to-Cornell fares and carry their Dec 2025 date. The example applies them to the reverse trip and tells the reader to confirm by phone.\n- Sources removed:\n  - flyithaca.com/?p=13 (dead content)\n  - College Confidential (forum)\n  - LocalWiki (user wiki)\n  - Cornell Sun May 2025 guide (no longer cited)\n- Smaller accuracy fixes:\n  - 'All three cab firms run 24 hours a day' now reads 'Taxis are available at the airport 24/7', which is the airport's wording.\n  - Removed the 'by our count' narration.\n  - The 2017 Ithacan figures were opened and verified; dropped the UberXL figure and the six-zones line for brevity.\n- TCAT's ADA coordinator extension conflicts between TCAT's guide (x1420) and Cornell SDS (x450), so the page gives only Gadabout's booking number.\n- Fall 2026 charter status: a Nov 11 search found no 2026-27 airport-charter resolution. The SA site returned 403, so the 'as of Nov 8' lines were left unchanged.\n- Remaining page_check items were already there before this edit: $1.50, $8 and $14 each repeat, the title-before-colon rule, and 6 glance bullets including two untouched ones over 20 words.",
+  "sound": true,
+  "problems": "All five checks hold. (1) Linter printed 0 matches and the em dash grep returned 0. (2) I found no sentence that narrates what the sources or research lack, and no heading, glance line, FAQ question or title promises something the body leaves unanswered. (3) I verified all seven new sources. The TCAT fall 2026 schedule (Internet Archive copy), taxi page, accessibility page and both paratransit pages were fetched with curl, because WebFetch blocks web.archive.org. Collegetown Cab and the airport car-rentals page were fetched with WebFetch. I checked each against the page's wording:\n- Route 32 runs Mon-Sun, service ends Dec 19, and the weekday, Saturday and Sunday times match.\n- Campus stops and the 15 and 20 minute ride times match.\n- The schedule lists no Route 72.\n- Taxi fares, bag fees and surcharges match.\n- Every TCAT bus has a lift or ramp.\n- Gadabout 273-1878, $2 Zone One fare including the airport, 1-3 week eligibility review, booking at least a day ahead, and service on bus hours all match.\n- Collegetown Cab lists wheelchair transportation.\n- Avis, Budget and Hertz hours match.\nNone is a forum post. (4) Every body URL is in the sources list. The only listed sources not linked in the body are the image credit and license URLs, which is fine. (5) The page is not mandatory. Minor only: the airport's transit page still says Route 72, and the page discloses that.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/cornell-visitor-parking-for-parents.md",
+  "url": "/cornell/getting-around/cornell-visitor-parking-for-parents/",
+  "slug": "cornell-visitor-parking-for-parents",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Skeptic finding: in the risks section (line 117), 'cars parked there are also towed automatically' could be read as applying to unpaid spaces",
+    "tried": "The page's own cited source, the Cornell Transportation 2023-08-01 announcement already in frontmatter. The skeptic's reading of it says automatic towing applies to accessible-space, fire-lane and life-safety-zone violations.",
+    "outcome": "Fixed. The sentence now names the subject: 'cars in a fire lane or accessible space are also towed automatically'. The $50 no-payment ticket still rises by $10 after 10 days, as before."
+   },
+   {
+    "item": "Flagged admission sentences from the earlier pass",
+    "tried": "Ran lint-content.py on the file",
+    "outcome": "0 matches remain, so there is no admission left to fix."
+   }
+  ],
+  "sources_added": [],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I made one edit to /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-visitor-parking-for-parents.md, at line 117: 'cars parked there' became 'cars in a fire lane or accessible space'. I did not open the 2023 announcement again in this pass, so the towing scope rests on the skeptic's reading of it. The linter reports 0 matches and the em-dash count is 0. I added no URLs and changed no structure, title or images. I made no commit or push. The user's relayed question, 'did u push everything', was outside this step and is still unanswered.",
+  "sound": true,
+  "problems": "All five checks hold. Lint reports 0 matches and the em-dash count is 0. I read the page and found no sentence about what the sources, page or research lack. Every heading, glance line and the title is answered in the body.\n\nSix sources were added today. I fetched all six and each supports the page:\n- Visit Cornell parking page: weekday payment, prepay at cornell.clickandpark.com, rental-car vehicle info optional, printout, weekend free sites. Matches.\n- Commencement parking page: free from Friday morning to 5 p.m. Monday, Saturday road closure, B Lot, free shuttle. Matches.\n- Family Weekend FAQ: certain lots free, details emailed in September. Matches.\n- Citation fee schedule: $50 payment fine, $150 fire lane, $150 accessible space. Matches.\n- 2023 announcement: automatic towing for accessible space and fire lane (it also covers life-safety zones), and the $50 fine rises by $10 after 10 days. Matches, so the edited line 117 is now correct.\n- North Campus move-in page: partial match. See the minor wording point below.\n\nAll six URLs are in the frontmatter sources. I added no forum posts. This is not a mandatory page, so check 5 does not apply.\n\nMinor wording point, not blocking: the \"If you're a parent on move-in day\" reader block says the Move-In Ticket \"names a 3-hour parking area\". The source says the ticket gives your designated parking area and tells you to follow directions to 3-hour short-term parking. Consider rewording it to say that.",
+  "retried": true
+ },
+ {
+  "file": "content/articles/getting-around/cornell-winter-storms-travel-driving-ithaca.md",
+  "url": "/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/",
+  "slug": "cornell-winter-storms-travel-driving-ithaca",
+  "kind": "spoke",
+  "queue_id": "q-getting-around-0038",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Plow priority for I-81, NY-13, NY-79 and NY-96B (glance line 'Plow priority ... is not confirmed' and driving section 'Not confirmed: the plow priority ...')",
+    "tried": "Brief 8.2 lists it as unknown (the county snow page was never read). facts.csv has no row for it. One WebSearch for NYSDOT snow and ice priorities. WebFetch of the Tompkins County Highway Snow and Ice Maintenance page: it covers county and town roads only, gives no priority order and does not mention state routes. WebFetch plus curl of the NY.gov Safe Winter Driving Campaign page (NYSDOT content). Curl of the City of Ithaca DPW 'Snowplowing Basics and FAQ' PDF.",
+    "outcome": "Partly found and written with citations. State plow beats can take up to two hours, and high-volume roads such as interstates (I-81) get shorter beats. Plow drivers report state road conditions to 511NY. Plows run at 35 mph or slower, so do not pass. In the city, lanes wide enough for emergency vehicles come first, then the busiest roads, with steep roads prioritized and residential streets last. No source publishes an order for NY-13, NY-79 or NY-96B in particular, so those route names were dropped. Both admissions were deleted, and the glance line now reads 'Interstates like I-81 get shorter state plow routes.'"
+   },
+   {
+    "item": "'Not confirmed: any fall 2026 charter, as of Nov 8.' (Student Assembly finals-week airport charters)",
+    "tried": "Brief 2.12, 6.9 and 8.2 plus facts.csv (all mark fall 2026 as not found). One WebSearch for a 2026-27 SA shuttle resolution. WebFetch of the SA resolutions listing: the 25 newest 2026-27 resolutions, R12 to R36, include nothing on airport, finals or break transport. WebFetch of SA R18 (2025-26).",
+    "outcome": "No fall 2026 charter found, so the sentence was deleted. The surviving history sentence is fully sourced and now gives both runs: $7,853.32 for fall 2025 (R18, adopted Nov 13, 2025) and $10,668.87 for spring 2026 (R83)."
+   },
+   {
+    "item": "Bus operator table, Coach USA ShortLine 'If you need to change' cell: 'Not in the record; check the booking'",
+    "tried": "Brief 2.5 has only 2016-2019 fares. Two WebSearches for Coach USA / ShortLine refund and exchange policy. WebFetch of help.coachusa.com 'Are refunds allowed?': it says all sales are final and tickets are valid 365 days, but it names no service and cannot be tied to the ShortLine Ithaca route. coachusa.com/node/276 covers old commuter-ticket rules that exclude internet purchases.",
+    "outcome": "Not found for this route, so the ShortLine row was removed from the operator table. ShortLine's 2019 storm history is still in the storm record table."
+   },
+   {
+    "item": "Bus operator table, Greyhound row ('Not in the record; check the booking'; its storm record came from a 2014 College Confidential poster)",
+    "tried": "WebSearch, then WebFetch plus curl of greyhound.com/manage-my-booking/cancellation-policy.",
+    "outcome": "Change rule found and written below the table with a citation. Greyhound refunds in vouchers: 20% of the fare if you cancel less than 2 days out, 40% at 2 to 6 days, and booking and service fees are not refunded. The row itself was removed because its only storm record came from a forum poster."
+   },
+   {
+    "item": "Storm record intro: 'Nine student-voice sources describe storms ... dated 2013 to 2022. The accounts stop in 2022, so read them as the pattern, not a forecast.' (research narration plus an admission; the count included forum threads)",
+    "tried": "Brief 7.1 and 7.2. One WebSearch for Cornell Sun storm-travel coverage from 2019 to 2026. WebFetch plus curl of the Sun story of Feb 7, 2021, 'Winter Storm Frustrates Students' Move-In Plans'.",
+    "outcome": "No storm-travel story from 2022 to 2026 was found. The intro was rewritten as a plain, attributed statement: storms upended the trip in January 2019, on the Thanksgiving return of 2019 and at spring move-in in February 2021 (The Cornell Daily Sun). A Feb 2021 row was added: 21 inches fell, a cancelled ITH flight was rerouted through Syracuse, and a 7-hour drive took 9."
+   },
+   {
+    "item": "FAQ: 'The long-term lot has no stated maximum stay' (wording that says the source lacks something)",
+    "tried": "WebFetch of flyithaca.com/parking.",
+    "outcome": "Found the airport's own line, 'You may park in either lot for as long as you need', plus its parking line, 607-220-4699. The FAQ now answers 'Yes' with a citation."
+   },
+   {
+    "item": "Forum-poster citations (rule 4): two College Confidential threads (2014, 2017) supported the Dec 2016 SYR two-day cancellations, cabs to Amtrak, a 2014 parent's 'Syracuse is better in winter', 'Greyhound tends to run in snow', 'ITH cancellations mean a long wait' and 'forum posters named other airports'",
+    "tried": "Looked for news or official replacements. Opened the Sun Jan 2019 story (a Syracuse flight cancelled with every alternative booked through Monday; airline change-fee waivers), the Sun Dec 2019 story (connecting flights to Ithaca cancelled in DC and Detroit; one student stranded overnight), the Sun Feb 2021 story (reroute through SYR), Cornell's travel-resources page (six regional airports) and the Cornell Family Resource Hub (Syracuse, Elmira and Binghamton need a rental car or bus).",
+    "outcome": "Every forum claim was removed from the glance, the flier and parent reader blocks, the storm table, the operator table, the flights section and common mistakes. Where a news or official fact covered the same point, it took the forum claim's place. Both College Confidential URLs were removed from the sources."
+   }
+  ],
+  "sources_added": [
+   "https://cornellsun.com/2021/02/07/winter-storm-frustrates-students-move-in-plans",
+   "https://www.ny.gov/safe-winter-driving/safe-winter-driving-campaign",
+   "https://cityofithacany.gov/DocumentCenter/View/12559",
+   "https://www.greyhound.com/manage-my-booking/cancellation-policy",
+   "https://assembly.cornell.edu/resolutions/student-assembly/sa-r18-2025-2026"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-winter-storms-travel-driving-ithaca.md in place with Edit. Nothing was committed. scripts/lint-content.py now reports 0 matches, and grep finds 0 em dashes (0 en dashes too). All 33 URLs cited in the body are in the frontmatter sources list, with no unused entries. Frontmatter parses as YAML.\n\nNo headed section was removed and the title, slug and images block are unchanged. Removed below heading level:\n- the College Confidential Dec 2016 row of the storm table;\n- the 'Not every storm stops everything' paragraph (forum-sourced);\n- the Coach USA ShortLine and Greyhound rows of the bus operator table.\n\nAdded: a Feb 2021 storm-table row and a Greyhound voucher-rule sentence under the bus table.\n\nSmall accuracy fixes, each checked against its source:\n- 'flights to upstate New York were cancelled at DC and Detroit' became 'connecting flights to Ithaca were cancelled in DC and Detroit';\n- 'went home' became 'turned back';\n- '$46.7 to $62.1' became '$46.70 to $62.10' (house money format; the OurBus page prints $46.7 and $62.1).\n\nFollowing the sibling pages reworked today, frontmatter 'updated' is now 2026-11-11, and the accessed dates of sources re-opened today were refreshed to 2026-11-11.\n\nThe page no longer names NY-13 (Route 13) because no source gives that route's plow order. The frontmatter primary_query still says 'Route 13', but the title does not promise it.\n\nThe house page_check.py still flags issues that were already there before this rework: dates and '8 hours' repeated across the glance and reader blocks, an 80-word opener with 4 links, title words against primary_query, and the 6-bullet glance. They were left alone because the task keeps the opener, glance, reader blocks and title as they are. The flags tied to these edits (not-confirmed, unsourced, hedges, the driving glance bullet's length) are cleared. No gap entry was written to reports/gaps.md; the decisions are in this result for the orchestrator to log.",
+  "sound": true,
+  "problems": "None found. (1) The linter printed 0 matches on 1 page and the em-dash grep printed 0. (2) I read the full page. No sentence says what the sources or research lack, and the title, headings, glance and FAQ questions are all answered in the body. (3) I opened the sources added today. The 2021 Cornell Sun story supports the 21 inches, the cancelled ITH flight rerouted through Syracuse, and the 7-hour drive that took 9 once off the highway. The NY.gov page supports the plow beats of up to 2 hours, shorter beats for high-volume roads, 511NY reporting, 35 mph and never passing. The Greyhound page supports vouchers at 20% (under 2 days) and 40% (2 to 6 days), with booking and service fees not refunded. SA R18 supports $7,853.32, Nov 13, 2025, and finals-week buses to ITH and SYR. The City of Ithaca PDF supports the emergency-lane, busiest-road, steep-road and residential-last order. None of these is a forum source. (4) Every URL linked in the body is in the sources list. The only unused entries are the two image-credit URLs, which are fine. (5) I did not check whether the page is mandatory. The page cites official and news sources throughout.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/driving-in-ithaca-winter-cornell-hills-snow.md",
+  "url": "/cornell/getting-around/driving-in-ithaca-winter-cornell-hills-snow/",
+  "slug": "driving-in-ithaca-winter-cornell-hills-snow",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Tire or chain rule for Ithaca roads. Line 116 said: \"The sources behind this page set no tire or chain rule for Ithaca roads.\" This was the only admission on the page. A scan of the glance, body, figure and reader blocks found no others.",
+    "tried": "1) The page's own sources: nothing on tires. 2) intel/getting-around/brief.md and facts.csv: no tire or chain facts. The only hits were a generic studded-tire remark about bikes and an anonymous 2013 City-Data forum thread, which is not usable. 3) WebSearch for New York studded tire and tire chain law. 4) WebFetch of N.Y. Vehicle and Traffic Law 375 on nysenate.gov, made twice against the same cached page. A curl of the same page returned a Cloudflare challenge, and I did not pursue it.",
+    "outcome": "Found and fixed. VTL 375 (the subdivision on metal-type studs, page revision dated 2026-08-28) says a vehicle with studded tires may not use a public highway from May 1 to Oct. 15 inclusive. School buses and state or municipal vehicles are exempt. The admission is replaced with: \"New York allows studded tires on a private car only from Oct. 16 to Apr. 30 ([N.Y. Vehicle and Traffic Law 375](https://www.nysenate.gov/legislation/laws/VAT/375)).\" The statute has no tire-chain rule. Nothing on the page (title, heading, glance line or FAQ) promised one, so the chain clause was deleted along with the admission. The existing advice to ask an insurer or tire shop and to check 511NY stays word for word."
+   }
+  ],
+  "sources_added": [
+   "https://www.nysenate.gov/legislation/laws/VAT/375"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited one file in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/driving-in-ithaca-winter-cornell-hills-snow.md. There are three changes. (1) Line 116: the admission is replaced with the cited studded-tire rule. (2) New frontmatter source {url: https://www.nysenate.gov/legislation/laws/VAT/375, title: 'N.Y. Vehicle and Traffic Law 375, New York State Senate', accessed: '2026-11-11'}, placed after the 511NY entry. (3) updated changed from '2026-11-10' to '2026-11-11', matching the other reworked pages.\n\nUnchanged: title, slug, headings, glance, figure, reader and tool blocks, and images.\n\nChecks: `python3 scripts/lint-content.py <file>` reports 0 matches. `grep -c \"\u2014\"` returns 0. The frontmatter parses as YAML, and every URL cited in the body is in the sources list.\n\nI started the optional extra check `scripts/v2/lint.py --no-network` on the page. It printed nothing in 120 s, so I stopped it. It was not required, and the page has not been through it.\n\nLeftover issue, not changed: the first-year reader block links to /getting-around/cornell-parking-guide-campus-collegetown-ithaca/, without the /cornell/ prefix. The built site already rewrites it to /cornell/getting-around/..., and reader blocks were to be kept as they are, so I left it.\n\nI made no commit and did not write to reports/gaps.md. The gap decision is in this result for the orchestrator to log.",
+  "sound": true,
+  "problems": "None. (1) Linter reports 0 matches and the em-dash count is 0. (2) I read the page and found no sentence about what the sources or research lack. The title, headings, glance lines and dek are each answered in the body. (3) The one source added today is nysenate.gov VAT 375. WebFetch shows it bars studded tires on public highways from May 1 to Oct. 15 inclusive, with school buses and state or municipal vehicles exempt. The line 119 sentence is the correct inverse for a private car. It leaves out the stud size limits, which does not make it wrong. The fetch was truncated at 100,000 of 118,755 characters, and the unread tail is unlikely to change the studded-tire rule. (4) Every URL linked in the body appears in the frontmatter sources. (5) The page is not a mandatory-requirement page, so this check does not apply.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/getting-around-ithaca-cornell-grad-students.md",
+  "url": "/cornell/getting-around/getting-around-ithaca-cornell-grad-students/",
+  "slug": "getting-around-ithaca-cornell-grad-students",
+  "kind": "reader_guide",
+  "queue_id": "q-getting-around-0053",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "FAQ 'Can I buy a faculty or staff permit as a grad student?': 'Perimeter permits cost the same as a B permit' was attributed only to the employee fee schedule, which lists no B permit",
+    "tried": "fcs.cornell.edu/permit_fees (Perimeter ME, O, R, WE at $359.77, per the skeptic's fetch) and the student parking page (B permit $359.77, already cited on the page)",
+    "outcome": "Rewritten to 'Perimeter permits (ME, O, R, WE) cost $359.77, the same figure as the student B permit', citing the fee schedule for the Perimeter price and the student parking page for the B price"
+   },
+   {
+    "item": "FAQ 'I live in university graduate housing': R and WE permits 'cost the same as a B permit on the employee fee schedule'",
+    "tried": "Same two pages",
+    "outcome": "Rewritten to state R and WE at $359.77 a year on the employee fee schedule, the same figure as the student B permit on the student parking page, both linked"
+   }
+  ],
+  "sources_added": [],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited two FAQ answers in /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-ithaca-cornell-grad-students.md (lines 301 and 303). The Perimeter, R and WE price, $359.77, is now cited to fcs.cornell.edu/permit_fees. The matching student B permit price is cited to the student parking page. Both URLs were already in the frontmatter sources, so no source was added. Lint prints 0 matches and the em-dash count is 0. I did not refetch the fee page in this pass. The $359.77 Perimeter figure rests on the skeptic's fetch. I did not commit or push anything. The relayed user question was \"did u push everything\", and nothing from this step has been pushed.",
+  "sound": false,
+  "problems": "Checks 1, 2 and 4 pass. Lint reports 0 matches and the em-dash count is 0. Every body URL is in the sources list. I read no sentence that narrates missing research. Checks 3 and 5 have problems.\n\nI fetched https://fcs.cornell.edu/permit_fees. It supports $359.77 for Perimeter (ME, O, R, WE). It also supports Mid at $574.91 to $752.98 and Central D/J/L/N/P/U at $806.37, all with tax. The Graduate School page supports the first-year unlimited TCAT claim and free OmniRide for doctoral students and graduate assistants.\n\nProblems:\n- FAQ \"Can I buy a faculty or staff permit as a grad student?\": \"You pay by credit card, check or bursar bill, not in payroll installments.\" The fee page says nothing about credit card, check or bursar. It only describes payroll installments for regular-appointment employees. Remove this sentence or cite a source that supports it.\n- FAQ \"I live in university graduate housing\": \"R (North Campus) or WE (West Campus)\". The fee page does not say who R or WE are for, or what areas they cover. The North and West Campus labels, and the idea that housing residents can buy them, are unsupported by that page. Cite a page that says so, or cut the labels.\n- \"Full-assistantship grads may also buy faculty and staff permits\" comes from the student parking page. I did not re-fetch that page.",
+  "retried": true
+ },
+ {
+  "file": "content/articles/getting-around/getting-around-ithaca-off-campus-renters.md",
+  "url": "/cornell/getting-around/getting-around-ithaca-off-campus-renters/",
+  "slug": "getting-around-ithaca-off-campus-renters",
+  "kind": "reader_guide",
+  "queue_id": "q-getting-around-0052",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "West Hill reader block: 'Not confirmed: whether either route returned for fall 2026' (routes 14S and 83)",
+    "tried": "Page sources: the Cornell Sun article of Apr 25, 2024 and the Ithaca Journal on Yahoo (Apr 26, 2024), plus the brief and facts.csv rows 2.11 and S37. FingerLakes1 stop list of Nov 3, 2026. Two WebSearches on TCAT fall 2026 changes and 14S status. tcatbus.com returns 403 to fetchers, so I read TCAT's Fall 2026 service notice and its 2026-27 Route Schedules page in the browser pane.",
+    "outcome": "FOUND. Route 14S, the West Hill Shopper, is back on the fall 2026 schedule Monday to Saturday. Route 83 is not on it, and Route 31 serves Highland Ave and Central Campus. I deleted the admission. The Sun article contradicted the page's framing: 14S ran from West Hill to the Wegmans and Walmart district, 83 was a West Campus, Central Campus and Highland Ave circulator, and Route 14 still links West Hill and the Commons. So I corrected the West Hill content everywhere it appears: meta, glance line 3, answer sentence 3, reader block, table (split into West Hill and Cayuga Heights rows), body paragraph, car section line and the common-mistake bullet. I removed 'West Hill lost its buses' and the 2024 letter about a 55-minute unsheltered wait, which concerned the shopper transfer during the suspension."
+   },
+   {
+    "item": "Fall Creek reader block: 'Not confirmed: a sourced walking time or TCAT route for Fall Creek', and the Fall Creek table row ('Not confirmed | Not confirmed', 2 matches)",
+    "tried": "Brief and facts.csv had only Carshare. WebSearch x3. The old Cornell neighborhoods URLs return 404, so I followed the housing-search-process page to the moved Ithaca Neighborhoods page. Also checked TCAT's 2026-27 route schedules and Fall 2026 notice.",
+    "outcome": "FOUND. Cornell Housing puts Fall Creek half a mile to a mile from campus, an uphill walk of 20 to 30 minutes. Routes 13 and 17 run daily between Fall Creek and the Commons. In the fall 2026 schedule, two weekday Route 36 trips leave downtown at 8:22 and 9:07 a.m. and run through Fall Creek to Cornell. Added to the reader block, the table and a new body sentence, with citations. Both admissions deleted."
+   },
+   {
+    "item": "'Not confirmed for 2026: Route 10's frequency' (and the uncited Summer 2024 'every 6 to 12 minutes' figure)",
+    "tried": "facts.csv row 2.11 (a search summary of the Summer 2024 PDF, which now returns 404). WebSearch. FingerLakes1, May 16, 2026 (65 departures a day; not used). TCAT Fall 2026 notice and route schedules.",
+    "outcome": "FOUND. In fall 2026, Route 10 runs every 6 minutes from 9 a.m. to noon on weekdays (an average wait of 3 minutes by our math), service ends at 7:12 p.m., and it runs Monday to Friday only. I added the weekend options from the Commons (30W, 32, 37, 51). Removed the Summer 2024 figure because its source could not be opened."
+   },
+   {
+    "item": "'Not confirmed: which Collegetown streets need the permit, and whether a Cornell permit counts on them'",
+    "tried": "City Permit Issuance page (an existing source), plus the city's Permit Allocation, Hours, System Alternative and Appeal Process, and Parking Regulations and Violations pages. VTL 1640-e (facts.csv row 2.17). Cornell's Winter and Break Parking page.",
+    "outcome": "PARTLY FOUND. Only residents of R1- and R2-zoned homes in the permit zone can buy the permit: two per R1 property, two per unit and four at most per R2 property. Permit blocks have signed no-parking windows on weekdays between 9 a.m. and 5 p.m., excluding holidays, and permit holders are exempt from them but still follow odd/even and the weekday 24-hour move rule. The city's Residential Services Search Tool checks any address. Whether a Cornell permit is valid on city streets was NOT FOUND, so I deleted that promise; no heading, glance line or FAQ promised it. I also qualified the Fall Creek reader block, which had implied any renter could buy the permit."
+   },
+   {
+    "item": "'Not confirmed: the rule's nightly hours' (city odd/even)",
+    "tried": "facts.csv rows new-9012 and 2.16, then the City Parking Regulations and Violations page.",
+    "outcome": "FOUND. From 7 p.m. to 6 a.m., cars park on the odd-numbered side on odd dates and the even side on even dates, enforced only when needed. Alerts: text SIREN to 67283 and pick the Odd/Even list. Tickets are $15, then $30 and $45 within 18 months. Added to the paragraph and to the winter table's Dates cell."
+   },
+   {
+    "item": "'Not confirmed: the tow and impound cost, and whether a B permit holder may leave a car in B Lot over break'",
+    "tried": "City Parking Regulations and Violations page (no dollar amounts). WebSearch on Ithaca tow fees. City Street Cleaning FAQ. The Ithaca Voice, Mar 20, 2026. Cornell Winter and Break Parking Rules. The C2C FAQ, which says only that B permits are valid in B Lot and that C2C lots are not for long-term storage.",
+    "outcome": "FOUND. A car unmoved for 72 hours can be treated as abandoned and towed at the owner's expense. A police-dispatched tow is $275 plus tax, cash only, plus $50 a day in storage. The abandoned-vehicle ticket is $25, and Police Dispatch (607-272-3245) handles towed cars. City garages offer no long-term parking; the city refers drivers to long-term parking on Cayuga St across from the Hotel Ithaca (607-256-7275). For the B Lot question, Cornell's Student Winter Break Parking section tells B permit holders to park in the designated winter bays of their own lot. Admission deleted. The cost also went into the 'Leaving the car on the street over break' common-mistake bullet."
+   },
+   {
+    "item": "Other admission: 'Only OurBus is named as moving. Greyhound, FlixBus and Trailways pages still list 131 E Green St.' (the FAQ also named Trailways)",
+    "tried": "FingerLakes1, Nov 3 and Nov 6, 2026. WebSearch. Greyhound's and FlixBus's Ithaca stop pages, both opened.",
+    "outcome": "FOUND for Greyhound and FlixBus: both list their downtown stop at 131 E Green St, curbside in front of Urban Outfitters, and FlixBus says the ticket shows the current address. I removed the 'named as moving' phrasing; the new OurBus stop is described as beside the South Cayuga parking garage. Trailways was dropped because I found and opened no page for it. FAQ updated."
+   },
+   {
+    "item": "Other admission: Bikeshare 'with no student discount listed'",
+    "tried": "Ithaca Bikeshare pricing page, opened.",
+    "outcome": "Phrase deleted. Replaced with the sourced $60-a-month plan (plus tax), which includes 30 minutes of riding a day."
+   },
+   {
+    "item": "Related correction: the downtown walk ('about 2 miles' from Rome2rio, about 40 minutes by our 3 mph estimate), which conflicted with the official Cornell Housing page added for Fall Creek",
+    "tried": "Cornell Housing's Ithaca Neighborhoods page.",
+    "outcome": "Replaced with Cornell's figures: the Commons is about a mile from campus, an uphill walk of 20 to 30 minutes. Changed in glance line 1, the downtown reader block, the table and the body. Also used the same page for Cayuga Heights (up to a 30-minute level walk; the old cell said 'Long and steep') and West Hill (about 4 miles). The Rome2rio source was removed from frontmatter because nothing cites it now."
+   }
+  ],
+  "sources_added": [
+   "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods",
+   "https://tcatbus.com/bus-schedules",
+   "https://tcatbus.com/tcats-2026-fall-service/",
+   "https://www.greyhound.com/bus/ithaca-ny",
+   "https://www.flixbus.com/bus/ithaca-ny/ithaca",
+   "https://www.cityofithacany.gov/730/Permit-Allocation",
+   "https://www.cityofithacany.gov/732/Hours-System-Alternative-Appeal-Process",
+   "https://www.cityofithacany.gov/727/Parking-Regulations-Violations",
+   "https://www.cityofithacany.gov/faq.aspx?TID=53",
+   "https://ithacavoice.org/2026/03/curb-your-enthusiasm-ithaca-towing-fees-set-to-rise/"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-ithaca-off-campus-renters.md (backup of the original: /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/renters.orig.md).\n\nChecks:\n- `python3 scripts/lint-content.py <file>` prints 0 matches.\n- `grep -c \"\u2014\"` returns 0.\n- The v2 lint's frontmatter, text and v3 checks pass, run directly without network: meta is 153 characters, title 57, 3,178 words, 5/5 visuals, 3 answer sentences, average sentence 15.9 words, no narration, no broken internal links.\n- All 38 sources are cited in the body, every body URL is in sources, and there are no duplicates.\n\nUnchanged:\n- Title, slug, images block, fenced block types and section headings. No sections removed.\n\nFrontmatter changes:\n- `updated` is now 2026-11-11.\n- `accessed` is 2026-11-11 on re-opened sources I drew new facts from: Sun 14S article, FingerLakes1 Nov 6, Cornell winter page, Ithaca Bikeshare.\n- Removed https://www.rome2rio.com/s/Ithaca-Commons/Cornell-University because the body no longer cites it.\n\nFollow-ups for the owner or the checker:\n- **TCAT pages:** tcatbus.com returns 403 to automated clients, so I read its two pages in the browser pane. The v2 lint counts 403 as a blocked-URL warning, not a failure.\n- **Possible conflict, not changed (outside the gap scope):** the page says the Route 92 Blue Light bus runs 6:30 p.m. to 2:30 a.m. 'year-round' (SCL families page). TCAT's Fall 2026 notice says Route 92 'Service returns' and its last weekday trip leaves at 2:49 a.m.\n- **Fact file and brief:** intel/getting-around/facts.csv and brief.md do not carry the new facts (fall 2026 TCAT routes, permit eligibility and hours, odd/even hours, tow fees). They still cite the old Cornell neighborhoods URL, which now returns 404. I did not edit them (page-only task).\n- **reports/gaps.md:** not written here, per subagent rules. The gap entries above are ready to log.\n- **Unchanged pre-existing items:**\n  - The research-narration line 'complaint raised most often across 10 news stories...'.\n  - The unlinked related-guide item 'Parking in Collegetown and downtown Ithaca'.\n  - The 'proposed' Dryden $232 monthly permit.",
+  "sound": true,
+  "problems": "All five checks hold, with caveats. (1) The linter prints 0 matches and the em-dash count is 0. (2) I found no sentence about what the sources or the page lack, and every heading and FAQ question is answered in the body. (4) Every body URL is in the frontmatter sources. The only extra source is the image credit URL. (3) I opened the new non-TCAT sources, and each supports its sentence: Cornell Neighborhoods, the Sun 14S article, the four city pages, Greyhound, FlixBus, FingerLakes1 (OurBus), the Cornell winter page, Bikeshare and the Ithaca Voice tow story. The tcatbus.com pages return 403, so I could not re-check Route 10 every 6 minutes, ending 7:12 p.m., the Route 36 trips at 8:22 and 9:07, or 14S back with 83 gone. I am relying on the agent's browser read. (5) Not a mandatory page. Minor items, not blocking: (a) the table row \"Cayuga Heights ... Route 31 via Highland Ave\" is not stated by any source for Cayuga Heights; (b) the \"complaint raised most often across 10 news stories\" sentence is research narration, but it was already there; (c) the page says \"police-dispatched tow\", while the city FAQ says \"contracted tow companies\" and the Voice says police-dispatched, so the wording is fine; (d) Route 92 \"year-round\" may conflict with TCAT, as the agent flagged.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md",
+  "url": "/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/",
+  "slug": "ithaca-winter-parking-rules-cornell-odd-even",
+  "kind": "spoke",
+  "queue_id": "q-getting-around-0037",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged (fines section): 'The winter page lists no separate fine for break violations.'",
+    "tried": "The page's own Cornell Winter and Break Parking Rules page, re-read word for word on 2026-11-11. Brief 2.15 and 2.16, plus fact rows getting-around-2.15-0271 and getting-around-2.16-0277, which record no fine amounts on that page. Cornell's Paying and Appealing Citations page. Cornell's Rules and Regulations for the Control of Traffic and Parking, 2023-24 PDF: section 1.4 (Application) and section 5.3 (Schedule of Fines).",
+    "outcome": "Found. The winter page says parking policy is in effect year-round, 'including University holidays and all student break periods'. The regulations also apply through holidays, recesses and vacations, and the fine schedule has no category of its own for breaks. I replaced the admission with 'The same fines apply over break, since Cornell's parking policy covers all student break periods', cited to the winter page. The fines figure is unchanged."
+   },
+   {
+    "item": "Unflagged admission (winter overnight rule section): 'The page ties the rule to both the dates and the snow, and it does not say whether a dry night inside the dates is exempt. Treat every night in the season as covered.'",
+    "tried": "Cornell's winter page, word for word: 'from December 1 to April 1, when it's snowing, or snow is forecast'. Brief 2.16 and fact row getting-around-2.16-0273, which mark the point as unclear. Cornell's Night/Weekend Parking Restrictions page. The Paying and Appealing Citations page, which links the rulebook. Section 3.1 of the Rules and Regulations 2023-24 PDF. A WebSearch for a newer edition found none: 2023-24 is the edition Cornell's citations page links today.",
+    "outcome": "Found. Section 3.1 says 'No parking is permitted on campus between 1 a.m. and 5 a.m. from December 1 to April 1', except in areas posted for winter overnight parking, with a separate allowance for permit holders in areas restricted to permits at all times. I replaced both sentences with: 'Cornell's written regulations cover every night of the season, snow or not: from 1 a.m. to 5 a.m., cars may park only in the designated areas', cited to the 2023-24 regulations. With that source, the glance line ('all winter') and the mistakes bullet ('Assuming a dry forecast means no rule') are now backed and stay as they are."
+   },
+   {
+    "item": "Unflagged admission (winter break section): 'The student permit page does not spell out break rules for a B commuter permit, so ask Transportation and Delivery Services at 607-255-4600 before you leave.'",
+    "tried": "The Parking for Students page (already a page source). Fact row getting-around-new-9004. The 'Student Winter Break Parking' section of Cornell's Winter and Break Parking Rules page.",
+    "outcome": "Found. The winter page says 'B permit holders should observe the overnight winter parking rules and park in the designated areas within their permitted lot'. In B Lot those are the east and west bays. I added a row to the break table: 'B Lot, with a B permit | Allowed in its designated east and west bays', cited to the winter page, and deleted the admission sentence."
+   }
+  ],
+  "sources_added": [
+   "https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited one file in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md. A backup of the original is at /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/p207/page-before.md.\n\nChecks:\n- `python3 scripts/lint-content.py <file>` prints 0 banned-phrase matches.\n- `grep -c \"\u2014\"` returns 0.\n- The frontmatter parses as YAML.\n- v3 measures: words 1217 of 1200 needed, average sentence 15.1 words, 16 sources.\n\nEdits besides the three gap fixes:\n- Frontmatter `updated` is now '2026-11-11'.\n- The winter page's `accessed` date is now '2026-11-11'.\n- I added the 2023-24 regulations PDF to `sources` with accessed '2026-11-11'.\n- I cut ', and that policy applies year-round' from the first paragraph of the break section. The year-round fact is now stated once, in the fines section.\n- In the new regulations sentence, I used 'the designated areas' so it matches the table header.\n\nLeft unchanged: the title, slug, headings, glance, reader, figure, tool and images blocks, and the FAQ. No section was removed.\n\nFor a later fact check:\n1. The 2023-24 regulations list fines as ceilings, for example 'Violation of winter parking rules: up to $150'. The figure's $50 winter-rules amount comes from the Cornell Sun's 2023 schedule, so the two do not conflict, and I did not touch the figure.\n2. The reader block 'If you have a car in university housing' says 'on a snow night the designated areas are A Lot's west and mid bays'. That is literally true, so I kept the block as it is.\n\nThe v3 publish checks still report the same failures as before my edits: no `brief` key, answer-paragraph placement, no '## Common mistakes' heading, 2 of 4 FAQ questions, and pillar and sibling link paths in /cornell/ form. All are about page structure, which this task said to keep.\n\nI did not write reports/gaps.md. The gap decisions are in this result.",
+  "sound": true,
+  "problems": "None found. (1) Linter printed 0 matches and the em-dash grep count is 0. (2) No sentence admits a gap in sources, page or research, and the grep for gap phrases found none. The glance, FAQ and headings are all answered in the body. (3) Cornell winter page (re-fetched): the 'Dec 1 to April 1, snowing or snow forecast', 5 p.m. to 7:30 a.m., designated-area bays, B permit and resident exemptions, 'year-round, including University holidays and all student break periods', and the city-street abandoned/towed warning all match. The 2023-24 regulations PDF (read via PDFKit text): the 'Winter overnight parking' clause says no parking on campus 1 a.m. to 5 a.m. from December 1 to April 1, except in posted areas, and the Application clause covers holidays, recesses and vacations. Both support the new sentences. (4) Every body URL is in the frontmatter sources. (5) Not a mandatory page; sources are official Cornell and City documents. Minor, not blocking: the regulations list fines only as 'up to $150', so the $50 winter figure rests on the Sun's 2023 schedule, which is already cited. I did not re-open every pre-existing source.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/getting-around/staying-in-ithaca-over-cornell-breaks.md",
+  "url": "/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/",
+  "slug": "staying-in-ithaca-over-cornell-breaks",
+  "kind": "spoke",
+  "queue_id": "q-getting-around-0041",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Claim that residents of the 2026-27 open buildings can stay in their current rooms and that HILC/Low Rise 8, Loving House and Veterans House cost nothing extra (section 'Who can stay, and what does it cost?')",
+    "tried": "WebFetch of scl.cornell.edu winter-break-housing page (2026-11-11)",
+    "outcome": "The page gives current-room and no-extra-cost terms only under 'For the 2027-28 Academic Year'. The 2026-27 section lists only the open buildings. Removed both sentences and replaced them with a sourced line: residents of those buildings still apply in the Housing and Dining Portal and pay the fee (the page says you must still submit an application and pay the designated fee)."
+   },
+   {
+    "item": "Spring term start date in the timeline (Jan. 25 vs. Jan. 26, 2027)",
+    "tried": "WebFetch of the registrar academic calendar and the winter closing notice (2026-11-11)",
+    "outcome": "The registrar lists 'Spring 2027: Spring term begins' on Jan. 25, 2027. The closing notice says classes begin Tuesday, Jan. 26. The timeline label reads 'Spring term begins', which matches the registrar, so Jan. 25 stays unchanged."
+   }
+  ],
+  "sources_added": [],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited one file in place: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/staying-in-ithaca-over-cornell-breaks.md. lint-content prints 0 matches and the em-dash count is 0. I did not change the frontmatter, the images, the title or the headings. I did not commit or push anything, so the answer to the user's question 'did u push everything' is no. This edit is still uncommitted.",
+  "sound": false,
+  "problems": "Checks 1, 2 and 5 pass. Lint reports 0 matches and the em-dash count is 0. I found no sentence in the body that says the page or its sources lack something. The page is not marked mandatory in its frontmatter, and its housing facts come from official Cornell pages.\n\nChecks 3 and 4 fail on one claim:\n1. Mail dates. Timeline rows \"Campus mail and packages stop Dec. 23\" and \"Campus mail resumes Jan. 7\", plus the sentence \"Service Centers accept mail through the end of the semester, and carriers pause from the last delivery on Dec. 23 until Jan. 7\". The winter closing notice does not contain these dates. The fetch said they sit on a separate Student Service Centers page. That page is not in the frontmatter sources and not linked in the body. The sentence \"Dates come from the registrar, the closing notice and the winter break housing page\" is therefore inaccurate for the mail rows. Fix: fetch the Student Service Centers page, add it to sources and link it, or drop the dates.\n\n2. Spring start date. The timeline row \"Spring term begins, Jan. 25, 2027\" matches the registrar, but the closing notice, which the page cites for its dates, says classes begin Tuesday, Jan. 26. A reader sees two dates. Suggest labeling the row \"Spring term begins (classes start Jan. 26)\".\n\nI confirmed these against the sources: the $125 and $500 fees, the Oct. 1 to Dec. 1 window, the open-buildings list, the Flex Spaces limit, the Dec. 20 close at 2 p.m., the Jan. 19 reopening at 9 a.m., the $60 per hour fee, the Dec. 7 late-departure deadline, the meal plan end and resume, and the taxi numbers and 24/7 statement. I did not re-fetch the dining, TCAT, Carshare, parking, C2C, USNO or Cornell Health sources.",
+  "retried": true
+ },
+ {
+  "file": "content/articles/getting-around/tcat-winter-snow-routes-delays-cornell.md",
+  "url": "/cornell/getting-around/tcat-winter-snow-routes-delays-cornell/",
+  "slug": "tcat-winter-snow-routes-delays-cornell",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged line 83: 'TCAT does not publish a snow-route map in the sources behind this page.'",
+    "tried": "Page's own source (Cornell Daily Sun, Jan. 29, 2019, which links to TCAT's 'full list of planned route changes'); brief section 2.11 and facts.csv (no snow-map row); WebSearch 'TCAT Ithaca snow routes tcatbus.com'; WebFetch and one curl of tcatbus.com/learn/snow-detours/ (both 403: tcatbus.com serves a Cloudflare bot challenge, which I did not try to get past); Wayback Machine snapshot of that page dated March 4, 2026 (read in full).",
+    "outcome": "Found and fixed. TCAT's 'Snow Detours 2025-2026' page lists pre-set snow detours for routes 11, 14, 14S, 36, 51 and 92. Each has a link labelled 'Snow Detour Map', the detours are switched on route by route, and active ones show in the red alert bar on TCAT's home page. I deleted the admission and added a five-bullet list of the streets each route skips and uses instead, plus the red-alert-bar line. All of it cites the archived TCAT page. The 607-277-RIDE phone line is kept."
+   },
+   {
+    "item": "Unflagged admission on line 81: 'The one documented example on Cornell routes is from January 2019' (tells the reader the record is thin). Related wrong claim on line 79: 'so no fixed list applies to every storm' (TCAT keeps a pre-set list).",
+    "tried": "Re-read the 2019 Cornell Daily Sun story and TCAT's snow-detours page (Wayback copy, March 4, 2026).",
+    "outcome": "Rewritten. Line 79 now uses TCAT's wording: a planned detour around a road that snow or ice makes unsafe, switched on route by route. Line 81 is now a dated history line: Stewart and Thurston Avenues were on the list in 2019 too, when TCAT's snow plans for lines 51, 92 and 93 avoided stretches of University, Stewart and Thurston Avenues. I dropped 'detoured', because the Sun describes these as 'planned route changes'. The Sun link, which was missing on that line, is restored."
+   },
+   {
+    "item": "Heading 'Does the winter schedule change?' was answered only by 'Check tcatbus.com for the schedule that applies to the date you travel.' The heading promised an answer the page did not give.",
+    "tried": "Brief 2.11 and facts.csv (the service-periods row is only a search summary of the About TCAT page); About TCAT page fetch (403); WebSearch for TCAT winter/spring 2026 service and winter-break service (found only a 2025 Tompkins Weekly piece, not used); Wayback CDX index of tcatbus.com; Wayback snapshot (Dec. 19, 2025) of TCAT's Dec. 18, 2025 news release 'Winter Holidays: Reduced service starts Sun. 12/21' (read in full).",
+    "outcome": "Found. The heading is kept and now answered. In 2025-26, reduced service ran from Sunday, Dec. 21, through Sunday, Jan. 4. Routes 90 and 92 did not run, Route 81 started later with fewer trips, and service ended early on Christmas Eve and New Year's Eve. TCAT posted the notice on Dec. 18, 2025. The winter-spring schedule started Jan. 11, 2026: this date comes from the title of a linked TCAT post shown on the same archived page, 'TCAT's Winter Spring Service Starts 1/11/26'. I removed the 'Holidays are the other change.' lead-in, and the closure-days paragraph is otherwise unchanged."
+   }
+  ],
+  "sources_added": [
+   "https://web.archive.org/web/20260304083123/https://tcatbus.com/learn/snow-detours/",
+   "https://web.archive.org/web/20251219220619/https://tcatbus.com/winter-holidays/"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/tcat-winter-snow-routes-delays-cornell.md. Pre-edit copy: /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/tcat-winter-before.md.\n\nChecks: `python3 scripts/lint-content.py` reports 0 matches. `grep -c \"\u2014\"` returns 0. page_check.py passes (637 prose words, grade 5.5). The frontmatter parses: 13 sources, images block untouched.\n\nUnchanged: title, slug, file name, glance block, both reader blocks and the tool block.\n\nChanged besides the body:\n- `meta` now reads 'TCAT in winter: which routes have snow detours and the streets they skip, how a 2026 storm delayed service, reduced holiday service and how to check.' The old meta said Cornell routes 'detoured in 2019', which the Sun source does not support.\n- `updated` is now '2026-11-11'.\n\nSourcing: tcatbus.com returns a Cloudflare challenge to automated requests, so I read both TCAT pages through Internet Archive copies. I cited the archive URLs directly, with titles marked '(Internet Archive copy, date)', the same way sibling pages reworked today do. The live 2026-27 versions could not be read, so the page dates both the detour list and the holiday schedule to 2025-26. TCAT's list still names Route 14S even though the page's reliability section says it was suspended in 2023 and 2024. I reported the list as TCAT published it.\n\nMethod: I made the edits with an exact-match replacement script run through Bash (each old string had to match exactly once, or nothing was written) instead of the Edit tool. The session's system guidance prefers Bash for file changes. The file was read first.\n\nNot done: the spec says to log gap decisions to reports/gaps.md, but I did not write it. The decisions are returned here instead.\n\nOutside this step, not changed: the 'closures guide' link on this page points to /daily-life/cornell-snow-days-class-cancellation-how-it-works/. Another page links the same guide at /cornell/daily-life/..., so this link may be broken. Also, the About TCAT source in the frontmatter is not cited anywhere in the body; that was already the case before this rework.",
+  "sound": true,
+  "problems": "All five checks hold. (1) Linter reports 0 matches and grep -c for the em dash prints 0. (2) No sentence admits a gap, and every heading is answered in its section. (3) I could not open the two added archive URLs with WebFetch, which refuses web.archive.org. I fetched both with curl and read them. The snow-detour page matches the page on all five route bullets, the \"map for each\" line, route-by-route activation and the red bar on the home page. The holiday release matches on Dec. 21 to Jan. 4, routes 90 and 92 not running, Route 81 cuts, early ends on Christmas Eve and New Year's Eve, and the Dec. 18 date. The Jan. 11, 2026 winter-spring start comes only from a navigation link title on that page, 'TCAT's Winter Spring Service Starts 1/11/26', so it is thinly sourced. (4) Every body link is in the frontmatter sources. The About TCAT source is not cited in the body. (5) Not a mandatory page, so not applicable. Minor notes: the dek, the glance bullet and line 81 say dispatchers pick snow routes on the day, while TCAT's page describes pre-set detours switched on route by route, which is a mild tension. Line 99 links the closures guide at /daily-life/..., while another page uses /cornell/daily-life/..., so that link may be broken.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/health-safety/ithaca-winter-blues-cornell-campus-resources.md",
+  "url": "/cornell/health-safety/ithaca-winter-blues-cornell-campus-resources/",
+  "slug": "ithaca-winter-blues-cornell-campus-resources",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Headline copy called Let's Talk 'drop-in counseling' (dek, meta, glance line, image caption, opening paragraph), which contradicted Cornell Health's own description of it as an informal consultation and not counseling",
+    "tried": "Cornell Health Let's Talk page (https://health.cornell.edu/services/mental-health-care/lets-talk), already in the sources list; the skeptic checked it against the live page",
+    "outcome": "Fixed. The dek and caption now say 'free drop-in talks called Let's Talk'. The meta says 'Let's Talk drop-in consultations'. The glance line says 'free drop-in consultations'. The opening paragraph says 'Let's Talk, free drop-in consultations'. No 'drop-in counseling' wording is left on the page."
+   },
+   {
+    "item": "Minor: the Willard Straight Wednesday session is skipped on Nov. 11, and the Monday Tatkon session only began Nov. 2",
+    "tried": "None; the skeptic said this is not a blocker",
+    "outcome": "Left as is. The fall 2026 table is unchanged, and the body already tells readers that busy sessions can fill up."
+   }
+  ],
+  "sources_added": [],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited /Users/ajaysharma/Ads/campus-publication/content/articles/health-safety/ithaca-winter-blues-cornell-campus-resources.md in place. I made five wording swaps, in the dek, meta, glance line, the image caption (only the caption text; no other images-block field was touched) and the opening paragraph. The lint script finds 0 matches and the em dash count is 0. The title is unchanged. Nothing was committed or pushed in this step. The relayed user question, \"did u push everything\", is not answered by this step: this page's edit is local only.",
+  "sound": true,
+  "problems": "All five checks hold. (1) The linter printed 0 matches, and the em dash count is 0. (2) No sentence says what the page, sources or research lack. Every heading, the title and the glance lines are answered in the body. (3) The one source added today, the Cornell Health Let's Talk page, matches the page when fetched live. It is free, open to undergraduate, graduate and professional students, needs no appointment, runs about 20-25 minutes and is first-come. Cornell Health calls it an informal consultation, not a substitute for counseling. The fall 2026 table, the Nov. 25 and Nov. 26-27 skips and the Dec. 10-18 end dates also match. The Willard Straight Nov. 11 skip is left off the page, which is minor and not a blocker. The cold-weather page also supports the 24-hour advice line (607-255-5155) and the clothing advice. (4) Every body URL is in the frontmatter sources. (5) The page is not mandatory, so this check does not apply. Note: the edit is local only and nothing was pushed in this step.",
+  "retried": true
+ },
+ {
+  "file": "content/articles/housing/ithaca-2026-moratorium-student-event-permits.md",
+  "url": "/cornell/housing/ithaca-2026-moratorium-student-event-permits/",
+  "slug": "ithaca-2026-moratorium-student-event-permits",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Glance line 3: 'It had an end date in early November; the sources here do not say whether it was extended.' The same admission appeared in '## Is the moratorium still in effect?' ('The sources used for this guide give an end date and none reports an extension or a lapse') and in What to do next ('Check whether the moratorium was extended').",
+    "tried": "Page's own Ithaca Times source, re-fetched: it gives only the Nov. 5 expiry. Fact file rows new-9244 and new-9264: also only the expiry. City of Ithaca news release of Oct. 8, 2026: in place through Nov. 5 unless the Council extends it. Three WebSearch queries. Spectrum News, Nov. 5, 2026, fetched. 607 News Now, Nov. 5, 2026, fetched.",
+    "outcome": "FOUND and written with citations. The City let the moratorium lapse on Nov. 5, 2026, instead of extending it. Mayor Robert Cantelmo told the Common Council it would lapse 'for the time being' and said Cornell had agreed to two of the City's three demands. The open demand is a permanent handover of sex crime investigations to the Ithaca Police Department or another government agency, and the City will reconsider the moratorium if Cornell does not meet it. Glance line, opening answer, the still-in-effect section (now opens 'No.'), dek, meta and What to do next all updated. All admission text deleted."
+   },
+   {
+    "item": "Renters section: 'The sources do not say that the pause applies to an individual tenant's apartment party, and noise permits for individuals are not described.'",
+    "tried": "Fact file row 2.15-0217 (City noise permit). Ithaca Times, re-fetched: silent on individuals. City of Ithaca news release, Oct. 8, 2026. 14850.com explainer, Oct. 16, 2026, fetched twice to check the context of the staff quote. WSKG, Oct. 8, 2026, fetched: it says nothing about individuals and is not used. City Noise Permit page, fetched.",
+    "outcome": "FOUND and written with citations. The pause named Cornell and its affiliated fraternities, sororities and student organizations (City release). A City staff member said it was not meant to stop a small gathering with a Bluetooth speaker (14850.com). Anyone whose amplified sound carries outside a building between 10 p.m. and 7:30 a.m. needs a City noise permit, applied for at least 72 hours ahead (City Noise Permit page). Admission deleted. Also removed an unsourced prediction that no longer holds after the lapse: 'If you rent near a chapter house, expect fewer permitted events on nearby streets and the Commons.'"
+   },
+   {
+    "item": "Reader block 'If you're a junior or senior renting a house': 'Nothing in the sources here changes the lease you hold.' Not flagged by the linter, but it is an admission.",
+    "tried": "City of Ithaca news release (what the measure covered).",
+    "outcome": "REWRITTEN from the sourced scope: 'The moratorium dealt with City event and noise permits, not leases.' The admission is gone."
+   },
+   {
+    "item": "Unverifiable contact detail and wrong link. The old still-in-effect section gave a City Clerk phone number (607-274-6580) and the 108 E. Green St. address, cited to https://www.cityofithacany.gov/731/Permit-Issuance. What to do next linked the same page as the 'City Clerk's permit office'.",
+    "tried": "Fetched the cited Permit Issuance page: it covers only residential parking permits and visitor passes and lists no phone number. Searched cityofithacany.gov for the event-permit office. Fetched the City Special Events page.",
+    "outcome": "REMOVED the unverified phone number and address sentence. The rewritten section now answers the question directly, so the sentence is no longer needed. The What to do next link now points to the City's Special Events page, which is verified as the City's event-permit hub. The 731 source was dropped from the frontmatter because nothing cites it now."
+   }
+  ],
+  "sources_added": [
+   "https://www.cityofithacany.gov/m/newsflash/home/detail/1510",
+   "https://spectrumlocalnews.com/nys/central-ny/politics/2026/11/05/ithaca-moratorium-cornell-student-permits-end",
+   "https://607newsnow.com/news/258852-ithaca-mayor-allows-cornell-moratorium-to-end-for-time-being/",
+   "https://www.14850.com/101647462-ithaca-moratorium-cornell-events/",
+   "https://www.cityofithacany.gov/528/Noise-Permit",
+   "https://www.cityofithacany.gov/522/Special-Events"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited one file in place: /Users/ajaysharma/Ads/campus-publication/content/articles/housing/ithaca-2026-moratorium-student-event-permits.md. The title, slug, images block and every fenced block are unchanged; the 4-bullet glance and the 2 reader blocks are kept. No section was removed.\n\nChecks:\n- `python3 scripts/lint-content.py <file>` reports 0 banned-phrase matches (it was 2 before).\n- `grep -c \"\u2014\"` returns 0.\n- The frontmatter parses as YAML.\n- All 10 frontmatter sources are cited in the body, and every cited URL is in the sources list.\n\nOther changes:\n- One heading changed tense because the moratorium has lapsed: 'What does the moratorium do?' is now 'What did the moratorium do?'. A few other verbs also moved to past tense: glance line 2, 'limited', and 'did not govern'.\n- Added one sourced sentence: constitutionally protected activities (religious exercise, free speech, peaceful assembly and petitioning) were exempt, per the City release.\n- The dek now says the pause lapsed Nov. 5.\n- The meta was rewritten to cover the lapse. It is now 154 characters, within the v2 lint range of 120 to 155; it was 163 before.\n- `updated` is now 2026-11-11.\n- Removed the source https://www.cityofithacany.gov/731/Permit-Issuance. It covers residential parking permits only, and nothing on the page cites it any more.\n\nNot done:\n- I started a full `scripts/v2/lint.py --no-network` run before editing, but it had not finished. Many other lint.py processes are running in parallel, so I have no v2 lint result for the final file.\n- I did not write `reports/gaps.md` and did not commit.\n- One sentence I left alone, outside the flagged gaps, is an editorial inference without a source. In What to do next: 'since its outcome decides what chapter housing looks like for 2027-28'. Cornell's directive only says the review covers whether and how fraternity life continues. A checker may want to soften it.",
+  "sound": true,
+  "problems": "All five checks hold. The linter prints 0 matches and the em-dash count is 0. No sentence admits a gap, and every heading and glance line is answered in the body. Every body URL is in the frontmatter sources. I did not check the Ithaca Times source or the Cornell pages, which were not added today. The page is not mandatory. Fetched sources match the page: City release (Oct. 8; scope; protected-activity exemption; Nov. 5 expiry), Spectrum (lapse; reconsider), 607 (Cantelmo; \"for the time being\"; two of three demands; the open handover demand), Noise Permit page (10 p.m. to 7:30 a.m.; 72 hours; amplified sound heard outside a building), and the Special Events page (City event-permit hub).\n\nMinor fixes, not blocking:\n1. \"What to do next\": \"since its outcome decides what chapter housing looks like for 2027-28\" is an unsourced inference. Soften it.\n2. \"Mayor Robert Cantelmo told the Common Council\": the fetched 607 and Spectrum text does not say he told the Council. Say \"said\" instead.\n3. The 14850 staff comment is from an unnamed staff member and concerns \"house party\" speakers audible outside. The page's paraphrase is acceptable, but add \"unnamed\" or \"a City staff member told 14850\" to make that clear.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/housing/ithaca-heat-out-frozen-pipes-landlord-must-do.md",
+  "url": "/cornell/housing/ithaca-heat-out-frozen-pipes-landlord-must-do/",
+  "slug": "ithaca-heat-out-frozen-pipes-landlord-must-do",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged sentence (lint matches 1 and 2, the same sentence): 'The sources behind this page do not say who pays for a burst-pipe repair or for belongings it damages.' (section 'What about frozen or burst pipes?')",
+    "tried": "The page's own source, the Cornell Law Tenants' Advocacy building-issues page (re-opened; sections 1.2, 1.3, 1.3(3), 1.4); topic brief sections 2.10 and 2.20 and facts.csv (no answer there); General Obligations Law 5-321 on nysenate.gov",
+    "outcome": "FOUND. Deleted the admission. Now: the landlord generally has to repair it unless a tenant, another occupant or a guest caused the damage. Damaged belongings are a separate claim: a habitability case cannot recover their lost value, and getting paid for them takes a different legal proceeding (Cornell Law guide). A lease clause that excuses the landlord from paying for property damage caused by the negligence of the landlord or its employees in running or maintaining the building is void (GOL 5-321). The renter's insurance advice stays."
+   },
+   {
+    "item": "Unflagged admission in the reader block 'If you rent outside the City of Ithaca': 'Its page describes building, zoning and short-term rental permits and says nothing about heat complaints, so call and ask whether he takes them'",
+    "tried": "Village of Cayuga Heights code enforcement page (re-opened); CCE Tompkins tenant-landlord page; 19 NYCRR 1203.3 on law.cornell.edu; WebSearch for the village's own Uniform Code complaint section on ecode360 (not found, and ecode360 returns 403)",
+    "outcome": "FOUND. Deleted the admission. Now: the county extension's steps end with a formal complaint to the local Building Department or Code Enforcement Officer (CCE). In Cayuga Heights that is Code Enforcement Officer Craig Southard, 836 Hanshaw Road, 607-257-5536 ext. 104 (village page). State rules require every local government that enforces the state building codes to have a complaint procedure (19 NYCRR 1203.3(i)). The block keeps its type and title, and the existing 'ask the office which heat season it enforces' advice stays."
+   },
+   {
+    "item": "Dead source behind the sentence next to the flagged one: 'Off-Campus Living team, at 607-255-5368, offers help with maintenance requests and conflicts with landlords', cited to scl.cornell.edu/.../campus-housing/campus-living (now 404)",
+    "tried": "The old URL (404); Cornell's housing landing page; the new living-off-campus hub, signing-the-lease and tenant-best-practices pages; the brief's contradictions table (2310 vs 5368)",
+    "outcome": "REPLACED. The moved hub does not carry the old claim. Now: 'For questions about your lease or your landlord, call Cornell's Off-Campus Living office at 607-255-2310', cited to the moved signing-the-lease page, which says exactly that. Also moved the checklists and signing-lease citations to their new living-off-campus URLs (the old ones return 404)."
+   },
+   {
+    "item": "Number not on its cited page: 'The phone number is 607-274-6508', cited to the City Building Division page",
+    "tried": "City Building Division page (downloaded); City Certificate of Compliance page; Cornell Law guide; CCE page",
+    "outcome": "FIXED. The Building Division page lists 607-274-6510 as its phone. The City's Certificate of Compliance page gives 607-274-6508 for housing inspection questions, weekdays 8 a.m. to 4 p.m. Both are now stated, each with its own citation. The glance and parent block keep 6508, which matches that page, Cornell Law and CCE. I also rewrote the narration 'The page lists Rob Fell-DeWalt as...' as 'Rob Fell-DeWalt is director of code enforcement'."
+   }
+  ],
+  "sources_added": [
+   "https://www.nysenate.gov/legislation/laws/GOB/5-321",
+   "https://www.law.cornell.edu/regulations/new-york/19-NYCRR-1203.3",
+   "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+   "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations",
+   "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/housing/ithaca-heat-out-frozen-pipes-landlord-must-do.md. Checks: `python3 scripts/lint-content.py` reports 0 matches, `grep -c \"\u2014\"` returns 0, every body URL is in the frontmatter sources and every source is cited. The title, slug, headings, glance, figure, images and redirects are unchanged.\n\nFrontmatter: three Cornell source URLs that now return 404 were replaced or removed (the old checklists and signing-lease URLs became their moved living-off-campus URLs, and the dead campus-living entry was dropped). Five sources were added (listed above). The accessed date is now 2026-11-11 for the Cornell Law building-issues page, CCE, the City Building Division page and the Cayuga Heights page, all re-opened today.\n\nRule 5: the page had no legal-advice line, so 'This page is general information, not legal advice.' was added as the last line, matching other housing pages.\n\nIssues for the owner or orchestrator, none changed here:\n(1) Heat season conflict. Cornell Law's guide says 'In New York State, the heating season runs from October 1 through May 31', and this page repeats it in the glance, body and reader block. A WebSearch summary cites a City of Rochester document and a Westchester County page saying the Property Maintenance Code of New York State (602.3) requires heat from Sept 15 to May 31, which would make Oct 1 the NYC rule. I could not open the official code (codes.iccsafe.org, ecode360 and the Rochester PDF all returned 403), so the sourced claim stays. 12 content pages carry the statewide Oct 1 claim. This needs a primary-source check.\n(2) Sitewide dead links. 137 content files still cite the old scl.cornell.edu/residential-life/housing/campus-housing/... or /campus-living URLs, which now return 404. Cornell moved off-campus content under /residential-life/housing/living-off-campus/.\n(3) Building Division phone. 70 files use 607-274-6508. The Building Division page lists 607-274-6510, while the Certificate of Compliance page still gives 6508 for housing inspection questions.\n\nThe v2 publish lint (scripts/v2/lint.py --no-network) did not finish within 180 s and was stopped. It was not one of the required checks. reports/gaps.md and facts.csv were not edited.",
+  "sound": true,
+  "problems": "All five checks hold. Lint prints 0 matches and grep -c for the em dash prints 0. I read the page and found no sentence that narrates missing sources, and no heading or FAQ promises something the body leaves unanswered. I fetched the sources added today and each supports its sentence: GOL 5-321 voids lease clauses exempting the landlord from liability for property damage; 19 NYCRR 1203.3(i) requires a complaint procedure; the Certificate of Compliance page gives 607-274-6508 for housing inspection, weekdays 8 a.m. to 4 p.m.; the signing-lease page gives 607-255-2310 and the ask-who-handles-repairs question; the checklists page says to buy renter's insurance; the Cayuga Heights page names Craig Southard, 836 Hanshaw Road, 607-257-5536 ext. 104. All body URLs are in the frontmatter sources. I could not tell whether the page is mandatory, so I did not assess check 5. One caveat is carried over from the rework agent. The statewide Oct. 1 heat-season claim rests on Cornell Law alone and conflicts with the NY Property Maintenance Code, which a search summary put at Sept. 15 (not verified against the official code). It matches the cited source, so it is not a page defect, but it needs a primary-source check.",
+  "retried": false
+ },
+ {
+  "file": "content/articles/housing/ithaca-trash-tags-snow-noise-rules-renters.md",
+  "url": "/cornell/housing/ithaca-trash-tags-snow-noise-rules-renters/",
+  "slug": "ithaca-trash-tags-snow-noise-rules-renters",
+  "kind": "spoke",
+  "queue_id": "q-housing-0044",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "High-visibility vest required since August 1, 2026 (parent reader block and recycling section)",
+    "tried": "WebFetch of the Tompkins County Recycling and Materials Management main page (curl gets a 403 there, WebFetch works); fact file row 2.14-0208",
+    "outcome": "Verified. The county page says a new safety requirement at the RSWC started August 1, 2026, and anyone on the tip floors must wear a hi-vis vest. The recycling-section sentence now links that page instead of the Additional Recyclables page. The reader block wording stays."
+   },
+   {
+    "item": "$20 special service charge (City Code 196-6) and the 2:00 p.m. / 4:00 a.m. set-out window (196-3)",
+    "tried": "ecode360 by curl and WebFetch (403 and a Cloudflare challenge); WebSearch; the Wayback Machine snapshot of ecode360.com/8389639 from 2022-10-10",
+    "outcome": "Verified from the archived code text. 196-3F gives 'after 2:00 p.m. on the day prior' and 'before 4:00 a.m.', with no callbacks. 196-6A(1) covers the notice that gives the reason. 196-6A(2) sets residential units at $20 per occasion, charged to the owner. Kept the text and added the archive snapshot to sources."
+   },
+   {
+    "item": "178-10 civil penalty tiers ($25/$50/$100 within six months; $40/$60/$100 within 12 months for snow) and the $10 lid fine",
+    "tried": "ecode360 (403); Wayback snapshot of ecode360.com/8389191 (blocked as bot traffic by curl, WebFetch cannot reach archive.org); WebSearch for the amounts (nothing found); WebFetch of the City Exterior Property Maintenance page (gives no amounts and refers to 178-10)",
+    "outcome": "Not verified, so cut. All the dollar tiers and the $10 lid fine are gone. Both passages now say only what the City EPM page states: the owner or the owner's agent is liable for a civil penalty, and each day counts as a separate violation. Both cite the EPM page. The 178-10 ecode source entry is removed."
+   },
+   {
+    "item": "Noise: 60/50 dBA residential limits, 7:30 a.m. to 10:00 p.m. hours, party host 25 feet, vehicle audio 25/50 feet, '2018 amendments'",
+    "tried": "ecode360 (403); Wayback snapshot of ecode360.com/8391259 from 2025-07-26 read with curl",
+    "outcome": "Verified: Table I gives Residential outdoors 60 dBA from 7:30 a.m. to 10:00 p.m. and 50 dBA from 10:00 p.m. to 7:30 a.m., plus the 240-7 person-in-charge rule at 25 feet and the vehicle audio rule at 25 and 50 feet. The '2018 amendments' claim could not be found and was cut. The sentence now reads 'Outdoors at a residential property, the sound limits are 60 dBA by day and 50 dBA at night' and links 8391259. The table row is renamed 'Residential outdoor sound limit'. The archive snapshot was added to sources."
+   },
+   {
+    "item": "Yard waste April 1 to November 30 cited to the Collection page",
+    "tried": "The skeptic confirmed the City tag page supports the dates",
+    "outcome": "Fixed. The dates now link the tag page, and the Collection page link stays on the no-plastic-bags clause."
+   },
+   {
+    "item": "RSWC address 160 Commercial Ave, hours, TV fee, microwave as scrap metal",
+    "tried": "WebFetch of the Additional Recyclables at the RSWC page",
+    "outcome": "Verified, unchanged."
+   }
+  ],
+  "sources_added": [
+   "http://web.archive.org/web/20221010165004/https://ecode360.com/8389639",
+   "http://web.archive.org/web/20250726205758/https://ecode360.com/8391259"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited /Users/ajaysharma/Ads/campus-publication/content/articles/housing/ithaca-trash-tags-snow-noise-rules-renters.md in place. The lint reports 0 matches, the em-dash count is 0, and every body URL is in the sources list. Removed source: https://ecode360.com/8389191 (178-10), because no amount from it survives on the page. Nothing was committed or pushed. This step only edits the page. The relayed user question 'did u push everything' is for the main session to answer. I also tried a Granger Waste Services page from search results; it concerns Ithaca, Michigan (Ric's Food Center, $2 tags), so I did not use it. Images block, title, slug, headings and fenced blocks are unchanged.",
+  "sound": true,
+  "problems": "None blocking. Evidence: lint printed 0 matches and the em-dash count is 0. Every body URL is in the frontmatter sources (script found none missing). I read the page and found no sentence that narrates missing research. The title, glance line and FAQ are all answered in the body. Both archive snapshots were fetched with curl and support the text. 196-3 gives after 2:00 p.m. the day prior and before 4:00 a.m., with no callbacks after 4:00 a.m. 196-6A(2) sets $20 per occasion for residential units, assessed against the owner. 196-6A(1) covers the notice that gives the reason. Chapter 240 Table I gives outdoor residential limits of 60 dBA from 7:30 a.m. to 10 p.m. and 50 dBA from 10 p.m. to 7:30 a.m. The party rule applies at 25 feet. Vehicle audio is 50 feet by day and 25 feet from 10 p.m. to 7:30 a.m. The county page confirms the hi-vis vest rule from August 1, 2026, the RSWC hours (Monday to Saturday, 7:00 a.m. to 3:30 p.m.) and the 122 Commercial Ave office hours and phone. The page is not a mandatory page. Minor nit only: the image alt text and caption contain the typo 'Spririts', which is the original Commons file title.",
+  "retried": true
+ },
+ {
+  "file": "content/articles/housing/surviving-ithaca-winter-old-apartment-drafty-house.md",
+  "url": "/cornell/housing/surviving-ithaca-winter-old-apartment-drafty-house/",
+  "slug": "surviving-ithaca-winter-old-apartment-drafty-house",
+  "kind": "idea-run",
+  "queue_id": "",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "Flagged sentence, both lint matches (file line 81, section 'How do you stay warm without turning up the heat?'): 'The sources behind this page do not give costs or savings for window film, draft stoppers or space heaters, so treat the list below as advice and check each product's label.' Part 1: costs or savings for window film, draft stoppers and space heaters.",
+    "tried": "Page's own sources: dps.ny.gov/winter (WebFetch, 2026-27 season; it has tips but no product costs or savings) and health.cornell.edu/about/news/cold-weather-safety (curl; clothing advice only). Topic brief intel/off-campus-housing/brief.md and fact file intel/off-campus-housing/facts.csv (grep; nothing on window film, draft stoppers or space-heater costs, only Cornell's West Hill uninsulated-cottage note). Repo corpus (only Cornell's on-campus ban on space heaters, which does not apply off campus). Web: WebSearch for DOE Energy Saver and NYSERDA guidance. energy.gov/energysaver/energy-efficient-window-attachments returned 404, and the Energy Saver portable heaters, air-sealing and weatherstrip pages also returned 404 on 2026-11-11. NYSERDA's '35 easy ways to save energy and money' PDF and its 'How to Weatherize for Winter' page both returned 403.",
+    "outcome": "Not found. I deleted the admission and wrote no cost or savings figures. No title, heading, glance line, dek or meta promised product costs, so nothing else needed removing."
+   },
+   {
+    "item": "Same flagged sentence. Part 2: the claim that the stay-warm list is only unsourced advice, and the space-heater advice to 'check each product's label'.",
+    "tried": "dps.ny.gov/winter (an existing page source, WebFetch 2026-11-11), under Energy Efficiency Tips and Winter Safety (Staying Warm Indoors, Taking Precautions).",
+    "outcome": "Found and written with citations. The section now opens with a sourced line: NY Department of Public Service advises sealing air leaks around windows and doors and opening curtains on winter days for free heat from the sun. 'Is it safe?' gets a new sourced paragraph: follow the manufacturer's instructions for any space heater, and never heat the apartment with a gas oven, since long use of an open oven in a closed house can create carbon monoxide (DPS). I scanned the rest of the page and found no other admission."
+   }
+  ],
+  "sources_added": [
+   "https://international.globallearning.cornell.edu/life-cornell/student-resources"
+  ],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "File edited in place: /Users/ajaysharma/Ads/campus-publication/content/articles/housing/surviving-ithaca-winter-old-apartment-drafty-house.md. Body changes: (1) Under 'How do you stay warm without turning up the heat?' the admission is replaced by: 'New York's Department of Public Service advises sealing air leaks around windows and doors. It also says to open the curtains on winter days for free heat from the sun ([NY Department of Public Service](https://dps.ny.gov/winter)).' (2) Under 'Is it safe?' I added a paragraph before the ad break: 'Follow the manufacturer's instructions for any space heater, and never heat the apartment with a gas oven. Long use of an open oven in a closed house can create carbon monoxide, the department warns ([NY Department of Public Service](https://dps.ny.gov/winter)).' The bullet list, glance, reader and tool blocks, images block, title, slug and headings are unchanged. Frontmatter: updated set to '2026-11-11'. Accessed dates for dps.ny.gov/winter and health.cornell.edu/about/news/cold-weather-safety moved to '2026-11-11', since I reopened both today. On DPS, the existing numbers still match for 2026-27: $241 a month for 140 therms, November to March, down 3.2%; $74 a month for 600 kWh, up 4.6%; HEAP 1-800-342-3009. I added one new source, Cornell International Services 'Student Resources' (accessed '2026-11-11'). It backs the existing, previously uncited international-student reader-block claim that down coats are warmest and mittens beat gloves. I checked it live and left the reader block text as it was. Checks: scripts/lint-content.py prints 0 banned-phrase matches; grep -c for em dashes returns 0; page_check.py PASS (661 prose words, grade 7.7); frontmatter parses; every inline URL is in the sources list. Not changed, outside this step: the page links '/housing/how-to-check-an-ithaca-landlords-record/' (no /cornell/ prefix) with the old link text 'guide to landlords to avoid in Collegetown'. The same link pattern appears on many other pages, so Phase 3's internal-link test should check it. Nothing was committed.",
+  "sound": true,
+  "problems": "None blocking. (1) The linter reports 0 matches and the em dash count is 0. (2) No sentence admits missing sources or research, and every heading is answered by the body. (3) I fetched the three sources reopened or added today, and all support the page. dps.ny.gov/winter confirms sealing air leaks, opening curtains for sun, following manufacturer instructions for heaters, the gas-oven carbon monoxide warning, $241 gas (down 3.2%), $74 electric supply (up 4.6%) and HEAP 1-800-342-3009. Cornell International Services confirms down coats are warmest and mittens beat gloves. Cornell Health confirms layers, a water-resistant jacket and boots, and covering hands and ears. (4) Every URL linked in the body is in the frontmatter sources list. The international source is listed but not linked inline, which is harmless. (5) I found no sign the page is mandatory, so that check does not apply. Non-blocking notes: the link /housing/how-to-check-an-ithaca-landlords-record/ lacks the /cornell/ prefix, and the guide link text says \"landlords to avoid\", which the rework agent already flagged for Phase 3.",
+  "retried": false
+ },
+ {
+  "file": "content/tools/cornell-break-travel-timeline-2026-27/tool.md",
+  "url": "/tools/cornell-break-travel-timeline-2026-27/",
+  "slug": "cornell-break-travel-timeline-2026-27",
+  "kind": "tool",
+  "queue_id": "q-getting-around-0063",
+  "changed": true,
+  "lint_clean": true,
+  "gaps": [
+   {
+    "item": "tool.md line 108 (was 107): 'NYC was not sampled, so applying it to NYC is an assumption.'",
+    "tried": "No new research needed; the sentence describes the tool's method",
+    "outcome": "Reworded as what the tool does: 'The tool applies the average of the three routes to NYC trips as well.'"
+   },
+   {
+    "item": "tool.md lines 106 and 116: 'had not posted a 2026-27 date' / 'Cornell's 2026-27 date is not yet published'",
+    "tried": "Skeptic accepted these as statements about Cornell's schedule",
+    "outcome": "Kept unchanged"
+   },
+   {
+    "item": "tool.md line 111: spring term start date conflict (Registrar Jan 25 vs notice Jan 26)",
+    "tried": "Checked the line: Jan 25 already attributed to the Registrar; the winter closing notice is cited only for the residence close and reopen times",
+    "outcome": "No change needed"
+   },
+   {
+    "item": "tool.html residence-close row used the 2025 precedent (closing2025, marked not yet published)",
+    "tried": "Cornell Housing winter closing notice (already in sources, accessed 2026-11-11): 2 p.m. Sun Dec 20, 2026 close, 9 a.m. Tue Jan 19, 2027 undergraduate reopen",
+    "outcome": "Replaced closing2025 with closing2026 and reopen2027; the row is now dated, the np flag is removed, and the text gives the reopen time"
+   },
+   {
+    "item": "tool.html spring-term row: 'Recess ended <classes2026> last year' (stale 2026 date from the notice)",
+    "tried": "The skeptic said not to cite the notice for class start dates",
+    "outcome": "Deleted the clause and the classes2026 key; the row keeps the Registrar's Jan 25, 2027 date"
+   },
+   {
+    "item": "tool.html 'Spring move-in dates are not in our research.' and 'Summer housing is not in our research.'",
+    "tried": "No spring move-in or summer housing source among the page sources; a concurrent edit had already removed both by the time of my write",
+    "outcome": "Removed (absent from the final file)"
+   },
+   {
+    "item": "tool.html December finals row: 'Free Student Assembly airport charters ran in finals week in fall 2024 and 2025' (earlier version ended 'none found for fall 2026 as of Nov 8')",
+    "tried": "Page sources cover only the May 2024 charters (Cornell Sun) and the April 2026 SA R83 vote; no cited source for fall charters",
+    "outcome": "Replaced with the sourced OurBus peak-day line: 'OurBus names it one of its busiest days. Book early.'"
+   },
+   {
+    "item": "tool.html storage row: 'Big Red Shipping and Storage ... posts no prices'",
+    "tried": "This admission has the same pattern as 'the page lists no'",
+    "outcome": "Trimmed to 'Big Red Shipping and Storage has limited slots.'"
+   },
+   {
+    "item": "tool.html Thanksgiving-stay row: 'Holiday TCAT service is not confirmed ... dining hours are not in our research'",
+    "tried": "Before my write, a concurrent edit replaced it with the Celebration of Gratitude Dinner fact and added its events.cornell.edu source to the frontmatter",
+    "outcome": "Left as the concurrent edit wrote it; I did not verify that source myself"
+   }
+  ],
+  "sources_added": [],
+  "sections_removed": [],
+  "title_changed_to": "",
+  "lost_purpose": false,
+  "notes": "I edited two files: /Users/ajaysharma/Ads/campus-publication/content/tools/cornell-break-travel-timeline-2026-27/tool.md and /Users/ajaysharma/Ads/campus-publication/content/tools/cornell-break-travel-timeline-2026-27/tool.html. Results: lint prints 0 matches, grep prints 0 em dashes, the tool.html script parses in node, and every D/v/M/d/src key the rows use exists in NUMBERS. Another process changed both files at 19:50:16, during this pass. It added the Thanksgiving dinner row text and the events.cornell.edu source, and it removed the spring move-in and summer housing admissions. I applied my edits on top of that version, so nothing was overwritten. Because the Thanksgiving dinner fact is not mine, I did not verify it. Nothing was committed or pushed.",
+  "sound": false,
+  "problems": "Checks 1, 4 and 5 hold. The lint prints 0 matches and grep prints 0 em dashes. Every body link is in the frontmatter sources. The page does not claim to be a mandatory page, so check 5 does not apply.\n\nCheck 3 holds for both sources added today. The Housing winter closing notice says residences close at 2 p.m. Sun Dec 20, 2026 and undergraduates reopen at 9 a.m. Tue Jan 19, 2027. The events.cornell.edu page says the Thanksgiving dinner is Nov 26, 11:30 a.m. to 2:30 p.m. at Morrison Dining, reserve by noon Mon Nov 23, one swipe for meal-plan students. Both match tool.html.\n\nCheck 2 has three problems.\n- tool.md line 107: \"the page prints weekdays that match 2026, not a year\" describes what a source lacks. Reword to state the year as \"2026 (weekday-matched)\" or drop the sentence.\n- Frontmatter meta (line 3) promises \"every 2026-27 Cornell travel, parking and housing deadline, dated\". Line 46 and tool.html (the np rows: finals charters, move-out, 2027-28 permit sale) show some dates are not published, so \"every ... dated\" overpromises.\n- Line 54 and the \"Summer 2027\" checkbox in tool.html (line 29), and the summer-in-ithaca reader tag, promise summer-stay content. The only summer content left is a TCAT sentence and the storage row, and no summer housing row remains.\n\nLines 106 and 116 (\"not yet published\") are statements about Cornell's schedule, so I accepted them.",
+  "retried": true
+ }
+]

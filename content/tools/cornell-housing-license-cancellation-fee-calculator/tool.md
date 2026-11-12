@@ -2,7 +2,7 @@
 title: "Cornell housing cancellation fee calculator, 2026-28"
 meta: "Enter class year, reason, cancel date and room rate; get your Cornell housing license cancellation fee, penalty-free deadline or a no-cancel answer."
 topic: housing
-updated: 2026-11-08
+updated: 2026-11-11
 numbers_as_of: 2026-11-08
 queue_id: q-housing-0065
 kind: tool
@@ -15,7 +15,7 @@ sources:
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing and Residential Life: Residential policy", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing", title: "Cornell Housing and Residential Life: Requirements for qualified university-recognized housing", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities", title: "Cornell Sorority and Fraternity Life: Financial obligations", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life: Directory", accessed: "2026-11-08"}
+  - {url: "https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life: Directory", accessed: "2026-11-08"}
 ---
 
 This calculator tells you what Cornell charges to cancel a room on the date you cancel. Cornell housing is a license, not a lease, and its cancellation fee climbs with the calendar: $50 through Jan 31, then $500, $1,000, $2,000, and after Aug 15 half the fall room rate. Pick your status, the license year, what you are cancelling, why, the date and your room. The tool returns the fee, the penalty-free deadline if your reason qualifies, or a plain "you cannot cancel".
@@ -69,7 +69,7 @@ The menu's per-semester rates other than the double are half the yearly rate, ou
 - 2027-28 room rates are posted in March 2027; until then the tool uses 2026-27 rates, and rates shown at Fall Housing Selection are projected and subject to Board of Trustees approval ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Type the final rate when it is out.
 - The "cannot cancel" answer for first-years, new transfers and second-years has a cost behind it: students who neither meet the residential requirement nor hold an exemption "will still be billed for the full year" ([requirements page](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)), $13,744 for a 2026-27 double.
 - Exemption requests are not accepted after a signed housing license is completed or during the license period; exemptions last one academic year ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
-- For first- and second-years, the license allows cancelling when "no longer attending". Whether study away or an internship counts is for Housing Operations to say: 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu ([directory](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
+- For first- and second-years, the license allows cancelling when "no longer attending". Whether study away or an internship counts is for Housing Operations to say: 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu ([directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
 - A returning junior or senior moving into a Greek house or co-op is treated as an ordinary cancellation on the dated schedule.
 - Not in the brief: the fee, if any, when a first- or second-year cancels on a Greek, affiliated or co-op acceptance or on an exemption.
 - Not in the brief: the exact 2027 Spring Housing Selection deadline. In 2026 the selection for rising sophomores ran in April, and Greek-house residents affirmed by March 15.
@@ -87,6 +87,6 @@ The bold line is the answer: a dollar fee, $0 with the days left before a penalt
 - [Off-campus housing for sophomores planning junior year](/housing/off-campus-housing-cornell-sophomores/)
 - [When to sign a Collegetown lease, and when waiting is fine](/housing/when-to-sign-collegetown-lease-cornell/)
 - [Who can live off campus at Cornell: the rule and exemptions](/housing/cornell-residential-requirement-exemptions-live-off-campus/)
-- [Cornell co-ops and Greek houses: cost and how to get in](/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
+- [Cornell co-op or Greek house instead of a dorm: how to join](/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
 - [Off-campus housing at Cornell: a parent's guide](/housing/cornell-off-campus-housing-for-parents/)
 - [Cornell transfer housing: how it actually works](/housing/cornell-transfer-housing/)

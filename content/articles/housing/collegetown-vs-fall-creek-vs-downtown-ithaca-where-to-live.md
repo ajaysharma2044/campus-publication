@@ -23,7 +23,7 @@ tools:
 - ithaca-rent-commute-calculator
 - when-to-sign-lease-timeline-cornell
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca neighborhoods, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -38,7 +38,7 @@ sources:
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258
   title: 709 N Tioga St, Cornell Off-Campus Housing marketplace
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
@@ -74,7 +74,7 @@ sources:
 - url: https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/
   title: Ithaca landlords must now give renters 120 days before renewing leases, WSKG
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe living environments, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://ithacavoice.org/2026/07/cornell-collegetown-construction/
@@ -112,7 +112,7 @@ images:
 - Popular Collegetown units fill a year ahead; downtown and Fall Creek lease months later.
 ```
 
-Pick Collegetown if walking to class matters most and you can sign about a year ahead. Pick downtown if you want lower per-bed rent and can ride the bus. Pick Fall Creek for quiet and a grad-heavy crowd. The three areas differ most in distance, price and when the leases fill, per [Cornell's neighborhood guide](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods).
+Pick Collegetown if walking to class matters most and you can sign about a year ahead. Pick downtown if you want lower per-bed rent and can ride the bus. Pick Fall Creek for quiet and a grad-heavy crowd. The three areas differ most in distance, price and when the leases fill, per [Cornell's neighborhood guide](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods).
 
 ## How do the three neighborhoods compare?
 
@@ -153,7 +153,7 @@ A Collegetown studio costs $370 more than downtown (21% less downtown), a 1BR co
 
 Across the whole inventory of Cornell-area buildings, the median cheapest per-person spot is $997.50 in Collegetown, $875 downtown, $828.33 in Fall Creek and $730 on South Hill ([off-campus marketplace listings](https://offcampushousing.ithaca.edu/listing), Nov. 2026, 74, 44, 10 and 8 buildings). Fall Creek prices are the least certain, because few buildings post per-bed prices.
 
-Every price needs one benchmark. Cornell's [2026-27 hall double](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) costs $13,744 a year with gas, electricity, garbage and internet included, which is $1,145.33 a month over 12 months.
+Every price needs one benchmark. Cornell's [2026-27 hall double](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) costs $13,744 a year with gas, electricity, garbage and internet included, which is $1,145.33 a month over 12 months.
 
 Example: three friends compare a Collegetown 3BR bed at $1,243.75 with a downtown 3BR bed at $795. The gap is $448.75 a month each, or $5,385 a year, using the Ithaca Renting [Collegetown](https://ithacarenting.com/collegetown/) and [downtown](https://ithacarenting.com/downtown/) prices. A downtown share costs $9,540 a year ($795 times 12), which is $4,204 under the hall double.
 
@@ -200,9 +200,9 @@ Our [lease timing guide](/cornell/housing/when-to-sign-collegetown-lease-cornell
 
 ## Which side of the city line is each one on?
 
-All three sit in the City of Ithaca, so two protections apply. A landlord must give current tenants [120 days' written notice](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/) before renewing, showing or re-letting a unit, unless the tenant initialed a waiver. City rentals also appear in Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments), which shows sprinklers, alarms and construction type. Neither covers the Town of Ithaca, Lansing or Cayuga Heights.
+All three sit in the City of Ithaca, so two protections apply. A landlord must give current tenants [120 days' written notice](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/) before renewing, showing or re-letting a unit, unless the tenant initialed a waiver. City rentals also appear in Cornell's [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments), which shows sprinklers, alarms and construction type. Neither covers the Town of Ithaca, Lansing or Cayuga Heights.
 
-Cornell's walk times for some other areas do not match its own distances ([Cornell neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). At a 3 mph walking pace, which is our assumption, Belle Sherman's 1 to 2 miles take 20 to 40 minutes, not Cornell's "15-minute level walk." Plan from the distance.
+Cornell's walk times for some other areas do not match its own distances ([Cornell neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). At a 3 mph walking pace, which is our assumption, Belle Sherman's 1 to 2 miles take 20 to 40 minutes, not Cornell's "15-minute level walk." Plan from the distance.
 
 | Area | Distance | Walk at 3 mph | Notes |
 |---|---|---|---|

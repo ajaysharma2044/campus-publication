@@ -28,7 +28,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits
   title: Security Deposits, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out
   title: Moving In and Out, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-I
@@ -55,7 +55,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus Living Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
@@ -73,7 +73,7 @@ sources:
 - url: https://sparefoot.com/Ithaca-NY-self-storage.html
   title: Self Storage in Ithaca, NY, SpareFoot
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
@@ -105,6 +105,8 @@ kind: spoke
 
 Ask your landlord in writing for a move-out inspection, which New York law sets between two weeks and one week before the lease ends, with at least 48 hours' written notice ([General Obligations Law 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). Fix what it flags, photograph every room, and leave a forwarding address. The deposit then comes back on a state deadline, covered below.
 
+This page is general information, not legal advice.
+
 ## What is the move-out timeline?
 
 Most Ithaca leases end on the last day of July, tied to the student calendar ([The Cornell Daily Sun](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing)). For a lease ending then, the dates below follow from the return deadline and the inspection window.
@@ -120,12 +122,12 @@ rows:
   - {label: "Deposit or itemized statement due", date: "Aug. 14"}
 ```
 
-Cornell's Off-Campus Living office lays out a [two-stage checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out):
+Cornell's Off-Campus Living office lays out a [two-stage checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out):
 
 1. **Two weeks before.** Confirm your move-out date and time, schedule the final inspection, reread the lease and change your address with the Post Office.
 2. **One week before.** Schedule disconnection of electric, gas, phone, internet, cable and garbage service if they are in your name. Clean. Give the landlord a forwarding address.
 
-On move-out day, photograph every room, every appliance and the inside of the fridge and oven, with dates, and return every key. Cornell's [checklist page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out) has no step for the day itself, so this one is advice. For a lease that ends May 31, move every date back two months.
+On move-out day, photograph every room, every appliance and the inside of the fridge and oven, with dates, and return every key. Cornell's [checklist page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out) has no step for the day itself, so this one is advice. For a lease that ends May 31, move every date back two months.
 
 ## How do you ask for the move-out inspection?
 
@@ -151,7 +153,7 @@ If you accepted a move-in inspection and both of you signed a condition record, 
 
 Source: [Cornell Law Tenants Advocacy security deposit guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits); the key cap is from [Real Property Law 235-i](https://www.nysenate.gov/legislation/laws/RPP/235-I).
 
-The landlord must prove that withheld amounts are reasonable, and a lease clause that waives these rules is void. Cleaning is where sources split. Cornell's own move-out page says ["charges for cleaning services will be deducted"](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out), while the Cornell Law guide says a separate cleaning fee is banned and only cleaning beyond routine turnover can come out. Go by the law. Clean the unit back to its move-in condition and photograph it. The full rules, including the cap and banned fees, are in the [security deposit guide](/cornell/housing/ithaca-security-deposit-rules-tenants/).
+The landlord must prove that withheld amounts are reasonable, and a lease clause that waives these rules is void. Cleaning is where sources split. Cornell's own move-out page says ["charges for cleaning services will be deducted"](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out), while the Cornell Law guide says a separate cleaning fee is banned and only cleaning beyond routine turnover can come out. Go by the law. Clean the unit back to its move-in condition and photograph it. The full rules, including the cap and banned fees, are in the [security deposit guide](/cornell/housing/ithaca-security-deposit-rules-tenants/).
 
 In a building with six or more units, the deposit sits in an interest-bearing New York account, and the landlord can keep a 1% yearly administrative fee ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)).
 
@@ -194,7 +196,7 @@ rows:
   - {label: "Or file a complaint with the NY Attorney General, 1-800-771-7755"}
 ```
 
-The [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits) puts the demand letter first: it says the deposit is wrongfully withheld and that you will sue in small claims by a set date. The Community Dispute Resolution Center handles tenant disputes ([Cornell Campus Living Resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). Ithaca City Court hears small claims up to $5,000, and town and village courts top out at $3,000 ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Free advice at any step: the Cornell Law tenant hotline at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/).
+The [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits) puts the demand letter first: it says the deposit is wrongfully withheld and that you will sue in small claims by a set date. The Community Dispute Resolution Center handles tenant disputes ([Cornell Campus Living Resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)). Ithaca City Court hears small claims up to $5,000, and town and village courts top out at $3,000 ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Free advice at any step: the Cornell Law tenant hotline at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/).
 
 ```reader "If you're a junior or senior leaving a July 31 lease"
 If you graduate in May, decide early whether you are subletting June and July or paying for them, and do the inspection before you leave town if you will not be back. Skipping the inspection and photos is the mistake that costs most, because then the landlord's list of charges is the only record. See [renting as a junior or senior](/cornell/housing/off-campus-housing-cornell-juniors-seniors-renting/) for the rest of the year.
@@ -205,7 +207,7 @@ If a subtenant lives in your room, you [stay liable for your obligations under t
 ```
 
 ```reader "If you're staying in Ithaca for the summer"
-Lease dates rarely line up. Some leases end May 31, such as [all Dryden South leases in 2027](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), and most end July 31, with the next one starting about Aug. 1. Plan storage for the gap. Cornell's vendor, Big Red Shipping and Storage, [picks up free at apartments](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options) but posts no prices. Commercial self-storage is the other route. Your deposit clock starts when you leave, not when your next lease starts.
+Lease dates rarely line up. Some leases end May 31, such as [all Dryden South leases in 2027](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961), and most end July 31, with the next one starting about Aug. 1. Plan storage for the gap. Cornell's vendor, Big Red Shipping and Storage, [picks up free at apartments](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options) but posts no prices. Commercial self-storage is the other route. Your deposit clock starts when you leave, not when your next lease starts.
 ```
 
 ```reader "If you're an international student"

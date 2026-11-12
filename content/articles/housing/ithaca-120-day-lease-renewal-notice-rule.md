@@ -7,7 +7,7 @@ primary_query: ithaca 120 day notice rule before re-renting
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 queue_id: q-housing-0030
 idea_id: 177
 rewrites: /cornell/housing/ithaca-120-day-lease-renewal-notice-rule/
@@ -24,7 +24,7 @@ tools:
 sources:
 - url: https://ecode360.com/27390826
   title: Ithaca City Code 258-10, eCode360
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ecode360.com/IT1348
   title: Ithaca City Code, Chapter 258 index, eCode360
   accessed: '2026-11-10'
@@ -45,7 +45,13 @@ sources:
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-C
   title: Real Property Law 226-c, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://www.nysenate.gov/legislation/laws/RPP/216
+  title: Real Property Law 216, New York State Senate
+  accessed: '2026-11-11'
+- url: https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections
+  title: Ithaca is the latest upstate city to opt into Good Cause renter protections, WAMC, July 12, 2024
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: 'Ithaca Renting: Collegetown properties and per-bed prices'
   accessed: '2026-11-10'
@@ -85,13 +91,13 @@ WSKG reported that the Common Council passed it unanimously and that it took eff
 kind: timeline
 title: How Ithaca's renewal notice rule reached 120 days
 rows:
-  - {label: "60-day ordinance takes effect", date: "June 15, 2013"}
+  - {label: "Council adopts the 60-day rule, Ord. No. 2013-03", date: "June 5, 2013"}
   - {label: "Planning committee hears the amendment", date: "Jan. 19, 2022"}
   - {label: "Common Council passes it unanimously", date: "April 6, 2022"}
   - {label: "120-day rule takes effect", date: "May 31, 2022"}
 ```
 
-Scope: WSKG reports that it covers leases of nine months or longer ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). A 10-month or 12-month Collegetown lease falls inside that. The code's own wording on the nine-month line was not available in the sources reviewed, and the penalty section, 258-11, is listed only by heading. To confirm either, read the code on eCode360 or call the City Attorney's office.
+Scope: the notice does not apply when the current rental period is under nine months, or once an eviction summons and complaint has been filed and served on the tenant ([City Code](https://ecode360.com/27390826)). A 10-month or 12-month Collegetown lease is covered.
 
 ## What is the page-one waiver?
 
@@ -117,15 +123,15 @@ Initialing does not change your rent or lease end. It changes when the landlord 
 | Undecided about staying, or a group still forming | Renewal pressure and showings can start soon after you move in | Do not initial; you want the full notice to decide |
 | Planning to stay a second year | The landlord can re-let your unit early if you do not commit early | Do not initial unless you get something in writing |
 | Leaving after this lease | Showings in your unit can begin sooner | Lower stakes; the lease still sets entry rules |
-| Landlord says the waiver is required | Not settled; the Sun column says both parties must choose | Ask why by email, then call the hotline |
+| Landlord says the waiver is required | The Sun column says both parties must choose to waive | Ask why by email, then call the hotline |
 
 On joint liability, most local leases make each housemate responsible for the whole rent, so an early renewal signed before the group is sure leaves the people who stay owing for those who leave. The [junior and senior renting guide](/cornell/housing/off-campus-housing-cornell-juniors-seniors-renting/) covers the renewal year.
 
 ## When do the 120 days start?
 
-Nobody can name the earliest legal showing date for a Collegetown unit, because the count's start is not settled in the sources. Mehler counts this way: for a June 1 lease, a renewal decision about Oct. 1, and for August leases, about December ([The Cornell Daily Sun](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/)). The 2013 rule ran from the lease start, so a June lease let showings begin in late August ([The Cornell Daily Sun](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/)).
+Mehler, the rule's sponsor, counts it this way: for a June 1 lease, a renewal decision about Oct. 1, and for August leases, about December ([The Cornell Daily Sun](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/)). The 2013 rule ran from the lease start, so a June lease let showings begin in late August ([The Cornell Daily Sun](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/)).
 
-The market does not settle it. On Nov. 10, 2026, Ithaca Renting was marketing 2027-28 Collegetown units and 14 of 67 rows were sold out ([Ithaca Renting](https://ithacarenting.com/collegetown/)). That could reflect vacant or new units, initialed waivers, buildings outside the City or a different count. The [lease timing guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/) covers when to sign.
+On Nov. 10, 2026, Ithaca Renting was marketing 2027-28 Collegetown units and 14 of 67 rows were sold out ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Early sellouts can reflect vacant or new units, initialed waivers or buildings outside the City. The [lease timing guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/) covers when to sign.
 
 ```tool when-to-sign-lease-timeline-cornell
 ```
@@ -134,16 +140,16 @@ The market does not settle it. On Nov. 10, 2026, Ithaca Renting was marketing 20
 
 ## How does it fit with state law?
 
-The City rule stacks on top of New York's. Cornell Law's renewal page, updated in February 2026, lists only the state notice periods and does not mention 258-10, so a tenant who reads it alone misses the City window ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)).
+The City rule stacks on top of New York's. Cornell Law's renewal page, updated in February 2026, sets out the state notice periods ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)), and the City's 120-day window in 258-10 applies on top of them.
 
 | Rule | Covers | Notice | Triggered by |
 |---|---|---|---|
 | City Code 258-10 | City of Ithaca rentals, nine months or longer | 120 days, written | Renewing, showing or signing new tenants |
 | RPL 226-c | Unregulated New York tenancies | 30, 60 or 90 days by length of stay | Non-renewal or a rent increase of 5% or more |
-| Good Cause (RPL 216) | Covered City units since July 2024 | 30 to 90 days before lease end | Removing a tenant who refuses reasonable terms |
+| Good Cause (RPL 216) | Covered City units, since Ithaca opted in in July 2024 | 30 to 90 days before lease end | Removing a tenant who refuses reasonable terms |
 | Auto-renew clause | Leases that renew themselves | Reminder 15 to 30 days before opt-out | Any automatic renewal |
 
-Source: [RPL 226-c](https://www.nysenate.gov/legislation/laws/RPP/226-C), [Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal) and City Code 258-10. For rent-increase protection in covered buildings, read the [Good Cause guide](/cornell/housing/ithaca-good-cause-eviction-rent-increase-students/).
+Source: [RPL 226-c](https://www.nysenate.gov/legislation/laws/RPP/226-C), [RPL 216](https://www.nysenate.gov/legislation/laws/RPP/216), [Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal), [WAMC](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections) and [City Code 258-10](https://ecode360.com/27390826). For rent-increase protection in covered buildings, read the [Good Cause guide](/cornell/housing/ithaca-good-cause-eviction-rent-increase-students/).
 
 ```tool ithaca-good-cause-coverage-checker
 ```
@@ -152,12 +158,14 @@ The rule is City code and does not reach the Town of Ithaca, Lansing or Cayuga H
 
 ## What if your landlord skips the notice?
 
-City Attorney Ari Levine told WSKG that compliance disputes can go to the City's housing court. Take these steps.
+Under section 258-11, a landlord or agent who violates the rule is liable for a civil penalty of up to $500 ([City Code](https://ecode360.com/27390826)). City Attorney Ari Levine told WSKG that compliance disputes can go to the City's housing court. Take these steps.
 
 1. Save every renewal email, text and showing request, with dates.
 2. Check page one of your lease for an initialed waiver.
 3. Reply in writing that you have not waived the notice, if that is true.
 4. Call the Cornell Law tenant hotline, 607-301-1560.
+
+This page is general information, not legal advice.
 
 ```reader "If you're a sophomore signing for junior year"
 The waiver sits in the lease you are about to sign, so it shapes your junior fall. Popular Collegetown units are signed up to 16 months ahead ([The Cornell Daily Sun](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)), so you will feel pressure anyway. Ask why the waiver is there and keep the answer in writing.

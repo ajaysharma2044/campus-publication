@@ -7,7 +7,7 @@ primary_query: cornell two year housing requirement
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 39
 rewrites: content/articles/housing/cornell-residential-requirement-exemptions-live-off-campus.md
 queue_id: q-housing-0040
@@ -29,28 +29,28 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement
   title: Affiliated Housing for the Second-Year Housing Requirement, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
@@ -74,7 +74,7 @@ sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown, Ithaca Renting
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images:
@@ -105,9 +105,9 @@ It covers full-time undergraduates on the Ithaca campus in their first two years
 
 In year one, first-years and new transfers are assigned to university residence halls. In year two, students choose between a residence hall and approved university-affiliated housing. That means a house owned or controlled by a registered or recognized student organization, a recognized fraternity or sorority house, or one of the university-owned co-ops.
 
-The rule ends with the spring semester of your second year. Cornell's application page says the requirement runs "through the spring semester" of year two, and that juniors and seniors are not guaranteed campus housing ([Cornell Housing application process](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process)). So a junior-year lease needs no exemption, even if you sign it as a sophomore.
+The rule ends with the spring semester of your second year. Cornell's application page says the requirement runs "through the spring semester" of year two, and that juniors and seniors are not guaranteed campus housing ([Cornell Housing application process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process)). So a junior-year lease needs no exemption, even if you sign it as a sophomore.
 
-Cornell's own lease advice is blunt: first- and second-years "should not sign a lease unless they have an approved exemption" ([Cornell Housing Search Process](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)).
+Cornell's own lease advice is blunt: first- and second-years "should not sign a lease unless they have an approved exemption" ([Cornell Housing Search Process](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)).
 
 ## Why does Cornell require two years on campus?
 
@@ -127,7 +127,7 @@ Most rising sophomores land in residence halls on North and South Campus. West C
 
 If you want something other than a hall, you have three kinds of affiliated housing.
 
-**Co-ops.** Cornell owns eight cooperative houses, which residents run themselves: Prospect of Whitby, 660 Stewart, 302 Wait Avenue, Triphammer Cooperative, Von Cramm, Wait Terrace, Wari Cooperative and Watermargin ([Cornell Affiliated Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)). Each holds 10 to 35 members and picks its own residents. Selection starts in early November and early February, and four of the eight have meal plans ([Cornell Cooperative Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Questions go to co-ops@cornell.edu or 607-255-3445.
+**Co-ops.** Cornell owns eight cooperative houses, which residents run themselves: Prospect of Whitby, 660 Stewart, 302 Wait Avenue, Triphammer Cooperative, Von Cramm, Wait Terrace, Wari Cooperative and Watermargin ([Cornell Affiliated Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement)). Each holds 10 to 35 members and picks its own residents. Selection starts in early November and early February, and four of the eight have meal plans ([Cornell Cooperative Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). Questions go to co-ops@cornell.edu or 607-255-3445.
 
 **Fraternity and sorority houses.** Every recognized chapter's house counts, as long as the chapter stays recognized. Three rules matter for a sophomore:
 
@@ -139,7 +139,7 @@ Timing is tight for first-years. Cornell's deferred recruitment policy makes new
 
 **Other affiliated houses.** Cornell lists three: Alpha Zeta at 214 Thurston Ave., the Center for Jewish Living at 106 West Ave. and Seal and Serpent at 305 Thurston Ave. Each runs its own intake. Cornell reviews these houses every year, and they must meet its insurance and fire-code terms, including sprinklers throughout ([Cornell affiliated housing requirements](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
 
-Miss the March 15 affirmation and you complete year two in on-campus housing ([Cornell Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Housing checks rosters from the Office of Sorority and Fraternity Life and from each affiliated house, so confirm with your house leaders that your name is on the list before that date. Costs and how to get in are on the [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
+Miss the March 15 affirmation and you complete year two in on-campus housing ([Cornell Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Housing checks rosters from the Office of Sorority and Fraternity Life and from each affiliated house, so confirm with your house leaders that your name is on the list before that date. How a sophomore gets into a co-op or chapter house is on the [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
 
 ## Who is exempt from the requirement?
 
@@ -164,7 +164,7 @@ Everyone else stays in Cornell or affiliated housing through the end of year two
 
 ## How do you apply for an exemption, and when is it due?
 
-You request it inside the Housing Application in the Housing and Dining Portal while the application is open. For rising sophomores who want to be exempt for 2027-28, the deadline is April 4, 2027, at 11:59 p.m., and Cornell will not consider a request received after that ([Cornell Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+You request it inside the Housing Application in the Housing and Dining Portal while the application is open. For rising sophomores who want to be exempt for 2027-28, the deadline is April 4, 2027, at 11:59 p.m., and Cornell will not consider a request received after that ([Cornell Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 ```figure
 kind: steps
@@ -180,11 +180,11 @@ rows:
 
 Cornell won't take an exemption request after you have signed a housing license, the contract for a Cornell room, or during the term that license covers. An exemption lasts one academic year, so a first-year exemption does not carry into year two. Transfers and returning students must reapply for every year they want to be exempt.
 
-Cornell's pages set the rising-sophomore deadline but give no separate exemption window for incoming first-years or new transfers. If that's you, ask Housing Operations when the exemption term opens before you commit to anything ([Cornell Housing directory](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)). The office is at 1520 Clara Dickson Hall, open 9 a.m. to 4 p.m. weekdays, at 607-255-5368 or housing@cornell.edu.
+Cornell's pages set the rising-sophomore deadline but give no separate exemption window for incoming first-years or new transfers. If that's you, ask Housing Operations when the exemption term opens before you commit to anything ([Cornell Housing directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)). The office is at 1520 Clara Dickson Hall, open 9 a.m. to 4 p.m. weekdays, at 607-255-5368 or housing@cornell.edu.
 
 ## What happens if you sign a lease without an exemption?
 
-You pay twice. Students who neither meet the requirement nor get an exemption "will still be billed for the full year," Cornell says ([Cornell affiliated housing requirements](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)). A residence hall double costs $6,872 per semester, or $13,744 for 2026-27, with gas, electricity, garbage pickup and internet up to 200 GB a month included ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Final 2027-28 rates come out in March 2027.
+You pay twice. Students who neither meet the requirement nor get an exemption "will still be billed for the full year," Cornell says ([Cornell affiliated housing requirements](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)). A residence hall double costs $6,872 per semester, or $13,744 for 2026-27, with gas, electricity, garbage pickup and internet up to 200 GB a month included ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Final 2027-28 rates come out in March 2027.
 
 Say a first-year without an exemption joins three friends in a Collegetown 4-bedroom for sophomore year. The middle 4-bedroom rate on Ithaca Renting's Collegetown list for 2027-28 is $1,246.25 per bed a month ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Its leases run a full year, so 12 months comes to $14,955.00. Add a Cornell double at the 2026-27 rate, and one student's year costs $28,699.00 for one bed in use.
 
@@ -203,7 +203,7 @@ Once you're free to rent, the real comparison is rent against the Cornell bill, 
 
 ## Can you cancel a Cornell room once you've signed?
 
-Not as a first- or second-year, with three exceptions. Under the 2027-28 housing license, new students, new transfers and second-years can cancel only if they leave Cornell, get an exemption approved, or (second-years only) are accepted to a Greek house, an affiliated house or one of the eight co-ops before the Spring Housing Selection deadline ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The license also bars handing your room to someone else, and leaving mid-term keeps you liable for the whole term.
+Not as a first- or second-year, with three exceptions. Under the 2027-28 housing license, new students, new transfers and second-years can cancel only if they leave Cornell, get an exemption approved, or (second-years only) are accepted to a Greek house, an affiliated house or one of the eight co-ops before the Spring Housing Selection deadline ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The license also bars handing your room to someone else, and leaving mid-term keeps you liable for the whole term.
 
 Returning juniors and seniors have finished the requirement and can cancel before they move in, for a fee that climbs with the calendar.
 

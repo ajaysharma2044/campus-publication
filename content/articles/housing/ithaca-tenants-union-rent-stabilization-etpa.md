@@ -25,7 +25,7 @@ sources:
 - url: https://www.cornellsun.com/article/2024/03/ithaca-tenants-unions-ongoing-fight-toward-implementing-the-emergency-tenant-protection-act
   title: Ithaca Tenants Union's ongoing fight toward implementing the Emergency Tenant Protection Act, The Cornell Daily Sun, March 2024
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus Living Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
@@ -43,10 +43,13 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/214
   title: Real Property Law Section 214, NY State Senate
   accessed: '2026-11-10'
+- url: https://www.nysenate.gov/legislation/laws/ETP/3
+  title: Emergency Tenant Protection Act Section 3, NY State Senate
+  accessed: '2026-11-11'
 - url: https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/
   title: Ithaca landlords must now give renters 120 days before renewing leases, WSKG
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
@@ -62,15 +65,17 @@ images: []
 
 The Ithaca Tenants Union is a tenant group that has campaigned for rent stabilization under New York's Emergency Tenant Protection Act, or ETPA. A co-chair estimated that about 15% of Ithaca units would be covered ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/03/ithaca-tenants-unions-ongoing-fight-toward-implementing-the-emergency-tenant-protection-act)). What applies to you today is Good Cause eviction.
 
+This page is general information, not legal advice.
+
 ## Who is the Ithaca Tenants Union?
 
-It is a tenant group that offers rights education, advocacy and support ([Cornell Campus Living Resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). Its site at [ithacatu.org](https://www.ithacatu.org/) has a Tenants Rights Guide and a Pass ETPA page.
+It is a tenant group that offers rights education, advocacy and support ([Cornell Campus Living Resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)). Its site at [ithacatu.org](https://www.ithacatu.org/) has a Tenants Rights Guide and a Pass ETPA page.
 
-The group also helped produce the legal reference students use most. The Cornell Law Tenants' Rights Guide was first published in May 2022 by the Ithaca Eviction Defense and Displacement Project and the Ithaca Tenants Union, and it was last updated in February 2026 by Cornell Law School's Tenants Advocacy Program ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/)). Not everyone welcomed the group. A representative of the Landlords Association of Tompkins County worried in 2020 that a tenants union would make landlord and tenant relations adversarial ([Cornell Rental Listings & Resources](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)).
+The group also helped produce the legal reference students use most. The Cornell Law Tenants' Rights Guide was first published in May 2022 by the Ithaca Eviction Defense and Displacement Project and the Ithaca Tenants Union, and it was last updated in February 2026 by Cornell Law School's Tenants Advocacy Program ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/)). Not everyone welcomed the group. A representative of the Landlords Association of Tompkins County worried in 2020 that a tenants union would make landlord and tenant relations adversarial ([Cornell Rental Listings & Resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)).
 
 ## What is the ETPA, and would it cover your apartment?
 
-The ETPA is New York's rent stabilization law. The Tenants Union's 2024 campaign sought to bring it to Ithaca, and its co-chair estimated that about 15% of Ithaca's units would be covered ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/03/ithaca-tenants-unions-ongoing-fight-toward-implementing-the-emergency-tenant-protection-act)). Which buildings qualify, and what the city must show before the law can apply, are set out in state law. The sources used here do not spell out those tests, so ask the Cornell Law Tenants Advocacy hotline at 607-301-1560 before you assume your building is covered. The fact file also has no record that the ETPA has taken effect in Ithaca, so renters should plan on the protections below instead.
+The ETPA is New York's rent stabilization law. The Tenants Union's 2024 campaign sought to bring it to Ithaca, and its co-chair estimated that about 15% of Ithaca's units would be covered ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/03/ithaca-tenants-unions-ongoing-fight-toward-implementing-the-emergency-tenant-protection-act)). It covers buildings built before 1974 with six or more units (same source). A city can opt in only after its local legislative body declares a housing emergency, which requires a rental vacancy rate of 5% or less, and the emergency must end once the rate rises above that level ([ETPA Section 3](https://www.nysenate.gov/legislation/laws/ETP/3)). Ask the Cornell Law Tenants Advocacy hotline at 607-301-1560 before you assume your building is covered, and plan on the protections below, which apply now.
 
 ## What protects Ithaca renters now?
 

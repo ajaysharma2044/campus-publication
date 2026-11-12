@@ -7,7 +7,7 @@ primary_query: free legal help for cornell renters
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 184
 rewrites: ''
 readers:
@@ -23,40 +23,40 @@ tools:
 sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' rights guide, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources
   title: Legal resources, Cornell International Services
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus living resources, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building issues and maintenance, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants
   title: Tenants, New York State Attorney General
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ccetompkins.org/your-home-money/tenant-landlord-issues
   title: Tenant-landlord issues, Cornell Cooperative Extension of Tompkins County
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacatu.org/
   title: Ithaca Tenants Union
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a lease, Cornell Law Tenants Advocacy
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a lease, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
   title: Students and landlords both perpetuate myths about housing, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme
   title: Asteri's aftermath, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/130/Building-Division
   title: Building Division, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Hughes Hall at Cornell Law School after its 2017 renovation, a stone building with a glass-walled ground floor and a courtyard
@@ -79,6 +79,8 @@ images:
 
 The fastest free help is the Cornell Law Tenants Advocacy hotline at 607-301-1560. It gives advice with no income or geographic limits, though full representation is for City of Ithaca residents only ([Cornell International Services](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources)).
 
+This page is general information, not legal advice.
+
 ## Who should I call for which problem?
 
 Match the problem to the office, and you skip a round of referrals.
@@ -93,7 +95,7 @@ Match the problem to the office, and you skip a round of referrals.
 | Need a local services referral | 2-1-1 Tompkins/Cortland | 2-1-1 or 877-211-8667 |
 | Leaving a lease because of domestic violence | Advocacy Center of Tompkins County | (607) 277-5000 |
 
-Sources: Cornell Law Tenants Advocacy [tenants' rights guide](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/); Cornell [campus living resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources); [NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants); [Cornell Law lease-breaking guide](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease).
+Sources: Cornell Law Tenants Advocacy [tenants' rights guide](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/); Cornell [campus living resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources); [NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants); [Cornell Law lease-breaking guide](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease).
 
 ## What does the Cornell Law tenants hotline do?
 
@@ -101,28 +103,28 @@ The Cornell Law School Tenants Advocacy Program runs a free advice line at 607-3
 
 The guide has a chatbot named Teny, but it is not for emergencies. For a lockout, a shutoff notice or a court paper, call.
 
-Cornell Law's guide leaves a few questions to the hotline, such as leaving a lease for study abroad or leaving school. Call it before you pay a termination fee. Our [guide to breaking a lease](/cornell/housing/breaking-a-lease-early-ithaca-cornell/) covers the options in order.
+If you need to leave a lease for study abroad or because you are leaving school, call the hotline before you pay a termination fee. Our [guide to breaking a lease](/cornell/housing/breaking-a-lease-early-ithaca-cornell/) covers the options in order.
 
 ## What does LawNY do?
 
-LawNY handles legal emergencies and free housing help in Tompkins County, with eviction defense for income-eligible students. Cornell Law's guide lists (607) 273-3667. A Cornell International Services page lists (315) 781-1465 for eviction defense, so try the Tompkins number first and use the other if you get no answer ([Cornell International Services](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources)). If you have an eviction notice, read our [eviction and vacate order guide](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/) while you wait for a callback.
+LawNY handles legal emergencies and free housing help in Tompkins County, with eviction defense for income-eligible students. Its Tompkins County number is (607) 273-3667, and Cornell International Services gives (315) 781-1465 for LawNY eviction defense. Try the Tompkins number first and use the other if you get no answer ([Cornell International Services](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources)). If you have an eviction notice, read our [eviction and vacate order guide](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/) while you wait for a callback.
 
 <!-- ad-break -->
 
 ## Where can I get mediation instead of a lawsuit?
 
-The Community Dispute Resolution Center offers mediation for landlord, roommate and neighbor disputes at 607-273-9347 ([Cornell resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)). A mediator is a neutral person who helps both sides agree on a fix. It suits deposit disputes and repair standoffs where you still have to live next door to the landlord's building.
+The Community Dispute Resolution Center offers mediation for landlord, roommate and neighbor disputes at 607-273-9347 ([Cornell resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)). A mediator is a neutral person who helps both sides agree on a fix. It suits deposit disputes and repair standoffs where you still have to live next door to the landlord's building.
 
 ## What can Cornell's own offices do?
 
-Cornell Off-Campus Living offers a listings marketplace, an email list, lease education, one-on-one consultations and a safety tool. You can reach it at 607-255-2310 or offcampusliving@cornell.edu. It does not represent students in landlord disputes, which its staff said in 2019 ([Cornell Daily Sun](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/)). Use it for lease questions before you sign, and use a legal office once a dispute starts. Cornell's own [lease checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) lists questions to ask a landlord, and our [lease reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) turns them into a walk-through.
+Cornell Off-Campus Living offers a listings marketplace, an email list, lease education, one-on-one consultations and a safety tool. You can reach it at 607-255-2310 or offcampusliving@cornell.edu. It does not represent students in landlord disputes, which its staff said in 2019 ([Cornell Daily Sun](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/)). Use it for lease questions before you sign, and use a legal office once a dispute starts. Cornell's own [lease checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) lists questions to ask a landlord, and our [lease reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) turns them into a walk-through.
 
 ## What other free help exists?
 
 - **Cornell Cooperative Extension of Tompkins County:** tenant-landlord guidance at 607-272-2292, 615 Willow Ave., weekdays 8 a.m. to 4 p.m. ([CCE](https://ccetompkins.org/your-home-money/tenant-landlord-issues)).
 - **Ithaca Tenants Union:** a union of Ithaca tenants, not a government office, with a Tenants' Rights Guide ([ithacatu.org](https://www.ithacatu.org/)).
 - **Code offices:** the City of Ithaca Building Division at 607-274-6508, the Town of Ithaca at 607-273-1783 and the Town of Lansing at 607-533-7054 ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
-- **Tompkins County legal aid fund:** the county set aside $50,000 for legal aid after the March 2026 Asteri displacement ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme)). The fact file does not say how to apply, so ask the hotline whether the fund is open to you.
+- **Tompkins County legal aid fund:** in March 2026 the Tompkins County Legislature set aside $50,000 to help residents navigate housing instability and reach legal help after the Asteri order to vacate ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme)). Ask the hotline whether the fund can help you.
 
 ## What if I live outside the City of Ithaca?
 

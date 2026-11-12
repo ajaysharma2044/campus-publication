@@ -15,7 +15,8 @@ readers:
 - parent
 pillar: /transfer/transferring-to-cornell-guide/
 brief: intel/transfer/brief.md
-subject: Von Cramm Hall Cornell
+subject:
+- Von Cramm Hall Cornell
 tools:
 - cornell-transfer-cost-calculator
 sources:
@@ -49,7 +50,7 @@ sources:
 - url: https://studenthealthbenefits.cornell.edu/
   title: Cornell Student Health Benefits
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://studenthealthbenefits.cornell.edu/node/179
@@ -80,6 +81,7 @@ sources:
   title: Transfer Scholarships, Cornell College (Mount Vernon, Iowa)
   accessed: '2026-11-11'
 images: []
+lead_photo: none-found 2026-11-11
 ---
 ```glance
 - Family income up to $75,000: grants, scholarships and work-study cover the full cost of attendance (2026-27).
@@ -186,7 +188,7 @@ rows:
 
 A co-op double costs $6,974 to $9,962 a year against [$13,744 for a hall double](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates). That saves $3,782 to $6,770 on the room alone, by our math (each house's per-semester rate times two). These are room rates; food is separate. Hall rates include gas, electricity, garbage and internet up to 200 GB a month. There is no application fee and no damage deposit.
 
-Hall rooms are [assigned by random auto-allocation](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) from your preferences, so a cheap room only happens on purpose. Apply within ten days of getting your NetID. Before you rank preferences, call Housing and Residential Life at 607-255-5368 and ask how a new transfer gets a co-op place.
+Hall rooms are [assigned by random auto-allocation](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) from your preferences, so a cheap room only happens on purpose. Apply within ten days of getting your NetID. Before you rank preferences, call Housing and Residential Life at 607-255-5368 and ask how a new transfer gets a co-op place.
 
 ## Food: the Unlimited plan and aid
 

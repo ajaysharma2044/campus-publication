@@ -79,6 +79,9 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
   accessed: '2026-11-11'
+- url: https://tcatbus.com/fare-pass-options
+  title: Fare and Pass Options, TCAT
+  accessed: '2026-11-11'
 - url: https://tcatbus.com/ride/FAQ/
   title: FAQs, TCAT
   accessed: '2026-11-11'
@@ -163,11 +166,11 @@ images:
 The cheapest way home from Cornell to New York City is a commercial bus booked about two weeks ahead: advertised floors ran [$25 to $43 one way across six carriers on Nov 8, 2026](https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/), against [$93.50 on Cornell's C2C with a NetID](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates). Around Ithaca, the cheapest plan is to time errands for TCAT's free hours, [after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) once your first year ends, and pay $1.50 for the rest. Spend money on a pass, a Carshare plan or a C2C seat only when the math below says it beats that.
 
 ```reader "If you're a first-year paying your own way"
-Your Cornell ID gives you free TCAT at all hours [until Aug 31 of next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Transfers count as first-years. So your real cost is the trips home. Four NYC round trips at the OurBus floor of $33 come to $264 a year, our math. The same four on C2C cost $748. Your costliest mistake is booking Thanksgiving late: floors ran about a third higher that week in a Nov 8 sample. Buy your seat for Wednesday, Nov 25 by about Nov 11.
+Your Cornell ID gives you free TCAT at all hours [until Aug 31 of next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Transfers count as first-years. So your real cost is the trips home. Four NYC round trips at the OurBus floor of $33 come to $264 a year, our math. The same four on C2C cost $748. Your costliest mistake is booking Thanksgiving late: floors ran about a third higher that week in a Nov 8 sample. Book about 14 days ahead of every trip.
 ```
 
 ```reader "If you're past first year with no car"
-Free rides now run only [after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Daytime weekday rides are $1.50 each. The $200 OmniRide pass beats cash only past about 134 paid rides a year, our math. That is about 4.5 a week over a 30-week year. Move errands to evenings and weekends and pay cash for class-time rides. The costly mistake is buying OmniRide and then rarely riding. A refund before Mar 31 still costs you $40.
+Free rides now run only [after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). Daytime weekday rides are [$1.50 each, TCAT's single adult fare](https://tcatbus.com/fare-pass-options). The $200 OmniRide pass beats single fares only past about 134 paid rides a year, our math. That is about 4.5 a week over a 30-week year. Move errands to evenings and weekends and pay the single fare for class-time rides. The costly mistake is buying OmniRide and then rarely riding. A refund before Mar 31 still costs you $40.
 ```
 
 ```reader "If you're thinking of staying for winter break"
@@ -179,7 +182,7 @@ Your route sets the price. CheckMyBus daily low fares read on Nov 8, 2026 ran $8
 ```
 
 ```reader "If you fly home"
-The ride to the airport is the part you control. OurBus to Syracuse airport costs [$46.70 to $62.10 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). TCAT to the Ithaca airport is [$1.50 on Route 32 weekdays and Route 72 weekends](https://www.flyithaca.com/public-transportation). Weekends fall in Cornell's free hours. At the end of finals, watch Campus Groups for the Student Assembly's free charters to both airports. They are for undergraduates, first come, first served. Missing the sign-up costs you up to $62.10 one way.
+The ride to the airport is the part you control. OurBus to Syracuse airport costs [$46.70 to $62.10 each way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny). TCAT reaches the Ithaca airport on [Route 32 weekdays and Route 72 weekends](https://www.flyithaca.com/public-transportation), at the [$1.50 single adult fare](https://tcatbus.com/fare-pass-options) outside free hours. Weekends fall in Cornell's free hours. At the end of finals, watch Campus Groups for the Student Assembly's free charters to both airports. They are for undergraduates, first come, first served. Missing the sign-up costs you up to $62.10 one way.
 ```
 
 ## What a bus to NYC costs, by carrier
@@ -231,7 +234,7 @@ The Thanksgiving markup is real. In our reading of [CheckMyBus](https://www.chec
 kind: timeline
 title: Booking dates for a budget trip home, 2026-27
 rows:
-  - {label: "Book a Thanksgiving seat (about 14 days ahead)", date: "By Nov 11, 2026"}
+  - {label: "Book a seat for the last day of finals (about 14 days ahead)", date: "By Dec 5, 2026"}
   - {label: "Cheapest November date in the Wanderu sample", date: "Nov 19, 2026"}
   - {label: "Peak day: Wednesday before Thanksgiving", date: "Nov 25, 2026"}
   - {label: "Winter break housing applications close", date: "Dec 1, 2026"}
@@ -247,7 +250,7 @@ Book cheap early, but only trips you will take. The 2019 Sun piece on [internati
 
 **OurBus Select.** The [OurBus blog](https://www.ourbus.com/blog/?p=6269) describes Select as a ride pack: $15 off each of your next 10 intercity tickets, up to $150. Signup asks for a college name. Verified students may also qualify for a separate student discount, per the same post.
 
-**Bags.** OurBus guarantees one large bag per ticket, and extra bags ride only if space remains. At peak move-in, two large bags [effectively means buying two seats](https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes). OurBus's Cornell page lists [$30 prepaid per extra bag](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university). [Greyhound](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny) includes one carry-on and one checked bag. C2C's two-suitcase allowance can beat a cheap seat plus fees.
+**Bags.** The Sun reported in 2024 that OurBus guarantees one large bag per ticket, that extra bags ride only if space remains, and that at peak move-in two large bags [effectively means buying two seats](https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes). OurBus's Cornell page lists [$30 prepaid per extra bag](https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university). [Greyhound](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny) includes one carry-on and one checked bag. C2C's two-suitcase allowance can beat a cheap seat plus fees.
 
 **C2C changes.** Cancel at least 8 hours ahead and C2C charges [$10 per seat; inside 8 hours, $30](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations). You can cancel only in the reservation system. If you miss the bus, the full fare is kept.
 
@@ -260,18 +263,18 @@ TCAT does most of the work. Cornell's [bus pass page](https://fcs.cornell.edu/de
 - First-years, transfers included, ride free at all hours until Aug 31. Spring entrants ride free Jan 1 to Dec 31.
 - PhD students and graduate assistants get a free OmniRide pass.
 - Everyone else rides free after 6 p.m. on weekdays and all day Saturday and Sunday, as long as they stay registered.
-- Outside those hours, a ride is $1.50.
+- Outside those hours, a ride costs [TCAT's $1.50 single adult fare](https://tcatbus.com/fare-pass-options), paid in exact cash, by card or phone, or on the Tfare app.
 - The discounted OmniRide pass is $200 a year, prorated monthly, sold at MyParking.Cornell.Edu. It expires Aug 31. A refund before Mar 31 costs $40.
 
-The paid daytime rides date from fall 2024. Until mid-October 2024, a farebox ID glitch let every student ride free, [the Sun reported](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free). If the farebox rejects your ID in the free hours, drivers override it, per the same report. Otherwise you pay $1.50 in cash.
+The paid daytime rides date from fall 2024. A fare-system switch first stopped Cornell IDs from working, and TCAT fixed that by April 2024; Cornell then did not update its list of eligible riders until Oct. 16, 2024, so every student rode free at any hour until then, [the Sun reported](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free). If the farebox rejects your ID in the free hours, drivers override it, per the same report. If your ID is not accepted at other times, [Cornell's bus pass page](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) says you may need to pay the $1.50 fare in cash.
 
 The OmniRide math is simple. $200 divided by $1.50 is 133.3, so the pass pays only from the 134th paid ride. Over a 30-week academic year, our assumption, that is about 4.5 paid daytime rides a week.
 
-Example: a junior in Collegetown takes the bus to class twice a week in bad weather and does groceries on Saturday. That is about 2 paid rides a week, or about 60 over 30 weeks: $90 in cash against $200 for the pass. Cash wins by $110.
+Example: a junior in Collegetown takes the bus to class twice a week in bad weather and does groceries on Saturday. That is about 2 paid rides a week, or about 60 over 30 weeks: $90 in single fares against $200 for the pass. Single fares win by $110.
 
 ```tool omniride-break-even-calculator```
 
-Student government wants the rule changed. In March 2026 the Student Assembly [adopted Resolution 69](https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026), urging Cornell to fund free bus passes for all undergraduates and graduate workers. The president returned it on Apr 24, 2026, and Cornell's pass page still listed the rules above on Nov 11, 2026.
+Student government wants the rule changed. In March 2026 the Student Assembly [adopted Resolution 69](https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026), urging Cornell to make reasonable efforts to fund free bus passes for undergraduates and graduate workers. The president returned it on Apr 24, 2026, and Cornell's pass page still listed the rules above on Nov 11, 2026.
 
 ## Bikes and cars when the bus will not do
 
@@ -329,7 +332,7 @@ rows:
 
 TCAT runs no buses on Thanksgiving Day, one of [six holidays without service](https://tcatbus.com/ride/FAQ/) in its 359-day year. Over breaks, Cornell Dining runs [reduced schedules](https://scl.cornell.edu/about-scl/break-resources): Morrison Dining closes, North Star keeps expanded hours, and current hours are on Cornell Dining Now.
 
-Cornell's Office of Financial Aid and Student Employment runs two [emergency funds](https://finaid.cornell.edu/emergency-funds). The CU Emergency Fund covers urgent, unanticipated costs above the standard cost of attendance, usually capped at $500 an academic year, with priority to students with significant need. The Students Helping Students Fund, started by the Student Assembly in 1985 for undergraduates in financial need, covers necessary emergency expenses, including travel for an emergency such as a death in the family. For a planned trip home, ask a counselor at 203 Day Hall or finaid@cornell.edu before you book.
+Cornell's Office of Financial Aid and Student Employment runs two [emergency funds](https://finaid.cornell.edu/emergency-funds). The CU Emergency Fund covers urgent, unanticipated costs above the standard cost of attendance, usually capped at $500 an academic year, with priority to students with significant need. The Students Helping Students Fund, started by the Student Assembly in 1985 for undergraduates in financial need, covers necessary emergency expenses, including travel for an emergency such as a death in the family. It does not cover non-emergency expenses, so a routine trip home does not qualify. To ask about either fund, meet a counselor at 203 Day Hall.
 
 ## Common mistakes
 
@@ -347,7 +350,7 @@ Cornell's Office of Financial Aid and Student Employment runs two [emergency fun
 
 **Which aggregator should I compare on?** The 2025 Sun student guide [named Wanderu](https://www.cornellsun.com/article/2025/05/busses-trains-and-planes-getting-to-and-from-cornell). Compare there, then book on the operator's own site.
 
-**Can I take TCAT to the Ithaca airport for free?** Route 72 runs on weekends, inside the free hours for upper-years, and first-years ride free at any hour. Route 32 runs weekdays, [at $1.50](https://www.flyithaca.com/public-transportation) before 6 p.m. for everyone else.
+**Can I take TCAT to the Ithaca airport for free?** Route 72 runs on weekends, inside the free hours for upper-years, and first-years ride free at any hour. [Route 32 runs weekdays](https://www.flyithaca.com/public-transportation), at [$1.50](https://tcatbus.com/fare-pass-options) before 6 p.m. for everyone else.
 
 **Is Bikeshare free for Cornell students?** No. [Ithaca Bikeshare](https://www.ithacabikeshare.org) prices rides the same for everyone: $1.50 to start plus $0.25 a minute, or a day or monthly pass. Only the income-based Easy Access plan lowers the price.
 

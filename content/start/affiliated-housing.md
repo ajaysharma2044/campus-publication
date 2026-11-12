@@ -3,7 +3,7 @@ title: "Off-campus housing: start here in a co-op or Greek house"
 meta: "For Cornell students in, or seeking, a co-op or Greek house: what to read, in order, to get a room, meet Cornell's housing rules and plan junior year."
 topic: housing
 topics: [housing]
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0076
 kind: start_here
 readers: [affiliated-housing]
@@ -15,7 +15,7 @@ You live in one of Cornell's eight co-ops or a recognized fraternity or sorority
 ## Read in this order
 
 1. [Off-campus housing at Cornell: the 2026-27 guide](/housing/cornell-off-campus-housing-guide/). The pillar: how the whole Ithaca market works and where affiliated housing sits in it. Read it first for the map.
-2. [Cornell co-ops and Greek houses: cost and how to get in](/housing/cornell-co-ops-greek-houses-cost-how-to-join/). Your main guide: what each co-op charges, how selection works, what Greek rent covers. Read it before the next co-op round or chapter housing decision.
+2. [Cornell co-op or Greek house instead of a dorm: how to join](/housing/cornell-co-ops-greek-houses-cost-how-to-join/). Your main guide: how a sophomore gets into a co-op or a chapter house, and the dates that decide it. Read it before the next co-op round or chapter housing decision.
 3. [Who can live off campus at Cornell: the rule and exemptions](/housing/cornell-residential-requirement-exemptions-live-off-campus/). Why a chapter house still needs the housing application, the membership rule and the affirmation. Read it before you file anything with Housing and Residential Life.
 4. [Renters insurance off campus at Cornell: need and cost](/housing/cornell-off-campus-renters-insurance-cost/). Greek rent covers the building, not your belongings; this is what a policy costs. Read it before move-in.
 5. [Cornell sophomores: how to get a good junior-year lease](/housing/off-campus-housing-cornell-sophomores/). The step after a co-op or chapter house: groups, timing and the Collegetown rush. Read it in the fall of sophomore year.

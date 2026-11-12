@@ -1,13 +1,13 @@
 ---
 title: Collegetown apartment buildings compared
 mode: answer
-dek: 'The large Collegetown buildings split into three groups: per-bed leases on Dryden Road, new luxury towers on College Avenue, and buildings that print no price.'
-meta: 'Collegetown apartment buildings compared: size, year built, per-bed or per-unit rent, what rent includes and distance for 12 large buildings.'
+dek: 'The large Collegetown buildings split into three groups: per-bed leases on Dryden Road, new luxury towers on College Avenue, and buildings that quote rent on request.'
+meta: 'Collegetown apartment buildings compared: size, per-bed or per-unit rent, waitlists and distance from Ho Plaza for 12 large buildings.'
 primary_query: collegetown apartment buildings compared
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 168
 rewrites: ''
 readers:
@@ -21,58 +21,58 @@ tools:
 sources:
 - url: https://ithacarenting.com/collegetown/
   title: 'Ithaca Renting: Collegetown properties and per-bed prices'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/unit-details/?uid=270
   title: Collegetown Plaza, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/unit-details/?uid=461
   title: Collegetown Center, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://drydensouth.com/availability/
   title: Dryden South availability
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
   title: The Ivy to establish new luxury housing in Collegetown, The Cornell Daily Sun, Dec. 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694
   title: Collegetown Terrace listing, Cornell Off-Campus Housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/catherine-commons-236692
   title: Catherine Commons listing, Cornell Off-Campus Housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/lux-lofts-236685
   title: Lux & Lofts listing, Cornell Off-Campus Housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-plaza-236537
   title: Collegetown Plaza listing, Cornell Off-Campus Housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.thestudentagenciesbuilding.com/
   title: The Student Agencies Building
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.urbanithaca.com/
   title: Urban Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
   title: 301 College Avenue, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
 
 ```glance
 - Dryden Road buildings (Plaza, Center, Court, Dryden South) are 0.35 to 0.36 miles from Ho Plaza.
-- Ithaca Renting prints per-bed prices; most other large buildings print a range with no period or none at all.
+- Ithaca Renting posts per-bed prices; most other large buildings post a building-wide range or quote rent on request.
 - The Ivy's 3-bedrooms run $5,500 to $5,800 a month, about $1,833 to $1,933 per person.
 - Student Agencies and Dryden South list 2027-28 as full, so ask about waitlists first.
 ```
 
-The cheapest large buildings are the Ithaca Renting properties on Dryden Road, where beds in big units start at $695 a month for 2027-28. The newest buildings on College Avenue cost far more, and several print no price. The table below puts them side by side ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
+The cheapest large buildings are the Ithaca Renting properties on Dryden Road, where beds in big units start at $695 a month for 2027-28. The newest buildings on College Avenue cost far more, and several quote rent only on request. The table below puts them side by side ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
 ## How do the large Collegetown buildings compare?
 
 Distances are straight lines from Ho Plaza, not walking routes. "Per bed" means each tenant signs for one bedroom. "Per unit" means the whole apartment.
 
-| Building | Address | Size and type | Price as printed | Basis | Distance |
+| Building | Address | Size and type | Price | Basis | Distance |
 |---|---|---|---|---|---|
 | Collegetown Plaza | 111 Dryden Rd. | Built 1989, nine stories, studios to 6BR | $775 to $2,080, 2027-28 | Per bed | 0.36 mi. |
 | Collegetown Center | 151 Dryden Rd. | Built 1997, studios and 1BR, concierge | $1,360 to $2,545, 2027-28 | Per bed | 0.36 mi. |
@@ -81,15 +81,15 @@ Distances are straight lines from Ho Plaza, not walking routes. "Per bed" means 
 | 202 and 210 Dryden Rd. | Dryden Rd. | A 10BR unit; shared-suite rooms | $695 to $950, 2027-28 | Per bed | 0.35 mi. |
 | Dryden South | 205 Dryden Rd. | 2 studios, 10 four-bedroom suites | $1,360 to $1,575 (suites) | Per person | 0.36 mi. |
 | The Ivy | 325 College Ave. | Eight stories, 52 units, studios to 7BR | 3BR $5,500 to $5,800 a month | Per unit | 0.37 mi. |
-| Catherine Commons | College Ave. | Furnished, studios to 3BR | $1,615 to $2,479, no period | Not stated | 0.44 mi. |
-| Lux & Lofts | 201 College Ave. | 106 units | "Ask" | Not printed | 0.51 mi. |
-| Collegetown Terrace | 115 S. Quarry St. | Furnished, leased per person | $605 to $2,265, no period | Not stated | 0.60 mi. |
-| Collegetown Crossing | 307 College Ave. | Built 2016, 13 units listed | Not printed | Not printed | 0.42 mi. |
-| The Student Agencies Building | 409 College Ave. | Leased out for 2027-28 | Not printed | Not printed | 0.34 mi. |
+| Catherine Commons | College Ave. | Furnished, studios to 3BR | $1,615 to $2,479 |  | 0.44 mi. |
+| Lux & Lofts | 201 College Ave. | 106 units | On request |  | 0.51 mi. |
+| Collegetown Terrace | 115 S. Quarry St. | Furnished, leased per person | $605 to $2,265 |  | 0.60 mi. |
+| Collegetown Crossing | 307 College Ave. | Built 2016, 13 units | On request |  | 0.42 mi. |
+| The Student Agencies Building | 409 College Ave. | Leased out for 2027-28 | On request |  | 0.34 mi. |
 
 Source: Ithaca Renting, [Dryden South](https://drydensouth.com/availability/), the Cornell Off-Campus Housing marketplace, [The Ivy coverage in The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) and each building's own site. Distances are measured from map coordinates.
 
-Two cautions come with a table like this. The marketplace price ranges are headers, and each floor plan under them often says "Call For Price." And the building details can disagree between sources, so confirm the unit and lease year in writing.
+The marketplace price ranges cover a whole building, and many landlords price individual floor plans on request. Confirm the unit, the price basis and the lease year in writing.
 
 ## Which buildings charge by the bed?
 
@@ -105,13 +105,13 @@ Dryden South at 205 Dryden Rd. prices by the person. Its ten four-bedroom suites
 
 The Ivy is at College Avenue and Dryden Road. A 3BR at $5,500 to $5,800 works out to $1,833.33 to $1,933.33 per person. Nearly all units were leased before construction finished, and its developers include Nick Robertson and Charlie O'Connor of Modern Living Rentals ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026)).
 
-Catherine Commons and Collegetown Terrace both list a price header with no period. Ask for a written per-bed quote before you compare either with a per-bed building. Their listings are on the Cornell marketplace ([Catherine Commons](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/catherine-commons-236692), [Collegetown Terrace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)).
+Catherine Commons and Collegetown Terrace both post a building-wide price range. Ask for a written per-bed quote before you compare either with a per-bed building. Their listings are on the Cornell marketplace ([Catherine Commons](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/catherine-commons-236692), [Collegetown Terrace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694)).
 
 <!-- ad-break -->
 
 ## Which buildings are already full for 2027-28?
 
-On Nov. 10, 2026, 14 of the 67 rows on Ithaca Renting's Collegetown page were marked sold out, including the 8BR and 14BR houses. The Student Agencies Building shows "All units HAVE BEEN leased" and offers an early-access waitlist for 2027-28 ([The Student Agencies Building](https://www.thestudentagenciesbuilding.com/)). All ten Dryden South suites are rented too. For when to start, read [when to sign a Collegetown lease](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
+As of Nov. 10, 2026, Ithaca Renting had marked 14 of its 67 Collegetown listings sold out, including the 8BR and 14BR houses. The Student Agencies Building shows "All units HAVE BEEN leased" and offers an early-access waitlist for 2027-28 ([The Student Agencies Building](https://www.thestudentagenciesbuilding.com/)). All ten Dryden South suites are rented too. For when to start, read [when to sign a Collegetown lease](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
 
 ```reader "If you're a sophomore signing for junior year"
 Decide group size before you pick a building. A group of six fits Aces or Plaza at the lowest rents. A group of two or three belongs in Center, Court or Dryden South, where per-person rent runs higher.

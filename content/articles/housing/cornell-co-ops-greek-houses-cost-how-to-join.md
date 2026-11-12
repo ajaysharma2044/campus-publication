@@ -25,7 +25,7 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -47,34 +47,25 @@ sources:
 - url: https://cornellsun.com/2019/02/11/open-house-day-highlights-unique-qualities-of-cornell-co-ops/
   title: Open House Day Highlights Unique Qualities of Cornell Co-ops, The Cornell Daily Sun
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
   title: Co-op Housing 2026-2027 Terms and Conditions
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall
   title: Redbud Cooperative in Von Cramm Hall, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement
   title: Affiliated Housing
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Off-Campus Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard
-  title: Organization Scorecard, Sorority & Fraternity Life, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
-  title: Undergraduate Meal Plans, Cornell Dining
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities
-  title: Financial Obligations
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/
@@ -91,7 +82,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative
   title: Wari Cooperative, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: A large Tudor Revival house with a steep slate roof and half-timbered gables on Triphammer Road in Ithaca
@@ -140,10 +131,10 @@ The Cornell Daily Sun described entry in 2023 as a mosey: house events, then a l
 
 Triphammer asks applicants to attend two events and one cook group before the lottery ([Triphammer Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative)). Watermargin uses a random lottery to keep its mix of residents varied ([Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin)). Wari has used interviews ([Cornell Daily Sun, 2019](https://cornellsun.com/2019/02/11/open-house-day-highlights-unique-qualities-of-cornell-co-ops/)).
 
-A co-op room comes with a license, which is Cornell's permission to live in the room, not a lease. For 2026-27 it requires full-time registration of at least 12 credit hours and carries no security or key deposit ([Co-op terms](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)).
+A co-op room comes with a license, which is Cornell's permission to live in the room, not a lease. For 2026-27 it requires full-time registration of at least 12 credit hours and carries no security or key deposit ([Co-op terms](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)).
 
 ```reader "If you're a graduate student"
-Five houses list graduate and professional students as eligible: [Wait Avenue Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative) (women only), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [Redbud (Von Cramm Hall)](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall). The [Wari Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative) page does not.
+Five houses list graduate and professional students as eligible: [Wait Avenue Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-avenue-cooperative) (women only), [Wait Terrace](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wait-terrace), [Triphammer](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/triphammer-cooperative), [Watermargin](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/watermargin) and [Redbud (Von Cramm Hall)](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall). [Wari Cooperative](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative) is open to transfer and upper-level women.
 ```
 
 ## How do you get into a fraternity or sorority house as a sophomore?
@@ -153,10 +144,10 @@ Join the chapter first. A sophomore must be a member when the housing applicatio
 Three steps follow:
 
 1. Confirm your plan to live in the house on the housing application by the first deadline. Members whose chapters confirm them skip the April room selection for rising sophomores.
-2. File the housing application anyway. For 2027-28 it opens Feb. 1 and is due April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Miss the confirmation and you finish the requirement in a Cornell hall.
-3. Expect to live in. Nearly all chapters require members to live in for a semester or two, and members who live out can owe a "parlor" fee, which is the charge for using the house without living there ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)).
+2. File the housing application anyway. For 2027-28 it opens Feb. 1 and is due April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Miss the confirmation and you finish the requirement in a Cornell hall.
+3. Expect to live in. Nearly all chapters require members to live in for a semester or two, and members who live out can owe a "parlor" fee, which is the charge for using the house without living there ([Affiliated Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement)).
 
-Three non-Greek houses also qualify as affiliated housing: Alpha Zeta, the Center for Jewish Living and Seal and Serpent ([Qualified Off-Campus Housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)). Cornell checks them for insurance, sprinklers and yearly city inspections. The check does not apply to recognized fraternities and sororities ([Requirements](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
+Three non-Greek houses also qualify as affiliated housing: Alpha Zeta, the Center for Jewish Living and Seal and Serpent ([Qualified Off-Campus Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement)). Cornell checks them for insurance, sprinklers and yearly city inspections. The check does not apply to recognized fraternities and sororities ([Requirements](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
 
 ```reader "If you're a sophomore choosing between a chapter house and a Collegetown lease"
 A Collegetown lease for sophomore year does not end your Cornell bill if you are still required to live on campus. See the [sophomore guide](/cornell/housing/off-campus-housing-cornell-sophomores/) before you sign anything.
@@ -164,7 +155,7 @@ A Collegetown lease for sophomore year does not end your Cornell bill if you are
 
 ## What does each option cost?
 
-Co-op rates vary by house and by room on [Cornell's rate table](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates). Our [co-op vs dorm comparison](/cornell/housing/cornell-co-op-vs-dorm-cost-lifestyle/) sets them against a hall room and a meal plan. Each chapter sets its own rent, and the [fraternity and sorority housing guide](/cornell/housing/cornell-fraternity-sorority-housing-2026-27/) lists the live-in charge and parlor fee that each chapter reports to Cornell.
+Co-op rates vary by house and by room on [Cornell's rate table](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates). Our [co-op vs dorm comparison](/cornell/housing/cornell-co-op-vs-dorm-cost-lifestyle/) sets them against a hall room and a meal plan. Each chapter sets its own rent, and the [fraternity and sorority housing guide](/cornell/housing/cornell-fraternity-sorority-housing-2026-27/) lists the live-in charge and parlor fee that each chapter reports to Cornell.
 
 ```reader "If you're on a tight budget"
 The triple at Redbud (Von Cramm Hall) is the lowest-priced bed on Cornell's rate table at $2,765 per semester, or $5,530 a year, which is $7,114 below the $12,644 hall triple. Co-ops are the better bet than a chapter house, because the rent is fixed and posted, and there are no dues on top of it.
@@ -185,11 +176,11 @@ rows:
   - {label: "Housing application and exemption deadline", date: "April 4"}
 ```
 
-Cornell's rising-sophomore page still prints one 2026 date from last year, so read the current page before you rely on a day ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+Cornell's rising-sophomore page still prints one 2026 date from last year, so read the current page before you rely on a day ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 ## Can you cancel your Cornell room if you get in?
 
-A second-year who is accepted to a Greek house, affiliated house or one of the eight co-ops before the Spring Housing Selection deadline can cancel a Cornell license. First-years and new transfers cannot ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Juniors and seniors who hold a hall room pay a fee that rises through the year: $50 through Jan. 31, then $500 from Feb. 1, and more in later months. The calculator shows the fee on your date.
+A second-year who is accepted to a Greek house, affiliated house or one of the eight co-ops before the Spring Housing Selection deadline can cancel a Cornell license. First-years and new transfers cannot ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Juniors and seniors who hold a hall room pay a fee that rises through the year: $50 through Jan. 31, then $500 from Feb. 1, and more in later months. The calculator shows the fee on your date.
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 

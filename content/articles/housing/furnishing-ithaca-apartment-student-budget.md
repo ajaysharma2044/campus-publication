@@ -68,19 +68,19 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: 'Cornell Housing and Residential Life: Graduate and professional student housing'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: 'Cornell Housing and Residential Life: Signing a lease'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: 'Cornell Housing and Residential Life: Checklists'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out
   title: 'Cornell Housing and Residential Life: Moving out'
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: 'Cornell Law School Tenants Advocacy Practicum: Building issues and maintenance'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: 'Cornell Housing and Residential Life: Living on campus (renters insurance)'
   accessed: '2026-11-10'
 - url: https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny
@@ -145,7 +145,7 @@ rows:
 
 Sources: [IthacaRents, Colonial Building](https://www.ithacarents.com/1075-studio-efficiencies-on-the-commons); [IthacaRents, Whiton Hall](https://www.ithacarents.com/2975-whiton-hall---rooms-in-shared-housing); [Ivy Ridge Townhomes](https://ivyridgetownhomes.com/amenities/).
 
-Bring or buy a mattress cover, sheets, a lamp, pots and dishes; none of these lists includes them. Cornell lists furnishings among the extra costs a lease can carry ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). Ask the landlord for the furniture list for your exact unit, not the building, before you sign.
+Bring or buy a mattress cover, sheets, a lamp, pots and dishes; none of these lists includes them. Cornell lists furnishings among the extra costs a lease can carry ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)). Ask the landlord for the furniture list for your exact unit, not the building, before you sign.
 
 ## Is a furnished apartment worth paying more for?
 
@@ -179,7 +179,7 @@ At Hasbrouck, take the unfurnished one-bedroom only if you already own a full se
 
 Buy only what the landlord's list leaves out, and buy the big pieces used. For most furnished units that means bedding, a lamp, kitchen gear, a shower curtain and cleaning supplies. If your unit is unfurnished, a bed and mattress come first, then a desk and chair.
 
-Cornell's own move-out in May is one source of free used furniture. Items students leave in campus housing without a resident present are donated to Dump & Run, and usable items go to Project ReCollect bins in residence hall lobbies ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out)). Dump & Run's sale dates and prices aren't on that page; contact Dump & Run about its next sale before you shop elsewhere.
+Cornell's own move-out in May is one source of free used furniture. Items students leave in campus housing without a resident present are donated to Dump & Run, and usable items go to Project ReCollect bins in residence hall lobbies ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out)). Dump & Run's sale dates and prices aren't on that page; contact Dump & Run about its next sale before you shop elsewhere.
 
 Students leaving furnished Collegetown apartments sell what they bought at the same time. Most Ithaca leases end July 31, so late July is when the most used furniture changes hands. For more ways to cut spending, see [how to save money at Cornell](/cornell/money/how-to-save-money-at-cornell-student-discounts-ithaca/).
 
@@ -191,7 +191,7 @@ Inspect any used mattress, couch or upholstered chair before it comes inside, an
 
 ## Do you need renters insurance for your furniture?
 
-Yes. Renters insurance covers your own belongings if they are stolen or damaged, and Cornell's checklist for off-campus renters says to buy it ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists)). Your landlord's insurance covers the building, not your desk or laptop. Cornell points students to GradGuard College Renters Insurance, which covers theft, fire, smoke and vandalism on and off campus ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus)). Ithaca quotes average about $76 a year, or about $6 a month ([SafeButler](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny)). For the rest of a monthly budget, see [what a month off campus costs](/cornell/housing/what-a-month-off-campus-costs-cornell/).
+Yes. Renters insurance covers your own belongings if they are stolen or damaged, and Cornell's checklist for off-campus renters says to buy it ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)). Your landlord's insurance covers the building, not your desk or laptop. Cornell points students to GradGuard College Renters Insurance, which covers theft, fire, smoke and vandalism on and off campus ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus)). Ithaca quotes average about $76 a year, or about $6 a month ([SafeButler](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny)). For the rest of a monthly budget, see [what a month off campus costs](/cornell/housing/what-a-month-off-campus-costs-cornell/).
 
 ## What should you do with the landlord's furniture on move-in day?
 

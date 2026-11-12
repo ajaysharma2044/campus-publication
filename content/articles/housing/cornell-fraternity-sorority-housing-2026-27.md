@@ -26,97 +26,97 @@ tools:
 sources:
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/policies-and-procedures/presidential-actions
   title: Presidential Actions, Sorority & Fraternity Life, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities
   title: Financial Obligations with Sororities & Fraternities, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/stories/2018/05/citing-health-and-safety-concerns-pollack-initiates-greek-life-reforms
   title: Citing health and safety concerns, Pollack initiates Greek life reforms, Cornell Chronicle, May 4, 2018
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard
   title: Organization Scorecard, Sorority & Fraternity Life, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement
   title: Affiliated Housing for the Second-Year Housing Requirement, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2019/11/solar-flashback-its-all-greek-to-me-a-history-of-greek-life-policies-at-cornell
   title: 'Solar Flashback: It''s All Greek to Me, A History of Greek Life Policies at Cornell, The Cornell Daily Sun, Nov. 21, 2019'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2013/09/ezras-oracle-sept-20-2013
   title: Ezra's Oracle, The Cornell Daily Sun, Sept. 20, 2013
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2010/09/university-turns-former-kappa-sigma-house-into-campus-dorm
   title: University Turns Former Kappa Sigma House Into Campus Dorm, The Cornell Daily Sun, Sept. 7, 2010
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/how-join-sorority-or-fraternity
   title: How to Join a Sorority or Fraternity, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar, Cornell University Registrar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental
   title: SFL Supplemental (Bear Supplemental) Meal Plan, Cornell Dining
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2021/11/as-cornell-requires-university-housing-for-sophomores-students-weigh-options
   title: As Cornell Requires University Housing for Sophomores, Students Weigh Options, The Cornell Daily Sun, Nov. 9, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/our-community
   title: Our Community, Sorority & Fraternity Life, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
   title: Certificate of Compliance, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees
   title: Certificate of Compliance Fees, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Off-Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Off-Campus Living
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2024/11/chi-phi-fraternity-suspended-from-cornell-university-campus-after-sexual-assault-and-drugging-reports/
   title: Chi Phi Fraternity suspended from Cornell campus after sexual assault and drugging reports, The Ithaca Voice, November 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/09/university-releases-statement-on-alleged-gang-rape-at-chi-phi
   title: University Releases Statement on Alleged Gang Rape at Chi Phi, The Cornell Daily Sun, September 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/10/breaking-cornell-suspends-all-fraternity-parties-social-events-for-2026-27-school-year
   title: Cornell Suspends All Fraternity Parties, Social Events for 2026-27 School Year, The Cornell Daily Sun, Oct. 13, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cnn.com/2026/10/13/us/cornell-suspends-fraternity-social-events
   title: Cornell suspends fraternity parties for rest of the academic year amid reviews of 2024 rape allegations, CNN, Oct. 13, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cnn.com/2026/10/17/us/cornell-greek-life-west-virginia-university-crackdown
   title: 'From Cornell to WVU: Why fraternity crackdowns rarely last, CNN, Oct. 17, 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.insidehighered.com/news/quick-takes/2026/10/14/cornell-bans-frat-parties-it-re-evaluates-greek-life
   title: Cornell Bans Frat Parties as It Re-Evaluates Greek Life, Inside Higher Ed, Oct. 14, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://statements.cornell.edu/2017/20170330-alpha-xi-delta.cfm
   title: Alpha Xi Delta placed on interim suspension, Cornell University Statements, March 30, 2017
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2018/11/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in
   title: Desirable Collegetown Leases Leave Market Up to 16 Months Before Residents Move In, The Cornell Daily Sun, Nov. 7, 2018
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Zeta Psi fraternity house at Cornell, a brick Tudor-style chapter house with a lawn and a chapter sign
@@ -140,7 +140,7 @@ redirect_from:
 - Fraternity parties are banned through 2026-27 while Cornell decides whether fraternity life continues.
 ```
 
-A recognized chapter house counts as sophomore housing at Cornell if you affirm it on your housing application by March 15, 2027 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Each chapter sets its own rent. Leaving aside one chapter that lists $0, the live-in charge for housing and dining runs from $2,000 to $14,673 for one spring semester on Cornell's [organization scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard).
+A recognized chapter house counts as sophomore housing at Cornell if you affirm it on your housing application by March 15, 2027 ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Each chapter sets its own rent. Leaving aside one chapter that lists $0, the live-in charge for housing and dining runs from $2,000 to $14,673 for one spring semester on Cornell's [organization scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard).
 
 A chapter house is three things at once. It is a club's meeting hall. It is a building owned by the university, an alumni group or a national organization, paid for by student rent ([Financial Obligations page](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). And for a sophomore, it stands in for a dorm that Cornell approves but does not run. The university, the city and the chapter each control a different part of the house. Knowing which one sets which rule is most of what a student needs.
 
@@ -148,7 +148,7 @@ The stakes are large. In 2018, more than 4,500 students, nearly a third of under
 
 ## Every chapter house on Cornell's list
 
-Cornell's residential policy points to the scorecard as its list of affiliated sorority and fraternity properties. Below is every chapter on it that gives a street address, plus the three non-Greek houses Cornell also approves for second-years. A "live-in" charge is what one member pays to live and eat in the house for the spring semester shown. A "live-out" charge is the parlor fee, the share of house costs a member pays while living somewhere else. Members are not beds: neither the scorecard nor Cornell's housing pages say how many people each house sleeps, so ask the chapter.
+Cornell's residential policy points to the scorecard as its list of affiliated sorority and fraternity properties. Below is every chapter on it with a house address or a live-in charge, plus the three non-Greek houses Cornell also approves for second-years. A "live-in" charge is what one member pays to live and eat in the house for the spring semester shown. A "live-out" charge is the parlor fee, the share of house costs a member pays while living somewhere else. Members are not beds: ask the chapter how many people the house sleeps.
 
 | Chapter | Council | Address as listed | At Cornell since | Members, fall 2025 | Live-in housing and dining | Live-out (parlor) fee | Status |
 |---|---|---|---|---|---|---|---|
@@ -157,7 +157,7 @@ Cornell's residential policy points to the scorecard as its list of affiliated s
 | Alpha Gamma Rho | IFC | 203 Highland Ave. (privately owned) | 1914 | 50 | $5,300 (spring 2025) | $2,900 | Recognized |
 | Alpha Sigma Phi | IFC | 804 Stewart Ave. (privately owned) | 1909 | 29 | $7,500 (spring 2026) | $300 | Recognized |
 | Beta Theta Pi | IFC | 100 Ridgewood Rd. (privately owned) | 1879 | 13 | $0 (spring 2026) | $100 | Recognized |
-| Chi Phi | IFC | 107 Edgemoor Ln. (university owned) | 1868 | Not listed | $7,150 (spring 2023) | $1,150 | Interim suspension; Cornell says the chapter is barred from campus |
+| Chi Phi | IFC | 107 Edgemoor Ln. (university owned) | 1868 |  | $7,150 (spring 2023) | $1,150 | Interim suspension; Cornell says the chapter is barred from campus |
 | Chi Psi | IFC | 810 University Ave. | 1869 | 68 | $4,900 (spring 2026) | $800 | Recognized |
 | Delta Chi | IFC | 102 The Knoll | 1890 | 82 (fall 2024) | $7,250 (spring 2026) | $1,000 | Recognized |
 | Delta Kappa Epsilon | IFC | 13 South Ave. | 1870 | 43 | $2,000 (spring 2026) | $500 | Recognized |
@@ -169,12 +169,12 @@ Cornell's residential policy points to the scorecard as its list of affiliated s
 | Phi Kappa Tau | IFC | 106 The Knoll | 1930 | 51 | $7,800 (spring 2026) | $2,100 | Recognized |
 | Pi Kappa Alpha | IFC | 17 South Ave. | 1917 | 67 | $8,400 (spring 2026) | $1,600 | Recognized |
 | Pi Kappa Phi | IFC | 55 Ridgewood Rd. | 1921 | 60 | $5,600 (spring 2026) | $600 | Recognized |
-| Sigma Alpha Epsilon | IFC | 122 McGraw Pl. | Not listed | 67 | $3,775 (spring 2025) | $3,100 | Recognized |
-| Sigma Alpha Mu | IFC | Not listed | Not listed | 21 | $9,000 (spring 2025) | $3,500 | Recognized |
+| Sigma Alpha Epsilon | IFC | 122 McGraw Pl. |  | 67 | $3,775 (spring 2025) | $3,100 | Recognized |
+| Sigma Alpha Mu | IFC |  |  | 21 | $9,000 (spring 2025) | $3,500 | Recognized |
 | Sigma Chi | IFC | 106 Cayuga Heights Rd. | 1890 | 68 | $9,880 (spring 2025) | $4,600 | Recognized |
 | Sigma Nu | IFC | 230 Willard Way | 1901 | 36 | $9,400 (spring 2025) | $2,300 | Recognized |
 | Sigma Pi | IFC | 730 University Ave. | 1913 | 66 | $11,000 (spring 2023) | $3,300 | Recognized |
-| Zeta Beta Tau | IFC | 1 Edgecliff Pl. | Not listed | 56 | $6,000 (spring 2025) | $500 | Recognized |
+| Zeta Beta Tau | IFC | 1 Edgecliff Pl. |  | 56 | $6,000 (spring 2025) | $500 | Recognized |
 | Alpha Chi Omega | Panhellenic | 210 Thurston Ave. (privately owned) | 1984 | 128 | $8,600 (spring 2025) | $941 | Recognized |
 | Alpha Epsilon Phi | Panhellenic | 435 Wyckoff Ave. (privately owned) | 1920 | 144 | $6,985 (spring 2025) | $860 | Recognized |
 | Alpha Phi | Panhellenic | 411 Thurston Ave. (privately owned) | 1889 | 155 | $5,397 (spring 2025) | $555 | Recognized |
@@ -186,13 +186,13 @@ Cornell's residential policy points to the scorecard as its list of affiliated s
 | Kappa Kappa Gamma | Panhellenic | 508 Thurston Ave. (privately owned) | 1883 | 136 | $7,085 (spring 2025) | $730 | Recognized |
 | Pi Beta Phi | Panhellenic | 330 Triphammer Rd. (privately owned) | 1918 | 134 | $5,090 (spring 2023) | $135 | Recognized |
 | Sigma Delta Tau | Panhellenic | 115 Ridgewood Rd. (privately owned) | 1917 | 153 | $7,500 (spring 2025) | $394 | Recognized |
-| Alpha Phi Alpha | MGFC | 105 Westbourne Ln. (spelled "Wesetbourne" on the scorecard) | 1906 | 5 | No housing charge listed | None listed | Recognized |
-| Pi Delta Psi | MGFC | 124 Triphammer Rd. | 1998 | 43 | No housing charge listed | None listed | Recognized |
-| Alpha Zeta (professional fraternity, agriculture) | Affiliated house, not in a Greek council | 214 Thurston Ave. | Not listed | Not listed | Not published | Not published | Approved second-year housing |
-| Center for Jewish Living | Affiliated house | 106 West Ave. | Not listed | Not listed | Not published | Not published | Approved second-year housing |
-| Seal and Serpent | Affiliated house (independent student organization) | 305 Thurston Ave. | History back to 1905 | Not listed | Not published | Not published | Approved second-year housing |
+| Alpha Phi Alpha | MGFC | 105 Westbourne Ln. (spelled "Wesetbourne" on the scorecard) | 1906 | 5 | On request | On request | Recognized |
+| Pi Delta Psi | MGFC | 124 Triphammer Rd. | 1998 | 43 | On request | On request | Recognized |
+| Alpha Zeta (professional fraternity, agriculture) | Affiliated house, not in a Greek council | 214 Thurston Ave. |  |  | On request | On request | Approved second-year housing |
+| Center for Jewish Living | Affiliated house | 106 West Ave. |  |  | On request | On request | Approved second-year housing |
+| Seal and Serpent | Affiliated house (independent student organization) | 305 Thurston Ave. | History back to 1905 |  | On request | On request | Approved second-year housing |
 
-Source: [Cornell SFL scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard) (self-reported by each chapter; "At Cornell since" is the chapter's founding year at Cornell, not the year its house opened; Delta Chi and Lambda Chi Alpha report members for the term shown) and [Cornell's affiliated housing list](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing). IFC is the Interfraternity Council, Panhellenic the Panhellenic Council, MGFC the Multicultural Greek & Fraternal Council. The other 13 MGFC chapters list no house: 12 give the Office of Sorority and Fraternity Life at 136 Ho Plaza as their address, and one gives none.
+Source: [Cornell SFL scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard) (self-reported by each chapter; "At Cornell since" is the chapter's founding year at Cornell, not the year its house opened; Delta Chi and Lambda Chi Alpha report members for the term shown) and [Cornell's affiliated housing list](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement). IFC is the Interfraternity Council, Panhellenic the Panhellenic Council, MGFC the Multicultural Greek & Fraternal Council. The other 13 MGFC chapters have no chapter house; 12 use the Office of Sorority and Fraternity Life at 136 Ho Plaza as their address.
 
 ## How Cornell's chapter houses got here
 
@@ -204,7 +204,7 @@ Kappa Alpha Theta, founded in 1881, was Cornell's first sorority. In 1906, seven
 
 Money shaped the houses from the start. In 1887, Bishop wrote, living in a fraternity house cost $200 to $500 more than a lodging house, so the option was "restricted to the wealthy" (Cornell Daily Sun, 2019). The gap in who has a house is still visible. Every Panhellenic sorority and all but one fraternity in the Interfraternity Council list a street address. Of the 15 multicultural chapters, only two do (Cornell SFL scorecard).
 
-Ownership varies house by house. The scorecard marks 15 houses "privately owned" and one, Chi Phi's at 107 Edgemoor Lane, "university owned." The rest carry no label. In 2010, The Cornell Daily Sun reported that Cornell owned 13 fraternity houses, sold to it by alumni groups that wanted the university to manage them ([Cornell Daily Sun, 2010](https://www.cornellsun.com/article/2010/09/university-turns-former-kappa-sigma-house-into-campus-dorm)).
+Ownership varies house by house. The scorecard marks 15 houses "privately owned" and one, Chi Phi's at 107 Edgemoor Lane, "university owned." In 2010, The Cornell Daily Sun reported that Cornell owned 13 fraternity houses, sold to it by alumni groups that wanted the university to manage them ([Cornell Daily Sun, 2010](https://www.cornellsun.com/article/2010/09/university-turns-former-kappa-sigma-house-into-campus-dorm)).
 
 That arrangement decides what happens when a chapter disappears. In 2010, after Kappa Sigma lost its chapter, Cornell renovated the house at 600 University Avenue. It filled the rooms with nine graduate students and 15 undergraduates, partly through a last-minute Craigslist ad. An official estimated that an empty house cost $80,000 to $90,000 a year to maintain. Cornell's contract with Kappa Sigma said the house had to go back to the fraternity if a chapter returned (Cornell Daily Sun, 2010). One did. Kappa Sigma is back at 600 University Avenue, with 22 members in fall 2025 (Cornell SFL scorecard).
 
@@ -233,7 +233,7 @@ A sophomore can live in only on Cornell's four conditions and Cornell's calendar
 3. **The chapter must meet staffing rules.** A chapter is approved each year if it meets Cornell's recognition rules and has a live-in advisor and four upper-level officers by Jan. 1.
 4. **You still file the housing application.** Every first- and second-year applies, even those who expect to live in a chapter house.
 
-For 2027-28 housing, the application opens Feb. 1 and closes April 4. Students who plan to live in a chapter house must say so on the application by the March deadline above (Spring Housing Selection). One line of that page still shows last year's date; go by the 2027 date, which matches the 2027-28 dates around it.
+For 2027-28 housing, the application opens Feb. 1 and closes April 4. Students who plan to live in a chapter house must say so on the application by the March deadline above (Spring Housing Selection).
 
 Housing and Residential Life checks your plan against rosters from the Office of Sorority and Fraternity Life. A student who misses the March deadline completes the requirement in on-campus housing. Cornell tells students to confirm with house leaders that their names are on the roster before the deadline (Spring Housing Selection). Students the chapter confirms skip April's room selection and hear from the sorority and fraternity office instead (Cornell Residential Policy).
 
@@ -241,9 +241,9 @@ The staffing rule dates to 2018. Each chapter, not Cornell, employs its live-in 
 
 Cornell's meal-plan requirement covers its halls, program houses and the other buildings it lists, and chapter houses are not on that list (Cornell Dining meal plans). A chapter's live-in charge covers dining, and a typical house has a kitchen and dining area (Financial Obligations page).
 
-The other routes through sophomore year are a residence hall, one of the eight co-ops, an approved affiliated house or an exemption. Our [comparison of co-ops, Greek houses and dorms](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) prices them side by side. The [rules on exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) cover students who qualify to rent their own place.
+The other routes through sophomore year are a residence hall, one of the eight co-ops, an approved affiliated house or an exemption. Our guide to [a co-op or Greek house instead of a dorm](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) shows how a sophomore gets into each. The [rules on exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) cover students who qualify to rent their own place.
 
-A second-year accepted into an approved chapter house before the Spring Housing Selection deadline can cancel a Cornell housing assignment. First-years and new transfers cannot ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Mid-year moves are harder still. Cornell releases a spring housing contract only for graduating, going abroad or leaving the university. Moving into a "fraternity small residence" does not count as a reason (Financial Obligations page).
+A second-year accepted into an approved chapter house before the Spring Housing Selection deadline can cancel a Cornell housing assignment. First-years and new transfers cannot ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Mid-year moves are harder still. Cornell releases a spring housing contract only for graduating, going abroad or leaving the university. Moving into a "fraternity small residence" does not count as a reason (Financial Obligations page).
 
 In 2018, before the sophomore rule, a group whose Greek housing plans fell apart went house hunting in February. They ended up in a 14-person house that one of them called "this massive disgusting house" ([Cornell Daily Sun, 2018](https://www.cornellsun.com/article/2018/11/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in)). A sophomore in that spot today goes to April room selection instead, as long as the housing application is in.
 
@@ -255,11 +255,11 @@ You can join a chapter in your first semester at Cornell, because the deferred r
 
 ## What the rent buys, and why you pay even when you live out
 
-Each chapter sets its own charges. Cornell describes a typical house budget: common-area housekeeping, utilities, internet and phones, repairs, building insurance and grounds care. The insurance covers the building, not your belongings. Every house must have fire alarms and a sprinkler system throughout (Financial Obligations page). For your belongings, our [renters insurance guide](/cornell/housing/cornell-off-campus-renters-insurance-cost/) prices a policy. In most cases, the rent is billed through the Bursar, Cornell's student account office ([Affiliated Housing list](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing)).
+Each chapter sets its own charges. Cornell describes a typical house budget: common-area housekeeping, utilities, internet and phones, repairs, building insurance and grounds care. The insurance covers the building, not your belongings. Every house must have fire alarms and a sprinkler system throughout (Financial Obligations page). For your belongings, our [renters insurance guide](/cornell/housing/cornell-off-campus-renters-insurance-cost/) prices a policy. In most cases, the rent is billed through the Bursar, Cornell's student account office ([Affiliated Housing list](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement)).
 
 Members who live out pay the parlor fee because a chapter house is the meeting place for every member. Billing members who live out lowers the rent for those who live in. Cornell also says the fee makes living out cost more, which helps keep the house full. Nearly all chapters require members to live in for at least a semester or two (Financial Obligations page).
 
-Cornell says chapter room and board is "in general less" than a residence hall or off-campus housing (Financial Obligations page), and the scorecard bears that out for most chapters. A dorm double costs $6,872 per semester for 2026-27 ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Add the Unlimited meal plan at $3,802 per semester and the total is $10,674. With the Bear Traditional plan at $3,528, it is $10,400 (Cornell Dining meal plans).
+Cornell says chapter room and board is "in general less" than a residence hall or off-campus housing (Financial Obligations page), and the scorecard bears that out for most chapters. A dorm double costs $6,872 per semester for 2026-27 ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Add the Unlimited meal plan at $3,802 per semester and the total is $10,674. With the Bear Traditional plan at $3,528, it is $10,400 (Cornell Dining meal plans).
 
 ```figure
 kind: cost_table
@@ -277,7 +277,7 @@ Source: Cornell Housing Rates and Cornell Dining meal plans for the hall figures
 
 Thirteen chapters report a nonzero spring 2026 charge, and their median is $7,400. That is $3,274 less than a hall double with the Unlimited plan ($10,674 minus $7,400). Only two chapters on the list report a charge above the hall total: Alpha Xi Delta and Sigma Pi, whose $11,000 figure dates to spring 2023. The chapter figures run a year or more behind Cornell's 2026-27 rates and are self-reported, so get your chapter's current number in writing (Cornell SFL scorecard). A spring charge does not tell you the fall rate, so ask the chapter for both semesters. If a chapter charged the median in fall and spring, the year would come to $14,800, against $20,800 for a hall double with the Bear Traditional plan ($10,400 a semester).
 
-Rent is not the whole bill. Dues and new member fees sit on top. Alpha Delta Phi lists chapter dues of $4,850, and Sigma Chi and Sigma Delta Tau each list $5,000 in "new member other fees" (Cornell SFL scorecard). Across 23 fraternities, the median live-out charge is $1,152 a semester. Across 11 sororities it is $602. Sigma Chi lists the highest, $4,600 for spring 2025. Delta Upsilon, Phi Gamma Delta and Delta Delta Delta list none.
+Rent is not the whole bill. Dues and new member fees sit on top. Alpha Delta Phi lists chapter dues of $4,850, and Sigma Chi and Sigma Delta Tau each list $5,000 in "new member other fees" (Cornell SFL scorecard). Across 23 fraternities, the median live-out charge is $1,152 a semester. Across 11 sororities it is $602. Sigma Chi lists the highest, $4,600 for spring 2025. Delta Upsilon, Phi Gamma Delta and Delta Delta Delta charge $0.
 
 ```reader "If you're watching every dollar"
 Ask about aid inside the chapter before you ask about rent. Cornell says chapters may offer scholarships, grants and payment plans (Financial Obligations page). Some are named on the scorecard. Sigma Chi lists the Gordon J. Whiting scholarship, a need-based award for members who get grant and work-study aid from Cornell and hold a leadership role in the chapter. Compare one full year, not one semester: two semesters of live-in charges plus dues, against a hall double and a meal plan. Our [dorm versus off-campus comparison](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) shows the same math for apartments.
@@ -295,7 +295,7 @@ The City of Ithaca inspects every chapter house inside city limits once a year, 
 
 The non-Greek affiliated houses go through a separate Cornell review. Alpha Zeta, the Center for Jewish Living and Seal and Serpent must apply every year. They need liability insurance naming Cornell, sprinklers, junior or senior officers living on site, a second-year program and yearly city inspections if they sit in the city. If one falls short, its second-year residents can be sent back to campus housing. Cornell says this process does not apply to recognized sororities and fraternities ([Cornell requirements page](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
 
-Most houses share their streets with other renters. Cornell's off-campus office tells apartment hunters that Cornell Heights is home to many chapters, so neighbors hear "music and parties" ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)).
+Most houses share their streets with other renters. Cornell's off-campus office tells apartment hunters that Cornell Heights is home to many chapters, so neighbors hear "music and parties" ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
 ## Why the rules keep changing
 
@@ -319,7 +319,7 @@ Some students and faculty want the system gone. Associate professor Andrew Moise
 
 Kotlikoff's order reached the parlors and the basements. It did not reach the bedrooms upstairs. Those rooms still count as approved housing for the second year of Cornell's two-year residential requirement (Cornell Residential Policy). Our [guide to the suspension and 2027-28 housing](/cornell/housing/cornell-fraternity-suspension-2026-housing-2027-28/) explains what it means for a plan to live in for 2027-28.
 
-The review reaches into housing. Chi Phi's house at 107 Edgemoor Lane is the one the scorecard marks as university owned. Four suspended fraternities are scheduled to become eligible to return over the next three years: Phi Sigma Kappa and Zeta Psi in fall 2027, Phi Delta Theta in spring 2028 and Delta Tau Delta in spring 2029 (Cornell SFL scorecard). Cornell's pages do not say what happens to a sophomore living in a chapter house if the chapter loses recognition mid-year. Ask the Office of Sorority and Fraternity Life at greeks@cornell.edu before you affirm.
+The review reaches into housing. Chi Phi's house at 107 Edgemoor Lane is the one the scorecard marks as university owned. Four suspended fraternities are scheduled to become eligible to return over the next three years: Phi Sigma Kappa and Zeta Psi in fall 2027, Phi Delta Theta in spring 2028 and Delta Tau Delta in spring 2029 (Cornell SFL scorecard). Cornell approves a chapter house for sophomores only while the chapter stays recognized ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)), so ask the Office of Sorority and Fraternity Life at greeks@cornell.edu about your chapter's standing before you affirm.
 
 <!-- ad-break -->
 
@@ -346,7 +346,7 @@ Source: Cornell Housing License 2027-28.
 
 ## What comes next
 
-Three questions will shape chapter housing for 2027-28. The first is the review. Kotlikoff's message set no date for its findings, and the March affirmation deadline will come whether or not it has ended (Cornell Student & Campus Life). The second is the Yates review, which Kotlikoff said would look at all related Cornell policies. The third is which suspended chapters come back, and to which houses.
+Three questions will shape chapter housing for 2027-28. The first is the review. Cornell has not yet announced a date for its findings, and the March affirmation deadline will come whether or not it has ended (Cornell Student & Campus Life). The second is the Yates review, which Kotlikoff said would look at all related Cornell policies. The third is which suspended chapters come back, and to which houses.
 
 For a student choosing a house for 2027-28, the safe course is to join, affirm and file on Cornell's dates, and keep a fallback you can live with. For a sophomore, the fallback is April room selection. For anyone older, it is a lease or a Cornell room you can still cancel cheaply. Our [sophomore start page](/start/sophomore/) and [affiliated housing start page](/start/affiliated-housing/) lay out the rest of the year.
 
@@ -398,16 +398,16 @@ rows:
 - [Organization Scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard), Sorority & Fraternity Life, Cornell Student & Campus Life
 - [Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy), Cornell Student & Campus Life
 - [Financial Obligations with Sororities & Fraternities](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities), Cornell Student & Campus Life
-- [Affiliated Housing for the Second-Year Housing Requirement](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing), Cornell Student & Campus Life
+- [Affiliated Housing for the Second-Year Housing Requirement](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement), Cornell Student & Campus Life
 - [Requirements for Qualified University-Recognized Off-Campus Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing), Cornell Student & Campus Life
-- [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), Cornell Student & Campus Life
-- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), Cornell Student & Campus Life
-- [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028), Cornell Student & Campus Life
+- [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), Cornell Student & Campus Life
+- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), Cornell Student & Campus Life
+- [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028), Cornell Student & Campus Life
 - [New Transfer Undergraduates](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates), Cornell Student & Campus Life
 - [Undergraduate Meal Plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans) and [SFL Supplemental plan](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/bear-supplemental), Cornell Dining
 - [How to Join a Sorority or Fraternity](https://scl.cornell.edu/get-involved/sorority-fraternity-life/how-join-sorority-or-fraternity) and [Our Community](https://scl.cornell.edu/get-involved/sorority-fraternity-life/our-community), Cornell Student & Campus Life
 - [Academic Calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar), Cornell University Registrar
-- [Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods), Cornell Off-Campus Living
+- [Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods), Cornell Off-Campus Living
 - [Certificate of Compliance](https://www.cityofithacany.gov/146/Certificate-of-Compliance) and [Certificate of Compliance Fees](https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees), City of Ithaca
 - [Citing health and safety concerns, Pollack initiates Greek life reforms](https://news.cornell.edu/stories/2018/05/citing-health-and-safety-concerns-pollack-initiates-greek-life-reforms), Cornell Chronicle, May 4, 2018
 - [Alpha Xi Delta placed on interim suspension](https://statements.cornell.edu/2017/20170330-alpha-xi-delta.cfm), Cornell University Statements, March 30, 2017

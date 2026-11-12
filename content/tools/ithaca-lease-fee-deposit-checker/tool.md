@@ -10,12 +10,13 @@ readers: [sophomore, upper-year-renter, international, parent, low-budget, alum-
 brief: intel/off-campus-housing/brief.md
 sources:
   - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "New York General Obligations Law 7-108: security deposits", accessed: "2026-11-08"}
+  - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-103", title: "New York General Obligations Law 7-103: deposits held in trust, interest", accessed: "2026-11-11"}
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/238-A", title: "New York Real Property Law 238-a: fees, background checks, late fees", accessed: "2026-11-08"}
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/235-I", title: "New York Real Property Law 235-i: replacement keys", accessed: "2026-11-08"}
   - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits", title: "Cornell Law School Tenants Advocacy: security deposits", accessed: "2026-11-08"}
   - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance", title: "Cornell Law School Tenants Advocacy: building issues and maintenance (small claims)", accessed: "2026-11-08"}
   - {url: "https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants", title: "New York Attorney General: tenants' rights", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out", title: "Cornell Off-Campus Living: moving in and out", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out", title: "Cornell Off-Campus Living: moving in and out", accessed: "2026-11-08"}
   - {url: "https://finaid.cornell.edu/living-campus", title: "Cornell Financial Aid: living off campus", accessed: "2026-11-08"}
   - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown listings, 2027-28", accessed: "2026-11-08"}
   - {url: "https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing", title: "Cornell Daily Sun: landlords and advocates grapple with Good Cause Eviction law", accessed: "2026-11-08"}
@@ -85,11 +86,10 @@ Each line is a limit applied to your number. You can redo all of it by hand.
 
 - The deposit cap does not apply to seasonal rentals or to owner-occupied co-op units ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). Cornell's own housing is a license with no security deposit, so this tool is for private leases.
 - If your rent is increased, the landlord may collect more money from you, but the deposit still cannot exceed the new one month's rent ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)). Enter the new rent.
-- In buildings with six or more units the deposit must sit in an interest-bearing New York account, and the landlord may keep a 1% annual administrative fee ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)). The tool does not compute interest; the rate is not in the brief.
+- In buildings with six or more units the deposit must sit in an interest-bearing New York account, and the landlord may keep a 1% annual administrative fee ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)). The law sets no fixed rate: the account earns the prevailing rate for such deposits, and the interest is paid to you each year, applied to rent, or held until the deposit is returned ([GOL 7-103](https://www.nysenate.gov/legislation/laws/GOB/7-103)). The tool does not compute interest.
 - What counts as damage beyond normal wear is a question of fact. The tool tells you the deadline and the limits, not whether a particular deduction is fair. Deductions are allowed for unpaid rent, damage beyond normal wear, unpaid utilities owed to the landlord, moving and storing belongings you left, and excessive cleaning ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits)).
-- Cornell's move-out page says "charges for cleaning services will be deducted" ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out)). The Cornell Law guide says a separate cleaning fee is banned and only cleaning beyond routine turnover can be deducted. The tool follows the law guide.
-- City of Ithaca Chapter 258 may add its own deposit rules (a receipt naming the bank, a 30-day mark, up to 3x damages), per a third-party blog. They are not verified against the code, so the tool uses only the state's 14 days and 2x.
-- Not in the brief: monthly pet rent (as opposed to a pet deposit), parking or amenity fees, guarantor or co-signer fees, broker fees, and any figure for the punitive damages a court actually awards.
+- Cornell's move-out page says "charges for cleaning services will be deducted" ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out)). The Cornell Law guide says a separate cleaning fee is banned and only cleaning beyond routine turnover can be deducted. The tool follows the law guide.
+- The tool does not check monthly pet rent (as opposed to a pet deposit), parking or amenity fees, guarantor or co-signer fees, or broker fees.
 - Nothing you type is stored or sent anywhere. This is not legal advice. For a free review of your lease or a dispute, call the Cornell Law tenant hotline at 607-301-1560.
 
 ## How to read the result

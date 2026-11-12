@@ -18,7 +18,7 @@ readers:
 subject: Cardboard boxes and packing tape
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: http://www.bigredboxes.com/BRSS_Pricing
@@ -77,7 +77,7 @@ Source note: [BRSS](http://www.bigredboxes.com/BRSS_Pricing), [Uncle Marty's bun
 
 ## How does BRSS shipping work?
 
-The Cornell Daily Sun reports that BRSS is run by Student Agencies and ships through FedEx ([The Cornell Daily Sun](https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes)). Cornell says pickup is [free at your dorm, apartment or house](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options), and you must be there when the driver arrives.
+The Cornell Daily Sun reports that BRSS is run by Student Agencies and ships through FedEx ([The Cornell Daily Sun](https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes)). Cornell says pickup is [free at your dorm, apartment or house](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options), and you must be there when the driver arrives.
 
 ```figure
 kind: steps

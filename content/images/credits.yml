@@ -2400,3 +2400,23 @@
   found_at: '2026-11-11'
   fetched_at: '2026-11-11T18:37:01'
   credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: cornell-ilr-transfer-requirements
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Ives_Hall_ILR_School,_Cornell_University.jpg
+  author: Kenneth C. Zirkel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-11'
+  fetched_at: '2026-11-11T19:59:27'
+  credit: Kenneth C. Zirkel / Wikimedia Commons
+- file: 1.webp
+  article_slug: community-college-to-cornell
+  source: wikimedia
+  page_url: https://commons.wikimedia.org/wiki/File:Mann_Library_-_Exterior_view.jpg
+  author: P. Hughes
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  found_at: '2026-11-11'
+  fetched_at: '2026-11-11T20:05:14'
+  credit: P. Hughes / Wikimedia Commons

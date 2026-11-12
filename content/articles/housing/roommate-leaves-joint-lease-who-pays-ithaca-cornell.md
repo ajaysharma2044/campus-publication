@@ -19,7 +19,7 @@ subject: Collegetown Ithaca apartment buildings
 tools:
 - ithaca-sublet-request-timeline
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
@@ -52,16 +52,16 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings
   title: Eviction Proceedings, Cornell Law School Tenants' Rights Guide
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Off-Campus Living Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://police.illinois.edu/fake-sublessee/
   title: Fake sublessee scam, University of Illinois Police
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
@@ -75,7 +75,9 @@ images: []
 - Three tenants splitting a 4-bedroom's rent pay $415.42 more each per month.
 ```
 
-If a roommate leaves a joint lease, you and the tenants who stay owe the full rent until the landlord releases the leaver or a replacement signs. Cornell says most local leases make housemates [jointly and severally liable](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire). Find a replacement fast and get the landlord's approval in writing.
+If a roommate leaves a joint lease, you and the tenants who stay owe the full rent until the landlord releases the leaver or a replacement signs. Cornell says most local leases make housemates [jointly and severally liable](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire). Find a replacement fast and get the landlord's approval in writing.
+
+This page is general information, not legal advice.
 
 ## Who pays when a roommate leaves a joint lease?
 
@@ -118,7 +120,7 @@ Yes, but you could have to sue. The Cornell Law guide says a tenant who overpays
 
 Small claims court hears these cases. Town and village courts take claims up to $3,000. Ithaca City Court takes claims up to $5,000 and sits at 118 East Clinton Street ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Keep proof: texts agreeing on the split, rent payments and the date the roommate left.
 
-Start with a written note that names the amount and the date it was due. If the leaver ignores it, the Community Dispute Resolution Center mediates roommate disputes at 607-273-9347 ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)).
+Start with a written note that names the amount and the date it was due. If the leaver ignores it, the Community Dispute Resolution Center mediates roommate disputes at 607-273-9347 ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)).
 
 ## How do you replace a roommate who left?
 
@@ -163,7 +165,7 @@ When a housemate leaves, your student can owe the whole rent. Your exposure depe
 ```
 
 ```reader "If you hold a Cornell housing license"
-A Cornell housing license is not a lease. It bars subletting, assigning or transferring, and a student who vacates mid-term stays liable for the full term unless the license is cancelled ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The advice here applies to private leases only.
+A Cornell housing license is not a lease. It bars subletting, assigning or transferring, and a student who vacates mid-term stays liable for the full term unless the license is cancelled ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The advice here applies to private leases only.
 ```
 
 ```reader "If you're on a tight budget"
@@ -187,7 +189,7 @@ Whether the leaver's share of the deposit comes back when they go depends on the
 
 **Can the landlord evict everyone if the leaver's share goes unpaid?** Rent unpaid for 5 days draws a certified-mail notice, and the tenant then has two weeks to pay or leave before a filing ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings)). Pay the shortfall while you sort out the leaver.
 
-**Who can I call for help?** Off-Campus Living gives one-on-one consultations and its line is 607-255-2310 ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). The free Tenants Advocacy hotline is 607-301-1560.
+**Who can I call for help?** Off-Campus Living gives one-on-one consultations and its line is 607-255-2310 ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)). The free Tenants Advocacy hotline is 607-301-1560.
 
 ## What to do next
 

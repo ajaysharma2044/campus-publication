@@ -2,15 +2,14 @@
 title: "Good Cause Eviction checker: Ithaca coverage and notice"
 meta: "Answer eight questions about your Ithaca rental: see if Good Cause Eviction covers it, which exemption applies, and the 30, 60 or 90 days' notice owed."
 topic: housing
-updated: 2026-11-08
-numbers_as_of: 2026-11-08
+updated: 2026-11-11
+numbers_as_of: 2026-11-11
 queue_id: q-housing-0062
 kind: tool
 readers: [upper-year-renter, grad-student, student-family, alum-landlord]
 brief: intel/off-campus-housing/brief.md
 sources:
   - {url: "https://hcr.ny.gov/good-cause-eviction", title: "NYS Homes and Community Renewal: Good Cause Eviction", accessed: "2026-11-08"}
-  - {url: "https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025", title: "NYS HCR: Good Cause Eviction law notice, February 2025", accessed: "2026-11-08"}
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/214", title: "NY Real Property Law 214: Good Cause exemptions", accessed: "2026-11-08"}
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/216", title: "NY Real Property Law 216: grounds for removal", accessed: "2026-11-08"}
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/A6-A", title: "NY Real Property Law Article 6-A: Good Cause Eviction", accessed: "2026-11-08"}
@@ -21,10 +20,13 @@ sources:
   - {url: "https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing", title: "Cornell Sun: Landlords and advocates grapple with Good Cause Eviction law at public hearing", accessed: "2026-11-08"}
   - {url: "https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections", title: "WAMC: Ithaca is the latest upstate city to opt into Good Cause renter protections", accessed: "2026-11-08"}
   - {url: "https://www.wskg.org/regional-news/2024-07-08/new-good-cause-eviction-renter-protections-on-the-table-in-ithaca", title: "WSKG: New Good Cause Eviction renter protections on the table in Ithaca", accessed: "2026-11-08"}
+  - {url: "https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026", title: "NYS DHCR: Good Cause Eviction law notice, posted July 16, 2026", accessed: "2026-11-11"}
   - {url: "https://ecode360.com/27390826", title: "City of Ithaca Code 258-10: renewal of rental agreements", accessed: "2026-11-08"}
 ---
 
 This checker tells you whether New York's Good Cause Eviction law, which the City of Ithaca [opted into in July 2024](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections), likely covers your apartment, and if not, which exemption takes it out. It then shows the rent-increase standard a covered unit gets, and counts the 30, 60 or 90 days' written notice your landlord owes you before not renewing or raising the rent by 5% or more. That notice rule is state law and applies whether or not Good Cause covers you.
+
+This page is general information, not legal advice.
 
 ## Who it is for
 
@@ -37,11 +39,11 @@ This checker tells you whether New York's Good Cause Eviction law, which the Cit
 - **Where the rental is.** Good Cause applies outside New York City only where a city, town or village [opts in](https://www.nysenate.gov/legislation/laws/RPP/A6-A). The City of Ithaca did. Cayuga Heights, Lansing, Varna and the Town of Ithaca parts of East Hill are outside the City.
 - **What kind of housing.** Condos and co-ops, income-restricted and rent-regulated units, and dorms run by a college are [exempt](https://www.nysenate.gov/legislation/laws/RPP/214). Cornell residence halls fall under the dorm exemption; private student apartments do not, despite the common claim that "student housing is exempt."
 - **Certificate of occupancy year.** A building whose certificate of occupancy dates from January 1, 2009 or later is exempt for 30 years. The Ithacan, built in 2023, was [cited as exempt until 2053](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing). Leave it blank if you don't know.
-- **Units the landlord owns in New York State.** Ithaca's small-landlord exemption is [one unit statewide](https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025); the state default is 10. A landlord claiming it must disclose the owners and their unit counts.
+- **Units the landlord owns in New York State.** Ithaca's small-landlord exemption is [one unit statewide](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026); the state default is 10. A landlord claiming it must disclose the owners and their unit counts.
 - **Does the owner live in the building, and how many units it has.** Owner-occupied buildings of 10 or fewer units are exempt.
 - **Years in the unit and lease length.** These set the notice period under [RPL 226-c](https://www.nysenate.gov/legislation/laws/RPP/226-C). The longer of the two counts.
 
-There is no rent or bedroom input. The high-rent exemption (345% of HUD fair market rent) is shown only as an illustration, because this year's fair market rents are not confirmed in our sources.
+There is no rent or bedroom input. The high-rent exemption (345% of HUD fair market rent in Ithaca) is set out in dollars by bedroom count under the high-rent line below.
 
 ## The rules and numbers
 
@@ -49,9 +51,9 @@ There is no rent or bedroom input. The high-rent exemption (345% of HUD fair mar
 
 **Right to renew.** A covered tenant has a right to renewal, except where the landlord will live there, the building is being demolished or taken off the rental market, or there is a proven ground such as nonpayment or a violation not fixed 10 days after written notice ([Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)).
 
-**Rent increase standard.** A yearly increase above the lower of 10% or 5% plus CPI is presumed unreasonable ([DHCR](https://hcr.ny.gov/good-cause-eviction)). The landlord can rebut it; it is not a hard cap. DHCR usually publishes the CPI figure by August 1. This year's CPI figure is not in our sources, so the checker shows the formula, not a percentage. A tenant who refuses reasonable terms can be removed if the landlord gave written notice 30 to 90 days before the lease ends ([RPL 216](https://www.nysenate.gov/legislation/laws/RPP/216)).
+**Rent increase standard.** A yearly increase above the lower of 10% or 5% plus CPI is presumed unreasonable ([DHCR](https://hcr.ny.gov/good-cause-eviction)). The landlord can rebut it; it is not a hard cap. DHCR publishes the CPI figure by August 1 each year. Tompkins County uses the Northeast urban CPI, which rose 3.15% from 2024 to 2025 ([DHCR notice, July 2026](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026)), so the standard in Ithaca works out to 8.15% (5% plus 3.15%, lower than 10%). The checker shows the formula. A tenant who refuses reasonable terms can be removed if the landlord gave written notice 30 to 90 days before the lease ends ([RPL 216](https://www.nysenate.gov/legislation/laws/RPP/216)).
 
-**High-rent line.** Using the 2023 one-bedroom fair market rent the [Cornell Sun reported](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing): $1,276 x 3.45 = $4,402.20 a month. Almost no student unit crosses that line. The exemptions that actually remove student units are the post-2009 certificate of occupancy and the one-unit landlord.
+**High-rent line.** Using the federal fiscal year 2025 HUD fair market rents for Tompkins County that [DHCR published in July 2026](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026): a one-bedroom at $1,466 x 3.45 = $5,057.70 a month; a two-bedroom at $1,753 x 3.45 = $6,047.85. Almost no student unit crosses that line. The exemptions that actually remove student units are the post-2009 certificate of occupancy and the one-unit landlord.
 
 **Notice before non-renewal or a 5%-or-more increase (RPL 226-c).**
 - Under 1 year in the unit and no 1-year lease: 30 days.
@@ -65,11 +67,12 @@ A 12-month lease therefore gets 60 days even in the first year. If notice comes 
 | Number | Value | Applies to | Source |
 |---|---|---|---|
 | Rent standard cap | lower of 10% or 5% + CPI, presumed unreasonable above it | covered units, checked 2026-11-08 | [DHCR](https://hcr.ny.gov/good-cause-eviction) |
-| CPI for the current year | Not in our sources | published by DHCR, usually by Aug 1 | [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal) |
-| High-rent exemption, Ithaca | 345% of HUD fair market rent (state default 245%) | Feb 2025 DHCR list (search snippet) | [DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025) |
-| 2023 one-bedroom fair market rent | $1,276 | 2023, as reported 2024-07-10 | [Cornell Sun](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing) |
-| High-rent line, 1BR illustration | $1,276 x 3.45 = $4,402.20 a month | 2023 FMR | [Cornell Sun](https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing) |
-| Small landlord, Ithaca | 1 unit statewide (state default 10) | Feb 2025 DHCR list (search snippet) | [DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-february-2025) |
+| CPI, Northeast urban (applies to Tompkins County) | 3.15%, 2024 to 2025 | DHCR notice posted 2026-07-16 | [DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026) |
+| Rent standard, Ithaca | 8.15% (5% + 3.15%) | renewals of covered units | [DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026) |
+| High-rent exemption, Ithaca | 345% of HUD fair market rent (state default 245%) | DHCR opt-in list as of 2026-05-04 | [DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026) |
+| Tompkins County fair market rent | $1,263 studio, $1,466 one-bedroom, $1,753 two-bedroom, $2,102 three-bedroom, $2,624 four-bedroom | HUD FY2025, in DHCR notice posted 2026-07-16 | [DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026) |
+| High-rent line, Ithaca | $5,057.70 one-bedroom, $6,047.85 two-bedroom a month (345% of FMR) | HUD FY2025 FMR | [DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026) |
+| Small landlord, Ithaca | 1 unit statewide (state default 10) | DHCR opt-in list as of 2026-05-04 | [DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026) |
 | Owner-occupied exemption | 10 or fewer units | NY, checked 2026-11-08 | [RPL 214](https://www.nysenate.gov/legislation/laws/RPP/214) |
 | New-building exemption | certificate of occupancy on or after Jan 1, 2009; 30 years | NY, checked 2026-11-08 | [RPL 214](https://www.nysenate.gov/legislation/laws/RPP/214) |
 | Cure period before removal for a violation | 10 days after written notice | covered units, Feb 2026 guide | [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal) |
@@ -81,9 +84,8 @@ A 12-month lease therefore gets 60 days even in the first year. If notice comes 
 
 ## Assumptions and what it does not cover
 
-- The Ithaca thresholds (345% and one unit) rest on a search snippet of DHCR's February 2025 notice. The PDF could not be read, and the text of Ithaca's Local Law 2024-01 has not been read.
-- Not in the brief: this year's CPI figure behind the rent standard; HUD's confirmed FY2026 fair market rents for Ithaca; whether the Town of Ithaca, Lansing or Cayuga Heights has opted into Good Cause.
-- When the City's 120 days start counting is unresolved, so the checker gives no date.
+- The Ithaca thresholds (345% and one unit statewide) are from [DHCR's opt-in list](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026) as of May 4, 2026. That list names the City of Ithaca and no other Tompkins County municipality, so the checker treats the Town of Ithaca, Lansing and Cayuga Heights as outside Good Cause.
+- The checker gives no calendar date for the City's 120-day notice.
 - Seasonal-use units and hotel rooms are exempt but not asked about.
 - A Cornell residence hall runs on a license, not a lease, so the notice section does not apply to it.
 - Nothing you enter is stored or sent anywhere.

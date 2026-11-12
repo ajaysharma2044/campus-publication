@@ -18,7 +18,7 @@ sources:
   - {url: "https://news.cornell.edu/node/322169", title: "Cornell Chronicle (2021): fall 2021 arrivals", accessed: "2026-11-11"}
   - {url: "https://www.cornellsun.com/article/2018/12/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus", title: "Cornell Daily Sun (December 2018): transfer students frustrated over not being able to live on campus", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/", title: "Cornell Daily Sun (2023-01-26): spring transfers start mid-year", accessed: "2026-11-11"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process", title: "Cornell Housing: new undergraduate application process", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process", title: "Cornell Housing: new undergraduate application process", accessed: "2026-11-11"}
   - {url: "https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/", title: "Cornell Enrollment FAQ 325: does Cornell prefer transfer applicants from certain colleges?", accessed: "2026-11-11"}
   - {url: "https://www.news.cornell.edu/stories/2024/05/community-college-transfers-flourish-cornell", title: "Cornell Chronicle (May 2024): community college transfers flourish at Cornell", accessed: "2026-11-11"}
   - {url: "https://www.collegetransitions.com/blog/cornell-transfer-acceptance-rate-requirements-application-deadlines/", title: "College Transitions: Cornell transfer acceptance rate (third-party)", accessed: "2026-11-11"}
@@ -28,7 +28,7 @@ sources:
   - {url: "https://www.koppelmangroup.com/blog/2026/1/21/how-to-transfer-to-cornell-2026", title: "Koppelman Group (2026-01-21): how to transfer to Cornell (third-party)", accessed: "2026-11-11"}
 ---
 
-In fall 2025, **7,381 students applied to transfer to Cornell, 864 were admitted (11.7%) and 625 enrolled**, so 72.3% of admitted transfers came. Those are census counts from Cornell's own [Common Data Set 2025-26](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf), the only year with all three numbers from Cornell. Transfers made up **14.0% of new undergraduates in fall 2025 and 14.1% in fall 2026**, in line with Cornell Housing's "almost 15%" ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
+In fall 2025, **7,381 students applied to transfer to Cornell, 864 were admitted (11.7%) and 625 enrolled**, so 72.3% of admitted transfers came. Those are census counts from Cornell's own [Common Data Set 2025-26](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf), the only year with all three numbers from Cornell. Transfers made up **14.0% of new undergraduates in fall 2025 and 14.1% in fall 2026**, in line with Cornell Housing's "almost 15%" ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
 The table puts 12 entering terms side by side, fall 2017 to fall 2026, including two spring terms from before Cornell went fall-only. Every row says where its numbers came from, graded from Cornell's census data down to third-party sites, so you can see which figures to lean on.
 
@@ -87,7 +87,7 @@ These ratios describe who the transfers are. They are context for the table and 
 
 | Measure | Value | Applies to | Source |
 |---|---|---|---|
-| Transfers as a share of new students, Cornell's wording | "Almost 15%" | undated | [Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) |
+| Transfers as a share of new students, Cornell's wording | "Almost 15%" | undated | [Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) |
 | New transfers as a share of all undergraduates | 625 / 16,138 = 3.9% | fall 2025 | [CDS 2025-26](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf) |
 | From two-year or community colleges, official count | 96 / 674 = 14.2% (four-year schools 578 / 674 = 85.8%) | fall 2021, deposit data | [IRP 2021](https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf) |
 | From community colleges, Cornell's wording | "About a quarter" | undated | [FAQ 325](https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/) |

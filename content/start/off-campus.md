@@ -3,7 +3,7 @@ title: "Off-campus at Cornell, start here: your lease and commute"
 meta: "For Cornell students renting off campus: the guides to read, in order, on renewals, repairs, deposits and moving out, then your commute and parking."
 topic: getting-around
 topics: [getting-around, housing]
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0073
 queue_ids: [q-housing-0093]
 kind: start_here
@@ -59,12 +59,12 @@ You are a junior, senior or grad student on a 10- or 12-month lease in Collegeto
 - **Sept 15:** Ithaca's heat season starts (to May 31) ([Cornell Law tenants' advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
 - **About December:** the 120-day rule's sponsor put the renewal decision for August leases here (his example) ([Cornell Sun](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/)).
 - **30 to 90 days before your lease ends:** the Good Cause renewal notice window ([NY RPL 216](https://www.nysenate.gov/legislation/laws/RPP/216)).
-- **Two weeks before move-out:** schedule the final inspection and change your address ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out)).
+- **Two weeks before move-out:** schedule the final inspection and change your address ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out)).
 - **July 31:** most leases end; City residential parking permits expire ([City of Ithaca](https://www.cityofithacany.gov/731/Permit-Issuance)).
 - **By mid-August:** your deposit or an itemized statement is due, 14 days after a July 31 exit ([NY GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)).
 
 ## When you're done
 
-If you are keeping a car, go next to [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
+If you are keeping a car, go next to [Cornell parking: campus, Collegetown and Ithaca guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
 For everything else in this topic, see all the [getting-around guides](/getting-around/).
 For anything else about renting, return to the [housing section](/housing/) or the [housing pillar guide](/housing/cornell-off-campus-housing-guide/).

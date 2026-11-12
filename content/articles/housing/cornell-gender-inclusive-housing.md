@@ -18,19 +18,19 @@ readers:
 subject: Prudence Risley Hall on North Campus, Cornell University, Ithaca
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/gender-inclusive-housing
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/gender-inclusive-housing
   title: Gender-Inclusive Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house
@@ -74,7 +74,7 @@ images:
 - Rising sophomores apply for 2027-28 by April 4, 2027, at 11:59 p.m.
 ```
 
-Any Cornell undergraduate can share a room or suite with students of any gender, regardless of legal sex ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/gender-inclusive-housing)). First-years and new transfers opt in on the housing application. Returning students form a block and get a Housing Office override when they pick rooms.
+Any Cornell undergraduate can share a room or suite with students of any gender, regardless of legal sex ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/gender-inclusive-housing)). First-years and new transfers opt in on the housing application. Returning students form a block and get a Housing Office override when they pick rooms.
 
 ## What is gender-inclusive housing at Cornell?
 
@@ -96,7 +96,7 @@ Floor rules differ by building: Cascadilla Hall in Collegetown, for example, has
 
 ## How do first-year students opt in?
 
-You check a box on the housing application in the Housing & Dining Portal. Cornell asks first-years to apply within 10 days of receiving their NetID, the Cornell login you get after you commit. Before the opt-in counts, you watch a short video and agree to the rules ([Cornell first-year application](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). The same screen lets you ask for a female-only community instead.
+You check a box on the housing application in the Housing & Dining Portal. Cornell asks first-years to apply within 10 days of receiving their NetID, the Cornell login you get after you commit. Before the opt-in counts, you watch a short video and agree to the rules ([Cornell first-year application](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). The same screen lets you ask for a female-only community instead.
 
 You can also fill out a roommate questionnaire or name a specific student. Cornell tries to honor a named request but does not promise it. Room confirmations start going out in mid-June.
 
@@ -108,7 +108,7 @@ New transfers opt in on the same housing application, by its deadline. Transfers
 
 ## How do rising sophomores, juniors and seniors get a gender-inclusive room?
 
-You form a block, the portal's word for a group that picks rooms together, and the Housing Office approves the shared room during your timeslot. Anyone can join a block regardless of gender identity, but the portal won't put different gender markers in one room on its own. At your timeslot, contact the Housing Office for an override, or ask it to select for you as a proxy ([Cornell Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)).
+You form a block, the portal's word for a group that picks rooms together, and the Housing Office approves the shared room during your timeslot. Anyone can join a block regardless of gender identity, but the portal won't put different gender markers in one room on its own. At your timeslot, contact the Housing Office for an override, or ask it to select for you as a proxy ([Cornell Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)).
 
 ```figure
 kind: steps
@@ -144,9 +144,9 @@ rows:
     date: April 13-16, 2027
 ```
 
-Source: [Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores). Rising sophomores can block in groups of up to five.
+Source: [Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores). Rising sophomores can block in groups of up to five.
 
-Rising juniors and seniors pick in the fall instead. For 2027-28, that application ran Sept. 1-27, 2026, with Open Room Selection on Oct. 8, and campus housing is not guaranteed for that group ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Check that page in late summer 2027 for the 2028-29 dates.
+Rising juniors and seniors pick in the fall instead. For 2027-28, that application ran Sept. 1-27, 2026, with Open Room Selection on Oct. 8, and campus housing is not guaranteed for that group ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Check that page in late summer 2027 for the 2028-29 dates.
 
 <!-- ad-break -->
 

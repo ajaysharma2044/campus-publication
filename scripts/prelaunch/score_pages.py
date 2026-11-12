@@ -34,6 +34,9 @@ FORUM_HOSTS = {"reddit.com", "collegeconfidential.com", "quora.com", "facebook.c
 GENERIC_AUTHORS = {"", "eduexplained-editors", "footnote-daily-editors", "editors"}
 
 
+QROWS = {r["id"]: r for r in q.read(q.QUEUE)}   # a tool, dataset or start page carries its primary query on its queue row (Phase 9 decision, 2026-11-11)
+
+
 def host(u: str) -> str:
     h = urlparse(u).netloc.lower()
     return h[4:] if h.startswith("www.") else h
@@ -93,7 +96,7 @@ def main() -> int:
                 "author_and_date": author not in GENERIC_AUTHORS and recent,
                 "images": img_ok,
             }
-            rows.append({"url": url, "file": rel, "kind": kind, "section": section, "primary_query": str(fm.get("primary_query") or "").strip().lower(), "index": bool(fm.get("index")),
+            rows.append({"url": url, "file": rel, "kind": kind, "section": section, "primary_query": str(fm.get("primary_query") or (QROWS.get(str(fm.get("queue_id") or "")) or {}).get("primary_query") or "").strip().lower(), "index": bool(fm.get("index")),
                          "words": len(body.split()), "sources_official": len(official), "forum_sources": len(forum), "author": author, "updated": updated, **checks})
     # the distinct-query check: among pages that pass everything else, a primary query used twice fails both
     seen: dict[str, list[dict]] = {}

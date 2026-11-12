@@ -3,7 +3,7 @@ title: Cornell motorcycle, scooter and bike parking rules
 mode: answer
 dek: Motorcycles, mopeds and scooters need a $120.01 M permit and a registered plate; bikes go on a designated rack, and campus residents must register them.
 meta: 'Cornell motorcycle, scooter and bike parking: the M permit, plate registration, bike racks, impound risks, e-bike charging rules and Bikeshare parking.'
-primary_query: cornell motorcycle scooter and bike parking
+primary_query: cornell motorcycle parking
 topic: getting-around
 school: cornell-university
 type: how-to

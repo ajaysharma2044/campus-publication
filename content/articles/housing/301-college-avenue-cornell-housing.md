@@ -29,16 +29,16 @@ sources:
 - url: https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed
   title: 301 College Ave. Opens for Student Housing, Resident Describes It as Incomplete, Rushed, The Cornell Daily Sun, Sept. 7, 2026
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
@@ -92,13 +92,13 @@ Before opening, Cornell replaced the flooring, window coverings, paint and furni
 
 Rough, according to the Sun's Sept. 7, 2026, report, which describes the building as incomplete and rushed. Residents cited a refrigerator that held 55 degrees, a missed cleaning, no stoves and an unfinished lobby. Construction started at 7:30 a.m. six days a week, and some residents faced early lockouts. Early problems with keys have since been resolved, and one resident said they still like apartment-style living ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)).
 
-Cornell's 2027-28 license says full-size refrigerators are provided at 301 College Ave. and the Townhouse Apartments ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Ask Housing which units have them before you rank the building.
+Cornell's 2027-28 license says full-size refrigerators are provided at 301 College Ave. and the Townhouse Apartments ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Ask Housing which units have them before you rank the building.
 
 ## What does 301 College Avenue cost?
 
 Residents say the Collegetown Meal Plan is required, and Cornell lists 301 College Avenue among the buildings that can take it. The plan costs $3,528 per semester, or $7,056 for the year, plus a $50 yearly fee. It allows up to 10 meals a week and includes $500 in Big Red Bucks and $436 in City Bucks each semester ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
-Cornell's [housing rates page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) prices rooms by type and does not list this building on its own here. Ask Housing and Residential Life which rate applies to your unit.
+Cornell's [housing rates page](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) prices rooms by type and does not list this building on its own here. Ask Housing and Residential Life which rate applies to your unit.
 
 For context, a Collegetown 1BR rented from a landlord has a median asking rent of $24,300 over 12 months ([2026-27 housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/)). The [Collegetown rent per bed guide](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/) lists every unit size, and [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) adds food and utilities.
 
@@ -106,7 +106,7 @@ For context, a Collegetown 1BR rented from a landlord has a median asking rent o
 
 ## How do you get a spot at 301 College Avenue?
 
-You rank it in room selection. For rising juniors and seniors, "South Campus Residence Halls and 301 College Avenue Apartments" form one selection area. Blocks hold up to five students, and Cornell holds a room for four minutes ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+You rank it in room selection. For rising juniors and seniors, "South Campus Residence Halls and 301 College Avenue Apartments" form one selection area. Blocks hold up to five students, and Cornell holds a room for four minutes ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
 Cornell expects the building to reach 105 residents by fall 2027. Rising sophomores weighing it against a Collegetown rental can start with [off-campus housing for Cornell sophomores](/cornell/housing/off-campus-housing-cornell-sophomores/) and the [off-campus housing guide](/cornell/housing/cornell-off-campus-housing-guide/).
 

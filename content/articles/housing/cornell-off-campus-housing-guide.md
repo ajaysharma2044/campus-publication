@@ -47,7 +47,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
@@ -101,7 +101,7 @@ sources:
 - url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
   title: Landlords and advocates grapple with Good Cause Eviction law at public hearing, The Cornell Daily Sun, July 10, 2024
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://law.justia.com/cases/new-york/other-courts/2017/2017-ny-slip-op-30471-u.html
@@ -125,7 +125,7 @@ sources:
 - url: https://news.cornell.edu/node/278473
   title: Cornell Chronicle item on City of Ithaca residential parking permits
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
@@ -134,13 +134,13 @@ sources:
 - url: https://www.cityofithacany.gov/147/Certificate-of-Compliance-Fees
   title: Certificate of Compliance Fees, City of Ithaca
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -269,10 +269,10 @@ sources:
 - url: https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme
   title: 'Asteri''s aftermath: displacement, dangerous conditions and a predatory cash-for-keys scheme, The Cornell Daily Sun, March 2026'
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Off-Campus Living Resources, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out
   title: Moving In and Out, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants
@@ -428,7 +428,7 @@ rows:
 
 ## Stage 1, years one and two: who may sign a lease
 
-**The rule.** Cornell's two-year requirement covers full-time, Ithaca-based first- and second-years, per its [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy). Year one is a residence hall. Year two is a hall or approved affiliated housing: the eight university-owned co-ops, recognized fraternity and sorority houses, and houses run by a registered student organization. Cornell says first- and second-years [should not sign a lease](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process) without an approved exemption. A signed lease does not release you from the requirement.
+**The rule.** Cornell's two-year requirement covers full-time, Ithaca-based first- and second-years, per its [residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy). Year one is a residence hall. Year two is a hall or approved affiliated housing: the eight university-owned co-ops, recognized fraternity and sorority houses, and houses run by a registered student organization. Cornell says first- and second-years [should not sign a lease](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process) without an approved exemption. A signed lease does not release you from the requirement.
 
 **The exemptions:**
 
@@ -460,7 +460,7 @@ A sophomore is here now. The requirement ends after year two, so a lease for jun
 
 In nine signings the Sun reported from 2017 to 2025, all but one fallback came 8 to 16 months before an August move-in, mostly 10 to 11; our count from six stories. Ithaca Renting opened 2020-21 leasing on [Sept 12, 2019, after an overnight line](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/). A Sun columnist who signed in [October of sophomore year](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/) wrote of being late by Collegetown standards. The Ivy, a 52-unit building, [leased nearly all its units before construction finished](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026). On November 8, 2026, [14 of 67 Ithaca Renting Collegetown rows](https://ithacarenting.com/collegetown/) for 2027-28 were sold out, including the 8-bedroom at 105 Dryden Court and the 14-bedroom at 214 Dryden Rd.
 
-The other side: in 2019 Off-Campus Living's manager called "you must sign the day you arrive" [a myth](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/). Both hold. Popular Collegetown units go early; downtown, Fall Creek, Lansing, sublets and grad housing keep supply much later. If you want a big Collegetown house or a new building, sign by November. If you want to save money or are unsure of your housemates, spring is a real option. More in when to sign a Collegetown lease.
+The other side: in 2019 Off-Campus Living's manager called "you must sign the day you arrive" [a myth](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/). Both hold. Popular Collegetown units go early; downtown, Fall Creek, Lansing, sublets and grad housing keep supply much later. If you want a big Collegetown house or a new building, sign by November. If you want to save money or are unsure of your housemates, spring is a real option. More in [when to sign a Collegetown lease](/housing/when-to-sign-collegetown-lease-cornell/).
 
 ```tool when-to-sign-lease-timeline-cornell```
 
@@ -482,7 +482,7 @@ First ask whether a price is per bed or per unit. Student buildings mostly quote
 
 Our medians take the midpoint of each printed range across 38 priced rows. RentCafe's large-building averages run higher: [$2,342 for a Collegetown 1-bedroom](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/) and $3,414 for a 2-bedroom, per unit, Oct 30, 2026. At the top, the Sun reported The Ivy's 3-bedrooms at $5,500 to $5,800 a month, $1,833 to $1,933 per person. More in Collegetown rent by unit size.
 
-Size sets the risk too. Most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire): each owes the whole rent and damages if another stops paying. In 2020, Dery wrote that [large groups are likely to lose people](https://www.cornellsun.com/article/2020/10/dery-cornell-should-actively-help-house-students-off-campus) and that individuals and small groups face higher prices.
+Size sets the risk too. Most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire): each owes the whole rent and damages if another stops paying. In 2020, Dery wrote that [large groups are likely to lose people](https://www.cornellsun.com/article/2020/10/dery-cornell-should-actively-help-house-students-off-campus) and that individuals and small groups face higher prices.
 
 Example: six friends plan a 6-bedroom at the $800 median. Two drop out, and the four left take a 4-bedroom at $1,246.25. Each pays $446.25 more a month, $5,355 more a year. If they stay in the 6-bedroom, they owe the two missing shares between them. Before signing, run Cornell's housemate questions: study hours, guests, cleaning, who handles money (student or parent), what happens if someone goes abroad. Agree that last one in writing. More in roommates and joint liability.
 
@@ -510,7 +510,7 @@ Then add what the double includes. EnergySage puts the average Ithaca household 
 
 ### Where to live, and why the city line matters
 
-Collegetown is closest and costs most. Downtown per-bed prices run about 20% to 28% below Collegetown at the same landlord, at the cost of an uphill walk or a bus. Distances and walk times are Cornell's estimates from its [neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods).
+Collegetown is closest and costs most. Downtown per-bed prices run about 20% to 28% below Collegetown at the same landlord, at the cost of an uphill walk or a bus. Distances and walk times are Cornell's estimates from its [neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods).
 
 | Area | Distance to campus | Getting there | Prices on record | In the City? |
 |---|---|---|---|---|
@@ -537,13 +537,13 @@ Cornell's room selection for 2026-27 ran [Oct 2 to 8, 2025](https://cornellsun.c
 
 ### Where the listings are
 
-Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) runs on College Pads, open only to people who prove Cornell affiliation. Off-Campus Living also runs an email list for housing, roommates and sublets; you join by emailing with the subject "Join" and a blank body. Admitted students without a NetID forward their acceptance letter to offcampusliving@cornell.edu. Ithacarents.com takes posts only from Landlords Association of Tompkins County members. On any listing, check per bed or per unit, 10 or 12 months, the dates and which of heat, electricity, internet, trash, furniture and parking are included. More in where to find listings.
+Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) runs on College Pads, open only to people who prove Cornell affiliation. Off-Campus Living also runs an email list for housing, roommates and sublets; you join by emailing with the subject "Join" and a blank body. Admitted students without a NetID forward their acceptance letter to offcampusliving@cornell.edu. Ithacarents.com takes posts only from Landlords Association of Tompkins County members. On any listing, check per bed or per unit, 10 or 12 months, the dates and which of heat, electricity, internet, trash, furniture and parking are included. More in where to find listings.
 
 ### Check the building before you pay
 
-For a City address, ask the Building Division about the [Certificate of Compliance](https://www.cityofithacany.gov/146/Certificate-of-Compliance) at 607-274-6508. Then look the address up on the [Cornell and City safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments), which shows sprinklers, smoke and carbon monoxide alarms and construction type. It does not rate the landlord, and it covers City rentals only. In 2018, tenants at 117 Thurston Ave learned [after signing](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/) that its certificate had expired in 2015. They then waited 53 days from their first complaint to a fixed heater.
+For a City address, ask the Building Division about the [Certificate of Compliance](https://www.cityofithacany.gov/146/Certificate-of-Compliance) at 607-274-6508. Then look the address up on the [Cornell and City safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments), which shows sprinklers, smoke and carbon monoxide alarms and construction type. It does not rate the landlord, and it covers City rentals only. In 2018, tenants at 117 Thurston Ave learned [after signing](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/) that its certificate had expired in 2015. They then waited 53 days from their first complaint to a fixed heater.
 
-Cornell's [lease page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) lists questions for a landlord: years in business, who repairs, the emergency contact, how long the last tenants stayed. Call a past tenant about repairs and the deposit. In a new building, ask the plan if it opens late: in 2016, Fontana left [more than 50 students with Aug 1 leases](https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless) without an apartment into September.
+Cornell's [lease page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) lists questions for a landlord: years in business, who repairs, the emergency contact, how long the last tenants stayed. Call a past tenant about repairs and the deposit. In a new building, ask the plan if it opens late: in 2016, Fontana left [more than 50 students with Aug 1 leases](https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless) without an apartment into September.
 
 Get every promise in writing. Before you sign, check the sublet clause, auto-renew terms, snow and trash duties, parking and the occupancy limit.
 
@@ -658,7 +658,7 @@ Cornell license holders cancel penalty-free for study away, leave, an internship
 
 ## Stage 8, move-out: the inspection and the 14-day deposit
 
-Cornell's [move-out timeline](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out) has two checkpoints. Two weeks before: confirm the time, schedule the final inspection, reread the lease, change your address. One week before: schedule NYSEG and internet shutoff, clean, and give a forwarding address in writing.
+Cornell's [move-out timeline](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out) has two checkpoints. Two weeks before: confirm the time, schedule the final inspection, reread the lease, change your address. One week before: schedule NYSEG and internet shutoff, clean, and give a forwarding address in writing.
 
 Ask for the move-out inspection. Under [GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108) it happens between two weeks and one week before the end, with 48 hours' written notice, and the landlord lists planned charges so you can fix them. Photograph every room on the way out. Do not leave a couch or mattress at the curb.
 
@@ -677,7 +677,7 @@ The deposit or an itemized statement is due within 14 days: by mid-August for a 
 
 ## Where to get help
 
-Off-Campus Living offers lease education and one-on-one consultations, but it [does not represent students](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/) in landlord disputes. These offices do the rest, per [Cornell's resource list](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources).
+Off-Campus Living offers lease education and one-on-one consultations, but it [does not represent students](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/) in landlord disputes. These offices do the rest, per [Cornell's resource list](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources).
 
 | Who | What for | Contact |
 |---|---|---|
@@ -748,7 +748,7 @@ Reader guides:
 Topic guides:
 - [Collegetown vs Fall Creek vs downtown](/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/): the neighborhoods side by side.
 - [How to sublet an Ithaca apartment](/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/): landlord consent, step by step.
-- When to sign a Collegetown lease: the dated record, and when waiting is fine.
+- [When to sign a Collegetown lease](/housing/when-to-sign-collegetown-lease-cornell/): the dated record, and when waiting is fine.
 - Who can live off campus: the rule and every exemption.
 - Collegetown rent by unit size: per-bed prices.
 - Is off-campus cheaper than a dorm?: the $1,145 break-even.

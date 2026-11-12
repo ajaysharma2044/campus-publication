@@ -61,6 +61,12 @@ sources:
 - url: https://now.dining.cornell.edu/eateries
   title: 'Cornell Dining Now: Eateries'
   accessed: '2026-11-11'
+- url: https://now.dining.cornell.edu/eatery/North-Star
+  title: 'Cornell Dining Now: North Star Dining Room'
+  accessed: '2026-11-11'
+- url: https://admin-now.dining.cornell.edu/api/1.0/dining/eateries.json
+  title: 'Cornell Dining Now: eateries hours data feed (schedule Nov. 11 to 18, 2026)'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining
   title: 'Cornell Dining: Dining home and events'
   accessed: '2026-11-10'
@@ -139,11 +145,11 @@ Cornell runs ten residential dining rooms. Check each room's hours on [Dining No
 | Room | Where | Notable feature |
 |---|---|---|
 | Morrison Dining | Toni Morrison Hall, North Campus | Dedicated halal and kosher station; vegan station |
-| North Star Dining Room | Appel Commons, North Campus | Late Night block, 8:30 to 10:30 p.m. on listed fall 2026 dates |
+| North Star Dining Room | Appel Commons, North Campus | Late Night, 8:30 to 10:30 p.m. every night of the Nov. 11 to 18, 2026 schedule ([Dining Now](https://now.dining.cornell.edu/eatery/North-Star)) |
 | Risley Dining | Risley, North Campus | Sources food without gluten, peanuts and tree nuts |
 | Okenshields | Willard Straight Hall, Central Campus | Dedicated vegan station |
 | Becker House Dining Room | Carl Becker House, West Campus | House Dinner on Wednesdays |
-| Cook House Dining Room | Alice Cook House, West Campus | Late Night block, 9 to 10 p.m. on listed fall 2026 dates |
+| Cook House Dining Room | Alice Cook House, West Campus | Late Night, 9 to 10 p.m. every night of the Nov. 11 to 18, 2026 schedule ([Dining Now](https://now.dining.cornell.edu/eatery/Cook-House-Dining)) |
 | Jansen's Dining Room | Hans Bethe House, West Campus | Earliest closing of the West rooms in a 2022 Sun review |
 | Keeton House Dining Room | William Keeton House, West Campus | Halal on request |
 | Rose House Dining Room | Flora Rose House, West Campus | Special dinners such as Cena Romana |

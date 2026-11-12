@@ -7,7 +7,7 @@ primary_query: cornell summer housing
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 37
 rewrites: ''
 readers:
@@ -22,46 +22,46 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus
   title: Summer Housing On Campus, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/summer-meal-plans
   title: Summer Meal Plans, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses
   title: Rates, Amenities, & Licenses, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate and Professional Student Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/visiting-faculty-affiliate-campus-housing
   title: Visiting Faculty and Affiliate Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://gradschool.cornell.edu/financial-support/stipend-rates/
   title: Stipend Rates, Cornell Graduate School
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/property-details/?pid=11
   title: Whiton Hall, 222 S. Aurora St., Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: New York Real Property Law Section 226-B, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf
   title: 310-312 S. Aurora St., PPM Homes
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx
   title: Available rentals, including 408 Stewart Ave., CSP Management
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
@@ -91,7 +91,7 @@ You have four routes. The right one depends on how many weeks you need and wheth
 | Option | Who it fits | What it costs | The catch |
 |---|---|---|---|
 | Cornell summer housing, North Campus | Any Cornell student, or a visiting student studying or working at Cornell | $57.00 or $69.50 a night, plus $1.50 | Two-week minimum; no refund for leaving early |
-| A Cornell co-op | Students who want a house and shared meals | Ask co-ops@cornell.edu; no summer prices posted | Each house decides whether it has summer rooms |
+| A Cornell co-op | Students who want a house and shared meals | On request from co-ops@cornell.edu | Each house decides whether it has summer rooms |
 | A sublet | Anyone who needs June and July only | Set by the tenant | You rely on someone else's lease |
 | A 12-month lease starting in June | Students staying in Ithaca next year too | From about $700 a room a month (examples below) | You pay through the next spring |
 
@@ -160,20 +160,20 @@ Your contract covers every night you book. If you leave early, you get no prorat
 To add nights, email the summer housing office. Anyone still in a room after the 10 a.m. checkout on closing day pays $60.00 for each hour or part of an hour (Cornell Student & Campus Life). So book the shortest stay you are sure of and add nights later: shortening a stay costs you money, and adding to one costs nothing extra.
 
 ```reader "If you're living in a Cornell dorm this spring"
-Your spring room ends at 2 p.m. on May 23, 2027 ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses)), nine days before summer housing opens. To stay straight through, ask Housing for a late departure from your spring room and email summersessionhsg@cornell.edu for an early arrival. The summer FAQ names May 26 as the switch day, and Cornell staff move your booking from spring to summer. Extra charges can apply to approved early arrivals. If you are leaving Ithaca instead, plan storage with [Cornell move-out storage and shipping options](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
+Your spring room ends at 2 p.m. on May 23, 2027 ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)), nine days before summer housing opens. To stay straight through, ask Housing for a late departure from your spring room and email summersessionhsg@cornell.edu for an early arrival. The summer FAQ names May 26 as the switch day, and Cornell staff move your booking from spring to summer. Extra charges can apply to approved early arrivals. If you are leaving Ithaca instead, plan storage with [Cornell move-out storage and shipping options](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
 ```
 
 <!-- ad-break -->
 
 ## Do Cornell co-ops offer summer housing?
 
-Some do. Cornell says its cooperative houses "often offer summer housing" and sends students to co-ops@cornell.edu or 607-255-3445 for options and rates ([Cornell cooperative housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). A co-op is a university-owned house where residents share the cooking and chores. Cornell posts no summer co-op prices, so email early in the spring and ask three things: which houses have summer rooms, the price per week or month, and whether house meals run in summer. The school-year co-op license ends at 2 p.m. May 23, 2027, so a summer co-op room is a separate agreement.
+Some do. Cornell says its cooperative houses "often offer summer housing" and sends students to co-ops@cornell.edu or 607-255-3445 for options and rates ([Cornell cooperative housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). A co-op is a university-owned house where residents share the cooking and chores. Cornell publishes no summer co-op prices, so email early in the spring and ask three things: which houses have summer rooms, the price per week or month, and whether house meals run in summer. The school-year co-op license ends at 2 p.m. May 23, 2027, so a summer co-op room is a separate agreement.
 
 ## Is a sublet or a June lease cheaper?
 
 A room in town costs less per month than a campus summer room, but it comes with strings. A sublet means you rent from a tenant who is away, under their lease. A new lease ties you to Ithaca well past August.
 
-**Sublets.** Cornell's Off-Campus Housing Marketplace lists sublets, and only people who prove a Cornell affiliation can see them and contact the subletters ([Cornell rental listings](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). Ithaca Renting, a large Collegetown landlord, makes every sublet register for approval, limits Collegetown subtenants to Cornell students, and allows summer sublets to graduate students from other universities too ([Ithaca Renting](https://ithacarenting.com/collegetown/)). The full process, prices and safety checks are in [our summer sublet guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/).
+**Sublets.** Cornell's Off-Campus Housing Marketplace lists sublets, and only people who prove a Cornell affiliation can see them and contact the subletters ([Cornell rental listings](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)). Ithaca Renting, a large Collegetown landlord, makes every sublet register for approval, limits Collegetown subtenants to Cornell students, and allows summer sublets to graduate students from other universities too ([Ithaca Renting](https://ithacarenting.com/collegetown/)). The full process, prices and safety checks are in [our summer sublet guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/).
 
 **Leases that start in June.** Some landlords start 12-month leases in early summer. At 310-312 S. Aurora St., downtown, a furnished seven-bedroom house lists at $4,900 a month, or $700 a room, from the start of June 2027, with utilities paid by tenants ([PPM Homes](https://www.ppmhomes.com/listings/detail/d9a5af7d-9b77-4e9a-83f0-a517e63e77cf)). At 408 Stewart Ave. in Collegetown, a furnished studio with utilities included lists at $1,200 a month from June 11, 2027, for the 2027-28 year ([CSP Management](https://cspmgmt.managebuilding.com/Resident/PublicPages/ApartmentSearch.aspx)). Whiton Hall, a furnished rooming house at 222 S. Aurora St., rents premium rooms at $965 to $1,065 a month for 2026-27 on 12-month leases, with heat, electricity and Wi-Fi included ([Ithaca Renting](https://ithacarenting.com/property-details/?pid=11)).
 
@@ -205,7 +205,7 @@ Visiting students apply like Cornell students, with proof of their classes, rese
 
 **Is there financial aid for summer housing?** Cornell's summer housing page sends students to the Office of Financial Aid for their own case. Ask before you book, because the housing contract binds you to every night you choose.
 
-**What happens between summer checkout and fall move-in?** You need somewhere to stay or store your things for the gap. For 2026-27, fall move-in ran Aug. 17 to 22, 2026. Cornell has not posted 2027-28 move-in days in its license pages, so check them in the spring. For shorter breaks, see [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
+**What happens between summer checkout and fall move-in?** You need somewhere to stay or store your things for the gap. For 2026-27, fall move-in ran Aug. 17 to 22, 2026 ([Cornell housing licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)). Move-in days for 2027-28 are not yet announced, so check that page in the spring. For shorter breaks, see [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
 
 ## What to do next
 

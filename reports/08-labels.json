@@ -1,0 +1,65 @@
+{
+ "report": {
+  "files": [
+   "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-north-campus-dorms-compared.md",
+   "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-north-campus-new-dorms-vs-old-dorms.md",
+   "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-north-campus-residential-expansion-what-changed.md",
+   "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/ganedago-hall-cornell.md",
+   "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/ganedago-hall-vs-toni-morrison-hall-cornell.md",
+   "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/how-cornell-assigns-first-year-roommates.md",
+   "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/toni-morrison-hall-cornell.md"
+  ],
+  "changes": [
+   {
+    "file": "content/articles/housing/cornell-north-campus-dorms-compared.md",
+    "change": "Added 'These are Cornell Housing's resident counts.' before the 306/564/311/429/504 paragraph. Added one sentence saying Welliver, the construction manager, counts beds and lists 314 for Toni Morrison and 577 for Gan\u0119dag\u01eb:. Labeled the big table's source line 'Residents column: Cornell Housing resident counts'. Changed the five NCRE hall-page sources to accessed 2026-11-11 (re-verified today) and added the Welliver source. updated was already 2026-11-11.",
+    "source": "Cornell Housing hall pages (re-fetched 2026-11-11); https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion"
+   },
+   {
+    "file": "content/articles/housing/cornell-north-campus-new-dorms-vs-old-dorms.md",
+    "change": "In 'How big are the halls?' added 'These are Cornell Housing's resident counts:' and inline links to the Gan\u0119dag\u01eb: and Toni Morrison hall pages, plus one sentence saying Welliver lists beds instead, 577 and 314. Added the Gan\u0119dag\u01eb:, Toni Morrison, Welliver and the already-cited Balch Hall page (previously missing) to sources with accessed 2026-11-11. updated set to 2026-11-11.",
+    "source": "Cornell Housing hall pages; Welliver project page"
+   },
+   {
+    "file": "content/articles/housing/cornell-north-campus-residential-expansion-what-changed.md",
+    "change": "Rewrote the figure's source line to 'Cornell Housing resident counts from the [Toni Morrison], [Gan\u0119dag\u01eb:], [Barbara McClintock], [Hu Shih] and [Ruth Bader Ginsburg] hall pages', linking each one, and added one Welliver bed-count sentence (314 and 577). Added the 5 hall pages and Welliver to sources with accessed 2026-11-11. updated set to 2026-11-11.",
+    "source": "Cornell Housing hall pages; Welliver project page"
+   },
+   {
+    "file": "content/articles/housing/ganedago-hall-cornell.md",
+    "change": "Opening sentence now reads 'holds 564 students by Cornell Housing's resident count'. The glance figure row is now 'Residents (Cornell Housing count)'. Added one Welliver sentence (577 beds) after the 'biggest residence building' line. The hall-page source now has accessed 2026-11-11, and the Welliver source was added. updated was already 2026-11-11.",
+    "source": "Cornell Housing Gan\u0119dag\u01eb: page; Welliver project page"
+   },
+   {
+    "file": "content/articles/housing/ganedago-hall-vs-toni-morrison-hall-cornell.md",
+    "change": "'564 residents against 306 in Cornell Housing's resident counts' in the opening paragraph. One Welliver sentence (577 and 314 beds). Table row is now 'Residents (Cornell Housing count)' and the table source line reads 'Cornell Housing hall pages (resident counts)'. The two Gan\u0119dag\u01eb: links went to an old first-year URL that redirects, so both now point to the canonical upperlevel URL. Added to sources: Gan\u0119dag\u01eb: page, Welliver, and the already-cited upperlevel-undergraduate-campus-housing page (was missing). Toni Morrison source is now accessed 2026-11-11. updated set to 2026-11-11.",
+    "source": "Cornell Housing hall pages; Welliver project page"
+   },
+   {
+    "file": "content/articles/housing/how-cornell-assigns-first-year-roommates.md",
+    "change": "Added 'By Cornell Housing's resident counts,' before 'Gan\u0119dag\u01eb: Hall holds 564 residents, Risley Hall 194 and Akwe:kon 35'. Added the three already-cited hall pages (Gan\u0119dag\u01eb:, Risley, Akwe:kon), which were missing from sources, with accessed 2026-11-11 (re-verified: 564, 194, 35). No bed count added because the page is about roommates. updated set to 2026-11-11.",
+    "source": "Cornell Housing hall pages"
+   },
+   {
+    "file": "content/articles/housing/toni-morrison-hall-cornell.md",
+    "change": "Opening sentence now reads 'holds 306 students by Cornell Housing's resident count'. Added one Welliver sentence (314 beds). The glance figure row is now 'Residents (Cornell Housing count)'. The hall-page source now has accessed 2026-11-11, and the Welliver source was added. updated was already 2026-11-11.",
+    "source": "Cornell Housing Toni Morrison page; Welliver project page"
+   }
+  ],
+  "bed_counts_source": "https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion (fetched 2026-11-11; lists 'Toni Morrison Hall: 314 beds' and 'Gan\u0119dag\u01eb: Hall 577 beds'; McClintock 311, Hu Shih 429 and RBG 504 beds match Cornell's resident counts)",
+  "lint_clean": true,
+  "emdash_count": 0,
+  "notes": "No numbers were changed. Titles, slugs, glance blocks, images blocks and meta lines are untouched. I re-fetched all five NCRE Cornell Housing hall pages today and they show 306, 564, 311, 429 and 504 residents. One pre-existing gap is not fixed, because it is outside this task and I could not verify it today: ganedago-hall-vs-toni-morrison-hall-cornell.md cites https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates in the body (room-rate paragraph), but that URL is not in its sources and returns 404 today. cornell-north-campus-dorms-compared.md lists the same URL with accessed 2026-11-10. Someone needs to find the current rates URL. The resident-count sentences are in the house voice ('These are Cornell Housing's resident counts'), and none of them says what a source lacks. Backups of the originals are in /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/bak/. Nothing was committed (the directory is not a git repo from this cwd)."
+ },
+ "verdict": {
+  "sound": false,
+  "problems": "One failure. File content/articles/housing/ganedago-hall-vs-toni-morrison-hall-cornell.md, line 136: the body links https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates (\"Cornell housing rates\"), and that URL is not in the frontmatter sources. It is the only URL in any of the 7 files that is missing. This breaks check (4). The agent edited this page's sources, so the gap was not fixed. The fix is to add a source entry for that URL or change the link to one already listed. Checks (1) to (3) passed on all 7 files.",
+  "checked": [
+   "Check (3) passed on all 7 files: lint-content.py reports 0 banned-phrase matches and grep -c for the em dash prints 0.",
+   "Check (2) passed: I fetched the Welliver page (HTTP fetch, 2026-11-11). It contains 'Toni Morrison Hall: 314 beds' and 'Gan\u0119dag\u01eb: Hall 577 beds' under Site 1. Welliver is cited for the bed counts in dorms-compared, new-dorms-vs-old-dorms, residential-expansion-what-changed, ganedago-hall-cornell, ganedago-hall-vs-toni-morrison-hall-cornell and toni-morrison-hall-cornell. The roommates page has no bed count, which is fine.",
+   "Check (4): I compared every URL in each body against its frontmatter URLs. Six files pass and the Ganedago vs Toni Morrison page fails, as described in problems.",
+   "Check (1): every Toni Morrison or Gan\u0119dag\u01eb: count says it is a Cornell Housing resident count at or near first use, or sits in a labeled table or figure. Pages: dorms-compared line 302 and the line 531-532 table; new-dorms-vs-old-dorms line 118; expansion-what-changed lines 99-100 with source line 106; ganedago-hall-cornell lines 88, 97 and 117; vs page lines 86, 88 and 95; roommates line 105; toni-morrison-hall line 82 and line 90.",
+   "Check (1), numbers: the counts are consistent everywhere (306, 564, 314 beds, 577 beds). The workspace is not a git repo, so I could not diff against the originals to confirm that no number changed."
+  ]
+ }
+}

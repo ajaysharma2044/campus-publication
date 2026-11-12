@@ -99,6 +99,9 @@ sources:
 - url: https://www.hillytophilly.com/
   title: Hilly To Philly, Cornell-Philadelphia Charter Bus
   accessed: '2026-11-11'
+- url: http://www.bus.cbtcorp.net/
+  title: Cornell-Philadelphia Charter Bus, Cornell Parents of Greater Philadelphia
+  accessed: '2026-11-11'
 - url: https://www.flixbus.com/bus/syracuse-ny
   title: Bus stops in Syracuse, NY, FlixBus
   accessed: '2026-11-11'
@@ -146,7 +149,7 @@ The direct FlixBus is almost always the floor: $41 to Philadelphia and $46 to Bo
 ```
 
 ```reader "If you're an international student going to Toronto"
-The bus is the simple part: FlixBus runs direct. The border is the part to plan. Entering Canada by bus, a [visa-exempt traveler needs a valid passport but no eTA](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html); citizens of visa-required countries also need a Canadian visitor visa. To come back in F-1 or J-1 status, [Cornell International Services lists](https://international.globallearning.cornell.edu/travel/travel-documents-students) a valid passport, a valid U.S. visa stamp (Canadians need none), an I-20 or DS-2019 with a travel signature from the past year, proof of funding and proof of enrollment. Canadian F-1 students need one from the past six months. An expired F or J visa still works for re-entry after a stay of less than 30 days in Canada, through [automatic revalidation](https://international.globallearning.cornell.edu/travel/apply-fj-reentry), if you hold a valid I-94 and do not apply for a new U.S. visa there. Citizens of countries the U.S. lists as state sponsors of terrorism cannot use it. An online request for a new travel signature takes up to [five business days](https://international.globallearning.cornell.edu/travel/travel-signatures-and-i-20ds-2019-reprints), so make it before you book a nonrefundable seat.
+The bus is the simple part: FlixBus runs direct. The border is the part to plan. Entering Canada by bus, a [visa-exempt traveler needs a valid passport but no eTA](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/entry-requirements-country.html); citizens of visa-required countries also need a Canadian visitor visa. To come back in F-1 or J-1 status, [Cornell International Services lists](https://international.globallearning.cornell.edu/travel/travel-documents-students) a valid passport, a valid U.S. visa stamp (Canadians need none), an I-20 or DS-2019 with a travel signature from the past year and proof of funding. Proof of Cornell enrollment is optional but can ease questioning at the border. Canadian F-1 students need one from the past six months. An expired F or J visa still works for re-entry after a stay of less than 30 days in Canada, through [automatic revalidation](https://international.globallearning.cornell.edu/travel/apply-fj-reentry), if you hold a valid I-94 and do not apply for a new U.S. visa there. Citizens of countries the U.S. lists as state sponsors of terrorism cannot use it. An online request for a new travel signature takes up to [five business days](https://international.globallearning.cornell.edu/travel/travel-signatures-and-i-20ds-2019-reprints), so make it before you book a nonrefundable seat.
 ```
 
 ```reader "If you're deciding between a flight and the bus"
@@ -159,8 +162,8 @@ Ranking criteria, in order: the lowest one-way fare in a dated November 2026 sam
 
 | City | Best direct option | Lowest fares seen (one way) | Scheduled time | Other options |
 |---|---|---|---|---|
-| Toronto | FlixBus | $32 (Mon Nov 16, Tue Nov 17, Thu Nov 19) | 7 h 45 min to 8 h 50 min | Greyhound 2 a day from Toronto, from $48.98; OurBus from $98.60 from Nov 25; Megabus one 9:45 a.m. trip |
-| Philadelphia | FlixBus | $41 (Wed Nov 18); $44 (Mon Nov 9) | 7 h 50 min to 9 h | Binghamton connection, $9 + $41; Greyhound 6 a day; OurBus from $105.20; Hilly To Philly charter, $75, break dates only |
+| Toronto | FlixBus | $32 (Mon Nov 16, Tue Nov 17, Thu Nov 19) | 7 h 45 min to 8 h 50 min | Greyhound 2 a day from Toronto, from $48.98; OurBus from $98.60 from Nov 25; Megabus up to 2 a day, 9:45 a.m. listed |
+| Philadelphia | FlixBus | $41 (Wed Nov 18); $44 (Mon Nov 9) | 7 h 50 min to 9 h | Binghamton connection, $9 + $41; Greyhound 6 a day; OurBus from $105.20; Cornell-Philadelphia charter (Hilly To Philly), $75, break dates only |
 | Boston | FlixBus | $46 (Tue Nov 17); FAQ range $44 to $88 | 8 h 05 min to 12 h 05 min | Amtrak from Syracuse, about 8 h 50 min, $45 to $300 (planner) |
 | DC | FlixBus | $49 (Tue Nov 17); FlixBus cheapest $53 | About 10 h to 10 h 55 min | OurBus $89, 11 h 30 min; United from ITH to Dulles |
 
@@ -194,7 +197,7 @@ The same page shows a cheaper-looking connection through Binghamton: $9 on FlixB
 
 Two other listings exist. Greyhound shows [6 buses a day, as little as 7 h 10 min](https://www.greyhound.com/bus-routes/ithaca-ny-philadelphia-pa). OurBus resumes the route on Thursday Nov 12, 2026, with [fares from $105.20](https://www.ourbus.com/routes/ithaca-to-philadelphia) and trips of 5 h to 8 h 45 min to Center City or Philadelphia Mills.
 
-Cornell's [travel resources page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) also links [Hilly To Philly](https://www.hillytophilly.com/), a break-only charter organized by Cornell Parents of Greater Philadelphia. It costs $75 one way or $140 round trip, from North and West Campus to the Allentown Service Plaza, Plymouth Meeting, 30th Street Station and King of Prussia. The remaining 2026-27 buses leave campus Nov 24, Dec 18, Feb 12 and Mar 26, and return Nov 29, Jan 24, Feb 16 and Apr 4.
+Cornell's [travel resources page](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) also links the [Cornell-Philadelphia Charter Bus](http://www.bus.cbtcorp.net/), a break-only charter organized by Cornell Parents of Greater Philadelphia. The [Hilly To Philly](https://www.hillytophilly.com/) site lists the same organizers, fares and dates. It costs $75 one way or $140 round trip, from North and West Campus to the Allentown Service Plaza, Plymouth Meeting, 30th Street Station and King of Prussia. The remaining 2026-27 buses leave campus Nov 24, Dec 18, Feb 12 and Mar 26, and return Nov 29, Jan 24, Feb 16 and Apr 4.
 
 ## Ithaca to Washington, DC
 
@@ -222,7 +225,7 @@ The other way to DC is the air: United flies [nonstop from ITH to Washington Dul
 
 FlixBus is the cheapest direct carrier. Its [daily lows for Nov 12 to Dec 4, 2026](https://www.checkmybus.com/ithaca-ny/toronto-on) ran from $32 (Monday Nov 16, Tuesday Nov 17 and Thursday Nov 19) to $45. Thanksgiving week, Nov 23 to 27, ran $38 to $45. The 2:15 p.m. bus from downtown Ithaca takes 7 h 45 min to downtown Toronto, and some days add a 5:05 a.m. departure.
 
-Three other carriers list the route. Greyhound shows [2 buses a day from Toronto to Ithaca, from $48.98](https://www.greyhound.com/bus-routes/toronto-on-ithaca-ny). OurBus resumes the route on Nov 25, 2026, [from $98.60](https://www.ourbus.com/routes/ithaca-ny-to-toronto-on-bus), with trips of 6 h 25 min to 7 h 10 min from North or West Campus to Viscount Station. Megabus lists [one departure, at 9:45 a.m.](https://ca.megabus.com/route-guides/ithaca-to-toronto-bus), from 131 East Green St to 81 Bay St, fastest 7 h 20 min.
+Three other carriers list the route. Greyhound shows [2 buses a day from Toronto to Ithaca, from $48.98](https://www.greyhound.com/bus-routes/toronto-on-ithaca-ny). OurBus resumes the route on Nov 25, 2026, [from $98.60](https://www.ourbus.com/routes/ithaca-ny-to-toronto-on-bus), with trips of 6 h 25 min to 7 h 10 min from North or West Campus to Viscount Station. Megabus lists [up to 2 trips a day, with a 9:45 a.m. departure](https://ca.megabus.com/route-guides/ithaca-to-toronto-bus), from 131 East Green St to 81 Bay St, fastest 7 h 20 min.
 
 In Toronto, FlixBus uses the [Union Station Bus Terminal, 81 Bay St, 2nd floor](https://www.flixbus.ca/bus-routes/toronto-on-ithaca-ny), and lists 2 trips a day back to Ithaca.
 
@@ -276,4 +279,4 @@ OurBus names three [peak days](https://www.ourbus.com/blog/?p=6269) to book earl
 - [Ithaca to JFK, LaGuardia or Newark airport](/getting-around/ithaca-to-jfk-lga-newark-airport-bus/): the New Jersey and airport routes.
 - [The cheapest ways to get home and around Cornell](/getting-around/cheapest-ways-to-get-around-cornell/): the lowest fares by carrier and when to buy.
 - [Getting to Cornell and home as an international student](/getting-around/getting-to-cornell-international-students/): arrivals, short breaks and staying in Ithaca.
-- Where intercity buses stop in Ithaca: every boarding point and the Nov 9 stop move.
+- [Where intercity buses stop in Ithaca](/getting-around/ithaca-intercity-bus-stops-cornell-downtown/): every boarding point and the Nov 9 stop move.

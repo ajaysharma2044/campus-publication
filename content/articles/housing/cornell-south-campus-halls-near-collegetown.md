@@ -8,7 +8,7 @@ primary_query: cornell south campus dorms
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 3
 rewrites: ''
 readers:
@@ -25,103 +25,103 @@ tools:
 sources:
 - url: https://www.cornellsun.com/article/2026/04/the-misunderstood-dorm-sheldon-court
   title: 'The Misunderstood Dorm: Sheldon Court, The Cornell Daily Sun, April 17, 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
   title: Upper-level Undergraduate On-Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls
   title: Residence Halls, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall
   title: Cascadilla Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court
   title: Sheldon Court, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house
   title: Schuyler House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor
   title: 112 Edgemoor, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
   title: 301 College Avenue, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/104-mary-ann-wood-drive
   title: 104 Mary Ann Wood Drive, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/residence-halls/109-mcgraw-place
   title: 109 McGraw Place, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses
   title: Rates, Amenities, & Licenses, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
   title: Housing License Cancellation Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
   title: Cornell Dining Terms and Conditions 2026-2027
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall
   title: Move-In Instructions for Cascadilla Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-sheldon-court
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-sheldon-court
   title: Move-In Instructions for Sheldon Court, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-schuyler-house
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-schuyler-house
   title: Move-In Instructions for Schuyler House, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-equity-and-engagement-community
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-equity-and-engagement-community
   title: Move-In Instructions for Equity and Engagement Community, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/important-loading-and-parking-information
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
   title: Important Loading and Parking Information, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges, OmniRide Passes, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://alumni.cornell.edu/cornellians/article/collegetown-history
   title: Collegetown history, Cornellians, June 20, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2013/09/19/ezras-oracle-sept-20-2013
   title: Ezra's Oracle, The Cornell Daily Sun, Sept. 19, 2013
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/article/2023/08/schuyler-house-service-center-closed-after-move-in-residents-directed-to-cascadilla-hall
   title: Schuyler House Service Center Closed After Move-In, Residents Directed to Cascadilla Hall, The Cornell Daily Sun, Aug. 28, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/03/cornell-acquires-301-college-avenue-for-15-million-in-collegetown
   title: Cornell Acquires 301 College Avenue for $15 Million in Collegetown, The Cornell Daily Sun, March 26, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/09/301-college-avenue-available-for-student-housing-in-2026-2027-academic-year
   title: 301 College Avenue Available for Student Housing in 2026-2027 Academic Year, The Cornell Daily Sun, Sept. 26, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed
   title: 301 College Ave Opens for Student Housing, Resident Describes it as 'Incomplete,' 'Rushed', The Cornell Daily Sun, Sept. 7, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun, Nov. 4, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/
   title: As Cornell Requires University Housing for Sophomores, Students Weigh Options, The Cornell Daily Sun, Nov. 8, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Cascadilla Hall, a five-storey grey stone residence hall at the edge of Collegetown, seen from the street
@@ -146,7 +146,7 @@ Jeanelle Wu wanted a double on West Campus for her sophomore year, where most of
 
 Wu wrote that she could find little about the building before she moved in. South Campus is Cornell's name for a small set of residence halls for juniors, seniors and transfers, most of them in or near Collegetown, the student neighborhood just south of campus. These halls are Cornell housing in every way that counts. You sign a license, not a lease. You carry a meal plan, and the bill goes to your Cornell account. But the buildings sit on the same blocks as the apartments students sign for a year ahead. South Campus is how a Cornell student lives in Collegetown without a landlord.
 
-The four older halls hold 675 students between them, and 301 College Avenue adds Cornell-run apartments. A double costs $6,872 per semester for 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)), and the meal plan comes on top. Against that sits Collegetown's private market, where a bed in a shared apartment is quoted by the month and the lease runs a full year.
+The four older halls hold 675 students between them, and 301 College Avenue adds Cornell-run apartments. A double costs $6,872 per semester for 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)), and the meal plan comes on top. Against that sits Collegetown's private market, where a bed in a shared apartment is quoted by the month and the lease runs a full year.
 
 ## Seven buildings, one name
 
@@ -161,14 +161,14 @@ Every one of them is open to transfer and upper-level students ([Cornell residen
 | Cascadilla Hall | 115 Cascadilla Place | Built 1864; Cornell's first residence hall from 1869 | 366 | Singles and doubles on corridors | $6,872 (double) to $7,783 (single) per semester | No |
 | Sheldon Court | 420 College Ave. | Opened 1903; Cornell-owned since 1955 | 164 | Singles and doubles on corridors | $6,872 (double) to $7,783 (single) per semester | No |
 | Schuyler House | 112 Sage Place | Built 1910; residence hall since 1981 | 125 | Mostly singles, some doubles, a few triples | $6,322 (triple) to $7,783 (single) per semester | No |
-| 112 Edgemoor | 112 Edgemoor Lane | Not stated | 20 | All singles | $7,783 (single) per semester | No |
-| 301 College Avenue | 301 College Ave. | Cornell-owned since March 2025; opened to students August 2026 | 43 in August 2026; 105 expected by fall 2027 | Studios to six-bedroom apartments with kitchenettes | Not posted separately | Not stated |
-| 104 Mary Ann Wood Drive | 104 Mary Ann Wood Drive, base of Libe Slope | Common areas renovated 2026 | Not stated | Doubles on corridors | $6,872 (double) per semester | No |
-| 109 McGraw Place | 109 McGraw Place, beside West Campus | Built 1965 as a fraternity house | Not stated | Not stated | Closed for 2026-27 | Not stated |
+| 112 Edgemoor | 112 Edgemoor Lane |  | 20 | All singles | $7,783 (single) per semester | No |
+| 301 College Avenue | 301 College Ave. | Cornell-owned since March 2025; opened to students August 2026 | 43 in August 2026; 105 expected by fall 2027 | Studios to six-bedroom apartments with kitchenettes | On request |  |
+| 104 Mary Ann Wood Drive | 104 Mary Ann Wood Drive, base of Libe Slope | Common areas renovated 2026 |  | Doubles on corridors | $6,872 (double) per semester | No |
+| 109 McGraw Place | 109 McGraw Place, beside West Campus | Built 1965 as a fraternity house |  |  | Closed for 2026-27 |  |
 
 Source: Cornell Student & Campus Life hall pages for each building; Cornell Housing rates for 2026-27; The Cornell Daily Sun for 301 College Avenue's purchase, opening count and capacity.
 
-Rooms in Cascadilla, Sheldon, Schuyler, 112 Edgemoor and 104 Mary Ann Wood have no air conditioning. Cornell's pages don't say either way for 301 College Avenue or 109 McGraw Place ([Cornell residence halls](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls)).
+Rooms in Cascadilla, Sheldon, Schuyler, 112 Edgemoor and 104 Mary Ann Wood have no air conditioning. For 301 College Avenue or 109 McGraw Place, ask Cornell Housing ([Cornell residence halls](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls)).
 
 <!-- ad-break -->
 
@@ -226,7 +226,7 @@ It opened in August 2026 with 43 students while work went on around them ([The C
 
 Resident Eleanor McNamara, Class of 2028, told the Sun she liked apartment living and her room. She also found a dirty unit and a refrigerator running at about 55 degrees, well above the 40 degrees food safety requires. Her suitemate's repair request got it fixed a few days later. Her kitchen had no stove. The lobby was unfinished, and construction outside started at 7:30 a.m. about six days a week. An anonymous resident advisor said the building opened "a little bit prematurely," with one live-in RA and early trouble with keys (The Cornell Daily Sun).
 
-On paper, each unit has a kitchenette with a fridge and microwave, plus shared laundry ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)). Cornell's housing license says the building has full-size refrigerators ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Residents still pay for a meal plan, even with a kitchen.
+On paper, each unit has a kitchenette with a fridge and microwave, plus shared laundry ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue)). Cornell's housing license says the building has full-size refrigerators ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Residents still pay for a meal plan, even with a kitchen.
 
 ```figure
 kind: timeline
@@ -248,7 +248,7 @@ Two South Campus buildings are nowhere near Collegetown. 104 Mary Ann Wood Drive
 
 109 McGraw Place was built in 1965 as a fraternity house and has new flooring, windows and heating. It is closed for the 2026-27 year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/residence-halls/109-mcgraw-place)). Cornell has not said whether it reopens for 2027-28, so check the bed availability report before you count on it.
 
-Cornell's dining terms also group the Equity & Engagement Community with South Campus ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)). That program house is at 2 Forest Park Lane, near West Campus ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-equity-and-engagement-community)). You reach it through program house selection, not South Campus selection.
+Cornell's dining terms also group the Equity & Engagement Community with South Campus ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)). That program house is at 2 Forest Park Lane, near West Campus ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-equity-and-engagement-community)). You reach it through program house selection, not South Campus selection.
 
 ## Why Cornell keeps dorms in Collegetown
 
@@ -284,7 +284,7 @@ A full year in a South Campus double costs $13,744 for the room, $7,056 for the 
 
 Compare that with a Collegetown lease. A bed in a four-bedroom apartment rents for a median of $1,246.25 a month at Ithaca Renting for 2027-28, or $14,955 over a 12-month lease ([EduExplained cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/)). That rent covers no food. Most of those units also bill electricity to the tenant. The four-bedroom share costs $5,895 less than the South Campus double with its plan. It wins only if a year of groceries and electricity costs you less than that, or $491.25 a month. A six-bedroom share at the $800 median, $9,600 a year, leaves far more room. For the full comparison, read [Is off-campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and the [Collegetown rent price guide](/cornell/housing/collegetown-rent-prices-per-bed-one-bedroom/).
 
-The comparison is not only money. The 2026-27 Cornell license ran from move-in in mid-August to May 23, 2027 ([Cornell licenses](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses)), while the lease math above counts a full year of rent. A South Campus room comes with furniture, a resident advisor and Cornell maintenance. As 301 College Avenue showed, that last one does not always mean fast.
+The comparison is not only money. The 2026-27 Cornell license ran from move-in in mid-August to May 23, 2027 ([Cornell licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)), while the lease math above counts a full year of rent. A South Campus room comes with furniture, a resident advisor and Cornell maintenance. As 301 College Avenue showed, that last one does not always mean fast.
 
 ```reader "If you're on a tight budget"
 The cheapest South Campus bed is a Schuyler House triple at $6,322 per semester. Schuyler's free bus pass also saves you up to $200 a year in fares. Pair the room with the Collegetown plan rather than Unlimited and you save another $548. Cornell's Unlimited plan is the one financial aid fully covers for eligible students, so ask the aid office how your package treats the Collegetown plan before you switch.
@@ -304,7 +304,7 @@ You can reduce a meal plan, if you are eligible, until Sept. 9, 2026, for fall a
 
 ## Getting a room
 
-Juniors and seniors pick rooms in the fall for the following year. For 2027-28, the application ran from Sept. 1 to Sept. 27, 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Cornell treats "South Campus Residence Halls and 301 College Avenue Apartments" as one area. Students already living there had first pick in Same Area selection on Oct. 6 and 7. Everyone else could choose from what was left in Open Room selection, starting Oct. 8. After that, a waitlist opened for students without a room.
+Juniors and seniors pick rooms in the fall for the following year. For 2027-28, the application ran from Sept. 1 to Sept. 27, 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Cornell treats "South Campus Residence Halls and 301 College Avenue Apartments" as one area. Students already living there had first pick in Same Area selection on Oct. 6 and 7. Everyone else could choose from what was left in Open Room selection, starting Oct. 8. After that, a waitlist opened for students without a room.
 
 ```figure
 kind: steps
@@ -323,7 +323,7 @@ Source: Cornell Housing, Fall Housing Selection for Rising Juniors and Seniors.
 Timeslots are random, and Cornell says blocking with friends gives no advantage or disadvantage. A room is held for four minutes while you assign beds. Signing the license makes it binding. A student who missed the Sept. 27 deadline gets no timeslot and goes straight to the waitlist (Cornell Housing).
 
 ```reader "If you're a sophomore"
-You pick next year's room in the spring, not the fall. Sophomores do land on South Campus: Wu lived in Sheldon Court as one. For 2027-28, the rising sophomore application opens Feb. 1 and closes April 4, 2027, and open selection runs April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). You cannot cancel your second-year license except in a few cases, so pick a South Campus room only if you would live in it.
+You pick next year's room in the spring, not the fall. Sophomores do land on South Campus: Wu lived in Sheldon Court as one. For 2027-28, the rising sophomore application opens Feb. 1 and closes April 4, 2027, and open selection runs April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). You cannot cancel your second-year license except in a few cases, so pick a South Campus room only if you would live in it.
 ```
 
 ```reader "If you're a transfer student"
@@ -334,15 +334,15 @@ You must live on campus for one academic year. A spring transfer stays for that 
 
 ## Moving in and out
 
-All South Campus check-ins run through the Cascadilla Service Center. For 2026, it was closed Aug. 17, open 8 a.m. to 7 p.m. from Aug. 18 to 22, and open 10 a.m. to 4 p.m. on Aug. 23 ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)). Your reserved timeslot covers arrival and check-in, not unloading. Students who arrive after 7 p.m. call the number posted at their building to get in and pick up keys the next day.
+All South Campus check-ins run through the Cascadilla Service Center. For 2026, it was closed Aug. 17, open 8 a.m. to 7 p.m. from Aug. 18 to 22, and open 10 a.m. to 4 p.m. on Aug. 23 ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall)). Your reserved timeslot covers arrival and check-in, not unloading. Students who arrive after 7 p.m. call the number posted at their building to get in and pick up keys the next day.
 
 Each building unloads differently:
 
 - **Cascadilla Hall:** unload at the Eddygate entrance, then the driver moves the car to the Williams Street lot.
-- **Sheldon Court:** unload through the Dryden Road Garage entrance at 114 Dryden Road, then move to the Williams Street lot ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-sheldon-court)).
-- **Schuyler House:** unload at the building, then park in the spaces farthest from the door, with no overnight parking ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-schuyler-house)).
+- **Sheldon Court:** unload through the Dryden Road Garage entrance at 114 Dryden Road, then move to the Williams Street lot ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-sheldon-court)).
+- **Schuyler House:** unload at the building, then park in the spaces farthest from the door, with no overnight parking ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-schuyler-house)).
 
-For move-out, Cornell warns there is no parking between the gorge and Cascadilla Hall, and fire lanes are off limits. It points Cascadilla and Sheldon residents to the City of Ithaca garage just south of Cascadilla and the Williams Street Garage at Williams Street and Stewart Avenue ([Cornell loading information](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/important-loading-and-parking-information)). Sheldon has a few spots at its loading dock. Our [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers the rest of campus.
+For move-out, Cornell warns there is no parking between the gorge and Cascadilla Hall, and fire lanes are off limits. It points Cascadilla and Sheldon residents to the City of Ithaca garage just south of Cascadilla and the Williams Street Garage at Williams Street and Stewart Avenue ([Cornell loading information](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information)). Sheldon has a few spots at its loading dock. Our [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers the rest of campus.
 
 ```reader "If you're bringing a car"
 The move-in parking above is for unloading day only. Line up a year-round spot before you bring a car. Our guide to [Collegetown and downtown parking](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) covers the city garages and permits.
@@ -354,9 +354,9 @@ Five of the halls have no air-conditioned rooms (see the list under the building
 
 ## Changing your mind: cancelling the license
 
-A Cornell housing license is not a lease. It is a revocable permission to occupy a room, and it creates no landlord-tenant relationship ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). It binds you from the moment you accept the room in the portal.
+A Cornell housing license is not a lease. It is a revocable permission to occupy a room, and it creates no landlord-tenant relationship ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). It binds you from the moment you accept the room in the portal.
 
-Cornell changed its cancellation policy for licenses starting August 2026 ([Cornell cancellation policy](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)). Returning juniors and seniors can now cancel before they check in, for a fee that rises through the year. First-years, new transfers and second-years cannot cancel unless they leave Cornell, win an exemption or (for second-years) get into a Greek house, affiliated house or co-op in time.
+Cornell changed its cancellation policy for licenses starting August 2026 ([Cornell cancellation policy](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy)). Returning juniors and seniors can now cancel before they check in, for a fee that rises through the year. First-years, new transfers and second-years cannot cancel unless they leave Cornell, win an exemption or (for second-years) get into a Greek house, affiliated house or co-op in time.
 
 ```figure
 kind: cost_table
@@ -422,14 +422,14 @@ rows:
 - [Residence Halls](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls), Cornell Student & Campus Life
 - [Cascadilla Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall), [Sheldon Court](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court), [Schuyler House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house), [112 Edgemoor](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/112-edgemoor), [301 College Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue), [104 Mary Ann Wood Drive](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/104-mary-ann-wood-drive) and [109 McGraw Place](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/residence-halls/109-mcgraw-place), Cornell Student & Campus Life
 - [New Transfer Undergraduates](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates), Cornell Student & Campus Life
-- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), Cornell Student & Campus Life
-- [Rates, Amenities, & Licenses](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses), Cornell Student & Campus Life
-- [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028), Cornell Student & Campus Life
-- [Housing License Cancellation Policy](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy), Cornell Student & Campus Life
+- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), Cornell Student & Campus Life
+- [Rates, Amenities, & Licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses), Cornell Student & Campus Life
+- [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028), Cornell Student & Campus Life
+- [Housing License Cancellation Policy](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy), Cornell Student & Campus Life
 - [Undergraduate Meal Plans](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans) and [Cornell Dining Terms and Conditions 2026-2027](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027), Cornell Dining
-- [Fall Housing Selection for Rising Juniors and Seniors](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors) and [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), Cornell Student & Campus Life
-- Move-in instructions for [Cascadilla Hall](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall), [Sheldon Court](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-sheldon-court), [Schuyler House](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-schuyler-house) and the [Equity and Engagement Community](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-equity-and-engagement-community), Cornell Student & Campus Life
-- [Important Loading and Parking Information](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/important-loading-and-parking-information), Cornell Student & Campus Life
+- [Fall Housing Selection for Rising Juniors and Seniors](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors) and [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), Cornell Student & Campus Life
+- Move-in instructions for [Cascadilla Hall](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall), [Sheldon Court](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-sheldon-court), [Schuyler House](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-schuyler-house) and the [Equity and Engagement Community](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-equity-and-engagement-community), Cornell Student & Campus Life
+- [Important Loading and Parking Information](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information), Cornell Student & Campus Life
 - [Bus Services, Privileges, OmniRide Passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes), Cornell Transportation and Delivery Services
 - [Collegetown history](https://alumni.cornell.edu/cornellians/article/collegetown-history), Cornellians, June 20, 2025
 - [Ezra's Oracle](https://cornellsun.com/2013/09/19/ezras-oracle-sept-20-2013), The Cornell Daily Sun, Sept. 19, 2013

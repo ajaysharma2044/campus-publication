@@ -29,28 +29,28 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall
   title: North Campus hall pages, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
   accessed: '2026-11-10'
 images:
@@ -100,13 +100,13 @@ Source: The Cornell Daily Sun, Cornell Housing and Cornell's 2026-27 rate table.
 
 ## What is it like to live there?
 
-Cornell's pages do not say what daily life on the floor is like. They show only the hall's layout: rooms open off corridors ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)).
+Cornell's pages do not say what daily life on the floor is like. They show only the hall's layout: rooms open off corridors ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)).
 
-Cornell's page does not list who qualifies, what residents agree to, or which room types the floor has. Write to housing@cornell.edu before you apply, and ask for all three. The corridor layout is described on [Cornell's residence hall configurations page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations).
+Cornell's page does not list who qualifies, what residents agree to, or which room types the floor has. Write to housing@cornell.edu before you apply, and ask for all three. The corridor layout is described on [Cornell's residence hall configurations page](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations).
 
 ## What does it cost?
 
-The community uses the residence hall rate table, so your price follows your room type. A double is $13,744 per academic year, a single is $15,566, a triple is $12,644 and a super single is $16,595 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+The community uses the residence hall rate table, so your price follows your room type. A double is $13,744 per academic year, a single is $15,566, a triple is $12,644 and a super single is $16,595 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 A meal plan is also required. First-years take Unlimited at $7,604 a year. Upper-level and transfer students can take Bear Traditional at $7,056. Both add a $50 yearly fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). An upper-level student in a double pays $20,850 for the year: $13,744 plus $7,056 plus the yearly fee.
 
@@ -116,9 +116,9 @@ Off campus, a share of a Collegetown four-bedroom has a median asking rent of $1
 
 ## How do you apply?
 
-Juniors and seniors answer an extra application inside the housing application, along with the Language House and Veterans House. The 2027-28 round ran from Sept. 1 to Sept. 27, 2026, and Cornell warns that program house beds may not be left in later stages ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+Juniors and seniors answer an extra application inside the housing application, along with the Language House and Veterans House. The 2027-28 round ran from Sept. 1 to Sept. 27, 2026, and Cornell warns that program house beds may not be left in later stages ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
-Rising sophomores apply in spring. Their 2027-28 application opens Feb. 1, 2027, and closes April 4 at 11:59 p.m. Program house selection is April 12, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Cornell's page for this round does not say how the extra application works for sophomores, so ask housing@cornell.edu.
+Rising sophomores apply in spring. Their 2027-28 application opens Feb. 1, 2027, and closes April 4 at 11:59 p.m. Program house selection is April 12, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Cornell's page for this round does not say how the extra application works for sophomores, so ask housing@cornell.edu.
 
 ```reader "If you're a sophomore deciding between campus and off campus"
 A place here counts as on-campus housing, so it meets the two-year requirement. If you would rather leave campus, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) first.
@@ -130,9 +130,9 @@ The house opened in fall 2026, and Cornell set its first review for mid-fall 202
 
 Court-Kay-Bauer is not on Cornell's list of North Campus halls open over winter break ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Plan where you will stay between semesters.
 
-Juniors and seniors who sign for 2027-28 can cancel for $50 through Jan. 31, 2027. The fee then rises in steps ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
+Juniors and seniors who sign for 2027-28 can cancel for $50 through Jan. 31, 2027. The fee then rises in steps ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
-On move-in day, Court-Kay-Bauer unloading was at the Helen Newman lot in fall 2026, and Cornell turned away U-Hauls and trailers ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). See the [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
+On move-in day, Court-Kay-Bauer unloading was at the Helen Newman lot in fall 2026, and Cornell turned away U-Hauls and trailers ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). See the [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
 
 ## What to do next
 

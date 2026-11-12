@@ -7,7 +7,7 @@ primary_query: biking in Ithaca hills where to buy a bike Cornell
 topic: getting-around
 school: cornell-university
 type: decision
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 262
 rewrites: ''
 readers:
@@ -18,30 +18,30 @@ readers:
 subject: Cyclist riding uphill on a street near Cornell University in Ithaca
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far
   title: Campus Police Report More Than $40,000 in Bike and Scooter Thefts This Semester So Far, The Cornell Daily Sun, November 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall
   title: 'Guest Room: From Bikes to Buses, How to Sustainably Navigate Campus This Fall, The Cornell Daily Sun, November 11, 2025'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacabikeshare.org
   title: Ithaca Bikeshare
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.bikewalktompkins.org/e-bikes
   title: E-Bikes, Bike Walk Tompkins
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus
   title: Cycling on Campus, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus
   title: Cycling and Micromobility, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/services/repair-maintenance/snow-removal
   title: Snow Removal, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: A cyclist riding along the street in front of Uris Hall on the Cornell campus
@@ -55,7 +55,7 @@ images:
 ---
 
 
-Buy a bike if you live in East Hill or on North Campus and ride most days. Skip it if you live in Collegetown, where the walk to central campus is [up to 15 minutes](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods). Downtown and Fall Creek riders face a long uphill, so a pedal-assist bike, Bikeshare or a TCAT bus rack helps.
+Buy a bike if you live in East Hill or on North Campus and ride most days. Skip it if you live in Collegetown, where the walk to central campus is [up to 15 minutes](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods). Downtown and Fall Creek riders face a long uphill, so a pedal-assist bike, Bikeshare or a TCAT bus rack helps.
 
 ```glance
 - Collegetown to campus is a walk of up to 15 minutes, so a bike adds little there.
@@ -66,7 +66,7 @@ Buy a bike if you live in East Hill or on North Campus and ride most days. Skip 
 
 ## How hilly is Ithaca for a bike?
 
-Campus sits on a hill above the town, so most trips from the flats climb. Cornell's neighborhood guide gives the walk and the slope for each area, and the same slope applies to a bike ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)).
+Campus sits on a hill above the town, so most trips from the flats climb. Cornell's neighborhood guide gives the walk and the slope for each area, and the same slope applies to a bike ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
 | Neighborhood | Distance to campus | Walk and slope |
 |---|---|---|
@@ -77,7 +77,7 @@ Campus sits on a hill above the town, so most trips from the flats climb. Cornel
 | South Hill | 1.5 to 3 miles | 15 minutes downhill to downtown, then transit |
 | West Hill | 4 miles | Rural; not practical on foot |
 
-Cornell does not publish grade percentages for these routes (see its [neighborhood guide](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)), so judge a hill by walking it before you sign a lease. The coming-home ride is the easy half. The ride up is where a standard bike loses its appeal.
+Judge a hill by walking it before you sign a lease. The coming-home ride is the easy half. The ride up is where a standard bike loses its appeal.
 
 ## Should I buy a bike or use Bikeshare?
 
@@ -107,7 +107,7 @@ Yes. Every TCAT bus has a front bike rack at no extra fare, according to Cornell
 
 ## Where can I buy a bike in Ithaca?
 
-Cornell's cycling page tells riders to use a local bike shop for repair and winter advice, and Bike Walk Tompkins keeps a Local Bike Shops page and a Retail Shop at Swamp City Community Cycles. To shop, search a map app for bike shops near your address and ask each one about used and student-priced bikes. Bike Walk Tompkins runs e-bike classes at Swamp City Community Cycles, 803 Cascadilla St., and requires pre-registration ([Bike Walk Tompkins](https://www.bikewalktompkins.org/e-bikes)). Call before you go.
+Cornell advises having your bike adjusted at a local bike shop for a safer fit ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/cycling-campus)), and Bike Walk Tompkins keeps a Local Bike Shops page and a Retail Shop at Swamp City Community Cycles. To shop, search a map app for bike shops near your address and ask each one about used and student-priced bikes. Bike Walk Tompkins runs e-bike classes at Swamp City Community Cycles, 803 Cascadilla St., and requires pre-registration ([Bike Walk Tompkins](https://www.bikewalktompkins.org/e-bikes)). Call before you go.
 
 Before you buy, check these three things:
 
@@ -117,7 +117,7 @@ Before you buy, check these three things:
 
 ## Is winter biking realistic?
 
-Cornell's cycling page does not cover winter riding, storage or repair, and its snow removal page does not mention bike lanes or paths. Report slippery conditions to Customer Service at 607-255-5322 ([Cornell Facilities](https://fcs.cornell.edu/services/repair-maintenance/snow-removal)). The [winter biking guide](/cornell/getting-around/biking-in-ithaca-winter-cornell/) covers gear and routes.
+Cornell Grounds clears campus roads, parking lots, steps and sidewalks and applies salt and grit to control ice, though response times vary with the rate of snowfall. Report unsafe or slippery conditions anywhere on campus to Customer Service at 607-255-5322 ([Cornell Facilities](https://fcs.cornell.edu/services/repair-maintenance/snow-removal)). The [winter biking guide](/cornell/getting-around/biking-in-ithaca-winter-cornell/) covers gear and routes.
 
 ## What to do next
 

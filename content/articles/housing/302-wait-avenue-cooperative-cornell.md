@@ -30,7 +30,7 @@ sources:
 - url: https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/
   title: Co-op residents face deteriorating houses, increasing rent costs, The Cornell Daily Sun, Oct. 21, 2024
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
 images: []
@@ -80,7 +80,7 @@ A hall double costs $13,744 for the year, so the 302 Wait double is $4,314 less.
 
 Each co-op runs its own selection, and selection starts in early November and early February (Cornell Housing). Write to waitavenue@cornell.edu for the house's steps, or to co-ops@cornell.edu or 607-255-3445. Cornell's page for this house does not describe its selection process.
 
-Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ```reader "If you're a graduate student"
 This house lists graduate and professional women as eligible, along with Wait Terrace, Triphammer, Watermargin and Redbud, which have their own rules.

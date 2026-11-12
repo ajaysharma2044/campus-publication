@@ -162,8 +162,8 @@
  "checked_by": "scripts/v3/check.sh",
  "lint_fixes": [
   "answer: 4 sentences in the first paragraph (3 or fewer)",
-  "source url returned 404: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall-sheldon-court-and-schuyler-house",
-  "source url returned 404: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch"
+  "source url returned 404: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall",
+  "source url returned 404: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-balch-hall"
  ],
  "lint_rounds": 1
 }

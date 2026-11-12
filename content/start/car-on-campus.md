@@ -3,7 +3,7 @@ title: "Getting around Ithaca: start here if you have a car"
 meta: "For Cornell students with a car in university housing: read in order to settle the permit, winter parking, storms and whether the car is worth it."
 topic: getting-around
 topics: [getting-around]
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0072
 kind: start_here
 readers: [car-on-campus]
@@ -14,7 +14,7 @@ You live in university housing on North, West, South or at Hasbrouck, and you ha
 
 ## Read in this order
 
-1. [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/). Your guide to the whole year with a car; read it first, before the permit sale.
+1. [Cornell parking: campus, Collegetown and Ithaca guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/). Your guide to the whole year with a car; read it first, before the permit sale.
 2. [Cornell student parking permits: cost, rules, who qualifies](/getting-around/cornell-student-parking-permit-cost-rules/). Which permit you can buy, what it costs and how the sale morning works; read it in July.
 3. [Cornell and Ithaca winter parking: odd/even, bays, breaks](/getting-around/ithaca-winter-parking-rules-cornell-odd-even/). Where the car can stay overnight from November and where to leave it over winter break; read it in late October.
 4. [Winter storms and Cornell travel: driving, buses, flights](/getting-around/cornell-winter-storms-travel-driving-ithaca/). What driving the hills and highways is like in a storm and when to change plans; read it before you drive home for Thanksgiving.

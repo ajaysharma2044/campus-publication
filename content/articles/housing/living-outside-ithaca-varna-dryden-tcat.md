@@ -7,7 +7,7 @@ primary_query: living in varna or dryden and commuting to cornell by tcat
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 167
 rewrites: ''
 readers:
@@ -31,7 +31,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building issues and maintenance, Cornell Law Tenants Advocacy
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/
@@ -96,7 +96,7 @@ Seven reviews are a small sample. Read them as a list of questions: who fixes a 
 
 ## Which rules change outside the City of Ithaca?
 
-Ivy Ridge sits on a Town of Dryden parcel, so the City of Ithaca's Certificate of Compliance, the three-year safety inspection permit, does not apply. Cornell's safety tool covers City of Ithaca rentals only, and it does not list Town, Lansing or Cayuga Heights buildings ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)). The [City versus town guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) sorts out which rules follow your address.
+Ivy Ridge sits on a Town of Dryden parcel, so the City of Ithaca's Certificate of Compliance, the three-year safety inspection permit, does not apply. Cornell's safety tool covers City of Ithaca rentals only, and it does not list Town, Lansing or Cayuga Heights buildings ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). The [City versus town guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) sorts out which rules follow your address.
 
 For a repair that goes unanswered, the code office is the Town of Dryden's, not the City's. Its number is 607-844-8888 ([Cornell Law Tenants Advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
 
@@ -119,7 +119,7 @@ You ride free after 6 p.m. and all weekend, so a late lab or a library night cos
 
 ## Is there another way in from Dryden?
 
-Cortland Public Transit, a separate county bus system, serves Cornell, TC3 and Dryden, per Cornell Transportation's bus page. The page is undated and lists no schedule, so call Cortland Public Transit before you plan around it. Driving is the other option. The [car ownership guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers permits and parking costs.
+Cortland Public Transit, a separate county bus system, serves Cornell, TC3 and Dryden, per Cornell Transportation's bus page. The page is undated and lists no schedule, so call Cortland Public Transit before you plan around it. Driving is the other option. The [Cornell parking guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers permits and parking costs.
 
 To weigh a cheaper Varna rent against the daily trip, run both ends through the commute calculator.
 

@@ -4,147 +4,131 @@
  "verdict": "pass",
  "checked": [
   {
-   "claim": "Most colleges accept up to 60 transfer credits including exam credit; Engineering 66; Architecture 64",
-   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "claim": "Most colleges accept up to 60 transfer credits, exam credit included; Engineering 66; Architecture 64",
+   "source_url": "brief §2 (caps) and §10.4",
    "status": "ok",
-   "note": "brief §2.8 and discrepancy row 5; registrar page re-read, wording matches"
+   "note": "Matches registrar and FAQ 327 rows in the brief."
   },
   {
-   "claim": "Engineering: 33 per full-time year, 66 total, AP/IB/GCE/CASE included, minimum 60 at Cornell",
-   "source_url": "brief §2.6",
-   "status": "ok",
-   "note": "Duffield page re-read; matches"
-  },
-  {
-   "claim": "Engineering: C- earns nothing; pre-evaluation not offered; AP Calc BC, Chem, Physics C need a 5; MOOCs, military and work experience excluded; no credit for outside courses in fall or spring term; summer only with fewer than 12 Cornell credits",
+   "claim": "Engineering: 33 credits per full-time year, 66 total incl. AP, IB, GCE, CASE; at least 60 at Cornell",
    "source_url": "https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements",
    "status": "ok",
-   "note": "brief §2.6; Duffield page re-read and quotes confirm C (not C-), no pre-evaluation, fall/spring bar, summer under 12"
+   "note": "Brief row and Duffield page both confirm."
   },
   {
-   "claim": "Engineering students need 123 to 137 credits to graduate",
-   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
+   "claim": "Engineering: AP Calculus BC, Chemistry, Physics C Mechanics need a 5; C- earns nothing; MOOCs, high school cooperative, technical skills, life/work/military experience excluded; no pre-evaluation",
+   "source_url": "https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements",
    "status": "ok",
-   "note": "brief; registrar page says 'requires 123-137 credits to graduate (depending on the major)'; the Duffield page does not state it, but the page cites the registrar"
+   "note": "Opened the Duffield page; each item stated there."
   },
   {
-   "claim": "Architecture: 90 credits at Cornell; 154 to graduate over five years",
-   "source_url": "brief §2.6",
+   "claim": "Engineering: no credit for courses taken in a Cornell fall or spring semester; summer with fewer than 12 Cornell credits",
+   "source_url": "https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements",
    "status": "ok",
-   "note": "registrar page confirms 154 and 90; 'five years' is in the brief"
+   "note": "Confirmed on the Duffield page."
   },
   {
-   "claim": "Arts and Sciences: 60 credits and four semesters at Cornell; CLEP not accepted; quarter courses of 4+ credits meet requirements; 100 of 120 A&S credits; up to 12 summer credits; no simultaneous outside enrollment",
-   "source_url": "brief §2.8",
-   "status": "ok",
-   "note": "brief rows for A&S"
-  },
-  {
-   "claim": "CALS: 60 test plus transfer, AP up to 15, no pass/fail, associate's = junior standing, more than four semesters at four-year not eligible, cannot pre-approve",
-   "source_url": "brief §2.6",
-   "status": "ok",
-   "note": "brief CALS rows"
-  },
-  {
-   "claim": "ILR: 60, AP up to 12, four full-time semesters, MOOCs, military and work excluded; Hotel 60, AP/IB/GCE up to 15; Human Ecology 15 pre-college credits max, 0.67 quarter rule, no pass/fail; Brooks 60 and four semesters on Ithaca campus",
-   "source_url": "brief §2.6",
-   "status": "ok",
-   "note": "brief rows for each college"
-  },
-  {
-   "claim": "Quarter credits multiplied by two-thirds; conversions 4 to 2.67, 5 to 3.33, 90 to 60, 180 to 120",
-   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
-   "status": "ok",
-   "note": "recomputed: 4 x 2/3 = 2.67; 5 x 2/3 = 3.33; 90 x 2/3 = 60; 180 x 2/3 = 120"
-  },
-  {
-   "claim": "Engineering example: 1.5 years x 33 = 49.5; two years reach 66",
-   "source_url": "brief §10.4",
-   "status": "ok",
-   "note": "recomputed 1.5 x 33 = 49.5; 2 x 33 = 66"
-  },
-  {
-   "claim": "Credits-lost table (30/45/60/75/90/105 in; accepted, lost, semesters, totals)",
-   "source_url": "brief §10.4",
-   "status": "ok",
-   "note": "recomputed at 15 credits per semester with a 60 cap and a four-semester floor: 30 gives 6 Cornell and 8 total; 45 gives 5 and 8; 60 gives 4 and 8; 75 gives lost 15, 4 and 9; 90 gives lost 30, 4 and 10; 105 gives lost 45, 4 and 11. All rows correct"
-  },
-  {
-   "claim": "Extra year costs $74,970 = $73,946 tuition + $1,024 fees",
-   "source_url": "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters",
-   "status": "ok",
-   "note": "brief §2.14 and §10.1; 73,946 + 1,024 = 74,970"
-  },
-  {
-   "claim": "80% overlap, C or better, up to B for major courses, pass/fail with written statement, regionally accredited, community college or online cannot be refused, seven-year age rule, retakes",
-   "source_url": "brief §2.8",
-   "status": "ok",
-   "note": "registrar page; seven-year rule confirmed as a rule of thumb the department may override"
-  },
-  {
-   "claim": "Never transfers list: orientation, study skills, math below precalculus, remedial, ESL, international military, MOOCs, internships, departmental exam credit, CLEP (A&S), military training",
-   "source_url": "brief §2.8",
-   "status": "ok",
-   "note": "brief rows; admissions veterans page cited for military"
-  },
-  {
-   "claim": "Transcript shows only the old school's name and total transfer credits; transfer GPA not in Cornell GPA",
-   "source_url": "https://registrar.cornell.edu/students/credit-evaluation-services",
-   "status": "ok",
-   "note": "registrar page re-read confirms; brief §10 item 8"
-  },
-  {
-   "claim": "AP/IB request in writing by last day of instruction; Dec 7, 2026; code 2098; AP not automatic",
-   "source_url": "https://registrar.cornell.edu/calendars-exams/academic-calendar",
-   "status": "ok",
-   "note": "brief §2.8, §3 calendar rows; registrar page confirms 'by the last day of instruction'"
-  },
-  {
-   "claim": "Add deadline Sep 8, 2026",
-   "source_url": "brief calendar row",
-   "status": "ok",
-   "note": "brief §2.12"
-  },
-  {
-   "claim": "Study abroad credit from Global Learning approved programs does not count toward the cap",
-   "source_url": "brief §2.8",
-   "status": "ok",
-   "note": "brief row"
-  },
-  {
-   "claim": "AAP gives admitted students two weeks for syllabi and coursework, portfolio for studio courses",
-   "source_url": "brief §2.6",
-   "status": "ok",
-   "note": "brief row"
-  },
-  {
-   "claim": "Academic Evaluation may be replaced by a personal or employer recommendation after two or more years out of school; non-English documents need official translations",
-   "source_url": "brief §1",
-   "status": "ok",
-   "note": "brief rows"
-  },
-  {
-   "claim": "Abbey Yang '25, spring transfer in a 2023 Cornell Daily Sun story: advisor said her biology credits should count, but her degree audit did not yet show them",
-   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
-   "status": "ok",
-   "note": "Sun article opened: Yang said her advisor said she should be fine with all the biology, but it was not yet shown on her DUST. Page says 'degree audit' for DUST, which is Cornell's degree audit report (the brief calls it the DUST report). Her pronoun is she, which the page uses. Left as is"
-  },
-  {
-   "claim": "2016 College Confidential poster from UVA said Cornell did not ask for syllabi; writing seminars harder to transfer than intro biology or psychology",
-   "source_url": "brief",
-   "status": "ok",
-   "note": "brief line 1023 says the same, hedged and secondhand. The page labels it one secondhand account"
-  },
-  {
-   "claim": "Reader blocks (sophomore, junior, community college, engineering, international, veteran) restate the same facts",
+   "claim": "Minimums at Cornell: A&S 60 credits and four semesters; ILR 60 and four full-time semesters; Brooks four semesters on the Ithaca campus; Architecture 90 credits, 154 over five years",
    "source_url": "brief §2",
    "status": "ok",
-   "note": "each figure traced to the rows above; no drift found"
+   "note": "Brief rows for A&S, ILR, Brooks, Architecture."
+  },
+  {
+   "claim": "AP sub-caps: CALS 15, ILR 12, Hotel 15 (AP, IB, GCE); Human Ecology 15 pre-college credits; quarter credits 0.67",
+   "source_url": "brief §2 and §10.4",
+   "status": "ok",
+   "note": "Brief lines for CALS, ILR, Hotel, Human Ecology."
+  },
+  {
+   "claim": "Engineering needs 123 to 137 credits to graduate; A&S 120 to graduate, 100 A&S credits",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Brief §10.4 college table."
+  },
+  {
+   "claim": "80% similarity, C or better, seven-year age limit, regionally accredited, pass/fail rules, no CALS/Human Ecology pass/fail, retakes, study abroad outside the cap, transcript shows only school name and total",
+   "source_url": "brief §2 (registrar rows)",
+   "status": "ok",
+   "note": "Same values in the brief."
+  },
+  {
+   "claim": "What never transfers list (orientation, math below precalculus, ESL, MOOCs, military, internships, departmental exam credit, CLEP in A&S)",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief rows at the registrar, veterans, FAQ 326 and A&S lines."
+  },
+  {
+   "claim": "Credits-lost table: 30/45/60/75/90/105 credits give accepted 30/45/60/60/60/60, lost 0/0/0/15/30/45, total semesters 8/8/8/9/10/11",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed: Cornell semesters = max(4, (120-accepted)/15); e.g. 90: 6 + 4 = 10; 105: 7 + 4 = 11; 75: 5 + 4 = 9. All rows match."
+  },
+  {
+   "claim": "Extra year costs $73,946 tuition + $1,024 fees = $74,970",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed 73,946 + 1,024 = 74,970; same figures in the brief."
+  },
+  {
+   "claim": "Engineering example: 1.5 years x 33 = 49.5; two years = 66",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed 1.5 x 33 = 49.5, 2 x 33 = 66."
+  },
+  {
+   "claim": "Quarter conversions: 4 -> 2.67, 5 -> 3.33, 90 -> 60, 180 -> 120",
+   "source_url": "brief §10.4",
+   "status": "ok",
+   "note": "Recomputed at 2/3: 2.667, 3.333, 60, 120."
+  },
+  {
+   "claim": "Add deadline Sep 8, 2026; last day of instruction Dec 7, 2026; exam credit request by that day with scores sent to code 2098",
+   "source_url": "brief §2 and §6",
+   "status": "fixed",
+   "note": "Dates match the brief. Step 4 said 'which was Dec 7 in 2026' although today is Nov 11, 2026, so Dec 7 is still ahead; changed 'was' to 'is'."
+  },
+  {
+   "claim": "AAP gives admitted students two weeks to submit syllabi",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "Brief AAP credit row."
+  },
+  {
+   "claim": "Summer: A&S allows up to 12 summer credits",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Brief line on later outside courses."
+  },
+  {
+   "claim": "Spring transfer Abbey Yang '25 (Cornell Daily Sun, Jan 26, 2023): advisor said biology credits should count, degree audit did not show them",
+   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
+   "status": "fixed",
+   "note": "Opened the article. Yang is class of 2025, spring 2023 transfer. Her advisor said she 'should be fine with all the biology', and her biology credits had not shown on DUST, the degree-progress tool; the article does not say 'degree audit'. Reworded to match."
+  },
+  {
+   "claim": "2016 College Confidential poster who moved from UVA said Cornell did not ask for syllabi because it knew the school",
+   "source_url": "https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413",
+   "status": "fixed",
+   "note": "Opened the thread. The poster (Aug 30, 2016) names no school and says Cornell 'didnt even look at my syllabuses'; the UVA transfer is a separate person they know, and no 'because it knew the school' reason is given. Reworded to an anonymous poster whose syllabi were not looked at. Brief had the same drift; corrected it and added a change-log line."
+  },
+  {
+   "claim": "Same poster warned writing seminars were harder to transfer than intro biology or psychology (FAQ)",
+   "source_url": "https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413",
+   "status": "ok",
+   "note": "Poster said writing seminars are 'a little stingy' and recommended intro biology and intro psych. Close enough as a paraphrase."
+  },
+  {
+   "claim": "Reader blocks: CALS and Human Ecology refuse pass/fail; CALS bars more than four semesters at one school; associate's gives junior standing in CALS; Duffield 33 per year; international and veteran rules; two-year gap recommendation substitute",
+   "source_url": "brief §2",
+   "status": "ok",
+   "note": "All present in the brief rows."
   }
  ],
- "brief_updates": [],
+ "brief_updates": [
+  "Corrected the 2016 College Confidential poster's attribution (anonymous, no school named; UVA transfer is a separate person; 'did not look at my syllabi') in the brief's voice section and added a change-log line; source https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413"
+ ],
  "fixes": [],
  "core_answer": "right",
  "checked_at": "2026-11-11",
- "page_sha": "d35433cba64d17fe00ef2e720beca231d8a660dae6068950507cbdd83bd5585e"
+ "page_sha": "f9489b0bf80b21a7c8852235de4a8d3a39a452d1021f435fa35ba06ccf8b6b87"
 }

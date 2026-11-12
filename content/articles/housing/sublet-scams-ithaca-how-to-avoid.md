@@ -27,10 +27,10 @@ sources:
 - url: https://police.illinois.edu/fake-sublessee/
   title: Fake sublessee scam, University of Illinois Police
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -42,7 +42,7 @@ sources:
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: 'Grad Tips: Renting, Cornell Graduate School'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
@@ -94,9 +94,9 @@ rows:
   - {label: "Read the whole sublease, and pay only against a receipt"}
 ```
 
-1. **Start where Cornell screens people.** Cornell limits its marketplace to people who prove Cornell affiliation, for security. Cornell also tells renters to [view properties in person and read the entire lease](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) before paying. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers the other channels.
+1. **Start where Cornell screens people.** Cornell limits its marketplace to people who prove Cornell affiliation, for security. Cornell also tells renters to [view properties in person and read the entire lease](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) before paying. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers the other channels.
 2. **Ask who the landlord is, then call the landlord yourself.** A tenant in a building with four or more units needs the landlord's [written consent](https://www.nysenate.gov/legislation/laws/RPP/226-B). Find the landlord's number from the building's own site, not from the sublet ad.
-3. **Check the building.** Cornell names a City Building Department page for Certificate of Compliance property information. You can also call the City Building Division at 607-274-6508 or email ibd@cityofithaca.org. The Cornell and City [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) shows sprinklers, extinguishers and alarms for City rentals.
+3. **Check the building.** Cornell names a City Building Department page for Certificate of Compliance property information. You can also call the City Building Division at 607-274-6508 or email ibd@cityofithaca.org. The Cornell and City [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments) shows sprinklers, extinguishers and alarms for City rentals.
 4. **Watch the money.** New York caps a landlord's security deposit and any rent paid in advance at one month's rent, and it bars a last month's rent on top of a deposit ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)). The statute speaks of landlords, so ask the landlord before you pay a subtenant's deposit, and stop at any request above one month.
 5. **Check the landlord's reputation.** The [landlord check guide](/housing/how-to-check-an-ithaca-landlords-record/) covers how to judge a landlord before you commit.
 6. **Get a receipt for every payment.** The [security deposit guide](/cornell/housing/ithaca-security-deposit-rules-tenants/) explains what you can recover and when.
@@ -113,7 +113,7 @@ You cannot tour from abroad, so you rely on paper. Use Cornell's marketplace, ge
 
 ## What do you do if you were scammed?
 
-Call your bank first and ask it to stop or recall the payment. Report the loss at ReportFraud.ftc.gov. Then call Off-Campus Living at [607-255-2310](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease), which gives lease advice but does not represent students in disputes. For a dispute with a real landlord, the Cornell Law tenants hotline answers questions at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/).
+Call your bank first and ask it to stop or recall the payment. Report the loss at ReportFraud.ftc.gov. Then call Off-Campus Living at [607-255-2310](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease), which gives lease advice but does not represent students in disputes. For a dispute with a real landlord, the Cornell Law tenants hotline answers questions at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/).
 
 ## What to do next
 

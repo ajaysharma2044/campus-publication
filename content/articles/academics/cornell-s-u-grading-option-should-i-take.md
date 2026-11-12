@@ -9,8 +9,8 @@ updated: 2026-11-11
 queue_id: q-academics-0014
 sources:
   - {url: "https://www.ilr.cornell.edu/current-students/academic-policies/academic-grades-and-notations", title: "Academic Grades and Notations, ILR School", accessed: "2026-11-11"}
-  - {url: "https://as.cornell.edu/registrar/course-enrollment", title: "Course Enrollment, College of Arts & Sciences Registrar", accessed: "2026-11-07"}
-  - {url: "https://as.cornell.edu/registrar/petitions-policies", title: "Petitions and Policies, College of Arts & Sciences Registrar", accessed: "2026-11-07"}
+  - {url: "https://as.cornell.edu/registrar/course-enrollment", title: "Course Enrollment, College of Arts & Sciences Registrar", accessed: "2026-11-11"}
+  - {url: "https://as.cornell.edu/registrar/petitions-policies", title: "Petitions and Policies, College of Arts & Sciences Registrar", accessed: "2026-11-11"}
   - {url: "https://human.cornell.edu/academics/policies/requirements", title: "Academic Requirements + Policies, College of Human Ecology", accessed: "2026-11-11"}
   - {url: "https://cals.cornell.edu/undergraduate-students/student-services/academic-resources/petitions-forms-and-policies/policies", title: "CALS Academic Policies, College of Agriculture and Life Sciences", accessed: "2026-11-11"}
   - {url: "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/enrollment", title: "Enrollment, CALS Student Services", accessed: "2026-11-11"}
@@ -18,7 +18,7 @@ sources:
   - {url: "https://business.cornell.edu/students/by-program/bs-hotel-administration/resources-for-students/", title: "Resources for students, B.S. in Hotel Administration, Nolan School of Hotel Administration", accessed: "2026-11-11"}
   - {url: "https://prehealthadvising.cornell.edu/academic-preparation", title: "Academic Preparation, Cornell Health Professions Advising Center", accessed: "2026-11-11"}
   - {url: "https://prehealthadvising.cornell.edu/pre-professional-competencies/", title: "Pre-Professional Competencies, Cornell Health Professions Advising Center", accessed: "2026-11-11"}
-  - {url: "https://cornellsun.com/2020/05/12/students-left-in-the-dark-over-grades-as-su-deadline-approaches/", title: "Students left in the dark over grades as S/U deadline approaches, The Cornell Daily Sun, May 12, 2020", accessed: "2026-11-07"}
+  - {url: "https://cornellsun.com/2020/05/12/students-left-in-the-dark-over-grades-as-su-deadline-approaches/", title: "Students left in the dark over grades as S/U deadline approaches, The Cornell Daily Sun, May 12, 2020", accessed: "2026-11-11"}
 images: []
 ---
 
@@ -32,11 +32,11 @@ The option is only there if the course offers it, and [the Class Roster shows wh
 
 ## The rules by college
 
-| College | What its page says |
+| College | S/U rule |
 |---|---|
 | Arts & Sciences | You [may elect S/U if the course does not also count toward major requirements or serve as a prerequisite for admission to the major](https://as.cornell.edu/registrar/course-enrollment). S/U courses [can fulfill college distribution requirements](https://as.cornell.edu/registrar/course-enrollment). |
 | ILR | The option is available only in [ILR electives and out-of-college electives](https://www.ilr.cornell.edu/current-students/academic-policies/academic-grades-and-notations). No more than 8 S/U credits in a semester, and at least 105 letter-grade credits toward the degree. |
-| Human Ecology | S/U [cannot fulfill distribution or major requirements](https://human.cornell.edu/academics/policies/requirements) unless a course is S/U-only. A maximum of 12 S/U credits can apply toward graduation. The page covers students who matriculated in fall 2024 or earlier. |
+| Human Ecology | S/U [cannot fulfill distribution or major requirements](https://human.cornell.edu/academics/policies/requirements) unless a course is S/U-only. A maximum of 12 S/U credits can apply toward graduation. These rules apply to students who matriculated in fall 2024 or earlier. |
 | CALS | S/U courses [can be used to fulfill college distribution requirements](https://cals.cornell.edu/undergraduate-students/student-services/academic-resources/petitions-forms-and-policies/policies), but [most majors require major requirements to be taken for a letter grade](https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/enrollment). CALS also caps the number of classes you can take S/U, so ask your advisor before planning several. |
 | AAP | The S/U option [may be used for free elective credit](https://aap.cornell.edu/student-services/academic-policies). Classes that fulfill specific graduation requirements must be taken for a letter grade, and each program has its own grading requirements. |
 | Nolan School (Hotel Administration) | Student-option S/U classes [count only toward free elective requirements](https://business.cornell.edu/students/by-program/bs-hotel-administration/resources-for-students/). Up to 4 credits S/U in a semester, and no more than 8 non-graded credits in a semester once S/U-only courses are counted too. |
@@ -56,7 +56,7 @@ These are our recommendations, based on the rules above.
 - **Anything counting toward your major or minor:** do not. Arts & Sciences and Human Ecology bar it, AAP requires a letter grade for anything that fulfills a graduation requirement, and CALS says most majors require letter grades. In Arts & Sciences the fix after the deadline is a petition back to a letter grade.
 - **Heading to grad school:** Cornell's Graduate School said, about spring 2020, that it would [respect students' and institutions' decisions about S/U grading](https://cornellsun.com/2020/05/12/students-left-in-the-dark-over-grades-as-su-deadline-approaches/). That was a pandemic statement, not a standing policy. In a pandemic-free semester, ask the programs you want.
 - **Pre-med or other pre-health:** keep prerequisites as letter grades. Cornell's pre-health office says [prerequisite requirements vary by profession and by school, so verify them with your intended programs](https://prehealthadvising.cornell.edu/academic-preparation), and it [recommends letter grades even for the optional courses on its competencies list](https://prehealthadvising.cornell.edu/pre-professional-competencies/). Ask each school before switching any prerequisite.
-- **A course where you are not sure of your grade:** decide before the deadline, not after. In spring 2020, [several students told the Cornell Daily Sun](https://cornellsun.com/2020/05/12/students-left-in-the-dark-over-grades-as-su-deadline-approaches/) they could not tell whether to switch because professors had not posted grades. Ask your instructor where you stand.
+- **A course where you are not sure of your grade:** decide before the deadline, not after. In spring 2020, [several students told the Cornell Daily Sun](https://cornellsun.com/2020/05/12/students-left-in-the-dark-over-grades-as-su-deadline-approaches/) they could not tell whether to switch without knowing where their grades stood. Ask your instructor where you stand.
 
 ## Common mistakes
 

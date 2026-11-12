@@ -55,7 +55,7 @@ sources:
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
   title: Lansing West Apartments, RentCafe
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -76,7 +76,7 @@ sources:
 - url: https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/
   title: WSKG
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless
@@ -118,6 +118,8 @@ redirect_from:
 
 If you want a popular Collegetown unit for 2027-28, sign in the fall of 2026, about [10 to 11 months](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/) before an August move-in. Downtown, Fall Creek, Lansing and graduate housing fill later, so waiting into spring is fine there. Whichever you choose, keep a Cornell room as a backup only until Jan. 31, when cancelling still costs $50.
 
+This is general information, not legal advice.
+
 ## When do Collegetown leases actually get signed?
 
 The Cornell Daily Sun holds the only dated record. Nine signings in six Sun stories, from 2017 to 2025, were counted by calendar month to an August move-in. Eight fall 8 to 16 months ahead, and five of the nine fall in September or October. The ninth is a fallback: a 14-person group whose Greek housing plans fell through began hunting in February of the move-in year ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)).
@@ -125,13 +127,10 @@ The Cornell Daily Sun holds the only dated record. Nine signings in six Sun stor
 | Sun story | Who signed | Months before move-in |
 |---|---|---|
 | [Nov. 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/) | 12-bedroom house at 410 Elmwood Ave., signed April 2017 | about 16 |
-| Nov. 2018 | 10-bedroom house on North Quarry St., signed May 2017 | about 15 |
 | [Sept. 2019](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/) | Ithaca Renting opening day for 2020-21 leases | about 11 |
-| [Oct. 2021](https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/) | Students already searching for 2022-23 housing, story dated Oct. 13 | about 10, from the story date to August |
-| [Sept. 2022](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/) | A student two weeks after arriving | about 11 |
 | [Dec. 2025](https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026) | The Ivy: nearly all 52 units leased before completion | 8 or more |
 
-The table shows six of the nine cases; all nine, with the method and a CSV, are in the [lead-times dataset](/datasets/collegetown-lease-signing-lead-times-2017-2025/). The sample is one outlet, and reporters seek out early signers, so read it as the shape of the market, not a median. The current listings agree. On Nov. 8, 2026, nine months before an August 2027 start, Ithaca Renting marked 14 of its 67 Collegetown rows as sold out (20.9%) ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Big houses go first, because one signature fills many beds.
+The table shows three of the nine cases; all nine, with the method and a CSV, are in the [lead-times dataset](/datasets/collegetown-lease-signing-lead-times-2017-2025/). The sample is one outlet, and reporters seek out early signers, so read it as the shape of the market, not a median. The current listings agree. On Nov. 8, 2026, nine months before an August 2027 start, Ithaca Renting marked 14 of its 67 Collegetown rows as sold out (20.9%) ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Big houses go first, because one signature fills many beds.
 
 ## Is the rush really that early, or is it a myth?
 
@@ -178,7 +177,7 @@ A sophomore transfer lives on campus for one academic year, and a junior or seni
 ```
 
 ```reader "If you're a first- or second-year with an exemption"
-Get the exemption approved before you sign. For 2027-28 the application and exemption deadline is April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). The Collegetown rush runs in the fall, before that deadline, so ask Housing about timing before you sign anything.
+Get the exemption approved before you sign. For 2027-28 the application and exemption deadline is April 4 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). The Collegetown rush runs in the fall, before that deadline, so ask Housing about timing before you sign anything.
 ```
 
 ```reader "If you're a parent"
@@ -201,7 +200,7 @@ No. A city law passed in April 2013 and in effect from June 15 required 60 days'
 
 ## What does a backup Cornell room cost to cancel?
 
-Cornell's fall room selection for the next year ran Oct. 2 to 8 in 2025, in the middle of the Collegetown rush. A rising junior or senior can hold that room while hunting. Cancelling gets more expensive as the year goes on ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)):
+Cornell's fall room selection for the next year ran Oct. 2 to 8 in 2025, in the middle of the Collegetown rush. A rising junior or senior can hold that room while hunting. Cancelling gets more expensive as the year goes on ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)):
 
 ```figure
 kind: cost_table

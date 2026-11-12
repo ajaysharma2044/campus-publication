@@ -57,8 +57,8 @@ sources:
 - url: https://admissions.cornell.edu/transfer-option-applicants
   title: Transfer Option Applicants, Cornell Undergraduate Admissions
   accessed: '2026-11-11'
-- url: https://www.cs.cornell.edu/node/17
-  title: Computer Science transfer information, Cornell Computer Science
+- url: https://www.cs.cornell.edu/undergrad/csmajor/transfercredits
+  title: CS Major Transfer Credits, Cornell Computer Science
   accessed: '2026-11-11'
 - url: https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/
   title: B.S. Hotel Administration Application Requirements, Cornell SC Johnson College of Business
@@ -129,7 +129,7 @@ Your offer is an invitation to apply for sophomore transfer, [not admission](htt
 ```
 
 ```reader "If you're an international transfer"
-File the CSS Profile by March 15, 2027 if you might ever want aid. Skip it and you can never get [Cornell aid](https://finaid.cornell.edu/first-year-and-transfer-students-international) as an undergraduate. Admission is need-aware for you. Courses from a Ministry-of-Education-recognized university generally transfer; [ESL and remedial courses never do](https://registrar.cornell.edu/students/credit-evaluation-services). Literatures in English reviews English courses, which decides whether one fills a writing seminar. Cornell's "minimum competitive" scores are [TOEFL iBT 100](https://admissions.cornell.edu/resources/submit-english-language-proficiency) (5.0 on the scale used from January 2026), IELTS Academic 7.5 and Duolingo 130. Non-English documents need official English translations, which a teacher or school official may provide.
+File the CSS Profile by March 15, 2027 if you might ever want aid. Skip it and you can never get [Cornell aid](https://finaid.cornell.edu/first-year-and-transfer-students-international) as an undergraduate. Admission is need-aware for you. Courses from a Ministry-of-Education-recognized university generally transfer; [ESL and remedial courses never do](https://registrar.cornell.edu/students/credit-evaluation-services). Literatures in English reviews English courses, which decides whether one fills a writing seminar. Cornell's "minimum competitive" scores are [TOEFL iBT 100](https://admissions.cornell.edu/resources/submit-english-language-proficiency) (5.0 for exams taken from January 2026), IELTS Academic 7.5 and Duolingo 130. Non-English documents need official English translations, which a teacher or school official may provide.
 ```
 
 ```reader "If you're a current Cornell student switching colleges"
@@ -224,7 +224,7 @@ Richard Ballard spent his Transfer Option year at Ithaca College and is now a CA
 
 ## Computer science through A&S
 
-Cornell's CS major comes as an Engineering B.S. or an A&S B.A. Transfers [apply to one of the two colleges and request CS](https://www.cs.cornell.edu/node/17). Engineering admits you straight into one major, and it will not review an application missing its required math, physics and chemistry courses. In A&S, a sophomore enters the college rather than the major, under the two-year rule above.
+Cornell's CS major comes as an Engineering B.S. or an A&S B.A. Transfers [apply to one of the two colleges and request CS](https://www.cs.cornell.edu/undergrad/csmajor/transfercredits). Engineering admits you straight into one major, and it will not review an application missing its required math, physics and chemistry courses. In A&S, a sophomore enters the college rather than the major, under the two-year rule above.
 
 ## Moving to another college after you arrive
 

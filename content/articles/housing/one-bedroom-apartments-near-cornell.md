@@ -64,7 +64,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/RPP/235-F
@@ -126,7 +126,7 @@ Downtown runs $400 a month less than Collegetown at Ithaca Renting, whose median
 
 Source: [Travis Hyde, Westminster Hall](https://www.travishyde.com/listings/detail/57acb87b-b64c-4cab-b680-7c23d6705f08), [Ithaca marketplace listings for Center Ithaca](https://offcampushousing.ithaca.edu/listing), [Ithaca Renting](https://ithacarenting.com/downtown/) and [City Centre](https://citycentreithaca.com/).
 
-Center Ithaca also bills $175 a person for trash. Westminster Hall is two blocks from the Commons. Downtown is a 20 to 30 minute uphill walk to campus, per [Cornell's neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods).
+Center Ithaca also bills $175 a person for trash. Westminster Hall is two blocks from the Commons. Downtown is a 20 to 30 minute uphill walk to campus, per [Cornell's neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods).
 
 ## Where are the cheaper one-bedrooms?
 
@@ -173,7 +173,7 @@ Ask what end date a new lease carries, because a short first term can drop you b
 
 ## How far is each area from campus?
 
-Cornell puts Fall Creek at 0.5 to 1 mile, a 20 to 30 minute uphill walk with a frequent bus. Cornell Heights and Cayuga Heights run 1 to 4 miles. South Hill runs 1.5 to 3 miles, a 15-minute downhill walk to downtown and then transit. Lansing sits 5 to 10 miles out, where Cornell recommends a bus or a car, per its [neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods).
+Cornell puts Fall Creek at 0.5 to 1 mile, a 20 to 30 minute uphill walk with a frequent bus. Cornell Heights and Cayuga Heights run 1 to 4 miles. South Hill runs 1.5 to 3 miles, a 15-minute downhill walk to downtown and then transit. Lansing sits 5 to 10 miles out, where Cornell recommends a bus or a car, per its [neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods).
 
 The two Farm Street listings say both bus stops are under a five-minute walk, with campus service about every 10 minutes during peak hours. Edgecliff sits on TCAT Route 10. The [guide to the three nearest areas](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/) compares them for a one-bedroom renter.
 

@@ -170,6 +170,15 @@ The cap and the residence floor work together. Credits above the cap vanish, and
 
 Example: a transfer with 90 credits gets 60 accepted and loses 30. That leaves 60 credits, or four semesters, at Cornell. Six semesters elsewhere plus four at Cornell is ten, a year longer than usual. At 2026-27 rates, that year is $73,946 in [endowed tuition](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters) plus $1,024 in [mandatory fees](https://finaid.cornell.edu/cost-attend), our total of $74,970 before housing and aid.
 
+```figure
+kind: cost_table
+title: What a lost year costs at 2026-27 endowed rates, before housing and aid
+rows:
+  - {label: Endowed tuition, value: "$73,946"}
+  - {label: Mandatory fees, value: "$1,024"}
+  - {label: Our total for the extra year, value: "$74,970"}
+```
+
 The model is generous. A course that transfers only as an elective can still leave a requirement open. And exam credit counts inside the cap in most colleges, so a student with AP credit reaches 60 sooner.
 
 ## Quarter credits
@@ -237,8 +246,8 @@ rows:
 1. **Accept and deposit.** Arts and Sciences issues its [tentative credit evaluation](https://as.cornell.edu/registrar/transferring-credits) only after both.
 2. **Send what your college asks for.** Engineering wants the [course description form](https://admissions.cornell.edu/apply/transfer-applicants) with your Enrollment Response Form, plus detailed syllabi and a certified transcript. AAP gives admitted students [two weeks](https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/) to submit syllabi and coursework, with a portfolio for studio courses.
 3. **Send the final transcript.** Evaluations finish only after your spring grades post. That is why transfers usually build schedules during add/drop; the add deadline was [Sep 8 in 2026](https://registrar.cornell.edu/calendars-exams/academic-calendar).
-4. **Request exam credit.** Have scores sent (College Board code 2098) and write to your college registrar by the [last day of instruction](https://registrar.cornell.edu/students/credit-evaluation-services) of your first semester, which was Dec 7 in 2026.
-5. **Check the degree audit.** In a [2023 Cornell Daily Sun story](https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/), spring transfer Abbey Yang '25 said her advisor told her biology credits should count, but her degree audit did not yet show them. Keep every syllabus until the audit is right.
+4. **Request exam credit.** Have scores sent (College Board code 2098) and write to your college registrar by the [last day of instruction](https://registrar.cornell.edu/students/credit-evaluation-services) of your first semester, which is Dec 7 in 2026.
+5. **Check the degree audit.** In a [2023 Cornell Daily Sun story](https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/), spring transfer Abbey Yang '25 said her advisor told her she should be fine with the biology she had taken, but her biology credits had not yet shown on DUST, Cornell's degree-progress tool. Keep every syllabus until the audit is right.
 
 Before you are admitted, credit questions go to Undergraduate Admissions. Once enrolled, ask your [college registrar](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment).
 
@@ -247,7 +256,7 @@ Before you are admitted, credit questions go to Undergraduate Admissions. Once e
 - **Arriving with 90 credits without doing the math.** Thirty credits vanish and college runs ten semesters, our estimate $74,970 more in 2026-27 tuition and fees.
 - **Taking a needed course pass/fail.** No credit in CALS or Human Ecology, and elsewhere only with a written statement of C or better.
 - **Treating a C- as passing.** Engineering gives it nothing, which can mean taking the course again at Cornell.
-- **Throwing away syllabi.** Cornell decides from the syllabus. A 2016 College Confidential poster who moved from UVA said Cornell [did not ask for theirs](https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413) because it knew the school, but that was one secondhand account; Engineering requires syllabi for every course.
+- **Throwing away syllabi.** Cornell decides from the syllabus. A 2016 College Confidential poster said Cornell [did not look at their syllabi](https://talk.collegeconfidential.com/t/cornell-transfer-courses/1840413), but that was one anonymous account from 2016; Engineering requires syllabi for every course.
 - **Assuming AP credit carries over.** It does not on its own, and missing the first-semester written request forfeits it.
 - **Counting military, work or MOOC credit toward your 60.** None transfers, so you need more semesters at Cornell.
 

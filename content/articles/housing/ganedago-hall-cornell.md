@@ -22,7 +22,7 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall
   title: 'Ganędagǫ: Hall, Cornell Student & Campus Life'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-11'
@@ -62,6 +62,9 @@ sources:
 - url: https://www.cornellsun.com/article/2026/01/ganedago-hall-relocates-46-residents-following-sprinkler-main-pipe-break-in-stairwell
   title: 'Ganędagǫ: Hall Relocates 46 Residents Following Sprinkler Main Pipe Break in Stairwell, The Cornell Daily Sun, Jan. 16, 2026'
   accessed: '2026-11-11'
+- url: https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion
+  title: Cornell University - North Campus Residential Expansion (NCRE), Welliver
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: 'Entrance of Ganędagǫ: Hall, a new brick residence hall on Cornell''s North Campus, with its name over the door'
@@ -82,7 +85,7 @@ images:
 - It stays open over winter break for a weekly or full-break fee.
 ```
 
-Ganędagǫ: Hall (said "Gah-NEH-dah-go") is a suite-style residence hall on Cornell's North Campus that holds 564 students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)). Cornell's page lists it for transfers and upper-level students. Its rooms are temperature-controlled.
+Ganędagǫ: Hall (said "Gah-NEH-dah-go") is a suite-style residence hall on Cornell's North Campus that holds 564 students by Cornell Housing's resident count ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)). Cornell's page lists it for transfers and upper-level students. Its rooms are temperature-controlled.
 
 ```figure
 kind: cost_table
@@ -91,7 +94,7 @@ rows:
   - {label: "Location", value: "North Campus; unload at the Robert Purcell Community Center lot"}
   - {label: "Street address", value: "121 Triphammer Road; North mail goes through 107 Robert Purcell"}
   - {label: "Opened", value: "2021"}
-  - {label: "Residents", value: "564"}
+  - {label: "Residents (Cornell Housing count)", value: "564"}
   - {label: "Room types", value: "Singles and doubles"}
   - {label: "Layout", value: "Suites, single-gender"}
   - {label: "Cooling", value: "Temperature-controlled rooms"}
@@ -109,9 +112,9 @@ It is a Cayuga word meaning "it's on the hill," the old name for the land where 
 
 ## What is living in Ganędagǫ: like?
 
-A suite means a locked door off the hall opens onto a few bedrooms, a common space and a bathroom that only the suite uses ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)). On North, only Ganędagǫ:, Toni Morrison Hall, Language House and the Latino Living Center are built this way. Most other North halls are corridor style, with bathrooms down the hall.
+A suite means a locked door off the hall opens onto a few bedrooms, a common space and a bathroom that only the suite uses ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)). On North, only Ganędagǫ:, Toni Morrison Hall, Language House and the Latino Living Center are built this way. Most other North halls are corridor style, with bathrooms down the hall. In Ganędagǫ:, each suite is single-gender and each floor is mixed, and the rooms are singles and doubles ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)).
 
-Ganędagǫ: is also the biggest residence building on North. Its 564 residents outnumber the next largest hall, Ruth Bader Ginsburg, which Cornell lists at 504 (Cornell Housing).
+Ganędagǫ: is also the biggest residence building on North. Its 564 residents outnumber the next largest hall, Ruth Bader Ginsburg, which Cornell lists at 504 (Cornell Housing). Welliver, the construction manager, counts beds instead and lists Ganędagǫ: at 577 ([Welliver](https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion)).
 
 Cooling is the practical difference. Cornell's hall page lists temperature-controlled rooms. Twelve North buildings have no air conditioning in rooms, so this is one of the halls to ask for if late-August and May heat matters to you. The full list is in [North Campus dorms compared](/cornell/housing/cornell-north-campus-dorms-compared/).
 
@@ -159,7 +162,7 @@ Ganędagǫ: is one of the North halls Cornell keeps open over winter break in 20
 The hall has no cheaper room type. Triples and one-room quads carry the lowest rate in Cornell's table, and this hall lists only singles and doubles. If price decides your year, compare a double here with a Collegetown share in the [cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/) before spring selection.
 ```
 
-## When can you move in and where do you unload?
+## Where do you unload at move-in?
 
 Cornell sends cars to Ganędagǫ: through the Robert Purcell Community Center lot, with Jameson, High Rise 5 and Donlon, and the move-in page names that lot as the unloading zone ([Cornell Housing move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). Our [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
 

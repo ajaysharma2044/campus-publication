@@ -1,7 +1,7 @@
 ---
 title: 'Winter storms and Cornell travel: driving, buses, flights'
 meta: Storms have hit Cornell's Thanksgiving and January returns. Travel a day early, watch for added earlier buses, check 511NY and park in winter lots.
-primary_query: Cornell Ithaca winter driving I-81 Route 13 snow tips
+primary_query: winter storm getting back to Cornell after break
 topic: getting-around
 school: cornell-university
 type: scenario
@@ -143,7 +143,7 @@ images:
 - Flying: ITH has two routes, and storms cancelled students' flights in 2019 and 2021. Hold a backup.
 ```
 
-Storms have wrecked the trip back to Ithaca after Thanksgiving and in January: in [December 2019](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs) buses were cancelled and one ride took about 9 hours, and in [January 2019](https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/) the governor banned buses on most highways. When snow is forecast for your travel day, move the trip earlier, to Saturday night or early Sunday, as [a student forecaster advised in 2019](https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation). Drivers should check [511NY](https://www.511ny.org) before leaving and expect icy hills and side streets plowed last once in Ithaca.
+If a storm is forecast for the day you travel back to Cornell, leave a day early: in 2019 OurBus [cancelled Sunday trips and added Saturday ones](https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation). Storms have wrecked the trip back to Ithaca after Thanksgiving and in January: in [December 2019](https://www.cornellsun.com/article/2019/12/before-classes-were-cancelled-cornellians-attempted-to-return-to-ithaca-at-all-costs) buses were cancelled and one ride took about 9 hours, and in [January 2019](https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/) the governor banned buses on most highways. A student forecaster advised in 2019 moving a Sunday trip to Saturday night or early Sunday. Drivers should check [511NY](https://www.511ny.org) before leaving and expect icy hills and side streets plowed last once in Ithaca; our guide to [driving in Ithaca in winter](/cornell/getting-around/driving-in-ithaca-winter-cornell-hills-snow/) covers the plows and salt in town.
 
 ```reader "If you're a student with a car on campus"
 If you hold an FH, ND, SW or WD resident permit, you park in your own lot as usual in winter, per [Cornell's winter rules](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules). Everyone else parks overnight only in the listed bays from Dec 1 to Apr 1 when snow is forecast. A and B lots are plowed first. Over break, leave the car in your permit area, never on a city street. The costly mistake is a night in the wrong lot: the winter-rules fine is [$50](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/). On a storm return, leave a day early, check 511NY, and remember that one student's front-wheel-drive car [struggled on Ithaca's hills even when they were only wet](https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/).
@@ -248,13 +248,7 @@ The same students credited the salting and plowing, while noting salt and pothol
 
 TCAT uses snow routes chosen by dispatch and posts detours on its site. In 2019 it told riders to check [Bus Tracker and the Transit and MyStop apps](https://www.cornellsun.com/article/2019/01/tcat-prepares-to-swerve-away-winter-storm-conditions). On foot, Taylor Brown '25 advised avoiding the Slope while it is snowing and staying off the metal bridge panels.
 
-| Rule | When | What it means |
-|---|---|---|
-| Campus winter overnight parking | Dec 1 to Apr 1, when snow is forecast, 5 p.m. to 7:30 a.m. | Park only in listed areas, such as A Lot, B Lot, Forest Home garage and Hoy Road garage (not the roof) ([Cornell](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)) |
-| Resident permits (FH, ND, SW, WD) | All winter | Park in your own lot as usual |
-| Cornell winter-rules fine | Any violation | $50 ([Sun, 2023](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/)) |
-| City odd/even | Nov 1 to Apr 1, 7 p.m. to 6 a.m., when activated | No parking on the odd side on even dates, and the reverse; towing possible after 72 hours ([code](https://ecode360.com/8395630)) |
-| Winter break | Whole break | Campus housing residents may leave cars in their permit area; a car on a city street can be treated as abandoned |
+On campus, from Dec 1 to Apr 1, park overnight only in a listed winter bay when snow is forecast, unless you hold a resident permit; on city streets the odd/even rule runs Nov 1 to Apr 1 ([Cornell](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules); [code](https://ecode360.com/8395630)). Our [winter parking guide](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/) lists all nine bays, the fines and the break rules.
 
 For bus riders, C2C's 2026 booking link covers departures through Dec 23, and the 2027 link starts with Jan 6 departures ([C2C](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service)). Thanksgiving Day is Nov 26, 2026.
 
@@ -293,12 +287,17 @@ rows:
 
 **Can I leave my car at the Ithaca airport if I get stuck?** Yes. You can park in either lot as long as you need, at $40 a week in long-term, and the airport asks owners of stranded cars to contact it on its parking line, 607-220-4699 ([ITH parking](https://www.flyithaca.com/parking)).
 
+## What to do next
+
+Check the forecast for your travel day from midweek, and move to an earlier bus, flight or drive if it looks bad. For the rest of the season, from snow days to parking, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/), and if you drive, our guide to [driving in Ithaca in winter](/cornell/getting-around/driving-in-ithaca-winter-cornell-hills-snow/).
+
 ## Related guides
 
-- [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): every way in and out, with costs.
-- [Winter and break parking at Cornell and in Ithaca](/getting-around/ithaca-winter-parking-rules-cornell-odd-even/): all nine winter bays and the odd/even rule in full.
-- [Cornell Thanksgiving travel: when to book and what it costs](/getting-around/cornell-thanksgiving-break-bus-tickets-when-to-book/): peak days and fares for the storm-prone weekend.
-- [Getting home for Cornell winter break, 2026-27](/getting-around/cornell-winter-break-travel-home-2026/): the December and January trips and C2C's two booking links.
-- [ITH, SYR or ELM: which airport to fly into for Cornell](/getting-around/ith-syr-or-elm-which-airport-for-cornell/): choosing your backup airport.
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): what a car costs a year.
-- [Biking in Ithaca in winter](/getting-around/biking-in-ithaca-winter-cornell/): riding the hills in snow.
+- [Getting to Ithaca and around Cornell, 2026-27](/cornell/getting-around/getting-to-ithaca-and-around-cornell/): every way in and out, with costs.
+- [Winter and break parking at Cornell and in Ithaca](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/): all nine winter bays and the odd/even rule in full.
+- [Cornell Thanksgiving travel: when to book and what it costs](/cornell/getting-around/cornell-thanksgiving-break-bus-tickets-when-to-book/): peak days and fares for the storm-prone weekend.
+- [Getting home for Cornell winter break, 2026-27](/cornell/getting-around/cornell-winter-break-travel-home-2026/): the December and January trips and C2C's two booking links.
+- [ITH, SYR or ELM: which airport to fly into for Cornell](/cornell/getting-around/ith-syr-or-elm-which-airport-for-cornell/): choosing your backup airport.
+- [Cornell parking: campus, Collegetown and Ithaca guide](/cornell/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, garages and what a car costs a year.
+- [Driving in Ithaca in winter](/cornell/getting-around/driving-in-ithaca-winter-cornell-hills-snow/): hills, plows and salt in town.
+- [Biking in Ithaca in winter](/cornell/getting-around/biking-in-ithaca-winter-cornell/): riding the hills in snow.

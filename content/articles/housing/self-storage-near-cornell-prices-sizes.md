@@ -7,7 +7,7 @@ primary_query: self storage near Cornell Ithaca prices
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 213
 rewrites: ''
 readers:
@@ -42,10 +42,10 @@ sources:
 - url: http://www.bigredboxes.com/BRSS_Pricing
   title: BRSS storage pricing, Big Red Shipping and Storage
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
@@ -92,7 +92,7 @@ Call before you drive out.
 
 ## Do you need a car to use self-storage?
 
-Yes, or a way to borrow one. Nothing in the table picks up. If you do not own a car, rent a truck for the two trips or use a pickup service. Whether a car is worth owning at all is a separate decision, covered in [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
+Yes, or a way to borrow one. Nothing in the table picks up. If you do not own a car, rent a truck for the two trips or use a pickup service. Whether a car is worth owning at all is a separate decision, covered in the [Cornell parking guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
 
 ```reader "If you're an international student"
 Bolt Storage lets you [rent and pay online from abroad](https://www.boltstorage.com/self-storage/freeville-ny), so you can reserve a unit before you fly. You still need someone to carry your things to the facility. A pickup service solves that, because a driver collects boxes from your apartment.
@@ -100,7 +100,7 @@ Bolt Storage lets you [rent and pay online from abroad](https://www.boltstorage.
 
 ## When should you book?
 
-Cornell does not store belongings. The [housing license says](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027) storage space is not available. Residence halls closed at 2 p.m. on Sunday, May 17, 2026, and [items left behind were donated](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options). Pickup companies book up: [Storage Scholars](https://www.storagescholars.com/cities-we-serve/ithaca-ny) asks for summer bookings by early April. Self-storage units have no posted deadline, so reserve once you know your move-out date.
+Cornell does not store belongings. The [housing license says](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027) storage space is not available. Residence halls closed at 2 p.m. on Sunday, May 17, 2026, and [items left behind were donated](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options). Pickup companies book up: [Storage Scholars](https://www.storagescholars.com/cities-we-serve/ithaca-ny) asks for summer bookings by early April. Self-storage units have no posted deadline, so reserve once you know your move-out date.
 
 If someone sublets your place furnished, your furniture can stay and you skip the unit. That route is in the [summer sublet guide](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/). For winter break, the same facilities work, and the [breaks guide](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/) covers who can stay in Cornell housing instead.
 

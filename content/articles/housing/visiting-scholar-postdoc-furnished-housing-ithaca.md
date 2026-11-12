@@ -55,7 +55,7 @@ sources:
 - url: https://cayugaheights.gov/departments/code-enforcement/
   title: Code Enforcement, Village of Cayuga Heights
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Off-Campus Living
   accessed: '2026-11-08'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
@@ -82,7 +82,7 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
   title: New York Real Property Law 238-A, Fees and deposits
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Off-Campus Living
   accessed: '2026-11-08'
 - url: https://international.globallearning.cornell.edu/life-cornell/faq-international-students
@@ -103,6 +103,15 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
   accessed: '2026-11-08'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes
+  title: Bus Services, Privileges and OmniRide Passes, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
+- url: https://new.express.adobe.com/webpage/6hZiqbHaVwOIg
+  title: International Scholar House, 401 Thurston Avenue, listing for visiting international faculty and staff
+  accessed: '2026-11-11'
+- url: https://www.greystar.com/maplewood-ithaca-ny/p_15697
+  title: Maplewood Apartments, Greystar
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Rainy view north from the Thurston Avenue Bridge toward Cornell's North Campus, with Balch Hall behind the trees
@@ -117,7 +126,7 @@ images:
 
 ```glance
 - Cornell guarantees no housing to visiting scholars; they compete with grad students for the same units (Cornell Daily Sun, 2024).
-- First try: International Scholar House, a furnished 5-bedroom rented month to month, open since September 2023. Price not published.
+- First try: International Scholar House, a furnished 5-bedroom rented month to month, open since September 2023, at $1,500 a month per room with utilities included.
 - Second: Hasbrouck grad apartments, as space allows. Furnished 1BR $1,490 a month for 2026-27; ask gradhousing@cornell.edu about temporary stays.
 - For one semester: sublets and semester leases, such as a Dryden South suite at $1,395 per person a month (Fall 2026 sublet).
 - Avoid a 12-month lease for a six-month stay: you owe the rest unless the unit is re-rented or sublet.
@@ -131,7 +140,7 @@ You need months, not a year, and usually furniture. Email gradhousing@cornell.ed
 ```
 
 ```reader "If you're an international visiting scholar or student"
-You do not need a Social Security number to rent an apartment, per [Cornell International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). You will likely sign from abroad, so check the deposit: in New York, the deposit plus any rent paid in advance [cannot exceed one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108), and [application fees are banned](https://www.nysenate.gov/legislation/laws/RPP/238-A). A professor told the [Cornell Daily Sun in 2024](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell) that some visiting scholars get only $600 to $800 a month from their home governments. That covers Hasbrouck's $620 regular single in a shared townhouse, not a studio. [Graduate School staff say](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/) a dispute with a landlord does not affect your visa status. Not confirmed: whether visiting scholars ride TCAT free like new degree students.
+You do not need a Social Security number to rent an apartment, per [Cornell International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). You will likely sign from abroad, so check the deposit: in New York, the deposit plus any rent paid in advance [cannot exceed one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108), and [application fees are banned](https://www.nysenate.gov/legislation/laws/RPP/238-A). A professor told the [Cornell Daily Sun in 2024](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell) that some visiting scholars get only $600 to $800 a month from their home governments. That covers Hasbrouck's $620 regular single in a shared townhouse, not a studio. [Graduate School staff say](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/) a dispute with a landlord does not affect your visa status. Cornell employees, including temporary employees and affiliates, [ride any TCAT bus free](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes) with a valid CU photo ID.
 ```
 
 ```reader "If you're coming with a spouse, partner or children"
@@ -139,7 +148,7 @@ The Sun reported family housing for visiting scholars as scarce, with high upfro
 ```
 
 ```reader "If you're a postdoc or new grad student here for a full year"
-A year is long enough to use the regular grad market. Hasbrouck runs 12-month contracts with rolling applications: studio $1,355 a month, furnished 1-bedroom $1,490, furnished large single in a 2-bedroom townhouse $910 (2026-27). Maplewood, Cornell's Greystar-managed grad complex, is furnished with utilities included. A grad guide says to [look March to April](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html) for an August start, so you do not need to join the undergraduate rush the fall before. New degree students [ride TCAT free](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) for their first year. Not confirmed: whether postdocs do.
+A year is long enough to use the regular grad market. Hasbrouck runs 12-month contracts with rolling applications: studio $1,355 a month, furnished 1-bedroom $1,490, furnished large single in a 2-bedroom townhouse $910 (2026-27). Maplewood, Cornell's Greystar-managed grad complex, is furnished with utilities included. A grad guide says to [look March to April](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html) for an August start, so you do not need to join the undergraduate rush the fall before. New degree students [ride TCAT free](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) for their first year, and Cornell employees, including temporary employees and affiliates, ride free with a CU photo ID.
 ```
 
 ## The options, ranked
@@ -148,17 +157,17 @@ Ranked on four things a short-stay renter needs: furnished, a term shorter than 
 
 | Rank | Option | Furnished | Term | Price | Who runs it |
 |---|---|---|---|---|---|
-| 1 | International Scholar House | Yes | Month to month | Not published | Cornell, for visiting scholars |
+| 1 | International Scholar House | Yes | Month to month | $1,500 a month per room, utilities included | Cornell, for visiting international faculty and staff |
 | 2 | Hasbrouck Apartments | Some units | 12-month contracts; temporary stays as space allows | $910 to $1,530 a month furnished (2026-27) | Cornell grad housing |
-| 3 | Maplewood Apartments | Yes | Not confirmed | $1,075 to $1,330 (basis not stated, Feb 2026) | Greystar, for Cornell |
+| 3 | Maplewood Apartments | Yes | Set by Greystar; call (607) 821-0248 | $1,075 to $1,330, studio to 4BR (Feb 2026) | Greystar, for Cornell |
 | 4 | Semester sublet | Usually | One semester | $1,395 per person a month (Dryden South, Fall 2026) | The student leaving |
 | 5 | Semester lease | Ithaca Renting Collegetown units are | Spring or fall 2027 | Varies by unit | Ithaca Renting; Foundation Housing |
-| 6 | Nightly or weekly rental | Yes | Days or weeks | Not confirmed | Private hosts with a permit |
+| 6 | Nightly or weekly rental | Yes | Days or weeks | Set by each host | Private hosts with a permit |
 | 7 | 12-month private lease | Varies | 12 months | Downtown studio median $1,395 a month | Private landlords |
 
 ### 1. International Scholar House
 
-Since September 2023, Cornell has pointed visiting scholars to International Scholar House, a furnished 5-bedroom rented month to month, according to the [Cornell Daily Sun's 2024 report](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell). It is the only Cornell option built for stays of a few months. With five bedrooms, it fills fast, so ask as soon as your appointment is confirmed. Not confirmed: its monthly rent and how to apply; ask your host department.
+Since September 2023, Cornell has pointed visiting scholars to International Scholar House, a furnished 5-bedroom rented month to month, according to the [Cornell Daily Sun's 2024 report](https://cornellsun.com/2024/11/12/high-costs-and-limited-support-plague-visiting-scholars-and-fellows-at-cornell). It is the only Cornell option built for stays of a few months. The house, at 401 Thurston Avenue, is [reserved for visiting international faculty and staff](https://new.express.adobe.com/webpage/6hZiqbHaVwOIg). A furnished room costs $1,500 a month with all utilities included, and bedding and towels are provided. Residents share a kitchen, living rooms and a laundry room. With five bedrooms, it fills fast, so write to intl_scholar_house@cornell.edu or call 607-254-3462 as soon as your appointment is confirmed.
 
 ### 2. Hasbrouck Apartments
 
@@ -176,11 +185,11 @@ rows:
   - {label: "Family 2BR townhouse, furnished (unfurnished $1,475)", value: "$1,530"}
 ```
 
-Those are the [2026-27 rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), per month on a 12-month contract. They include gas, electricity, garbage and internet. Cornell does not list a different rate for temporary stays. Hasbrouck offers studios, 1-bedrooms, shared 2-bedroom apartments and shared 2-bedroom townhouses, and takes [rolling applications](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing).
+Those are the [2026-27 rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), per month on a 12-month contract. They include gas, electricity, garbage and internet. Hasbrouck offers studios, 1-bedrooms, shared 2-bedroom apartments and shared 2-bedroom townhouses, and takes [rolling applications](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing).
 
 ### 3. Maplewood Apartments
 
-Maplewood is managed by Greystar for Cornell. Every unit, from studio to 4-bedroom, is [furnished with utilities included](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing), with a private bathroom per bedroom, an in-unit washer and dryer, and pets allowed. Cornell's housing page gives no prices. The Vet College's page lists "$1075- $1330" for studio to 4-bedroom, [updated February 2026](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information), without saying whether that is per bed or per unit. Not confirmed: Maplewood's shortest lease.
+Maplewood is managed by Greystar for Cornell. Every unit, from studio to 4-bedroom, is [furnished with utilities included](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing), with a private bathroom per bedroom, an in-unit washer and dryer, and pets allowed. The Vet College's apartment list puts Maplewood at "$1075- $1330" for studio to 4-bedroom, [updated February 2026](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information). Greystar charges a [$130 one-time amenity fee per leaseholder](https://www.greystar.com/maplewood-ithaca-ny/p_15697) at move-in and requires renters liability insurance. For lease terms, call the leasing office at (607) 821-0248.
 
 ### 4. Semester sublets
 
@@ -192,7 +201,7 @@ A few landlords lease by the semester. Ithaca Renting's Collegetown list include
 
 ### 6. Nightly and weekly rentals
 
-Useful for your first week while you look. Inside the City of Ithaca, [short-term rentals need a separate permit](https://www.cityofithacany.gov/145/Housing-Inspections) from the one for ordinary rentals. In the Village of Cayuga Heights, a rental of 28 days or less needs an [annual permit under Local Law 2022-4](https://cayugaheights.gov/departments/code-enforcement/). Ask the host for the permit. Not confirmed: typical nightly or weekly prices.
+Useful for your first week while you look. Inside the City of Ithaca, [short-term rentals need a separate permit](https://www.cityofithacany.gov/145/Housing-Inspections) from the one for ordinary rentals. In the Village of Cayuga Heights, a rental of 28 days or less needs an [annual permit under Local Law 2022-4](https://cayugaheights.gov/departments/code-enforcement/). Ask the host for the permit.
 
 ### 7. A 12-month lease
 
@@ -207,11 +216,11 @@ Ithaca Renting's downtown units, mostly for 2026-27, are marked "Available Now" 
 | Sublet | Ends with the sublease term | The sublease; the original tenant stays liable to the landlord |
 | Oral deal, no term | At will | Little; get it in writing |
 
-Cornell's own advice is that a one-year lease gives [a certain amount of legal protection](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations), while a unit without a lease gives flexibility with limited protection. A month-to-month tenant [generally gives one month's notice](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) to leave. A fixed-term lease that runs out without proper non-renewal notice [continues month to month](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal). After 30 days, a month-to-month tenant can be removed only with [formal notice and a court case](https://sites.lawschool.cornell.edu/tenants-advocacy/immigrant-tenant-rights). An oral lease with no term is at will, and an oral lease for more than a year [is unenforceable](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease).
+Cornell's own advice is that a one-year lease gives [a certain amount of legal protection](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations), while a unit without a lease gives flexibility with limited protection. A month-to-month tenant [generally gives one month's notice](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) to leave. A fixed-term lease that runs out without proper non-renewal notice [continues month to month](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal). After 30 days, a month-to-month tenant can be removed only with [formal notice and a court case](https://sites.lawschool.cornell.edu/tenants-advocacy/immigrant-tenant-rights). An oral lease with no term is at will, and an oral lease for more than a year [is unenforceable](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease).
 
 If you leave a fixed lease early, New York requires the landlord to [take reasonable steps to re-rent](https://www.nysenate.gov/legislation/laws/RPP/227-E) the unit. A new tenant's rent offsets what you owe.
 
-Example: a visiting scholar arrives January 1 for six months and signs a 12-month downtown studio at the $1,395 median. Twelve months is $16,740. Leaving June 30 leaves six months, $8,370, owed until the landlord re-rents or a subtenant takes over. A furnished Hasbrouck 1-bedroom at $1,490 for the same six months would cost $8,940, if Hasbrouck can offer a temporary stay; Cornell's rate table lists only 12-month contracts.
+Example: a visiting scholar arrives January 1 for six months and signs a 12-month downtown studio at the $1,395 median. Twelve months is $16,740. Leaving June 30 leaves six months, $8,370, owed until the landlord re-rents or a subtenant takes over. A furnished Hasbrouck 1-bedroom at $1,490 for the same six months would cost $8,940, if Hasbrouck can offer a temporary stay.
 
 ## What you can be charged up front
 
@@ -221,7 +230,7 @@ The deposit plus any rent paid in advance [cannot exceed one month's rent](https
 
 ## Where to find the listings
 
-- **Cornell's Off-Campus Housing Marketplace** (College Pads): only people who [prove Cornell affiliation](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) can view and contact landlords and subletters.
+- **Cornell's Off-Campus Housing Marketplace** (College Pads): only people who [prove Cornell affiliation](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) can view and contact landlords and subletters.
 - **The Off-Campus Living email list** carries housing, roommate and sublet posts. It needs a NetID; send a message with the subject "Join" and a blank body. Off-Campus Living answers at 607-255-2310.
 - **Ithaca Renting's** Collegetown and downtown pages show semester and "Available Now" rows.
 
@@ -253,7 +262,7 @@ rows:
 
 **Can I bring my family into Hasbrouck?** Hasbrouck's family and partner units hold [2 to 4 people, with no more than two adults](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing). Family 2-bedrooms run $1,475 to $1,530 a month for 2026-27.
 
-**Do visiting scholars ride the bus free?** Not confirmed. Cornell gives [free TCAT rides for the first year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) to new degree students and free OmniRide passes to PhD students and graduate assistants; visiting scholars and postdocs are not named.
+**Do visiting scholars ride the bus free?** Cornell employees, including temporary employees and affiliates, [ride any TCAT route free at any time](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/bus-services-privileges-omniride-passes) with a valid CU photo ID. New degree students ride free for their first year, and PhD students and graduate assistants get free OmniRide passes.
 
 **How much is a 1-bedroom if I stay a full year?** RentCafe's October 2026 average for an Ithaca 1-bedroom in large buildings is [$2,063 a month](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/). Hasbrouck's unfurnished 1-bedroom is $1,415 with utilities included.
 

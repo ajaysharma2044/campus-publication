@@ -28,16 +28,16 @@ sources:
 - url: https://dps.ny.gov/winter
   title: Winter energy outlook, New York State Department of Public Service
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca neighborhoods, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a lease, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and considerations, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe living environments, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://health.cornell.edu/about/news/cold-weather-safety
@@ -67,6 +67,8 @@ redirect_from:
 
 Start with what the landlord owes, then handle the rest yourself. From Sept. 15 to May 31, Ithaca rentals must hold at least 68F inside by day when it is below 55F outside, and 62F at night ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Below that, it is a repair problem. Above it, layers and small fixes are your job.
 
+This is general information, not legal advice.
+
 ## Is the apartment too cold, or just drafty?
 
 Check with a thermometer. If the indoor reading falls under the minimums, put the problem in writing to the landlord with the date, time and reading. Our [landlord repairs guide](/cornell/housing/ithaca-landlord-wont-fix-heat-mold-bed-bugs/) walks through that process.
@@ -75,9 +77,9 @@ If the reading is above the minimums, the apartment is legal and cold. That is t
 
 ## What do you ask the landlord before you change anything?
 
-Leases restrict alterations, so ask in writing before you tape, caulk, drill or cover anything. Cornell's list of lease terms to check names restrictions on smoking, noise, storage, pets, alterations and parties ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). Our [lease reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows where that clause hides.
+Leases restrict alterations, so ask in writing before you tape, caulk, drill or cover anything. Cornell's list of lease terms to check names restrictions on smoking, noise, storage, pets, alterations and parties ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)). Our [lease reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows where that clause hides.
 
-Ask the landlord two more things: who pays for heat, and what last winter's bills were. Ithaca Renting includes heat and hot water at all properties ([Ithaca Renting](https://ithacarenting.com/collegetown/)), while a four-bedroom at 174 Kendall Ave. lists the resident as paying for electricity and heat ([Ithacarents](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom)). Cornell suggests asking NYSEG, the utility, at (800) 572-1111 for average annual heating bills, especially for West Hill cottages ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)).
+Ask the landlord two more things: who pays for heat, and what last winter's bills were. Ithaca Renting includes heat and hot water at all properties ([Ithaca Renting](https://ithacarenting.com/collegetown/)), while a four-bedroom at 174 Kendall Ave. lists the resident as paying for electricity and heat ([Ithacarents](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom)). Cornell suggests asking NYSEG, the utility, at (800) 572-1111 for average annual heating bills, especially for West Hill cottages ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
 ## How do you stay warm without turning up the heat?
 
@@ -91,7 +93,7 @@ New York's Department of Public Service advises sealing air leaks around windows
 
 ## Is it safe?
 
-Check the alarms before you add any heat source. A smoke detector is required by law, and Cornell's renter checklist tells you to check exits and buy renter's insurance ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). For City rentals, Cornell Off-Campus Living and the City Building Division run an online tool that shows fire protection, extinguishers and smoke and carbon monoxide alarm systems ([Cornell safe living page](https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living/housing-search-process/safe-living-environments)).
+Check the alarms before you add any heat source. A smoke detector is required by law, and Cornell's renter checklist tells you to check exits and buy renter's insurance ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)). For City rentals, Cornell Off-Campus Living and the City Building Division run an online tool that shows fire protection, extinguishers and smoke and carbon monoxide alarm systems ([Cornell safe living page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)).
 
 Follow the manufacturer's instructions for any space heater, and never heat the apartment with a gas oven. Long use of an open oven in a closed house can create carbon monoxide, the department warns ([NY Department of Public Service](https://dps.ny.gov/winter)).
 
@@ -115,10 +117,10 @@ Cornell's international office says down coats are warmest and mittens beat glov
 
 ## How do you avoid a cold apartment next year?
 
-Read reviews before you sign. Our [guide to landlords to avoid in Collegetown](/housing/how-to-check-an-ithaca-landlords-record/) covers what tenants report, and the [move-in checklist](/tools/off-campus-move-in-checklist-cornell/) helps you log problems from day one.
+Read reviews before you sign. Our [guide to landlords to avoid in Collegetown](/cornell/housing/how-to-check-an-ithaca-landlords-record/) covers what tenants report, and the [move-in checklist](/tools/off-campus-move-in-checklist-cornell/) helps you log problems from day one.
 
 ```tool off-campus-move-in-checklist-cornell```
 
 ## What to do next
 
-Buy a thermometer, find your drafts, and send the landlord one written question about heat and alterations.
+Buy a thermometer, find your drafts, and send the landlord one written question about heat and alterations. For the rest of the season, from snow days to the sidewalk out front, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).

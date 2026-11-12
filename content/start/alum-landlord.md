@@ -12,6 +12,8 @@ brief: intel/off-campus-housing/brief.md
 
 You're a Cornell alum, maybe a former Collegetown tenant, who owns a rental near campus or is thinking of buying one. Before you lease to students you need the City and state duties, the student leasing calendar and what the market charges. The decision in front of you: whether the rules and the rents make the property worth running, and how to run it without a costly mistake.
 
+This page is general information, not legal advice.
+
 ## Read in this order
 
 1. [Off-campus housing at Cornell: the 2026-27 guide](/housing/cornell-off-campus-housing-guide/): how your tenants search, sign and move, from their side. Read it first, so the rest of the path makes sense.

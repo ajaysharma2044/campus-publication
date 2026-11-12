@@ -2,12 +2,12 @@
 title: 'Parent guarantor for an Ithaca lease: what you owe'
 mode: answer
 dek: A guarantee is only as wide as its text, so read it against the lease's joint liability clause before you sign.
-meta: 'Parent guarantor for an Ithaca lease: joint liability can reach the whole unit, but Ithaca landlords publish no guarantee terms. What to ask before you sign.'
+meta: 'Parent guarantor for an Ithaca lease: joint liability can reach the whole unit, and the guarantee form sets your share. What to ask before you sign.'
 primary_query: parent guarantor ithaca lease what am i liable for
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 146
 rewrites: ''
 readers:
@@ -18,15 +18,15 @@ subject: Collegetown Ithaca apartment buildings
 tools:
 - ithaca-lease-fee-deposit-checker
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
   title: Understanding Your Lease, Cornell Law School Tenants' Rights Guide
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown rentals, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: Real Property Law 226-b, NY Senate
   accessed: '2026-11-10'
@@ -38,25 +38,25 @@ sources:
   accessed: '2026-11-10'
 - url: https://finaid.cornell.edu/living-campus
   title: Living on Campus and Off, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/life-cornell/faq-international-students
   title: FAQ for International Students, Cornell Global Learning
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' Rights Guide, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal
   title: Lease Renewal, Cornell Law School Tenants' Rights Guide
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
   title: Breaking a Lease, Cornell Law School Tenants' Rights Guide
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits
   title: Security Deposits, Cornell Law School Tenants' Rights Guide
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -64,14 +64,16 @@ images: []
 ```glance
 - A guarantee covers what its own text says, so get the document and read it before signing.
 - Most Ithaca leases make every housemate liable for the whole unit's rent, and a guarantee can sit on top.
-- No public source says which Ithaca landlords require a guarantor or what their forms cover.
+- Ithaca Renting requires a parent or guardian guaranty for every Collegetown tenant, graduate students included.
 - Ask in writing: whose rent, for how long, and whether it ends if the lease is released.
 ```
 
-If you sign as guarantor on an Ithaca lease, you owe whatever the guarantee document says you owe, and no public source lists what Ithaca landlords write into it. So get the form first. Then read it beside the lease's [joint liability clause](/cornell/housing/cornell-off-campus-roommates-joint-liability/), which can make one student answerable for the whole unit.
+This is general information, not legal advice.
+
+If you sign as guarantor on an Ithaca lease, you owe whatever the guarantee document says you owe. So get the form first. Then read it beside the lease's [joint liability clause](/cornell/housing/cornell-off-campus-roommates-joint-liability/), which can make one student answerable for the whole unit.
 
 ```reader "If your student is international"
-Cornell International Services says you [do not need a Social Security number to rent an apartment](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). No Cornell page describes how Ithaca landlords treat a student with no US credit history, so ask each landlord what it accepts in place of a US guarantor. Our [international student housing guide](/cornell/housing/off-campus-housing-cornell-international-students/) covers the rest of the search.
+Cornell International Services says you [do not need a Social Security number to rent an apartment](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). Ask each landlord what it accepts in place of a US guarantor. Our [international student housing guide](/cornell/housing/off-campus-housing-cornell-international-students/) covers the rest of the search.
 ```
 
 ```reader "If your student is signing with a large group"
@@ -82,11 +84,11 @@ The bigger the unit, the larger the amount the joint clause can reach. In Ithaca
 
 A guarantor is a person who agrees in writing to pay if the tenant does not. The tenant lives in the unit. The guarantor does not. The lease and the guarantee are two documents, and each has its own wording.
 
-Parents sign when a student has no income history. The [Cornell Law tenants' lease guide](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease) does not address guarantors, and the other sources checked for this page do not either. That gap is the first thing to know: the scope of a guarantee in Ithaca comes from the landlord's own form.
+Some Ithaca landlords make a parent guarantee a condition of renting. Ithaca Renting's [Collegetown rental page](https://ithacarenting.com/collegetown/) says each tenant's parent or legal guardian must complete its Lease Guaranty form, for graduate and undergraduate tenants regardless of age, and that it does not run other reference or credit checks. The same page says no keys are issued until the signed guarantee is in. The scope of the guarantee comes from the landlord's own form.
 
 ## What could I be liable for?
 
-Start with what your student owes. Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire): each is responsible for the others' rent and damages for the whole term. The Cornell Law guide adds that each tenant can be held for the full rent, and a tenant who overpays can sue a co-tenant for the difference.
+Start with what your student owes. Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire): each is responsible for the others' rent and damages for the whole term. The Cornell Law guide adds that each tenant can be held for the full rent, and a tenant who overpays can sue a co-tenant for the difference.
 
 A guarantee can cover less than that, the same, or more. Only the document tells you. Ask these questions in writing:
 
@@ -127,10 +129,10 @@ Financial Aid also will not step in when a student tries to break a lease mid-ye
 
 1. Ask the landlord for the guarantee form separately from the lease.
 2. Compare its wording with the lease's liability clause, term and renewal terms.
-3. Keep the signed copy and written receipts, as Cornell's [checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations) advises.
+3. Keep the signed copy and written receipts, as Cornell's [checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations) advises.
 4. Call the Cornell Law Tenants Advocacy hotline at [607-301-1560](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/) for free advice on the lease.
 
-The hotline advises on leases. A review of the guarantee itself needs a private lawyer, because Cornell Law's pages say nothing about guarantees.
+The hotline advises on leases. For a close review of the guarantee's wording, a private lawyer can read it with you.
 
 <!-- ad-break -->
 

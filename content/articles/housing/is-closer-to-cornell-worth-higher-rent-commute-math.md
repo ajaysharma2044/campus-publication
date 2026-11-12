@@ -27,7 +27,7 @@ sources:
 - url: https://ithacarenting.com/downtown/
   title: 'Ithaca Renting: Downtown properties and prices'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: 'Cornell Housing and Residential Life: Ithaca neighborhoods'
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/property-details/?pid=1
@@ -48,7 +48,7 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: 'Cornell Transportation and Delivery Services: Student parking permits'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: 'Cornell Housing and Residential Life: Housing rates'
   accessed: '2026-11-10'
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
@@ -89,7 +89,7 @@ Two things move that number. First, the two sides are different lease years. The
 
 ## How much longer is the walk from downtown?
 
-Plan on about 15 extra minutes each way. Cornell's housing office puts Collegetown 0.1 to 0.5 mile from campus, up to a 15-minute walk. It puts downtown 0.5 to 1.5 miles away and the Commons about 1 mile, a 20- to 30-minute uphill walk ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)).
+Plan on about 15 extra minutes each way. Cornell's housing office puts Collegetown 0.1 to 0.5 mile from campus, up to a 15-minute walk. It puts downtown 0.5 to 1.5 miles away and the Commons about 1 mile, a 20- to 30-minute uphill walk ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
 Two Ithaca Renting buildings show the same thing. [Collegetown Plaza](https://ithacarenting.com/property-details/?pid=1), at 111 Dryden Rd, sits 0.36 mile from Ho Plaza in a straight line. [Commons West](https://ithacarenting.com/property-details/?pid=7), at 107 E. State St., sits 0.88 mile away. That is 0.52 mile farther. At 3 miles an hour, a normal walking pace on flat ground, 0.52 mile takes 10.4 minutes. The real route is longer than a straight line, and it climbs East Hill, so 15 minutes is a fair planning number.
 
@@ -99,7 +99,7 @@ Fall Creek gets the same 20- to 30-minute uphill estimate from Cornell, so the m
 
 ## What does each hour of saved walking cost?
 
-Your schedule sets the price. Say your Collegetown walk is 10 minutes and your downtown walk is 25, the middle of [Cornell's range](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods). That is 15 extra minutes each way, or 30 minutes a round trip. Five days a week, that is 2.5 hours. Over a 30-week school year (fall and spring semesters, a planning figure), that is 75 hours.
+Your schedule sets the price. Say your Collegetown walk is 10 minutes and your downtown walk is 25, the middle of [Cornell's range](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods). That is 15 extra minutes each way, or 30 minutes a round trip. Five days a week, that is 2.5 hours. Over a 30-week school year (fall and spring semesters, a planning figure), that is 75 hours.
 
 Divide the yearly premium (Ithaca Renting) by the hours. $4,440 / 75 = $59.20 an hour for a studio. $4,800 / 75 = $64.00 for a 1-bedroom. $4,620 / 75 = $61.60 for a 2-bedroom share. The hourly price runs high because you pay rent for 12 months but walk to class for about 30 weeks.
 
@@ -151,14 +151,14 @@ Distance matters less, but parking matters more. The student commuter (B) permit
 ```
 
 ```reader "If you're paying your own way"
-Downtown 2- and 3-bedroom shares come in under a Cornell double. A 3-bedroom share at $795 a month is $9,540 a year, against $13,744 for a 2026-27 double ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). That is $4,204 less, before utilities. No Collegetown studio, 1-bedroom or 2-bedroom at Ithaca Renting does that.
+Downtown 2- and 3-bedroom shares come in under a Cornell double. A 3-bedroom share at $795 a month is $9,540 a year, against $13,744 for a 2026-27 double ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). That is $4,204 less, before utilities. No Collegetown studio, 1-bedroom or 2-bedroom at Ithaca Renting does that.
 ```
 
 <!-- ad-break -->
 
 ## Run it with your own numbers
 
-The rent and commute calculator adds the money side: rent, the bus pass and parking. It also prices the far end of the trade. A two-bedroom at Lansing West, 700 Warren Rd., starts at $1,625 a month ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)), or $9,750 a year each split two ways, before the commute, and Cornell puts Lansing 5 to 10 miles from campus, where it recommends a bus or car ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). Put your own walk times and days on campus into the hourly math above to see the time side.
+The rent and commute calculator adds the money side: rent, the bus pass and parking. It also prices the far end of the trade. A two-bedroom at Lansing West, 700 Warren Rd., starts at $1,625 a month ([RentCafe](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx)), or $9,750 a year each split two ways, before the commute, and Cornell puts Lansing 5 to 10 miles from campus, where it recommends a bus or car ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). Put your own walk times and days on campus into the hourly math above to see the time side.
 
 ```tool ithaca-rent-commute-calculator
 ```

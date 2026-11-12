@@ -19,6 +19,8 @@ brief: intel/transfer/brief.md
 subject: McGraw Tower Cornell
 tools:
 - cornell-transfer-eligibility-quiz
+- cornell-transfer-timeline
+- cornell-transfer-application-checklist
 sources:
 - url: https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf
   title: Cornell University Common Data Set 2025-26, Institutional Research and Planning
@@ -77,7 +79,7 @@ sources:
 - url: https://cals.cornell.edu/news/2025/08/cornell-cals-and-tc3-establish-transfer-pathway-for-agriculture-students
   title: Cornell CALS and TC3 establish transfer pathway for agriculture students, CALS News, August 2025
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/first-year-and-transfer-students-international
@@ -150,7 +152,7 @@ Both columns come from Cornell's [Common Data Set 2025-26](https://irp.cornell.e
 
 Transfer odds were about 1.4 times first-year odds (11.7 divided by 8.4). The yield stands out: nearly three in four admitted transfers came, against under two in three admitted first-years.
 
-Transfers were 14.0% of the fall 2025 new class (625 of 4,452 new students). Cornell's housing office puts the share at ["almost 15%"](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process), which matches.
+Transfers were 14.0% of the fall 2025 new class (625 of 4,452 new students). Cornell's housing office puts the share at ["almost 15%"](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process), which matches.
 
 ## The rate year by year, and which numbers to trust
 
@@ -190,6 +192,8 @@ rows:
 The 613 and 645 figures come from a Cornell spokesperson quoted by [The Cornell Daily Sun in 2018](https://www.cornellsun.com/article/2018/12/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus). The fall 2021 figure of 674 is July deposit data from the [IRP profile](https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf). The Chronicle counted [542 transfers in August 2022](https://news.cornell.edu/node/324798) and [603 in August 2026](https://news.cornell.edu/node/333429), alongside 3,681 first-years; that makes transfers 14.1% of the fall 2026 new class (our math). The fall 2024 figure of 556 is the sum of a [College Transitions](https://www.collegetransitions.com/blog/cornell-transfer-acceptance-rate-requirements-application-deadlines/) by-college table with no named source. The fall 2025 count of 625 is the census number.
 
 Every count above is a fall class. The [admissions page](https://admissions.cornell.edu/apply/transfer-applicants) considers external transfer applications "for the fall semester only," so older spring figures describe a door that has closed.
+
+```tool cornell-transfer-timeline```
 
 ## Where transfers go: the college mix
 
@@ -232,6 +236,8 @@ Sources: [CALS](https://cals.cornell.edu/education/admissions/undergraduate-admi
 Eligibility comes before odds. You need at least 12 semester hours of college credit after high school, or full-time enrollment elsewhere, and you cannot already hold a bachelor's degree, per the [admissions page](https://admissions.cornell.edu/apply/transfer-applicants). First-year applicants denied in Regular Decision [may reapply as transfers](https://admissions.cornell.edu/resources/transfer-option-instructions) in a later cycle.
 
 ```tool cornell-transfer-eligibility-quiz```
+
+```tool cornell-transfer-application-checklist```
 
 ## Common mistakes
 

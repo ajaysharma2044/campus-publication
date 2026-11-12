@@ -21,7 +21,7 @@ tools:
 - ithaca-lease-fee-deposit-checker
 - off-campus-move-in-checklist-cornell
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
@@ -30,16 +30,16 @@ sources:
 - url: https://ecode360.com/8390220
   title: City code
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Cornell Law tenants' guide
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods
   accessed: '2026-11-10'
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
@@ -63,7 +63,7 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus services, privileges and passes, Cornell Transportation
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -74,8 +74,8 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: College Park Apartments in Ithaca, a modern complex with a glass skybridge over a curving driveway
-  caption: College Park Apartments in Ithaca. Check the posted Certificate of Compliance, the heat, the water and the winter bills in person, before you sign.
+  alt: A student apartment complex in Ithaca, with a skybridge between two buildings.
+  caption: A student apartment complex in Ithaca, with a skybridge between two buildings. Check the posted Certificate of Compliance, the heat, the water and the winter bills in person, before you sign.
   credit: 颐园居 / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_at_Ithaca,_NY_20240526.jpg
   author: 颐园居
@@ -92,13 +92,13 @@ images:
 - Ask what parking, trash and snow removal cost, and which bus stop is nearest.
 ```
 
-Before you sign, see the unit in person and check three things: the City's Certificate of Compliance, which proves the building passed inspection; the heat, because Ithaca requires it for much of the year; and the winter bills. Cornell advises students to view the property in person and read the whole lease before they pay anything ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)).
+Before you sign, see the unit in person and check three things: the City's Certificate of Compliance, which proves the building passed inspection; the heat, because Ithaca requires it for much of the year; and the winter bills. Cornell advises students to view the property in person and read the whole lease before they pay anything ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)).
 
 ## What should you do before the tour?
 
 Look up the address first, and decide what you will ask.
 
-- **Check the City record.** Buildings with three or more units need a Certificate of Compliance, valid three years ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). Cornell and the City's Building Division also run a safety tool that shows sprinklers, fire extinguishers, smoke and carbon monoxide alarms and construction type for City rentals. It does not cover Town, Lansing or Cayuga Heights addresses ([Safe Living Environments](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)). Call the Building Division at 607-274-6508 with questions.
+- **Check the City record.** Buildings with three or more units need a Certificate of Compliance, valid three years ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). Cornell and the City's Building Division also run a safety tool that shows sprinklers, fire extinguishers, smoke and carbon monoxide alarms and construction type for City rentals. It does not cover Town, Lansing or Cayuga Heights addresses ([Safe Living Environments](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). Call the Building Division at 607-274-6508 with questions.
 - **Know which municipality you are in.** The City's inspection, renewal-notice and safety-tool rules stop at the city line. The [City vs Town guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows what changes.
 - **Look up the landlord.** The [landlord reviews guide](/housing/how-to-check-an-ithaca-landlords-record/) shows how to check a name.
 
@@ -106,7 +106,7 @@ Look up the address first, and decide what you will ask.
 
 Look for the posted certificate. The code puts it in the main entryway, or in a kitchen cabinet if the building has no central entrance. If you cannot find it, ask the landlord to show it, then confirm with the Building Division.
 
-Check the safety basics Cornell lists: a smoke detector, as the law requires, and two means of egress ([Checklists and Considerations](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). Test the detector button and look at where the exits lead.
+Check the safety basics Cornell lists: a smoke detector, as the law requires, and two means of egress ([Checklists and Considerations](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)). Test the detector button and look at where the exits lead.
 
 ## What should you check inside the unit?
 
@@ -125,7 +125,7 @@ Take photos with the date visible. Cornell tells tenants to send the landlord an
 
 ## What should you ask about winter bills?
 
-Ask who pays for heat and what a typical month costs. Ithaca has no posted insulation standard in the sources here, so last winter's bill is the best proxy. Cornell suggests calling NYSEG at (800) 572-1111 to ask for an address's average annual heating bill, especially for West Hill cottages ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). If the landlord pays the utility, a shutoff for unpaid bills needs 30 days' notice from Nov. 1 to Apr. 15 ([Cornell Law tenants' guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). For typical bills, read the [winter heating bill guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/).
+Ask who pays for heat and what a typical month costs. Ithaca has no posted insulation standard in the sources here, so last winter's bill is the best proxy. Cornell suggests calling NYSEG at (800) 572-1111 to ask for an address's average annual heating bill, especially for West Hill cottages ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). If the landlord pays the utility, a shutoff for unpaid bills needs 30 days' notice from Nov. 1 to Apr. 15 ([Cornell Law tenants' guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). For typical bills, read the [winter heating bill guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/).
 
 ## What should you check about parking, trash and snow?
 
@@ -135,11 +135,11 @@ Ask who pays for heat and what a typical month costs. Ithaca has no posted insul
 
 ## How far is the bus stop, really?
 
-Walk to the nearest TCAT stop from the unit, then ask which route serves it. Cornell lists Fall Creek at 0.5 to 1 mile with a 20 to 30 minute uphill walk and a frequent bus, and Lansing at 5 to 10 miles by bus or car ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). A TCAT ride costs $1.50, and the OmniRide pass is $200 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Walk the route at the hour you would commute.
+Walk to the nearest TCAT stop from the unit, then ask which route serves it. Cornell lists Fall Creek at 0.5 to 1 mile with a 20 to 30 minute uphill walk and a frequent bus, and Lansing at 5 to 10 miles by bus or car ([Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). A TCAT ride costs $1.50, and the OmniRide pass is $200 a year ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Walk the route at the hour you would commute.
 
 ## What should you ask the landlord?
 
-Cornell's lease-review list is a good script ([Signing a Lease](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)):
+Cornell's lease-review list is a good script ([Signing a Lease](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)):
 
 1. How long have you owned or managed this property, and how many properties do you manage?
 2. How long did the last tenants stay, and where did they go?

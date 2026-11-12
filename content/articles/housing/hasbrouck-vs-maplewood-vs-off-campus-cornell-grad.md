@@ -7,7 +7,7 @@ primary_query: hasbrouck vs maplewood cornell grad housing
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 136
 rewrites: ''
 readers:
@@ -19,12 +19,12 @@ tools:
 - ithaca-rent-commute-calculator
 - omniride-break-even-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.greystar.com/maplewood-ithaca-ny/p_15697
   title: Maplewood, Greystar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information
   title: Housing Information, Cornell College of Veterinary Medicine
   accessed: '2026-11-10'
@@ -60,7 +60,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html
   title: Graduate Student Resources
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148
   title: Three new developments offer different answers to Ithaca's housing needs, Tompkins Weekly
   accessed: '2026-11-10'
@@ -70,21 +70,24 @@ sources:
 - url: https://gradschool.cornell.edu/financial-support/stipend-rates/
   title: Stipend Rates, Cornell Graduate School
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus
   title: Apply for Housing On Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://ithacavoice.org/2026/07/cornell-collegetown-construction/
+  title: Cornell and Collegetown construction update, The Ithaca Voice
+  accessed: '2026-11-11'
 images: []
 ---
 
 
 ```glance
 - Hasbrouck costs $620 to $1,530 a month for 2026-27, with gas, electricity, garbage and internet included.
-- Maplewood posts no prices; a Cornell page lists $1,075 to $1,330 for studios to 4-bedrooms, with no basis given.
+- Maplewood posts no prices; a Cornell veterinary school page lists $1,075 to $1,330 for studios to 4-bedrooms, so get a written quote.
 - A Hasbrouck 1BR costs $1,415, $7,776 a year less than the $2,063 private 1BR average, before bills.
 - Hasbrouck takes rolling applications; for August, start looking in March or April.
 ```
 
-Hasbrouck is the only one of the three with prices you can plan around: $620 to $1,530 a month on a 12-month contract, with utilities in the rent ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Maplewood publishes none, and private rent depends on group size.
+Hasbrouck is the only one of the three with prices you can plan around: $620 to $1,530 a month on a 12-month contract, with utilities in the rent ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Maplewood publishes none, and private rent depends on group size.
 
 ## Which is cheaper: Hasbrouck, Maplewood or off campus?
 
@@ -96,12 +99,12 @@ Hasbrouck, for a single graduate student. Maplewood cannot be priced from posted
 | Hasbrouck, large furnished single in a 2BR townhouse | $910 | Same |
 | Hasbrouck studio | $1,355 | Same |
 | Hasbrouck 1BR, unfurnished or furnished | $1,415 or $1,490 | Same |
-| Maplewood, studio to 4BR | $1,075 to $1,330 (basis not stated) | Electricity, trash, internet, cable |
+| Maplewood, studio to 4BR | $1,075 to $1,330 | Electricity, trash, internet, cable |
 | Private 1BR, Ithaca average | $2,063 | Varies by lease |
 | Private 2BR split two ways, Ithaca average | $1,229.50 per person | Varies by lease |
 | Downtown 2BR per bed, Ithaca Renting median | $992.50 | Heat, water, trash |
 
-Sources: [Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) for Hasbrouck; [Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697) for Maplewood's inclusions and the [College of Veterinary Medicine housing page](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information) for its price range, updated February 2026; [RentCafe](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/) for averages; [Ithaca Renting](https://ithacarenting.com/downtown/) for downtown. The 2BR split is $2,459 divided by 2.
+Sources: [Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) for Hasbrouck; [Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697) for Maplewood's inclusions and the [College of Veterinary Medicine housing page](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information) for its price range, updated February 2026; [RentCafe](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/) for averages; [Ithaca Renting](https://ithacarenting.com/downtown/) for downtown. The 2BR split is $2,459 divided by 2.
 
 Cornell's 2026-27 housing budget for an Ithaca grad student is $19,962 a year, or $1,663.50 a month ([Cornell Financial Aid](https://finaid.cornell.edu/graduate-students)). Every Hasbrouck unit fits under it. To build a full monthly budget, use the [grad student rent budget guide](/cornell/money/cornell-grad-student-off-campus-budget-monthly-rent-ithaca/).
 
@@ -111,7 +114,7 @@ Add utilities before you compare. One aggregator puts electric, gas, water and t
 
 Hasbrouck is Cornell's graduate and professional housing on North Campus, a 10-minute walk from central campus. It has 338 units, furnished and unfurnished, and 705 residents ([Hasbrouck Apartments](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-students/hasbrouck-apartments)). Unit types are studios, 1BRs, shared 2BR apartments and shared 2BR townhouses ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 
-Billing is simple. Residents on 12-month contracts are billed monthly through the Bursar, the university's student account office. The first month is billed in August, and there is no security deposit ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Billing is simple. Residents on 12-month contracts are billed monthly through the Bursar, the university's student account office. The first month is billed in August, and there is no security deposit ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 A 2020 report by the Graduate and Professional Student Assembly listed complaints that Cornell could have fixed since: no dishwashers, an installation fee for air conditioners and a 200 GB internet cap ([GPSA housing report](https://assembly.cornell.edu/sites/default/files/gpci_-_housing_dec_2020.pdf)). Ask the housing office, 607-255-5368, which still apply.
 
@@ -121,9 +124,9 @@ Parking is the one extra. The FH resident permit costs $752.98 a year and includ
 
 Maplewood is Greystar-managed graduate, faculty and professional housing at 121 Veterans Place. It has 444 units and 872 beds in five apartment buildings and 21 townhouses and stacked flats, on a 17-acre site on University-owned property ([LeChase](https://www.lechase.com/portfolio/greystar/)). Units run from furnished studios to 4BRs. Each has a private bath and an in-unit washer and dryer, and pets are welcome ([Graduate Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 
-Rent includes electricity, trash, internet and cable. Greystar charges a one-time $130.00 community amenity fee per leaseholder at move-in, and it requires renters liability insurance from a third party ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)). Call (607) 821-0248 for a quote, because neither Cornell nor Greystar posts one.
+Rent includes electricity, trash, internet and cable. Greystar charges a one-time $130.00 community amenity fee per leaseholder at move-in, and it requires renters liability insurance from a third party ([Greystar](https://www.greystar.com/maplewood-ithaca-ny/p_15697)). Greystar posts no rents, so call (607) 821-0248 for a quote.
 
-The veterinary school's [page](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information) lists $1,075 to $1,330 for studio to 4BR but does not say whether that is per bed or per unit, or for what period. Treat it as a hint, and get a written quote for the exact unit.
+The veterinary school's [page](https://www.vet.cornell.edu/education/biomedical-biological-sciences-bbs-phd-program/prospective-students/our-community/housing-information) lists $1,075 to $1,330 for studio to 4BR. Ask Greystar whether a quote is per bed or per unit, and get it in writing for the exact unit.
 
 One piece of history matters for risk. In August 2018, 106 students could not move in on Aug. 20 because the new buildings were late, and the delay ran four to six weeks ([Cornell Daily Sun](https://cornellsun.com/2018/08/12/delay-in-maplewood-housing-opening-affects-over-100-cornell-graduate-students/)).
 
@@ -137,7 +140,7 @@ Fall Creek is about 15 minutes by bus from Hollister Hall, and Lansing about 20 
 
 ## How do the commutes compare?
 
-Hasbrouck wins on walking: 10 minutes to central campus. Cornell's pages give no walk time for Maplewood, so test the bus route before you apply. PhD students and graduate assistants get a free TCAT OmniRide pass, which removes the bus fare from the comparison ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Other students pay $200 a year for the pass, prorated monthly. The calculator below finds the break-even for a car.
+Hasbrouck wins on walking: 10 minutes to central campus. Maplewood is in East Hill, which a 2023 graduate student guide puts 15 to 30 minutes on foot from the Engineering Quad and about 15 minutes by bus, on routes 17, 51 and 82 ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). Test the bus route before you apply. PhD students and graduate assistants get a free TCAT OmniRide pass, which removes the bus fare from the comparison ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Other students pay $200 a year for the pass, prorated monthly. The calculator below finds the break-even for a car.
 
 ```tool omniride-break-even-calculator```
 
@@ -153,7 +156,7 @@ Hasbrouck's family and partner units hold 2 to 4 people and no more than two adu
 
 ## When should you apply?
 
-For 2026-27, renewals for current residents opened Feb. 3, 2026, and applications opened at noon on April 1, 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus)). The grad guide says to start looking in March or April for an August lease. The wider picture of neighborhoods and timing is in the [grad student off-campus guide](/cornell/housing/off-campus-housing-cornell-grad-students/).
+For 2026-27, renewals for current residents opened Feb. 3, 2026, and applications opened at noon on April 1, 2026 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus)). For a private lease starting in August, March or April is the time to look ([Graduate Student Resources](https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html)). The wider picture of neighborhoods and timing is in the [grad student off-campus guide](/cornell/housing/off-campus-housing-cornell-grad-students/).
 
 ## What to do next
 

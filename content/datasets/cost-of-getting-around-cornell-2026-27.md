@@ -2,7 +2,7 @@
 title: "A year of getting around Cornell, 2026-27: 4 profiles"
 meta: "What a year of getting around Cornell costs in 2026-27: four profiles from $264 to $948, built from 18 posted and sampled prices read Nov 8, 2026."
 topic: getting-around
-updated: 2026-11-08
+updated: 2026-11-11
 as_of: 2026-11-08
 sample_size: 18
 method: "Eighteen posted or sampled prices (Cornell permits and passes, TCAT, C2C, commercial bus floors, ITH parking, Ithaca Carshare) read on 2026-11-08 were combined by hand into four student profiles, each assuming four NYC round trips a year, plus per-day, per-ride and break-even figures; this is scenario arithmetic, not a survey of spending."
@@ -152,7 +152,7 @@ EduExplained, "A year of getting around Cornell, 2026-27: 4 profiles," dataset, 
 ## Related guides
 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the full guide to the topic
-- [Having a car at Cornell: permits, winter, breaks, costs](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
+- [Cornell parking: campus, Collegetown and Ithaca guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Cornell student parking permits: cost, rules, who qualifies](/getting-around/cornell-student-parking-permit-cost-rules/)
 - [Is TCAT free for Cornell students? Hours, routes, passes](/getting-around/tcat-free-for-cornell-students-hours-routes/)
 - [Ithaca Carshare for Cornell students: plans, cost, rules](/getting-around/ithaca-carshare-cornell-students-cost/)

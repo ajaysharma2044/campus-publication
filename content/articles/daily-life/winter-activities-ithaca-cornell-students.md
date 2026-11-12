@@ -1,7 +1,7 @@
 ---
 title: 'Things to do in Ithaca in winter: ideas for Cornell students'
 mode: answer
-dek: Skiing, skating history, a winter market and a campus gym give you winter plans, and a few cost nothing to try.
+dek: Skiing, skating history, a winter market and a campus gym give you winter plans, from a $10 gym day pass to $29 Monday ski nights.
 meta: 'Things to do in Ithaca in winter: Greek Peak skiing, Cornell fitness centers, the indoor Winter Market, what to wear and how to get there without a car.'
 primary_query: things to do in Ithaca in winter
 topic: daily-life
@@ -65,7 +65,7 @@ sources:
 images:
 - file: 1.webp
   alt: Beebe Lake at Cornell in summer, with Triphammer Falls spilling over the dam at its outlet
-  caption: Beebe Lake and Triphammer Falls in summer. Skiing, skating history, a winter market and a campus gym give you winter plans, and a few cost nothing to try.
+  caption: Beebe Lake and Triphammer Falls in summer. Skiing, skating history, a winter market and a campus gym give you winter plans, from a $10 gym day pass to $29 Monday ski nights.
   credit: P. Hughes / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Beebe_Lake_and_Triphammer_Falls.jpg
   author: P. Hughes
@@ -96,7 +96,7 @@ Greek Peak hosts Cornell's skiing physical education course ([The Cornell Daily 
 
 For skating, the City of Ithaca's Cass Park Rink, at 701 Taughannock Blvd., runs several public sessions a day in its 2026-27 season. Night sessions run Fridays from 7:45 to 9:45 p.m. and Saturdays from 8:30 to 10 p.m. Dec. 4 has no public sessions, and Jan. 8, Jan. 15 and Feb. 5 have no Friday night session. An adult session costs $5.25 for City and Town of Ithaca residents with proof of address, such as a lease, and $6.75 for everyone else. Skates rent for $3.75 a pair. Each session holds 120 skaters, so book a spot on Community Pass, up to four days ahead ([Cass Park](https://www.casspark.org/ice-rink.html)).
 
-On campus, skating has deep roots. Beebe Lake hosted ice carnivals until Lynah Rink opened in 1957 ([Cornellians magazine](https://alumni.cornell.edu/cornellians/cold-comforts-of-a-big-red-winter)).
+On campus, skating has deep roots. Beebe Lake hosted ice carnivals until the late 1940s, and Big Red hockey teams played on it until Lynah Rink was built in 1957 ([Cornellians magazine](https://alumni.cornell.edu/cornellians/cold-comforts-of-a-big-red-winter)).
 
 <!-- ad-break -->
 
@@ -112,7 +112,7 @@ In winter, the market moves indoors. The Winter Market meets at Triphammer Marke
 
 ## What should you wear?
 
-Wind chill is the number to watch. At 0F with a 15 mph wind, it feels like -19F, and exposed skin can freeze in 30 minutes ([National Weather Service](https://www.weather.gov/safety/cold-wind-chill-chart)). Cornell Health recommends layers, a water-resistant jacket and boots, and covering hands and ears ([Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety)).
+Dress for wind chill: at 0F with a 15 mph wind it feels like -19F ([National Weather Service](https://www.weather.gov/safety/cold-wind-chill-chart)), and our guide to [what to wear for an Ithaca winter](/cornell/daily-life/what-to-wear-ithaca-winter-cornell/) covers the coat, boots and gloves.
 
 ```reader "If you're an international student"
 Cornell's international office says down coats are warmest, wool is next and leather is not warm enough. Mittens beat gloves, and insulated hiking boots with thick treaded rubber soles work best ([Cornell Global Learning](https://international.globallearning.cornell.edu/life-cornell/student-resources)). If boots and a coat are a stretch, the Access Fund covers up to $100 for boots or $150 for a coat, hat and gloves, and free clothing closets exist at Catholic Charities of Tompkins/Tioga and the Women's Opportunity Center ([Graduate School tips](https://gradschool.cornell.edu/announcements/grad-tips-winter-clothing-resources)). Our [start page for international students](/start/international/) covers the rest of arrival.
@@ -130,4 +130,4 @@ Dining and buses shrink over break, so a Saturday market and the gym matter more
 
 ## What to do next
 
-Pick one outing and check its hours. Start with a gym day pass or a Saturday at the [Winter Market](https://ithacamarket.com/winter-market).
+Pick one outing and check its hours. Start with a gym day pass or a Saturday at the [Winter Market](https://ithacamarket.com/winter-market). For the rest of the season, from parking rules to snow days, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).

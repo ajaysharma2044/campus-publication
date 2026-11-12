@@ -1,5 +1,5 @@
 ---
-title: "Cornell lease timeline tool: your dates to look, sign and drop a backup room"
+title: "Cornell lease timeline tool: look, sign, drop a backup room"
 meta: "Enter your year, start term, transfer and exemption status and where you want to live; get the dated months to look, sign and cancel a backup room."
 topic: housing
 updated: 2026-11-11
@@ -9,10 +9,10 @@ kind: tool
 readers: [sophomore, first-year, transfer, exempt-underclass, grad-student, international, affiliated-housing, parent]
 brief: intel/off-campus-housing/brief.md
 sources:
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing: residential policy (two-year requirement, exemptions, 2026-27 deadlines)", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing: residential policy (two-year requirement, exemptions, 2026-27 deadlines)", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing", title: "Cornell Housing: requirements for university-recognized housing (full-year billing)", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process", title: "Cornell Off-Campus Living: housing search process", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates", title: "Cornell Housing: new transfer undergraduates", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process", title: "Cornell Off-Campus Living: housing search process", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates", title: "Cornell Housing: new transfer undergraduates", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing", title: "Cornell Housing: cooperative housing", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell Housing: 2026-27 housing rates", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell Housing: 2027-28 academic year housing license", accessed: "2026-11-08"}
@@ -33,6 +33,7 @@ sources:
   - {url: "https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/", title: "Cornell Daily Sun: housing myths, university panelist says (2019)", accessed: "2026-11-08"}
   - {url: "https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html", title: "Reed Group graduate student resources: life at Cornell", accessed: "2026-11-08"}
   - {url: "https://www.nysenate.gov/legislation/laws/GOB/7-108", title: "New York General Obligations Law 7-108 (move-in inspection, deposits)", accessed: "2026-11-08"}
+  - {url: "https://www.cornellsun.com/article/2026/09/a-comprehensive-guide-to-apartment-hunting", title: "Cornell Daily Sun: a comprehensive guide to apartment hunting (Sept. 24, 2026)", accessed: "2026-11-11"}
 ---
 
 Enter your year, term, transfer, exemption and market to get the August your first lease can start and the dated steps up to it. The steps cover when to look and sign, co-op rounds, the Cornell housing application and exemption deadline, the Collegetown rush, the last cheap day to drop a backup Cornell room and the lease start.
@@ -60,7 +61,7 @@ The answer depends on four things. Are you still under Cornell's two-year rule? 
 - **Coming from abroad.** Adds the visa timing line.
 
 ## The numbers and rules behind it
-**When your first lease can start.** First- and second-year undergraduates live in Cornell or affiliated housing unless exempt. They "should not sign a lease unless they have an approved exemption" ([Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)). One who signs anyway "will still be billed for the full year" ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)), which is $13,744 for a 2026-27 double ([rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The tool works out the first August you are free to rent:
+**When your first lease can start.** First- and second-year undergraduates live in Cornell or affiliated housing unless exempt. They "should not sign a lease unless they have an approved exemption" ([Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)). One who signs anyway "will still be billed for the full year" ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)), which is $13,744 for a 2026-27 double ([rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The tool works out the first August you are free to rent:
 - Sophomore, junior or senior now, any grad student, or an underclass student with an exemption: Aug 2027.
 - First-year now: Aug 2028.
 - Sophomore transfer starting fall 2027 or spring 2027: Aug 2028. Spring transfers live on campus "for the incoming spring semester and the following academic year" ([transfer page](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates)), about 18 months.
@@ -101,12 +102,12 @@ Most 12-month leases run Aug 1 to July 31 ([209 Stewart Ave listing](https://off
 | Free first-year TCAT ends | Aug 31 of the following year (fall entrants); Dec 31 of the same year (spring entrants) | checked 2026-11-08 | [Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) |
 | Earliest visa appointment | 120 days before program start | checked 2026-11-08 | [International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students) |
 
-## Assumptions and what the tool does not cover
-- The Collegetown window comes from one newspaper's dated stories. Reporters seek out early signers, so treat it as the pattern for popular units, not a measured median. No 2026 leasing-season story was found.
-- Cornell's 2027 dates for the housing application, the Greek affirmation and room selection are not posted. The tool shows the 2026 or 2025 date with a "last year's date" badge. For a backup room in 2028-29 or later, it assumes the cancellation schedule shared by 2026-27 and 2027-28 carries on.
-- The tool does not compute the City's 120-day renewal notice date. When the count starts is unresolved; see the 120-day rule guide.
-- Not in the brief: how the two-year rule counts a first-year (not a transfer) who starts in January; when new transfers file an exemption; how Housing handles an exempt sophomore's fall request for the next year. The tool says so and points you to housing@cornell.edu.
-- Not in the brief: spring-start off-campus leasing beyond "mostly sublets and semester leases"; a dated grad market for Collegetown buildings; Greek house costs.
+## Assumptions and limits
+- The Collegetown window comes from one newspaper's dated stories. Reporters seek out early signers, so treat it as the pattern for popular units, not a measured median. A Sun guide of Sept. 24, 2026 advised starting the search [in late August or early September](https://www.cornellsun.com/article/2026/09/a-comprehensive-guide-to-apartment-hunting), which fits the window.
+- For Cornell's 2027 housing application, Greek affirmation and room selection, the tool shows the 2026 or 2025 date with a "last year's date" badge. For a backup room in 2028-29 or later, it assumes the cancellation schedule shared by 2026-27 and 2027-28 carries on.
+- For the City's 120-day renewal notice, use the [120-day rule guide](/housing/ithaca-120-day-lease-renewal-notice-rule/), which explains the count.
+- A first-year who starts in January: Cornell's rule keeps first- and second-years on campus [through the spring semester of their second academic year of enrollment](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates). The tool points you to housing@cornell.edu to confirm your first lease year.
+- Exemption requests: Cornell takes them in the Housing application when the exemption term opens for spring and fall, during the open application period, and [not after you sign a housing license](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) or during its term. Get approval before you sign a lease.
 - Junior or senior transfers starting in spring: the residential policy exempts you, but the transfer page says spring transfers live on campus for the spring and the next year. The tool shows Aug 2027 and asks you to confirm.
 - Nothing you enter is stored or sent. The tool reads your device's date to mark steps that have passed.
 
@@ -119,7 +120,7 @@ The first lines give your answer: the August your first lease can start, and whe
 - [Off-campus housing for sophomores planning junior year](/housing/off-campus-housing-cornell-sophomores/)
 - [Cornell transfer housing: how it actually works](/housing/cornell-transfer-housing/)
 - [Who can live off campus at Cornell: the rule and exemptions](/housing/cornell-residential-requirement-exemptions-live-off-campus/)
-- [Cornell co-ops and Greek houses: cost and how to get in](/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
+- [Cornell co-op or Greek house instead of a dorm: how to join](/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
 - [Where Cornell grad students live in Ithaca, and when to look](/housing/off-campus-housing-cornell-grad-students/)
 - [Renting near Cornell as an international student](/housing/off-campus-housing-cornell-international-students/)
 - [Off-campus housing at Cornell: a parent's guide](/housing/cornell-off-campus-housing-for-parents/)

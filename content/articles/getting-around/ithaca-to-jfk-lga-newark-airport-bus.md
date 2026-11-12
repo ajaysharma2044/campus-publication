@@ -37,7 +37,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny
   title: Bus Ithaca, NY to New York, NY, FlixBus
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university
   title: Cornell University, OurBus
   accessed: '2026-11-08'
@@ -153,7 +153,7 @@ Your long-haul flight probably leaves from JFK or Newark. Delta flies ITH to JFK
 ```
 
 ```reader "If you're a domestic student who flies home"
-Compare a NYC flight against Syracuse before you book. OurBus runs from campus to SYR for [$46.7 to $62.1 one way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny), and SYR has Delta, JetBlue and American routes, including [JFK and LaGuardia](https://syrairport.org/destinations/). If NYC wins on price, Newark is the easy bus. For JFK, Delta's ITH flight avoids Manhattan entirely. Dawn flights are the trap: in 2024 the Student Assembly president [said](https://www.cornellsun.com/article/2024/05/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports) there was "literally no transportation available" for 5:30 a.m. flights. Prebook a [taxi](https://flyithaca.com/taxis) the night before.
+Compare a NYC flight against Syracuse before you book. OurBus runs from campus to SYR for [$46.7 to $62.1 one way](https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny), and SYR has Delta, JetBlue and American routes, including [JFK and LaGuardia](https://syrairport.org/destinations/). If NYC wins on price, Newark is the easy bus. For JFK, Delta's ITH flight avoids Manhattan entirely. Before booking a dawn flight, plan the ride first: in 2024 the Student Assembly president [said](https://www.cornellsun.com/article/2024/05/student-assembly-funds-free-charter-buses-to-syracuse-ithaca-airports) there was "literally no transportation available" for 5:30 a.m. flights.
 ```
 
 ```reader "If you're headed to New Jersey"
@@ -232,7 +232,7 @@ No bus runs from Ithaca to JFK. Ride to Manhattan, then take the subway or the L
 Where each Manhattan bus drops you decides the next leg:
 
 - **OurBus**: the [GWB Bus Station, Hudson Yards, or Madison Ave at 26th to 27th St](https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny), from $33 on Nov 8, 2026, nine buses a day.
-- **Greyhound and FlixBus**: [Port Authority at 625 8th Ave](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny) among 13 stops, including Jamaica, Queens (91-91 144th Pl). Greyhound showed "from $43.98" on Nov 8; [FlixBus](https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny) lists at least five trips a day.
+- **Greyhound and FlixBus**: [Port Authority at 625 8th Ave](https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny) among 13 Greyhound stops, including Jamaica, Queens (91-91 144th Pl), which [FlixBus's route page](https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny) also lists. Greyhound showed "from $43.98" on Nov 8; [FlixBus](https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny) lists at least five trips a day.
 - **Cornell's C2C**: the [Cornell Club at 6 E 44th St and Weill Cornell at 1300 York Ave](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule-stop-locations). It costs [$93.50 with a NetID or $101 for anyone else](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates), and takes [two suitcases plus two small carry-ons](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations) per rider.
 
 From Manhattan, the [MTA's JFK guide](https://www.mta.info/guides/airports/jfk) lists three ways in:
@@ -243,9 +243,9 @@ From Manhattan, the [MTA's JFK guide](https://www.mta.info/guides/airports/jfk) 
 | Subway to Howard Beach-JFK Airport, then AirTrain | $11.75 | $3 subway + $8.75 AirTrain |
 | LIRR to Jamaica, then AirTrain | $14 or $16 | $5.25 off-peak or $7.25 peak + $8.75 AirTrain |
 
-The Port Authority's [JFK transit page](https://www.jfkairport.com/transportation/public-transport) gives typical times: about 50 minutes by E train from Penn Station, 55 from Grand Central Madison, 60 by A train from below 14th Street, and about 30 by LIRR from Penn Station or Grand Central Madison.
+The FAQ on the Port Authority's [JFK transit page](https://www.jfkairport.com/transportation/public-transport) gives typical times: about 50 minutes by E train from Penn Station, 55 from Grand Central Madison, 60 by A train from below 14th Street, and about 30 by LIRR from Penn Station or Grand Central Madison.
 
-The Greyhound and FlixBus Jamaica stop is [curbside on 144th Place, just off Archer Avenue](https://www.greyhound.com/bus/new-york-ny/queens-jamaica). The JFK AirTrain leaves from Jamaica Station, reached by subway at Sutphin Blvd-Archer Av-JFK Airport.
+The Jamaica stop, listed by both [Greyhound](https://www.greyhound.com/bus/new-york-ny/queens-jamaica) and [FlixBus](https://global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny), is curbside on 144th Place, just off Archer Avenue. The JFK AirTrain leaves from Jamaica Station, reached by subway at [Sutphin Blvd-Archer Av-JFK Airport](https://www.mta.info/guides/airports/jfk).
 
 Example: a hypothetical sophomore with one suitcase takes OurBus at its $33 floor, then the subway and AirTrain for $11.75. That is $44.75 to JFK. The same trip on C2C with a NetID is $93.50 plus $11.75, or $105.25, and buys room for a second suitcase.
 

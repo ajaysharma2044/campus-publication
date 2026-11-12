@@ -7,7 +7,7 @@ primary_query: getting around Ithaca without a car Cornell
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 261
 rewrites: /getting-around/getting-around-cornell-upper-years-no-car/
 queue_id: q-getting-around-0050
@@ -25,64 +25,64 @@ tools:
 sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting
   title: Bus Commuting, Sustainable Cornell
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free
   title: Non-First-Year Cornell Students No Longer Able to Access TCAT for Free, The Cornell Daily Sun, November 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation
   title: Parking and Transportation, Cornell Family Resource Hub
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/
   title: Five Ways to Pay Your TCAT Fare, Downtown Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacacarshare.org/students-commuters
   title: Students and Commuters, Ithaca Carshare
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacacarshare.org/rates
   title: Rates, Ithaca Carshare
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacacarshare.org/eligibility
   title: Eligibility, Ithaca Carshare
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacabikeshare.org
   title: Ithaca Bikeshare
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/11/14/this-happens-all-the-time-campus-police-report-more-than-40000-in-bike-and-scooter-thefts-this-semester-so-far
   title: Campus Police Report More Than $40,000 in Bike and Scooter Thefts This Semester So Far, The Cornell Daily Sun, November 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates
   title: C2C Rates, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny
   title: Ithaca, NY to New York, NY bus, OurBus
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.checkmybus.com/ithaca-ny/new-york-ny
   title: Bus from Ithaca to New York, CheckMyBus
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/
   title: Ithaca to New York bus, Wanderu
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk
   title: Embrace Your Inner Intellectual, Go on a Midnight Walk, The Cornell Daily Sun, October 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/
   title: TCAT Board Prolongs Suspension of Routes 14S and 83, The Cornell Daily Sun, April 25, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://flyithaca.com/taxis
   title: Taxis, Ithaca Tompkins International Airport
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/
   title: Ithaca and TCAT will move downtown bus stops Nov. 9, FingerLakes1, November 3, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026
   title: SA R69 (2025-2026), Cornell Student Assembly
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Black-and-white photo of a car on a rural two-lane road passing under a tall wooden railroad trestle
@@ -171,7 +171,7 @@ A Saturday grocery or mall trip on Route 15 or 30 costs nothing. For cheaper way
 
 The Blue Light bus [runs nightly on Route 92 from 6:30 p.m. to 2:30 a.m., year-round](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation). Those hours fall inside your free window, so it costs nothing.
 
-After 2:30 a.m., or off the night routes, you need a taxi, a ride-hail or your feet. The airport's taxi page lists [Ithaca Dispatch at 607-277-7777 and Collegetown Cab at 607-588-8888](https://flyithaca.com/taxis). Save one number in your phone and call ahead, because the fact file has no current fare or wait-time figures to compare. Ask the company for a price when you book.
+After 2:30 a.m., or off the night routes, you need a taxi, a ride-hail or your feet. The airport's taxi page lists [Ithaca Dispatch at 607-277-7777 and Collegetown Cab at 607-588-8888](https://flyithaca.com/taxis). Save one number in your phone, call ahead, and ask the company for the fare when you book.
 
 ## What if TCAT runs late?
 
@@ -213,7 +213,7 @@ rows:
   - {label: "22 ten-minute rides in a month, pay as you go", value: "$88.00"}
 ```
 
-A 10-minute ride is the start fee plus 10 x $0.25 = $4.00, so 22 of them cost $88 and the monthly pass wins once you ride most weekdays. Ithaca Bikeshare does not post a student discount, station count or winter schedule, so check its app before you count on it in January. The full pricing is in the [Bikeshare guide](/cornell/getting-around/ithaca-bikeshare-cost-cornell-students/).
+A 10-minute ride is the start fee plus 10 x $0.25 = $4.00, so 22 of them cost $88 and the monthly pass wins once you ride most weekdays. Check the Bikeshare app for winter service before you count on it in January. The full pricing is in the [Bikeshare guide](/cornell/getting-around/ithaca-bikeshare-cost-cornell-students/).
 
 With your own bike, theft is the cost to plan for. Campus police reported 51 bike and scooter thefts worth at least $41,177 in fall 2024, with one arrest. Registration, locks and campus e-bike limits are in the [bike rules guide](/cornell/getting-around/cornell-bike-ebike-scooter-rules-theft/).
 
@@ -252,7 +252,7 @@ The inputs: four OurBus round trips at $33 each way are $264; four FlixBus round
 
 **Can I buy OmniRide partway through the year?** Yes. The pass is prorated monthly, and MyParking.Cornell.Edu shows the current price when you buy.
 
-**Is TCAT free on holidays and over breaks?** Cornell's page states the free hours without a break exception, but TCAT runs fewer buses then. Check TCAT's posted holiday schedule before you travel.
+**Is TCAT free on holidays and over breaks?** Weekday evenings and weekends stay free under the upper-year rule, but TCAT runs fewer buses then. Check TCAT's posted holiday schedule before you travel.
 
 **Can I take TCAT to the airport?** Yes. The airport's transit page lists Route 32 on weekdays and Route 72 on weekends, and weekend rides fall in your free hours. See the [airport guide](/cornell/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking/).
 
@@ -265,4 +265,4 @@ Count your weekday daytime rides for a typical week and compare the total with t
 - [Getting to Ithaca and around Cornell](/cornell/getting-around/getting-to-ithaca-and-around-cornell/): the whole topic in one place.
 - [Getting around Ithaca as an off-campus Cornell renter](/cornell/getting-around/getting-around-ithaca-off-campus-renters/): commute times by neighborhood.
 - [Getting around Ithaca as a Cornell grad student](/cornell/getting-around/getting-around-ithaca-cornell-grad-students/): who gets the free pass.
-- [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): the full cost of keeping a car.
+- [Cornell parking guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, winter rules and what a year of parking costs.

@@ -1,5 +1,5 @@
 ---
-title: "Dataset: Collegetown lease signing lead times, 2017 to 2025 (9 cases)"
+title: "Dataset: Collegetown lease signing lead times, 2017 to 2025"
 meta: "Collegetown leases signed 6 to 16 months before an August move-in, mostly 10 to 11: 9 dated cases from 6 Cornell Daily Sun stories, 2017 to 2025."
 topic: housing
 updated: 2026-11-11
@@ -14,8 +14,8 @@ sources:
   - {url: "https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/", title: "Cornell Daily Sun (2018-11-07): desirable Collegetown leases leave the market up to 16 months before move-in", accessed: "2026-11-08"}
   - {url: "https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/", title: "Cornell Daily Sun (2019-09-19): students sleep on the sidewalk for cheaper, more desirable leases", accessed: "2026-11-08"}
   - {url: "https://cornellsun.com/2021/10/13/just-months-after-move-in-next-years-hectic-housing-search-begins/", title: "Cornell Daily Sun (2021-10-13): months after move-in, next year's housing search begins", accessed: "2026-11-08"}
-  - {url: "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/", title: "Cornell Daily Sun (2022-09-12): the housing search begins early, causing stress for students", accessed: "2026-11-08"}
-  - {url: "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", title: "Cornell Daily Sun opinion (2022-08-04): the tale of Cornell's broken housing market", accessed: "2026-11-08"}
+  - {url: "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/", title: "Cornell Daily Sun (2022-09-12): the housing search begins early, causing stress for students", accessed: "2026-11-11"}
+  - {url: "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", title: "Cornell Daily Sun opinion (2022-08-04): the tale of Cornell's broken housing market", accessed: "2026-11-11"}
   - {url: "https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026", title: "Cornell Daily Sun (2025-12-02): The Ivy, new luxury housing in Collegetown, opens fall 2026", accessed: "2026-11-08"}
   - {url: "https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/", title: "Cornell Daily Sun (2013-09-12): despite new law, housing rush persists in Collegetown", accessed: "2026-11-08"}
   - {url: "https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/", title: "WSKG (2022-04-07): Ithaca landlords must now give renters 120 days before renewing leases", accessed: "2026-11-08"}
@@ -23,6 +23,7 @@ sources:
   - {url: "https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/", title: "Cornell Daily Sun (2016-09-26): landlords say Collegetown housing hassle unlikely to change", accessed: "2026-11-08"}
   - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown properties", accessed: "2026-11-08"}
   - {url: "https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095", title: "Off-campus housing listing: 209 Stewart Avenue", accessed: "2026-11-08"}
+  - {url: "https://cornellsun.com/2012/10/01/as-collegetown-housing-rush-intensifies-students-sleep-outside-rental-agency/", title: "Cornell Daily Sun (2012-10-01): as Collegetown housing rush intensifies, students sleep outside rental agency", accessed: "2026-11-11"}
 ---
 
 Collegetown leases in the Cornell Daily Sun's record are signed **8 to 16 months before an August move-in, mostly 10 to 11 months ahead**. That means September to October of the year before, which for a junior-year lease is the fall of sophomore year. The one exception is a fallback: a 14-person group whose Greek housing plans fell through started hunting in February and signed **at most about 6 months** ahead.
@@ -80,14 +81,15 @@ These dated events are context for the table, not observations in it, and are no
 
 | Date | What changed or was said | Source |
 |---|---|---|
+| 2012 | Around 15 students camped overnight outside Ithaca Renting's Dryden Road office to sign leases; the company signed first come, first served | [Sun, 2012-10-01](https://cornellsun.com/2012/10/01/as-collegetown-housing-rush-intensifies-students-sleep-outside-rental-agency/) |
 | 2013, effective 2013-06-15 | City of Ithaca 60-day rule: 60 days' written notice before renewal, showing or a new signing; the clock started at lease start, so a June lease let showings begin in late August; mutual waiver allowed; civil fine up to $500 | [Sun, 2013-09-12](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/) |
 | 2013 | Cornell's assistant dean said signing had moved from January to late October or November, and the August-September push appeared only in the previous four to six years | [Sun, 2013-09-12](https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/) |
+| 2014 | More than 150 students camped out on Dryden Road for leases, the year after the 60-day rule | [Sun opinion, 2022-08-04](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/) |
 | 2016 | George Avramis said he was 70% to 75% leased overall by late September; Josh Lower said he usually rents most units by the end of November | [Sun, 2016-09-26](https://cornellsun.com/2016/09/26/landlords-say-collegetown-housing-hassle-unlikely-to-change/) |
 | 2019 | Off-Campus Living's manager said the rush had moved from November-December into the first days of fall semester, and called the timing of the search a myth, saying students can find housing later in the school year | [Sun, 2019-02-06](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/) |
 | Passed 2022-04-06, effective 2022-05-31 | 120-day rule: at least 120 days before renewing a lease or advertising the unit to new renters, up from 60; a waiver must be explicitly written, bolded and initialed on the lease's first page | [WSKG, 2022-04-07](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/) |
+| Early September 2022 | The Student Agencies building was one of the first places to begin renting for 2023-24 | [Sun, 2022-09-12](https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/) |
 | 2026-11-08 | Ithaca Renting marked 14 of 67 Collegetown rows for 2027-28 SOLD OUT (20.9%), nine months before an August 2027 start | [Ithaca Renting](https://ithacarenting.com/collegetown/) |
-
-How 120 days squares with leasing nine months out is unresolved: the count start in section 258-10 has not been read in the official text, and vacant or new units, initialed waivers and buildings outside the City are possible explanations, none confirmed.
 
 ## Caveats
 
@@ -96,16 +98,15 @@ How 120 days squares with leasing nine months out is unresolved: the count start
 - **Month precision.** Most signings are dated to the month, so each count can be off by up to a month. Two cases are bounds, not points (case 3 at most 6, case 9 at least 8).
 - **Gaps in years.** Apart from case 3, whose year is not stated, no signing is dated 2018, 2020, 2023, 2024 or 2026.
 - **Collegetown only.** The record covers Collegetown houses and buildings. Downtown, Fall Creek, Lansing and leftover units can lease later.
-- **Not in the brief:** a count or share of all Collegetown leases signed by month; any signing dated in the fall 2026 season for 2027-28; signing times for other landlords' 2027-28 stock; how many tenants initial the 120-day waiver.
 
 ## How to cite
 
-EduExplained, "Dataset: Collegetown lease signing lead times, 2017 to 2025 (9 cases)," record as of 2026-11-08: nine dated signings from April 2017 to December 2025, taken from six Cornell Daily Sun stories published 2018-11-07 to 2025-12-02. Each case links its story in the source_url column.
+EduExplained, "Dataset: Collegetown lease signing lead times, 2017 to 2025," record as of 2026-11-08: nine dated signings from April 2017 to December 2025, taken from six Cornell Daily Sun stories published 2018-11-07 to 2025-12-02. Each case links its story in the source_url column.
 
 ## Change log
 
 - 2026-11-08: first release. Nine cases from six stories, with the 2013 and 2022 notice rules and the Ithaca Renting sold-out count of 2026-11-08 as context. Add a row when a dated signing for the 2027-28 season is reported.
-- 2026-11-11: retitled from "How early Collegetown leases are signed, 2017-2025: 9 cases," with links to the when-to-sign guide and the lease timeline tool. The nine rows are unchanged.
+- 2026-11-11: retitled from "How early Collegetown leases are signed, 2017-2025: 9 cases," with links to the when-to-sign guide and the lease timeline tool. The nine rows are unchanged. Later the same day: shortened the title, and added the 2012 and 2014 camp-outs and Student Agencies' September 2022 opening to the context table.
 
 ## Related guides
 

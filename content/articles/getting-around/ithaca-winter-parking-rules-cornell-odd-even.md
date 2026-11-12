@@ -3,7 +3,7 @@ title: 'Ithaca winter parking rules: odd/even and campus bays'
 mode: answer
 dek: Ithaca's odd/even rule runs Nov. 1 to April 1, Cornell's overnight rule runs Dec. 1 to April 1, and no car should sit on a city street over break.
 meta: 'Ithaca winter parking rules: the city''s odd/even rule, Cornell''s overnight bays from Dec. 1, break parking, towing and what tickets cost.'
-primary_query: ithaca winter parking rules odd even
+primary_query: ithaca odd even parking
 topic: getting-around
 school: cornell-university
 type: how-to
@@ -101,7 +101,7 @@ The city also has a 24-hour move rule that applies Monday to Friday on every cit
 
 The rule used to be harsher. In 2014 it applied every night of the season, from 2 a.m. to 6 a.m. Odd/even tickets ran between 4,165 and 7,262 a year from 2009 to 2013, and in December 2013 the mayor formed a task force that called the system confusing, costly and deeply unpopular ([City of Ithaca task force report](https://assembly.cornell.edu/sites/default/files/oddeventaskforceinitialreport70314.pdf)).
 
-Plows set the pace of every storm. The city clears emergency lanes first, then high-volume roads, then steep roads. Small residential streets come last, and restoring parking lanes can take weeks ([City of Ithaca](https://cityofithacany.gov/DocumentCenter/View/12559)). Our guide to [winter storms and driving](/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/) covers the roads.
+Plows set the pace of every storm. The city clears emergency lanes first, then high-volume roads, then steep roads. Small residential streets come last, and restoring parking lanes can take weeks ([City of Ithaca](https://cityofithacany.gov/DocumentCenter/View/12559)). Our guide to [driving in Ithaca in winter](/cornell/getting-around/driving-in-ithaca-winter-cornell-hills-snow/) covers the hills and plows.
 
 ```reader "If you rent off campus"
 The city's rule is your main risk. Move the car to the right side on active nights, and dig it out before the date flips. Graduate students are in the same position: even with a free A or E permit from a full assistantship, a street is not a campus lot. Before any trip, get the car off the street. Our [Collegetown parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) lists garages, though the city says they offer no long-term parking.
@@ -125,7 +125,7 @@ From Dec. 1 to April 1, when it is snowing or snow is forecast, overnight parkin
 
 Source: Cornell Transportation winter parking page. After heavy snow, crews clear A and B lots first.
 
-Holders of resident permits (FH, ND, SW and WD) park in their lots as usual. B permit holders must use the designated bays in their lot ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Our [permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) explains who gets which permit.
+Holders of resident permits (FH, ND, SW and WD) park in their lots as usual. B permit holders must use the designated bays in their lot ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). Our [permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) explains who gets which permit.
 
 ```reader "If you have a car in university housing"
 Your resident permit is your winter answer. The trap is a night outside your area. Your permit also works in A Lot after 2:30 p.m. ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)), but on a snow night the designated areas are A Lot's west and mid bays ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)).
@@ -135,17 +135,7 @@ Being in a designated area does not make the space free. Without a permit for th
 
 ## Where can I leave my car over winter break?
 
-Leave it in your campus permit area or off the street. Cornell's rules say a car left on a city street over winter break can be treated as abandoned, ticketed, towed and impounded. Students in university housing can leave a car in their permit area.
-
-The 2026-27 winter closing makes the stakes clear. All undergraduate residences close Sunday, Dec. 20, 2026, at 2 p.m. and reopen Tuesday, Jan. 19, 2027, at 9 a.m. ([Cornell Student and Campus Life](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)). That is 30 days, ten times the 72-hour line. The closing checklist says to leave cars only in designated on-campus lots.
-
-| Where you leave it | Over break |
-|---|---|
-| Your resident permit area | Allowed |
-| B Lot, with a B permit | Allowed in its designated east and west bays ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)) |
-| B Lot, riding Cornell's C2C bus | Free if you email c2cbus@cornell.edu with plate and dates ([Cornell Transportation](https://fcs.cornell.edu/node/12488)) |
-| City street | Ticket, tow and possible impound |
-| City garage | No long-term parking; ask before you leave a car |
+Leave it in your campus permit area or off the street: Cornell's rules say a car left on a city street over winter break can be treated as abandoned, ticketed, towed and impounded ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). Our guide to [storing a car over break](/cornell/getting-around/storing-a-car-ithaca-summer-winter-break-cornell/) covers where a car can sit for weeks.
 
 ```reader "If you're staying in Ithaca over break"
 Break nights still count. Winter break housing costs [$125 for a one-week option or $500 for the full break](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing), and applications close Dec. 1, the same day the campus winter overnight rule starts ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). See our guide to [staying in Ithaca over breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
@@ -161,18 +151,7 @@ A January arrival lands inside both seasons. Register your plate before you driv
 
 Cornell's winter-rules fine is in the [2023 schedule](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/), the first rise since 2014 ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)). The same fines apply over break, since Cornell's parking policy covers all student break periods ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)).
 
-```figure
-kind: cost_table
-title: Winter parking fines
-rows:
-  - {label: "Cornell winter rules", value: "$50"}
-  - {label: "Cornell no permit or payment", value: "$50 (+$10 if unpaid in 10 days)"}
-  - {label: "Cornell fire lane or accessible space", value: "$150 and automatic tow"}
-  - {label: "City odd/even violation", value: "$15, $30, $45 for repeats"}
-  - {label: "City abandoned vehicle", value: "$25"}
-```
-
-City amounts are from the [City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations). Repeats within 18 months raise the odd/even fine.
+Breaking Cornell's winter rules costs $50. On city streets, an odd/even violation costs $15, then $30 and $45 for repeats within 18 months ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)). Our [parking tickets guide](/cornell/getting-around/ithaca-parking-tickets-fines-how-to-appeal-cornell/) has every Cornell and city fine and how to appeal.
 
 ## What mistakes cost the most?
 
@@ -190,4 +169,4 @@ City amounts are from the [City of Ithaca](https://www.cityofithacany.gov/727/Pa
 
 ## What to do next
 
-Cornell warns that a car left on city streets over break can be ticketed, towed or treated as abandoned, so keep it in your permit area ([winter rules page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). Text SIREN to 67283 for city alerts.
+Cornell warns that a car left on city streets over break can be ticketed, towed or treated as abandoned, so keep it in your permit area ([winter rules page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). Text SIREN to 67283 for city alerts. For the rest of the season, from snow days to heat in your apartment, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/). For permits, garages and tickets all year, see our [Cornell parking guide](/cornell/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).

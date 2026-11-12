@@ -20,7 +20,7 @@ tools:
 - ithaca-rent-commute-calculator
 - when-to-sign-lease-timeline-cornell
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/
@@ -79,7 +79,7 @@ images:
 - Central Collegetown has no residential street parking permits; a garage permit costs $232 a month.
 ```
 
-Collegetown is the neighborhood directly south of central campus, around College Avenue, Dryden Road and Eddy Street. Cornell puts it 0.1 to 0.5 miles from campus, up to a 15-minute walk, and says lower Collegetown is uphill to campus ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). It is the closest place to rent and the priciest.
+Collegetown is the neighborhood directly south of central campus, around College Avenue, Dryden Road and Eddy Street. Cornell puts it 0.1 to 0.5 miles from campus, up to a 15-minute walk, and says lower Collegetown is uphill to campus ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). It is the closest place to rent and the priciest.
 
 ```figure
 kind: cost_table

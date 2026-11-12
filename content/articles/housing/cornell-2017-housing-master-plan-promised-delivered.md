@@ -1,13 +1,13 @@
 ---
 title: 'Cornell 2017 Housing Master Plan: What Happened'
 mode: answer
-dek: The North Campus expansion that followed the plan delivered 2,000 beds in two phases, while promises on older halls and upperclass housing are harder to check.
-meta: 'Cornell 2017 housing master plan: what happened to the North Campus expansion, the 2,000 beds that opened in 2021 and 2022, and what is still unverified.'
+dek: The North Campus expansion that followed the plan delivered 2,000 beds in two phases and a renovated Balch Hall, while juniors and seniors still have no housing guarantee.
+meta: 'Cornell 2017 housing master plan: what happened to the North Campus expansion, the 2,000 beds that opened in 2021 and 2022, and the older-hall renovations.'
 primary_query: cornell 2017 housing master plan what happened
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 288
 rewrites: ''
 readers:
@@ -41,13 +41,19 @@ sources:
 - url: https://scl.cornell.edu/news-events/news/residential-improvement-project-underway
   title: Residential improvement project underway, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current undergraduate application process, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion
+  title: A peek inside Balch Hall as renovations near completion, Cornell Student & Campus Life, July 12, 2024
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/housing-improvements
+  title: Housing Improvements, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
-  caption: Toni Morrison Hall, one of the new North Campus halls. The expansion that followed the 2017 plan delivered 2,000 beds in two phases, while promises on older halls and upperclass housing are harder to check.
+  caption: Toni Morrison Hall, one of the new North Campus halls. The expansion that followed the 2017 plan delivered 2,000 beds in two phases, while juniors and seniors still have no housing guarantee.
   credit: Kenneth C. Zirkel / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:Toni_Morrison_Hall,_Cornell_University.jpg
   author: Kenneth C. Zirkel
@@ -64,7 +70,7 @@ images:
 - Juniors and seniors are still not guaranteed campus housing.
 ```
 
-Cornell's housing expansion delivered the beds it announced for North Campus: 2,000 across two phases, in 2021 and 2022. Cornell's guarantee of campus housing now covers two years, not four. The fact file used here does not include the 2017 master plan document itself, so this guide tracks the August 2018 site plan that followed it ([The Cornell Daily Sun](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/)).
+Cornell's housing expansion delivered the beds it announced for North Campus: 2,000 across two phases, in 2021 and 2022. Cornell's guarantee of campus housing now covers two years, not four. The full North Campus site plan, with its bed counts, was released in August 2018 ([The Cornell Daily Sun](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/)).
 
 ## What did the plan promise?
 
@@ -86,19 +92,15 @@ rows:
 
 Source: The Cornell Daily Sun (2018, 2021) and Cornell Chronicle (2022).
 
-The Cornell Chronicle reported that the project took 6.5 years and that Balch Hall closed for remodeling ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)). The 800 and 1,200 figures match the plan's first-year and sophomore numbers, though the first-year and sophomore split in the finished halls is not stated in the Chronicle piece. In 2021, Housing and Residential Life's Tim Blair described five new dorms with about 800 beds for sophomores and 1,200 for first-years ([The Cornell Daily Sun](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/)).
+The Cornell Chronicle reported that the project took 6.5 years and that Balch Hall closed for remodeling ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)). The 800 and 1,200 figures match the plan's first-year and sophomore numbers. In 2021, Housing and Residential Life's Tim Blair described five new dorms with about 800 beds for sophomores and 1,200 for first-years ([The Cornell Daily Sun](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/)).
 
 The promised rules followed the beds. All first-years and sophomores have been required to live in university or affiliated housing since fall 2022. The [exemptions guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) explains who can still live off campus.
 
-## What is still unverified?
+## What happened to the older halls?
 
-Three parts of the plan cannot be checked from the fact file.
+Balch Hall got its first overall renovation in six decades, with new windows, heating and cooling connections, flooring, lighting and an elevator in each of its four units. North Balch reopened to residents in August 2024 and South Balch in 2025 ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)). Cornell now lists the Balch renovation as completed ([Housing Improvements](https://scl.cornell.edu/residential-life/housing/housing-details/housing-improvements)).
 
-- **The 75 staff and adviser beds.** No source here says whether they opened.
-- **The 10,400-bed total.** The sources give no current campus bed count.
-- **The deferred maintenance.** Cornell reported a residential improvement project that includes kitchen and bathroom renewals in the Townhouse Apartments, bathroom renovations in the LLC program house and security cameras in North Campus residential spaces during 2024-25 ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/residential-improvement-project-underway)). It does not say the Balch, Dickson and Risley work is finished.
-
-For the totals, ask Cornell Housing and Residential Life at housing@cornell.edu, or check Cornell's Board of Trustees housing updates.
+Other halls got smaller upgrades. A residential improvement project during 2024-25 included kitchen and bathroom renewals in the Townhouse Apartments, bathroom renovations in the LLC program house and security cameras in North Campus residential spaces ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/residential-improvement-project-underway)).
 
 ## What happened to the rest of campus housing?
 
@@ -108,7 +110,7 @@ Cornell then moved into Collegetown. It bought 301 College Avenue in March 2025 
 
 ## Did the expansion help juniors and seniors?
 
-Not by guarantee. Rising juniors and seniors are not guaranteed on-campus housing for 2027-28, and their selection ran in fall 2026 ([Cornell application process](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process)). Most upperclass students look off campus. For what that costs, see [is off-campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and the [housing cost by living situation](/datasets/ithaca-housing-cost-by-living-situation-2026-27/) dataset.
+Not by guarantee. Rising juniors and seniors are not guaranteed on-campus housing for 2027-28, and their selection ran in fall 2026 ([Cornell application process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process)). Most upperclass students look off campus. For what that costs, see [is off-campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and the [housing cost by living situation](/datasets/ithaca-housing-cost-by-living-situation-2026-27/) dataset.
 
 ```reader "If you're a sophomore planning ahead"
 The beds exist for you, but juniors and seniors compete for what is left. The [sophomore off-campus guide](/cornell/housing/off-campus-housing-cornell-sophomores/) lays out what to do before the application deadline.

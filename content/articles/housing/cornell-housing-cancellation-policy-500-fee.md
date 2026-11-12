@@ -7,7 +7,7 @@ primary_query: cornell housing cancellation fee
 topic: housing
 school: cornell-university
 type: cost
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 42
 rewrites: ''
 readers:
@@ -20,27 +20,27 @@ subject: Clara Dickson Hall, North Campus, Cornell University, Ithaca
 tools:
 - cornell-housing-license-cancellation-fee-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
   title: Housing License Cancellation Policy, Cornell Housing and Residential Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing and Residential Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Housing and Residential Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun, Nov. 4, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Campus Housing, Cornell Housing and Residential Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities
   title: Financial Obligations, Cornell Sorority and Fraternity Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+  accessed: '2026-11-11'
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Housing and Residential Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Clara Dickson Hall on Cornell's North Campus, a long brick residence hall seen across its lawn
@@ -54,7 +54,7 @@ images:
 ---
 
 
-Returning Cornell juniors and seniors pay $500 to cancel a campus housing license between Feb. 1 and March 31. Through Jan. 31 the fee is $50, and it climbs to $2,000 by July ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)). First-years, new transfers and second-years can't cancel at all except in a few narrow cases.
+Returning Cornell juniors and seniors pay $500 to cancel a campus housing license between Feb. 1 and March 31. Through Jan. 31 the fee is $50, and it climbs to $2,000 by July ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy)). First-years, new transfers and second-years can't cancel at all except in a few narrow cases.
 
 ```glance
 - Juniors and seniors: cancel a 2027-28 room by Jan. 31, 2027, and the fee is $50.
@@ -65,7 +65,7 @@ Returning Cornell juniors and seniors pay $500 to cancel a campus housing licens
 
 ## How much does it cost to cancel Cornell housing?
 
-The fee depends only on the date Cornell receives your request. A housing license is Cornell's word for its room contract: unlike a lease, it gives you the right to use a room, not to rent one from a landlord. Returning juniors and seniors, who have already met Cornell's two-year live-on requirement, pay on the schedule below, set out in the [2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028) for rooms picked in fall 2026.
+The fee depends only on the date Cornell receives your request. A housing license is Cornell's word for its room contract: unlike a lease, it gives you the right to use a room, not to rent one from a landlord. Returning juniors and seniors, who have already met Cornell's two-year live-on requirement, pay on the schedule below, set out in the [2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028) for rooms picked in fall 2026.
 
 ```figure
 kind: cost_table
@@ -85,7 +85,7 @@ The first step is the one to plan around. Say you sign a Collegetown lease in Fe
 
 ## What does "half the fall room rate" come to?
 
-For a residence hall double, half the fall room rate is $3,436: Cornell charges $6,872 per semester for a double in 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)), and $6,872 divided by two is $3,436. That is almost 69 times the January fee. The same charge applies if you never show up: students who don't check in by the first day of classes, and don't arrange a late arrival, lose the room and are billed half the fall rate through the bursar, Cornell's student billing office.
+For a residence hall double, half the fall room rate is $3,436: Cornell charges $6,872 per semester for a double in 2026-27 ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)), and $6,872 divided by two is $3,436. That is almost 69 times the January fee. The same charge applies if you never show up: students who don't check in by the first day of classes, and don't arrange a late arrival, lose the room and are billed half the fall rate through the bursar, Cornell's student billing office.
 
 ```figure
 kind: cost_table
@@ -98,7 +98,7 @@ rows:
 
 Source: Cornell Housing and Residential Life, Housing Rates 2026-2027; per-semester rates are the academic-year rates divided by two.
 
-Only 2026-27 rates are posted. The fee on a 2027-28 room follows the 2027-28 rates, so check the [rates page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) before you cancel late in summer 2027. The calculator gives the fee for your own date, reason and room.
+Cornell's 2027-28 room rates are not yet announced. The fee on a 2027-28 room follows those rates, so check the [rates page](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) before you cancel late in summer 2027. The calculator gives the fee for your own date, reason and room.
 
 ```tool cornell-housing-license-cancellation-fee-calculator
 ```
@@ -109,7 +109,7 @@ Only 2026-27 rates are posted. The fee on a 2027-28 room follows the 2027-28 rat
 
 You can cancel penalty-free if you are leaving Ithaca for an approved reason and you file on time. Cornell names the reasons: study away from Ithaca (Cornell in Washington, Cornell in Rome, a Cornell global program, the Engineering Co-op, an academic internship or ILR in New York City), a medical, voluntary or required leave of absence, deferring admission, withdrawing, or graduating.
 
-The deadlines are June 15 before a fall semester and Dec. 1 before a spring semester; the timeline below gives the 2027-28 dates. A request that arrives late costs a flat $500 ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+The deadlines are June 15 before a fall semester and Dec. 1 before a spring semester; the timeline below gives the 2027-28 dates. A request that arrives late costs a flat $500 ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```figure
 kind: timeline
@@ -144,7 +144,7 @@ Your 2026-27 room can't be cancelled to move off campus. A 2027-28 room you chos
 
 ## Can I cancel after I move in?
 
-Only for a few reasons, and only with Cornell's approval. Once you occupy the room, the license binds you for the whole term. Cornell can let you out if you withdraw, take a leave, get a medical withdrawal, start an academic internship, graduate or study in absentia, which means earning credit while away from Ithaca. If Cornell approves, you pay a daily rate for the days you lived there and must move out and return your keys within 24 hours ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)).
+Only for a few reasons, and only with Cornell's approval. Once you occupy the room, the license binds you for the whole term. Cornell can let you out if you withdraw, take a leave, get a medical withdrawal, start an academic internship, graduate or study in absentia, which means earning credit while away from Ithaca. If Cornell approves, you pay a daily rate for the days you lived there and must move out and return your keys within 24 hours ([Cornell Housing and Residential Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy)).
 
 Moving off campus mid-year doesn't qualify. Cornell's Sorority and Fraternity Life office says spring releases go only to students who are graduating, going abroad or leaving, and that moving off campus or into a fraternity small residence "is not an extenuating circumstance" ([Cornell Sorority and Fraternity Life](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities)). Housing and Residential Life can grant other releases in exceptional cases, at its sole discretion, with a prorated refund minus fees. Subletting is not a way around it: the license lets only you and your assigned roommates live in the room.
 
@@ -163,10 +163,10 @@ Late fees and no-show charges go to the student's bursar account, the same bill 
 ## FAQ
 
 **How do I submit a cancellation?**
-Through the Housing & Dining Portal, on the day you decide, since the date sets the fee. For questions, Housing Operations is at 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu, weekdays 9 a.m. to 4 p.m. ([Cornell Housing and Residential Life directory](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
+Through the Housing & Dining Portal, on the day you decide, since the date sets the fee. For questions, Housing Operations is at 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu, weekdays 9 a.m. to 4 p.m. ([Cornell Housing and Residential Life directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
 
 **Does joining a co-op or Greek house let me cancel?**
-For second-years, yes, if the acceptance came before the rising sophomore selection deadline. Juniors and seniors follow the fee schedule either way. Costs and timelines for those houses are in the [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
+For second-years, yes, if the acceptance came before the rising sophomore selection deadline. Juniors and seniors follow the fee schedule either way. How to get into those houses, and the dates, are in the [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/).
 
 ## What to do next
 

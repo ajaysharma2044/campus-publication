@@ -100,9 +100,7 @@
     bikeMonth: {value: 60, asOf: D, source: 'https://www.ithacabikeshare.org'},
     cityResidentialPermit: {value: 45, asOf: D, source: 'https://www.cityofithacany.gov/731/Permit-Issuance'},
     fineNoPermit: {value: 50, asOf: '2023-09-01', source: 'https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/'},
-    fineLateAdd: {value: 10, asOf: '2023-09-01', source: 'https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1'},
-    forumAgainstLowPct: {value: 67, asOf: '2016-05-13', source: 'https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430'},
-    forumAgainstHighPct: {value: 80, asOf: '2016-05-13', source: 'https://talk.collegeconfidential.com/t/should-i-bring-a-car/1811430'}
+    fineLateAdd: {value: 10, asOf: '2023-09-01', source: 'https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1'}
   };
   function v(k) { return NUMBERS[k].value; }
   function $(id) { return root.querySelector('#' + P + id); }
@@ -170,10 +168,9 @@
     else if (dest === 'busother') r.push(li('This quiz prices NYC trips only; fares to other cities are in our bus guides.'));
     else r.push(li('Your trip home is a drive with no good bus, the strongest reason to keep a car here. Gas and tolls are not in our numbers.'));
     if (pick !== 'permit') r.push(li('For short hops, Ithaca Bikeshare is ' + m(v('bikeUnlock')) + ' to unlock plus ' + m(v('bikePerMinute')) + ' a minute (' + m(v('bikeUnlock') + 20 * v('bikePerMinute')) + ' for 20 minutes, before tax), or ' + m(v('bikeMonth')) + ' a month.'));
-    if (firstYear) r.push(li('In a 2016 College Confidential thread, ' + v('forumAgainstLowPct') + '% of the arguments (and about ' + v('forumAgainstHighPct') + '% of the posters) told an incoming first-year to skip the car. One thread, not a survey.', '2016-05-13'));
 
     if (firstYear) f.push(li("Cornell's families page says first-years are discouraged from bringing a car, though limited permits exist." + (home === 'north' ? ' The ND permit is extremely limited and capped to North Campus residents.' : '')));
-    if (permit.kind === 'resident') f.push(li('Resident permits are only for students in university housing in that area. The 2026-27 sale opened Aug 4, 2026, first come first served, for permits valid Aug 16, 2026 to Aug 15, 2027; whether any are left now is not in our numbers.' + (home === 'west' || home === 'south' ? ' A summary of the sale notice says resident permits were capped to North Campus residents, so check before counting on one.' : '')));
+    if (permit.kind === 'resident') f.push(li('Resident permits are only for students in university housing in that area. Permits are sold first come, first served, while space lasts, at myparking.cornell.edu, and annual permits are valid through Aug 15.'));
     if (permit.kind === 'resident' && status === 'phd') f.push(li('Grad students in university housing are not eligible for the free A or E permit, so you would pay the resident price.'));
     if (permit.kind === 'ga') f.push(li('The free Outer Tier A and E permits need a full assistantship on the Ithaca campus, checked in Workday; E also needs work in its zone. Without one, the B commuter permit is ' + m(v('commuterPermit')) + '.'));
     if (permit.kind === 'b') f.push(li('Off campus you cannot get a resident permit; the B permit (' + m(v('commuterPermit')) + ', B Lot any time, A Lot after 2:30 p.m.) is limited and sold first come first served.'));
@@ -191,7 +188,7 @@
       '<p class="tq-pick">' + esc(head) + '</p><p data-as-of="' + D + '">' + esc(costs) + '</p>' +
       '<p><strong>Why</strong></p><ul>' + r.join('') + '</ul>' +
       (f.length ? '<p><strong>Check before you decide</strong></p><ul>' + f.join('') + '</ul>' : '') +
-      '<p class="tq-small" data-as-of="' + D + '">Numbers as of 2026-11-08; the forum tally is from 2016 and the fine schedule from Sept 1, 2023.</p>' +
+      '<p class="tq-small" data-as-of="' + D + '">Numbers as of 2026-11-08; the fine schedule is from Sept 1, 2023.</p>' +
       '<p class="tq-small">Estimated: your driving hours are your guess; bus fares are advertised floors and averages, not booked fares; gas, insurance, tolls, airfare and the car itself are not counted.</p>';
   }
   var inputs = root.querySelectorAll('input, select');

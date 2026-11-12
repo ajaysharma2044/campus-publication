@@ -25,7 +25,7 @@ tools:
 - rent-split-calculator-unequal-rooms
 - ithaca-rent-commute-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://offcampushousing.ithaca.edu/city/ithaca-ny/listing/spring-27-and-full-year-leases-available-for-roommate-matching-foundation-housing-96176
@@ -34,7 +34,7 @@ sources:
 - url: https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/
   title: Cornell Daily Sun, 2018
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Cornell
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -52,10 +52,10 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
   title: Cornell Law
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Cornell
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Cornell
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
@@ -100,7 +100,9 @@ kind: spoke
 - Put in writing what happens if a housemate studies abroad, takes leave or drops out.
 ```
 
-Start with Cornell's Off-Campus Living email list and its Off-Campus Housing Marketplace, both on its [rental listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Most local leases make housemates jointly and severally liable, so if one person stops paying, the rest owe the full rent. Pick people you would trust with your share.
+Start with Cornell's Off-Campus Living email list and its Off-Campus Housing Marketplace, both on its [rental listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources). Most local leases make housemates jointly and severally liable, so if one person stops paying, the rest owe the full rent. Pick people you would trust with your share.
+
+This page is general information, not legal advice.
 
 ## Where do you find roommates for a Collegetown lease?
 
@@ -116,15 +118,15 @@ rows:
   - {label: "Check legal occupancy for the address, then sign"}
 ```
 
-**The Off-Campus Living email list.** Cornell runs it for housing, roommates and sublets, and it requires a NetID. Subscribe by sending a message with the subject "Join" and a blank body. Admitted students without a NetID forward the acceptance letter to offcampusliving@cornell.edu ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)).
+**The Off-Campus Living email list.** Cornell runs it for housing, roommates and sublets, and it requires a NetID. Subscribe by sending a message with the subject "Join" and a blank body. Admitted students without a NetID forward the acceptance letter to offcampusliving@cornell.edu ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)).
 
-**The Off-Campus Housing Marketplace.** It is Cornell's listing service, and only people who prove Cornell affiliation can view and contact landlords and subletters. Cornell advises viewing a property in person and reading the whole lease before you pay anything ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every source.
+**The Off-Campus Housing Marketplace.** It is Cornell's listing service, and only people who prove Cornell affiliation can view and contact landlords and subletters. Cornell advises viewing a property in person and reading the whole lease before you pay anything ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)). The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every source.
 
 **The Ithaca College portal.** It runs on the same platform and carries roommate-matching leases from Foundation Housing for spring 2027 and full years ([Ithaca College portal](https://offcampushousing.ithaca.edu/city/ithaca-ny/listing/spring-27-and-full-year-leases-available-for-roommate-matching-foundation-housing-96176)). A landlord who matches strangers still leaves you with strangers on your lease, so read whether it is a joint lease or by the room.
 
 **Your own networks.** A student told the Sun in 2018 that one email to a landlord through her sorority network was enough ([Cornell Daily Sun, 2018](https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/)).
 
-Off-Campus Living, at 607-255-2310, answers questions about leases and tenant-landlord problems ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)).
+Off-Campus Living, at 607-255-2310, answers questions about leases and tenant-landlord problems ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)).
 
 ## How does group size change the rent per person?
 
@@ -195,13 +197,13 @@ rows:
 
 ## What does joint and several liability mean?
 
-It means the landlord can hold any one tenant for the whole rent. Cornell says most local leases bind housemates "jointly and severally": each is responsible for housemates' rent and damages for the term, and breaking the lease has consequences, mostly in money ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). A tenant who overpays can sue a co-tenant for contribution, and small claims go up to $5,000 in Ithaca City Court ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). A signed, written split is your best evidence of what each person owed. Mediation is at the Community Dispute Resolution Center, 607-273-9347 ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)).
+It means the landlord can hold any one tenant for the whole rent. Cornell says most local leases bind housemates "jointly and severally": each is responsible for housemates' rent and damages for the term, and breaking the lease has consequences, mostly in money ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)). A tenant who overpays can sue a co-tenant for contribution, and small claims go up to $5,000 in Ithaca City Court ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)). A signed, written split is your best evidence of what each person owed. Mediation is at the Community Dispute Resolution Center, 607-273-9347 ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)).
 
 Say four friends sign a 4BR at the median, about $4,985 for the unit (1,246.25 times 4). One leaves in January with no replacement. The other three owe the full $4,985, about $1,661.67 each, or $415.42 more a month apiece. An oral lease over one year is barred by the Statute of Frauds, and a written-changes clause bars most oral changes, so get any promise to let someone out in writing ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)).
 
 ## What should you ask a possible housemate before you sign?
 
-Cornell's housemate questionnaire covers study hours, music and TV, silence, smoking, smells, alcohol, guests and cleanliness. It asks how each of you handles a bad mood and confronting people, who manages expenses (student or parent), whether you will share a car and whether there is a legal limit on occupants. It also asks what happens if a housemate takes leave, transfers or studies abroad, and it gives no answer ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)).
+Cornell's housemate questionnaire covers study hours, music and TV, silence, smoking, smells, alcohol, guests and cleanliness. It asks how each of you handles a bad mood and confronting people, who manages expenses (student or parent), whether you will share a car and whether there is a legal limit on occupants. It also asks what happens if a housemate takes leave, transfers or studies abroad, and it gives no answer ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)).
 
 New York law gives three answers. Write your group's version down before signing:
 

@@ -56,7 +56,7 @@ sources:
 - url: https://registrar.cornell.edu/students/credit-evaluation-services
   title: Credit Evaluation Services, Cornell University Registrar
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
@@ -110,7 +110,7 @@ images:
 In fall 2026, Cornell moved transfers into their rooms on [Tuesday, August 18, the day after first-years](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation), and New Student Orientation ran August 18 to 23. Transfers attend the [same required programs as first-years](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation), plus small groups and socials of their own. Fall 2027 dates are not posted yet, so plan on the 2026 pattern: arrive in mid-August, about a week before classes.
 
 ```reader "If you're a sophomore transfer living on campus"
-Your move-in slot is the one you picked in the Housing and Dining Portal after you signed your license. You can [change it until August 1](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). In 2026 transfers moved in August 18, then went straight into orientation through August 23. Go to your college's program, Community at Cornell, the Orientation Leader meetings and Cornell's Caring Community; those are required. Go to the transfer small groups too. The costly mistake is skipping the Re-Entry Term Checklist in Student Center: it puts a [hold on your enrollment](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/creating-your-schedule) the week you need to add classes.
+Your move-in slot is the one you picked in the Housing and Dining Portal after you signed your license. You can [change it until August 1](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process). In 2026 transfers moved in August 18, then went straight into orientation through August 23. Go to your college's program, Community at Cornell, the Orientation Leader meetings and Cornell's Caring Community; those are required. Go to the transfer small groups too. The costly mistake is skipping the Re-Entry Term Checklist in Student Center: it puts a [hold on your enrollment](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/creating-your-schedule) the week you need to add classes.
 ```
 
 ```reader "If you're a parent of a transfer"
@@ -126,7 +126,7 @@ Junior entrants are [exempt from the on-campus requirement](https://scl.cornell.
 ```
 
 ```reader "If you're a veteran or non-traditional transfer"
-Cornell says non-traditional students [may skip some optional orientation events](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation). The required list still applies: your college's program, Community at Cornell, Orientation Leader meetings and Cornell's Caring Community. You will not be alone: [23 transfer veterans entered in fall 2026](https://news.cornell.edu/node/333429). Cornell lists [support for non-traditional students, veterans and student families](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation/beyond-first-week) beyond the first week. If you live on campus, Veterans House is a [Program House you can choose by name](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) on the housing application.
+Cornell says non-traditional students [may skip some optional orientation events](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation). The required list still applies: your college's program, Community at Cornell, Orientation Leader meetings and Cornell's Caring Community. You will not be alone: [23 transfer veterans entered in fall 2026](https://news.cornell.edu/node/333429). Cornell lists [support for non-traditional students, veterans and student families](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation/beyond-first-week) beyond the first week. If you live on campus, Veterans House is a [Program House you can choose by name](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) on the housing application.
 ```
 
 ## Move-in and orientation, day by day (the 2026 pattern)
@@ -221,7 +221,7 @@ Two Sun pieces show why the first weeks matter. Spring 2023 transfers told the p
 ## Common mistakes
 
 - **Booking travel for first-year move-in.** In 2026 that was August 17; transfers moved in August 18. Plan the trip around the 18th.
-- **Missing the August 1 timeslot change.** After that date your [move-in slot is fixed](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process), whatever your flight says.
+- **Missing the August 1 timeslot change.** After that date your [move-in slot is fixed](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process), whatever your flight says.
 - **Leaving the Re-Entry Term Checklist undone.** It triggers an enrollment hold in the week you need to add classes. Spring 2023 transfers told the Sun that [popular classes were already full](https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/) when they could enroll; a hold makes that worse.
 - **Skipping the MATH CASE with a 4 on AP Calculus BC.** Engineering gives no credit for it, so the cost is a full semester of MATH 1910.
 - **Trusting the undated arrival page.** Its August 19 and 20 dates are from an earlier year.
@@ -233,7 +233,7 @@ Two Sun pieces show why the first weeks matter. Spring 2023 transfers told the p
 
 **When will fall 2027 orientation dates come out?** Families get orientation information [in early May](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation), and the dates go up on the [NSO page](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation).
 
-**Can I choose my move-in time?** Yes, within transfer day: you pick a timeslot in the Housing and Dining Portal after signing your license, [changeable until August 1](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process).
+**Can I choose my move-in time?** Yes, within transfer day: you pick a timeslot in the Housing and Dining Portal after signing your license, [changeable until August 1](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process).
 
 **When is the first break, for booking a trip home?** In 2026-27 fall break ran [October 10 to 13 and Thanksgiving break November 25 to 29](https://registrar.cornell.edu/calendars-exams/academic-calendar).
 

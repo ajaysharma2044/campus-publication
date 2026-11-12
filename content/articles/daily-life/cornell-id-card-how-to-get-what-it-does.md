@@ -7,7 +7,7 @@ primary_query: how to get Cornell ID card and what it does
 topic: daily-life
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 249
 rewrites: ''
 readers:
@@ -20,19 +20,25 @@ tools: []
 sources:
 - url: https://registrar.cornell.edu/students/services/id-cards
   title: ID Cards, Office of the University Registrar, Cornell
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free
   title: Non-First-Year Cornell Students No Longer Able to Access TCAT for Free, The Cornell Daily Sun, Nov. 3, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/contactless-payment
   title: GET My Card, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/city-bucks
   title: City Bucks, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/manage-your-account
+  title: Manage Your Account, Cornell Dining
+  accessed: '2026-11-11'
+- url: https://c2cbus.ipp.cornell.edu/Start.aspx
+  title: Campus to Campus reservations, Cornell Transportation
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Inside a TCAT bus in Ithaca, looking toward the front door and the farebox beside the driver's seat
@@ -62,17 +68,17 @@ Your Cornell ID card is replaced at the Registrar's ID card office, 245 Day Hall
 
 The Student ID card office is in 245 Day Hall, open Monday through Thursday from 9 a.m. to 1 p.m. and from 2 p.m. to 4 p.m. ([Cornell Registrar](https://registrar.cornell.edu/students/services/id-cards)). It is closed on Fridays and over the lunch hour, so plan your visit around those gaps.
 
-The Registrar's page does not give the steps for a new student's first card, such as photo upload or how pickup works ([Cornell Registrar](https://registrar.cornell.edu/students/services/id-cards)). Check that page or call 607-255-4232 before you go, and bring a photo ID of your own.
+First cards and replacements come from the same office, in person. With a question before you go, call the Registrar at 607-255-4232 (phone hours are Monday through Friday, 10 a.m. to 1 p.m. and 2 p.m. to 4 p.m.) or email univreg@cornell.edu ([Cornell Registrar](https://registrar.cornell.edu/students/services/id-cards)).
 
 ## What does a replacement Cornell ID cost?
 
-A replacement costs $40, and the office does not issue temporary cards ([Cornell Registrar](https://registrar.cornell.edu/students/services/id-cards)). That matters because the card does several jobs at once. Until the new one arrives you pay your own way on buses and rely on other ways to pay in dining rooms.
+A replacement costs $40, charged to your Bursar account, and Cornell has no temporary ID card ([Cornell Registrar](https://registrar.cornell.edu/students/services/id-cards)). That matters because the card does several jobs at once. Until the new one arrives you pay your own way on buses and rely on other ways to pay in dining rooms.
 
 If you lose it, report it to the Registrar at 607-255-4232 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Cornell Dining also tells students to report a lost card to the Registrar, so one call covers every use.
 
 ## What does the Cornell ID do?
 
-The card has four jobs. Each is a different office's rule, so the details live on separate pages.
+The card has four jobs, and each follows a different office's rules.
 
 | Use | What the ID does |
 |---|---|
@@ -81,21 +87,21 @@ The card has four jobs. Each is a different office's rule, so the details live o
 | City Bucks | Pays at participating Collegetown and Ithaca food businesses |
 | Cornell bus tickets | A photo ID is required to board a booked Campus to Campus bus |
 
-Source: Cornell Transportation, Cornell Dining and the Campus to Campus booking page.
+Source: [Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes), [Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/contactless-payment) and the [Campus to Campus booking page](https://c2cbus.ipp.cornell.edu/Start.aspx).
 
 ### Is the Cornell ID a TCAT bus pass?
 
 Yes. New degree students get automatic unlimited TCAT rides with a Cornell ID, and Cornell calls them [free for all new students with a Cornell ID card](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). That covers first-year undergraduates, graduate and PhD students and transfers. The pass expires Aug. 31 for students who start in the fall and Dec. 31 for students who start in the spring.
 
-After that year, you ride free on weekday evenings after 6 p.m. and all weekend. When the reader rejects your card at other times, a cash fare is $1.50. Drivers can override a rejected card. The details, including the mid-October 2024 change that ended free rides at all hours for students past their first year, are in our [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/).
+After that year, you ride free on weekday evenings after 6 p.m. and all weekend. When the farebox rejects your card, you may need to pay the $1.50 cash fare, and a bent or damaged card needs replacing before it works again ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). During free hours, drivers have been told to override a rejected ID ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). The details, including the mid-October 2024 change that ended free rides at all hours for students past their first year, are in our [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/).
 
-Cornell's Campus to Campus bus to New York City and Westchester is a different system. It takes a photo ID that matches the name on your reservation, and it books by NetID, so see the [Campus to Campus booking guide](/cornell/getting-around/cornell-c2c-bus-booking-fares-rules/) for fares and rules.
+Cornell's Campus to Campus bus to New York City and Westchester is a different system. The driver checks a [photo ID that matches the name on your reservation](https://c2cbus.ipp.cornell.edu/Start.aspx) before you board, and Cornell riders book with a NetID, so see the [Campus to Campus booking guide](/cornell/getting-around/cornell-c2c-bus-booking-fares-rules/) for fares and rules.
 
 ### Can your phone replace the physical card?
 
 For dining, yes. The GET app holds a barcode that replaces the physical ID at door checkers and cashiers for meal swipes and Big Red Bucks, and the self-serve payment terminals take cards, Apple Pay and Google Wallet ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/contactless-payment)). Set up the app once so a forgotten card does not cost you a meal.
 
-The bus is different. Cornell's page names the ID card, not an app, as the TCAT pass, so keep the card with you when you ride.
+The bus is different. Your TCAT pass is the ID card itself, swiped at the farebox ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)), so keep the card with you when you ride.
 
 ### What is City Bucks?
 
@@ -103,8 +109,8 @@ City Bucks is a separate declining balance on your Cornell ID for participating 
 
 ## What goes wrong with a Cornell ID?
 
-- **The bus reader rejects it.** Tell the driver, who can override the reader, or pay the cash fare. TCAT's general manager said magnetic-stripe cards work poorly with the fareboxes ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)).
-- **The card is lost on a Friday.** The ID office is closed Fridays, but the Registrar's phone line is still the place to report it.
+- **The bus reader rejects it.** Tell the driver, who can override the farebox during free hours, or pay the cash fare. A change of TCAT fare system in 2024 caused a compatibility problem with Cornell IDs ([The Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)).
+- **The card is lost on a Friday.** The ID office is closed Fridays, but the Registrar's phone line, 607-255-4232, is open Friday from 10 a.m. to 1 p.m. and 2 p.m. to 4 p.m. ([Cornell Registrar](https://registrar.cornell.edu/students/services/id-cards)).
 - **Your first-year pass lapsed.** Your evening and weekend rides stay free, but daytime rides cost money again.
 
 ```reader "If you're a spring transfer or spring entrant"
@@ -112,7 +118,7 @@ Your pass ends in the middle of the school year, so plan your daytime bus budget
 ```
 
 ```reader "If you're a parent"
-Parents can add money to a student's dining account with the student's NetID and the name exactly as it appears on the ID card ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/manage-your-account)). A mismatch in the name is the usual reason a deposit fails. Ask your student to confirm the spelling printed on the card.
+Parents can add money to a student's dining account with the student's NetID and the name exactly as it appears on the ID card ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/manage-your-account)). Ask your student to confirm the spelling printed on the card.
 ```
 
 ## What to do next

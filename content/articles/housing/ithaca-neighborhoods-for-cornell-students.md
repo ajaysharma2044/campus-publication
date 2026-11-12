@@ -28,7 +28,7 @@ sources:
 - url: https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/
   title: Cornell Students Sleep On Sidewalk for Cheaper, More Desirable Leases, The Cornell Daily Sun, Sept. 19, 2019
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -37,10 +37,10 @@ sources:
 - url: https://ithacarenting.com/downtown/
   title: Downtown properties and prices, Ithaca Renting Company
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
@@ -166,7 +166,7 @@ sources:
 - url: https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/
   title: Ithaca landlords must now give renters 120 days before renewing leases, WSKG, April 7, 2022
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
@@ -204,7 +204,7 @@ Down the hill, the same company's downtown apartments draw no such line. On Nov.
 
 That gap is the story of where Cornell students live. Ithaca is a hill, a flat valley and a city line. The hill sets how long your walk to class is. The valley sets how much cheaper your bed is. The city line sets which rules protect you. Ten areas sit on that map, from Collegetown out to Lansing, West Hill and Varna. Cornell's neighborhoods page covers all but Northside and Varna.
 
-Cornell's residence hall double costs $13,744 for the 2026-27 academic year, with gas, electricity, garbage and internet included ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Spread over a 12-month lease, that is $1,145.33 a month. Juniors and seniors are not guaranteed a campus room ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process)). About 95% of graduate and professional students live in housing Cornell does not own ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
+Cornell's residence hall double costs $13,744 for the 2026-27 academic year, with gas, electricity, garbage and internet included ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Spread over a 12-month lease, that is $1,145.33 a month. Juniors and seniors are not guaranteed a campus room ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process)). About 95% of graduate and professional students live in housing Cornell does not own ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
 
 ## The 10 areas side by side
 
@@ -221,7 +221,7 @@ Cornell's residence hall double costs $13,744 for the 2026-27 academic year, wit
 | West Hill | Across the inlet, northwest along the lake | 4 miles | Inconvenient, Cornell says | Route 14 to downtown, then transfer | No area-wide figure published | Check each address; the Town holds much of it | Year-round residents |
 | Varna | East of campus on Dryden Road (Route 366) | Not listed by Cornell | Not listed | Not listed | No published figure | No; Town of Dryden | Grad and professional students at Ivy Ridge |
 
-Sources: distances and Cornell's walk times from [Cornell's neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods); other walk times are EduExplained calculations at 3 mph (20 minutes a mile); rents, routes and city-line status from the sources cited in each section below.
+Sources: distances and Cornell's walk times from [Cornell's neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods); other walk times are EduExplained calculations at 3 mph (20 minutes a mile); rents, routes and city-line status from the sources cited in each section below.
 
 ## Why the map looks like this
 
@@ -235,7 +235,7 @@ Charlie O'Connor, who runs Modern Living Rentals, put the result plainly to The 
 
 ## Ring one: Collegetown
 
-Collegetown is the closest area and the priciest. It sits against the southwest edge of campus, 0.1 to 0.5 miles away. Cornell calls the area a miniature city of shops and restaurants. It also warns that the crowd of mostly undergraduate renters pushes up rent, noise and traffic. From lower Collegetown, the walk to class is uphill, and Cornell puts the longest walk at 15 minutes ([Cornell neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)).
+Collegetown is the closest area and the priciest. It sits against the southwest edge of campus, 0.1 to 0.5 miles away. Cornell calls the area a miniature city of shops and restaurants. It also warns that the crowd of mostly undergraduate renters pushes up rent, noise and traffic. From lower Collegetown, the walk to class is uphill, and Cornell puts the longest walk at 15 minutes ([Cornell neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
 The cheapest beds are in the biggest units. Ithaca Renting posts per-bed prices for the 2027-28 lease year. The median bed costs $800 a month in a six-bedroom, $1,246.25 in a four-bedroom and $2,025 for a one-bedroom alone ([EduExplained dataset](/datasets/collegetown-vs-downtown-rent-per-bed-2026/)). A median is the middle price when all the listed prices are lined up. For the full side-by-side with Fall Creek and downtown, see [Collegetown vs Fall Creek vs downtown](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/).
 
@@ -359,7 +359,7 @@ Cornell budgets $19,962 for a year of housing for Ithaca graduate students in 20
 
 The single most useful thing to know about an address is which government it sits in. The Town of Ithaca calls itself a donut, with the City of Ithaca as the hole ([Town of Ithaca](https://townithacany.gov/welcome-new-resident-guide/)). An "Ithaca, NY 14850" mailing address covers many places. The Town's own pages put the count at nine on one page and 12 or more on another. Its [address checker](https://townithacany.gov/address-verification/) tells you which one you are in.
 
-Inside the City, three protections follow you. A landlord must give current tenants 120 days' written notice before renewing a lease or showing the unit to others. The rule covers leases of nine months or longer. A tenant can waive it only with bold, initialed language on the lease's first page ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). Cornell and the City's Building Division run an online safety tool that shows sprinklers, alarms and construction type for City rentals. It leaves out properties beyond the city limits ([Cornell safety page](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)). And Good Cause Eviction applies, with the new-building exemption above.
+Inside the City, three protections follow you. A landlord must give current tenants 120 days' written notice before renewing a lease or showing the unit to others. The rule covers leases of nine months or longer. A tenant can waive it only with bold, initialed language on the lease's first page ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). Cornell and the City's Building Division run an online safety tool that shows sprinklers, alarms and construction type for City rentals. It leaves out properties beyond the city limits ([Cornell safety page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). And Good Cause Eviction applies, with the new-building exemption above.
 
 Outside the City, other offices take over. The Town of Ithaca issues its own operating permits for buildings with three or more units, and keeps a registry for rented single-family homes ([Town of Ithaca](https://townithacany.gov/operating-permits/)). The Town does not pick up trash, so tenants or landlords hire a hauler (Town of Ithaca). Cayuga Heights, Lansing and Dryden each run their own code offices. Our guide to [City of Ithaca vs Town, Lansing and Cayuga Heights](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) goes rule by rule.
 
@@ -479,11 +479,11 @@ For the whole off-campus process, start with our [Cornell off-campus housing gui
 ## Sources
 
 - [Cornell Students Sleep On Sidewalk for Cheaper, More Desirable Leases](https://cornellsun.com/2019/09/19/cornell-students-sleep-on-sidewalk-for-cheaper-more-desirable-leases/), The Cornell Daily Sun, Sept. 19, 2019
-- [Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods), Cornell Student & Campus Life
+- [Ithaca Neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods), Cornell Student & Campus Life
 - Ithaca Renting Company price pages: [Collegetown](https://ithacarenting.com/collegetown/) and [downtown](https://ithacarenting.com/downtown/)
 - [Collegetown vs downtown rent per bed, 2026](/datasets/collegetown-vs-downtown-rent-per-bed-2026/), EduExplained dataset
-- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates), Cornell Student & Campus Life
-- [Current Undergraduate Application Process](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process), Cornell Student & Campus Life
+- [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), Cornell Student & Campus Life
+- [Current Undergraduate Application Process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process), Cornell Student & Campus Life
 - [Graduate and Professional Student Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing), Cornell Student & Campus Life
 - [Graduate cost of attendance, 2026-27](https://finaid.cornell.edu/graduate-students), Cornell Financial Aid
 - [As Cornell Requires University Housing for Sophomores, Students Weigh Options](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/), The Cornell Daily Sun, Nov. 9, 2021
@@ -522,6 +522,6 @@ For the whole off-campus process, start with our [Cornell off-campus housing gui
 - [Building Issues and Maintenance](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance), Cornell Law School Tenants Advocacy Program
 - Town of Ithaca: [New Resident Guide](https://townithacany.gov/welcome-new-resident-guide/), [Address Verification](https://townithacany.gov/address-verification/) and [Operating Permits](https://townithacany.gov/operating-permits/)
 - [Ithaca landlords must now give renters 120 days before renewing leases](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/), WSKG, April 7, 2022
-- [Safe Living Environments](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments), Cornell Student & Campus Life
+- [Safe Living Environments](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments), Cornell Student & Campus Life
 - [Bus Services, Privileges and OmniRide Passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes), Cornell Facilities and Campus Services
 - [Bus Commuting](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting), Cornell Campus Sustainability Office

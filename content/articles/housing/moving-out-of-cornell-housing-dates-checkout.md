@@ -18,10 +18,10 @@ readers:
 subject: Cornell residence hall move-out day
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice
@@ -30,7 +30,7 @@ sources:
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar, Cornell University Registrar
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and shipping options, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
@@ -66,19 +66,19 @@ Source: Cornell winter closing notice, the 2026-27 housing license and the Regis
 
 The [winter notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice) says only residents approved for winter break housing can stay. A late-departure request goes through the Housing and Dining Portal with your name, room and reason. Classes start Jan. 26, and the winter fee is charged per hour, not prorated ([notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)).
 
-For spring, the 2026-27 license says you vacate by 2 p.m. on the last day of the term ([2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)). The last day of the term is May 22. Finals run May 15 to 22 ([Cornell Registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar)). In 2026, residence halls closed at 2 p.m. on Sunday, May 17, which means the closing day does not always match the last day of finals, so read your closing notice when it comes.
+For spring, the 2026-27 license says you vacate by 2 p.m. on the last day of the term ([2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027)). The last day of the term is May 22. Finals run May 15 to 22 ([Cornell Registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar)). In 2026, residence halls closed at 2 p.m. on Sunday, May 17, which means the closing day does not always match the last day of finals, so read your closing notice when it comes.
 
-Graduating students get extended occupancy through the day after Commencement at no charge ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Graduating students get extended occupancy through the day after Commencement at no charge ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ## What does late checkout cost?
 
-The license lists the charges. Late check-out costs $50 per hour, a lockout costs $15, and a temporary card not returned after 72 hours costs $25 ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Occupancy outside your license period costs $60 per day ([2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)).
+The license lists the charges. Late check-out costs $50 per hour, a lockout costs $15, and a temporary card not returned after 72 hours costs $25 ([2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Occupancy outside your license period costs $60 per day ([2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027)).
 
 ## What happens to things you leave behind?
 
-Property you do not remove within 24 hours of check-out is deemed abandoned, according to the [2026-27 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027). Cornell housing has no storage for students' belongings, and the license says so directly.
+Property you do not remove within 24 hours of check-out is deemed abandoned, according to the [2026-27 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027). Cornell housing has no storage for students' belongings, and the license says so directly.
 
-If you will not carry it home, use the storage and shipping options. Cornell's preferred vendor, Big Red Shipping and Storage, has worked as Student & Campus Life's vendor for more than 40 years and runs year-round. In spring 2026, items left without a resident present were donated after 2 p.m. on May 17 ([Cornell storage and shipping options](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options)). Compare vendors, prices and pickup rules in the [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
+If you will not carry it home, use the storage and shipping options. Cornell's preferred vendor, Big Red Shipping and Storage, has worked as Student & Campus Life's vendor for more than 40 years and runs year-round. In spring 2026, items left without a resident present were donated after 2 p.m. on May 17 ([Cornell storage and shipping options](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)). Compare vendors, prices and pickup rules in the [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
 
 ## How do you plan your move-out week?
 
@@ -99,7 +99,7 @@ Your license ends at the date above, so the apartment cannot start before then u
 ```
 
 ```reader "If you're giving up your housing for next year"
-Cancelling a license has its own fee schedule ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Use the [housing license cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) to see what you would owe.
+Cancelling a license has its own fee schedule ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). Use the [housing license cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) to see what you would owe.
 ```
 
 <!-- ad-break -->

@@ -7,7 +7,7 @@ primary_query: ithaca apartment utilities cost per month
 topic: money
 school: cornell-university
 type: cost
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 57
 queue_id: q-money-0017
 rewrites: content/articles/money/ithaca-utilities-cost-winter-heating-bill-apartment-students.md
@@ -69,10 +69,10 @@ sources:
 - url: https://www.greystar.com/maplewood-ithaca-ny/p_15697
   title: Maplewood, Greystar
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
@@ -130,7 +130,7 @@ rows:
 ```
 Sources: NYS Department of Public Service, EnergySage, ISPReports, City of Ithaca. Per-person rows are the whole-house totals divided by four.
 
-A winter month is $241.00 for gas ([state forecast](https://dps.ny.gov/winter)), $282.00 for electricity ([EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/)), $30.00 for internet ([ISPReports](https://ispreports.org/internet-service-providers-ithaca-ny/)) and $26.00 for trash ([City of Ithaca](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags)), or $579.00 for the house. Split four ways, that is $144.75 each. The rest of the year drops the heating bill, leaving $338.00 for the house, or $84.50 each. The gas you still use for cooking and hot water outside winter adds to that, and no public source gives a figure for it.
+A winter month is $241.00 for gas ([state forecast](https://dps.ny.gov/winter)), $282.00 for electricity ([EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/)), $30.00 for internet ([ISPReports](https://ispreports.org/internet-service-providers-ithaca-ny/)) and $26.00 for trash ([City of Ithaca](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags)), or $579.00 for the house. Split four ways, that is $144.75 each. The rest of the year drops the heating bill, leaving $338.00 for the house, or $84.50 each.
 
 Treat the electricity line as the high end. EnergySage puts the average Ithaca electric bill at $282 a month, or $3,384 a year, on 1,125 kilowatt-hours a month at 25 cents per kilowatt-hour ([EnergySage](https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/)). A kilowatt-hour is the unit your electric meter counts. The figures come from bills Ithaca residents shared while shopping for solar panels, and EnergySage says those households use more electricity than a typical one.
 
@@ -144,7 +144,7 @@ Gas heat runs nonstop from November through March. The [state's forecast](https:
 
 The heating bill shows up in whichever account runs the furnace. In a house with a gas furnace or boiler, winter spikes the gas bill. In a unit heated by electric baseboards, the spike lands on the electric bill instead. Ask a landlord which kind of heat a unit has before you sign. The answer tells you which bill will jump in January.
 
-Older and outlying houses cost more to heat. Cornell's guide to [Ithaca neighborhoods](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) warns renters about cottages on West Hill. It suggests calling NYSEG, the electric and gas utility for Ithaca, at (800) 572-1111 to ask for the average yearly heating bill at an address.
+Older and outlying houses cost more to heat. Cornell's guide to [Ithaca neighborhoods](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) warns renters about cottages on West Hill. It suggests calling NYSEG, the electric and gas utility for Ithaca, at (800) 572-1111 to ask for the average yearly heating bill at an address.
 
 ```reader
 If you're on a tight budget: ask NYSEG for balanced billing, which splits the year's costs into equal monthly payments so January doesn't swamp you. It does not lower the yearly total. HEAP, the federal Home Energy Assistance Program, helps income-eligible households with heating bills; call 1-800-342-3009. Both come from the [state's winter guide](https://dps.ny.gov/winter).
@@ -189,7 +189,7 @@ Trash in the City of Ithaca runs on tags. Each tag costs $6.00, or $36.00 for a 
 
 Some buildings charge a trash fee instead. Eddygate's $175 per person per year is about $14.58 a month. Collection days, snow shoveling and the other city rules are in [Ithaca's trash, snow and noise rules for renters](/cornell/housing/ithaca-trash-tags-snow-noise-rules-renters/).
 
-Whether water is in the rent depends on the landlord. Ithaca Renting includes it downtown, Kelvin Place includes water and sewer, and Urban Ithaca pays cold water at most of its listings. At 312 Farm St. in Fall Creek, a furnished one-bedroom at $1,545 a month adds water at $33 per person a month, or $396 a year, plus an $82 yearly recycling fee ([IthacaRents](https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell)). The city's own water and sewer rates aren't covered here, so if water is not in your rent, ask the landlord for last year's water bills.
+Whether water is in the rent depends on the landlord. Ithaca Renting includes it downtown, Kelvin Place includes water and sewer, and Urban Ithaca pays cold water at most of its listings. At 312 Farm St. in Fall Creek, a furnished one-bedroom at $1,545 a month adds water at $33 per person a month, or $396 a year, plus an $82 yearly recycling fee ([IthacaRents](https://www.ithacarents.com/4385-cute-furnished-1-br-apt-in-fall-creek-that-is-closest-to-cornell)). If water is not in your rent, ask the landlord for last year's water bills.
 
 ```figure
 kind: cost_table
@@ -249,7 +249,7 @@ If your landlord supplies heat, the landlord must keep the unit at least 68 degr
 
 ## How do you set up utilities before move-in?
 
-Cornell tells off-campus students to arrange utilities before move-in ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). Cornell's financial aid office adds that you pay utility, trash and cable companies directly, not through the Bursar ([Cornell Financial Aid](https://www.finaid.cornell.edu/living-campus)). That is different from a residence hall, where rates include gas, electricity, garbage and internet up to 200 GB a month ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
+Cornell tells off-campus students to arrange utilities before move-in ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)). Cornell's financial aid office adds that you pay utility, trash and cable companies directly, not through the Bursar ([Cornell Financial Aid](https://www.finaid.cornell.edu/living-campus)). That is different from a residence hall, where rates include gas, electricity, garbage and internet up to 200 GB a month ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ```figure
 kind: steps

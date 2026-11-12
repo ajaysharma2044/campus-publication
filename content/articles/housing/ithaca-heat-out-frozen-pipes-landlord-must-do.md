@@ -83,6 +83,8 @@ redirect_from:
 
 An Ithaca landlord must keep your apartment fit to live in, and that includes heat and running water. From Sept. 15 to May 31, the heat must hold at least 68F inside by day when it is below 55F outside, and 62F at night ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Put the complaint in writing first.
 
+This is general information, not legal advice.
+
 ## What heat and water must a landlord provide?
 
 Every residential lease in New York carries a promise called the warranty of habitability. The apartment and shared areas must be fit to live in and not dangerous to life, health or safety. Conditions the tenant caused do not count, and a lease clause that waives the right is void ([Real Property Law 235-b](https://www.nysenate.gov/legislation/laws/RPP/235-B)).
@@ -97,6 +99,8 @@ Cornell Law's guide lists what the promise covers: heat, hot and cold water, ele
 Source: Cornell Law School Tenants' Advocacy, building issues and maintenance, February 2026.
 
 Ithaca's season starts two weeks before the statewide one, which runs Oct. 1 to May 31 ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). A renter who moves in at the end of August is covered through a cold stretch in late September, with no need to wait for October to ask for heat.
+
+If your thermometer reads above the minimums, the apartment is legal and cold; see [how to stay warm in an old Ithaca apartment](/cornell/housing/surviving-ithaca-winter-old-apartment-drafty-house/).
 
 Check your lease for who pays for heat. Ithaca Renting includes heat and hot water at all its properties ([Ithaca Renting](https://ithacarenting.com/collegetown/)). A four-bedroom at 174 Kendall Ave. lists the resident as paying for electricity and heat ([Ithacarents listing](https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom)). If you pay the fuel bill, the cost side is in our [winter heating bill guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/).
 
@@ -173,6 +177,4 @@ A landlord who stops paying the utility bill triggers advance notice for tenants
 
 ## What to do next
 
-Photograph your thermostat, save the lease section on repairs and put the Building Division number in your phone. If a building is ordered emptied, read our [vacate order guide](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/). Planning a first off-campus year? Start with our [guide for juniors and seniors renting](/cornell/housing/off-campus-housing-cornell-juniors-seniors-renting/).
-
-This page is general information, not legal advice.
+Photograph your thermostat, save the lease section on repairs and put the Building Division number in your phone. If a building is ordered emptied, read our [vacate order guide](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/). Planning a first off-campus year? Start with our [guide for juniors and seniors renting](/cornell/housing/off-campus-housing-cornell-juniors-seniors-renting/). For the rest of the season, from snow days to the sidewalk out front, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).

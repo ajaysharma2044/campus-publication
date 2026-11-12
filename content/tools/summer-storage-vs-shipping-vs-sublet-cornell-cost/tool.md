@@ -16,8 +16,8 @@ sources:
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/226-B", title: "New York State Senate: Real Property Law section 226-B, right to sublease or assign", accessed: "2026-11-10"}
   - {url: "https://drydensouth.com/availability/", title: "Dryden South: Availability", accessed: "2026-11-10"}
   - {url: "https://www.ourbus.com/colleges/ithaca-ny-c-cornell-university", title: "OurBus: OurBus for Cornell University", accessed: "2026-11-10"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options", title: "Cornell Student & Campus Life: Storage and shipping options", accessed: "2026-11-10"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell Student & Campus Life: Academic year housing license 2027-2028", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options", title: "Cornell Student & Campus Life: Storage and shipping options", accessed: "2026-11-10"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell Student & Campus Life: Academic year housing license 2027-2028", accessed: "2026-11-10"}
 redirect_from:
   - /cornell/housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/
   - /housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/
@@ -36,7 +36,7 @@ This calculator finds the cheapest way to get through a summer away from your It
 - **International students**, for whom shipping home is the costly option.
 - **Students without a car**, who can't easily reach a self-storage unit.
 
-Dorm residents should use the [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) instead. Cornell's housing license offers no storage and bars residents from subletting or transferring their room ([Cornell housing license 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Dorm residents should use the [move-out storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) instead. Cornell's housing license offers no storage and bars residents from subletting or transferring their room ([Cornell housing license 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```reader "If you're graduating or leaving Ithaca for good"
 Storage only delays the problem, so the choice is shipping, carrying, selling or donating. Price one-way shipping only. If your lease runs past your last day, [Cornell Law School's tenant guide](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease) says assigning the lease, which hands it over entirely, is generally better than subletting when you won't move back in, because it ends your liability for the new tenant's rent and damage. In a building of four or more units, the landlord can refuse an assignment without cause; if that refusal is unreasonable, you can be released from the lease on 30 days' notice ([RPL 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)).
@@ -47,7 +47,7 @@ Your time away runs four or five months, past BRSS's 3 to 4 month term, so ask B
 ```
 
 ```reader "If you're an international student"
-Shipping abroad costs the most once BRSS adds its international and customs fees. Store in Ithaca, or leave your things in a sublet room if your lease runs all summer. You must be present for a BRSS pickup ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options)), so book a slot before your flight date.
+Shipping abroad costs the most once BRSS adds its international and customs fees. Store in Ithaca, or leave your things in a sublet room if your lease runs all summer. You must be present for a BRSS pickup ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options)), so book a slot before your flight date.
 ```
 
 ## The inputs

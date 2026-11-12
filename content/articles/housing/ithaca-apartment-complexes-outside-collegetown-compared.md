@@ -88,7 +88,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student and Campus Life
   accessed: '2026-11-10'
 images:
@@ -133,7 +133,7 @@ Cornell gives the distances. The table adds what each area's complexes charge an
 | Lansing and Northeast | 2 to 3 miles straight line | Lansing West, Triphammer Apartments, The Meadows | Car or bus; garages and parking |
 | Varna | 1.85 miles straight line | Ivy Ridge Townhomes | Furnished townhomes |
 
-Source: [Cornell neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) and the listing pages linked below; straight-line distances are to Ho Plaza from the Ithaca marketplace inventory. The [Collegetown, Fall Creek and downtown guide](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/) covers the first three areas in depth.
+Source: [Cornell neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) and the listing pages linked below; straight-line distances are to Ho Plaza from the Ithaca marketplace inventory. The [Collegetown, Fall Creek and downtown guide](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/) covers the first three areas in depth.
 
 ## What do the downtown complexes cost?
 

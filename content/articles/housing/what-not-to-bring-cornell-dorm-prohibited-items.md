@@ -22,19 +22,19 @@ readers:
 subject: Toni Morrison Hall, North Campus, Cornell University, Ithaca
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/what-pack-what-not-bring
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring
   title: What to Pack & What Not to Bring, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads
   title: Community Living Standards for Undergrads 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue
   title: 301 College Avenue, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Off-Campus Living
   accessed: '2026-11-10'
 - url: https://mymicrofridge.com/
@@ -53,7 +53,7 @@ images:
 ---
 
 
-Leave candles, extension cords, toasters, air fryers, air conditioners, halogen lamps, hoverboards and any pet but fish at home. Cornell's fire marshal inspects dorm rooms and confiscates them ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/what-pack-what-not-bring)). The items students miss most are ordinary ones: a plain extension cord, a wall tapestry, an artificial plant.
+Leave candles, extension cords, toasters, air fryers, air conditioners, halogen lamps, hoverboards and any pet but fish at home. Cornell's fire marshal inspects dorm rooms and confiscates them ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring)). The items students miss most are ordinary ones: a plain extension cord, a wall tapestry, an artificial plant.
 
 ```glance
 - Leave home: candles, extension cords, toasters, air fryers, air conditioners, space heaters and hoverboards.
@@ -64,7 +64,7 @@ Leave candles, extension cords, toasters, air fryers, air conditioners, halogen 
 
 ## What can't you bring to a Cornell dorm?
 
-Cornell bans anything that could start a fire, set off a false alarm or block an exit. The rules live in three places: the packing page above, the [Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads) for 2026-27, and the [2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028), the contract every resident signs. The Community Living Standards cover first-year and second-year halls, program houses, upper-level halls and the West Campus House System.
+Cornell bans anything that could start a fire, set off a false alarm or block an exit. The rules live in three places: the packing page above, the [Community Living Standards](https://scl.cornell.edu/residential-life/housing/housing-details/community-rules-standards/community-living-standards-undergrads) for 2026-27, and the [2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028), the contract every resident signs. The Community Living Standards cover first-year and second-year halls, program houses, upper-level halls and the West Campus House System.
 
 | Category | Banned in your room | Allowed instead |
 |---|---|---|
@@ -84,7 +84,7 @@ Source: Cornell Student & Campus Life packing page, Community Living Standards 2
 
 ## What does the room already have?
 
-Every Cornell room comes with a Twin XL bed frame and mattress, a closet or wardrobe, a desk and chair, a dresser or drawers, drapes or blinds, and internet ([packing page](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/what-pack-what-not-bring)). That is why extra furniture is on the banned list. You cannot move Cornell's furniture out of the room without written permission, and Cornell has [no storage space](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028) for its furniture or yours. Sheets must fit an extra-long twin, which is 36 inches wide and 80 inches long. Most buildings have no air conditioning and some have no mirror, so a fan and a mirror are worth packing.
+Every Cornell room comes with a Twin XL bed frame and mattress, a closet or wardrobe, a desk and chair, a dresser or drawers, drapes or blinds, and internet ([packing page](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring)). That is why extra furniture is on the banned list. You cannot move Cornell's furniture out of the room without written permission, and Cornell has [no storage space](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028) for its furniture or yours. Sheets must fit an extra-long twin, which is 36 inches wide and 80 inches long. Most buildings have no air conditioning and some have no mirror, so a fan and a mirror are worth packing.
 
 ## Which ordinary items break the rules?
 
@@ -147,7 +147,7 @@ Cornell housing also bans weapons, smoking, underage alcohol, indoor sports gear
 
 ## What happens if an inspection finds a banned item?
 
-Staff take it. Cornell's fire marshal inspects rooms regularly and issues fines when a violation isn't fixed. A confiscated fire-safety item is held by your residence hall director for seven calendar days from the email notice. Pick it up within that window and ship it or take it off campus; after that, Cornell destroys or donates it. Alcohol, cannabis and weapons go to Cornell University Police or are thrown away. If an outside inspector fines Cornell because of your item, the [housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028) makes you pay the fine and any damage. Shipping an item home works the same way as move-out shipping, covered in our [storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
+Staff take it. Cornell's fire marshal inspects rooms regularly and issues fines when a violation isn't fixed. A confiscated fire-safety item is held by your residence hall director for seven calendar days from the email notice. Pick it up within that window and ship it or take it off campus; after that, Cornell destroys or donates it. Alcohol, cannabis and weapons go to Cornell University Police or are thrown away. If an outside inspector fines Cornell because of your item, the [housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028) makes you pay the fine and any damage. Shipping an item home works the same way as move-out shipping, covered in our [storage and shipping guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/).
 
 ## The packing checklist, in order
 
@@ -173,7 +173,7 @@ Many families wait and buy bedding, towels and storage bins in Ithaca, at The Co
 
 **Can I bring a car?** Cornell strongly discourages first-year students from bringing one, and first-years get a free TCAT bus pass. Our [first-year getting-around guide](/cornell/getting-around/getting-around-cornell-first-year/) explains the bus and walking options. If you do drive up, the [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers where to unload.
 
-**Do these rules apply to off-campus apartments?** No. An apartment's lease sets its own rules on smoking, pets, storage and alterations, so read that section before you sign. Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) lists those restrictions among the terms to check.
+**Do these rules apply to off-campus apartments?** No. An apartment's lease sets its own rules on smoking, pets, storage and alterations, so read that section before you sign. Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) lists those restrictions among the terms to check.
 
 **Is my stuff insured if it's damaged or stolen?** Not by Cornell. The housing license says the university's insurance doesn't cover personal property, and Cornell recommends renters insurance through GradGuard.
 

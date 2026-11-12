@@ -2,7 +2,7 @@
 title: "Can I live off campus at Cornell? 2026-27 eligibility quiz"
 meta: "Enter your year, transfer status, age, family and service: see if you may sign a lease, which Cornell exemption to file, and the cost of signing early."
 topic: housing
-updated: 2026-11-08
+updated: 2026-11-11
 numbers_as_of: 2026-11-08
 queue_id: q-housing-0061
 kind: tool
@@ -11,13 +11,13 @@ brief: intel/off-campus-housing/brief.md
 sources:
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing and Residential Life: residential policy", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing", title: "Cornell: requirements for qualified university-recognized campus housing", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process", title: "Cornell: off-campus housing search process", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process", title: "Cornell: off-campus housing search process", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates", title: "Cornell: housing for new transfer undergraduates", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell: 2026-27 housing rates", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028", title: "Cornell: academic year housing license 2027-2028", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing", title: "Cornell: cooperative housing", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing", title: "Cornell: qualified off-campus (affiliated) housing", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life directory", accessed: "2026-11-08"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement", title: "Cornell: qualified off-campus (affiliated) housing", accessed: "2026-11-08"}
+  - {url: "https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life directory", accessed: "2026-11-08"}
   - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown listings (2027-28)", accessed: "2026-11-08"}
 ---
 
@@ -53,7 +53,7 @@ The two-year requirement covers full-time, Ithaca-based first- and second-year s
 
 The exemptions: married; coming to Ithaca with legal dependents; veteran (not ROTC); 21 or older by the start of the academic year, or 16 or younger and living with a custodial parent or guardian all year; a transfer with two years of on-campus living at the previous school or matriculating as a junior or senior; a commuter living at least six months at a permanent home with a custodial parent or guardian within 25 miles. You request one in the Housing application while the exemption term is open (spring and fall), not after a housing license is signed, with documents if asked. It lasts one academic year. For 2026-27 every first- and second-year had to complete the Housing application by April 6, 2026, chapter-house residents included; Greek residents affirmed by March 15, 2026, and a sophomore must be a chapter member when the application is filed ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)).
 
-First- and second-year undergraduates "should not sign a lease unless they have an approved exemption" ([search process](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)), and those who neither meet the requirement nor get an exemption "will still be billed for the full year" ([requirements page](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
+First- and second-year undergraduates "should not sign a lease unless they have an approved exemption" ([search process](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)), and those who neither meet the requirement nor get an exemption "will still be billed for the full year" ([requirements page](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
 
 The formula for the cost of signing anyway: Cornell's room rate for the year + (rent per person x lease months). With the defaults: $13,744 + (12 x $1,246.25) = $13,744 + $14,955 = $28,699.
 
@@ -88,7 +88,7 @@ The formula for the cost of signing anyway: Cornell's room rate for the year + (
 - **Yes** means the requirement does not reach you that year. Nothing to file. If you hold a Cornell license, the fee schedule shows what cancelling costs.
 - **Not yet** means you match at least one exemption. Request it in the Housing application, wait for approval, then sign. Do it again next year.
 - **No** means that year is a residence hall (year one) or a hall, co-op or approved Greek or affiliated house (year two). The cost line shows what signing anyway would cost: Cornell's full-year bill plus every month of the lease.
-- **Probably** means you said you will not be full-time in Ithaca, which the requirement is written around. Confirm with Housing Operations (1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu, per the [Housing directory](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)) before you sign.
+- **Probably** means you said you will not be full-time in Ithaca, which the requirement is written around. Confirm with Housing Operations (1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu, per the [Housing directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)) before you sign.
 
 ## Related guides
 
@@ -96,7 +96,7 @@ The formula for the cost of signing anyway: Cornell's room rate for the year + (
 - [Who can live off campus at Cornell: the rule and exemptions](/housing/cornell-residential-requirement-exemptions-live-off-campus/)
 - [Cornell transfer housing: how it actually works](/housing/cornell-transfer-housing/)
 - [Off-campus housing for sophomores planning junior year](/housing/off-campus-housing-cornell-sophomores/)
-- [Cornell co-ops and Greek houses: cost and how to get in](/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
+- [Cornell co-op or Greek house instead of a dorm: how to join](/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
 - [Housing in Ithaca for Cornell students with families](/housing/cornell-student-family-housing-ithaca/)
 - [Off-campus housing at Cornell: a parent's guide](/housing/cornell-off-campus-housing-for-parents/)
 - [When to sign a Collegetown lease, and when waiting is fine](/housing/when-to-sign-collegetown-lease-cornell/)

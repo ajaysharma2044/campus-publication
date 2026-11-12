@@ -7,7 +7,7 @@ primary_query: does Cornell cancel classes for snow
 topic: daily-life
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 275
 rewrites: ''
 readers:
@@ -21,7 +21,10 @@ tools: []
 sources:
 - url: https://hr.cornell.edu/about/employment-policy-practice/employment-policies/inclement-weather
   title: Inclement Weather, Policy 8.2, Cornell Human Resources
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://policy.cornell.edu/policy-library/inclement-weather
+  title: Policy 8.2, Inclement Weather, Cornell University Policy Library
+  accessed: '2026-11-11'
 - url: https://emergency.cornell.edu/?p=5006
   title: Winter Storm Fern closure notice, Cornell Emergency Management
   accessed: '2026-11-10'
@@ -78,7 +81,7 @@ The March 2023 closure ran from 3 a.m. on March 14 to 3 a.m. on March 15. The fo
 
 ## How often does Cornell close for snow?
 
-Rarely, but more than it once did. These closures appear in the records behind this page.
+Rarely, but more than it once did.
 
 ```figure
 kind: timeline
@@ -97,7 +100,7 @@ The 2017 closure was the first for snow since 1993 ([The Cornell Daily Sun](http
 
 ## Do you make up the work?
 
-Under the current policy, no work is due for the day. In 2020, the university had a different approach that allowed required online makeups, announced by Executive Vice President Joanne DeStefano ([The Cornell Daily Sun](https://cornellsun.com/2020/12/02/snow-days-no-more-students-not-warming-to-cornells-new-policy-for-the-coldest-days/)). The HR policy page is undated, so confirm with your instructor whether a makeup applies to your course.
+Under the current policy, no work is due for the day. In 2020, the university had a different approach that allowed required online makeups, announced by Executive Vice President Joanne DeStefano ([The Cornell Daily Sun](https://cornellsun.com/2020/12/02/snow-days-no-more-students-not-warming-to-cornells-new-policy-for-the-coldest-days/)). Cornell's inclement weather policy, Policy 8.2, was last updated on Nov. 15, 2023 ([Cornell Policy Library](https://policy.cornell.edu/policy-library/inclement-weather)).
 
 ## What if the storm hits on a travel day?
 

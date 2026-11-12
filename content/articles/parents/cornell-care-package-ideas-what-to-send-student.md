@@ -9,7 +9,7 @@ updated: 2026-11-07
 queue_id: q-parents-0005
 sources:
   - {url: "https://scl.cornell.edu/residential-life/service-centers-and-mail/best-practices-mail-and-packages", title: "Best Practices: Mail and Packages, Cornell Student & Campus Life", accessed: "2026-11-07"}
-  - {url: "https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center", title: "Central Campus Service Center, Cornell Student & Campus Life", accessed: "2026-11-07"}
+  - {url: "https://web.archive.org/web/20251209224202/https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center", title: "Central Campus Service Center, Cornell Student & Campus Life", accessed: "2026-11-07"}
   - {url: "https://scl.cornell.edu/residential-life/student-service-centers", title: "Service Centers and Mail, Cornell Student & Campus Life", accessed: "2026-11-07"}
   - {url: "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring", title: "What to Pack and What Not to Bring, Cornell Student & Campus Life", accessed: "2026-11-07"}
   - {url: "https://scl.cornell.edu/residential-life/housing/community-centers/robert-purcell-community-center/amazon-lockers", title: "Amazon Lockers, Cornell Student & Campus Life", accessed: "2026-11-07"}
@@ -18,7 +18,7 @@ sources:
 images: []
 ---
 
-Send the box to the student's own service center, not a generic Cornell address, and put their NetID in the name line. Keep it to 50 pounds or less: that is the [Central Campus center's stated limit](https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center) and matches Cornell's move-in guidance, but check your student's own center page for its limit. Fill the box with shelf-stable food and things that fit a small dorm room, and leave out anything Cornell bans in residence halls: toasters, coffee pots, candles and extension cords. Below is what to put in, what to leave out, and how the box reaches the student.
+Send the box to the student's own service center, not a generic Cornell address, and put their NetID in the name line. Keep it to 50 pounds or less: that is the [Central Campus center's stated limit](https://web.archive.org/web/20251209224202/https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center) and matches Cornell's move-in guidance, but check your student's own center page for its limit. Fill the box with shelf-stable food and things that fit a small dorm room, and leave out anything Cornell bans in residence halls: toasters, coffee pots, candles and extension cords. Below is what to put in, what to leave out, and how the box reaches the student.
 
 ## How to address and ship it
 
@@ -35,15 +35,15 @@ rows:
 ```
 
 1. **Find the right service center.** Each unit has its own shipping address, listed on the [service centers page](https://scl.cornell.edu/residential-life/student-service-centers). The centers are North Campus, Central Campus, South Campus, the Graduate & Professional Student Service Center (which serves Hasbrouck) and the West Campus house offices. The simplest route is to have your student send you the exact address from their housing portal.
-2. **Use the NetID.** Cornell says the NetID is [the key information used to process mail](https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center), and leaving it off can slow the box or send it back. Here is the Central Campus format, as Cornell shows it. This is the Central Campus address only; the other centers have their own addresses on their pages.
+2. **Use the NetID.** Cornell says the NetID is [the key information used to process mail](https://web.archive.org/web/20251209224202/https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center), and leaving it off can slow the box or send it back. Here is the Central Campus format, as Cornell shows it. This is the Central Campus address only; the other centers have their own addresses on their pages.
 
    > Your Name, NetID
    > 401 Willard Straight Hall
    > Cornell University
    > Ithaca, NY 14853
-3. **Stay at 50 pounds or under.** The Central Campus center [accepts packages of 50 pounds or less](https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center). Cornell's packing advice for move-in is to [ship in as few boxes as possible, each under 50 pounds](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring). That is the limit we can source; look at your student's own center page for theirs.
+3. **Stay at 50 pounds or under.** The Central Campus center [accepts packages of 50 pounds or less](https://web.archive.org/web/20251209224202/https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center). Cornell's packing advice for move-in is to [ship in as few boxes as possible, each under 50 pounds](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/moving-campus/what-pack-what-not-bring). That is the limit we can source; look at your student's own center page for theirs.
 4. **Tell the student it is coming.** They get an email from Student Mail Services when the package is processed, and the housing portal shows waiting parcels under [My Packages](https://scl.cornell.edu/residential-life/service-centers-and-mail/best-practices-mail-and-packages). If they have not had the email, it has not been processed, and Cornell tells students not to go and look before the notice.
-5. **Know the clock.** Packages are [held for seven days after processing and returned to the sender on the eighth day](https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center). A student heading home for a break should not get a box the week they leave.
+5. **Know the clock.** Packages are [held for seven days after processing and returned to the sender on the eighth day](https://web.archive.org/web/20251209224202/https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center). A student heading home for a break should not get a box the week they leave.
 
 ## Perishable food and delivery apps
 

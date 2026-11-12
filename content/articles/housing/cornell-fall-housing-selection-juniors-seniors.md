@@ -20,22 +20,22 @@ tools:
 - cornell-housing-license-cancellation-fee-calculator
 - when-to-sign-lease-timeline-cornell
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
   title: Housing License Cancellation Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process
   title: Current Undergraduate Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New Changes to Fall Housing Selection Leave Some Rising Juniors, Seniors Disappointed, The Cornell Daily Sun, Nov. 4, 2025
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -70,15 +70,15 @@ images:
 - Final 2027-28 room rates post in March 2027; prices shown at selection are projections.
 ```
 
-If you hold a Cornell room for 2027-28 but are weighing a lease, decide by Jan. 31, 2027, while canceling is still cheap ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)). If you got no room, join the waitlist, but keep looking at leases. Cornell does not promise juniors and seniors a bed.
+If you hold a Cornell room for 2027-28 but are weighing a lease, decide by Jan. 31, 2027, while canceling is still cheap ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy)). If you got no room, join the waitlist, but keep looking at leases. Cornell does not promise juniors and seniors a bed.
 
 ## How does Fall Housing Selection work for juniors and seniors?
 
-Fall Housing Selection is the October round in which rising juniors and seniors pick next year's campus room. For 2027-28, the application ran Sept. 1 to Sept. 27, 2026, in the Housing and Dining Portal ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Students who missed that deadline got no timeslot, the window when you pick your room, and went to the waitlist instead.
+Fall Housing Selection is the October round in which rising juniors and seniors pick next year's campus room. For 2027-28, the application ran Sept. 1 to Sept. 27, 2026, in the Housing and Dining Portal ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Students who missed that deadline got no timeslot, the window when you pick your room, and went to the waitlist instead.
 
-The round has three stages. Program houses, the themed communities such as the Holland International Living Center in Low Rise 8 or Ujamaa in Low Rise 10, pick first. Next comes Same Area selection, where you choose a new room in the part of campus you already live in. Last is Open Room selection, where anyone can take any open bed. Language House, Veterans House and the Sober Living Community also need a separate application ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+The round has three stages. Program houses, the themed communities such as the Holland International Living Center in Low Rise 8 or Ujamaa in Low Rise 10, pick first. Next comes Same Area selection, where you choose a new room in the part of campus you already live in. Last is Open Room selection, where anyone can take any open bed. Language House, Veterans House and the Sober Living Community also need a separate application ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
-"Same area" means one of three groups. North Campus residence halls and the Townhouses form one. The South Campus residence halls and the 301 College Avenue apartments form another. Each of the five West Campus houses counts as its own area. A roommate block, a group that selects together, holds up to five people ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+"Same area" means one of three groups. North Campus residence halls and the Townhouses form one. The South Campus residence halls and the 301 College Avenue apartments form another. Each of the five West Campus houses counts as its own area. A roommate block, a group that selects together, holds up to five people ([Fall Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
 ```figure
 kind: timeline
@@ -97,7 +97,7 @@ Source: Cornell Student & Campus Life, Fall Housing Selection for Rising Juniors
 
 ## Are juniors and seniors guaranteed Cornell housing?
 
-No. Cornell requires and guarantees housing only through the spring of a student's second year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process)). Juniors and seniors get whatever beds remain after first-years, new transfers and rising sophomores are placed.
+No. Cornell requires and guarantees housing only through the spring of a student's second year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process)). Juniors and seniors get whatever beds remain after first-years, new transfers and rising sophomores are placed.
 
 That squeeze showed in October 2025. Housing and Residential Life (HRL), the office that runs campus housing, told The Cornell Daily Sun that it had to balance upper-level interest against its duty to house younger students. One sophomore transfer drew a 7:30 p.m. timeslot on the last day. By then only triples in Clara Dickson Hall and doubles in Sheldon Court were left ([Cornell Daily Sun](https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed)).
 
@@ -109,7 +109,7 @@ The cancellation rule is what turns your room into a backup. You can hold a Corn
 
 ## How much does it cost to cancel a Cornell room?
 
-Canceling gets more expensive in four steps after January, ending at half your fall room charge. All requests go through the Housing and Dining Portal, and the fee is billed to your Bursar account. The 2027-28 housing license, the contract you agree to when you pick a room, uses the same schedule ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Canceling gets more expensive in four steps after January, ending at half your fall room charge. All requests go through the Housing and Dining Portal, and the fee is billed to your Bursar account. The 2027-28 housing license, the contract you agree to when you pick a room, uses the same schedule ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```figure
 kind: cost_table
@@ -123,7 +123,7 @@ rows:
 ```
 Source: Cornell Student & Campus Life, Housing License Cancellation Policy and Academic Year Housing License 2027-2028.
 
-The last step is the expensive one. At the 2026-27 double rate of $6,872 per semester, half is $3,436 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The real 2027-28 figure will not be known until final rates post in March 2027. Rates shown at selection are projections that still need approval from Cornell's president and Board of Trustees.
+The last step is the expensive one. At the 2026-27 double rate of $6,872 per semester, half is $3,436 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The real 2027-28 figure will not be known until final rates post in March 2027. Rates shown at selection are projections that still need approval from Cornell's president and Board of Trustees.
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -131,7 +131,7 @@ The last step is the expensive one. At the 2026-27 double rate of $6,872 per sem
 
 ## Should you keep your Cornell room or sign a Collegetown lease?
 
-Keep the room if you want a sure bed and the campus price fits your budget ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Sign a lease if you can share a house of six or more bedrooms, where a bed costs less than a double ([Ithaca Renting](https://ithacarenting.com/collegetown/)), or if you want a kitchen and a 12-month home. Either way, decide before the February fee jump in the table above.
+Keep the room if you want a sure bed and the campus price fits your budget ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Sign a lease if you can share a house of six or more bedrooms, where a bed costs less than a double ([Ithaca Renting](https://ithacarenting.com/collegetown/)), or if you want a kitchen and a 12-month home. Either way, decide before the February fee jump in the table above.
 
 The money depends on group size more than anything else. A residence hall double costs $13,744 for two semesters in 2026-27, with gas, electricity, trash and internet included. A bed at 202 Dryden Road, a 10-bedroom Ithaca Renting house, lists at $725 to $825 a month for 2027-28 ([Ithaca Renting](https://ithacarenting.com/collegetown/)). Twelve months at those rents is $8,700 to $9,900. A standard studio at Collegetown Center, 151 Dryden Road, lists at $1,695 to $1,750 a month, or $20,340 to $21,000 a year.
 

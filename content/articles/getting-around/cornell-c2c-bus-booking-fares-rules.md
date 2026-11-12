@@ -277,5 +277,5 @@ In the Dec 1-2, 2019 snowstorm, C2C kept running while OurBus cancelled most of 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the whole topic, from airports to TCAT to parking.
 - [NYC to Cornell by bus](/getting-around/nyc-to-cornell-bus-c2c-ourbus-flixbus-greyhound/): C2C against OurBus, FlixBus and Greyhound on price and stops.
 - [Getting to and around Cornell for parents and visitors](/getting-around/getting-around-cornell-parents-visitors/): airports, parking and taxis for a family visit.
-- [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, winter rules and where to leave the car over break.
+- [Cornell parking guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, winter rules and where to leave the car over break.
 - [Getting to Cornell and home as an international student](/getting-around/getting-to-cornell-international-students/): landing in New York and the bus up.

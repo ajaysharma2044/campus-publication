@@ -14,12 +14,12 @@ sources:
   - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown properties and prices", accessed: "2026-11-08"}
   - {url: "https://ithacarenting.com/downtown/", title: "Ithaca Renting: Downtown properties and prices", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell Housing and Residential Life: Housing rates", accessed: "2026-11-08"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods", title: "Cornell Housing and Residential Life: Ithaca neighborhoods", accessed: "2026-11-07"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods", title: "Cornell Housing and Residential Life: Ithaca neighborhoods", accessed: "2026-11-07"}
 ---
 
 At the same landlord, a bed downtown costs **about 20% to 28% less** than a bed of the same unit size in Collegetown. Ithaca Renting's median per-bed asking rent on 2026-11-08 was **$1,395 downtown vs $1,765 in Collegetown for a studio**, **$1,625 vs $2,025 for a 1BR** and **$992.50 vs $1,377.50 per person in a 2BR**. That is $370, $400 and $385 a month, or **$4,440 to $4,800 a year** per bed on a 12-month lease.
 
-Read the other way, Collegetown runs 26.5% (studio), 24.6% (1BR) and 38.8% (2BR) above downtown. Downtown's price is a 20 to 30 minute uphill walk to campus, or a bus ride ([Cornell neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)).
+Read the other way, Collegetown runs 26.5% (studio), 24.6% (1BR) and 38.8% (2BR) above downtown. Downtown's price is a 20 to 30 minute uphill walk to campus, or a bus ride ([Cornell neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
 One landlord with listings in both places takes out most of the differences between companies, so the gap here is mostly location. It is a comparison of asking prices, not of what tenants paid, and the two sides are not the same lease year (see Caveats).
 

@@ -22,7 +22,7 @@ subject: Risley Hall, North Campus, Cornell University, Ithaca
 tools:
 - cornell-housing-license-cancellation-fee-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus
   title: Moving In On Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
@@ -31,7 +31,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -40,7 +40,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college
@@ -55,7 +55,7 @@ sources:
 - url: https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm
   title: 'Beginning At Balch: Life At North Campus''s Newest Dorm, The Cornell Daily Sun (Oct. 2, 2024)'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/latino-living-center-llc
   title: Latino Living Center (LLC), Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/clara-dickson-hall
@@ -120,19 +120,19 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall
   title: Toni Morrison Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall
   title: 'Ganędagǫ: Hall, Cornell Student & Campus Life'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall
   title: Barbara McClintock Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall
   title: Hu Shih Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ruth-bader-ginsburg-hall
   title: Ruth Bader Ginsburg Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/
   title: From Leaky Showers to Lonely Suites, Student Residents Voice Concerns About New North Campus Dorms, The Cornell Daily Sun (Oct. 13, 2021)
   accessed: '2026-11-10'
@@ -160,19 +160,19 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
   title: Upper-level Undergraduate On-Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2004/05/06/dorm-disparities-cause-controversy/
@@ -186,6 +186,9 @@ sources:
   accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall
   title: "'Oasis on North Campus': Cornell Opens Sober Living Community in Court-Kay-Bauer Hall, The Cornell Daily Sun (Nov. 9, 2026)"
+  accessed: '2026-11-11'
+- url: https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion
+  title: Cornell University - North Campus Residential Expansion (NCRE), Welliver
   accessed: '2026-11-11'
 images:
 - file: 1.webp
@@ -207,11 +210,11 @@ images:
 - Rising sophomores pick rooms April 13 to 16, 2027; about one in five lands on West Campus.
 ```
 
-On Monday, Aug. 17, 2026, cars carrying Cornell's newest students lined up at A Lot on North Campus, the queue for first-year move-in ([Cornell Housing move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). From there, staff sent each car to a different curb. One went to the loading dock at Balch Hall. Another went to the spaces at Robert Purcell Community Center for Mary Donlon Hall. Another went to Program House Drive for Hu Shih Hall.
+On Monday, Aug. 17, 2026, cars carrying Cornell's newest students lined up at A Lot on North Campus, the queue for first-year move-in ([Cornell Housing move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). From there, staff sent each car to a different curb. One went to the loading dock at Balch Hall. Another went to the spaces at Robert Purcell Community Center for Mary Donlon Hall. Another went to Program House Drive for Hu Shih Hall.
 
 Almost none of those students picked their building. Cornell tells new students they "do not need to research and rank residence halls," because staff assign halls from the preferences each student gives ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)). That same page counts more than 3,000 new Cornellians living on North Campus each year.
 
-North Campus is a village built in five waves over 109 years, from a 1913 stone hall to three halls that opened in 2022. Cornell charges for all of it by room type, not by building ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). A double in a 1969 Low Rise with no air conditioning costs exactly what a double costs in a hall that opened in 2022. So the things that make one year feel different from another (the building's age, its layout, its cooling, its size and its community) are things money cannot buy here. A few choices can shape them: program house or not, room type, and in year two, how fast you move in a selection timeslot.
+North Campus is a village built in five waves over 109 years, from a 1913 stone hall to three halls that opened in 2022. Cornell charges for all of it by room type, not by building ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). A double in a 1969 Low Rise with no air conditioning costs exactly what a double costs in a hall that opened in 2022. So the things that make one year feel different from another (the building's age, its layout, its cooling, its size and its community) are things money cannot buy here. A few choices can shape them: program house or not, room type, and in year two, how fast you move in a selection timeslot.
 
 The stakes are real. Cornell requires first- and second-year students to live in university or affiliated housing, with a meal plan ([Cornell residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). A first-year in a double pays $21,398 for room and board in 2026-27. And a first-year cannot cancel the housing license to leave for a cheaper option.
 
@@ -252,7 +255,7 @@ Balch Hall followed in 1929, built for the growing number of women at Cornell. A
 
 Balch is also the newest old building on the hill. It closed for more than two years for a full renovation, its first in six decades. North Balch reopened in August 2024, and South Balch was set to follow in 2025 ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)). The work added an elevator in each of the building's four units and new windows. It also gave each room a thermostat for the first time. Wood paneling and doors from the old building went into the lounges, including pieces from the room where Ruth Bader Ginsburg lived as a student. Two first-years in the class of 2028 told The Cornell Daily Sun they felt more connected in an all-women's hall, and one said she planned to stay all four years ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)).
 
-Anna Comstock Hall took its name in 1940. It honors the first woman at Cornell to hold the rank of professor. Since 1994 it has been home to the Latino Living Center, a program house of 55 residents in suites ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc)).
+Anna Comstock Hall took its name in 1940. It honors the first woman at Cornell to hold the rank of professor. Since 1994 it has been home to the Latino Living Center, a program house of 55 residents in suites ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/latino-living-center-llc)).
 
 Clara Dickson Hall opened in 1946 as a women's residence. It is named for the mother of Andrew Dickson White, Cornell's co-founder and first president ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/clara-dickson-hall)). With 460-plus residents, it is one of the largest halls on North. Rooms run from singles to quints, which means five students in one room. Half of Dickson houses first-years and half houses sophomores.
 
@@ -296,7 +299,7 @@ Toni Morrison Hall and Ganędagǫ: Hall opened in 2021 with 800 beds. Barbara Mc
 
 The expansion made the two-year rule work. The first class bound by it entered in 2021, so fall 2022 was the first year sophomores had to live on campus or in affiliated housing ([Cornell Daily Sun](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/)). Tim Blair, executive director of housing and residential life, called it one phase of building a strong living and learning environment. Not every student agreed. One first-year in the class of 2025 said the rule "limits our independence." Others objected to the required meal plan.
 
-Toni Morrison Hall lists 306 residents ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)) and Ganędagǫ: Hall 564 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)). Barbara McClintock Hall lists 311 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall)), Hu Shih Hall 429 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall)) and Ruth Bader Ginsburg Hall 504 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ruth-bader-ginsburg-hall)). Those five counts add up to 2,114 people. That is more than the 2,000 student beds the plan promised, and close to the 2,075 it planned once staff and faculty beds are counted.
+These are Cornell Housing's resident counts. Toni Morrison Hall lists 306 residents ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)) and Ganędagǫ: Hall 564 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)). Barbara McClintock Hall lists 311 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall)), Hu Shih Hall 429 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall)) and Ruth Bader Ginsburg Hall 504 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ruth-bader-ginsburg-hall)). Welliver, the construction manager, counts beds instead and lists 314 for Toni Morrison and 577 for Ganędagǫ: ([Welliver](https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion)). Those five counts add up to 2,114 people. That is more than the 2,000 student beds the plan promised, and close to the 2,075 it planned once staff and faculty beds are counted.
 
 The names carry meaning. Ganędagǫ: (said "Gah-NEH-dah-go") is a Cayuga word meaning "it's on the hill," the old name for the land where Cornell's main campus sits. Cornell chose it with Cayuga leaders and its American Indian and Indigenous Studies Program ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall)). The other four honor Cornell alumni: Toni Morrison, the first African American woman to win the Nobel Prize in Literature; Barbara McClintock, a plant geneticist who won a Nobel Prize in 1983; Hu Shih, a Chinese scholar and diplomat; and Supreme Court Justice Ruth Bader Ginsburg.
 
@@ -334,7 +337,7 @@ Spend your effort on the program house box and on ranking room types by what you
 
 ## Corridor, suite or apartment
 
-Cornell sorts its rooms into three layouts ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). The layout shapes your day more than the decor does.
+Cornell sorts its rooms into three layouts ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)). The layout shapes your day more than the decor does.
 
 **Corridor style** means bedrooms open onto a hallway, and residents share bathrooms down the hall. Most of North is corridor style: Akwe:kon, Balch, Barbara McClintock, Clara Dickson, Court-Kay-Bauer, High Rise 5, Hu Shih, Jameson, Loving House, the Low Rises, Mary Donlon, Mews, McLLU, Risley and Ruth Bader Ginsburg. Some corridor halls have "privacy option" bathrooms, where each shower and toilet sits in its own room with a lock. Ecology House is corridor style too, but every room there has a private bathroom.
 
@@ -406,7 +409,7 @@ North has three dining rooms: Morrison Dining in Toni Morrison Hall, North Star 
 
 Sophomores still live on North, but in fewer buildings. Cornell lists Balch Hall, the north wing of Clara Dickson Hall, Ganędagǫ: Hall, Toni Morrison Hall and the Townhouse Apartments as North's upper-level halls, plus the program houses ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Low Rise 7 is open to women in all four years.
 
-Rising sophomores do not get assigned. They pick a room in a timed online selection, alone or in a block of up to five friends ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Timeslots are random, and joining a block neither helps nor hurts. Once you click a room, you have four minutes to claim it.
+Rising sophomores do not get assigned. They pick a room in a timed online selection, alone or in a block of up to five friends ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Timeslots are random, and joining a block neither helps nor hurts. Once you click a room, you have four minutes to claim it.
 
 ```figure
 kind: timeline
@@ -421,7 +424,7 @@ rows:
   - {label: "Open Room Selection", date: "April 13 to 16, 2027"}
 ```
 
-Source: Cornell Housing, Spring Housing Selection for Rising Sophomores. The page still shows some 2026 dates in its body; its heading and SDS deadline are for 2027-28, so plan on the 2027 dates and confirm them in the portal.
+Source: Cornell Housing, Spring Housing Selection for Rising Sophomores.
 
 The odds shape the choice. Cornell says more students want West Campus than it has room for, and about 20% of rising sophomores have gotten West Campus House System spaces in past years ([Cornell Housing FAQ](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)). Most sophomores live on North or South Campus. A student who misses their timeslot gets whatever room is left.
 
@@ -437,7 +440,7 @@ You can land anywhere: West, South or North, including North's program houses ([
 
 ## What it costs, and why every hall costs the same
 
-Cornell sets one rate table for its residence halls, program houses and West Campus houses ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The price follows the room type, not the building. Rates include gas, electricity, trash pickup and internet up to 200 GB a month. There is no security deposit.
+Cornell sets one rate table for its residence halls, program houses and West Campus houses ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The price follows the room type, not the building. Rates include gas, electricity, trash pickup and internet up to 200 GB a month. There is no security deposit.
 
 ```figure
 kind: cost_table
@@ -478,10 +481,10 @@ Cornell bills housing in August for fall and in December for spring; dining is b
 ```
 
 ```reader "If you're on a tight budget"
-Ask for a triple or a one-room quad, the cheapest room types on North, in your first-year application. Cornell says the Unlimited plan is fully covered by financial aid for eligible students. For year two, the eight Cornell co-ops cost far less than any North hall: a co-op double runs $3,487 to $4,981 a semester ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The [comparison with off-campus rent](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) shows what changes in junior year.
+Ask for a triple or a one-room quad, the cheapest room types on North, in your first-year application. Cornell says the Unlimited plan is fully covered by financial aid for eligible students. For year two, the eight Cornell co-ops cost far less than any North hall: a co-op double runs $3,487 to $4,981 a semester ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The [comparison with off-campus rent](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) shows what changes in junior year.
 ```
 
-Cornell's 2027-28 rates are projected until they are approved. Final rates post in March 2027 ([Cornell housing license 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The license is binding once signed. First-years and sophomores cannot cancel it to move off campus. Returning juniors and seniors can, for a fee that climbs from $50 through Jan. 31 to half the fall room rate after Aug. 15. If you hold a North room for junior year, such as a Townhouse, use the [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) before you sign a lease.
+Cornell's 2027-28 rates are projected until they are approved. Final rates post in March 2027 ([Cornell housing license 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The license is binding once signed. First-years and sophomores cannot cancel it to move off campus. Returning juniors and seniors can, for a fee that climbs from $50 through Jan. 31 to half the fall room rate after Aug. 15. If you hold a North room for junior year, such as a Townhouse, use the [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) before you sign a lease.
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -499,7 +502,7 @@ Your building matters here more than anywhere. HILC and Loving House residents s
 
 ## Moving in
 
-Move-in on North runs on timeslots and tickets ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus)). In 2026, first-years moved in on Monday, Aug. 17, transfers on Tuesday, Aug. 18, and upper-level students on Aug. 21 and 22. Your timeslot is for check-in, not unloading. Print your Move-In Ticket from the portal after Aug. 1. It shows where to park for three hours once your car is empty. Each building has its own unloading zone, such as the North Balch loading dock, the Robert Purcell lot for Donlon, Jameson, High Rise 5 and Ganędagǫ:, or the Helen Newman lot for Court-Kay-Bauer. Risley, Balch, Akwe:kon, Ecology House and the Latino Living Center have separate instructions. Rental trucks and trailers are turned away. Our [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) has the full routine.
+Move-in on North runs on timeslots and tickets ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus)). In 2026, first-years moved in on Monday, Aug. 17, transfers on Tuesday, Aug. 18, and upper-level students on Aug. 21 and 22. Your timeslot is for check-in, not unloading. Print your Move-In Ticket from the portal after Aug. 1. It shows where to park for three hours once your car is empty. Each building has its own unloading zone, such as the North Balch loading dock, the Robert Purcell lot for Donlon, Jameson, High Rise 5 and Ganędagǫ:, or the Helen Newman lot for Court-Kay-Bauer. Risley, Balch, Akwe:kon, Ecology House and the Latino Living Center have separate instructions. Rental trucks and trailers are turned away. Our [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) has the full routine.
 
 <!-- ad-break -->
 
@@ -531,7 +534,7 @@ Move-in on North runs on timeslots and tickets ([Cornell Housing](https://scl.co
 | Hu Shih Hall | Unloads on Program House Drive | 2022 | 429 | Singles, doubles, quads | Corridor, mixed-gender floors | Lake Source Cooling | First-years | $13,744 to $15,566 |
 | Ruth Bader Ginsburg Hall | Home of Novick's Café | 2022 | 504 | Singles, doubles, quads | Corridor, mixed-gender floors | Lake Source Cooling | First-years | $13,744 to $15,566 |
 
-Source: Cornell Housing hall and program house pages, Residence Hall Configurations and Housing Rates 2026-2027; opening years for 2021 and 2022 and Lake Source Cooling from the Cornell Chronicle; air conditioning in Court-Kay-Bauer and Mews from The Cornell Daily Sun (2019). Rate bands cover each hall's singles, doubles, triples and quads; a one-room quad is billed at the triple rate and a quad at the double rate.
+Source: Cornell Housing hall and program house pages (Residents column: Cornell Housing resident counts), Residence Hall Configurations and Housing Rates 2026-2027; opening years for 2021 and 2022 and Lake Source Cooling from the Cornell Chronicle; air conditioning in Court-Kay-Bauer and Mews from The Cornell Daily Sun (2019). Rate bands cover each hall's singles, doubles, triples and quads; a one-room quad is billed at the triple rate and a quad at the double rate.
 
 ## What comes next
 
@@ -577,10 +580,10 @@ rows:
 
 ## Sources
 
-- Cornell Student & Campus Life: [First-Year Undergraduates On-Campus Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing); [New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process); [Upper-level Undergraduate On-Campus Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing); [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores); [Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs); [Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy).
-- Cornell Student & Campus Life, rates and rules: [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates); [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028); [Residence Hall Configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations); [Winter Break Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing); [Moving In On Campus](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus); [Move-In Instructions for North Campus](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus).
+- Cornell Student & Campus Life: [First-Year Undergraduates On-Campus Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing); [New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process); [Upper-level Undergraduate On-Campus Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing); [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores); [Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs); [Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy).
+- Cornell Student & Campus Life, rates and rules: [Housing Rates 2026-2027](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates); [Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028); [Residence Hall Configurations](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations); [Winter Break Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing); [Moving In On Campus](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus); [Move-In Instructions for North Campus](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus).
 - Cornell Housing hall pages: [Balch](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall); [Barbara McClintock](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall); [Clara Dickson](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/clara-dickson-hall); [Court-Kay-Bauer](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/court-kay-bauer-hall); [Ganędagǫ:](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall); [High Rise 5](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/high-rise-5); [Hu Shih](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall); [Jameson](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/jameson-hall); [Low Rise 6](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/low-rise-6); [Low Rise 7](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/low-rise-7); [Mary Donlon](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall); [Mews](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mews-hall); [Ruth Bader Ginsburg](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ruth-bader-ginsburg-hall); [Toni Morrison](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall); [Townhouse Apartments](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/townhouse-apartments).
-- Cornell Housing program house pages: [Akwe:kon](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon); [Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house); [HILC](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc); [JAM](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam); [Language House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house); [Latino Living Center](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc); [Loving House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house); [McLLU](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu); [Risley](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college); [Sober Living Community](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community); [Ujamaa](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college).
+- Cornell Housing program house pages: [Akwe:kon](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon); [Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house); [HILC](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc); [JAM](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam); [Language House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house); [Latino Living Center](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/latino-living-center-llc); [Loving House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house); [McLLU](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu); [Risley](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college); [Sober Living Community](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community); [Ujamaa](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college).
 - Cornell Dining: [Undergraduate Meal Plans 2026-2027](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans); [Dining Rooms](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms); [Cafes, Food Courts and Coffeehouses](https://scl.cornell.edu/residential-life/dining/eateries-menus/cafes-food-courts-coffeehouses).
 - Cornell news: [Cornell welcomes students, marks milestone in residential life](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life), Cornell Chronicle, Aug. 15, 2022; [A peek inside Balch Hall as renovations near completion](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion), July 12, 2024; [Residential Improvement Project Underway](https://scl.cornell.edu/news-events/news/residential-improvement-project-underway), July 11, 2024; [New residence halls save energy with eco-friendly features](https://news.cornell.edu/stories/2021/09/new-residence-halls-save-energy-eco-friendly-features), Cornell Chronicle, Sept. 22, 2021.
 - The Cornell Daily Sun: [North Campus Grand Opening](https://cornellsun.com/2001/09/04/north-campus-grand-opening/), Sept. 4, 2001; [Dorm Disparities Cause Controversy](https://cornellsun.com/2004/05/06/dorm-disparities-cause-controversy/), May 6, 2004; [University Releases Full Plan to Expand North Campus](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/), Aug. 27, 2018; [Attention Freshman: The Backstory of Your New North Campus Home](https://www.cornellsun.com/article/2019/08/attention-freshman-the-backstory-of-your-new-north-campus-home), Aug. 24, 2019; [New North Campus Dorms Widen Housing Condition Disparities](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/), Sept. 9, 2021; [From Leaky Showers to Lonely Suites](https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/), Oct. 13, 2021; [As Cornell Requires University Housing for Sophomores, Students Weigh Options](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/), Nov. 8, 2021; [Beginning At Balch](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm), Oct. 2, 2024; [Unequal vs. Inequitable Housing](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same), April 29, 2026; ['Oasis on North Campus': Cornell Opens Sober Living Community in Court-Kay-Bauer Hall](https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall), Nov. 9, 2026.

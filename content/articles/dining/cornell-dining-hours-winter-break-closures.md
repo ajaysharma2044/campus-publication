@@ -50,6 +50,9 @@ sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/dining/eateries-menus/dining-rooms
   title: 'Cornell Dining: Residential dining rooms'
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
+  title: 'Cornell Dining: Terms and conditions 2026-2027'
+  accessed: '2026-11-11'
 - url: https://events.cornell.edu/event/annual-celebration-of-gratitude-dinner-on-thanksgiving-day-2026
   title: 'Cornell events calendar: Annual Celebration of Gratitude Dinner on Thanksgiving Day'
   accessed: '2026-11-11'
@@ -68,7 +71,7 @@ images:
 
 ```glance
 - Cornell Dining is closed from Dec. 25 through Jan. 1, so stock food before then.
-- Fall BRBs still work at open cafes and stores on other break days.
+- Fall BRBs work at open cafes and stores Dec. 21 to 24 and Jan. 4 to 18.
 - City Bucks can be added during the shutdown and spent off campus or on delivery.
 - Dining Now, not a search result, shows which eateries are open.
 ```
@@ -90,7 +93,7 @@ rows:
   - {label: "Spring meals end with dinner", date: "May 28, 2027"}
 ```
 
-Source: [Cornell Dining winter break page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining) and [deadlines and terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms).
+Source: [Cornell Dining winter break page](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining) and [2026-27 terms and conditions](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027).
 
 That leaves about 30 days between the last fall dining-room meal and the first spring one ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)).
 

@@ -20,25 +20,25 @@ subject: Balch Hall residence hall, North Campus, Cornell University, Ithaca
 tools:
 - cornell-housing-license-cancellation-fee-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy
   title: Housing License Cancellation Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses
   title: Rates, Amenities, & Licenses, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
@@ -47,7 +47,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: 'Living Off Campus: Tenant Best Practices, Cornell Student & Campus Life'
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/RPP/214
@@ -79,7 +79,7 @@ images:
 - Revocation means paying the whole year, no refund, plus a $500 fee.
 ```
 
-Your Cornell housing license is permission to live in a room Cornell assigns, not a lease. It creates no landlord-tenant relationship and requires no security or key deposit ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). It binds you for the whole academic year once you accept your room. First- and second-year students can cancel only in narrow cases.
+Your Cornell housing license is permission to live in a room Cornell assigns, not a lease. It creates no landlord-tenant relationship and requires no security or key deposit ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). It binds you for the whole academic year once you accept your room. First- and second-year students can cancel only in narrow cases.
 
 ## What does "revocable license, not a lease" mean?
 
@@ -99,13 +99,13 @@ Once it binds you, staying away does not end it. If you never move in, or move o
 
 Cornell also does not take residential-requirement exemption requests after you complete a signed housing license or during the license period ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). If you qualify for an exemption, apply before you accept a room. Who qualifies is covered in our [guide to residential requirement exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
-You also sign before the price is final. The 2027-28 rates shown at Fall Housing Selection are projections that still need approval from the university president and Board of Trustees. Final 2027-28 rates post in March 2027 (Cornell Housing License 2027-28). For scale, a residence hall double costs $6,872 per semester, $13,744 for 2026-27 ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+You also sign before the price is final. The 2027-28 rates shown at Fall Housing Selection are projections that still need approval from the university president and Board of Trustees. Final 2027-28 rates post in March 2027 (Cornell Housing License 2027-28). For scale, a residence hall double costs $6,872 per semester, $13,744 for 2026-27 ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 <!-- ad-break -->
 
 ## Who can cancel a Cornell housing license?
 
-Only returning juniors and seniors who have already met the two-year residential requirement can cancel for any reason. They must cancel before they check in, and they pay a fee that rises as the fall semester nears. Cornell changed the cancellation policy for all undergraduate licenses beginning in August 2026 ([Cornell Housing License Cancellation Policy](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-license-cancellation-policy)).
+Only returning juniors and seniors who have already met the two-year residential requirement can cancel for any reason. They must cancel before they check in, and they pay a fee that rises as the fall semester nears. Cornell changed the cancellation policy for all undergraduate licenses beginning in August 2026 ([Cornell Housing License Cancellation Policy](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-license-cancellation-policy)).
 
 First-years, new transfers and second-years cannot cancel. The license lists three exceptions. You can cancel if you are no longer attending Cornell, or if you applied for and got an exemption. Second-years can also cancel if a recognized sorority or fraternity house, an affiliated house or one of the eight Cornell-owned co-ops accepted them before the Spring Housing Selection deadline (Cornell Housing License 2027-28).
 
@@ -123,16 +123,16 @@ Source: Cornell Academic Year Housing License 2027-2028. The 2026-27 license use
 
 At the 2026-27 double rate, 50% of $6,872 is $3,436.00. For a single at $7,783 per semester, it is $3,891.50 (Cornell Housing Rates). A student who never checks in by the first day of classes, with no late-arrival plan, loses the room and is billed the same 50%.
 
-Students leaving for study away, an Engineering Co-op, an academic internship, a leave of absence, withdrawal or graduation have their own deadlines. They cancel without a fee by June 15, 2027, for fall and Dec. 1, 2027, for spring. A request after those dates costs $500. Under the 2026-27 license, the dates are June 15, 2026, and Dec. 1, 2026 ([Cornell Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)).
+Students leaving for study away, an Engineering Co-op, an academic internship, a leave of absence, withdrawal or graduation have their own deadlines. They cancel without a fee by June 15, 2027, for fall and Dec. 1, 2027, for spring. A request after those dates costs $500. Under the 2026-27 license, the dates are June 15, 2026, and Dec. 1, 2026 ([Cornell Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027)).
 
-After you move in, cancelling is Cornell's call. It can approve it if you withdraw, take a leave, start an internship or graduate mid-term. If it agrees, you pay a daily rate for each day you lived there and must turn in your keys within 24 hours ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+After you move in, cancelling is Cornell's call. It can approve it if you withdraw, take a leave, start an internship or graduate mid-term. If it agrees, you pay a daily rate for each day you lived there and must turn in your keys within 24 hours ([Cornell Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 The [Cornell housing license cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) shows the fee for any cancel date.
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
 ```reader "If you're a first-year, sophomore or new transfer"
-You cannot cancel to move off campus, so do not sign an Ithaca lease for this year. Cornell says first- and second-year students "should not sign a lease unless they have an approved exemption" ([Cornell Housing Search Process](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)). Students who skip the requirement without one ["will still be billed for the full year"](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing). New transfers live on campus for one academic year. Spring transfers stay for the spring semester and the following academic year ([Cornell New Transfer Undergraduates](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates)). Our [transfer housing guide](/cornell/housing/cornell-transfer-housing/) covers your room options.
+You cannot cancel to move off campus, so do not sign an Ithaca lease for this year. Cornell says first- and second-year students "should not sign a lease unless they have an approved exemption" ([Cornell Housing Search Process](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)). Students who skip the requirement without one ["will still be billed for the full year"](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing). New transfers live on campus for one academic year. Spring transfers stay for the spring semester and the following academic year ([Cornell New Transfer Undergraduates](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates)). Our [transfer housing guide](/cornell/housing/cornell-transfer-housing/) covers your room options.
 ```
 
 ```reader "If you're a junior or senior weighing an off-campus lease"
@@ -157,7 +157,7 @@ rows:
 ```
 Source: Cornell Academic Year Housing License 2027-2028.
 
-The occupancy period is the stretch of dates your license covers. For 2026-27, it ran from move-in on Aug. 17 to 22, 2026, through Dec. 20, 2026, then from Jan. 19 to May 23, 2027 ([Cornell Rates, Amenities & Licenses](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses)). Arriving early or staying late takes written approval, and Cornell grants extensions only in exceptional circumstances. Five approved days at $60 is $300.00. If winter break is the question, our guide to [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/) covers your options.
+The occupancy period is the stretch of dates your license covers. For 2026-27, it ran from move-in on Aug. 17 to 22, 2026, through Dec. 20, 2026, then from Jan. 19 to May 23, 2027 ([Cornell Rates, Amenities & Licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)). Arriving early or staying late takes written approval, and Cornell grants extensions only in exceptional circumstances. Five approved days at $60 is $300.00. If winter break is the question, our guide to [staying in Ithaca over Cornell breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/) covers your options.
 
 Check-out is 2 p.m. on the last day of the term. Each hour, or part of an hour, that you or your belongings stay past that costs $50. Two hours late is $100.00 (Cornell Housing License 2027-28).
 
@@ -195,7 +195,7 @@ The biggest gap is control. A lease gives you a fixed set of tenant rights. A li
 | Typical end date | May, or the day after Commencement for graduates | Most end July 31 |
 | Where charges go | Bursar account | Paid to the landlord |
 
-Source: Cornell Academic Year Housing License 2027-2028; NY General Obligations Law 7-108; NY Real Property Law 214; [Cornell Tenant Best Practices](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus); The Cornell Daily Sun.
+Source: Cornell Academic Year Housing License 2027-2028; NY General Obligations Law 7-108; NY Real Property Law 214; [Cornell Tenant Best Practices](https://scl.cornell.edu/residential-life/housing/living-off-campus); The Cornell Daily Sun.
 
 A lease has its own fine print to check: waivers, joint liability and sublet terms. Our guide on [how to read an Ithaca lease before signing](/cornell/housing/how-to-read-ithaca-lease-before-signing/) walks through each clause.
 

@@ -21,7 +21,7 @@ tools:
 - ithaca-sublet-request-timeline
 - ithaca-rent-commute-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -60,7 +60,7 @@ sources:
 - url: https://gradschool.cornell.edu/financial-support/stipend-rates/
   title: Stipend Rates, Cornell Graduate School
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental listings and resources, Cornell Off-Campus Living
   accessed: '2026-11-10'
 images:
@@ -119,7 +119,7 @@ rows:
 
 Source: median per-bed asking rents for 2027-28 on Ithaca Renting's Collegetown page, from our [Ithaca housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/); Cornell 2026-27 housing rates. Rents include heat and hot water; most tenants pay electricity.
 
-The benchmark is Cornell's residence hall double. It costs $6,872 per semester, or $13,744 for the 2026-27 academic year, with gas, electricity, garbage and internet included ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Cornell bills only the two semesters, so the double has no empty months.
+The benchmark is Cornell's residence hall double. It costs $6,872 per semester, or $13,744 for the 2026-27 academic year, with gas, electricity, garbage and internet included ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Cornell bills only the two semesters, so the double has no empty months.
 
 Spread over 12 months, the double equals $1,145.33 a month (13,744 / 12). Any off-campus bed above that costs more over a full lease, before you add electricity. For the full room-by-room comparison, see [whether off-campus is cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
 
@@ -150,7 +150,7 @@ rows:
 
 Source: Ithaca Renting 2027-28 Collegetown 4BR median; Cornell 2026-27 housing rates. Sublet rents are example inputs.
 
-The 4BR share drops below the double once your subtenant pays $605.50 a month or more. That is the $1,211 gap (14,955 - 13,744) split over two months ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+The 4BR share drops below the double once your subtenant pays $605.50 a month or more. That is the $1,211 gap (14,955 - 13,744) split over two months ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 A 2BR share at the median can't get there through a sublet. Its gap to the double is $2,786 (16,530 - 13,744), or $1,393 a month for two months. That is more than the $1,377.50 rent itself. A 6BR bed at $800 already costs less than the double, so a sublet is a bonus ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
 
@@ -185,7 +185,7 @@ Source: N.Y. Real Property Law 226-b clocks applied to an April 15 mailing. If y
 
 ```tool ithaca-sublet-request-timeline```
 
-Cornell's Off-Campus Housing Marketplace lets only people with a Cornell affiliation see and contact subletters, and Off-Campus Living runs an email list for sublets that needs a NetID ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). For the full process of finding a subtenant, read [how to sublet your Ithaca apartment for the summer](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/).
+Cornell's Off-Campus Housing Marketplace lets only people with a Cornell affiliation see and contact subletters, and Off-Campus Living runs an email list for sublets that needs a NetID ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)). For the full process of finding a subtenant, read [how to sublet your Ithaca apartment for the summer](/cornell/housing/cornell-summer-sublet-how-to-sublet-apartment-ithaca/).
 
 <!-- ad-break -->
 

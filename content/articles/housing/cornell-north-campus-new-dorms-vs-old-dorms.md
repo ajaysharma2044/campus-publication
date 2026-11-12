@@ -7,7 +7,7 @@ primary_query: cornell north campus new dorms vs old dorms
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 190
 rewrites: ''
 readers:
@@ -18,7 +18,7 @@ readers:
 subject: Cornell North Campus residence halls
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence hall configurations, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
@@ -36,7 +36,7 @@ sources:
 - url: https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/
   title: From leaky showers to lonely suites, The Cornell Daily Sun
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New undergraduate application process, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
@@ -45,15 +45,27 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter break housing, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-in instructions for North Campus, Cornell Student and Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same
   title: Unequal vs. inequitable housing, The Cornell Daily Sun
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall
+  title: 'Ganędagǫ: Hall, Cornell Student and Campus Life'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall
+  title: Toni Morrison Hall, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion
+  title: Cornell University - North Campus Residential Expansion (NCRE), Welliver
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall
+  title: Balch Hall, Cornell Student and Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Panorama of the North Campus Residential Expansion halls at Cornell, a row of new brick residence halls along a path
@@ -74,11 +86,11 @@ images:
 - First-years cannot rank halls; Cornell assigns them by random auto-allocation.
 ```
 
-Cornell's North Campus has two kinds of newer hall and many older ones. Ganędagǫ: and Toni Morrison are suite-style with air conditioning, and the 2022 halls are corridors. The older halls are corridors too, mostly without air conditioning. Room rates do not change by building, so the choice is about layout and comfort, not price ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Cornell's North Campus has two kinds of newer hall and many older ones. Ganędagǫ: and Toni Morrison are suite-style with air conditioning, and the 2022 halls are corridors. The older halls are corridors too, mostly without air conditioning. Room rates do not change by building, so the choice is about layout and comfort, not price ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is the difference between a suite and a corridor?
 
-A corridor hall has rooms along a hallway and shared bathrooms. A suite groups several bedrooms around a shared space. Cornell lists the layouts by hall ([Cornell residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)):
+A corridor hall has rooms along a hallway and shared bathrooms. A suite groups several bedrooms around a shared space. Cornell lists the layouts by hall ([Cornell residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)):
 
 - **Suite:** Ganędagǫ:, Toni Morrison, Language House and Anna Comstock Hall.
 - **Apartment:** the Townhouse Apartments.
@@ -93,27 +105,26 @@ Five buildings have room or temperature control, and many do not. Cornell's hall
 | Group | Halls |
 |---|---|
 | Air conditioning or temperature control | Toni Morrison, Ganędagǫ:, Balch (thermostat in each room), Townhouses (manual), Ecology House (manual) |
-| Air filtration, air conditioning not stated | Court-Kay-Bauer, Mews |
-| Not stated | McClintock, Hu Shih, Ruth Bader Ginsburg |
+| System-controlled air filtration | Court-Kay-Bauer, Mews |
 | No air conditioning | Risley, Comstock, Dickson, Donlon (lounge and library cooled), Low Rises 6 to 10, Jameson, High Rise 5, Akwe:kon |
 
 Source: Cornell hall pages, such as [Mary Donlon Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall), as of Nov. 10, 2026.
 
-At least 2,384 of the 5,659-plus listed residents, about 42%, live in buildings with no room air conditioning, a sum of the resident counts and air-conditioning notes on Cornell's hall pages, such as [Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall). For the three 2022 halls, the pages do not say, so ask Cornell Housing at housing@cornell.edu or 607-255-5368 before you count on it.
+At least 2,384 of the 5,659-plus listed residents, about 42%, live in buildings with no room air conditioning, a sum of the resident counts and air-conditioning notes on Cornell's hall pages, such as [Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall).
 
 ## How big are the halls?
 
-Size shapes the feel. Ganędagǫ: holds 564 residents and Toni Morrison 306. Among the 2022 halls, Ruth Bader Ginsburg holds 504, Hu Shih 429 and McClintock 311. The older halls range from Risley with 194 (opened 1913) and Balch with 230-plus (1929) to Clara Dickson with 460-plus (1946) and Mary Donlon with 450-plus (1961) (Cornell hall pages, such as [Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)).
+Size shapes the feel. These are Cornell Housing's resident counts: Ganędagǫ: holds 564 residents and Toni Morrison 306 ([Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall), [Toni Morrison Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). Welliver, the construction manager, lists beds instead, 577 and 314 ([Welliver](https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion)). Among the 2022 halls, Ruth Bader Ginsburg holds 504, Hu Shih 429 and McClintock 311. The older halls range from Risley with 194 (opened 1913) and Balch with 230-plus (1929) to Clara Dickson with 460-plus (1946) and Mary Donlon with 450-plus (1961) (Cornell hall pages, such as [Balch Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)).
 
 Balch deserves a second look. Its renovation was its first full one in six decades. North Balch reopened in August 2024, with an elevator in each of four units, new windows, HVAC vents and a thermostat in each room for the first time ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)).
 
 ## What do residents say?
 
-Early residents of the two 2021 halls liked the spacious rooms, hardwood floors, air conditioning and heating. They reported flooding shower drains and heavy, always-shut suite doors that made the halls less social, and all said the positives outweighed the negatives ([The Cornell Daily Sun, Oct. 13, 2021](https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/)). That is five years old. The fact set holds no newer resident reporting, so ask a current resident before you rank a hall.
+Early residents of the two 2021 halls liked the spacious rooms, hardwood floors, air conditioning and heating. They reported flooding shower drains and heavy, always-shut suite doors that made the halls less social, and all said the positives outweighed the negatives ([The Cornell Daily Sun, Oct. 13, 2021](https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/)). That reporting dates from 2021, so ask a current resident before you rank a hall.
 
 ## Can you choose between them?
 
-The answer changes with your year. A first-year cannot. Unless you apply to a program house, your hall comes from random auto-allocation, and students do not rank halls ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). Our [first-year start page](/start/first-year/) lists the deadlines.
+The answer changes with your year. A first-year cannot. Unless you apply to a program house, your hall comes from random auto-allocation, and students do not rank halls ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). Our [first-year start page](/start/first-year/) lists the deadlines.
 
 A sophomore can. The upper-level options on North Campus are Balch, Clara Dickson's north wing, Ganędagǫ:, Toni Morrison and the Townhouse Apartments, and Dickson's north wing is the upper-level part of that hall ([Cornell upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Our [sophomore start page](/start/sophomore/) covers the 2027-28 selection steps, and the [residential requirement guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) covers leaving campus.
 
@@ -127,7 +138,7 @@ Several newer halls stay open. For 2026-27 the list includes Ganędagǫ:, High R
 
 ## What about move-in?
 
-First-years moved in on Mon., Aug. 17, 2026, with transfers on Tue., Aug. 18 and upper-level students on Aug. 21 and 22. Ganędagǫ: residents unload at the Robert Purcell Community Center lot; the pages the fact set drew on do not name an unloading zone for Toni Morrison, so check the Move-In Ticket, which shows your assigned parking area ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). Our [move-in day guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) has the full plan.
+First-years moved in on Mon., Aug. 17, 2026, with transfers on Tue., Aug. 18 and upper-level students on Aug. 21 and 22. Ganędagǫ: residents unload at the Robert Purcell Community Center parking spaces and Toni Morrison residents at the Dickson Hall loading dock and lot unloading spaces; the Move-In Ticket shows your assigned parking area ([Cornell move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). Our [move-in day guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) has the full plan.
 
 ```reader "If you're a first-year"
 You will not pick a hall, so read the layout and air conditioning facts above as a preview of the halls you could be assigned. If air conditioning matters, ask Cornell Housing about it before your June confirmation.

@@ -30,7 +30,7 @@ sources:
   - {url: "https://registrar.cornell.edu/students/credit-evaluation-services", title: "Cornell Registrar: credit evaluation services", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment", title: "Tatkon Center: course enrollment for transfers", accessed: "2026-11-11"}
   - {url: "https://registrar.cornell.edu/calendars-exams/academic-calendar", title: "Cornell Registrar: academic calendar 2026-27", accessed: "2026-11-11"}
-  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process", title: "Cornell Housing: new undergraduate application process", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process", title: "Cornell Housing: new undergraduate application process", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Cornell Housing: residential policy", accessed: "2026-11-11"}
   - {url: "https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27", title: "Student Health Benefits: SHP costs and dates 2026-27", accessed: "2026-11-11"}
   - {url: "https://studenthealthbenefits.cornell.edu/node/179", title: "Student Health Benefits: waiver deadlines", accessed: "2026-11-11"}
@@ -85,7 +85,7 @@ After admission: housing within 10 days of getting your NetID; the Student Healt
 | Reply date | July 1 (Common Data Set; no transfer deposit deadline published) | 2025-26 | [CDS 2025-26](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf) |
 | AAP syllabi and coursework | Within 2 weeks of the offer | fall 2027 cycle | [AAP](https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/) |
 | Human Ecology major check; Dyson advisor meeting | June 8 to 30; July | page written for 2024 | [Tatkon college links](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links) |
-| Housing application | Within 10 days of getting a NetID; no fee, no deposit | 2026-27 | [Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) |
+| Housing application | Within 10 days of getting a NetID; no fee, no deposit | 2026-27 | [Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) |
 | Student Health Plan | $1,705 fall (new students, from Aug 1) + $2,046 spring = $3,751 in year one | 2026-27 | [Student Health Benefits](https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27) |
 | Health plan waiver deadline | July 31, 2026 for fall new admits | 2026-27 (spring new students: January 21, 2027) | [Student Health Benefits](https://studenthealthbenefits.cornell.edu/node/179) |
 | Exam credit request | Last day of instruction of the first Cornell semester; December 7 in fall 2026 | 2026-27 | [Registrar](https://registrar.cornell.edu/students/credit-evaluation-services), [calendar](https://registrar.cornell.edu/calendars-exams/academic-calendar) |

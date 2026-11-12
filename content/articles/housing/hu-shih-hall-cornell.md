@@ -22,10 +22,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall
   title: Hu Shih Hall, Cornell Student & Campus Life
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life
@@ -40,10 +40,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://news.cornell.edu/stories/2021/03/residence-hall-names-honor-mcclintock-hu-cayuga-nation
@@ -107,7 +107,7 @@ Hu Shih, Barbara McClintock and Ruth Bader Ginsburg halls were the final three b
 
 ## What is living in Hu Shih Hall like?
 
-Corridor style means your bedroom opens onto a hallway and you share a bathroom with the floor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). Most North halls work this way. Hu Shih shares its bike room with Barbara McClintock Hall, which has none of its own ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall)), so the two halls act like neighbors.
+Corridor style means your bedroom opens onto a hallway and you share a bathroom with the floor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)). Most North halls work this way. Hu Shih shares its bike room with Barbara McClintock Hall, which has none of its own ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall)), so the two halls act like neighbors.
 
 Cornell planned Hu Shih and the rest of the expansion's halls to be cooled through its district cooling system, which is anchored by Lake Source Cooling ([Cornell Chronicle](https://news.cornell.edu/stories/2018/09/display-visualizes-north-campus-residential-expansion)). Lake Source Cooling cools buildings with water from Cayuga Lake ([Cornell Chronicle](https://news.cornell.edu/stories/2021/09/new-residence-halls-save-energy-eco-friendly-features)).
 
@@ -115,7 +115,7 @@ The category rules for North halls, from room types to assignment, are in [North
 
 ## What does a room in Hu Shih Hall cost?
 
-Cornell sets one rate table by room type, so Hu Shih costs what any same-type room costs ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, trash pickup and internet, and there is no security deposit. First-years must also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Cornell sets one rate table by room type, so Hu Shih costs what any same-type room costs ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, trash pickup and internet, and there is no security deposit. First-years must also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -135,7 +135,7 @@ An apartment lease is a different bill. The [off-campus versus dorm comparison](
 
 You do not rank halls. Cornell asks new students to apply in the Housing and Dining Portal within 10 days of getting a NetID, and staff assign halls by random auto-allocation unless you apply to a program house ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process)). Confirmations start in mid-June. Some students receive a guaranteed-waitlist notice instead and learn their room later in summer.
 
-Once you sign the housing license, you are committed. First-years cannot cancel it to live off campus. The guide to [who can live off campus](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) lists the exemptions. Returning juniors and seniors can cancel a later license for a fee, and the calculator below shows the 2027-28 ladder ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Once you sign the housing license, you are committed. First-years cannot cancel it to live off campus. The guide to [who can live off campus](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) lists the exemptions. Returning juniors and seniors can cancel a later license for a fee, and the calculator below shows the 2027-28 ladder ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -149,7 +149,7 @@ The hall does not change the room rate, so the one lever on the housing bill is 
 
 ## What should you know about move-in day?
 
-In fall 2026, Cornell sent cars for Hu Shih to Program House Drive, one of several unloading zones on North, and turned away U-Hauls and trailers ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets, timing and where to wait.
+In fall 2026, Cornell sent cars for Hu Shih to Program House Drive, one of several unloading zones on North, and turned away U-Hauls and trailers ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets, timing and where to wait.
 
 ## What to do next
 

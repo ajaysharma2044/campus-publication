@@ -127,9 +127,9 @@ subject:
 
 ```glance
 - OurBus runs Cornell to Syracuse Hancock (SYR) six days a week; posted fares are $46.70 to $62.10 each way, Sunday cheapest (Nov 8, 2026).
-- The ride takes about 1 h 25 min to 2 h 05 min; Ithaca stops are on Jessup Rd, across from Baker Flagpole and the Cayuga St Garage.
+- The ride takes about 1 h 25 min to 2 h 05 min; Ithaca stops are on North Campus (Jessup Rd), West Campus (West Ave, across from Baker Flagpole) and at the Cayuga St Garage.
 - At SYR, follow Ground Transportation signs to the south taxi queue for the OurBus pickup.
-- Landing when no bus runs: prebook Big D's Limousines, 607-273-3030 ext 2; it prices each trip by quote.
+- Landing when no bus runs: prebook Big D's Limousines, 607-273-3030 ext 2, and ask the price when you book.
 - Driving is about 50 to 65 miles and 1 h 15 min to 1.5 h; SYR garage parking for a pickup is $10 for the first hour.
 - The free Student Assembly charters run to the airports after finals, not back; sign-up is on Campus Groups.
 ```
@@ -177,18 +177,18 @@ rows:
   - label: Get off in front of Robert Purcell Community Center, across from Baker Flagpole or at the Cayuga St Garage
 ```
 
-OurBus's route pages list three buses a day each way, with extra weekend trips when demand calls for them and different times on holidays ([OurBus](https://www.ourbus.com/routes/syracuseairport-to-ithaca)). For Sunday, Nov 15, 2026, the three buses from campus were scheduled to reach SYR at 11:40 a.m., 2:55 p.m. and 5:50 p.m. ([CheckMyBus](https://checkmybus.com/ithaca-ny/syracuse-ny-airport)). From SYR, the last bus in a Sunday, Nov 8 sample left at 8:00 p.m. ([CheckMyBus](https://www.checkmybus.com/syracuse-ny-airport/ithaca-ny)). The booking page shows each day's exact times.
+OurBus says extra trips may be added on weekends when demand calls for them ([OurBus](https://www.ourbus.com/routes/syracuseairport-to-ithaca)). For Sunday, Nov 15, 2026, the buses from campus were scheduled to reach SYR at 11:40 a.m., 2:55 p.m. and 5:50 p.m. ([CheckMyBus](https://checkmybus.com/ithaca-ny/syracuse-ny-airport)). From SYR, the last bus in a Sunday, Nov 8 sample left at 8:00 p.m. ([CheckMyBus](https://www.checkmybus.com/syracuse-ny-airport/ithaca-ny)). Check the booking page for each day's departures and exact times.
 
 ## How much each option costs
 
 | Option | Cost, one way | Time | Notes |
 |---|---|---|---|
-| OurBus direct | $46.70 to $62.10 posted; $48 and $51 in a Sun Nov 8 sample | 1 h 25 min to 2 h 05 min | Six days a week, three buses a day; Sunday cheapest |
+| OurBus direct | $46.70 to $62.10 posted; $48 and $51 in a Sun Nov 8 sample | 1 h 25 min to 2 h 05 min | Six days a week; Sunday cheapest; check the booking page for each day's buses |
 | Bus with a transfer | $32 in a Sun Nov 8 sample | About 3 h | Listed on [CheckMyBus](https://www.checkmybus.com/syracuse-ny-airport/ithaca-ny) |
-| Big D's Limousines | By quote | About 1 h 15 min by road | Call 607-273-3030 ext 2 ahead |
-| UberX | $120 average | About 1 h 15 min by road | [Uber's](https://www.uber.com/global/en/r/airports/syr/taxi/) 12-month average from SYR to Ithaca |
+| Big D's Limousines | Ask when booking | A private car ride; see driving times below | Call 607-273-3030 ext 2 ahead |
+| UberX | $120 average | By road; see the driving times below | [Uber's](https://www.uber.com/global/en/r/airports/syr/taxi/) 12-month average from SYR to Ithaca |
 | Drive or rent a car | Fuel, rental and parking | 1 h 15 min to 1.5 h | 50 to 65 miles |
-| Student Assembly charter | Free for undergraduates | About 1 h 15 min | Only to the airports, after finals |
+| Student Assembly charter | Free for undergraduates | By road; see the driving times below | Only to the airports, after finals |
 
 On the [Sunday Nov 8 sample](https://www.checkmybus.com/syracuse-ny-airport/ithaca-ny), the 8:00 p.m. bus was $48 and the 1:05 p.m. and 6:30 p.m. buses were $51 each, with three direct trips taking 1 h 35 min to 1 h 40 min.
 
@@ -200,7 +200,7 @@ To compare a whole trip through SYR against flying from Ithaca, with the ride an
 
 ## Car service and Uber
 
-Cornell's travel page lists [Big D's Limousines](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) for Syracuse to Ithaca trips, at 607-273-3030 ext 2. Cornell says its listings are a courtesy, not an endorsement. Big D's [own site](https://bigdslimos.com/) books a trip once you have a quote and sign its service agreement, and it lists a second number, 315-730-5931. Cornell's MBA page on living in Ithaca says ground transport from SYR [must be arranged in advance](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/).
+Cornell's travel page lists [Big D's Limousines](https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources) for Syracuse to Ithaca trips, at 607-273-3030 ext 2. Cornell says its listings are a courtesy, not an endorsement. Big D's [own site](https://bigdslimos.com/) says it serves Central New York, asks riders who already have a quote to sign its service agreement, and lists a second number, 315-730-5931. Cornell's MBA page on living in Ithaca says ground transport from SYR [must be arranged in advance](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/).
 
 Big D's is the answer for a late-night landing or a group splitting one car. For a solo rider, Uber's SYR page puts the average UberX fare to Ithaca at [$120 over the last 12 months](https://www.uber.com/global/en/r/airports/syr/taxi/).
 
@@ -249,7 +249,7 @@ Amtrak stops at the [William F. Walsh Regional Transportation Center, 1 Walsh Ci
 
 Snow can stop the Syracuse leg too. In a January 2019 storm, Cornell's own bus service [cancelled its Syracuse-to-Cornell run](https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/) that weekend, and the governor banned buses from most highways from Saturday at 3 p.m. until the storm ended. One student pushed his Syracuse-bound flight to Monday.
 
-If a storm is forecast for your landing day, change the bus early. OurBus lets you cancel or reschedule until 60 minutes before departure. Cancel more than 24 hours ahead and the ticket price goes back to the card you paid with; inside 24 hours it becomes OurBus credit. Booking and facility fees are not refunded ([OurBus FAQ](https://www.ourbus.com/faq)). Keep the Big D's number in your phone.
+If a storm is forecast for your landing day, change the bus early. OurBus lets you cancel or reschedule until 60 minutes before departure. Cancel more than 24 hours ahead and the ticket price goes back to the card you paid with; inside 24 hours it becomes OurBus credit. Booking fees are not refunded ([OurBus FAQ](https://www.ourbus.com/faq)). Keep the Big D's number in your phone.
 
 ## Common mistakes
 

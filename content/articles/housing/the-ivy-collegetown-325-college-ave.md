@@ -36,9 +36,12 @@ sources:
 - url: https://www.fingerlakes1.com/2025/04/25/ithaca-greenlights-major-collegetown-project-eyes-more/
   title: Ithaca greenlights major Collegetown project, Finger Lakes 1, April 25, 2025
   accessed: '2026-11-10'
-- url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
-  title: 209 Stewart Avenue listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+- url: https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless
+  title: Delayed Collegetown apartment opening leaves students homeless, The Cornell Daily Sun, Sept. 8, 2016
+  accessed: '2026-11-11'
+- url: https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed
+  title: 301 College Ave. opens for student housing, The Cornell Daily Sun, Sept. 7, 2026
+  accessed: '2026-11-11'
 - url: https://www.modernlivingrentals.com/
   title: Modern Living Rentals
   accessed: '2026-11-10'
@@ -83,7 +86,7 @@ For the category rules and how the building compares with older Collegetown hous
 
 Prices depend on the unit and the report. The Cornell Daily Sun reported 3-bedroom units at $5,500 to $5,800 a month in December 2025. Split three ways, that is $1,833.33 to $1,933.33 per person a month, or $22,000 to $23,200 per person over 12 months (5,500 / 3 x 12 and 5,800 / 3 x 12). The [Ithaca housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/) sets those figures against a residence hall double.
 
-The Ithaca Voice put 3-bedrooms at up to $4,900 a month in July 2026 ([Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/)). The two reports are seven months apart and the sources do not explain the gap, so ask Modern Living Rentals for the current price of the exact unit.
+The Ithaca Voice put 3-bedrooms at up to $4,900 a month in July 2026 ([Ithaca Voice](https://ithacavoice.org/2026/07/cornell-collegetown-construction/)). The two reports are seven months apart, so ask Modern Living Rentals for the current price of the exact unit.
 
 A Rentler listing updated July 2, 2026 shows how prices rise by floor. A one-bedroom, Unit 205, asks $2,700 per person, against $3,300 for a comparable unit on the eighth floor. The utility package is optional and costs $150 per person per month ([Rentler](https://www.rentler.com/places-for-rent/ny/ithaca/325-college-ave/13257148)).
 
@@ -97,14 +100,14 @@ For per-bed prices in older buildings, see [Collegetown rent prices per bed](/co
 
 Collegetown's new buildings lease early, and The Ivy did the same. Nearly all units were leased before construction finished (Cornell Daily Sun). One-bedrooms were spoken for in May 2026, before tours of finished units, and about 25% of apartments for the following year were leased shortly after opening, according to Celine Wang of Modern Living Rentals ([Tompkins Weekly](https://www.tompkinsweekly.com/news/three-new-developments-offer-different-answers-to-ithacas-housing-needs-30cfa148)).
 
-The best Collegetown units go within weeks, but the wider Ithaca market has supply much later. Check your own timing with the tool below.
+Check your own timing with the tool below.
 
 ```tool when-to-sign-lease-timeline-cornell
 ```
 
 ## What should you watch for?
 
-New buildings can open unfinished. Fontana at 327 Eddy St. put 50 or more students with Aug. 1 leases in a hotel until a September opening in 2016, and 301 College Ave. opened partly finished in August 2026 ([Cornell off-campus housing listings](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)). Ask when your unit's move-in date is guaranteed and what happens if it slips.
+New buildings can open late or unfinished. In 2016, Fontana Apartments at 327 Eddy St. delayed its opening five times, leaving more than 50 students with Aug. 1 leases without a home and the Trip Hotel on Sheraton Ave. as a stopgap ([Cornell Daily Sun](https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless)). Cornell's 301 College Ave. opened in August 2026 to 43 students while renovations were still under way ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)). Ask when your unit's move-in date is guaranteed and what happens if it slips.
 
 Modern Living Rentals' site advertises sublet and roommate openings from $900 per person, with no building named ([Modern Living Rentals](https://www.modernlivingrentals.com/)). Read the whole lease before signing, and check every fee. The [guide to reading an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) explains the clauses, and the [landlord reviews guide](/housing/how-to-check-an-ithaca-landlords-record/) covers what tenants report.
 

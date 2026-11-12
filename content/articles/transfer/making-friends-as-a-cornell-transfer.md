@@ -31,9 +31,6 @@ sources:
 - url: https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/
   title: Spring transfers start at Cornell mid-year and prepare for challenges ahead, The Cornell Daily Sun, January 26, 2023
   accessed: '2026-11-11'
-- url: https://admissions.cornell.edu/node/6748
-  title: Cornell Undergraduate Admissions, student Q&A
-  accessed: '2026-11-11'
 - url: https://cornellsun.com/2019/05/02/kim-what-it-means-to-be-a-transfer-at-cornell/
   title: 'Kim: What it means to be a transfer at Cornell, The Cornell Daily Sun, May 2, 2019'
   accessed: '2026-11-11'
@@ -49,7 +46,7 @@ sources:
 - url: https://cornellsun.com/2016/10/03/transfer-students-forced-to-live-in-north-campus-lounges/
   title: Transfer students forced to live in North Campus lounges, The Cornell Daily Sun, October 3, 2016
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
@@ -117,8 +114,8 @@ images:
 
 ```glance
 - Social connection came up in 7 of 7 dated first-hand transfer accounts from 2018 to 2025 (our count); it is the most common worry, not a rare one.
-- What worked, in students' own accounts: a summer group chat or Discord, orientation transfer small groups, college socials, West Campus house dinners, Program Houses and a few clubs.
-- Pick a Program House by name on the housing application; it is the one place you choose your building. More than 500 first-year and transfer students live in one.
+- What worked, in students' own accounts: a summer group chat, orientation transfer small groups, college socials, West Campus house dinners, Program Houses and a few clubs.
+- Pick a Program House by name on the housing application; it is the one place you choose your building. More than 500 first-year and transfer students live in Program Houses.
 - Transfers move in a day after first-years (August 18 versus August 17 in 2026); orientation ran August 18 to 23.
 - The first six weeks hold the Tatkon Block Party and CU Downtown; Cornell lists 1,000-plus student organizations.
 - Fraternities and sororities count 23% of men and 19% of women (fall 2025); about four in five students are not members.
@@ -135,7 +132,7 @@ Juniors are exempt from the residential requirement, so most rent in Collegetown
 ```
 
 ```reader "If you're a Transfer Option holder"
-Once your Transfer Option application is admitted, use the summer. Transfer Option admits [found their first friends in a large Discord of other Transfer Option students](https://admissions.cornell.edu/node/6748) over the summer, per Cornell's admissions Q&A, and another student there credited Big Red Welcome Fest. In 2020 an ILR Transfer Option student from Penn State [urged new transfers to message classmates](https://cornellsun.com/2020/12/09/lack-of-connection-marks-transition-to-cornell-for-transfers/). Expect upper-level housing grouped with other transfers where possible, not the first-year halls of the class you first applied with. The mistake that costs you most is skipping orientation events because you already know Cornell from visits.
+Once your Transfer Option application is admitted, use the summer to find your class's transfer group chat. In 2020 an ILR Transfer Option student from Penn State [urged new transfers to message classmates](https://cornellsun.com/2020/12/09/lack-of-connection-marks-transition-to-cornell-for-transfers/). Expect upper-level housing grouped with other transfers where possible, not the first-year halls of the class you first applied with. The mistake that costs you most is skipping orientation events because you already know Cornell from visits.
 ```
 
 ```reader "If you're a community college transfer"
@@ -143,12 +140,12 @@ Cornell's profile of four 2024 community college graduates quotes one, who worke
 ```
 
 ```reader "If you're a veteran or older transfer"
-Cornell's undergraduates averaged 19.7 years old in fall 2025, and [0.6% were 25 or older](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf). Your shortcut is Veterans House, a Program House you can [choose by name](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) on the housing application. 23 transfer veterans entered in fall 2026, per the [Cornell Chronicle](https://news.cornell.edu/node/333429). [Non-traditional students may skip some optional orientation events](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation), and the Tatkon Center lists support for veterans and student families after week one. The mistake: skipping the required events too, which are where transfers meet each other.
+Cornell's undergraduates averaged 19.7 years old in fall 2025, and [0.6% were 25 or older](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf). Your shortcut is Veterans House, a Program House you can [choose by name](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) on the housing application. 23 transfer veterans entered in fall 2026, per the [Cornell Chronicle](https://news.cornell.edu/node/333429). [Non-traditional students may skip some optional orientation events](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation), and the Tatkon Center lists support for veterans and student families after week one. The mistake: skipping the required events too, which are where transfers meet each other.
 ```
 
 ## Why transfers feel behind at first
 
-Transfers are a large group, not a handful. Cornell says [almost 15% of new incoming students are transfers](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process); 625 enrolled in fall 2025, per the [Common Data Set](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf). The problem is timing and place. First-years arrive together, live together on North Campus and bond in their first weeks. Transfers arrive a year or two later and are spread across West, South and Program Houses.
+Transfers are a large group, not a handful. Cornell says [almost 15% of new incoming students are transfers](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process); 625 enrolled in fall 2025, per the [Common Data Set](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf). The problem is timing and place. First-years arrive together, live together on North Campus and bond in their first weeks. Transfers arrive a year or two later and are spread across West, South and Program Houses.
 
 Our count of seven dated first-hand pieces from 2018 to 2025 (hand-picked, not random; Sun news skews negative and Cornell blogs positive) shows which worries recur:
 
@@ -175,13 +172,11 @@ The accounts describe the same feelings in different years:
 |---|---|---|
 | A transfer group chat | Fall 2020 transfers, [Sun, December 2020](https://cornellsun.com/2020/12/09/lack-of-connection-marks-transition-to-cornell-for-transfers/) | A transfer GroupMe had 350-plus members |
 | Messaging classmates | An ILR Transfer Option student from Penn State and a student from Maryland, 2020 | Message classmates; step outside your comfort zone |
-| A Transfer Option Discord | Transfer Option admits, [admissions Q&A](https://admissions.cornell.edu/node/6748) | First friends came from a large Discord over the summer |
-| Big Red Welcome Fest | Another student in the same Q&A | Credited it for early connections |
 | College socials at orientation | Spring 2023 transfers, [Sun, January 2023](https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/) | College-specific orientation socials helped |
 | West Campus house dinners, Tatkon, CUeLinks | Jessica Silverman, UCLA to Human Ecology, [about 2024](https://hecec.human.cornell.edu/?p=8161) | Recommended all three |
 | A summer visit and old friends | Rachel Eisenhart, ILR, [2025](https://www.cornellsun.com/article/2025/05/a-letter-to-incoming-transfer-students-what-no-one-tells-you) | Visit Ithaca in summer (Cascadilla Gorge, Collegetown coffee, a campus tour); keep old friends while making new ones |
 
-Advice that follows from the table: start before you arrive. Three of the seven routes (the group chat, the Discord, the summer visit) begin before move-in, and the college socials happen at orientation.
+Advice that follows from the table: start before you arrive. Two of the five routes (the group chat and the summer visit) begin before move-in, and the college socials happen at orientation.
 
 ## Step by step, from admission to week six
 
@@ -190,15 +185,15 @@ kind: timeline
 title: When to make your moves, fall 2026 pattern
 rows:
   - {label: "Housing application, list a Program House", date: "Within 10 days of your NetID"}
-  - {label: "Join the transfer group chat or Discord", date: "Summer"}
+  - {label: "Join the transfer group chat", date: "Summer"}
   - {label: "First-year move-in", date: "August 17, 2026"}
   - {label: "Transfer move-in", date: "August 18, 2026"}
   - {label: "New Student Orientation with transfer small groups", date: "August 18 to 23, 2026"}
   - {label: "Tatkon Block Party and CU Downtown", date: "First six weeks"}
 ```
 
-1. **Housing.** Apply [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). Halls are filled by random auto-allocation; Program Houses are the exception, so this is your one social choice on the form.
-2. **Summer.** Find your class's transfer chat. Students describe a GroupMe in 2020 and a Discord for Transfer Option admits.
+1. **Housing.** Apply [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process). Halls are filled by random auto-allocation; Program Houses are the exception, so this is your one social choice on the form.
+2. **Summer.** Find your class's transfer chat. Fall 2020 transfers described a GroupMe with 350-plus members.
 3. **Move-in and orientation.** In 2026 transfers moved in August 18 and [New Student Orientation ran August 18 to 23](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation). Orientation includes [transfer small groups and social events](https://scl.cornell.edu/families/first-year-families/transferfamilies), plus your college's required programs. Details: [transfer orientation and move-in](/transfer/cornell-transfer-orientation-move-in/).
 4. **The first six weeks.** The [Tatkon Center lists the Block Party and CU Downtown](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation/beyond-first-week) in this window. Cornell names [1,000-plus student organizations](https://scl.cornell.edu/families/first-year-families/transferfamilies); pick two and go back to them every week.
 5. **Somewhere to land.** The [Tatkon Center](https://scl.cornell.edu/get-involved/tatkon-center-new-students) sits in South Balch Hall, 600 Thurston Ave: open until 11 p.m. Sunday through Thursday (Wednesday closes 5 to 6 p.m.), until 5 p.m. Friday, closed Saturday; (607) 255-5808.
@@ -254,7 +249,7 @@ Fraternity and sorority members were [23% of men and 19% of women](https://irp.c
 
 **Who can I talk to if I feel isolated?** Your academic advisor, the Dean of Students and residence staff are [named for new students](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation/beyond-first-week) after the first week. Cornell's [transfer families page](https://scl.cornell.edu/families/first-year-families/transferfamilies) adds CAPS, the counseling service.
 
-**How long does it take to feel settled?** Eisenhart wrote that it took weeks, not semesters, to feel like a regular sophomore; Kim, in 2019, still needed maps but wrote of gratitude and perspective too.
+**How long does it take to feel settled?** Eisenhart wrote that you feel like a regular sophomore within weeks; Kim, in 2019, still needed maps but wrote of gratitude and perspective too.
 
 ## Related guides
 

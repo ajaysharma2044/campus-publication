@@ -5,7 +5,7 @@ primary_query: "cornell arts and sciences easy distribution courses"
 topic: academics
 school: cornell-university
 type: how-to
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-academics-0005
 sources:
   - {url: "https://as.cornell.edu/degree-requirements", title: "Degree Requirements, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
@@ -15,11 +15,12 @@ sources:
   - {url: "https://as.cornell.edu/news/arts-sciences-faculty-approve-new-curriculum", title: "Arts & Sciences faculty approve new curriculum, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
   - {url: "https://as.cornell.edu/news/how-complete-distribution-requirements-while-watching-music-videos", title: "How to Complete Distribution Requirements While Watching Music Videos, Cornell College of Arts & Sciences", accessed: "2026-11-07"}
   - {url: "https://www.cornellsun.com/article/2017/09/biweekly-jokes-for-everyday-folks-how-cornell-markets-liberal-arts", title: "Biweekly Jokes for Everyday Folks: How Cornell Markets Liberal Arts, The Cornell Daily Sun, September 4, 2017", accessed: "2026-11-07"}
+  - {url: "https://as.cornell.edu/registrar/transferring-credits", title: "Transferring Credits, Cornell College of Arts & Sciences", accessed: "2026-11-11"}
 images:
   - {file: "1.webp", alt: "Part of the Arts Quad at Cornell, with campus buildings and lawn", caption: "The Arts Quad, home of most College of Arts & Sciences classrooms.", credit: "P. Hughes / Wikimedia Commons", credit_url: "https://commons.wikimedia.org/wiki/File:Cornell_University_-_Partial_view_of_Arts_Quad.jpg", license: "CC BY-SA 4.0", license_url: "https://creativecommons.org/licenses/by-sa/4.0"}
 ---
 
-Nobody, including Cornell, publishes a trustworthy ranked list of the easiest Arts & Sciences distribution courses, and we will not invent one. What you can do is cut the work with the rules. You need [a minimum of 8 courses to cover all 10 distribution categories](https://as.cornell.edu/degree-requirements), because faculty can list a course under up to two categories and [up to two courses may count twice](https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum), so check each course's listing before you count on it. Distribution courses [can be taken S/U](https://as.cornell.edu/degree-requirements) if they are not also used for a major or minor requirement. Then pick the lightest option in each category from [the catalog's official per-category course lists](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/), using the workload checks below.
+Cornell publishes no ranked list of the easiest Arts & Sciences distribution courses. What you can do is cut the work with the rules. You need [a minimum of 8 courses to cover all 10 distribution categories](https://as.cornell.edu/degree-requirements), because faculty can list a course under up to two categories and [up to two courses may count twice](https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum), so check each course's listing before you count on it. Distribution courses [can be taken S/U](https://as.cornell.edu/degree-requirements) if they are not also used for a major or minor requirement. Then pick the lightest option in each category from [the catalog's official per-category course lists](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/), using the workload checks below.
 
 ## What the requirement is
 
@@ -69,12 +70,12 @@ Safety nets from the [enrollment page](https://as.cornell.edu/registrar/course-e
 
 ## What students and the college say about specific courses
 
-This is the thin part, and we want to be plain about it. We found no thorough, current, sourced ranking of courses by difficulty.
+Cornell publishes no difficulty ratings for distribution courses. Two published pieces name specific courses:
 
-- **Arts, Literature, and Culture.** An A&S student blog post by a biology and society major recommends [Beyoncé Nation](https://as.cornell.edu/news/how-complete-distribution-requirements-while-watching-music-videos), taught by Riché Richardson and cross-listed in American Studies, Africana Studies, English and Feminist, Gender, and Sexuality Studies. The author calls it fun and says it makes distribution feel manageable. The post uses the older category name "Literature and the Arts" and does not date itself or rate the workload, so confirm the current code on the roster.
+- **Arts, Literature, and Culture.** An A&S student blog post by a biology and society major recommends [Beyoncé Nation](https://as.cornell.edu/news/how-complete-distribution-requirements-while-watching-music-videos), taught by Riché Richardson and cross-listed in American Studies, Africana Studies, English and Feminist, Gender, and Sexuality Studies. The author calls it fun and says it makes distribution feel manageable. The post uses the older category name "Literature and the Arts", so confirm the current code on the roster.
 - **Physical Sciences.** A 2017 Cornell Daily Sun opinion column [named Oceanography](https://www.cornellsun.com/article/2017/09/biweekly-jokes-for-everyday-folks-how-cornell-markets-liberal-arts) as an example of an easy-A science route, and said a tour guide pitched a history of mathematics course as a math-requirement escape. That was one writer's critique, from before the current curriculum. It tells you what students believed then, not what is true now.
 
-Treat both as leads to check, not recommendations. We opened the r/Cornell thread on this topic from search results, but it did not load for us, so we are not relaying it.
+Before you enroll in either, check the current roster listing for an -AS code and read the syllabus.
 
 ## Category by category: what to look for
 
@@ -92,7 +93,7 @@ The official descriptions on the [degree requirements page](https://as.cornell.e
 Our advice:
 
 - Choosing a course because someone calls it easy, then finding its code is missing -AS.
-- Leaving SDS-AS or SMR-AS to senior year. The college wants students to [explore early](https://as.cornell.edu/news/arts-sciences-faculty-approve-new-curriculum): the 2018 plan called for five different categories within the first four semesters, though the current degree page does not repeat that rule, so ask your advising dean whether it applies to you.
+- Leaving SDS-AS or SMR-AS to senior year. The college wants students to [explore early](https://as.cornell.edu/news/arts-sciences-faculty-approve-new-curriculum): the 2018 plan called for five different categories within the first four semesters, so ask your advising dean whether that applies to you.
 - Using a course for a major requirement and then taking it S/U. That combination is not allowed.
 - Counting on a double count without checking that the course lists both categories.
 
@@ -102,7 +103,7 @@ Our advice:
 
 **Can I take them S/U?** Yes, if they are not also counting toward a major or minor requirement.
 
-**Do AP or transfer credits cover distribution?** The degree requirements page does not say for distribution categories. It says AP, IB or A-Level scores [do not fulfill the language requirement](https://as.cornell.edu/degree-requirements). Ask your advising dean about distribution. Transfer students must also complete at least 60 academic credits at Cornell and spend at least four semesters in residence, per the [degree page](https://as.cornell.edu/degree-requirements).
+**Do AP or transfer credits cover distribution?** For current A&S students, transfer credit from other schools [cannot be applied to distribution requirements](https://as.cornell.edu/registrar/transferring-credits). External transfer students get a [credit evaluation](https://as.cornell.edu/registrar/transferring-credits) after accepting admission that identifies which prior courses fulfill college requirements. AP, IB or A-Level scores [do not fulfill the language requirement](https://as.cornell.edu/degree-requirements); for AP and other exam credit, check the [credit and placement tables](https://as.cornell.edu/registrar/transferring-credits) and confirm with your advising dean. Transfer students must also complete at least 60 academic credits at Cornell and spend at least four semesters in residence, per the [degree page](https://as.cornell.edu/degree-requirements).
 
 **Where do I check my progress?** Your DUST report, plus an appointment with your advising dean.
 

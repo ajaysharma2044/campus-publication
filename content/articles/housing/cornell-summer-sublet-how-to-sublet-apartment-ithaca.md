@@ -33,13 +33,13 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/RPP/227-E
   title: Real Property Law Section 227-e, Duty to mitigate damages, NY State Senate
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: 'Living Off Campus: tenant best practices, Cornell Student & Campus Life'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/
@@ -51,7 +51,7 @@ sources:
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
   title: Students and landlords both perpetuate myths about housing, The Cornell Daily Sun
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -66,7 +66,7 @@ sources:
 - url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
   title: Landlords and advocates grapple with Good Cause Eviction law, The Cornell Daily Sun
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://abroad.globallearning.cornell.edu/apply/deadlines
@@ -117,7 +117,7 @@ Source note: [RPL 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B) an
 
 A common belief is that a landlord can always say no. In a building of four or more units, that is wrong. You still have to ask in writing. The right limits how a landlord can refuse. It does not let you skip the request. The [legal explainer](/cornell/housing/can-landlord-refuse-sublet-new-york-ithaca/) covers what counts as an unreasonable refusal.
 
-Cornell's lease checklist lists the [ability to sublet and its conditions](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) as terms to read before you sign. Off-Campus Living answers lease questions at 607-255-2310.
+Cornell's lease checklist lists the [ability to sublet and its conditions](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) as terms to read before you sign. Off-Campus Living answers lease questions at 607-255-2310.
 
 Landlord policies add conditions of their own. Ithaca Renting's Collegetown sublets must be [registered and approved, go to Cornell students only, and run one per term](https://ithacarenting.com/collegetown/), with no Airbnb and no stays under a month. Its [downtown policy](https://ithacarenting.com/downtown/) sets a two-month minimum, requires every named tenant to agree, and says a sublet does not relieve you of lease obligations.
 
@@ -152,7 +152,7 @@ rows:
 ```
 
 1. **Read the lease.** Find the sublet clause and any listed fee. In a small house this clause is the whole rule.
-2. **Get co-tenant and guarantor consent.** The [statute](https://www.nysenate.gov/legislation/laws/RPP/226-B) wants their written consent inside the request. On a joint lease, Cornell says each housemate is [responsible for the others' rent and damages](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire), so they have a stake in who moves in. A parent who co-signed is a guarantor and signs too. The [roommates guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/) explains joint liability.
+2. **Get co-tenant and guarantor consent.** The [statute](https://www.nysenate.gov/legislation/laws/RPP/226-B) wants their written consent inside the request. On a joint lease, Cornell says each housemate is [responsible for the others' rent and damages](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire), so they have a stake in who moves in. A parent who co-signed is a guarantor and signs too. The [roommates guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/) explains joint liability.
 3. **Find a subtenant and write the sublease.** Put in the dates, rent, deposit and who pays utilities.
 4. **Mail the request.** Use certified mail, return receipt requested. Email is a courtesy copy, not a substitute.
 5. **Answer follow-ups fast.** The landlord's answer clock restarts from the date you supply extra information.
@@ -207,11 +207,11 @@ Listing is free. Sublets were [free to list on Cornell's service in 2019](https:
 
 ## Where can you list a sublet?
 
-Start with the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), where only people who prove Cornell affiliation can view and contact subletters ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)). The Off-Campus Living email list reaches Cornell NetID holders: send a message with the subject "Join" and a blank body, per [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Both Cornell channels screen out most strangers. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every channel, and the [guide to finding a summer sublet](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) shows what subtenants look for.
+Start with the [Off-Campus Housing Marketplace](https://offcampus.housing.cornell.edu/), where only people who prove Cornell affiliation can view and contact subletters ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)). The Off-Campus Living email list reaches Cornell NetID holders: send a message with the subject "Join" and a blank body, per [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources). Both Cornell channels screen out most strangers. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) covers every channel, and the [guide to finding a summer sublet](/cornell/housing/summer-sublet-ithaca-finding-housing-may-august/) shows what subtenants look for.
 
 ## What happens after the subtenant moves in?
 
-You are still the tenant. If the subtenant stops paying, the landlord comes to you, and your claim is against the subtenant. Ithaca City Court hears small claims [up to $5,000](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance). Before you leave, Cornell's [tenant checklist](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus) says to notify contacts, forward mail, sort out utilities, and clean and secure the apartment. Take dated photos at handover. If the landlord docks your deposit for damage the subtenant caused, the photos are your record, and the [security deposit guide](/cornell/housing/ithaca-security-deposit-rules-tenants/) explains the 14-day return rule.
+You are still the tenant. If the subtenant stops paying, the landlord comes to you, and your claim is against the subtenant. Ithaca City Court hears small claims [up to $5,000](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance). Before you leave, Cornell's [tenant checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus) says to notify contacts, forward mail, sort out utilities, and clean and secure the apartment. Take dated photos at handover. If the landlord docks your deposit for damage the subtenant caused, the photos are your record, and the [security deposit guide](/cornell/housing/ithaca-security-deposit-rules-tenants/) explains the 14-day return rule.
 
 ## What mistakes cost the most?
 
@@ -224,7 +224,7 @@ You are still the tenant. If the subtenant stops paying, the landlord comes to y
 
 ## FAQ
 
-**I hold a Cornell housing license, not a lease. What do I do?** Cornell's license deadlines apply. For 2026-27, Cornell cancels without penalty for study away, leave or an internship if you ask by [June 15 for fall or Dec. 1 for spring](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027). Later requests cost $500.
+**I hold a Cornell housing license, not a lease. What do I do?** Cornell's license deadlines apply. For 2026-27, Cornell cancels without penalty for study away, leave or an internship if you ask by [June 15 for fall or Dec. 1 for spring](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027). Later requests cost $500.
 
 **Does a dispute with my landlord affect my visa?** Cornell Graduate School staff say a landlord dispute [does not affect international students' visa status](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/) or standing.
 

@@ -7,7 +7,7 @@ primary_query: 660 Stewart Avenue co-op Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 106
 rewrites: ''
 readers:
@@ -18,22 +18,22 @@ tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue
   title: 660 Stewart Avenue, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/
   title: Co-op residents face deteriorating houses, increasing rent costs, The Cornell Daily Sun, Oct. 21, 2024
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall
   title: Redbud Cooperative in Von Cramm Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -72,18 +72,18 @@ Source: Cornell Housing and Cornell's 2026-27 rate table.
 
 660 Stewart sits at the top of the co-op price range. For 2026-27 a double is $4,981 per semester, which is $9,962 for two semesters, and a single is $5,640 per semester ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Wari has the same rates for a double.
 
-A hall double costs $13,744 for the year, so the 660 Stewart double is $3,782 less. The house meal plan is optional, and Cornell's pages do not give its price. Cornell's 660 Stewart page describes a house meal plan with five dinners a week ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue)). Ask sixsixty@cornell.edu what the plan costs before you compare. A Redbud double costs $6,974 for the year, so a student who cares most about price can compare it in [our Redbud guide](/cornell/housing/redbud-cooperative-von-cramm-hall-cornell/). For leases, see [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
+A hall double costs $13,744 for the year, so the 660 Stewart double is $3,782 less. The house meal plan is optional. Cornell's 660 Stewart page describes a house meal plan with five dinners a week ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue)). Ask sixsixty@cornell.edu what the plan costs before you compare. A Redbud double costs $6,974 for the year, so a student who cares most about price can compare it in [our Redbud guide](/cornell/housing/redbud-cooperative-von-cramm-hall-cornell/). For leases, see [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
 
 <!-- ad-break -->
 
 ## How do you get into 660 Stewart Avenue?
 
-Each co-op runs its own selection, and selection starts in early November and early February (Cornell Housing). Write to sixsixty@cornell.edu, or to co-ops@cornell.edu or 607-255-3445. Cornell's page for this house does not describe its selection steps.
+Each co-op runs its own selection, and selection starts in early November and early February (Cornell Housing). Write to sixsixty@cornell.edu, or to co-ops@cornell.edu or 607-255-3445.
 
-Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). To live off campus instead, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ```reader "If you're a graduate student"
-Cornell's 660 Stewart page says the house is open to transfer and upper-level students and does not list graduate students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue)). Cornell says some co-ops are open to graduate and professional students, and Redbud lists them as eligible ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall)).
+Cornell opens 660 Stewart to transfer and upper-level students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue)). Cornell says some co-ops are open to graduate and professional students, and Redbud is one of them ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall)).
 ```
 
 ## What should you watch?

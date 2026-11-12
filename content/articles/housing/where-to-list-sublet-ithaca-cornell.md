@@ -18,7 +18,7 @@ readers:
 subject: Bulletin board with rental notices
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/
@@ -62,7 +62,7 @@ images: []
 - Public sites reach more people but carry scam risk.
 ```
 
-Post your sublet on Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources), where only people who prove Cornell affiliation can view listings and contact you. Add the Off-Campus Living email list. Use public sites last.
+Post your sublet on Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources), where only people who prove Cornell affiliation can view listings and contact you. Add the Off-Campus Living email list. Use public sites last.
 
 The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-guide-cornell-students/) covers the rest of a sublet, from landlord consent to pricing and scams.
 
@@ -75,15 +75,15 @@ The [full guide to subletting in Ithaca](/cornell/housing/subletting-in-ithaca-g
 | Your landlord's own sublet process | Applicants the landlord approves | Fee set by the landlord | Ithaca Renting buildings |
 | Public sites and newspapers | Anyone | Varies by site | Reaching non-Cornell subtenants |
 
-Source note: [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources); [Cornell Daily Sun, 2019](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/).
+Source note: [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources); [Cornell Daily Sun, 2019](https://cornellsun.com/2019/02/06/students-and-landlords-both-perpetuate-myths-about-housing-university-panelist-says/).
 
 ## How does Cornell's marketplace work?
 
-The marketplace is a College Pads service, now part of StarRez, and Cornell limits it to people who prove their affiliation. Cornell says the limit exists for security. Cornell also tells renters to [view a property in person and read the whole lease](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) before they pay. The Graduate School calls the marketplace [free to anyone with Cornell credentials](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). In 2019 landlords paid $30 to list, and sublets were free.
+The marketplace is a College Pads service, now part of StarRez, and Cornell limits it to people who prove their affiliation. Cornell says the limit exists for security. Cornell also tells renters to [view a property in person and read the whole lease](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) before they pay. The Graduate School calls the marketplace [free to anyone with Cornell credentials](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). In 2019 landlords paid $30 to list, and sublets were free.
 
 ## How do you use the Off-Campus Living email list?
 
-You need a NetID, per [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Admitted students without one can forward their acceptance letter to offcampusliving@cornell.edu. To subscribe, email the list with "Join" as the subject and a blank body. To leave, send a blank subject and "Leave" in the body. The list carries housing, roommate and sublet notices, and Off-Campus Living answers questions at 607-255-2310.
+You need a NetID, per [Cornell's listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources). Admitted students without one can forward their acceptance letter to offcampusliving@cornell.edu. To subscribe, email the list with "Join" as the subject and a blank body. To leave, send a blank subject and "Leave" in the body. The list carries housing, roommate and sublet notices, and Off-Campus Living answers questions at 607-255-2310.
 
 ## What if your landlord runs its own sublet process?
 

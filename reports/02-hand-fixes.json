@@ -1,0 +1,32 @@
+[
+ {
+  "slug": "cornell-break-travel-timeline-2026-27",
+  "sound": true,
+  "by": "hand fix after the fix-round verdict, re-linted",
+  "note": "the skeptic's last point (one '(year inferred from weekdays)' and the 'Undated' date cells) was fixed by hand: the cells now read 'Current as of 2026-11-08'; linter 0, em dashes 0"
+ },
+ {
+  "slug": "syracuse-airport-to-cornell-ourbus-car-service",
+  "sound": true,
+  "by": "hand fix after the fix-round verdict, skeptic-verified (reports/02-hand-verify.json)",
+  "note": "fixed by hand on the last objection; a sonnet skeptic re-fetched the sources and judged it sound"
+ },
+ {
+  "slug": "toni-morrison-hall-cornell",
+  "sound": true,
+  "by": "hand fix after the fix-round verdict, skeptic-verified (reports/02-hand-verify.json)",
+  "note": "fixed by hand on the last objection; a sonnet skeptic re-fetched the sources and judged it sound"
+ },
+ {
+  "slug": "how-to-save-money-at-cornell-student-discounts-ithaca",
+  "sound": true,
+  "by": "hand fix after the fix-round verdict, skeptic-verified (reports/02-hand-verify.json)",
+  "note": "fixed by hand on the last objection; a sonnet skeptic re-fetched the sources and judged it sound"
+ },
+ {
+  "slug": "transfer-spring",
+  "sound": true,
+  "by": "hand fix after the fix-round verdict, skeptic-verified (reports/02-hand-verify.json)",
+  "note": "fixed by hand on the last objection; a sonnet skeptic re-fetched the sources and judged it sound"
+ }
+]

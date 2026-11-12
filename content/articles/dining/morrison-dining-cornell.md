@@ -46,6 +46,9 @@ sources:
 - url: https://now.dining.cornell.edu/eatery/Morrison-Dining
   title: 'Cornell Dining Now: Morrison Dining'
   accessed: '2026-11-11'
+- url: https://admin-now.dining.cornell.edu/api/1.0/dining/eateries.json
+  title: 'Cornell Dining Now: eatery hours data feed'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining
   title: 'Cornell Dining: Dining home and events'
   accessed: '2026-11-10'
@@ -123,7 +126,7 @@ Morrison is the room to pick when your diet has rules. Cornell lists a dedicated
 
 Morrison hosts the big themed dinners. Cornell Dining lists a take on Indigenous cuisine on Nov. 17, 2026, from 5 to 8:30 p.m., and a Thanksgiving Day Celebration of Gratitude Dinner on Nov. 26, 2026, from 11:30 a.m. to 2:30 p.m. ([Cornell Dining events](https://scl.cornell.edu/residential-life/dining)).
 
-Students rate it well. In the Sun's Sunset Survey for the Class of 2026, Morrison took 35.1% of votes for favorite dining spot, ahead of North Star and Risley at 12.4% each ([The Sun](https://cornell-sun-data.github.io/sunset-survey-2026/at-cornell.html)). The survey drew 103 responses between April 20 and May 5, 2026, and the Sun says that sample does not represent the whole class ([The Sun](https://cornell-sun-data.github.io/sunset-survey-2026/about.html)). A 2022 Sun tip list also points new students to Morrison for Sunday brunch ([The Sun](https://cornellsun.com/2022/07/01/what-i-wish-i-knew-about-campus-food-before-coming-to-cornell/)).
+Students rate it well. In the Sun's Sunset Survey for the Class of 2026, Morrison took 35.1% of votes for favorite dining spot, ahead of Risley and a spot the survey calls North, at 12.4% each ([The Sun](https://cornell-sun-data.github.io/sunset-survey-2026/at-cornell.html)). The survey drew 103 responses between April 20 and May 5, 2026, and the Sun says that sample does not represent the whole class ([The Sun](https://cornell-sun-data.github.io/sunset-survey-2026/about.html)). A 2022 Sun tip list also points new students to Morrison for Sunday brunch ([The Sun](https://cornellsun.com/2022/07/01/what-i-wish-i-knew-about-campus-food-before-coming-to-cornell/)).
 
 ## What does a meal at Morrison cost?
 

@@ -18,13 +18,13 @@ readers:
 subject: Apartment building Collegetown Ithaca
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: 'Living Off Campus: tenant best practices, Cornell Student & Campus Life'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/collegetown/
@@ -59,19 +59,19 @@ images: []
 - A friend who stays in your room counts as a sublet at Ithaca Renting, paid or not.
 ```
 
-On a 12-month lease, yes: your belongings can stay, because you rent the apartment through the last day of the term. The answer changes if your lease ends before you return, if someone else moves in, or if you live in a Cornell room, which has [no storage space](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027).
+On a 12-month lease, yes: your belongings can stay, because you rent the apartment through the last day of the term. The answer changes if your lease ends before you return, if someone else moves in, or if you live in a Cornell room, which has [no storage space](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027).
 
 ## Can you leave belongings in a 12-month apartment?
 
-Yes, unless your lease says otherwise. The limit is your lease. Cornell's list of lease terms to check names a clause on [restrictions, including storage](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease), next to smoking, noise and pets. Find that clause and read it. If the clause is silent about a basement, porch or storage room, ask in writing before you leave anything there. The [lease-reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) walks through the full list of clauses.
+Yes, unless your lease says otherwise. The limit is your lease. Cornell's list of lease terms to check names a clause on [restrictions, including storage](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease), next to smoking, noise and pets. Find that clause and read it. If the clause is silent about a basement, porch or storage room, ask in writing before you leave anything there. The [lease-reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) walks through the full list of clauses.
 
-Cornell's [tenant checklist](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus) says that when you go away you should tell your contacts, forward your mail, set up your utilities, and clean and secure the apartment. It also says to avoid overcrowding. Take photos of the room as you leave, so you have a record of its condition.
+Cornell's [tenant checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus) says that when you go away you should tell your contacts, forward your mail, set up your utilities, and clean and secure the apartment. It also says to avoid overcrowding. Take photos of the room as you leave, so you have a record of its condition.
 
 Ithaca Renting adds a rule for its tenants: [keep the electricity on](https://ithacarenting.com/collegetown/), with the fridge running at the least, even if you are away. If you leave a fridge or freezer with food in it, you need power through August.
 
 ## What happens in a Cornell residence hall?
 
-The rules are stricter. Under the [2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027), storage space is not available, and property not removed within 24 hours of check-out is treated as abandoned. The license charges $60 a day for occupancy outside your assigned period, so you cannot pay to stay in the room. Graduating seniors get an extension through the day after Commencement at no charge. Pickup companies and self-storage are the options.
+The rules are stricter. Under the [2026-27 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027), storage space is not available, and property not removed within 24 hours of check-out is treated as abandoned. The license charges $60 a day for occupancy outside your assigned period, so you cannot pay to stay in the room. Graduating seniors get an extension through the day after Commencement at no charge. Pickup companies and self-storage are the options.
 
 ## What if your lease ends before you come back?
 

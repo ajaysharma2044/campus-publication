@@ -21,7 +21,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/
   title: Living in Ithaca, Cornell SC Johnson College of Business MBA students
   accessed: '2026-11-08'
@@ -196,7 +196,7 @@ Renting on West Hill or in Cayuga Heights? Routes 14S and 83, which served those
 
 ## Parking: the free permit and the paid one
 
-The free permit is the biggest grad-only perk. The [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) gives grad students with a full assistantship on the Ithaca main campus free Outer Tier A and E permits. Eligibility is checked in Workday. The permit is "no fee; non-resident commuter", and E needs work in its zone. Resident students are not eligible for a free A or E permit. Full-assistantship grads may also buy faculty and staff permits.
+The free permit is the biggest grad-only perk. The [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) gives grad students with a full assistantship on the Ithaca main campus free Outer Tier A and E permits. Eligibility is checked in Workday. The permit is "no fee; non-resident commuter", and E needs work in its zone. Resident students are not eligible for a free A or E permit. The same page says grad students funded by assistantships (TA, RA, GA or GRA) can buy the same permits as faculty and staff, provided they hold a full assistantship.
 
 Without an assistantship, your options are these:
 
@@ -298,9 +298,9 @@ Grad students in Ithaca over the summer keep riding on the pass until Aug 31.
 
 **Do postdocs get the free bus pass?** Yes. Cornell's [postdoc office](https://postdocs.cornell.edu/postdoc-life/living-in-ithaca) says postdocs working on the Ithaca campus can enroll in the OmniRide commuter program for unlimited TCAT rides at all hours. Cornell [employees, affiliates included, ride TCAT free](https://fcs.cornell.edu/announcements/2024-10-22/unlimited-tcat-access-faculty-staff) with a Cornell photo ID.
 
-**Can I buy a faculty or staff permit as a grad student?** Yes, with a full assistantship on the Ithaca main campus, per the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students). On the [employee fee schedule](https://fcs.cornell.edu/permit_fees), Perimeter permits cost the same as a B permit, Mid permits $574.91 to $752.98 a year and most Central permits $806.37, tax included. You pay by credit card, check or bursar bill, not in payroll installments.
+**Can I buy a faculty or staff permit as a grad student?** Yes, with a full assistantship on the Ithaca main campus, per the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students). On the [employee fee schedule](https://fcs.cornell.edu/permit_fees), Perimeter permits (ME, O, R, WE) cost $359.77, the same figure as the student B permit on the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students). Mid permits run $574.91 to $752.98 a year and most Central permits $806.37, tax included. The [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) lists credit card, check and bursar as the accepted payment methods; student employees are not eligible for payroll installments.
 
-**I live in university graduate housing. Do I get a free permit?** No. The page says resident students are not eligible for a free A or E permit. You can buy a resident permit, $752.98 a year, or a faculty and staff R (North Campus) or WE (West Campus) permit, which costs the same as a B permit on the employee fee schedule.
+**I live in university graduate housing. Do I get a free permit?** No. The page says resident students are not eligible for a free A or E permit. You can buy a resident permit, $752.98 a year, or, per the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students), a faculty and staff R (North Campus) or WE (West Campus) permit, $359.77 a year on the [employee fee schedule](https://fcs.cornell.edu/permit_fees), the same figure as the student B permit on the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students).
 
 **Can my partner use Ithaca Carshare on my plan?** A student plan covers up to two drivers, per [Ithaca Carshare](https://www.ithacacarshare.org/students-commuters). Each driver pays the $20 sign-up and must meet the eligibility rules.
 
@@ -309,7 +309,7 @@ Grad students in Ithaca over the summer keep riding on the pass until Aug 31.
 ## Related guides
 
 - [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the full topic, from buses home to airports and permits.
-- [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, winter rules, breaks and what a car costs in a year.
+- [Cornell parking guide](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/): permits, winter rules, breaks and what a year of parking costs.
 - [Getting around Ithaca as an off-campus renter](/getting-around/getting-around-ithaca-off-campus-renters/): Route 10, city permits and garages for Collegetown and downtown leases.
 - [Cornell Campus-to-Campus bus: who can ride, how to book](/getting-around/cornell-c2c-bus-booking-fares-rules/): the new account, stops, bags and fees.
 - [The cheapest ways to get home and around Cornell](/getting-around/cheapest-ways-to-get-around-cornell/): bus floors, free rides and when OmniRide pays.

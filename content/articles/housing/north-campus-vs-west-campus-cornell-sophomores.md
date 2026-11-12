@@ -18,7 +18,7 @@ readers:
 subject: Cornell West Campus Gothic dorms
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -27,10 +27,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system
   title: West Campus House System, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
   title: Room selection FAQs, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring housing selection for rising sophomores, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
@@ -39,7 +39,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/carl-becker-house
   title: Carl Becker House, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence hall configurations, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms
@@ -83,7 +83,7 @@ images:
 - 2027-28 open selection for rising sophomores runs April 13 to 16, 2027.
 ```
 
-Most Cornell sophomores live on North or South Campus, and about 20% got a space on West Campus in past years ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). Choose West if you want a House community and live-in faculty. Choose North if you want a lower meal-plan bill and newer buildings.
+Most Cornell sophomores live on North or South Campus, and about 20% got a space on West Campus in past years ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). Choose West if you want a House community and live-in faculty. Choose North if you want a lower meal-plan bill and newer buildings.
 
 ## How do the two campuses compare?
 
@@ -98,11 +98,11 @@ Both are university housing, so both satisfy the two-year residential requiremen
 | Dining | Morrison Dining, North Star, Risley Dining | A dining room in each House, ten across campus |
 | Who lives there | More than 3,000 new students live in North Campus halls and program houses | About 65% sophomores, 25% juniors and 10% seniors, historically |
 
-Sources: Cornell [upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing), [residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations), [West Campus House System](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system) and [dining rooms](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms).
+Sources: Cornell [upper-level housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing), [residence hall configurations](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations), [West Campus House System](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system) and [dining rooms](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms).
 
 ## What does each cost for a year?
 
-The room rate is the same on both campuses, because North, South and West halls share one rate table. A double costs $13,744 per academic year, a single $15,566, a triple $12,644 and a super single $16,595 for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The gap comes from food.
+The room rate is the same on both campuses, because North, South and West halls share one rate table. A double costs $13,744 per academic year, a single $15,566, a triple $12,644 and a super single $16,595 for 2026-27 ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The gap comes from food.
 
 West Campus residents are auto-enrolled in the House Meal Plan, which cannot be changed or cancelled while they live there. It costs $7,604 a year and includes $400 in Big Red Bucks per semester and eight guest meals per semester. Sophomores on North Campus can choose the Unlimited plan at the same $7,604 or Bear Traditional at $7,056 ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Every plan adds a $50 yearly fee.
 
@@ -134,7 +134,7 @@ North Campus halls have no House system, but North Campus has program houses, wh
 
 ## When do sophomores choose?
 
-Rising sophomores choose in spring. For 2027-28, the application opens Feb. 1, 2027, and the deadline is April 4 at 11:59 p.m. Timeslots go out April 7, priority program house selection runs April 12, and open selection runs April 13 to 16. Groups, called blocks, can have up to five people, and a room is held for four minutes ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A student who does not select is assigned what is left.
+Rising sophomores choose in spring. For 2027-28, the application opens Feb. 1, 2027, and the deadline is April 4 at 11:59 p.m. Timeslots go out April 7, priority program house selection runs April 12, and open selection runs April 13 to 16. Groups, called blocks, can have up to five people, and a room is held for four minutes ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A student who does not select is assigned what is left.
 
 ## What happens over winter break?
 
@@ -144,7 +144,7 @@ If you stay in Ithaca over winter break, check the open-building list. For 2026-
 
 If you want a built-in community, House faculty and a dining room that holds a weekly House dinner, rank West Campus first. Expect a required meal plan, no air conditioning in four of five Houses, and a one-in-five chance of getting in, based on past years.
 
-If you want the lower bill, a suite in a 2021 building or air conditioning, rank North Campus first. A student who wants the cheapest campus bed can take a triple on North and the Bear Traditional plan, as the [rate table](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) shows.
+If you want the lower bill, a suite in a 2021 building or air conditioning, rank North Campus first. A student who wants the cheapest campus bed can take a triple on North and the Bear Traditional plan, as the [rate table](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) shows.
 
 South Campus is the third option. Cascadilla Hall, Sheldon Court, Schuyler House and 301 College Avenue sit in or near Collegetown, and their residents can buy the Collegetown Meal Plan at $7,056 a year, the same price as Bear Traditional ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Most rising sophomores who do not get West land on North or South, so rank all three before selection opens.
 
@@ -153,7 +153,7 @@ The room rate is identical, so the real choice is the meal plan. Over a year, No
 ```
 
 ```reader "If you're on a tight budget"
-Pick North Campus and Bear Traditional, and consider a triple. The triple rate plus Bear Traditional and the $50 fee comes to $19,750 a year ([Cornell rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Pick North Campus and Bear Traditional, and consider a triple. The triple rate plus Bear Traditional and the $50 fee comes to $19,750 a year ([Cornell rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 ```
 
 ```reader "If you're a spring transfer"
@@ -162,7 +162,7 @@ Cornell places transfers in upper-level halls, including West Campus Houses, Sou
 
 ## What to do next
 
-Decide first whether the House community or the lower food bill matters more. Then form a block of up to five friends before the spring application deadline in April ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+Decide first whether the House community or the lower food bill matters more. Then form a block of up to five friends before the spring application deadline in April ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 Related guides:
 

@@ -7,7 +7,7 @@ primary_query: Triphammer Cooperative Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 101
 rewrites: ''
 readers:
@@ -36,7 +36,7 @@ sources:
 - url: https://scl.cornell.edu/sub/news-events/news/co-op-mosey-2024
   title: Co-op Mosey 2024, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
 images: []
@@ -78,7 +78,7 @@ Dinners are the house's defining rule. Vegetarian dinners are mandatory from Sun
 
 For 2026-27 a single is $4,889 per semester, a double is $4,317 and a triple is $3,972 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Over two semesters, that is $9,778 for a single, $8,634 for a double and $7,944 for a triple.
 
-A hall double costs $13,744 for the year, so the Triphammer double is $5,110 less. Triphammer is one of four houses that Cornell lists with a house meal plan (Cornell Housing). Cornell's pages do not give the plan's price, so ask moseytriphammer@cornell.edu before you compare totals.
+A hall double costs $13,744 for the year, so the Triphammer double is $5,110 less. Triphammer is one of four houses that Cornell lists with a house meal plan (Cornell Housing). Ask moseytriphammer@cornell.edu what the plan costs before you compare totals.
 
 Cornell required co-ops to standardize room rates within and across houses. Triphammer used to price rooms by size, and Cornell now sets the prices ([Cornell Daily Sun](https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/)). For leases, see [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/) and [cheapest off-campus housing near Cornell](/cornell/housing/cheapest-off-campus-housing-cornell/).
 
@@ -88,7 +88,7 @@ Cornell required co-ops to standardize room rates within and across houses. Trip
 
 You attend two events and one cook group, and then the house holds a lottery. Cornell says each co-op runs its own selection, which starts in early November and early February ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). The process is called a mosey. In the 2023-24 cycle, spring decisions came Feb. 28 ([Cornell Housing](https://scl.cornell.edu/sub/news-events/news/co-op-mosey-2024)).
 
-Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). For other ways to live off campus, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, explained on our [affiliated housing page](/start/affiliated-housing/). For other ways to live off campus, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ```reader "If you're a transfer student starting in spring"
 The February selection window fits a spring start. Ask co-ops@cornell.edu or 607-255-3445 which houses have rooms.
@@ -108,4 +108,4 @@ Related guides:
 
 - [Cornell co-ops compared](/cornell/housing/cornell-co-ops-all-eight-compared/)
 - [Watermargin](/cornell/housing/watermargin-cooperative-cornell/)
-- [Redbud Cooperative in Von Cramm Hall](/cornell/housing/redbud-cooperative-von-cramm-hall-cornell/)
+- [Redbud (Von Cramm Hall)](/cornell/housing/redbud-cooperative-von-cramm-hall-cornell/)

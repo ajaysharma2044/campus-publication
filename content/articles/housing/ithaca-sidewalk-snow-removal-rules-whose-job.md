@@ -7,7 +7,7 @@ primary_query: ithaca sidewalk snow removal rules who is responsible
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 272
 rewrites: ''
 readers:
@@ -25,7 +25,7 @@ sources:
 - url: https://www.cityofithacany.gov/m/faq?cat=46
   title: Snow and ice FAQ, City of Ithaca
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a lease, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://cityofithacany.gov/DocumentCenter/View/12559
@@ -40,6 +40,12 @@ sources:
 - url: https://fcs.cornell.edu/services/repair-maintenance/snow-removal
   title: Snow Removal, Cornell Facilities and Campus Services
   accessed: '2026-11-10'
+- url: https://ecode360.com/8389191
+  title: City of Ithaca Code, Chapter 178, Exterior Property Maintenance
+  accessed: '2026-11-11'
+- url: https://ecode360.com/8660754
+  title: Town of Ithaca Code, Chapter 230, Article II, Construction and Repair of Sidewalks
+  accessed: '2026-11-11'
 images: []
 redirect_from:
   - /cornell/getting-around/ithaca-sidewalk-snow-removal-rules-whose-job/
@@ -55,9 +61,11 @@ redirect_from:
 
 The City of Ithaca puts sidewalk snow on the property owner: all snow and ice must come off the sidewalk in front of the property within 24 hours after snowfall begins ([City of Ithaca](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance)). A lease can move that job to the tenants.
 
+This is general information, not legal advice.
+
 ## Whose job is the sidewalk in Ithaca?
 
-The owner's. City Code 178-3 says the owner of a property must clear the adjacent sidewalk, and the city page adds a civil penalty for each violation for each day it stays uncleared. The page lists the penalty rule (Chapter 178-10) but the amounts are not on it, so ask the Building Division for the current figure.
+The owner's. City Code 178-3 says the owner of a property must clear the adjacent sidewalk, and each day the walk stays uncleared counts as a separate violation. Under Chapter 178-10, the owner or agent owes a civil penalty of $40 for a first sidewalk violation at a property within 12 months, $60 for a second and $100 for each one after that ([City of Ithaca Code, Chapter 178](https://ecode360.com/8389191)).
 
 The city does not clear most sidewalks itself. In September 2023, Public Works Superintendent Mike Thorne said the city lacks the staff to clear sidewalks or curb cuts. He estimated the cost at about $4,000 per mile per winter ([Ithaca Voice](https://ithacavoice.org/2023/09/snow-removal-or-no-removal/)). Syracuse clears about 125 miles on a $650,000 yearly budget, which works out to $5,200 per mile ($650,000 divided by 125) (Ithaca Voice, same story).
 
@@ -96,7 +104,7 @@ Source: City of Ithaca exterior property maintenance page, plowing guide and sno
 
 ## Can a lease make the tenant shovel?
 
-Yes. The code puts the duty on the owner, but a lease can pass it to tenants, and Cornell lists "snow removal" among the items to check before you sign ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). Our [lease reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows where to look.
+Yes. The code puts the duty on the owner, but a lease can pass it to tenants, and Cornell lists "snow removal" among the items to check before you sign ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)). Our [lease reading guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) shows where to look.
 
 Some buildings bundle it in the rent. A listing for 407 College Ave. in Collegetown includes snow removal along with internet, water and hot water ([Cornell Off-Campus Housing marketplace](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/407-college-ave-collegetown-s-best-kept-secret-237329)).
 
@@ -110,7 +118,7 @@ The duty is yours unless the lease says otherwise, and corner lots carry two sid
 
 ## What if you live outside the City of Ithaca?
 
-The facts above are City of Ithaca rules. The fact file has no sidewalk snow rule for the Town of Ithaca, Lansing or Cayuga Heights. Call the town or village clerk, and read our [guide to which municipality covers your address](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/).
+The facts above are City of Ithaca rules. The Town of Ithaca, outside the Village of Cayuga Heights, puts the job on both the owner and the occupant: snow and ice must come off the sidewalk in front of the property within 24 hours of falling. If nobody clears it, the Town can do the work and bill the owner the actual cost plus 50% for overhead ([Town of Ithaca Code, Chapter 230](https://ecode360.com/8660754)). In Cayuga Heights or Lansing, call the village or town clerk, and read our [guide to which municipality covers your address](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/).
 
 ## Who clears sidewalks on campus?
 

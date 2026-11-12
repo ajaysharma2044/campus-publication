@@ -5,7 +5,7 @@ primary_query: cornell summer session classes transfer credit worth it
 topic: academics
 school: cornell-university
 type: decision
-updated: 2026-11-07
+updated: 2026-11-11
 queue_id: q-academics-0022
 sources:
   - {url: "https://sce.cornell.edu/courses/", title: "Plan now for Summer Session 2026, Cornell SCE", accessed: "2026-11-07"}
@@ -27,7 +27,7 @@ Summer Session offers in-person courses in Ithaca, online classes, courses at Sh
 
 ```figure
 kind: timeline
-title: Summer Session 2026 dates (2027 dates not posted when we checked)
+title: Summer Session 2026 dates
 rows:
   - {label: Three-week Session 1, date: "June 1 to 18"}
   - {label: Eight-week session, date: "June 8 to August 4"}
@@ -44,7 +44,7 @@ Tuition is the same per credit however you split it. The Bursar lists [Winter an
 
 ```figure
 kind: cost_table
-title: Summer Session tuition at $2,013 per credit (2027 rate, our arithmetic)
+title: Summer Session tuition at $2,013 per credit (2027 rate)
 rows:
   - {label: 3 credits, value: "$6,039"}
   - {label: 4 credits (one three-week session maximum), value: "$8,052"}
@@ -55,15 +55,15 @@ Financial aid is the catch. SCE says [there is no financial aid available from t
 
 ## Will the credit count? Rules by college
 
-Always confirm with your own college before paying. What we could verify:
+Always confirm with your own college before paying.
 
 | College | Taken at Cornell Summer Session | Taken elsewhere |
 |---|---|---|
 | Arts & Sciences | Can fulfill college requirements, including the [FWS and foreign language requirements](https://as.cornell.edu/transferring-credits) | [C or better](https://as.cornell.edu/transferring-credits); departmental approval strongly recommended before enrolling; form for each course; cannot count toward the foreign language or distribution requirements |
-| Engineering | Not covered on the page we read | Form with syllabus, [department and advisor approval](https://www.duffield.cornell.edu/transfer-credit-application-process); transfers if you earn a C or better; reviews take about two weeks |
-| CALS | Not covered on the page we read | [Pre-approval recommended](https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/transfer-non-cornell-credit); check the Transfer Course Database first; maximum of 60 external credits |
+| Engineering |  | Form with syllabus, [department and advisor approval](https://www.duffield.cornell.edu/transfer-credit-application-process); transfers if you earn a C or better; reviews take about two weeks |
+| CALS |  | [Pre-approval recommended](https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/transfer-non-cornell-credit); check the Transfer Course Database first; maximum of 60 external credits |
 
-For other colleges (ILR, Human Ecology, Hotel, AAP) we could not open a current official rule, so ask your advising office.
+In ILR, Human Ecology, Hotel and AAP, confirm the transfer rule with your college's advising office before you enroll.
 
 Details that trip people up in Arts & Sciences:
 
@@ -74,11 +74,9 @@ Details that trip people up in Arts & Sciences:
 
 ## Taking a summer course in Ithaca or at home instead
 
-Tompkins Cortland Community College lists [$236 per credit tuition for New York residents with a Certificate of Residence and $485 for others](https://tompkinscortland.edu/tuition), plus a technology fee of $23 and a student services fee of $34 per credit hour. The page does not date those rates or give a summer rate, so confirm the summer total. On tuition alone, three credits would be $708 against $6,039 at Cornell.
+Tompkins Cortland Community College lists [$236 per credit tuition for New York residents with a Certificate of Residence and $485 for others](https://tompkinscortland.edu/tuition), plus a technology fee of $23 and a student services fee of $34 per credit hour. Confirm the summer total with Tompkins Cortland before you register. On tuition alone, three credits would be $708 against $6,039 at Cornell.
 
 Two cautions, both from the college rules above. Cheaper only counts if it transfers, and the course must match something your college accepts, backed by a syllabus. Credit also transfers as credit, not as the Cornell course: A&S [does not allow transfer credit toward its distribution requirements](https://as.cornell.edu/transferring-credits), which is the kind of requirement Summer Session can fill.
-
-We found no strong r/Cornell consensus on Summer Session versus community college, so treat the decision as math plus your college's rules.
 
 ## Which to choose
 

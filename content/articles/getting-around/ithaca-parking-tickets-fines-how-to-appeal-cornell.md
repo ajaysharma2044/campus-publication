@@ -20,28 +20,31 @@ tools: []
 sources:
 - url: https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1
   title: Citation Fines Increasing September 1, Cornell Transportation and Delivery Services, Aug. 1, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/
   title: On-Campus Parking Violation Fines Increase for First Time Since 2014, The Cornell Daily Sun, Sept. 4, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus
   title: Parking on Campus, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
   title: Winter and Break Parking Rules, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services
   title: Transportation and Delivery Services, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/727/Parking-Regulations-Violations
   title: Parking Regulations and Violations, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/
   title: Common Council approves 2027 budget, Ithaca Voice, Nov. 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations
+  title: Paying and Appealing Citations, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -52,7 +55,8 @@ A Cornell ticket for parking without a permit or payment costs $50, and it rises
 - Cornell and the City of Ithaca write separate tickets. Pay or contest each with its own office.
 - Cornell's common ticket is $50 for no permit or payment.
 - City fines run from $15 for an overtime zone to $200 for a repeat handicap violation.
-- A late city ticket adds a penalty, and more than five unpaid tickets can mean impoundment.
+- Cornell appeals are written and due within 10 days. City tickets not paid or appealed within 20 days add a $20 penalty.
+- More than five unpaid city tickets can mean impoundment.
 ```
 
 ## Who wrote my ticket, Cornell or the city?
@@ -91,7 +95,7 @@ Source: [Cornell Daily Sun, Sept. 4, 2023](https://cornellsun.com/2023/09/04/on-
 Cornell enforces whenever the university is open. It pauses on official closed staff holidays until the next business day. No-parking, fire lane, reserved, service and accessible rules are never suspended ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). Our [permit guide](/cornell/getting-around/cornell-student-parking-permit-cost-rules/) explains how to avoid the most common one, the no-permit ticket.
 
 ```reader "If you have a car in university housing"
-The mistakes that draw tickets are parking outside your permit area and missing the winter bays. Our guide to [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers the year. In winter, the overnight rule is covered in the [winter parking guide](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
+The mistakes that draw tickets are parking outside your permit area and missing the winter bays. Our [Cornell parking guide](/cornell/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers the year. In winter, the overnight rule is covered in the [winter parking guide](/cornell/getting-around/ithaca-winter-parking-rules-cornell-odd-even/).
 ```
 
 ## How much are City of Ithaca parking tickets?
@@ -117,20 +121,24 @@ The city's tickets are the ones you will meet, because your street, meter and ga
 
 ## How do I appeal a parking ticket in Ithaca?
 
-Contact the issuing office quickly, before the late fee applies.
+Appeal to the office that wrote the ticket, and do it early. Each office has its own deadline.
 
-- **Cornell ticket:** call TDS at 607-255-4600, Monday to Friday, 7:30 a.m. to noon, or use the TDS ticket portal listed on the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students). TDS is at 116 Maple Avenue ([TDS](https://fcs.cornell.edu/departments/transportation-delivery-services)).
-- **City ticket:** call the Parking Violations Bureau at (607) 274-6581 ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)).
+- **Cornell ticket:** appeal within 10 calendar days of the issue date, or the right to appeal is lost. Appeals must be in writing through the online appeals form, which needs a CU NetID or guest login; Cornell does not accept oral appeals. Explain why the ticket was issued in error and attach photos or receipts. A reply can take up to three weeks. If you disagree with the decision, you have 10 calendar days to re-appeal, and only new factual evidence is reconsidered ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations)).
+- **What Cornell will not consider:** not knowing the rules, disagreeing with them, other cars parked badly, being late to class, being unable to pay, or parking illegally for only a few minutes.
+- **Cornell questions:** call TDS at 607-255-4600, Monday to Friday, 7:30 a.m. to noon. TDS is at 116 Maple Avenue ([TDS](https://fcs.cornell.edu/departments/transportation-delivery-services)).
+- **City ticket:** file an appeal through the city's online portal, linked from its parking violations page, within 20 days of issuance to avoid the $20 late penalty. For questions, call the Parking Violations Bureau at (607) 274-6581 with your plate number ready ([City of Ithaca](https://www.cityofithacany.gov/727/Parking-Regulations-Violations)).
 
-Ask each office three things: the deadline to contest, what evidence it accepts, and whether the late fee is paused while a contest is pending. Get the answers in writing.
+Unpaid Cornell tickets on a student vehicle can be moved to the bursar, and unpaid tickets can block renewal of parking and transit privileges ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations)).
 
 ## What mistakes make a ticket worse?
 
-- **Letting a Cornell ticket sit.** It grows by $10 after 10 days.
+- **Letting a Cornell ticket sit.** It grows by $10 after 10 days, and the appeal window closes at the same time.
 - **Ignoring a city ticket.** The late penalty applies after 20 days.
 - **Collecting five or more unpaid city tickets.** The car can be impounded.
 - **Parking in an accessible space or fire lane.** It draws the highest fine and a tow.
 
 ## What to do next
 
-Photograph the ticket today, then call the issuing office before the late fee date. For future trips, register your plate in MyParking and check the posted signs.
+Photograph the ticket today, then file your appeal or pay before the deadline: 10 days for Cornell, 20 days for the city. For future trips, register your plate in MyParking and check the posted signs.
+
+This page is general information, not legal advice.

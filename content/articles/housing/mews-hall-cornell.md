@@ -31,9 +31,9 @@ sources:
 - url: https://cornellsun.com/2001/09/04/north-campus-grand-opening/
   title: North Campus Grand Opening, The Cornell Daily Sun, Sept. 4, 2001
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -43,12 +43,15 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
+  title: Residence Hall Configurations, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Mews Hall, a brick first-year residence hall on Cornell's North Campus, seen across its lawn
@@ -64,7 +67,7 @@ images:
 
 ```glance
 - Mews Hall opened in 2001 and holds 260-plus first-year students in corridor singles and doubles.
-- Cornell's page lists air filtration but does not state air conditioning.
+- Rooms have system-controlled air filtration, and each wing or floor has a kitchen.
 - Loving House, a program house for LGBTQIA+ students and allies, has 30 residents on the first floor.
 - Cars unload on Program House Drive, and the hall stays open over winter break.
 ```
@@ -80,14 +83,15 @@ rows:
   - {label: "Residents", value: "260-plus; Loving House has 30"}
   - {label: "Room types", value: "Singles and doubles"}
   - {label: "Layout", value: "Corridor"}
-  - {label: "Cooling", value: "Air filtration; air conditioning not stated"}
+  - {label: "Air", value: "System-controlled air filtration"}
+  - {label: "Student mail", value: "Name and NetID, 107 Robert Purcell, room and building, Cornell University, Ithaca, NY 14853"}
   - {label: "2026-27 room rate", value: "$13,744 (double) to $15,566 (single) per year"}
   - {label: "Dining", value: "North Star Dining Room in Appel Commons is next door"}
   - {label: "Who lives there", value: "First-years; Loving House takes all years"}
   - {label: "How to get in", value: "Random assignment, or the Loving House application"}
 ```
 
-Source: Cornell Housing hall pages, Residence Hall Configurations and Housing Rates 2026-2027. Cornell's page gives no street address.
+Source: Cornell Housing hall pages, Residence Hall Configurations and Housing Rates 2026-2027.
 
 ## What sets Mews Hall apart?
 
@@ -97,13 +101,13 @@ Loving House is the other reason people name Mews. It opened in 2019 on the firs
 
 ## What is living in Mews Hall like?
 
-Bedrooms open onto a hallway, and floors share bathrooms, as in most North halls. Most rooms have carpet, but the third floor of the west wing has vinyl tile floors. Cornell's page lists air filtration and does not state air conditioning, so ask housing@cornell.edu if cooling matters to you.
+Bedrooms open onto a hallway, and floors share bathrooms, as in most North halls. Most rooms have carpet, but the third floor of the west wing has vinyl tile floors. Rooms have system-controlled air filtration. Each wing or floor has a kitchen, and the laundry rooms sit on the east and west sides of the first floor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mews-hall)).
 
 A Faculty-in-Residence, a professor who lives in the building, serves Mews. As of November 2026 that is Senior Lecturer Claire Menard, who also serves Loving House ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mews-hall)). The category rules for North halls are in [North Campus dorms compared](/cornell/housing/cornell-north-campus-dorms-compared/).
 
 ## What does a room in Mews Hall cost?
 
-Cornell charges by room type, not by building, and Mews follows the same table as every other hall ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate includes gas, electricity, trash pickup and internet, with no security deposit. First-years also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Cornell charges by room type, not by building, and Mews follows the same table as every other hall ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The rate includes gas, electricity, trash pickup and internet, with no security deposit. First-years also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -123,7 +127,7 @@ Wondering how that stacks up against a lease? See [is off-campus cheaper than a 
 
 First-years apply in the Housing and Dining Portal within 10 days of getting a NetID. Staff assign halls by random auto-allocation, and you do not rank them ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process)). Confirmations start in mid-June. Loving House is a program house, so you apply to it directly.
 
-Signing the license commits you. First-years cannot cancel to live off campus unless they leave Cornell or qualify for an exemption, which the guide on [who can live off campus](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) explains. Returning juniors and seniors can cancel a later license for a fee that grows with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Signing the license commits you. First-years cannot cancel to live off campus unless they leave Cornell or qualify for an exemption, which the guide on [who can live off campus](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) explains. Returning juniors and seniors can cancel a later license for a fee that grows with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -137,11 +141,11 @@ The hall does not change the housing rate. A triple costs less than a double, an
 
 ## Where do you unload on move-in day?
 
-Cornell sent Mews and Loving House cars to Program House Drive in fall 2026, and rental trucks and trailers were turned away ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
+Cornell sent Mews and Loving House cars to Program House Drive in fall 2026 ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
 
 ## What to do next
 
-Apply within 10 days of your NetID (Cornell Housing), and apply to Loving House directly if it fits. Then email housing@cornell.edu if cooling matters.
+Apply within 10 days of your NetID (Cornell Housing), and apply to Loving House directly if it fits.
 
 ## Related guides
 

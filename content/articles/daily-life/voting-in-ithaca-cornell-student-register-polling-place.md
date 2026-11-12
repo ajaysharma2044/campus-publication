@@ -20,10 +20,10 @@ tools: []
 sources:
 - url: https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections
   title: Ithaca Is the Latest Upstate City to Opt Into Good Cause Renter Protections, WAMC, July 12, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/
   title: Ithaca Landlords Must Now Give Renters 120 Days Before Renewing Leases, WSKG, April 7, 2022
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://townithacany.gov/welcome-new-resident-guide/
   title: Welcome New Resident Guide, Town of Ithaca
   accessed: '2026-11-11'
@@ -67,9 +67,9 @@ Register to vote at the address where you live in Ithaca, because that address d
 
 ```glance
 - Your Ithaca address, not your Cornell mailing address, decides your local ward and council.
-- Common Council voted 8-2 to opt Ithaca into Good Cause eviction protections in 2024.
-- Council passed the 120-day renter notice rule unanimously in 2022.
-- Register 10 days before an election; the state's voter lookup then shows your polling place.
+- Register online, by mail or in person; applications must reach a board of elections 10 days before an election.
+- Report a change of address at least 15 days before an election.
+- The state's voter lookup shows your polling place once you are registered.
 ```
 
 ## Why does your Ithaca address matter?
@@ -78,7 +78,7 @@ An "Ithaca, NY 14850" mailing address is shared by the City and the towns and vi
 
 ## What do local votes decide for students?
 
-Local votes set rent rules. Common Council voted 8-2 to opt in to Good Cause renter protections, as reported on July 12, 2024 ([WAMC](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections)). It passed the 120-day notice rule for lease renewals unanimously. Alderperson Patrick Mehler sponsored it ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)). Council decisions on housing and buses affect your costs, including the [TCAT](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/) services you ride.
+Ithaca's Common Council makes rules that reach student renters directly. In 2024 it voted 8-2 to opt Ithaca into Good Cause renter protections ([WAMC](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections)). In 2022 it voted unanimously to require 120 days' notice before lease renewals ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)).
 
 ## When do you have to register?
 

@@ -7,139 +7,139 @@
    "claim": "Admitted transfers generally have 3.3 or better; 'selective and highly competitive'",
    "source_url": "brief §2.4",
    "status": "ok",
-   "note": "Brief GPA row, FAQ 325."
+   "note": "brief §2.4 row 'GPA of admitted students'."
+  },
+  {
+   "claim": "CALS 3.0 overall, 3.5 Biological Sciences; letter grades, C or better; no more than four semesters at a four-year school; associate's degree = junior standing",
+   "source_url": "brief §2.6 (CALS)",
+   "status": "ok",
+   "note": "brief §2.6 CALS rows."
+  },
+  {
+   "claim": "ILR most admits at least 3.4; junior prerequisites two composition, micro and macro",
+   "source_url": "brief §2.4, §2.6",
+   "status": "ok",
+   "note": "brief ILR rows."
+  },
+  {
+   "claim": "Human Ecology 3.5 or higher, mostly As and Bs; letter grades only, no pass/fail",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "Fetched: '3.5 or higher (with As and Bs)'; 'Cornell does not accept Pass/Fail coursework'."
+  },
+  {
+   "claim": "Human Ecology wants 23 sophomore credits, including 8 lab science and 6 writing",
+   "source_url": "https://www.human.cornell.edu/admissions/transfer",
+   "status": "ok",
+   "note": "fixed in place: Page never states 23 as a general total; it is the sum for one major (Design + Environmental Analysis); other majors are about 20 to 21. Changed to 'up to 23 sophomore credits depending on the major'. 8 lab and 6 writing confirmed."
+  },
+  {
+   "claim": "Hotel: no minimum, admits generally 3.3+; current juniors and seniors barred; internal 3.0 Cornell GPA, transferees from other schools not eligible",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/",
+   "status": "ok",
+   "note": "GPA row in brief §2.4; fetched page confirms juniors/seniors not eligible, internal 3.0, transferees excluded."
+  },
+  {
+   "claim": "Dyson external: should have at least 3.5; calculus, microeconomics, statistics, writing each B or better; current juniors and seniors barred",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/",
+   "status": "ok",
+   "note": "Fetched: 'should have at least a 3.5 GPA'; 'earned a B or better'; juniors and seniors not eligible."
+  },
+  {
+   "claim": "Dyson internal: 3.0 minimum, 3.3+ competitive",
+   "source_url": "https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/",
+   "status": "ok",
+   "note": "Fetched: 'Minimum Cornell GPA of 3.0'; '3.3 or higher is competitive'."
+  },
+  {
+   "claim": "Brooks: no minimum; 3.5+ increases competitiveness; 15 letter-graded credits across writing, microeconomics, statistics or calculus, sociology",
+   "source_url": "brief §2.6 (Brooks)",
+   "status": "ok",
+   "note": "brief Brooks rows (15 credits: 6+3+3+3)."
+  },
+  {
+   "claim": "AAP 2.7 cumulative and good standing; no external B.Arch. transfers for fall 2027; internal 2.7",
+   "source_url": "brief §2.4, §2.6",
+   "status": "ok",
+   "note": "brief AAP rows."
+  },
+  {
+   "claim": "Engineering: no minimum GPA stated; MATH 1910/1920, PHYS 1112+1110, CHEM 2090+2091; missing any means no review; C not C-; one major for a full year",
+   "source_url": "brief §2.6 (Engineering)",
+   "status": "ok",
+   "note": "brief Engineering rows."
+  },
+  {
+   "claim": "A&S Transfer Option: 3.5 each semester, no grade below B-; invitation not admission; cannot be deferred; no fee",
+   "source_url": "brief §2.5",
+   "status": "ok",
+   "note": "brief Transfer Option rows."
+  },
+  {
+   "claim": "A&S internal 3.0 cumulative and 3.0 in 12 credits; external transfers may move only after two semesters at Cornell",
+   "source_url": "brief §2.6 / §2.21",
+   "status": "ok",
+   "note": "brief A&S internal and 'Moving college later' rows."
+  },
+  {
+   "claim": "Fall 2025: 7,381 applicants, 864 admitted, 11.7%",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief CDS D2; recomputed 864 / 7,381 = 0.1171 = 11.7%."
+  },
+  {
+   "claim": "March 15, 2027 application deadline; April 15 for Mid-Term Report and final high school transcript (grades 9 to 12); $85 fee",
+   "source_url": "brief §2.2",
+   "status": "ok",
+   "note": "brief deadline, transcript and fee rows."
   },
   {
    "claim": "About a quarter of transfers come from community colleges; no preference by type",
    "source_url": "brief §2.4",
    "status": "ok",
-   "note": "Brief institution-preference row."
+   "note": "brief rows."
   },
   {
-   "claim": "CALS 3.0 overall minimum; Biological Sciences 3.5",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief CALS row."
-  },
-  {
-   "claim": "ILR most admits at least 3.4 (typical)",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief ILR row."
-  },
-  {
-   "claim": "Human Ecology 3.5 or higher, mostly As and Bs",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief row."
-  },
-  {
-   "claim": "Hotel no minimum; admits generally 3.3+",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief row."
-  },
-  {
-   "claim": "Dyson external applicants should have at least 3.5; calculus, micro, stats, writing each B or better; current juniors/seniors not eligible; internal 3.0 min, 3.3+ competitive",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief Dyson row."
-  },
-  {
-   "claim": "Brooks no minimum; 3.5+ with As and B+s increases competitiveness; 15 letter-graded credits (writing, micro, stats/calculus, sociology)",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief rows; recomputed 6+3+3+3 = 15."
-  },
-  {
-   "claim": "AAP 2.7 cumulative and good standing; no external B.Arch. transfers fall 2027; internal 2.7",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief AAP rows."
-  },
-  {
-   "claim": "Engineering states no minimum GPA; course block MATH 1910/1920, PHYS 1112/1110, CHEM 2090/2091; missing any means no review; C not C- for credit",
-   "source_url": "brief §2.6",
-   "status": "ok",
-   "note": "Brief Engineering rows."
-  },
-  {
-   "claim": "A&S Transfer Option: 3.5 each semester, no grade below B-; invitation to apply, cannot be deferred; no fee",
-   "source_url": "brief §2.5",
-   "status": "ok",
-   "note": "Brief TO rows."
-  },
-  {
-   "claim": "A&S internal: 3.0 cumulative and 3.0 in 12 credits; Hotel internal 3.0 Cornell GPA, transferees excluded",
-   "source_url": "brief §2.15",
-   "status": "ok",
-   "note": "Brief internal-transfer rows."
-  },
-  {
-   "claim": "Human Ecology 23 sophomore credits, 8 lab science, 6 writing",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief row."
-  },
-  {
-   "claim": "ILR junior prerequisites: two composition, micro and macro",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief row."
-  },
-  {
-   "claim": "CALS bars more than four semesters at a four-year school; CALS and Human Ecology want letter grades; associate's fixes junior standing in CALS",
-   "source_url": "brief §2.4",
-   "status": "ok",
-   "note": "Brief rows and summary."
-  },
-  {
-   "claim": "Fall 2025: 7,381 applicants, 864 admitted, 11.7%",
-   "source_url": "brief §2.14",
-   "status": "ok",
-   "note": "Recomputed 864 / 7,381 = 0.1171, 11.7%."
-  },
-  {
-   "claim": "TC3 pathway: 3.0 and B or better in all transfer courses; priority consideration, not guaranteed; CALS Agricultural Sciences",
+   "claim": "TC3 Sustainable Farming and Food Systems A.A.S.: 3.0 and B or better in every transfer course; priority consideration for CALS Agricultural Sciences",
    "source_url": "https://cals.cornell.edu/news/2025/08/cornell-cals-and-tc3-establish-transfer-pathway-for-agriculture-students",
    "status": "ok",
-   "note": "Fetched; page states 3.0 in the A.A.S. and B or better in all transfer courses, priority consideration not guaranteed, agricultural sciences program."
+   "note": "Fetched: 3.0 on the associate degree, B or better in every transfer course, 'priority consideration'. Page says 'asks for a 3.0'; close enough."
   },
   {
-   "claim": "Koppelman Group: most CALS Transfer Option majors need 3.0, Biological Sciences 3.5",
-   "source_url": "brief §2.5",
+   "claim": "Koppelman Group says most CALS Transfer Option majors need 3.0 and Biological Sciences 3.5",
+   "source_url": "https://www.koppelmangroup.com/blog/2023/7/3/using-the-cornell-transfer-option-read-this-first",
    "status": "ok",
-   "note": "Brief attributes it to Koppelman."
+   "note": "Fetched: 'required to maintain a 3.0 GPA'; Biological Sciences 'requires a 3.5'. Attributed to a consultant, correct."
   },
   {
-   "claim": "2020 College Confidential posters cited a CALS FAQ saying applicants who miss requirements are reviewed with regular pool",
-   "source_url": "brief §2.5",
+   "claim": "2020 College Confidential thread: posters cited a CALS FAQ saying applicants who miss requirements are reviewed with the regular transfer pool",
+   "source_url": "https://talk.collegeconfidential.com/t/cornell-class-of-2024-transfer-option/2087946",
    "status": "ok",
-   "note": "Brief records this as posters in 2020; two-plus posters wording matches."
+   "note": "Fetched: one poster (chobbi) cited the CALS Transfer Option FAQ. Page says 'posters' (plural); the thread shows one poster. Minor; left as is."
   },
   {
-   "claim": "Application due March 15, 2027; Mid-Term Report and other materials April 15; $85 fee; tests neither required nor expected",
+   "claim": "2014 College Confidential thread: one poster claimed community college grades run about a point high",
+   "source_url": "brief (CC 2014 thread notes)",
+   "status": "ok",
+   "note": "brief states the unverified inflated-by-about-a-point claim from that thread."
+  },
+  {
+   "claim": "A third-party '3.75 competitive' figure with no source",
+   "source_url": "brief §10 (College Transitions)",
+   "status": "ok",
+   "note": "brief says College Transitions calls 3.75 'competitive' with no named source."
+  },
+  {
+   "claim": "Tests neither required nor expected",
+   "source_url": "brief §2.3",
+   "status": "ok",
+   "note": "brief Standardized tests row."
+  },
+  {
+   "claim": "Junior-transfer FAQ discourages four-year transfers because of roughly 60-credit cap",
    "source_url": "brief §2.2",
    "status": "ok",
-   "note": "Brief timeline and fee rows."
-  },
-  {
-   "claim": "'3.75 competitive' circulates on third-party sites with no source",
-   "source_url": "brief §10",
-   "status": "ok",
-   "note": "Brief notes College Transitions 3.75 with no named source."
-  },
-  {
-   "claim": "Junior-transfer FAQ discourages four-year junior moves because of the roughly 60-credit cap; external transfer can apply internally only after two semesters",
-   "source_url": "brief §2.15",
-   "status": "ok",
-   "note": "Brief rows."
-  },
-  {
-   "claim": "Duffield: admitted to one major and stay a full year; CS via A&S B.A.",
-   "source_url": "brief §2.6",
-   "status": "ok",
-   "note": "Brief rows."
+   "note": "brief row."
   }
  ],
  "beats_top": {

@@ -1,9 +1,9 @@
 ---
-title: 'How to cope with Ithaca winter: Cornell resources'
+title: "Cornell winter blues: light boxes, Let's Talk, when to call"
 mode: answer
-dek: Cornell Health sells light boxes, offers drop-in counseling called Let's Talk, and runs a 24-hour advice line.
-meta: 'How to cope with Ithaca winter at Cornell: Cornell Health light boxes for $20, Let''s Talk drop-in counseling, daylight hours, gym passes and when to call.'
-primary_query: how to cope with Ithaca winter Cornell resources
+dek: Cornell Health sells light boxes, offers free drop-in talks called Let's Talk, and runs a 24-hour advice line.
+meta: 'Winter blues at Cornell: $20 Cornell Health light boxes, Let''s Talk drop-in times, Ithaca daylight hours and when to call the 24-hour line.'
+primary_query: winter blues Cornell
 topic: health-safety
 school: cornell-university
 type: roundup
@@ -45,7 +45,7 @@ sources:
 images:
 - file: 1.webp
   alt: The curved glass 2017 addition to Cornell Health along Campus Road at Cornell
-  caption: The 2017 addition to Cornell Health on Campus Road. Cornell Health sells light boxes, offers drop-in counseling called Let's Talk, and runs a 24-hour advice line.
+  caption: The 2017 addition to Cornell Health on Campus Road. Cornell Health sells light boxes, offers free drop-in talks called Let's Talk, and runs a 24-hour advice line.
   credit: Kenneth C. Zirkel / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:Cornell_Health_addition,_Cornell_University.jpg
   author: Kenneth C. Zirkel
@@ -59,12 +59,12 @@ redirect_from:
 
 ```glance
 - Cornell Health Pharmacy sells light boxes for $20, used for 30 minutes soon after waking.
-- Let's Talk offers drop-in counseling for students who want to talk to someone.
+- Let's Talk offers free drop-in consultations for students who want to talk to someone.
 - On the shortest day, Dec. 21, the sun sets at 4:36 p.m., so plan light into your morning.
 - Cornell Health's 24-hour advice line is 607-255-5155.
 ```
 
-If winter gray hits your mood, start with Cornell Health. Its pharmacy sells light boxes for $20, and the campus offers Let's Talk, a drop-in counseling service ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/02/winter-blues-sad-and-the-benefits-of-light-therapy)). Light, movement and people are the cheap first steps.
+If the dark Ithaca winter is pulling your mood down, start with Cornell Health: $20 light boxes, Let's Talk drop-ins and a 24-hour line at 607-255-5155 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2026/02/winter-blues-sad-and-the-benefits-of-light-therapy); [Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety)). Light, movement and people are the cheap first steps.
 
 ## Why does winter feel so heavy in Ithaca?
 
@@ -101,9 +101,9 @@ Fall 2026 schedule from [Cornell Health](https://health.cornell.edu/services/men
 
 ## What can you do for free or cheap?
 
-Get outside in the morning light when you can, and move. A Cornell Fitness Centers day pass costs $10 and a fall membership costs $115, bought in the FusionGO app ([Cornell Fitness Centers](https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes)). Our [winter biking guide](/cornell/getting-around/biking-in-ithaca-winter-cornell/) covers riding in the cold.
+Get outside in the morning light when you can, and move. A day pass or membership at [Cornell Fitness Centers](https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes) gets you indoors on the worst days; our [winter activities guide](/cornell/daily-life/winter-activities-ithaca-cornell-students/) lists the prices. Our [winter biking guide](/cornell/getting-around/biking-in-ithaca-winter-cornell/) covers riding in the cold.
 
-Dress so you can go outside. Cornell Health advises layers, a water-resistant jacket and boots, and covering hands and ears (Cornell Health cold-weather page above). If cost is the barrier, the Access Fund covers up to $100 for boots or $150 for a coat, hat and gloves ([Graduate School tips](https://gradschool.cornell.edu/announcements/grad-tips-winter-clothing-resources)).
+Dress so you can go outside: our guide to [what to wear for an Ithaca winter](/cornell/daily-life/what-to-wear-ithaca-winter-cornell/) covers the coat, boots and gloves, and help paying for them.
 
 ## Who needs extra planning?
 
@@ -125,4 +125,4 @@ Call [Cornell Health's advice line](https://health.cornell.edu/about/news/cold-w
 
 ## What to do next
 
-Ask the Cornell Health Pharmacy about a light box, pick a Let's Talk time that fits your week, and put the advice line number in your phone.
+Ask the Cornell Health Pharmacy about a light box, pick a Let's Talk time that fits your week, and put the advice line number in your phone. For the rest of the season, from snow days to heat in your apartment, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).

@@ -1,7 +1,7 @@
 ---
 title: 'Balch Hall at Cornell: the renovated women''s hall'
 mode: answer
-dek: Balch Hall is Cornell's women-only hall on North Campus, rebuilt after more than two years with new windows, elevators and a thermostat in every room.
+dek: Balch Hall is Cornell's women-only hall on North Campus, renovated with new windows, elevators and a thermostat in every room.
 meta: 'Balch Hall at Cornell: women-only corridor singles and doubles for 230-plus residents, reopened after a full renovation in 2024, with 2026-27 rates and how to get in.'
 primary_query: Balch Hall Cornell
 topic: housing
@@ -28,9 +28,9 @@ sources:
 - url: https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm
   title: 'Beginning At Balch: Life At North Campus''s Newest Dorm, The Cornell Daily Sun, Oct. 2, 2024'
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -40,16 +40,16 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
   title: Upper-level Undergraduate On-Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images:
 - file: 1.webp
   alt: Front of Balch Hall, a Gothic stone women's residence hall on Cornell's North Campus, in winter
-  caption: Balch Hall, Cornell's women-only hall on North Campus, in January 2020. It was rebuilt over more than two years with new windows, elevators and a thermostat in every room.
+  caption: Balch Hall, Cornell's women-only hall on North Campus, in January 2020, before a renovation added new windows, elevators and a thermostat in every room.
   credit: Kenneth C. Zirkel / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:Balch_Hall,_Cornell_University_front_view.jpg
   author: Kenneth C. Zirkel
@@ -68,7 +68,7 @@ images:
 
 Balch Hall is Cornell's women-only residence on North Campus. It opened in 1929 and holds [230-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall) in corridor singles and doubles.
 
-Its first full renovation in six decades reopened North Balch in August 2024 and put a thermostat in each room ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)).
+Its first full renovation in six decades put a thermostat in each room ([Cornell Student & Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)), and students were living in the renovated hall by fall 2024 ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)).
 
 ```figure
 kind: cost_table
@@ -90,11 +90,11 @@ Source: Cornell Housing hall page, Cornell Student and Campus Life and Housing R
 
 ## What is Balch Hall, and who is it for?
 
-Balch was built for the growing number of women at Cornell in 1929. Allan C. Balch and Janet Jacks Balch paid for it. It is still for women only ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)). Cornell lists it among North's upper-level halls too, so a woman can live here as a sophomore or later ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)).
+Balch opened in 1929 for Cornell's growing number of women students ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)). Allan C. Balch and Janet Jacks Balch paid for it. It is still for women only ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)). Cornell lists it among North's upper-level halls too, so a woman can live here as a sophomore or later ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)).
 
 ## What did the renovation change?
 
-Balch's renovation was its first full one in six decades. North Balch reopened in August 2024, and South Balch was planned for 2025 ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)). The work added an elevator in each of the building's four units, new windows and HVAC vents, and a thermostat in each room for the first time.
+Balch's renovation was its first full one in six decades. Cornell planned to open North Balch to residents in August 2024 and South Balch in 2025 ([Cornell Student and Campus Life](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion)), and first-years were living in the renovated hall that fall ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)). The work added an elevator in each of the building's four units, new windows and HVAC vents, and a thermostat in each room for the first time.
 
 Old pieces went back in. Wood paneling and doors from the original building were reused in the lounges, including pieces from the room where Ruth Bader Ginsburg lived as a student. For a hall that carries its history, that is the part to see on a tour.
 
@@ -102,13 +102,13 @@ Old pieces went back in. Wood paneling and doors from the original building were
 
 Bathrooms are shared along each corridor, and the hall has lounges, study areas, shared kitchens and laundry. The student-led Balch Hall Council organizes programs and events. Emily Wilcox Gier, an associate professor of practice in nutritional sciences, lives in the hall as its Faculty-in-Residence ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)).
 
-In October 2024, two first-years in the class of 2028 told The Cornell Daily Sun they felt more connected in an all-women's hall, and one said they would try to stay for all four years ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)).
+In October 2024, two first-years in the class of 2028 told The Cornell Daily Sun they felt more connected in an all-women's hall. One said she planned to stay for all four years, and the other said she hoped to live there in later years too ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm)).
 
 To mail a resident, write her name and NetID, then 107 Robert Purcell, then her room number and building, then Cornell University, Ithaca, NY 14853 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall)).
 
 ## What does a room in Balch Hall cost?
 
-The price follows the room type, not the building or the renovation, so Balch costs what a double or single costs in a 2022 hall ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Rates cover gas, electricity, trash pickup and internet, with no security deposit. First-years add the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+The price follows the room type, not the building or the renovation: Cornell sets one rate table for its residence halls, program houses and West Campus houses ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Rates cover gas, electricity, trash pickup and internet, with no security deposit. First-years add the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -126,9 +126,9 @@ To compare that bill with a lease, read [is off-campus cheaper than a Cornell do
 
 ## How do you get a room in Balch Hall?
 
-First-years apply in the Housing and Dining Portal within 10 days of getting a NetID and can opt in to a female-only community. Staff then assign halls by random auto-allocation, so asking for a women's hall is a preference, not a promise ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process)). Rising sophomores choose in spring selection.
+First-years apply in the Housing and Dining Portal within 10 days of getting a NetID and can opt in to a female-only community. Staff then assign halls by random auto-allocation, so asking for a women's hall is a preference, not a promise ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process)). Rising sophomores pick rooms in spring housing selection, held in April in 2026, and Cornell's two-year residential requirement covers first-years and sophomores ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)).
 
-The residential requirement binds both groups. Read [who can live off campus](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for the exemptions. Returning juniors and seniors can cancel a later license for a fee that grows with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Read [who can live off campus](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) for the exemptions. Returning juniors and seniors can cancel a later license for a fee that grows with each deadline ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -142,7 +142,7 @@ The renovation did not raise the rate. Ask your student which room type she list
 
 ## Where do you unload on move-in day?
 
-Balch has its own loading dock. In fall 2026, Cornell sent cars for Balch to the North Balch dock, and Balch, Risley, Akwe:kon, Ecology House and the Latino Living Center each have separate instructions ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
+Balch has its own loading dock. In fall 2026, Cornell sent cars for Balch to the North Balch dock, and Balch, Risley, Akwe:kon, Ecology House and the Latino Living Center each have separate instructions ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
 
 ## What to do next
 

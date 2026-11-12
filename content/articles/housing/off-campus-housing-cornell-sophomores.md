@@ -5,7 +5,7 @@ primary_query: cornell sophomore junior year housing collegetown lease
 topic: housing
 school: cornell-university
 type: scenario
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0050
 kind: reader_guide
 readers:
@@ -25,7 +25,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
@@ -46,10 +46,10 @@ sources:
 - url: https://ithacarenting.com/downtown/
   title: Downtown properties, Ithaca Renting
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
@@ -64,10 +64,10 @@ sources:
 - url: https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/
   title: 'Mehler: Student tenants'' rights shifting in your favor, The Cornell Daily Sun, April 18, 2022'
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student & Campus Life
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/
@@ -139,7 +139,9 @@ images:
 - At signing, refuse application and cleaning fees and any deposit above one month's rent.
 ```
 
-As a sophomore you must live in Cornell or affiliated housing this year, so the work now is the junior-year lease, and for Collegetown that lease is signed this fall: on November 8, 2026, [Ithaca Renting](https://ithacarenting.com/collegetown/) already showed 14 of its 67 Collegetown rows for 2027-28 as sold out. Settle your group and neighborhood by October, and sign this fall if you want a popular Collegetown unit; downtown and Fall Creek can wait for spring. If you keep a Cornell room as a backup, sign the lease by January 31, when [cancelling the room costs $50](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028).
+Plan sophomore year in four moves: settle your group, pick a neighborhood by October, sign this fall if you want a popular Collegetown unit (downtown and Fall Creek can wait for spring), and if you keep a Cornell room as a backup, sign the lease by January 31, when [cancelling the room costs $50](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028). You live in Cornell or affiliated housing this year, so the lease you are planning is the junior-year one. The dated signing record, and when waiting is fine, is in [when to sign a Collegetown lease](/housing/when-to-sign-collegetown-lease-cornell/).
+
+This is general information, not legal advice.
 
 ```reader "If you're set on Collegetown"
 Start in September. In our count of nine dated signings in Cornell Daily Sun stories from 2017 to 2025, all but one fallback fell 8 to 16 months before an August move-in, most 10 to 11. A columnist who signed in October of sophomore year [called himself late](https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/) by Collegetown standards. The big houses go first: 214 Dryden Rd's 14-bedroom and 105 Dryden Court's 8-bedroom were [sold out for 2027-28](https://ithacarenting.com/collegetown/) by Nov 8, 2026. The costly mistake is speed over people: signing with a group you barely know, then carrying their share when it shrinks.
@@ -154,7 +156,7 @@ Both count as Cornell-recognized housing. [Co-op selection](https://scl.cornell.
 ```
 
 ```reader "If you're the parent paying"
-Compare like with like. The $13,744 double covers two semesters and [includes gas, electricity, garbage and internet](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates). A 12-month lease at Ithaca Renting's 2027-28 Collegetown medians costs $9,600 a year per person in a 6BR, $14,955 in a 4BR and $24,300 for a 1BR alone, before electricity. On most local leases [every housemate is liable](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire) for the whole rent and damages, so a group that loses a member costs the rest. Without a NetID you can still call the City Building Division at [607-274-6508](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) to check a building's Certificate of Compliance.
+Compare like with like. The $13,744 double covers two semesters and [includes gas, electricity, garbage and internet](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates). A 12-month lease at Ithaca Renting's 2027-28 Collegetown medians costs $9,600 a year per person in a 6BR, $14,955 in a 4BR and $24,300 for a 1BR alone, before electricity. On most local leases [every housemate is liable](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire) for the whole rent and damages, so a group that loses a member costs the rest. Without a NetID you can still call the City Building Division at [607-274-6508](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) to check a building's Certificate of Compliance.
 ```
 
 ```reader "If you're a first-year planning ahead"
@@ -165,7 +167,7 @@ Your sophomore year is settled: a residence hall, a co-op or a [recognized Greek
 
 Cornell's two-year rule covers [full-time, Ithaca-based first- and second-year students](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy). In year two you may live in a residence hall, a recognized fraternity or sorority house, one of the university-owned co-ops, or other approved affiliated housing.
 
-Cornell says first- and second-years [should not sign a lease unless they have an approved exemption](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process). A lease does not release you from the rule. Students who neither meet the requirement nor get an exemption [will still be billed for the full year](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing), which is $13,744 for a 2026-27 double, on top of the rent.
+Cornell says first- and second-years [should not sign a lease unless they have an approved exemption](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process). A lease does not release you from the rule. Students who neither meet the requirement nor get an exemption [will still be billed for the full year](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing), which is $13,744 for a 2026-27 double, on top of the rent.
 
 The rule ends after year two. So the lease that matters is the junior-year one, and Collegetown fills it while you are still a sophomore. Exemptions exist (21 or older by the start of the year, married, a veteran, with dependents, or a local commuter), and they are requested in the Housing application during its open window, not after you sign a Cornell license.
 
@@ -215,15 +217,15 @@ The double covers two semesters with utilities; the lease runs 12 months and doe
 
 Example: a group of six plans a 6BR at the $800 median. Two drop out in November and the four left move to a 4BR at $1,246.25. Each pays $446.25 more a month, $5,355 more over the year.
 
-That example is why the group comes before the apartment. Every housemate on most local leases is bound [jointly and severally](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire): each owes the housemates' rent and damages for the whole term. A tenant who pays more than their share can [sue a co-tenant for contribution](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease), which is a lawsuit, not a refund.
+That example is why the group comes before the apartment. Every housemate on most local leases is bound [jointly and severally](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire): each owes the housemates' rent and damages for the whole term. A tenant who pays more than their share can [sue a co-tenant for contribution](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease), which is a lawsuit, not a refund.
 
 In a 2020 Sun column, Dery wrote that large groups are [likely to lose people](https://www.cornellsun.com/article/2020/10/dery-cornell-should-actively-help-house-students-off-campus) and that individuals and small groups face higher prices. Run Cornell's housemate questions before anyone signs: study hours, guests, cleanliness, whether the student or a parent handles money, and what happens if someone studies abroad.
 
-Where to look: Cornell's Off-Campus Housing Marketplace shows listings only to people who prove Cornell affiliation, and the Off-Campus Living email list needs a NetID; both are on Cornell's [listings page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Ithaca Renting publishes full per-bed price lists. Ask every landlord whether a price is per bed or per unit.
+Where to look: Cornell's Off-Campus Housing Marketplace shows listings only to people who prove Cornell affiliation, and the Off-Campus Living email list needs a NetID; both are on Cornell's [listings page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources). Ithaca Renting publishes full per-bed price lists. Ask every landlord whether a price is per bed or per unit.
 
 ## Collegetown now, or downtown later
 
-Collegetown is up to a 15-minute walk; downtown and Fall Creek are a [20 to 30 minute uphill walk](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) or a bus. The same landlord prices the two very differently. These are our medians from [Ithaca Renting's downtown page](https://ithacarenting.com/downtown/) and its Collegetown page, both read November 8, 2026.
+Collegetown is up to a 15-minute walk; downtown and Fall Creek are a [20 to 30 minute uphill walk](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) or a bus. The same landlord prices the two very differently. These are our medians from [Ithaca Renting's downtown page](https://ithacarenting.com/downtown/) and its Collegetown page, both read November 8, 2026.
 
 | Per bed a month | Downtown median | Collegetown median | Downtown saves |
 |---|---|---|---|
@@ -283,7 +285,7 @@ The Cornell Law Tenants Advocacy hotline, [607-301-1560](https://sites.lawschool
 
 ## Check the building before you sign
 
-For a City of Ithaca address, ask the City Building Division about the Certificate of Compliance: [607-274-6508 or ibd@cityofithaca.org](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources). Then look the address up on the Cornell and City [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) at safety.offcampusliving.cornell.edu. It shows sprinklers, smoke and carbon monoxide alarms and construction type. It does not rate the landlord, and neither check covers the Town of Ithaca, Lansing or Cayuga Heights.
+For a City of Ithaca address, ask the City Building Division about the Certificate of Compliance: [607-274-6508 or ibd@cityofithaca.org](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources). Then look the address up on the Cornell and City [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments) at safety.offcampusliving.cornell.edu. It shows sprinklers, smoke and carbon monoxide alarms and construction type. It does not rate the landlord, and neither check covers the Town of Ithaca, Lansing or Cayuga Heights.
 
 The cost of skipping it: in 2018 the tenants at 117 Thurston Ave learned after signing that the certificate [had expired in 2015](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/), then waited 53 days for heat. Visit in person, check two exits and the smoke detectors, and do not trust fresh paint.
 
@@ -298,13 +300,11 @@ The cost of skipping it: in 2018 the tenants at 117 Thurston Ave learned after s
 
 ## FAQ
 
-**Can I tour or sign for junior year while I live in a dorm?** Yes. The rule limits where you live as a sophomore, not what you sign for the year after; only a lease for the current year needs an [approved exemption](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process).
+**Can I tour or sign for junior year while I live in a dorm?** Yes. The rule limits where you live as a sophomore, not what you sign for the year after; only a lease for the current year needs an [approved exemption](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process).
 
 **Does financial aid change if I move off campus?** [Cornell Financial Aid](https://finaid.cornell.edu/living-campus) calculates need the same way off campus and stops billing housing through the Bursar. It does not cover deposits, first or last month's rent, or summer rent.
 
 **What if someone in my group goes abroad junior spring?** They stay on the lease and liable unless the landlord agrees otherwise. The routes are a sublet, an assignment or an agreed early exit, covered in [breaking or leaving an Ithaca lease](/housing/breaking-a-lease-early-ithaca-cornell/).
-
-**Will my parent need to co-sign?** Not confirmed: whether Collegetown landlords require guarantors is not published, and the [Cornell Law lease guide](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease) does not address guarantor terms. Ask the landlord before your group commits.
 
 **Can I leave my sophomore Cornell room for a co-op or Greek house?** A second-year may cancel a Cornell license if [accepted to a Greek house, affiliated house or co-op](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028) before the Spring Housing Selection deadline. Otherwise second-years cannot cancel.
 

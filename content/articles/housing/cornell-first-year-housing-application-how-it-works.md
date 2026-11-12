@@ -18,7 +18,7 @@ subject: 'Toni Morrison Hall and Ganędagǫ: Hall on North Campus, Cornell Unive
 tools:
 - can-i-live-off-campus-cornell-quiz
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
@@ -33,13 +33,13 @@ sources:
 - url: https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns
   title: BSU Town Hall Addresses Housing, Financial Aid and Federal Policy Concerns, The Cornell Daily Sun
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -51,19 +51,19 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images:
@@ -86,7 +86,7 @@ images:
 - Once you accept a room, you cannot cancel unless you leave Cornell or hold an exemption.
 ```
 
-Incoming Cornell first-years apply for housing in the Housing & Dining Portal, ideally within 10 days of activating their NetID ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). You choose a residence hall or a program house, a room type and a roommate preference. Cornell then assigns your North Campus hall at random. Every first-year is guaranteed a room.
+Incoming Cornell first-years apply for housing in the Housing & Dining Portal, ideally within 10 days of activating their NetID ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). You choose a residence hall or a program house, a room type and a roommate preference. Cornell then assigns your North Campus hall at random. Every first-year is guaranteed a room.
 
 ## How do you apply for Cornell first-year housing?
 
@@ -118,7 +118,7 @@ rows:
 
 ## How does Cornell decide which hall you get?
 
-Unless you apply to a program house, a computer picks your hall. Cornell calls it random auto-allocation: it uses your room-type preference, and you never rank halls ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). All first-year housing sits on North Campus, where more than 3,000 new students live in halls and program houses.
+Unless you apply to a program house, a computer picks your hall. Cornell calls it random auto-allocation: it uses your room-type preference, and you never rank halls ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). All first-year housing sits on North Campus, where more than 3,000 new students live in halls and program houses.
 
 So your hall is luck, and the halls differ a lot. The five newest, Toni Morrison and Ganędagǫ: (2021, 800 beds) and Barbara McClintock, Hu Shih and Ruth Bader Ginsburg (fall 2022, 1,200 beds), came from a North Campus expansion that took six and a half years ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)). Older halls include Clara Dickson (1946, 460-plus residents), Mary Donlon (1961, 450-plus) and the Low Rises and High Rises from 1969 to 1971 ([Cornell Housing hall list](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing)).
 
@@ -132,7 +132,7 @@ Program houses work differently. Choosing one in the portal is how you ask for i
 
 Confirmations start in mid-June. Each student gets either a building and room or a spot on the guaranteed waitlist. A waitlisted student still has a room coming: they get weekly emails until it is final, on a rolling basis through the summer.
 
-Next you sign the housing license, Cornell's contract for your room. It is a revocable license, not a lease, so Cornell is not your landlord, and it becomes legally binding the day you accept your assignment in the portal ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)). Signing unlocks your move-in timeslot.
+Next you sign the housing license, Cornell's contract for your room. It is a revocable license, not a lease, so Cornell is not your landlord, and it becomes legally binding the day you accept your assignment in the portal ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027)). Signing unlocks your move-in timeslot.
 
 To change rooms, use a direct room swap: you trade with another student who has a signed license, through the portal, between mid-June and mid-July. Cornell was full for 2026-27 and took no room change requests (Cornell Housing, linked above).
 
@@ -147,13 +147,13 @@ rows:
   - {label: First-year move-in day, date: "Monday, Aug. 17, 2026"}
 ```
 
-Source: [Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process) and [North Campus move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus).
+Source: [Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) and [North Campus move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus).
 
 If you are still on the waitlist in July, book travel anyway. Waitlisted students can pick any open timeslot on either move-in day, whichever building they end up in. Transfers moved in Tuesday, Aug. 18, 2026. Unloading zones and parking are covered in [our move-in day guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/).
 
 ## What does first-year housing cost?
 
-A standard double costs $6,872 per semester, or $13,744 for 2026-27, and every hall, program house and West Campus house uses the same rate table ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, garbage and internet up to 200 GB a month. There is no security or damage deposit.
+A standard double costs $6,872 per semester, or $13,744 for 2026-27, and every hall, program house and West Campus house uses the same rate table ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, garbage and internet up to 200 GB a month. There is no security or damage deposit.
 
 First-years must also buy the Unlimited meal plan: $3,802 per semester, $7,604 a year, plus a $50 yearly administrative fee ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). Whether that plan pays off for you is covered in [our meal plan guide](/cornell/money/cornell-meal-plan-worth-it/).
 
@@ -193,7 +193,7 @@ Transfers can land on West Campus, South Campus, North Campus or in a program ho
 
 **Accepting a room before your exemption is approved.** First-years and new transfers cannot cancel a housing assignment unless they leave Cornell or hold an approved exemption (Cornell housing license, linked above). If you think you qualify, file the exemption first and accept a room only if it is denied.
 
-**Signing an apartment lease.** Cornell tells first- and second-years they "should not sign a lease unless they have an approved exemption" ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)). Without one, you pay for both.
+**Signing an apartment lease.** Cornell tells first- and second-years they "should not sign a lease unless they have an approved exemption" ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)). Without one, you pay for both.
 
 **Hoping to change rooms later.** With no room changes for 2026-27, the mid-June to mid-July swap is the only way out of a room you dislike. Find a trade partner early in that window.
 
@@ -203,11 +203,11 @@ Transfers can land on West Campus, South Campus, North Campus or in a program ho
 
 ## What happens after your first year?
 
-Your second year is still covered by the requirement, but you choose your own room. For 2027-28, rising sophomores applied between Feb. 1 and April 4 at 11:59 p.m., which was also the exemption deadline ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Timeslots came out April 7, program house priority and SDS selection ran April 12, and open selection ran April 13 to 16. Sophomores can also live in a recognized fraternity or sorority house or a Cornell co-op. In past years about 20% of rising sophomores were able to pick West Campus rooms; most live on North and South Campus ([Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)).
+Your second year is still covered by the requirement, but you choose your own room. For 2027-28, rising sophomores applied between Feb. 1 and April 4 at 11:59 p.m., which was also the exemption deadline ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Timeslots came out April 7, program house priority and SDS selection ran April 12, and open selection ran April 13 to 16. Sophomores can also live in a recognized fraternity or sorority house or a Cornell co-op. In past years about 20% of rising sophomores were able to pick West Campus rooms; most live on North and South Campus ([Room Selection FAQs](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)).
 
 ## Who can help?
 
-Housing Operations handles applications, licenses and exemptions. It sits at 1520 Clara Dickson Hall, answers at 607-255-5368 and housing@cornell.edu, and is open Monday to Friday, 9 a.m. to 4 p.m. ([Housing and Residential Life directory](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)). Disability housing questions go to SDS at the number above.
+Housing Operations handles applications, licenses and exemptions. It sits at 1520 Clara Dickson Hall, answers at 607-255-5368 and housing@cornell.edu, and is open Monday to Friday, 9 a.m. to 4 p.m. ([Housing and Residential Life directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)). Disability housing questions go to SDS at the number above.
 
 **Related guides**
 - [Starting Cornell as a first-year](/start/first-year/)

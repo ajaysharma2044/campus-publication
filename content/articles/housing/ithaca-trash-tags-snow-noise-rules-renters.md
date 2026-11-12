@@ -39,7 +39,7 @@ sources:
 - url: https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/
   title: Ithaca sidewalk snow rules in effect, FingerLakes1, February 14, 2026
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://ecode360.com/8391226
@@ -81,14 +81,17 @@ sources:
 - url: https://www.cityofithacany.gov/235/Solid-Waste
   title: Solid Waste, City of Ithaca
   accessed: '2026-11-11'
-- url: https://ecode360.com/8389191
-  title: City of Ithaca Code, Chapter 178 Exterior Property Maintenance, Section 178-10 Enforcement, eCode360
-  accessed: '2026-11-11'
 - url: https://ecode360.com/8389161
   title: City of Ithaca Code, Section 178-3 Standards for grounds and exterior property, eCode360
   accessed: '2026-11-11'
 - url: https://ecode360.com/8389639
   title: City of Ithaca Code, Chapter 196 Garbage and Refuse, eCode360
+  accessed: '2026-11-11'
+- url: http://web.archive.org/web/20221010165004/https://ecode360.com/8389639
+  title: City of Ithaca Code, Chapter 196 Garbage and Refuse (Sections 196-3 and 196-6), eCode360, archived October 10, 2022
+  accessed: '2026-11-11'
+- url: http://web.archive.org/web/20250726205758/https://ecode360.com/8391259
+  title: City of Ithaca Code, Chapter 240 Noise (Table I sound limits, parties, vehicle audio), eCode360, archived July 26, 2025
   accessed: '2026-11-11'
 - url: https://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management/Trash/Permits-and-Fees
   title: Permits and Fees, Tompkins County Recycling and Materials Management
@@ -119,13 +122,15 @@ images:
 
 If you rent in the City of Ithaca and trash is not in your lease, you buy a [$6.00 tag for every can or bag](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags) (2026 price) and set it out no more than [24 hours before pickup](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance). Sidewalk snow must be cleared within 24 hours after a snowfall begins, which the code puts on the owner unless your lease hands it to you. Quiet hours run [10 p.m. to 7:30 a.m.](https://ecode360.com/8391226), and the host of a party answers for noise heard 25 feet away.
 
+This is general information, not legal advice.
+
 ```reader "If you're a junior or senior already renting"
 You pay for tags only if trash is not included: a household setting out two bags a week spends $624 a year at $6 each. Check your lease for snow removal before the first storm; the owner's duty under City code can be passed to tenants, and the City can clear the walk and bill at least $50 a plowing. The costliest mistake comes at move-out: a couch or mattress left at the curb breaks the City's outdoor storage rule, and trash still needs a tag per bag. Make a disposal run to the county center at 160 Commercial Ave instead.
 ```
 
 ## Who does what: owner, tenant, City
 
-City code names the owner for most outdoor duties. Your lease decides how much of it lands on you. Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) lists "snow removal" as a term to find before you sign, and the same goes for trash.
+City code names the owner for most outdoor duties. Your lease decides how much of it lands on you. Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) lists "snow removal" as a term to find before you sign, and the same goes for trash.
 
 | Duty | What the City requires | Who the code names | What to check in the lease |
 |---|---|---|---|
@@ -185,7 +190,7 @@ The City's [exterior maintenance rules](https://www.cityofithacany.gov/136/Exter
 
 [City Code 196-3](https://ecode360.com/8389639) is tighter on timing: refuse goes out after 2:00 p.m. the day before collection and before 4:00 a.m. on collection day, and crews make no callbacks for trash set out after 4:00 a.m. Go by the code.
 
-The City's Solid Waste division [issues violations](https://www.cityofithacany.gov/235/Solid-Waste) for trash, yard waste and recycling placed or tagged wrongly. When trash goes out against Chapter 196, crews can leave it with a notice giving the reason, or collect it and charge the property owner a $20 special service charge for a residential unit (City Code 196-6). Breaking the exterior maintenance rules, such as a can stored in the front yard or a couch left outside, makes the owner or the owner's agent liable for a civil penalty under [City Code 178-10](https://ecode360.com/8389191): $25 for a first violation at a property within six months, $50 for a second and $100 for a third or later. A garbage can left without its tight-fitting lid costs $10 each time. Check whether your lease passes these charges on to you.
+The City's Solid Waste division [issues violations](https://www.cityofithacany.gov/235/Solid-Waste) for trash, yard waste and recycling placed or tagged wrongly. When trash goes out against Chapter 196, crews can leave it with a notice giving the reason, or collect it and charge the property owner a $20 special service charge for a residential unit (City Code 196-6). Breaking the [exterior maintenance rules](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance), such as a can stored in the front yard or a couch left outside, makes the owner or the owner's agent liable for a civil penalty, and each day a violation continues counts as a separate violation. Check whether your lease passes these charges on to you.
 
 Your pickup day comes from the City's Resident Services Search Tool, linked from the [tag page](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags). Questions go to Streets and Facilities, 607-272-1718.
 
@@ -204,7 +209,7 @@ Recycling is collected [every other week on your trash day](https://www.cityofit
 | Food and beverage cartons | Not accepted |
 | Food scraps | Not curbside; free drop-off at county Drop Spots |
 
-The county's Recycling and Solid Waste Center is at [160 Commercial Ave](https://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management/Recycling-and-Composting/Additional-Recyclables-at-the-RSWC), open Monday to Saturday, 7:00 a.m. to 3:30 p.m. Wear a high-visibility vest on the tip floors, a rule since August 1, 2026. The county's [recycling office](http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management) at 122 Commercial Ave is open weekdays, 8:00 a.m. to 4:30 p.m.; call (607) 273-6632.
+The county's Recycling and Solid Waste Center is at [160 Commercial Ave](https://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management/Recycling-and-Composting/Additional-Recyclables-at-the-RSWC), open Monday to Saturday, 7:00 a.m. to 3:30 p.m. [Wear a high-visibility vest on the tip floors](http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management), a rule since August 1, 2026. The county's [recycling office](http://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management) at 122 Commercial Ave is open weekdays, 8:00 a.m. to 4:30 p.m.; call (607) 273-6632.
 
 Dropping off trash there takes a county solid waste permit. The county's [2026 fees](https://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management/Trash/Permits-and-Fees):
 
@@ -218,7 +223,7 @@ Dropping off trash there takes a county solid waste permit. The county's [2026 f
 
 TVs and monitors have had [no fee since January 1, 2023](https://www.tompkinscountyny.gov/All-Departments/Recycling-Materials-Management/Recycling-and-Composting/Additional-Recyclables-at-the-RSWC).
 
-Yard waste runs April 1 to November 30, or until snow, on the weeks opposite recycling. It takes its own tags, $9 for a sheet of 6, and [no plastic bags](https://www.cityofithacany.gov/239/Trash-Collection): bundles up to 4 feet, branches under 2 inches, 50 lbs at most.
+Yard waste runs [April 1 to November 30, or until snow](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags), on the weeks opposite recycling. It takes its own tags, $9 for a sheet of 6, and [no plastic bags](https://www.cityofithacany.gov/239/Trash-Collection): bundles up to 4 feet, branches under 2 inches, 50 lbs at most.
 
 ```figure
 kind: timeline
@@ -243,9 +248,9 @@ The City's [snow FAQ](https://www.cityofithacany.gov/m/faq?cat=46) adds three po
 - Where ice cannot be removed, sand or ashes are allowed until clearing is practical.
 - The Superintendent of Public Works may clear the walk and bill the owner, at least $50 per plowing.
 
-The code names the owner, and the owner or the owner's agent is liable for the civil penalty under [City Code 178-10](https://ecode360.com/8389191): $40 for a first violation at a property within 12 months, $60 for a second and $100 for a third or later, with each day a separate violation. A lease can still pass the shovel to you, which is why Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) lists snow removal as a term to find. If yours does, ask in writing who pays a City clearing bill or penalty.
+The code names the owner, and the owner or the owner's agent is liable for a [civil penalty](https://www.cityofithacany.gov/136/Exterior-Property-Maintenance), with each day a separate violation. A lease can still pass the shovel to you, which is why Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) lists snow removal as a term to find. If yours does, ask in writing who pays a City clearing bill or penalty.
 
-Example: a lease passes snow duty to tenants, and a storm starts at 9 p.m. on a Friday before winter break. The walk must be clear by 9 p.m. Saturday. If everyone has left town, the City can clear it and bill the owner $50 or more. Check whether your lease lets the owner pass that bill on.
+Example: a lease passes snow duty to tenants, and a storm starts at 9 p.m. on a Friday before winter break. The walk must be clear by 9 p.m. Saturday. If everyone has left town, the City can clear it and bill the owner $50 or more. Check whether your lease lets the owner pass that bill on. Our guide to [Ithaca's sidewalk snow rules](/cornell/housing/ithaca-sidewalk-snow-removal-rules-whose-job/) covers who shovels, the City's clearing bill and the rules outside the city line.
 
 ```reader "If you're an alum who owns or is buying an Ithaca rental"
 The sidewalk is your duty under City Code 178-3: the full paved width within 24 hours after snow begins, re-cleared after plows, with the City able to clear it and bill at least $50 a plowing. You can pass it to tenants in the lease, but students leave for winter break, so plan who covers late December and January. You also answer for side or rear container storage, grass under 9 inches, and parking only in designated spaces. Including trash in the rent, as Ithaca Renting does downtown, removes the tag question from tenants.
@@ -253,12 +258,12 @@ The sidewalk is your duty under City Code 178-3: the full paved width within 24 
 
 ## Noise hours, parties and the amplified-sound permit
 
-City Chapter 240 sets daytime as [7:30 a.m. to 10:00 p.m. and nighttime as 10:00 p.m. to 7:30 a.m.](https://ecode360.com/8391226). Residential limits are 60 dBA by day and 50 dBA at night, under 2018 amendments.
+City Chapter 240 sets daytime as [7:30 a.m. to 10:00 p.m. and nighttime as 10:00 p.m. to 7:30 a.m.](https://ecode360.com/8391226). Outdoors at a residential property, the [sound limits](https://ecode360.com/8391259) are 60 dBA by day and 50 dBA at night.
 
 | Rule (City of Ithaca) | Day | Night |
 |---|---|---|
 | Hours | 7:30 a.m. to 10:00 p.m. | 10:00 p.m. to 7:30 a.m. |
-| Residential sound limit | 60 dBA | 50 dBA |
+| Residential outdoor sound limit | 60 dBA | 50 dBA |
 | Party noise | Must not disturb people 25 feet or more away | Same |
 | Vehicle audio | Not plainly audible at 50 feet | Not plainly audible at 25 feet |
 | Outdoor amplified sound | Permit needed for a public-address system | Permit needed, filed 72 hours ahead |
@@ -277,7 +282,7 @@ rows:
   - {label: "Next morning: bag and tag the trash, and put it out no more than 24 hours before pickup"}
 ```
 
-Outside the city line the rules change. The Town of Ithaca has its [own noise ordinance](https://ecode360.com/8659282), with daytime running 7:00 a.m. to 9:00 p.m. City trash tags and the City snow code also stop at the line; see [City of Ithaca or not](/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/).
+Outside the city line the rules change. The Town of Ithaca has its [own noise ordinance](https://ecode360.com/8659282), with daytime running 7:00 a.m. to 9:00 p.m. City trash tags and the City snow code also stop at the line; see [City of Ithaca or not](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/).
 
 ```reader "If you're a graduate student who wants quiet"
 The City's night limit is 50 dBA from 10:00 p.m. to 7:30 a.m., and a party host must keep noise from disturbing people 25 feet away. Those rules give you something to cite. Ask a landlord what share of tenants are undergrads before you sign. If you rent in the Town of Ithaca, its own ordinance applies, with daytime ending at 9:00 p.m.
@@ -317,13 +322,15 @@ For a move-in visit, City meters cost [$2.50 an hour](https://www.cityofithacany
 
 **Do the City rules apply in Cayuga Heights or Lansing?** No. City tags, the City snow code and Chapter 240 stop at the city line, and the Town of Ithaca has its [own noise rules](https://ecode360.com/8659282).
 
-This page is general information, not legal advice.
+## What to do next
+
+Check your lease for trash, snow and parking terms, buy a sheet of tags if trash is not included, and agree with your housemates who shovels over break. For the rest of the season, from heat to snow days, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).
 
 ## Related guides
 
-- [Off-campus housing at Cornell: the 2026-27 guide](/housing/cornell-off-campus-housing-guide/): the whole off-campus picture, from eligibility to move-out.
-- [Reading an Ithaca lease before you sign](/housing/how-to-read-ithaca-lease-before-signing/): the trash, snow and parking clauses alongside every other term.
-- [What a month off campus costs at Cornell](/housing/what-a-month-off-campus-costs-cornell/): tags counted with rent, power, the bus and insurance.
-- [Moving out of an Ithaca apartment](/housing/moving-out-ithaca-apartment-deposit-back/): the inspection, cleaning and deposit, with the curb rules in mind.
-- [City of Ithaca or not](/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/): which of these rules apply at your address.
-- [Renting to students in Ithaca: a landlord's legal checklist](/housing/becoming-ithaca-landlord-student-rental-rules/): the owner's side of snow, safety and leases.
+- [Off-campus housing at Cornell: the 2026-27 guide](/cornell/housing/cornell-off-campus-housing-guide/): the whole off-campus picture, from eligibility to move-out.
+- [Reading an Ithaca lease before you sign](/cornell/housing/how-to-read-ithaca-lease-before-signing/): the trash, snow and parking clauses alongside every other term.
+- [What a month off campus costs at Cornell](/cornell/housing/what-a-month-off-campus-costs-cornell/): tags counted with rent, power, the bus and insurance.
+- [Moving out of an Ithaca apartment](/cornell/housing/moving-out-ithaca-apartment-deposit-back/): the inspection, cleaning and deposit, with the curb rules in mind.
+- [City of Ithaca or not](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/): which of these rules apply at your address.
+- [Renting to students in Ithaca: a landlord's legal checklist](/cornell/housing/becoming-ithaca-landlord-student-rental-rules/): the owner's side of snow, safety and leases.

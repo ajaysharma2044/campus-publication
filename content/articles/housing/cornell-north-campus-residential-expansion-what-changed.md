@@ -7,7 +7,7 @@ primary_query: cornell north campus residential expansion
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 126
 rewrites: ''
 readers:
@@ -39,15 +39,33 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms
   title: Dining Rooms, Cornell Dining
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall
+  title: Toni Morrison Hall, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall
+  title: 'Ganędagǫ: Hall, Cornell Student & Campus Life'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall
+  title: Barbara McClintock Hall, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall
+  title: Hu Shih Hall, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ruth-bader-ginsburg-hall
+  title: Ruth Bader Ginsburg Hall, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion
+  title: Cornell University - North Campus Residential Expansion (NCRE), Welliver
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
@@ -85,9 +103,9 @@ rows:
   - {label: "Ruth Bader Ginsburg Hall", value: "504 residents; corridors"}
 ```
 
-Source: Cornell Student & Campus Life hall pages and residence hall configurations. The five halls total 2,114 listed residents (306 + 564 + 311 + 429 + 504).
+Source: Cornell Housing resident counts from the [Toni Morrison](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall), [Ganędagǫ:](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall), [Barbara McClintock](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall), [Hu Shih](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall) and [Ruth Bader Ginsburg](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ruth-bader-ginsburg-hall) hall pages, and residence hall configurations. The five halls total 2,114 listed residents (306 + 564 + 311 + 429 + 504). Welliver, the construction manager, counts beds instead and lists 314 for Toni Morrison and 577 for Ganędagǫ: ([Welliver](https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion)).
 
-Suites at Morrison and Ganędagǫ: group bedrooms around a shared common space. The other three halls use corridors with shared bathrooms ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). Toni Morrison Hall holds Morrison Dining ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)).
+Suites at Morrison and Ganędagǫ: group bedrooms around a shared common space. The other three halls use corridors with shared bathrooms ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)). Toni Morrison Hall holds Morrison Dining ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)).
 
 ## Why did Cornell build it?
 
@@ -99,7 +117,7 @@ North Campus had been remade once before. In 2001, Court Hall and Mews Hall open
 
 The big change was the rule. All first-years and sophomores must live in university or affiliated housing, with a required meal plan ([Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)). Today more than 3,000 new students live in North Campus halls and program houses, and upper-level students live in Balch, the north wing of Clara Dickson, Morrison, Ganędagǫ: and the Townhouse Apartments (Cornell Housing).
 
-The price of staying is set by Cornell's table. A 2026-27 double costs $13,744 for the academic year, and the Unlimited meal plan is $7,604 a year ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Add the $50 administrative fee, and the year is $21,398. For how that compares with a lease, read [is off-campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
+The price of staying is set by Cornell's table. A 2026-27 double costs $13,744 for the academic year, and the Unlimited meal plan is $7,604 a year ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Add the $50 administrative fee, and the year is $21,398. For how that compares with a lease, read [is off-campus cheaper than a Cornell dorm](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
 
 <!-- ad-break -->
 

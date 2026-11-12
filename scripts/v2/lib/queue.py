@@ -244,11 +244,32 @@ def articles(root: Path | str = REPO) -> list[Path]:
     return sorted((Path(root) / "content" / "articles").glob("*/*.md"))
 
 
+_ARTICLE_INDEX: dict[str, tuple[float, dict[str, Path]]] = {}
+_INDEX_TTL = 20.0   # seconds: a miss rebuilds the index at most this often (a tool, dataset or start row has no article, so misses are normal)
+
+
+def article_index(root: Path | str = REPO, force: bool = False) -> dict[str, Path]:
+    """queue_id -> article path, built once per process and rebuilt at most every _INDEX_TTL seconds on a miss (2026-11-11: lint.py's
+    published_pairs called article_for for every published row, and each call re-read and parsed every article's frontmatter, about
+    five minutes of CPU per lint run)."""
+    import time as _time
+    key = str(Path(root).resolve())
+    built, idx = _ARTICLE_INDEX.get(key, (0.0, None))
+    if idx is None or (force and _time.time() - built > _INDEX_TTL):
+        idx = {}
+        for p in articles(root):
+            qid = str(frontmatter(p).get("queue_id", ""))
+            if qid:
+                idx.setdefault(qid, p)
+        _ARTICLE_INDEX[key] = (_time.time(), idx)
+    return idx
+
+
 def article_for(queue_id: str, root: Path | str = REPO) -> Path | None:
-    for p in articles(root):
-        if str(frontmatter(p).get("queue_id", "")) == queue_id:
-            return p
-    return None
+    p = article_index(root).get(queue_id)
+    if p is not None and p.exists():
+        return p
+    return article_index(root, force=True).get(queue_id)   # a file written, moved or removed since the index was built: one rebuild, rate-limited
 
 
 def slugify(text: str, limit: int = 60) -> str:

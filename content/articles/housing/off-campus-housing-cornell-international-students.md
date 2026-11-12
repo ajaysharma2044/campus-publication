@@ -33,13 +33,13 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits
   title: Security Deposits, Cornell Law School Tenants Advocacy
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources
@@ -149,7 +149,7 @@ The [lease fee checker](/tools/ithaca-lease-fee-deposit-checker/) takes your quo
 
 ## How do I check a unit from abroad?
 
-Use public records. Start inside Cornell's own channel. The Off-Campus Housing Marketplace shows listings only to people who [prove Cornell affiliation](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources), and its listings are checked against the City's Certificate of Compliance records. A Certificate of Compliance is the city's safety permit for rentals; buildings with three or more units need one. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) compares the places to look.
+Use public records. Start inside Cornell's own channel. The Off-Campus Housing Marketplace shows listings only to people who [prove Cornell affiliation](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources), and its listings are checked against the City's Certificate of Compliance records. A Certificate of Compliance is the city's safety permit for rentals; buildings with three or more units need one. The [listings guide](/cornell/housing/cornell-off-campus-housing-listings-where-to-find/) compares the places to look.
 
 | Check | How, from abroad | What it does not tell you |
 |---|---|---|
@@ -158,7 +158,7 @@ Use public records. Start inside Cornell's own channel. The Off-Campus Housing M
 | Heating history | Ask NYSEG, 800-572-1111, for the average annual heating bill | Whether the heat works this winter |
 | Free lease review | Tenant hotline, 607-301-1560 | Anything outside the lease text |
 
-Source: Cornell's [safe living page](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments), [neighborhood guide](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) and [legal resources page](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources).
+Source: Cornell's [safe living page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments), [neighborhood guide](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) and [legal resources page](https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources).
 
 ```figure
 kind: steps

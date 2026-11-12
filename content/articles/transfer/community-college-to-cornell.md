@@ -16,7 +16,8 @@ readers:
 - veteran-nontraditional
 pillar: /transfer/transferring-to-cornell-guide/
 brief: intel/transfer/brief.md
-subject: Mann Library Cornell
+subject:
+- Mann Library Cornell
 tools:
 - cornell-transfer-eligibility-quiz
 - cornell-transfer-credit-calculator
@@ -91,7 +92,16 @@ sources:
 - url: https://www.collegevine.com/faq/182748/advice-for-transferring-from-community-college-to-cornell
   title: Advice for transferring from community college to Cornell, CollegeVine
   accessed: '2026-11-11'
-images: []
+images:
+- file: 1.webp
+  alt: Mann Library - Exterior view
+  caption: Mann Library - Exterior view
+  credit: P. Hughes / Wikimedia
+  credit_url: https://commons.wikimedia.org/wiki/File:Mann_Library_-_Exterior_view.jpg
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  author: P. Hughes
+  source_url: https://commons.wikimedia.org/wiki/File:Mann_Library_-_Exterior_view.jpg
 ---
 ```glance
 - Cornell gives no preference by school type; about a quarter of its transfers come from community colleges.

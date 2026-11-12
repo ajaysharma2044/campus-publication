@@ -25,7 +25,7 @@ tools:
 - ithaca-rent-commute-calculator
 - cornell-housing-license-cancellation-fee-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -37,7 +37,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for qualified university-recognized campus housing, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
@@ -91,10 +91,10 @@ sources:
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: New York General Obligations Law 7-108
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: Living Off Campus, Cornell Student and Campus Life
   accessed: '2026-11-10'
 images:
@@ -117,7 +117,7 @@ images:
 - Sophomores can't cash in: a lease without an approved exemption still brings the full Cornell bill.
 ```
 
-Living off campus is cheaper than a Cornell dorm if you share a big apartment. A 2026-27 residence hall double costs [$13,744 for the academic year](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) (Cornell Housing rates), or $1,145.33 a month over a 12-month lease. A bed in a Collegetown 6-bedroom ($800 median) costs less. A 4-bedroom share or a 1-bedroom alone costs more.
+Living off campus is cheaper than a Cornell dorm if you share a big apartment. A 2026-27 residence hall double costs [$13,744 for the academic year](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) (Cornell Housing rates), or $1,145.33 a month over a 12-month lease. A bed in a Collegetown 6-bedroom ($800 median) costs less. A 4-bedroom share or a 1-bedroom alone costs more.
 
 ```reader "If you're a sophomore planning junior year"
 Pick your group size before you pick a building. At the Collegetown medians below, moving from a 6-bedroom ($800 a bed) to a 4-bedroom ($1,246.25) costs each of you $446.25 a month, or $5,355 a year. The big houses sign first: 105 Dryden Court's 8-bedroom and 214 Dryden Road's 14-bedroom were sold out for 2027-28 by Nov. 8, 2026. If you hold a Cornell room as a backup, release it by Jan. 31, when the fee is still $50.
@@ -144,7 +144,7 @@ rows:
   - {label: "Per month over 10 months ($13,744 / 10)", value: "$1,374.40"}
 ```
 
-Use $1,145.33 if you will pay all 12 months. Use $1,374.40 only if your lease runs 10 months or a subtenant really covers June and July. Most leases require the landlord's approval to sublet, and the original tenant often stays responsible for the rent ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus)).
+Use $1,145.33 if you will pay all 12 months. Use $1,374.40 only if your lease runs 10 months or a subtenant really covers June and July. Most leases require the landlord's approval to sublet, and the original tenant often stays responsible for the rent ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus)).
 
 <!-- ad-break -->
 
@@ -268,7 +268,7 @@ rows:
   - {label: "50% of the fall room rate ($3,436 on a 2026-27 double)", date: "After Aug. 15, 2027"}
 ```
 
-Source: [Cornell Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028). Final 2027-28 room rates post in March 2027; rates shown at fall selection are projected.
+Source: [Cornell Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028). Final 2027-28 room rates post in March 2027; rates shown at fall selection are projected.
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
@@ -276,7 +276,7 @@ Source: [Cornell Academic Year Housing License 2027-2028](https://scl.cornell.ed
 
 **Comparing 12 months of rent with two semesters.** A $1,374 rent looks like a match for the double. On a 12-month lease with no subtenant, it is $16,488, $2,744 over.
 
-**Losing a housemate before signing.** On most local leases, housemates are [jointly and severally liable](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire), meaning each of you owes the whole rent if someone stops paying (Cornell Off-Campus Living). A group that shrinks from six to four pays $5,355 more a year each at the medians above.
+**Losing a housemate before signing.** On most local leases, housemates are [jointly and severally liable](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire), meaning each of you owes the whole rent if someone stops paying (Cornell Off-Campus Living). A group that shrinks from six to four pays $5,355 more a year each at the medians above.
 
 **Mixing per-bed and per-unit prices.** RentCafe's $3,414 Collegetown 2-bedroom figure is for the whole unit. Ithaca Renting's $1,377.50 is per bed.
 

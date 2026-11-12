@@ -35,8 +35,8 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: College Park Apartments in Ithaca, a modern complex with a glass skybridge and a stone amphitheater
-  caption: College Park Apartments in Ithaca. No official source ranks Ithaca providers, so compare Spectrum's published entry price against Verizon Fios and the $75 a month some landlords charge.
+  alt: A student apartment complex in Ithaca, with a skybridge between two buildings.
+  caption: A student apartment complex in Ithaca, with a skybridge between two buildings. Compare Spectrum's published entry price against Verizon Fios and the $75 a month some landlords charge.
   credit: 颐园居 / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_in_Ithaca,_NY_20240526.jpg
   author: 颐园居

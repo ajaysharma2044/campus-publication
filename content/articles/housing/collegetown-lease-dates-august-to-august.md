@@ -7,7 +7,7 @@ primary_query: when do collegetown leases start and end
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 142
 rewrites: ''
 readers:
@@ -22,61 +22,61 @@ tools:
 sources:
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown, Ithaca Renting Company
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
   title: 209 Stewart Avenue listing, Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2013/09/12/despite-new-law-housing-rush-persists-in-collegetown/
   title: Cornell Daily Sun, 2013
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
   title: The Ivy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown
   title: 'IthacaRents: 114 Stewart Avenue, 2027/28'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4312-spacious-3-bedroom-in-historical-cornell-heights
   title: 'IthacaRents: Spacious 3 bedroom in historical Cornell Heights'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4516-6-bedroom-house-for-27/28-school-year
   title: 6-bedroom house for 27/28 school year, IthacaRents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom
   title: 'IthacaRents: South Hill, Kendall Ave. 4 bedroom'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.lambrourealestate.com/140-college-ave-24-bed
   title: 140 College Ave, 24 bed, Lambrou Real Estate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://livehhcayuga.com/cayuga-place/floor-plans
   title: Cayuga Place floor plans and FAQ
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104
   title: 226 Linden Avenue listing, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://citycentreithaca.com/floorplans/
   title: Floor plans, City Centre Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: General Obligations Law 7-108
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ecode360.com/27390826
   title: City of Ithaca code
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/
   title: WSKG
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses
   title: Rates, Amenities, & Licenses, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -92,7 +92,7 @@ Most Collegetown leases run [12 months](https://ithacarenting.com/collegetown/),
 
 ## Why do most Collegetown leases run August to August?
 
-Landlords sell a year, not a semester, and the year starts when the last tenants leave and the next arrive. The 209 Stewart Avenue listing is one example, with a full rental year in the table below ([209 Stewart Ave.](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)). Cornell's own calendar fits it. Cornell's 2026 move-in dates were Monday, Aug. 17, and Aug. 21 and 22 ([Move-In, North Campus](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)), so a student who arrives in the third week of August finds a lease already running.
+Landlords sell a year, not a semester, and the year starts when the last tenants leave and the next arrive. The 209 Stewart Avenue listing is one example, with a full rental year in the table below ([209 Stewart Ave.](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)). Cornell's own calendar fits it. Cornell's 2026 move-in dates were Monday, Aug. 17, and Aug. 21 and 22 ([Move-In, North Campus](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)), so a student who arrives in the third week of August finds a lease already running.
 
 ## Which start and end dates exist?
 
@@ -101,11 +101,11 @@ The table lists dates printed on current listings. They are examples, not a rule
 | Building or unit | Start | End or length |
 |---|---|---|
 | 209 Stewart Ave. | Aug. 1, 2026 | July 31, 2027 |
-| The Ivy, 325 College Ave. | Aug. 17, 2026 | 12 months assumed |
-| Dryden South, 205 Dryden Rd. | Not printed | Current leases end May 31, 2027 |
-| 114 Stewart Ave., 8BR | June 10, 2027 | Not printed |
-| 117 Thurston Ave., 3BR | Aug. 1, 2027 | Not printed |
-| 416 Hudson St., 6BR house | Aug. 7, 2027 | Not printed |
+| The Ivy, 325 College Ave. | Aug. 17, 2026 | Ask |
+| Dryden South, 205 Dryden Rd. | Ask | Current leases end May 31, 2027 |
+| 114 Stewart Ave., 8BR | June 10, 2027 | Ask |
+| 117 Thurston Ave., 3BR | Aug. 1, 2027 | Ask |
+| 416 Hudson St., 6BR house | Aug. 7, 2027 | Ask |
 | 174 Kendall Ave., 4BR | Aug. 1, 2027 | 11 months, ends June 30 |
 | 140 College Ave., 24BR house | August 2027 | 10 months, ends June |
 
@@ -115,7 +115,7 @@ Two lessons follow. A lease can end before August, as the current Dryden South l
 
 ## Are 10-month leases available?
 
-On some units. The 140 College Avenue house is offered for 2027-28 on a 10-month lease, August to June, furnished ([140 College](https://www.lambrourealestate.com/140-college-ave-24-bed)). Cayuga Place at 131 East Green Street, downtown, has a standard 12-month lease and 10-month options at an additional premium, with no amount posted ([Cayuga Place](https://livehhcayuga.com/cayuga-place/floor-plans)). Some apartments at 226 Linden Avenue are available on 10-month or 12-month leases, and the price varies by length ([226 Linden Ave.](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104)). At the other end, one City Centre studio is listed on a 15-month term ([City Centre](https://citycentreithaca.com/floorplans/)).
+On some units. The 140 College Avenue house is offered for 2027-28 on a 10-month lease, August to June, furnished ([140 College](https://www.lambrourealestate.com/140-college-ave-24-bed)). Cayuga Place at 131 East Green Street, downtown, has a standard 12-month lease and 10-month options at an additional premium; ask the leasing office for the amount ([Cayuga Place](https://livehhcayuga.com/cayuga-place/floor-plans)). Some apartments at 226 Linden Avenue are available on 10-month or 12-month leases, and the price varies by length ([226 Linden Ave.](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/226-linden-avenue-8104)). At the other end, one City Centre studio is listed on a 15-month term ([City Centre](https://citycentreithaca.com/floorplans/)).
 
 A 10-month lease does not mean a 10-month price. Say a Collegetown 4BR bed costs $1,246.25 a month, the 2027-28 median ([Ithaca Renting](https://ithacarenting.com/collegetown/)), or $14,955 a year. If you use 10 of the months, the effective cost is $1,495.50 a month ($14,955 divided by 10). A shorter lease that costs more per month can still beat a long one you cannot sublet.
 
@@ -129,11 +129,11 @@ Three July 31 effects are easy to miss. A residential parking permit from the Ci
 
 ## When does the 120-day notice fall?
 
-Ithaca's rule requires a landlord to give current tenants 120 days' written notice before renewing, showing the unit or signing new tenants ([City of Ithaca code](https://ecode360.com/27390826)). Counting 120 days back from a lease end on the last day of July lands on about April 2, one reading of the rule. The code text does not settle which date a lease counts from, so ask the landlord which date your lease uses. The [120-day guide](/cornell/housing/ithaca-120-day-lease-renewal-notice-rule/) walks through the rule.
+Ithaca's rule requires a landlord to give current tenants 120 days' written notice before renewing, showing the unit or signing new tenants ([City of Ithaca code](https://ecode360.com/27390826)). Counting 120 days back from a lease end on the last day of July lands on about April 2. Ask the landlord which date your lease counts from. The [120-day guide](/cornell/housing/ithaca-120-day-lease-renewal-notice-rule/) walks through the rule.
 
 ## How does a lease line up with Cornell's calendar?
 
-Cornell's own housing runs a different clock. For 2026-27 a residence-hall license ran from move-in in August 2026 through Dec. 20 and resumed Jan. 19 for the spring term ([Cornell Housing rates and licenses](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses)). A private lease has no break at all. If you hold a Cornell room as a backup for the Collegetown lease, the fee schedule is in the [Collegetown lease guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
+Cornell's own housing runs a different clock. For 2026-27 a residence-hall license ran from move-in in August 2026 through Dec. 20 and resumed Jan. 19 for the spring term ([Cornell Housing rates and licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)). A private lease has no break at all. If you hold a Cornell room as a backup for the Collegetown lease, the fee schedule is in the [Collegetown lease guide](/cornell/housing/when-to-sign-collegetown-lease-cornell/).
 
 ```tool when-to-sign-lease-timeline-cornell```
 

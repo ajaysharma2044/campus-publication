@@ -7,7 +7,7 @@ primary_query: can you have a pet at cornell
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 47
 rewrites: ''
 readers:
@@ -19,51 +19,51 @@ subject: Collegetown apartment buildings, College Avenue, Ithaca
 tools:
 - ithaca-lease-fee-deposit-checker
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
   title: Co-op Housing 2026-2027 Terms and Conditions, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sds.cornell.edu/
   title: Student Disability Services, Cornell University
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing
   title: Graduate & Professional Student On-Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/collegetown-terrace-236694
   title: Collegetown Terrace, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cityview-apartments-10186
   title: Cityview Apartments, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.lansingwestapts.com/faq/
   title: FAQ, Lansing West Apartments
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://winstonsquareapts.com/faq/
   title: FAQ, Winston Square Apartments
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.thestudentagenciesbuilding.com/faq
   title: FAQ, The Student Agencies Building
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://triphammerapts.com/faqs/
   title: FAQs, Triphammer Apartments
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.
   title: 115 Stewart Ave. 1-bedroom listing, True Renew Homes on IthacaRents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: New York General Obligations Law Section 7-108, New York State Senate
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing the Lease, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: College Avenue in Collegetown, Ithaca, with apartment buildings above storefronts and cars parked along the curb
@@ -77,7 +77,7 @@ images:
 ---
 
 
-Yes, if your pet is a fish or an approved assistance animal. Cornell's undergraduate residence halls allow fish in tanks no larger than 10 gallons, plus service animals and emotional support animals approved by Student Disability Services ([Cornell housing license, 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). For a cat or dog, you need an off-campus apartment that takes pets.
+Yes, if your pet is a fish or an approved assistance animal. Cornell's undergraduate residence halls allow fish in tanks no larger than 10 gallons, plus service animals and emotional support animals approved by Student Disability Services ([Cornell housing license, 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). For a cat or dog, you need an off-campus apartment that takes pets.
 
 ```glance
 - Cornell dorms: fish in tanks up to 10 gallons, nothing else unless it's an assistance animal.
@@ -106,12 +106,12 @@ Start with [Student Disability Services](https://sds.cornell.edu/), known as SDS
 Give yourself time, because SDS sets approval deadlines ahead of room selection. Our [accessibility guide](/start/accessibility/) covers disability support at Cornell more broadly.
 
 ```reader "If you're a first-year heading into sophomore room selection"
-If you don't already have an approved accommodation, SDS must approve it by April 5, 2027, for you to get a timeslot in the accommodation room selection on April 12, 2027. Students already approved don't need to reapply ([Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+If you don't already have an approved accommodation, SDS must approve it by April 5, 2027, for you to get a timeslot in the accommodation room selection on April 12, 2027. Students already approved don't need to reapply ([Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 ```
 
 ## Can you have a pet in a Cornell co-op?
 
-Yes, if it's small and lives in a cage or tank. Cornell's cooperative houses allow hamsters, guinea pigs, gerbils, birds and fish, as long as the animal stays caged at all times and any aquarium is under 10 gallons ([Co-op Housing Terms and Conditions, 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)). That is the widest pet rule in undergraduate campus housing. The same confiscation penalty and the same exceptions for service animals and approved ESAs apply.
+Yes, if it's small and lives in a cage or tank. Cornell's cooperative houses allow hamsters, guinea pigs, gerbils, birds and fish, as long as the animal stays caged at all times and any aquarium is under 10 gallons ([Co-op Housing Terms and Conditions, 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions)). That is the widest pet rule in undergraduate campus housing. The same confiscation penalty and the same exceptions for service animals and approved ESAs apply.
 
 <!-- ad-break -->
 
@@ -127,26 +127,26 @@ Some landlords set limits on size and type. Winston Square Apartments, on Winsto
 kind: cost_table
 title: Pet rules at selected Ithaca apartment buildings
 rows:
-  - {label: "Collegetown Terrace, 115 S. Quarry St.", value: "Cats and dogs allowed; fees not listed"}
+  - {label: "Collegetown Terrace, 115 S. Quarry St.", value: "Cats and dogs allowed; pet fees on request"}
   - {label: "Lansing West, 2250 N. Triphammer Road", value: "Cats only, with approval"}
   - {label: "Winston Square, 601 Winston Court", value: "One cat or dog under 25 lb; $45 a month"}
   - {label: "The Student Agencies Building, 409 College Ave.", value: "Written consent; $250 up front plus $50 a month"}
   - {label: "115 Stewart Ave., Apt. 2N", value: "One pet; $45 a month"}
-  - {label: "Triphammer Apartments, 5 Cinema Drive", value: "Pets allowed; one-time fee and monthly pet rent, amounts not posted"}
+  - {label: "Triphammer Apartments, 5 Cinema Drive", value: "Pets allowed; one-time fee and monthly pet rent, amounts on request"}
   - {label: "Ithaca Renting downtown buildings", value: "Limited units only; pet rent and renters insurance required"}
   - {label: "Cityview Apartments, 118 Prospect St.", value: "No pets"}
 ```
 Sources: landlord websites and listings on Cornell's off-campus housing marketplace, as linked above and below.
 
 ```reader "If you're a grad student"
-Cornell's graduate apartments at Maplewood, run by Greystar on East Hill, are pet-friendly. Cornell's page does not list Maplewood's prices or pet fees, so ask Greystar before you apply. The [grad off-campus housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) compares other neighborhoods.
+Cornell's graduate apartments at Maplewood, run by Greystar on East Hill, are pet-friendly ([Cornell graduate housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Ask Greystar for the rent and any pet fees before you apply. The [grad off-campus housing guide](/cornell/housing/off-campus-housing-cornell-grad-students/) compares other neighborhoods.
 ```
 
 ## How much does a pet add to rent in Ithaca?
 
-Expect about $540 to $850 for a year, based on the buildings that post their prices. Winston Square charges $45 a month in pet rent with no other pet fees, so 12 months comes to $540. A one-bedroom at 115 Stewart Ave. in lower Collegetown, listed by True Renew Homes, takes one pet of a gentle breed at the same monthly rate, which adds up to the same total over a 12-month lease ([115 Stewart Ave. listing](https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.)). At the Student Agencies Building, a $250 initial charge plus $50 a month for 12 months is $850.
+Expect about $540 to $850 for a year at the buildings that publish their prices. Winston Square charges $45 a month in pet rent with no other pet fees, so 12 months comes to $540. A one-bedroom at 115 Stewart Ave. in lower Collegetown, listed by True Renew Homes, takes one pet of a gentle breed at the same monthly rate, which adds up to the same total over a 12-month lease ([115 Stewart Ave. listing](https://www.ithacarents.com/4304-sunny-1br-apartment-close-to-cornell.-furnished.-january-1st-move-in.-flexible-lease.)). At the Student Agencies Building, a $250 initial charge plus $50 a month for 12 months is $850.
 
-Some landlords don't post the number at all. Triphammer Apartments charges a one-time pet fee plus monthly pet rent and asks renters to call for the amounts ([Triphammer FAQ](https://triphammerapts.com/faqs/)). Get the figures in writing before you sign.
+Some landlords give the amounts only on request. Triphammer Apartments charges a one-time pet fee plus monthly pet rent and asks renters to call for the amounts ([Triphammer FAQ](https://triphammerapts.com/faqs/)). Get the figures in writing before you sign.
 
 <!-- ad-break -->
 
@@ -166,7 +166,7 @@ Not to the landlords who address it. Lansing West says plainly that assistance a
 
 ## What should you check in a lease if you have a pet?
 
-Find the pet clause before anything else. Cornell's own lease checklist names pets twice: once under extra costs ("pet-related charges/deposit") and once under restrictions ([Signing the Lease, Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). A lease that allows "pets" may still limit size, breed or number, as Winston Square and the Student Agencies Building do. Our guide on [how to read an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) walks through the other clauses that cost students money.
+Find the pet clause before anything else. Cornell's own lease checklist names pets twice: once under extra costs ("pet-related charges/deposit") and once under restrictions ([Signing the Lease, Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)). A lease that allows "pets" may still limit size, breed or number, as Winston Square and the Student Agencies Building do. Our guide on [how to read an Ithaca lease](/cornell/housing/how-to-read-ithaca-lease-before-signing/) walks through the other clauses that cost students money.
 
 ## What to do next
 

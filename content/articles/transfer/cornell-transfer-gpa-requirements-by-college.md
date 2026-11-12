@@ -74,8 +74,8 @@ sources:
 - url: https://talk.collegeconfidential.com/t/cornell-class-of-2024-transfer-option/2087946
   title: Cornell Class of 2024 Transfer Option, College Confidential, March 2020
   accessed: '2026-11-11'
-- url: https://www.cs.cornell.edu/node/17
-  title: Transfer students, Cornell Computer Science
+- url: https://www.cs.cornell.edu/undergrad/csmajor/transfercredits
+  title: Current Students, Department of Computer Science, Cornell Bowers
   accessed: '2026-11-11'
 - url: https://www.koppelmangroup.com/blog/2023/7/3/using-the-cornell-transfer-option-read-this-first
   title: Using the Cornell Transfer Option? Read This First, Koppelman Group, July 3, 2023
@@ -120,7 +120,7 @@ Your number is stricter than everyone else's. Arts and Sciences asks for a [3.5 
 ```
 
 ```reader "If you're an Engineering or computer science transfer"
-Duffield [states no minimum GPA](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). That does not make it easy. The gate is the course block: MATH 1910 and 1920, PHYS 1112 with PHYS 1110, and CHEM 2090 with the CHEM 2091 lab, done, in progress or planned. Missing any one means the application is not reviewed. For credit later, Engineering needs a C, not a C-. You are admitted to one major and stay in it for a full year. Computer science also comes [through Arts and Sciences as a B.A.](https://www.cs.cornell.edu/node/17), under that college's GPA signal.
+Duffield [states no minimum GPA](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). That does not make it easy. The gate is the course block: MATH 1910 and 1920, PHYS 1112 with PHYS 1110, and CHEM 2090 with the CHEM 2091 lab, done, in progress or planned. Missing any one means the application is not reviewed. For credit later, Engineering needs a C, not a C-. You are admitted to one major and stay in it for a full year. Computer science majors also enroll in Arts and Sciences, and the CS department keeps [a transfer credit form for each college](https://www.cs.cornell.edu/undergrad/csmajor/transfercredits). That B.A. route falls under the Arts and Sciences GPA signal.
 ```
 
 ## GPA by college: minimum, typical and competitive
@@ -160,9 +160,18 @@ rows:
 
 The same FAQ that gives the 3.3 figure says the [most important factors](https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/) are your essay on interest in the program, your grades at your current school and professor recommendations. Activities and the high school record are read too. Coursework and essays matter most.
 
-That makes the course list as important as the number. Dyson wants calculus, microeconomics, statistics and a writing course, [each at B or better](https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/). [Human Ecology](https://www.human.cornell.edu/admissions/transfer) wants 23 sophomore credits, including 8 in lab science and 6 in writing. Brooks wants 15 letter-graded credits across writing, microeconomics, statistics or calculus, and sociology. A high GPA built on other courses can still leave a file short.
+That makes the course list as important as the number. Dyson wants calculus, microeconomics, statistics and a writing course, [each at B or better](https://business.cornell.edu/admissions/undergraduate/bs-aem/application-requirements/). [Human Ecology](https://www.human.cornell.edu/admissions/transfer) wants up to 23 sophomore credits depending on the major, including 8 in lab science and 6 in writing. Brooks wants 15 letter-graded credits across writing, microeconomics, statistics or calculus, and sociology. A high GPA built on other courses can still leave a file short.
 
 The odds are steep at any GPA. In fall 2025, [7,381 people applied and 864 were admitted](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf), an 11.7% rate by our division of the Common Data Set counts. Cornell does not break that rate out by college, so no GPA figure can tell you your chances in one college.
+
+```figure
+kind: cost_table
+title: Cornell transfer admissions, fall 2025
+rows:
+  - {label: "Applicants", value: "7,381"}
+  - {label: "Admitted", value: "864"}
+  - {label: "Admit rate (our division)", value: "11.7%"}
+```
 
 Example: a sophomore has a 3.4 after two semesters, with intro economics, statistics, a composition course and biology with lab. That matches the typical ILR admit and clears the CALS 3.0 floor. It sits below the 3.5 that Human Ecology calls competitive and Dyson names as its guideline. CALS Biological Sciences is out at a 3.5 minimum. The strongest fits on grades alone are ILR and most CALS majors. The essay and the course list then decide between them.
 
@@ -185,7 +194,7 @@ Once you are in, the internal route matters again. An external transfer can appl
 
 ## Common mistakes
 
-- **Aiming at a single number for all of Cornell.** A "3.75 competitive" figure circulates on third-party sites with no source. Applying to CALS Biological Sciences with a 3.3 because a blog said 3.3 costs the [$85 fee](https://admissions.cornell.edu/apply/transfer-applicants) and a cycle.
+- **Aiming at a single number for all of Cornell.** A "3.75 competitive" figure appears on a third-party site with no source. Applying to CALS Biological Sciences with a 3.3 because a blog said 3.3 costs the [$85 fee](https://admissions.cornell.edu/apply/transfer-applicants) and a cycle.
 - **Reading an internal-transfer rule as yours.** Dyson's 3.0 minimum is for current Cornell students. Outside applicants are told to have at least 3.5.
 - **Averaging the Transfer Option year.** Arts and Sciences counts each semester. One 3.4 term or one C+ misses the stated condition, whatever the yearly GPA.
 - **Taking prerequisites pass/fail.** CALS and Human Ecology want letter grades, and Dyson wants B or better in four named courses. A pass in statistics does not count.

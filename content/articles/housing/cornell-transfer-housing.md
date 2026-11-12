@@ -7,7 +7,7 @@ primary_query: Cornell transfer housing
 topic: housing
 school: cornell-university
 type: scenario
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 195
 rewrites: /housing/cornell-transfer-housing/
 queue_id: q-housing-0083
@@ -25,61 +25,64 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings and Resources, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown Ithaca apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown apartments, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
   title: Lansing West Apartments, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/dryden-south-50961
   title: Dryden South, Cornell Off-Campus Housing Marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2018/12/isolated-vulnerable-and-nervous-transfer-students-express-frustration-over-not-being-able-to-live-on-campus
   title: Isolated, vulnerable and nervous, The Cornell Daily Sun, Dec. 2018
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/11/new-changes-to-fall-housing-selection-leave-some-rising-juniors-seniors-disappointed
   title: New changes to fall housing selection leave some rising juniors, seniors disappointed, The Cornell Daily Sun, Nov. 2025
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+  accessed: '2026-11-11'
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing
+  title: Landlords and Advocates Grapple with Good Cause Eviction Law at Public Hearing, The Cornell Daily Sun, July 2024
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Llenroc, a large stone mansion used as a fraternity house at Cornell University
@@ -117,7 +120,7 @@ Two things decide it: the class year you enter with and where you lived before. 
 
 Request the exemption in the Housing application for the exemption term when it opens. Cornell does not accept requests after you sign a housing license. Each exemption covers one academic year, so a transfer must reapply every year.
 
-Cornell does not post an exemption deadline for newly admitted transfers. The [April 4, 2027 deadline](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores) applies to rising sophomores. Call Housing Operations at 607-255-5368 before you plan around a date.
+The [April 4, 2027 deadline](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores) applies to rising sophomores. A newly admitted transfer should call Housing Operations at 607-255-5368 for the exemption window before planning around a date.
 
 ```tool can-i-live-off-campus-cornell-quiz
 ```
@@ -141,12 +144,12 @@ The rules match domestic transfers, but the timing is harder, because an exempt 
 ```
 
 ```reader "If you're married or have children"
-You are exempt at any class year, but you must file in the Housing application and renew each year. Cornell's [Hasbrouck family units](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) run $1,475 to $1,530 a month and sit under graduate housing. Cornell's pages do not say whether an undergraduate family may apply, so ask Housing Operations.
+You are exempt at any class year, but you must file in the Housing application and renew each year. Cornell's [Hasbrouck family units](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) run $1,475 to $1,530 a month and sit under graduate housing. Ask Housing Operations whether an undergraduate family may apply.
 ```
 
 ## What does the on-campus year cost?
 
-Activate your NetID, then apply in the Housing and Dining Portal. Cornell advises transfers to [apply within ten days of receiving the NetID](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process); confirmations begin in mid-June. Cornell picks the room, and students do not rank halls unless they apply to a program house.
+Activate your NetID, then apply in the Housing and Dining Portal. Cornell advises transfers to [apply within ten days of receiving the NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process); confirmations begin in mid-June. Cornell picks the room, and students do not rank halls unless they apply to a program house.
 
 Transfers go to upper-level halls: Program Houses, South Campus, the West Campus House System and the co-ops. Cornell groups transfers together when it can.
 
@@ -194,9 +197,9 @@ The [Collegetown signing calendar](/cornell/housing/when-to-sign-collegetown-lea
 
 ## How do I find roommates when I know no one?
 
-Join Cornell's [Off-Campus Living email list](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources) for housing, roommates and sublets. Subscribe with the subject "Join" and a blank body. Admitted students without a NetID forward their acceptance letter to offcampusliving@cornell.edu.
+Join Cornell's [Off-Campus Living email list](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources) for housing, roommates and sublets. Subscribe with the subject "Join" and a blank body. Admitted students without a NetID forward their acceptance letter to offcampusliving@cornell.edu.
 
-On a shared lease, each roommate can be liable for the whole rent. If a stranger you met in June leaves in October, the rest of you pay. Run through Cornell's [housemate questions](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire) first: study hours, guests, cleanliness, who pays the bills, and what happens if someone transfers.
+On a shared lease, each roommate can be liable for the whole rent. If a stranger you met in June leaves in October, the rest of you pay. Run through Cornell's [housemate questions](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire) first: study hours, guests, cleanliness, who pays the bills, and what happens if someone transfers.
 
 ## When does each kind of transfer go off campus?
 
@@ -211,7 +214,7 @@ rows:
   - {label: "Spring 2027 transfer: first lease starts", date: "About Aug. 1, 2028"}
 ```
 
-Cornell says first- and second-year undergraduates [should not sign a lease](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process) without an approved exemption. A sophomore transfer signing in the fall for junior year should confirm with Housing that the lease year falls outside the rule before paying anything.
+Cornell says first- and second-year undergraduates [should not sign a lease](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process) without an approved exemption. A sophomore transfer signing in the fall for junior year should confirm with Housing that the lease year falls outside the rule before paying anything.
 
 ## What mistakes cost transfers the most?
 
@@ -223,11 +226,11 @@ Cornell says first- and second-year undergraduates [should not sign a lease](htt
 
 ## FAQ
 
-**Is housing guaranteed for transfers?** Cornell requires new transfers to live on campus and lists where it places them, but the transfer page does not use the word guarantee. Expect an assignment, not a choice.
+**Is housing guaranteed for transfers?** Cornell requires new transfers who enter as first-years or sophomores to live on campus and lists the halls where it places them. Expect an assignment, not a choice.
 
 **Can a transfer join a co-op or Greek house in the first year?** Cornell's transfer page lists co-ops among transfer placements, and each house runs its own selection, so email co-ops@cornell.edu. A new transfer cannot cancel the license for a Greek, co-op or affiliated house.
 
-**Who answers housing questions?** [Housing Operations](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory) is at 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu.
+**Who answers housing questions?** [Housing Operations](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory) is at 1520 Clara Dickson Hall, 607-255-5368, housing@cornell.edu.
 
 ## What to do next
 

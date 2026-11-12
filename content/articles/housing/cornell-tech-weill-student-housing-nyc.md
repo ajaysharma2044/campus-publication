@@ -51,7 +51,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal
   title: Cornell Law tenants' guide
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations
   accessed: '2026-11-10'
 images:
@@ -118,7 +118,7 @@ The Good Cause Eviction law took effect on April 20, 2024, and it applies outsid
 
 ## Should you buy renters insurance?
 
-Cornell's housing checklist says to buy renter's insurance ([Checklists and Considerations](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). Prices and Cornell's preferred insurer are in the [renters insurance guide](/cornell/housing/cornell-off-campus-renters-insurance-cost/).
+Cornell's housing checklist says to buy renter's insurance ([Checklists and Considerations](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)). Prices and Cornell's preferred insurer are in the [renters insurance guide](/cornell/housing/cornell-off-campus-renters-insurance-cost/).
 
 ## What to do next
 

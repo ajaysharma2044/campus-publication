@@ -8,7 +8,7 @@ primary_query: first month at cornell checklist
 topic: daily-life
 school: cornell-university
 type: checklist
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 14
 rewrites: ''
 readers:
@@ -25,115 +25,115 @@ tools:
 sources:
 - url: https://cornellsun.com/article/2026/08/this-is-the-place-i-want-to-be-incoming-freshmen-make-the-move-to-campus
   title: '''This Is the Place I Want to Be'': Incoming Freshmen Make the Move to Campus, The Cornell Daily Sun, August 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-do-list
   title: New Student To Do List, Tatkon Center for New Students, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/new-student-resource-hub
   title: New Student Resource Hub, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation
   title: New Student Orientation, Tatkon Center for New Students, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/node/49486
   title: For Families of New Students, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar 2026-2027, Cornell Office of the University Registrar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar/2027-2028
   title: Academic Calendar 2027-2028, Cornell Office of the University Registrar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof
   title: 'New Student Health Requirements: Ithaca Students, Cornell Health (Spring 2027 admits)'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: http://web.archive.org/web/20260815222031/https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof
   title: 'New Student Health Requirements: Fall 2026, Cornell Health (Internet Archive copy, Aug. 15, 2026)'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27
   title: SHP Costs and Dates (2026-27), Cornell Student Health Benefits
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://studenthealthbenefits.cornell.edu/node/179
   title: Waiver/Opt-Out Deadlines, Cornell Student Health Benefits
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://bursar.cornell.edu/students-parents/congratulations-your-acceptance-to-cornell-university
   title: Congratulations on Your Acceptance to Cornell University, Cornell Office of the Bursar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://bursar.cornell.edu/students-parents/deposit-refunds
   title: Direct Deposit of Refunds, Cornell Office of the Bursar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus
   title: Move-in Schedule, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/students/services/id-cards
   title: ID Cards, Cornell Office of the University Registrar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall
   title: Toni Morrison Hall, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
   title: Cornell Dining Terms and Conditions 2026-2027, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/pe/pe/swim-requirement
   title: Swim Requirement, Cornell Physical Education
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/pe/pe/swim-requirement/history-swim-requirement
   title: History of Swim Requirement, Cornell Physical Education
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellstore.com/about-textbooks
   title: About Textbooks, The Cornell Store
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://academicmaterials.cornell.edu/frequently-asked-questions
   title: Frequently Asked Questions, Cornell Academic Materials Program
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/news-events/news/students-see-savings-cornell-academic-materials-program
   title: Students See Savings with Cornell Academic Materials Program, Cornell Student and Campus Life, April 28, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and OmniRide Passes, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2007/04/25/university-changes-free-bus-pass-policy/
   title: University Changes Free Bus Pass Policy, The Cornell Daily Sun, April 25, 2007
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free
   title: Non-First-Year Cornell Students No Longer Able to Access TCAT for Free 24/7, The Cornell Daily Sun, November 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026
   title: 'SA Resolution 69 (2025-26): Urging Cornell to Support Higher TCAT Funding, Cornell Student Assembly'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/cycling-campus
   title: Cycling on Campus, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://health.cornell.edu/services/pharmacy
   title: Pharmacy, Cornell Health
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/getting-started/your-first-week-0
   title: Your First Week, Cornell International Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/getting-started/status-activation-students
   title: Status Activation for Students, Cornell International Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://events.cornell.edu/event/prepare-international-undergraduate-orientation-fa26
   title: 'Prepare: International Undergraduate Orientation, Cornell Events Calendar, 2026'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes
   title: Student Memberships and Day Passes, Cornell Recreational Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/tds-announcements
   title: TDS Announcements, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
   title: OurBus Moves Ithaca Stop to South Cayuga Street Monday as TCAT Shifts Stops, FingerLakes1, Nov. 6, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Main entrance of Robert Purcell Community Center on Cornell's North Campus, a brick building with glass doors
@@ -161,7 +161,7 @@ At 8 a.m. on Monday, Aug. 17, 2026, orientation leaders with red pom poms starte
 
 Move-in looks like the start. It is closer to the middle. By the time those boxes went up the stairs, each student had already faced a health deadline, an insurance deadline and a tuition bill. Still ahead were a swim test, a course-change deadline, a textbook opt-out and the first trip home.
 
-The first month at Cornell is a relay of deadlines run by separate offices. Cornell Health, the Bursar, the Registrar, Cornell Dining, The Cornell Store and Transportation Services each own a piece. None of them shows the whole sequence. Cornell's own [New Student To Do List](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-do-list) has 29 items, from "Activate Two-Step Login" to "Gorge Safety Video." On one clock, they run from the spring the list opens to the first trip home in October.
+The first month at Cornell is a relay of deadlines run by separate offices. Cornell Health, the Bursar, the Registrar, Cornell Dining, The Cornell Store and Transportation Services each own a piece, and each publishes only its own deadlines. Cornell's own [New Student To Do List](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-do-list) has 29 items, from "Activate Two-Step Login" to "Gorge Safety Video." On one clock, they run from the spring the list opens to the first trip home in October.
 
 The stakes are real money and real holds. Take a first-year whose family insurance qualifies but who misses the waiver, then keeps a textbook program worth less than its fee. That student adds $2,000 to the fall bill: the $1,705 fall health plan charge plus the $295 textbook fee ([The Cornell Store](https://www.cornellstore.com/about-textbooks)). A student who skips the health forms loses the ability to change classes. Cornell's 2026 rules called for withdrawing students still out of compliance on Sept. 10 ([Cornell Health, fall 2026](http://web.archive.org/web/20260815222031/https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof)). Most of the tasks are free and take minutes. The trouble is doing them in the wrong order.
 
@@ -220,7 +220,7 @@ A bike is the middle option. Register it, along with any e-bike or scooter, with
 
 ## Move-in day
 
-In 2026, first-years moved in on Aug. 17 and transfers on Aug. 18. Family Orientation ran the same day as transfer move-in. New Student Orientation ran Aug. 18 through 23 ([New Student Orientation](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)). Cornell has not posted the 2027 dates. In 2026, move-in fell on the Monday one week before classes began.
+In 2026, first-years moved in on Aug. 17 and transfers on Aug. 18. Family Orientation ran the same day as transfer move-in. New Student Orientation ran Aug. 18 through 23 ([New Student Orientation](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation)). The 2027 dates are not yet announced. In 2026, move-in fell on the Monday one week before classes began.
 
 The 2026 move-in had one change from earlier years. Students checked in and collected their keys on campus. In earlier years, all students had been sent to check in at The Shops at Ithaca Mall first. Each car also got a card that told volunteers where to direct it (The Cornell Daily Sun). One parent told the Sun the parking was planned "down to a T."
 
@@ -262,7 +262,7 @@ The free pass has a protest in its history. In 2005, students fought the clearin
 
 That 2007 deal still sets the rules. The discounted pass costs the same $200 it cost 19 years ago (Cornell bus passes).
 
-The system has strained since. Early in 2024, a farebox problem let every student ride free for months. When Cornell updated its rider list on Oct. 16, 2024, swipes from upper-year students started failing without warning. TCAT general manager Matthew Rosenbloom-Jones pointed to Cornell's magnetic-stripe IDs and recommended an app-based pass like Ithaca College's ([The Cornell Daily Sun, 2024](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). In March 2026, the Student Assembly unanimously urged Cornell to give TCAT enough money to cover free passes for all undergraduates and graduate workers. The resolution says Cornell pays 15 percent of TCAT's budget while 70 percent of TCAT's service goes to Cornell. The president returned it on April 24, 2026, and no response is posted ([Student Assembly Resolution 69](https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026)).
+The system has strained since. Early in 2024, a farebox problem let every student ride free for months. When Cornell updated its rider list on Oct. 16, 2024, swipes from upper-year students started failing without warning. TCAT general manager Matthew Rosenbloom-Jones pointed to Cornell's magnetic-stripe IDs and recommended an app-based pass like Ithaca College's ([The Cornell Daily Sun, 2024](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free)). In March 2026, the Student Assembly unanimously urged Cornell to give TCAT enough money to cover free passes for all undergraduates and graduate workers. The resolution says Cornell pays 15 percent of TCAT's budget while 70 percent of TCAT's service goes to Cornell. The president returned it on April 24, 2026 ([Student Assembly Resolution 69](https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026)).
 
 Week one is also when the rest of daily life gets set up. A gym membership is optional. Cornell Fitness Centers charged $180 for the 2026-27 academic year or $115 for fall, bought through the FusionGO app ([Cornell Recreational Services](https://scl.cornell.edu/recreation/fitness-centers/student-memberships-day-passes)).
 
@@ -326,35 +326,35 @@ Three questions will shape the next class's first month. Will Cornell answer the
 |---|---|---|---|
 | Activate Two-Step Login, check Cornell email, IT resources | To Do List | As soon as the NetID arrives; the list opened March 26 | Free |
 | Upload student ID card photo | Office of the University Registrar | Before move-in | Free; $40 to replace a lost card |
-| Submit your transcript | To Do List | Before arrival | Not listed |
-| Parent/guardian address request | To Do List | Before arrival | Not listed |
+| Submit your transcript | To Do List | Before arrival |  |
+| Parent/guardian address request | To Do List | Before arrival |  |
 | Health requirements | Cornell Health | June 10 for first-years; July 23 for transfers | $50 to $1,000 if shots are given at Cornell Health |
 | Health insurance (SHP or waiver) | Cornell Student Health Benefits | Waiver approved by July 31 | $1,705 fall and $2,046 spring if not waived |
-| Disability self-disclosure | To Do List | Before arrival | Not listed |
+| Disability self-disclosure | To Do List | Before arrival |  |
 | Fitness centers enrollment | Cornell Recreational Services | Optional; fall membership from July 15 | $180 a year or $115 for fall |
-| Financial Responsibility Agreement | Office of the Bursar | Before you enroll | Not listed |
+| Financial Responsibility Agreement | Office of the Bursar | Before you enroll |  |
 | CASHNet: paying your tuition bill | Office of the Bursar | Bill posted July 10, due Aug. 7 | Tuition and fees |
 | Cornell Installment Plan | Office of the Bursar | Optional; enrollment from July 10 | $125 a semester |
-| CornellCard enrollment | Office of the Bursar | Optional | Not listed |
-| Enroll in direct deposit | Office of the Bursar | Before the first refund | Not listed |
-| Complete the pre-orientation modules | Tatkon Center for New Students | Before orientation | Not listed |
-| Register for New Student Orientation | Tatkon Center for New Students | Before orientation, Aug. 18 to 23 | Not listed |
+| CornellCard enrollment | Office of the Bursar | Optional |  |
+| Enroll in direct deposit | Office of the Bursar | Before the first refund |  |
+| Complete the pre-orientation modules | Tatkon Center for New Students | Before orientation |  |
+| Register for New Student Orientation | Tatkon Center for New Students | Before orientation, Aug. 18 to 23 |  |
 | Dining and meal plan enrollment | Cornell Dining | Required Unlimited plan for first-years | $3,802 a semester for 2026-27 |
-| Housing application process | Cornell Housing | Late spring; move-in slot by Aug. 1 | Not covered here |
-| Complete new student survey | To Do List | Before arrival | Not listed |
-| Mission Sustainability | To Do List | Before arrival | Not listed |
+| Housing application process | Cornell Housing | Late spring; move-in slot by Aug. 1 |  |
+| Complete new student survey | To Do List | Before arrival |  |
+| Mission Sustainability | To Do List | Before arrival |  |
 | Transit, vehicle registration, parking permits, bicycle registration | Transportation and Delivery Services | Before arrival | TCAT free; resident permit $752.98; bike registration free |
-| Spiritual life at Cornell | To Do List | Optional | Not listed |
-| Online alcohol and other drug education | To Do List | Before orientation | Not listed |
-| Title IX and related university policies | To Do List | Before orientation | Not listed |
+| Spiritual life at Cornell | To Do List | Optional |  |
+| Online alcohol and other drug education | To Do List | Before orientation |  |
+| Title IX and related university policies | To Do List | Before orientation |  |
 | Water competency graduation requirement (swim test) | Cornell Physical Education | Orientation week | Free in orientation; $100 after first year |
-| Gorge safety video | To Do List | Before orientation | Not listed |
-| Student Code of Conduct | To Do List | Before orientation | Not listed |
-| The Cheating Video | To Do List | Before orientation | Not listed |
-| Assigned college tasks | Your college | Varies by college; advising and pre-enrollment in July | Not listed |
-| Community at Cornell | To Do List | Before orientation | Not listed |
+| Gorge safety video | To Do List | Before orientation |  |
+| Student Code of Conduct | To Do List | Before orientation |  |
+| The Cheating Video | To Do List | Before orientation |  |
+| Assigned college tasks | Your college | Varies by college; advising and pre-enrollment in July |  |
+| Community at Cornell | To Do List | Before orientation |  |
 
-Source: task names from Cornell's New Student To Do List; dates and costs from the Cornell Health, Student Health Benefits, Bursar, Cornell Dining, Cornell Housing, Transportation and Delivery Services, Recreational Services, Physical Education, Registrar and New Student Resource Hub pages linked above. "To Do List" means the task is done inside the list itself, and "Not listed" means Cornell's pages state no fee. Not every task applies to every student.
+Source: task names from Cornell's New Student To Do List; dates and costs from the Cornell Health, Student Health Benefits, Bursar, Cornell Dining, Cornell Housing, Transportation and Delivery Services, Recreational Services, Physical Education, Registrar and New Student Resource Hub pages linked above. "To Do List" means the task is done inside the list itself. Not every task applies to every student.
 
 ## Calendar: the first month, dated
 

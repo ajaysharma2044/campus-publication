@@ -7,7 +7,7 @@ primary_query: Toni Morrison Hall Cornell dorm
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 62
 rewrites: ''
 readers:
@@ -22,11 +22,11 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall
   title: Toni Morrison Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life
@@ -50,12 +50,15 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion
+  title: Cornell University - North Campus Residential Expansion (NCRE), Welliver
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
@@ -76,7 +79,7 @@ images:
 - Rates follow room type, so a double here costs the same as in the oldest North hall.
 ```
 
-Toni Morrison Hall is a suite-style residence hall on Cornell's North Campus. It holds 306 students and is listed for upper-level students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). It has temperature-controlled rooms, a dining room and a café.
+Toni Morrison Hall is a suite-style residence hall on Cornell's North Campus. It holds 306 students by Cornell Housing's resident count and is listed for upper-level students ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)). Welliver, the construction manager, counts beds instead and lists the hall at 314 ([Welliver](https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion)). It has temperature-controlled rooms, a dining room and a café.
 
 ```figure
 kind: cost_table
@@ -84,7 +87,7 @@ title: Toni Morrison Hall at a glance
 rows:
   - {label: "Location", value: "North Campus; houses Morrison Dining and Crossings Café"}
   - {label: "Opened", value: "2021"}
-  - {label: "Residents", value: "306"}
+  - {label: "Residents (Cornell Housing count)", value: "306"}
   - {label: "Program house inside", value: "Language House, 50-plus residents"}
   - {label: "Room types", value: "Singles and doubles"}
   - {label: "Layout", value: "Suites"}
@@ -95,7 +98,7 @@ rows:
   - {label: "How to get in", value: "Spring selection; Language House has its own application"}
 ```
 
-Source: Cornell Housing hall page, Housing Rates 2026-2027, Cornell Dining and the [Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life) for the 2021 opening. Cornell's page gives no street address.
+Source: Cornell Housing hall page, Housing Rates 2026-2027, Cornell Dining and the [Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life) for the 2021 opening. For deliveries, Cornell gives the address as 18 Sisson Place, because another Morrison Hall is on campus ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall)).
 
 ## Who was Toni Morrison, and why is the hall named for her?
 
@@ -103,7 +106,7 @@ The hall honors Toni Morrison, a Cornell alumna and the first African American w
 
 ## What is living in Toni Morrison Hall like?
 
-Suites set the tone. A locked door off the hall opens onto a few bedrooms, a shared common space and a bathroom for that suite only ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). The rest of North is mostly corridor style, where you share a bathroom down the hall.
+Suites set the tone. A locked door off the hall opens onto a few bedrooms, a shared common space and a bathroom for that suite only ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)). The rest of North is mostly corridor style, where you share a bathroom down the hall.
 
 Food is downstairs. Morrison Dining is one of North's three dining rooms, and Crossings Café sits in the same building ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). For a student who hates walking to a dining hall in January, that is the hall's best argument.
 
@@ -111,7 +114,7 @@ Language House moved here in 2023 ([Cornell Chronicle](https://news.cornell.edu/
 
 ## What does a room in Toni Morrison Hall cost?
 
-Cornell charges by room type, not by building, so you pay the standard rate for the room you pick ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate includes gas, electricity, trash pickup and internet, with no security deposit. A meal plan comes on top, because the residential requirement includes one.
+Cornell charges by room type, not by building, so you pay the standard rate for the room you pick ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The rate includes gas, electricity, trash pickup and internet, with no security deposit. A meal plan comes on top, because the residential requirement includes one.
 
 ```figure
 kind: cost_table
@@ -130,13 +133,13 @@ To weigh a double against a lease, read [is off-campus cheaper than a Cornell do
 
 Cornell lists the hall among North's upper-level halls ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing)). Rising sophomores pick rooms in a timed online selection, and the pick is binding. Sophomores cannot cancel a license to move off campus unless they leave Cornell or win an exemption, and the page on [who can live off campus](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) explains the exemptions.
 
-Language House and its two sister communities need an extra application beyond the regular one. Returning juniors and seniors can cancel a 2027-28 license for a fee that grows with each deadline, and the calculator shows yours ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Language House and its two sister communities need an extra application beyond the regular one. Returning juniors and seniors can cancel a 2027-28 license for a fee that grows with each deadline, and the calculator shows yours ([2027-28 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 ```tool cornell-housing-license-cancellation-fee-calculator```
 
 ## What have residents said about it?
 
-In October 2021, first-years in Toni Morrison and Ganędagǫ: Halls told The Cornell Daily Sun they liked the big rooms, hardwood floors and cooling. They reported shower drains that flooded bathroom floors. Several said heavy suite doors stayed shut, so they met few people beyond their suite. One compared the feel to an office building, and another said the closed doors gave her privacy and security. All said the good outweighed the bad ([Cornell Daily Sun](https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/)). Cornell's pages carry no update on the drains.
+In October 2021, first-years in Toni Morrison and Ganędagǫ: Halls told The Cornell Daily Sun they liked the big rooms, hardwood floors and cooling. They reported shower drains that flooded bathroom floors. Several said heavy suite doors stayed shut, so they met few people beyond their suite. One compared the feel to an office building, and another said the closed doors gave her privacy and security. All said the good outweighed the bad ([Cornell Daily Sun](https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/)).
 
 ```reader "If you're staying over winter break"
 Toni Morrison Hall is among the North halls Cornell keeps open over winter break in 2026-27 and 2027-28 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). Residents of open halls pay $125 for one week or $500 for the full break. Apply in the Housing and Dining Portal between Oct. 1 and Dec. 1.
@@ -148,7 +151,7 @@ Cornell bills housing through the Bursar, the university's billing office, and t
 
 ## Where do you unload on move-in day?
 
-Cornell's North Campus move-in page names zones for most halls, and Toni Morrison Hall is not in its short list of named zones. Read the current [move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus) before your timeslot, and see the [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) for tickets.
+Toni Morrison Hall shares an unloading zone with Clara Dickson Hall: the Dickson Hall loading dock and parking lot unloading spaces. Cornell's North Campus [move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus) name it as the hall's zone for arrivals after 8 p.m. on Aug. 17, after 11 a.m. and after 8 p.m. on Aug. 18, after 5 p.m. on Aug. 21 to 22, and any arrival while the RPCC Service Center is closed; in the daytime windows on Aug. 17, Aug. 18 (8 to 11 a.m.) and Aug. 21 to 22, staff guide you to your building's zone. If you arrive after hours or while the RPCC Service Center is closed, go straight to that zone, with no staff unloading help. Your reserved timeslot covers arrival and check-in only, not unloading. See the [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) for tickets.
 
 ## What to do next
 

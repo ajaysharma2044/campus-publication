@@ -20,7 +20,7 @@ tools:
 - ithaca-rent-commute-calculator
 - omniride-break-even-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258
@@ -67,7 +67,7 @@ images: []
 - Cornell students ride TCAT free after 6 p.m. weekdays and all weekend.
 ```
 
-Fall Creek is a lower-rent neighborhood of older houses and small apartment buildings below campus, a 20 to 30 minute uphill walk away. Cornell puts it 0.5 to 1 mile out and notes frequent buses ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). It suits graduate students and undergraduates who want lower rent than Collegetown.
+Fall Creek is a lower-rent neighborhood of older houses and small apartment buildings below campus, a 20 to 30 minute uphill walk away. Cornell puts it 0.5 to 1 mile out and notes frequent buses ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). It suits graduate students and undergraduates who want lower rent than Collegetown.
 
 ## Where is Fall Creek?
 

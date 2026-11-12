@@ -7,7 +7,7 @@ primary_query: how does cornell assign roommates
 topic: housing
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 32
 rewrites: ''
 readers:
@@ -18,7 +18,7 @@ readers:
 subject: Toni Morrison Hall, North Campus, Cornell University, Ithaca
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
@@ -30,13 +30,13 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
   title: First-Year Undergraduate On-Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life
   title: Cornell welcomes students, marks milestone in residential life, Cornell Chronicle, Aug. 15, 2022
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -45,18 +45,27 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-undergraduates/low-rise-7
   title: Low Rise 7, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions, North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027
   title: Academic Year Housing License 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus Living Resources, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall
+  title: 'Ganędagǫ: Hall, Cornell Student & Campus Life'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college
+  title: Risley Residential College, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/akwekon
+  title: 'Akwe:kon, Cornell Student & Campus Life'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Toni Morrison Hall, a modern brick and metal residence hall on Cornell's North Campus
@@ -77,7 +86,7 @@ images:
 - A double costs $13,744 for 2026-27; a single costs $15,566.
 ```
 
-Cornell pairs most first-year roommates using a short questionnaire about your habits, or you can name one student you want to live with. A random computer process then places you in a North Campus hall based on your room-type choice. Most students don't know a roommate before they apply ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)).
+Cornell pairs most first-year roommates using a short questionnaire about your habits, or you can name one student you want to live with. A random computer process then places you in a North Campus hall based on your room-type choice. Most students don't know a roommate before they apply ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
 ## How does Cornell match first-year roommates?
 
@@ -93,9 +102,9 @@ If you meet a future classmate online and want to room together, tell that stude
 
 No, unless you choose a program house. Cornell calls the method random auto-allocation: a computer assigns your hall based on your room-type preference, and you do not rank halls.
 
-Every first-year hall is on North Campus. More than 3,000 new students live there each fall, in residence halls and program houses. The halls differ a lot in size. Ganędagǫ: Hall holds 564 residents, Risley Hall 194 and Akwe:kon 35 ([Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall), [Risley](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college) and [Akwe:kon](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/akwekon) hall pages).
+Every first-year hall is on North Campus. More than 3,000 new students live there each fall, in residence halls and program houses. The halls differ a lot in size. By Cornell Housing's resident counts, Ganędagǫ: Hall holds 564 residents, Risley Hall 194 and Akwe:kon 35 ([Ganędagǫ: Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall), [Risley](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college) and [Akwe:kon](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/akwekon) hall pages).
 
-They also differ in layout, which changes how many people you share space with. Most North Campus halls are corridor style, with rooms off a shared hallway. Ganędagǫ: Hall and Toni Morrison Hall are suite style, where a few bedrooms share a common room and bathroom ([Residence Hall Configurations](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). In a suite, you live with suitemates as well as a roommate.
+They also differ in layout, which changes how many people you share space with. Most North Campus halls are corridor style, with rooms off a shared hallway. Ganędagǫ: Hall and Toni Morrison Hall are suite style, where a few bedrooms share a common room and bathroom ([Residence Hall Configurations](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)). In a suite, you live with suitemates as well as a roommate.
 
 Toni Morrison and Ganędagǫ: opened in 2021 with 800 beds, and Barbara McClintock, Hu Shih and Ruth Bader Ginsburg halls added 1,200 beds for fall 2022 ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
 
@@ -121,7 +130,7 @@ rows:
   - {label: "Quad", value: "$6,872 per semester, $13,744 per year"}
 ```
 
-Source: [Cornell Housing Rates, 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates). Rates cover gas, electricity, garbage pickup and internet up to 200 GB a month.
+Source: [Cornell Housing Rates, 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates). Rates cover gas, electricity, garbage pickup and internet up to 200 GB a month.
 
 A single costs $1,822 a year more than a double, a triple $1,100 less, and a quad the same (Cornell Housing rates).
 
@@ -152,7 +161,7 @@ rows:
   - {label: "First-year move-in", date: "Monday, Aug. 17, 2026"}
 ```
 
-Source: [New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process) and [North Campus move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus).
+Source: [New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) and [North Campus move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus).
 
 Once your assignment is final, sign your housing license, the contract for your room. Signing unlocks your move-in timeslot, which you can change in the portal up to Aug. 1. Waitlisted students can pick any open timeslot on either move-in day, whichever building they end up in, so they can book travel before they have a room.
 
@@ -162,11 +171,11 @@ Cornell posts each new cycle's dates on the New Undergrad Application Process pa
 
 ## Can you change your roommate or room?
 
-Only by trading. Cornell is full for 2026-27 and doesn't accept room change requests. Instead it runs a direct room swap: you find a student who wants your room and trade through the portal between mid-June and mid-July. Anyone with a signed housing license can swap ([New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)).
+Only by trading. Cornell is full for 2026-27 and doesn't accept room change requests. Instead it runs a direct room swap: you find a student who wants your room and trade through the portal between mid-June and mid-July. Anyone with a signed housing license can swap ([New Undergrad Application Process](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
-You also can't back out of campus housing. First-years must live on campus ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)), and they cannot cancel a housing license unless they leave Cornell or win an exemption ([Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2026-2027)). The rare cases that qualify are in our guide to [Cornell's residential requirement exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+You also can't back out of campus housing. First-years must live on campus ([Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)), and they cannot cancel a housing license unless they leave Cornell or win an exemption ([Housing License 2026-27](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2026-2027)). The rare cases that qualify are in our guide to [Cornell's residential requirement exemptions](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
-If a roommate conflict won't settle, the Community Dispute Resolution Center in Ithaca offers mediation for everyday disputes at 607-273-9347 ([Campus Living Resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)).
+If a roommate conflict won't settle, the Community Dispute Resolution Center in Ithaca offers mediation for everyday disputes at 607-273-9347 ([Campus Living Resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)).
 
 ```reader "If you're a transfer student"
 You may land anywhere: the West Campus House System, South Campus halls, North Campus halls or a program house. Cornell groups transfers together when it can, and some who qualify as first-years go to first-year halls ([New Transfer Undergraduates](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates)). Transfers make up almost 15% of new students. Fall 2026 transfer move-in was Tuesday, Aug. 18, a day after first-years. More on placement is in our [Cornell transfer housing guide](/cornell/housing/cornell-transfer-housing/).

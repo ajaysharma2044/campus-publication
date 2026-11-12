@@ -18,7 +18,7 @@ subject: Cornell University athletic fields and North Campus residence halls
 tools:
 - when-to-sign-lease-timeline-cornell
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
@@ -27,13 +27,13 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses
   title: Rates, Amenities and Licenses, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease
@@ -71,11 +71,11 @@ Varsity athletes follow the same housing rules as every other Cornell undergradu
 
 No. The exemptions Cornell lists are for transfers with two years of residence elsewhere, juniors and seniors, students 21 or older, married students, veterans, students with legal dependents and local commuters. Playing a sport is not on the list. The [exemptions guide](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/) has each one.
 
-Cornell's pages do not describe any athletics-specific housing arrangement, such as team housing or early move-in for preseason. If your team or coach says you can arrive early or stay late, get the date and the building in writing, and ask Housing Operations at 607-255-5368 how it fits your license ([Cornell housing directory](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
+Cornell's pages do not describe any athletics-specific housing arrangement, such as team housing or early move-in for preseason. If your team or coach says you can arrive early or stay late, get the date and the building in writing, and ask Housing Operations at 607-255-5368 how it fits your license ([Cornell housing directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)).
 
 ## When is my room actually open?
 
-The academic-year license for 2026-27 runs from move-in, Aug. 17 to 22, 2026, through Dec. 20, 2026, and again from Jan. 19 to May 23, 2027 ([Cornell housing rates and licenses](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses)).
+The academic-year license for 2026-27 runs from move-in, Aug. 17 to 22, 2026, through Dec. 20, 2026, and again from Jan. 19 to May 23, 2027 ([Cornell housing rates and licenses](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses)).
 
 Staying outside those dates costs $60 per day ([Cornell housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The winter gap, Dec. 20 to Jan. 19, is 30 days.
 
@@ -93,7 +93,7 @@ Moving off campus changes the math. A 12-month lease covers winter break, spring
 
 ## Should I sign a lease with teammates?
 
-It can work, and it carries a risk. Cornell says most local leases bind housemates "jointly and severally," meaning each of you is responsible for housemates' rent and damages for the whole term ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire)). Each tenant can be held for the full rent ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)).
+It can work, and it carries a risk. Cornell says most local leases bind housemates "jointly and severally," meaning each of you is responsible for housemates' rent and damages for the whole term ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire)). Each tenant can be held for the full rent ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/understanding-your-lease)).
 
 Teams change. A teammate can graduate, get injured and leave school, or transfer, and the rest of you keep paying. The [roommate liability guide](/cornell/housing/cornell-off-campus-roommates-joint-liability/) explains how groups fall apart and what to put in writing.
 

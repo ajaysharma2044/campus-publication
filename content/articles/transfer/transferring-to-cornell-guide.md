@@ -111,9 +111,6 @@ sources:
 - url: https://publicpolicy.cornell.edu/undergraduate/apply/transfer-applicants/external-transfers/
   title: External Transfers, Cornell Brooks School of Public Policy
   accessed: '2026-11-11'
-- url: https://www.cs.cornell.edu/node/17
-  title: Undergraduate Admissions, Cornell Computer Science
-  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/students/credit-evaluation-services
   title: Credit Evaluation Services, Cornell University Registrar
   accessed: '2026-11-11'
@@ -156,7 +153,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student and Campus Life
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student and Campus Life
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
@@ -290,7 +287,7 @@ Out of school two or more years, you may [replace the instructor's Academic Eval
 ```
 
 ```reader "If you need disability accommodations"
-Register with [Student Disability Services](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) (607-254-4545, sds_cu@cornell.edu) before you submit the housing application, which is due within ten days of your NetID. Accessible housing runs through that registration. Individual exemptions from the one-year residential requirement are requested through the housing application while it is open, one academic year at a time. A medical leave cancels a fall housing license without penalty until June 15 under the [2026-27 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027); after that the fee is $500.
+Register with [Student Disability Services](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) (607-254-4545, sds_cu@cornell.edu) before you submit the housing application, which is due within ten days of your NetID. Accessible housing runs through that registration. Individual exemptions from the one-year residential requirement are requested through the housing application while it is open, one academic year at a time. A medical leave cancels a fall housing license without penalty until June 15 under the [2026-27 license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/12-month-undergraduate-housing-license-2026-2027); after that the fee is $500.
 ```
 
 ```reader "If you're bringing a partner or children"
@@ -356,7 +353,19 @@ Two groups apply differently. International applicants are anyone without US cit
 
 ```tool cornell-transfer-eligibility-quiz```
 
-**How hard it is.** In fall 2025, the [Common Data Set](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf) counts 7,381 transfer applicants, 864 admits and 625 enrollees. That is an 11.7% admit rate by our division, against 8.4% for first-years the same fall (6,077 of 72,523). Of admitted transfers, 72.3% enrolled, and transfers were 14.0% of the new class, both by our math from the same counts. Cornell publishes no rate by college or major. Third-party sites put [fall 2024 at 9.3%](https://admissionsight.com/cornell-acceptance-rate/) and [fall 2023 at 12.7%](https://www.collegetransitions.com/blog/cornell-transfer-acceptance-rate-requirements-application-deadlines/), so the rate moves by several points a year. More years and the by-college picture are in [Cornell transfer acceptance rate](/transfer/cornell-transfer-acceptance-rate/).
+**How hard it is.** In fall 2025, the [Common Data Set](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf) counts 7,381 transfer applicants, 864 admits and 625 enrollees. That is an 11.7% admit rate by our division, against 8.4% for first-years the same fall (6,077 of 72,523). Of admitted transfers, 72.3% enrolled, and transfers were 14.0% of the new class, both by our math from the same counts. Cornell publishes no rate by college or major. Third-party sites put [fall 2024 at 9.3%](https://admissionsight.com/cornell-acceptance-rate/) and [fall 2023 at 12.7%](https://www.collegetransitions.com/blog/cornell-transfer-acceptance-rate-requirements-application-deadlines/), so the rate moves by several points a year.
+
+```figure
+kind: cost_table
+title: Fall 2025 admissions, transfers and first-years
+rows:
+  - {label: "Transfer applicants", value: "7,381"}
+  - {label: "Transfers admitted", value: "864 (11.7%)"}
+  - {label: "Transfers enrolled", value: "625"}
+  - {label: "First-years admitted", value: "6,077 of 72,523 (8.4%)"}
+```
+
+More years and the by-college picture are in [Cornell transfer acceptance rate](/transfer/cornell-transfer-acceptance-rate/).
 
 ## Now: pick the year you enter
 
@@ -421,7 +430,7 @@ Doors that are shut or narrow:
 - **Engineering** admits you [directly into one major](https://faq.enrollment.cornell.edu/kb/article/150-as-a-transfer-student-does-it-matter-which-engineering-major-i-apply-to/); you cannot apply undecided, and you stay in it at least one year. Missing any of the four core courses means the application [would not be reviewed](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). Chemical Engineering asks you to apply as a sophomore if possible, because some sophomore courses are not offered at most two-year colleges.
 - **Hotel** takes applicants who are first-years, sophomores or rising juniors at their current school; current juniors and seniors cannot apply.
 
-Computer science has two doors: Engineering's B.S., where you are admitted straight to the major, or Arts and Sciences' B.A., [with CS transfer credit reviewed by the department](https://www.cs.cornell.edu/node/17). See [Transferring to Cornell Engineering or computer science](/transfer/cornell-engineering-transfer-guide/).
+Computer science has two doors: Engineering's B.S., where you are admitted straight to the major, or [Arts and Sciences' B.A.](https://as.cornell.edu/admissions/admissions-requirements-and-process). See [Transferring to Cornell Engineering or computer science](/transfer/cornell-engineering-transfer-guide/).
 
 Take these courses for letter grades. CALS and Human Ecology do not accept pass/fail, and Engineering's floor is a C, not a C-. Each college has its own requirements guide: [CALS](/transfer/cornell-cals-transfer-requirements/), [ILR](/transfer/cornell-ilr-transfer-requirements/), [Human Ecology](/transfer/cornell-human-ecology-transfer-requirements/), [Hotel](/transfer/cornell-hotel-school-transfer-requirements/), [Arts and Sciences](/transfer/cornell-arts-and-sciences-transfer-requirements/), [Dyson](/transfer/cornell-dyson-transfer-requirements/), [Brooks](/transfer/cornell-brooks-school-transfer-requirements/) and [AAP](/transfer/cornell-aap-transfer-requirements/).
 
@@ -442,11 +451,33 @@ The CSS Profile fee is waived automatically for US families with adjusted gross 
 
 Cornell [meets 100% of demonstrated need](https://admissions.cornell.edu/apply/transfer-applicants) with grants, work-study and reasonable loans, and admission is need-blind for US applicants. There is no merit aid. For 2026-27, [families earning up to $125,000 with typical assets get grants covering tuition, and up to $75,000 the full cost of attendance](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). In fall 2021, [32.7% of transfers received Cornell need-based grants averaging $44,712](https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf), the latest transfer aid figures Cornell has published. Grant aid beyond tuition and mandatory fees is taxable.
 
+```figure
+kind: cost_table
+title: Family income and what Cornell aid covers, 2026-27
+rows:
+  - {label: "Up to $75,000, typical assets", value: "Grants for the full cost of attendance"}
+  - {label: "Up to $100,000 adjusted gross income", value: "CSS Profile fee waived"}
+  - {label: "Up to $125,000, typical assets", value: "Grants covering tuition"}
+  - {label: "Above $125,000", value: "100% of demonstrated need met"}
+```
+
 **International applicants** file the CSS Profile by [March 15, 2027](https://finaid.cornell.edu/first-year-and-transfer-students-international), generally with no fee waiver. Applying for aid makes your admission need-aware. An international applicant who does not apply by the deadline [cannot receive undergraduate aid later](https://admissions.cornell.edu/how-to-apply/transfer-international-applicants). Aid above tuition and fees is taxable, and 14% is withheld unless a treaty applies. For English proficiency, the international transfer page refers you to Cornell's Standardized Testing Policy and sets no transfer-specific TOEFL, IELTS or Duolingo score. Documents not in English need official English translations, which a teacher or school official may provide.
 
 **EOP and HEOP applicants** file the same forms, then send [a HEOP Transfer Certification form](https://oadi.cornell.edu/node/50) for AAP, Arts and Sciences, Engineering or Hotel, or email stateprograms@cornell.edu for CALS, Human Ecology, ILR, Brooks or Dyson. Fall 2027 applicants submit 2025 tax documents. The Office of Academic Discovery and Impact answers at 607.255.3841.
 
-**New York residents** pay less at the five contract colleges. For 2026-27, tuition was [$49,816 for a New York resident at CALS, Human Ecology, ILR, Brooks or Dyson, and $73,946 everywhere else](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). Non-residents and international students pay $73,946 at every college. More in [NY resident transfers: Cornell contract college tuition](/transfer/cornell-contract-colleges-ny-resident-transfer/).
+**New York residents** pay less at the five contract colleges. For 2026-27, tuition was [$49,816 for a New York resident at CALS, Human Ecology, ILR, Brooks or Dyson, and $73,946 everywhere else](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). Non-residents and international students pay $73,946 at every college.
+
+```figure
+kind: cost_table
+title: Tuition by college, 2026-27
+rows:
+  - {label: "NY resident at CALS, Human Ecology, ILR, Brooks or Dyson", value: "$49,816"}
+  - {label: "Arts and Sciences, Engineering, Hotel, AAP (everyone)", value: "$73,946"}
+  - {label: "Non-resident or international, any college", value: "$73,946"}
+  - {label: "Yearly gap for a NY resident", value: "$24,130"}
+```
+
+More in [NY resident transfers: Cornell contract college tuition](/transfer/cornell-contract-colleges-ny-resident-transfer/).
 
 The full process is in [Cornell financial aid for transfer students](/transfer/cornell-financial-aid-transfer-students/), and the cheapest routes through it are in [Transferring to Cornell on a tight budget](/transfer/cornell-transfer-low-income-budget/).
 
@@ -528,7 +559,7 @@ Line by line, with year two, in [What a transfer year at Cornell costs](/transfe
 
 New transfers must [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates). You are exempt if you lived on campus for two years at your previous school or you matriculate as a junior or senior. Exemptions are requested [through the housing application while it is open](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy), one year at a time.
 
-Apply on the Housing and Dining Portal [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). There is no fee and no deposit. You request a room type and roommate preferences; halls are then assigned by random auto-allocation. Program Houses are the one place you choose by name, and more than 500 first-year and transfer students live in them. Transfers "may be placed" in West Campus houses, South Campus, North Campus and Program Houses, grouped together when possible. The wording describes a requirement and a placement, not a guarantee.
+Apply on the Housing and Dining Portal [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process). There is no fee and no deposit. You request a room type and roommate preferences; halls are then assigned by random auto-allocation. Program Houses are the one place you choose by name, and more than 500 first-year and transfer students live in them. Transfers "may be placed" in West Campus houses, South Campus, North Campus and Program Houses, grouped together when possible. The wording describes a requirement and a placement, not a guarantee.
 
 ```figure
 kind: cost_table
@@ -594,7 +625,20 @@ rows:
   - {label: "Check your schedule before the add deadline and again before the drop deadline"}
 ```
 
-In 2026, fall classes [began August 24](https://registrar.cornell.edu/calendars-exams/academic-calendar), the add deadline was September 8, the drop deadline October 19, and the last day of classes December 7. That last day is the exam credit request deadline. Planning your first term: [Course enrollment and academics for new Cornell transfers](/transfer/cornell-transfer-course-enrollment-academics/).
+In 2026, fall classes [began August 24](https://registrar.cornell.edu/calendars-exams/academic-calendar), the add deadline was September 8, the drop deadline October 19, and the last day of classes December 7. That last day is the exam credit request deadline.
+
+```figure
+kind: timeline
+title: Fall 2026 semester dates for new transfers
+rows:
+  - {label: "Transfer move-in", date: "August 18, 2026"}
+  - {label: "Classes begin", date: "August 24, 2026"}
+  - {label: "Add deadline", date: "September 8, 2026"}
+  - {label: "Drop deadline", date: "October 19, 2026"}
+  - {label: "Last day of classes; exam credit request due", date: "December 7, 2026"}
+```
+
+Planning your first term: [Course enrollment and academics for new Cornell transfers](/transfer/cornell-transfer-course-enrollment-academics/).
 
 **Friends.** Social connection is the theme students raise most. First-years bond in their halls months before you arrive, and transfers are spread across campus.
 
@@ -638,9 +682,9 @@ What follows from all of it: request a Program House or West Campus if you want 
 
 **Can I graduate in four years total as a transfer?** Yes, if you arrive with 60 or fewer accepted credits and finish four semesters at Cornell. Past the [60-credit cap](https://registrar.cornell.edu/students/credit-evaluation-services), the excess is lost.
 
-**Is my housing guaranteed?** Cornell requires new transfers to live on campus for one year and says they [may be placed](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process) in upper-level halls, with a guaranteed waitlist for students without a room in mid-June. Apply within ten days of your NetID.
+**Is my housing guaranteed?** Cornell requires new transfers to live on campus for one year and says they [may be placed](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process) in upper-level halls, with a guaranteed waitlist for students without a room in mid-June. Apply within ten days of your NetID.
 
-**Does Cornell give transfer scholarships?** No merit scholarships. Aid is need-based and [meets 100% of demonstrated need](https://admissions.cornell.edu/apply/transfer-applicants). The [$33,000 transfer scholarship](https://www.cornellcollege.edu/financial-assistance/scholarships-awards/transfer-scholarships.shtml) in search results belongs to Cornell College in Iowa.
+**Does Cornell give transfer scholarships?** No merit scholarships. Aid is need-based and [meets 100% of demonstrated need](https://admissions.cornell.edu/apply/transfer-applicants). The [transfer scholarships](https://www.cornellcollege.edu/financial-assistance/scholarships-awards/transfer-scholarships.shtml) in search results belong to Cornell College in Iowa.
 
 **Does Cornell give credit for military training?** Generally not, per the [admissions veterans page](https://admissions.cornell.edu/veterans). Veterans choose between GI Bill benefits and a Cornell aid package; the student veteran advisor is at sva@cornell.edu, per the [veterans FAQ](https://veterans.cornell.edu/faqs). More in [Veterans and older students transferring to Cornell](/transfer/veterans-transferring-to-cornell/).
 

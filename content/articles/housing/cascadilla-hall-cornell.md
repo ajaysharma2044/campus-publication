@@ -26,10 +26,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall
   title: 'Move Instructions: Cascadilla Hall, Cornell Housing'
   accessed: '2026-11-10'
 - url: https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students
@@ -38,7 +38,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
 images:
@@ -61,7 +61,7 @@ images:
 - The hall runs the service center for every Collegetown-area residence hall.
 ```
 
-Cascadilla Hall is a 366-resident South Campus hall at 115 Cascadilla Place for transfer and upper-level students. It was built in 1864 and has singles and doubles on corridors, with no room air conditioning. A double costs $13,744 for 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Cascadilla Hall is a 366-resident South Campus hall at 115 Cascadilla Place for transfer and upper-level students. It was built in 1864 and has singles and doubles on corridors, with no room air conditioning. A double costs $13,744 for 2026-27 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is Cascadilla Hall?
 
@@ -108,13 +108,13 @@ Compare that with renting. A Collegetown studio has a median asking rent of $21,
 
 ## How do you get a room in Cascadilla Hall?
 
-You rank it in room selection. South Campus halls and 301 College Avenue form one selection area for rising juniors and seniors. Blocks can hold up to five students, and Cornell holds a room for four minutes ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+You rank it in room selection. South Campus halls and 301 College Avenue form one selection area for rising juniors and seniors. Blocks can hold up to five students, and Cornell holds a room for four minutes ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
 Cornell places new transfers in upper-level halls such as this one. If you plan to rent after sophomore year instead, read [off-campus housing for Cornell sophomores](/cornell/housing/off-campus-housing-cornell-sophomores/).
 
 ## How does move-in and parking work?
 
-Cascadilla unloads at the Eddygate entrance. After unloading, move your car to the Williams Street Lot, the upper lot at Williams Street and Stewart Avenue. The 2026 service center hours were 8 a.m. to 7 p.m. on Aug. 18 to 22 and 10 a.m. to 4 p.m. on Aug. 23 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-cascadilla-hall)).
+Cascadilla unloads at the Eddygate entrance. After unloading, move your car to the Williams Street Lot, the upper lot at Williams Street and Stewart Avenue. The 2026 service center hours were 8 a.m. to 7 p.m. on Aug. 18 to 22 and 10 a.m. to 4 p.m. on Aug. 23 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-cascadilla-hall)).
 
 A permit for the Williams Street lot cost about $700 in 2023 and sold out within hours ([The Cornell Daily Sun](https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students)). The [Collegetown and downtown parking guide](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/) lists the garages, and [getting around Ithaca without a car](/cornell/getting-around/getting-around-ithaca-off-campus-renters/) covers the bus.
 

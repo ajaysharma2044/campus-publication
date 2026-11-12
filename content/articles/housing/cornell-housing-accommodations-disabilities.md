@@ -22,10 +22,10 @@ subject: North Campus residence halls, Cornell University, Ithaca
 tools:
 - can-i-live-off-campus-cornell-quiz
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sds.cornell.edu
@@ -84,11 +84,11 @@ images:
 - Accommodations SDS already approved carry over. You do not need re-approval.
 ```
 
-To get disability housing at Cornell, register with Student Disability Services first, then complete your housing application. SDS is the campus office that reviews disability and chronic health needs. Rising sophomores who are not yet approved must get SDS approval by April 5, 2027, to join the separate SDS Room Selection on April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+To get disability housing at Cornell, register with Student Disability Services first, then complete your housing application. SDS is the campus office that reviews disability and chronic health needs. Rising sophomores who are not yet approved must get SDS approval by April 5, 2027, to join the separate SDS Room Selection on April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 ## How do you request a housing accommodation at Cornell?
 
-You start with SDS, not with the housing office. An accommodation is a change SDS approves because of a disability, such as a room you can get into and use. Cornell says students who need accessible housing "for a disability/chronic health-related reason" must register with SDS ([Cornell Housing, new students](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)).
+You start with SDS, not with the housing office. An accommodation is a change SDS approves because of a disability, such as a room you can get into and use. Cornell says students who need accessible housing "for a disability/chronic health-related reason" must register with SDS ([Cornell Housing, new students](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
 Registration happens on the [SDS website](https://sds.cornell.edu). Questions go to SDS at 607-254-4545 or sds_cu@cornell.edu. Cornell Housing tells students to start the SDS process as soon as possible, because SDS needs time to review each request.
 
@@ -109,7 +109,7 @@ rows:
 
 ## What are the deadlines for 2027-28?
 
-The SDS approval deadline in the opening applies to rising sophomores, meaning first-years who will be second-years in fall 2027. Approval by then earns a timeslot in SDS Room Selection, one day before open selection begins ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+The SDS approval deadline in the opening applies to rising sophomores, meaning first-years who will be second-years in fall 2027. Approval by then earns a timeslot in SDS Room Selection, one day before open selection begins ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 ```figure
 kind: timeline
@@ -145,7 +145,7 @@ The full exemption list, with each condition, is in our guide to [who can live o
 
 ## How does it work for incoming first-years and transfers?
 
-New students register with SDS and apply in the same Housing and Dining Portal. Cornell encourages you to apply for housing within 10 days of receiving your NetID, the Cornell login; confirmations go out from mid-June. Unless you apply to a program house, Cornell assigns your residence hall by random auto-allocation, and you do not rank halls ([Cornell Housing, new students](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)).
+New students register with SDS and apply in the same Housing and Dining Portal. Cornell encourages you to apply for housing within 10 days of receiving your NetID, the Cornell login; confirmations go out from mid-June. Unless you apply to a program house, Cornell assigns your residence hall by random auto-allocation, and you do not rank halls ([Cornell Housing, new students](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
 Random allocation is the reason early SDS registration matters. Cornell Housing ties registration directly to being "assigned to housing that is accessible to you." A first-year who registers with SDS late in the summer gives SDS less time to review before rooms are set.
 

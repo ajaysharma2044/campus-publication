@@ -26,121 +26,118 @@ tools:
 sources:
 - url: https://www.cornellsun.com/article/2023/09/williams-street-parking-lot-struggles-to-accommodate-students
   title: Williams Street Parking Lot Struggles to Accommodate Students, The Cornell Daily Sun, Sept. 7, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/node/17809
   title: 2026-27 parking permit sales, Cornell Facilities and Campus Services
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus
   title: Parking on Campus, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options
   title: Short-Term Parking Options, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/sites/default/files/2026-08/ParkmobileMap26.pdf
   title: Cornell University Short-Term Parking Options (ParkMobile map), Cornell Transportation, August 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
   title: Winter and Break Parking Rules, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
-- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking/getting-around/commuter-support-services
-  title: Commuter Support Services, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/tds-announcements
   title: Transportation and Delivery Services Announcements, Cornell
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions
   title: C2C Frequently Asked Questions, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1
   title: Citation Fines Increasing September 1, Cornell Facilities and Campus Services, Aug. 1, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/announcements/2020-10-28/expanded-daily-decision-parking-options
   title: Expanded Daily Decision Parking Options, Cornell Facilities and Campus Services, Oct. 28, 2020
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking/2022-campus-parking-changes
   title: 2022 Campus Parking Changes, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/
   title: On-Campus Parking Violation Fines Increase for First Time Since 2014, The Cornell Daily Sun, Sept. 4, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2006/11/03/parking-rate-rage-top-spots-break-2k
   title: 'Parking Rate Rage: Top Spots Break $2k, The Cornell Daily Sun, Nov. 3, 2006'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2023/03/kempff-the-unspoken-war-for-campus-parking
   title: KEMPFF | The Unspoken War for Campus Parking, The Cornell Daily Sun, March 23, 2023
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/
   title: '(Don''t) Let it Snow: Students Express Concerns Over Driving Conditions As Temperatures Fall, The Cornell Daily Sun, Nov. 21, 2022'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/node/273202
   title: University cited for best practices in transportation, Cornell Chronicle, July 2, 2009
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://news.cornell.edu/node/278473
   title: Cornell has parking options to handle the overflow, Cornell Chronicle, Oct. 30, 1998
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation
   title: Parking and Transportation, Cornell Family Resource Hub, Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
   title: Important Loading and Parking Information (move-out), Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornell.edu/visit/parking/
   title: Visitor Parking Information, Cornell University
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/academic-calendar
   title: Academic Calendar, Cornell University Registrar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328
   title: City of Ithaca Announces Updated Parking Rates, City of Ithaca, Dec. 18, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/705/Parking-Information
   title: Parking Information, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/727/Parking-Regulations-Violations
   title: Parking Regulations and Violations, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: Residential Parking Permit Issuance, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/711/Residential-Parking-Permits
   title: Residential Parking Permits, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/718/Dryden-Road-Garage
   title: Dryden Road Garage, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/716/Green-Street-Garage
   title: Green Street Garage, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://nysenate.gov/legislation/laws/VAT/1640-E*2
   title: New York Vehicle and Traffic Law Section 1640-E, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://assembly.cornell.edu/sites/default/files/oddeventaskforceinitialreport70314.pdf
   title: Odd/Even Parking Task Force report, City of Ithaca, May 2014 (updated July 3, 2014)
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2025/11/free-saturday-parking-in-ithaca-poised-to-end/
   title: Free Saturday parking in Ithaca poised to end, The Ithaca Voice, Nov. 11, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2026/05/seneca-street-parking-garage-closed-for-good-officials-weigh-next-steps/
   title: Seneca Street Parking Garage closed for good, officials weigh next steps, The Ithaca Voice, May 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/09/05/ithaca-advances-seneca-street-garage-redevelopment-public-safety-facility-alternatives-amid-budget-pressure/
   title: Ithaca advances Seneca Street Garage redevelopment, FingerLakes1, Sept. 5, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/
   title: Ithaca and TCAT will move downtown bus stops Nov. 9, FingerLakes1, Nov. 3, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/
   title: Common Council approves 2027 budget, city will remain below tax cap, The Ithaca Voice, Nov. 5, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Cars parked along College Avenue in Collegetown, Ithaca, with apartment buildings above the storefronts
@@ -186,7 +183,7 @@ The stakes are real money. A permit for a car parked near your dorm is $752.98 a
 | Outer Tier A and E permits | Cornell | Outer Tier lots; E requires work in its zone | Graduate students on a full assistantship who do not live in university housing | $0 | Checked in Workday |
 | ParkMobile hourly and daily lots | Cornell | 31 zones across campus (second table) | Anyone with a registered plate | $0.75 to $3.00 an hour; $3.00 to $24.00 a day | $0.45 fee per transaction |
 | Weekend visitor parking | Cornell | Toboggan Lodge, Forest Home Drive garage, Hoy Road garage | Visitors | Free on weekends | Watch for restricted spaces |
-| Winter overnight areas | Cornell | Nine named lots and garages | Any registered vehicle | No price listed | 5 p.m. to 7:30 a.m., Dec. 1 to April 1, when snow is forecast |
+| Winter overnight areas | Cornell | Nine named lots and garages | Any registered vehicle | On request | 5 p.m. to 7:30 a.m., Dec. 1 to April 1, when snow is forecast |
 | C2C rider parking | Cornell | B Lot | Campus-to-Campus bus passengers | Free with a reservation form | Temporary parking up to 14 days at a time |
 | On-street pay zones | City | Downtown and Collegetown streets | Anyone | $2.50 an hour | Paid 9 a.m. to 6 p.m., Monday to Saturday |
 | Coin-only meters | City | Streets farther from downtown | Anyone | $1.50 an hour | Coins only |
@@ -236,7 +233,7 @@ Sources: [Cornell parking permits](https://fcs.cornell.edu/departments/transport
 
 Source: [Cornell parking map, August 2026](https://fcs.cornell.edu/sites/default/files/2026-08/ParkmobileMap26.pdf). Each ParkMobile transaction adds a $0.45 fee (Cornell short-term parking). The map tells drivers to confirm rates in the ParkMobile app.
 
-Cornell calls its pay-by-the-day spaces at the edges of campus Daily Decision parking, and it prices every lot by demand. Edge lots cost $3.00 a day. Central lots such as Willard Straight Hall and Alumni Field cost eight times as much (Cornell short-term parking). An older Cornell page still prices Daily Decision from $1 a day ([Cornell commuter services](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/getting-around/commuter-support-services)). The August 2026 map shows no daily rate that low, so go by the map and check the app.
+Cornell calls its pay-by-the-day spaces at the edges of campus Daily Decision parking, and it prices every lot by demand. Edge lots cost $3.00 a day. Central lots such as Willard Straight Hall and Alumni Field cost eight times as much (Cornell short-term parking). Rates can change during the year, so check the ParkMobile app before you park.
 
 <!-- ad-break -->
 
@@ -254,7 +251,7 @@ Enforcement got tougher too. On Sept. 1, 2023, Cornell raised its fines for the 
 
 Start with your plate, not your permit. Cornell requires every student to register a car, motorcycle or scooter with Transportation Services, even to use short-term parking ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus)). You register, buy permits and pay tickets at MyParking.Cornell.edu with your NetID, Cornell's login.
 
-Then ask whether you need the car at all. For a full walk-through of owning a car as a student, see [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/).
+Then ask whether you need the car at all. The quiz below weighs it against buses and shared cars, and the [full-cost calculator](/tools/should-i-bring-a-car-cornell-ithaca-cost/) prices a year of owning one.
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 
@@ -264,7 +261,7 @@ Cornell discourages first-years from bringing a car, but it does not ban them, a
 
 ## August: the permit sale and move-in
 
-Permits go on sale once a year, first come, first served. Sales run at myparking.cornell.edu, and annual permits are valid through Aug. 15 ([Cornell parking permits](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). The 2026-27 sale opened on Tuesday, Aug. 4, 2026, at 9 a.m., for permits valid from Aug. 16, 2026 ([Cornell permit sale notice](https://fcs.cornell.edu/node/17809)). Cornell has not posted the 2027-28 sale date, so watch Cornell's announcements in July.
+Permits go on sale once a year, first come, first served. Sales run at myparking.cornell.edu, and annual permits are valid through Aug. 15 ([Cornell parking permits](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). The 2026-27 sale opened on Tuesday, Aug. 4, 2026, at 9 a.m., for permits valid from Aug. 16, 2026 ([Cornell permit sale notice](https://fcs.cornell.edu/node/17809)).
 
 That end date grew out of a 2023 crunch. That year, old permits ran to Aug. 31 while new ones went on sale in early August. For a few weeks more permits were out than there were spaces. Brady told the Sun the crowding at Williams Street came from holders of old permits still parking there. She said a move to virtual permits, which use your license plate instead of a hangtag, would end the overlap (Cornell Daily Sun). Annual permits now end Aug. 15, the day before the new ones start (Cornell parking permits).
 
@@ -408,7 +405,7 @@ Fall finals end Dec. 19, 2026, and spring classes start Jan. 25, 2027. That is a
 
 On campus, students in university housing can leave a car in their permit area over break (Cornell winter rules).
 
-City streets are the danger. A city rule requires every car on the street to move at least once every 24 hours, Monday through Friday. The city treats a car that has not moved in 72 hours as abandoned and can tow it at the owner's cost. City garages are not a fix either. The Dryden Road and Green Street garages also require a move every 24 hours, and the city says its garages offer no long-term parking. For long stays, the city points drivers to Premium Parking on Cayuga Street, across from the Hotel Ithaca, at (607) 256-7275 (City parking rules). Cornell's own winter page warns that a car left on a city street over break can be ticketed, towed and impounded (Cornell winter rules).
+City streets are the danger. A city rule requires every car on the street to move at least once every 24 hours, Monday through Friday. The city treats a car that has not moved in 72 hours as abandoned and can tow it at the owner's cost. City garages are not a fix either. The Dryden Road and Green Street garages also require a move every 24 hours, and the city says its garages offer no long-term parking. For long stays, the city points drivers to Premium Parking on Cayuga Street, across from the Hotel Ithaca, at (607) 256-7275 (City parking rules), the operator its [rate notice](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328) names for the Cayuga Street Garage. Cornell's own winter page warns that a car left on a city street over break can be ticketed, towed and impounded (Cornell winter rules). Our guide to [where to leave a car over break](/cornell/getting-around/storing-a-car-ithaca-summer-winter-break-cornell/) compares every option, with costs.
 
 C2C riders have one more choice. Passengers on Cornell's Campus-to-Campus bus to New York can buy temporary B Lot parking for up to 14 days at a time. They can also park for free by filling out the B Lot reservation form (C2C FAQ). Cornell's announcements page says the same free parking works by emailing c2cbus@cornell.edu with your plate number, a rule in effect since Oct. 10, 2024 (Cornell Transportation announcements).
 
@@ -428,7 +425,7 @@ The two systems fine differently. On campus, the most common ticket, for parking
 
 Unpaid city tickets grow teeth. After 20 days the city adds the late penalty. Unanswered tickets can lead the city to certify you to the state as a scofflaw, which blocks registration renewal. More than five unpaid tickets can get a car impounded (City parking rules).
 
-City fines are set to rise. In the 2027 budget it passed in November 2026, the Common Council plans to raise or add fines for many common parking violations. Officials expect about $381,000 more a year from the change. City Manager Dominick Recckio called it a modernization of parking enforcement ([The Ithaca Voice, Nov. 2026](https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/)). The new amounts and start date are not yet published, so check the city's fine schedule before you rely on any amount.
+City fines are set to rise. In the 2027 budget it passed in November 2026, the Common Council plans to raise or add fines for many common parking violations. Officials expect about $381,000 more a year from the change. City Manager Dominick Recckio called it a modernization of parking enforcement ([The Ithaca Voice, Nov. 2026](https://ithacavoice.org/2026/11/common-council-approves-2027-budget-city-will-remain-below-tax-cap/)).
 
 ## What a year of parking costs
 
@@ -473,7 +470,7 @@ rows:
   - {label: "Spring final exams end", date: "May 22, 2027"}
   - {label: "Commencement weekend", date: "May 28 to 30, 2027"}
   - {label: "City residential permits expire", date: "July 31, 2027"}
-  - {label: "2027-28 Cornell permit sale; date not yet posted", date: "Not yet posted"}
+  - {label: "2027-28 Cornell permit sale", date: "Not yet announced"}
   - {label: "2026-27 Cornell permits expire", date: "Aug. 15, 2027"}
 ```
 
@@ -503,7 +500,6 @@ For more on keeping a car through the year, see the [car-on-campus starting page
 - [Short-Term Parking Options](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options), Cornell Transportation and Delivery Services
 - [Cornell University Short-Term Parking Options map](https://fcs.cornell.edu/sites/default/files/2026-08/ParkmobileMap26.pdf), Cornell Transportation, August 2026
 - [Winter and Break Parking Rules](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules), Cornell Transportation and Delivery Services
-- [Commuter Support Services](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/getting-around/commuter-support-services), Cornell Transportation and Delivery Services
 - [Transportation and Delivery Services announcements](https://fcs.cornell.edu/departments/transportation-delivery-services/tds-announcements), Cornell
 - [C2C Frequently Asked Questions](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions), Cornell Transportation and Delivery Services
 - [Bus Services, Privileges and Passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes), Cornell Transportation and Delivery Services

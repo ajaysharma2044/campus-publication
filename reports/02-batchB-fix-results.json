@@ -1,0 +1,73 @@
+[
+ {
+  "slug": "getting-around-ithaca-cornell-grad-students",
+  "file": "content/articles/getting-around/getting-around-ithaca-cornell-grad-students.md",
+  "fix": {
+   "changed": true,
+   "what": "I re-fetched the student parking page (https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) today. Its Restrictions and Graduate Students on Assistantships sections support all three disputed claims, so each one now cites that page and nothing was cut. (1) Faculty/staff permit FAQ: I replaced the payment sentence with one citing the student parking page. That page says credit card, check and bursar are the accepted payment methods for fee permits, and that student employees are not eligible for payroll installments. (2) Graduate housing FAQ: the R (North Campus) / WE (West Campus) claim now cites the student parking page, which says \"Resident students may purchase a faculty/staff R (North Campus) or WE (West Campus) permit\". The $359.77 price still cites the employee fee schedule. (3) Line 199: I rewrote the sentence to match the page's wording. Grad students funded by assistantships (TA, RA, GA, GRA) are eligible to buy the same permits as faculty and staff, and the page requires a full assistantship for faculty/staff permit eligibility. I set the student parking source's accessed date to 2026-11-11. updated was already 2026-11-11. The title, slug, dek, glance, reader and images blocks are unchanged.",
+   "sources_added": [],
+   "gaps": [],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "No new URLs. The student parking page was already in the sources list, and the edits only add new links to it in the body. The skeptic only checked permit_fees for the payment and R/WE claims, but the student parking page states both explicitly. File: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-ithaca-cornell-grad-students.md"
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students",
+    "https://fcs.cornell.edu/permit_fees"
+   ]
+  }
+ },
+ {
+  "slug": "staying-in-ithaca-over-cornell-breaks",
+  "file": "content/articles/getting-around/staying-in-ithaca-over-cornell-breaks.md",
+  "fix": {
+   "changed": true,
+   "what": "Edited /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/staying-in-ithaca-over-cornell-breaks.md in place.\n\n(1) Mail dates. I fetched the Student Service Centers page that the closing notice links to (https://scl.cornell.edu/residential-life/student-service-centers) and the pages it links to. None of them has winter dates, and the guessed winter-mail URLs returned 404. Today's fetch of the Winter Break Housing page, which is already in sources and dated 2026-11-11, does have the dates under \"Mail and Packages\". It says Service Centers accept mail and packages through the end of the semester, the last delivery day is December 23, and carriers resume on January 7. So the mail dates are sourced after all. I relabeled the two timeline rows \"Last campus mail and package delivery (winter break housing page)\" (Dec. 23, 2026) and \"Campus mail deliveries resume (winter break housing page)\" (Jan. 7, 2027). The mail sentence now links the winter break housing page inline. I also rewrote the \"Dates come from\" sentence to say which source covers which dates: term and break dates from the registrar, housing and closing times from the closing notice and housing page, dining dates from Cornell Dining, and mail dates from the linked housing page.\n\n(2) Spring start. The timeline row now reads \"Spring term begins Jan. 25 (registrar); classes start Tuesday, Jan. 26 (closing notice)\" with the date \"Jan. 25 and 26, 2027\". The paragraph below it explains the difference: the registrar lists Jan. 25 as the day spring term begins, and the closing notice says classes begin Tuesday, Jan. 26. I checked both dates against today's fetches.\n\nI also re-fetched the registrar calendar and Cornell Dining winter break page, confirmed the dates the page uses (including Dec. 7, Oct. 1, Thanksgiving Nov. 25 to 29 and the Dec. 25 to Jan. 1 shutdown), and changed their accessed dates to 2026-11-11. updated was already 2026-11-11. The title, slug, dek, meta, glance, reader blocks and images are unchanged.",
+   "sources_added": [],
+   "gaps": [],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "I added no new source URL. The reviewer said the mail dates sit only on the Service Centers page, but that is wrong: they are on the Winter Break Housing page, which is already a source. I did not add the Service Centers page because it has no winter mail dates to cite. The lint script printed \"0 banned-phrase match(es)\" and grep counted 0 em dashes."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "winter-break-housing: mail 'last delivery day on December 23' and 'will resume on January 7' (Mail and packages section), $125/$500, Oct 1 to Dec 1, ten open buildings, eligibility, flex spaces",
+    "winter-closing-notice: closes Sunday Dec 20 2026 2:00 PM, Dec 20 to Jan 19, reopen Jan 19 9:00 AM, 'before classes begin on Tuesday, January 26', $60/hour, Dec 7 late-departure request via portal, inspections, meal plan ends with brunch Dec 20; it has no Dec 23/Jan 7 mail dates and points to the Service Centers page",
+    "registrar: Thanksgiving break Nov 25-29, spring term begins Jan 25 2027",
+    "Cornell Dining winter break: BRB through Dec 24, closed Dec 25 to Jan 1, Jan 4 to Jan 19 BRB, City Bucks, spring lunch Jan 19",
+    "lint 0 matches, em dash count 0, all external body URLs are in frontmatter sources"
+   ]
+  }
+ },
+ {
+  "slug": "cornell-break-travel-timeline-2026-27",
+  "file": "content/tools/cornell-break-travel-timeline-2026-27/tool.md",
+  "fix": {
+   "changed": true,
+   "what": "Problem 1 (line 107): reworded to \"The North Campus move-in days are 2026 dates, weekday-matched.\" so it no longer describes what the source leaves out. Problem 2 (meta): the old meta promised \"every 2026-27 Cornell travel, parking and housing deadline\". It now reads \"...get the 2026-27 Cornell travel, parking and housing deadlines published so far, dated.\" Problem 3 (summer promise): I took the remove route and did not fetch the Cornell summer housing page. In tool.md I removed the summer-in-ithaca reader tag and changed the intro audience line to \"Thanksgiving or winter break\". The input bullet on line 54 now reads \"Staying over Thanksgiving or winter break?\". I also removed the TCAT heat-cutback table row and its Cornell Sun source, because the tool no longer shows that row. In tool.html I removed the Summer 2027 checkbox and the June \"Heat can cut TCAT service\" row, which only appeared when summer was ticked. I removed the \"So your summer is covered\" clause and the sum entry from the state object and the listener list. The Mid-April SA charter row, which used to show only when summer was unticked, now always shows. The summer storage row stays because it is move-out storage. The \"not yet published\" lines (106, 116) are unchanged. updated was already 2026-11-11. The inline script passes a node --check syntax check, but I did not render the page or run the tool in a browser. Files: /Users/ajaysharma/Ads/campus-publication/content/tools/cornell-break-travel-timeline-2026-27/tool.md and /Users/ajaysharma/Ads/campus-publication/content/tools/cornell-break-travel-timeline-2026-27/tool.html.",
+   "sources_added": [],
+   "gaps": [
+    {
+     "item": "Summer 2027 stay option (checkbox, reader tag, summer promise in intro and inputs)",
+     "tried": "I chose to remove it, as the task allows. I did not fetch Cornell Housing's summer page, so no summer housing dates were added.",
+     "outcome": "Removed the summer promise from tool.md and tool.html; removed the TCAT June 2025 heat-cutback row and its source, since that row was only shown to summer stayers"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "lint-content printed 0 banned-phrase matches. The em dash grep printed 0 for both tool.md and tool.html."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "tool.md line 63 (table row \"North Campus move-in days\") still reads \"(year inferred from weekdays)\". It says the source does not state the year, which is the same kind of statement problem 1 asked to remove. The writer fixed only line 105. Fix: drop the parenthetical, since the Applies-to column already says Fall 2026.\n\nMild, optional: several table rows (lines 66, 69, 72, 73, 78, 80, 83, 89, 95, 100) use \"Undated\" or \"page undated\" in the date column. These describe what a source lacks. The writer did not touch them and the task did not name them.\n\nEverything else checks out.\n- (1) The lint prints 0 matches. The em dash count is 0 in tool.md and in tool.html.\n- (2) Cornell's North Campus move-in page lists Mon Aug 17, Tue Aug 18 and Fri Aug 21 to Sat Aug 22. It says the Move-In Ticket is available after August 1.\n- (3) The meta is now \"published so far\", so it no longer overpromises.\n- (3) The Summer 2027 checkbox, the TCAT June row, the summer-in-ithaca reader tag and the summer promise are removed from tool.md and tool.html. Only the summer storage row remains, and it is move-out storage.\n- (4) Every URL in the body sits in the frontmatter sources.\n- (4) The inline script passes node --check.\n- (5) I found nothing invented in the changes.",
+   "checked_sources": [
+    "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus"
+   ]
+  }
+ }
+]

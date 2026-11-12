@@ -34,8 +34,8 @@ sources:
 - url: https://admissions.cornell.edu/apply/transfer-applicants
   title: Transfer Applicants, Cornell Undergraduate Admissions
   accessed: '2026-11-11'
-- url: https://www.cs.cornell.edu/node/17
-  title: Computer Science undergraduate admissions, Cornell CS
+- url: https://www.cs.cornell.edu/undergrad/csmajor/transfercredits
+  title: Transfer Credits, Cornell Department of Computer Science
   accessed: '2026-11-11'
 - url: https://as.cornell.edu/admissions/admissions-requirements-and-process
   title: Admissions Requirements and Process, Cornell Arts and Sciences
@@ -103,7 +103,7 @@ sources:
 - url: https://faq.enrollment.cornell.edu/kb/article/332-as-a-transfer-student-will-i-automatically-receive-ap-ib-or-a-level-examinations-credit-if-it-was-accepted-at-my-previous-institution/
   title: As a transfer student, will I automatically receive AP, IB or A-Level examinations credit? Cornell Enrollment FAQ
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://faq.enrollment.cornell.edu/kb/article/330-when-should-i-apply-to-cornell-as-a-transfer/
@@ -145,7 +145,7 @@ images:
 - Engineering tuition is $73,946 for 2026-27 for everyone, New York residents included.
 ```
 
-Cornell Engineering reviews a transfer application only if four courses are completed, in progress or planned: MATH 1910, MATH 1920, PHYS 1112 with PHYS 1110, and CHEM 2090 with CHEM 2091, per the [Duffield requirements page](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). The deadline is March 15, 2027, the page states no GPA minimum, and up to 66 credits can transfer. Computer science comes through that Engineering degree or through the [Arts and Sciences B.A.](https://www.cs.cornell.edu/node/17)
+Cornell Engineering reviews a transfer application only if four courses are completed, in progress or planned: MATH 1910, MATH 1920, PHYS 1112 with PHYS 1110, and CHEM 2090 with CHEM 2091, per the [Duffield requirements page](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). The deadline is March 15, 2027, the page states no GPA minimum, and up to 66 credits can transfer. Computer science comes through that Engineering degree or through the [Arts and Sciences B.A.](https://www.cs.cornell.edu/undergrad/csmajor/transfercredits)
 
 ```reader "If you're applying to Engineering or CS"
 Line up the four courses first: MATH 1910 and 1920, PHYS 1112 with the 1110 lab, CHEM 2090 with the 2091 lab. [Missing one means no review](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements). Apply in the spring term of your current school, by March 15, 2027. Pick your major with care: you enter it directly and [must keep it at least one academic year](https://faq.enrollment.cornell.edu/kb/article/150-as-a-transfer-student-does-it-matter-which-engineering-major-i-apply-to/). Programming (CS 1110 or 1112) sits in individual major lists, such as Computer Science, not in the four-course block. Keep a detailed syllabus for every course. The costly mistake: counting on an AP 4 in Calculus BC, Chemistry or Physics C Mechanics. Only a 5 earns credit.
@@ -202,7 +202,7 @@ Cornell takes transfers who have finished [two to four semesters](https://faq.en
 
 ## Computer science: two routes
 
-CS majors come in through Engineering's B.S., admitted straight into the major, or through Arts and Sciences' B.A., where you request CS. The CS department [reviews CS transfer credit](https://www.cs.cornell.edu/node/17) itself. The demand is real: computer and information sciences made up 18.80% of Cornell degrees awarded in 2024-25, the largest field in the [Common Data Set](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf).
+CS majors come in through Engineering's B.S., admitted straight into the major, or through Arts and Sciences' B.A., where you request CS. The CS department [reviews CS transfer credit](https://www.cs.cornell.edu/undergrad/csmajor/transfercredits) itself. The demand is real: computer and information sciences made up 18.80% of Cornell degrees awarded in 2024-25, the largest field in the [Common Data Set](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf).
 
 | | Engineering B.S. | Arts and Sciences B.A. |
 |---|---|---|
@@ -270,7 +270,7 @@ rows:
   - label: "Last day of first-semester classes: written exam-credit request"
 ```
 
-The [admissions page](https://admissions.cornell.edu/apply/transfer-applicants) sets March 15 for the application, fee and portfolio. The College Report, Academic Evaluation, transcripts and Mid-Term Report are due April 15. Decisions roll from late April through June. Engineering admits then file a course description form with the Enrollment Response Form. In 2024, Engineering began emailing admitted transfers [from early June](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links). Apply for housing [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process).
+The [admissions page](https://admissions.cornell.edu/apply/transfer-applicants) sets March 15 for the application, fee and portfolio. The College Report, Academic Evaluation, transcripts and Mid-Term Report are due April 15. Decisions roll from late April through June. Engineering admits then file a course description form with the Enrollment Response Form. In 2024, Engineering began emailing admitted transfers [from early June](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links). Apply for housing [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process).
 
 ```tool cornell-transfer-timeline```
 
@@ -288,7 +288,7 @@ rows:
   - {label: "Fall classes begin", date: "Mon Aug 24, 2026"}
 ```
 
-Expect to build your schedule during add/drop, because registrars finish evaluations only after final transcripts arrive. In a [2023 Sun story](https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/), spring transfers worried about classes already full from current students' pre-enrollment. One, Abbey Yang '25, said her advisor told her biology credits should count, but her degree audit did not yet show them. Keep your syllabi until the audit is right.
+Expect to build your schedule during add/drop, because registrars finish evaluations only after final transcripts arrive. In a [2023 Sun story](https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/), spring transfers found classes already closed after current students' pre-enrollment; Waleed Chouai said most of the classes he was looking at were closed during add/drop. Abbey Yang '25 said her advisor told her she should be fine with the biology she had taken, but her degree audit did not yet show it. Keep your syllabi until the audit is right.
 
 ## Graduation rules that apply to transfers
 

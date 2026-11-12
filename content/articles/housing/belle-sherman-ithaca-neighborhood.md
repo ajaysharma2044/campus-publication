@@ -19,7 +19,7 @@ subject: Residential street in the Belle Sherman neighborhood, Ithaca
 tools:
 - ithaca-rent-commute-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.ithaca.com/special_sections/newcomers_guide/ithaca-s-neighborhoods-have-subtly-distinctive-personalities/article_7186dd20-23c0-11ed-a9b6-1798d19eb7a1.html
@@ -66,7 +66,7 @@ images: []
 - In the Town of Ithaca, more than two unrelated people need a zoning finding to share a house.
 ```
 
-Belle Sherman is a quieter residential area east of Collegetown, near East Hill Plaza and Judd Falls Plaza. Cornell puts it 1 to 2 miles from campus ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). Some of it lies in the Town of Ithaca, where different zoning and permit rules apply than in the City.
+Belle Sherman is a quieter residential area east of Collegetown, near East Hill Plaza and Judd Falls Plaza. Cornell puts it 1 to 2 miles from campus ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). Some of it lies in the Town of Ithaca, where different zoning and permit rules apply than in the City.
 
 ## How far is Belle Sherman from campus?
 

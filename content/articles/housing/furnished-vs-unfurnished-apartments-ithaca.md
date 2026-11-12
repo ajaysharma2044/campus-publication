@@ -70,10 +70,10 @@ sources:
 - url: https://www.boltstorage.com/self-storage/freeville-ny
   title: Bolt Storage, Freeville
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
   title: Signing a Lease, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://ithacarenting.com/property-details/?pid=18
@@ -87,8 +87,8 @@ sources:
   accessed: '2026-11-10'
 images:
 - file: 1.webp
-  alt: College Park Apartments in Ithaca, a modern complex with a glass skybridge and a stone amphitheater
-  caption: College Park Apartments in Ithaca. Furnished apartments usually cost little more per month than unfurnished ones; the real saving is avoiding a summer of storage.
+  alt: A student apartment complex in Ithaca, with a skybridge between two buildings.
+  caption: A student apartment complex in Ithaca, with a skybridge between two buildings. Furnished apartments usually cost little more per month than unfurnished ones; the real saving is avoiding a summer of storage.
   credit: 颐园居 / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_in_Ithaca,_NY_20240526.jpg
   author: 颐园居
@@ -154,7 +154,7 @@ Furnished does not mean pricier per bed. The [Prospect St house](https://www.ppm
 
 ## What does unfurnished cost you at the end of the lease?
 
-Storage, or a trip home. Cornell residence halls do not offer storage, per the [2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028), so the storage market is private. Four options, each with a posted price:
+Storage, or a trip home. Cornell residence halls do not offer storage, per the [2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028), so the storage market is private. Four options, each with a posted price:
 
 | Service | Price | Term |
 |---|---|---|
@@ -185,7 +185,7 @@ Ask also what is not on the list, and budget for bedding and kitchen items in ei
 
 Match the decision to your stay.
 
-**Choose furnished** if the lease is 12 months or less, you are moving a long way, or you will sublet in summer. Confirm in writing which items are included. Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) tells renters to find the extra costs, including furnishings, and the [checklists page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations) says to send the landlord an inventory and photos after move-in.
+**Choose furnished** if the lease is 12 months or less, you are moving a long way, or you will sublet in summer. Confirm in writing which items are included. Cornell's [lease checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease) tells renters to find the extra costs, including furnishings, and the [checklists page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations) says to send the landlord an inventory and photos after move-in.
 
 **Choose unfurnished** if you will stay two or more years, already own furniture, and live near enough to move it yourself. A unit like Summerhill's, with a washer and dryer in each, suits that plan.
 

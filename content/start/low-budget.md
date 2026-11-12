@@ -32,7 +32,7 @@ You pay your own way or rely on aid, and every $10 matters: an upper-year underg
 - Oct 1 to Dec 1: winter break housing applications, if you decide to stay.
 - About two weeks before each break: the booking window Wanderu claims is cheapest.
 - Thanksgiving week, Nov 23 to 27, 2026: when the lowest advertised bus fares ran 28% to 38% above earlier November days in a Nov 8 sample; OurBus names the Wednesday before Thanksgiving a peak day.
-- December finals: the Student Assembly has funded free airport charters in past finals weeks; none found for fall 2026 as of Nov 8.
+- December finals: the Student Assembly has funded free airport charters in past finals weeks.
 - January: Wanderu showed Ithaca to NYC fares averaging about $41, against about $66 in November.
 - Mar 31: last day for an OmniRide refund, if you bought one and ride less than you planned.
 
@@ -41,7 +41,7 @@ You pay your own way or rely on aid, and every $10 matters: an upper-year underg
 1. [Off-campus housing at Cornell: the 2026-27 guide](/housing/cornell-off-campus-housing-guide/). The pillar: who may rent, what it costs, when to sign and your rights as a tenant. Read it first, for the whole picture.
 2. [The cheapest ways to live off campus at Cornell](/housing/cheapest-off-campus-housing-cornell/). Your guide: the lowest-cost beds, what aid covers and the costs that sneak in. Read it before you tour anything.
 3. [Is off-campus housing cheaper than a Cornell dorm?](/housing/is-off-campus-cheaper-than-cornell-dorm/). The number a lease has to beat, and which setups beat it. Read it before you cancel or skip a Cornell room.
-4. [Cornell co-ops and Greek houses: cost and how to get in](/housing/cornell-co-ops-greek-houses-cost-how-to-join/). The cheapest beds tied to Cornell and how selection works. Read it before the co-op rounds open.
+4. [Cornell co-op or Greek house instead of a dorm: how to join](/housing/cornell-co-ops-greek-houses-cost-how-to-join/). How a sophomore gets into a co-op or a chapter house, and the dates each round runs. Read it before the co-op rounds open.
 5. [What a month off campus costs at Cornell, all in](/housing/what-a-month-off-campus-costs-cornell/). Rent plus electricity, trash tags, insurance and the bus. Read it when you build your monthly budget.
 6. [Ithaca security deposit rules: the cap, 14 days, banned fees](/housing/ithaca-security-deposit-rules-tenants/). Which charges a landlord cannot ask for. Read it before you pay anything at signing.
 
@@ -75,7 +75,7 @@ You pay your own way or rely on aid, and every $10 matters: an upper-year underg
 ## Dates to watch: Transfer
 
 - October 1, 2026: FAFSA opens; file the CSS Profile as soon as possible after it.
-- March 15, 2027: CSS Profile and FAFSA due, plus HESC if you live in New York. EOP or HEOP applicants file the same forms and add one college-specific step; the EOP page lists no deadline for it.
+- March 15, 2027: CSS Profile and FAFSA due, plus HESC if you live in New York. EOP or HEOP applicants file the same forms and add one college-specific step.
 - Right after admission: the Cornell Aid Estimate; answer document requests fast so it arrives before you commit.
 - Early April 2027: official aid offers, tentatively.
 - July: the fall tuition bill.

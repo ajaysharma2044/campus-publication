@@ -1,0 +1,179 @@
+{
+ "slug": "cornell-engineering-transfer-guide",
+ "queue_id": "q-transfer-0025",
+ "verdict": "pass",
+ "fact_check": [
+  {
+   "claim": "Four required courses: MATH 1910, MATH 1920, PHYS 1112 with 1110, CHEM 2090 with 2091; planned counts; no stated GPA minimum",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief §3 Engineering rows; page matches."
+  },
+  {
+   "claim": "Application deadline March 15, 2027; $85 fee; April 15 College Report, Academic Evaluation, transcripts, Mid-Term Report",
+   "source_url": "brief §3/§4",
+   "status": "ok",
+   "note": "brief rows for the deadlines and fee."
+  },
+  {
+   "claim": "Credit: 33 per full-time year, 66 total including AP/IB/GCE/CASE, at least 60 at Cornell, C or better, C- earns nothing, about 80% match, exclusions, summer/winter/study abroad outside the 66",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief Engineering credit rows."
+  },
+  {
+   "claim": "AP 5 needed in Calculus BC, Chemistry, Physics C Mechanics; 4 earns nothing; MATH CASE Thu Aug 20, 2026, 9 to 11 a.m., Olin Hall 155, no calculators",
+   "source_url": "brief §3/§4",
+   "status": "ok",
+   "note": "brief line 319 and 764."
+  },
+  {
+   "claim": "13 Engineering majors with course lists, named",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief row lists the same 13."
+  },
+  {
+   "claim": "Admitted directly into one major, no undecided, stay at least one academic year; sophomore either semester, junior first semester; Chemical Engineering prefers sophomores; no pre-evaluation",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief rows."
+  },
+  {
+   "claim": "University-wide admitted transfers 'generally' 3.3 or better; essay, coursework, recommendations weigh most; no school-type preference; about a quarter from community colleges",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief FAQ 325 rows."
+  },
+  {
+   "claim": "7,381 applied fall 2025, 864 admitted, 11.7%",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "Recomputed 864/7381 = 11.71%."
+  },
+  {
+   "claim": "37 of 674 fall 2021 transfers entered Engineering",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief by-college row: Engineering 37, total 674."
+  },
+  {
+   "claim": "Computer and information sciences 18.80% of 2024-25 degrees",
+   "source_url": "brief §5",
+   "status": "ok",
+   "note": "brief 18.80%."
+  },
+  {
+   "claim": "A&S B.A.: 60 transfer cap, at least 60 credits and four semesters at Cornell, 120 to graduate of which 100 A&S credits; as-transfer@cornell.edu",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief rows. The A&S admissions page itself shows 100 A&S credits and the 60/four-semester minimum; cap and 120 come via the registrar page per the brief."
+  },
+  {
+   "claim": "Engineering credits to graduate 123 to 137; two PE courses and water competency for fall 2025 and later",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief lines 160 and 285."
+  },
+  {
+   "claim": "Credit-loss examples: 90 credits at 33 a year would allow 99 but cap is 66, so at least 24 lost; 64 credits stays under both caps",
+   "source_url": "our math",
+   "status": "ok",
+   "note": "Recomputed 90-66 = 24; 3x33 = 99; 64 < 66."
+  },
+  {
+   "claim": "Tuition $73,946 for 2026-27 (endowed); NY contract rate $49,816; gap $24,130",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief rows; recomputed 73,946 - 49,816 = 24,130."
+  },
+  {
+   "claim": "Cost table: fees $1,024, double $13,744, Unlimited plan $7,604, billed total $96,318; books $1,234, personal $2,182, total $99,734",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "Recomputed 73,946+1,024+13,744+7,604 = 96,318; +1,234+2,182 = 99,734."
+  },
+  {
+   "claim": "Student Health Plan $1,705 fall and $2,046 spring for a new student 2026-27",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief lines 488-490."
+  },
+  {
+   "claim": "Need-based aid, 100% of demonstrated need; families up to $125,000 tuition covered, up to $75,000 full cost; domestic need-blind; HESC code 0175; CSS code 2098",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief aid rows."
+  },
+  {
+   "claim": "International: aid deadline March 15, CSS Profile or never eligible for aid, need-aware, 14% withholding above tuition and fees",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief line 505 etc."
+  },
+  {
+   "claim": "HEOP Transfer Certification form for Engineering; fall 2027 applicants use 2025 tax documents",
+   "source_url": "brief §8",
+   "status": "ok",
+   "note": "brief line 948."
+  },
+  {
+   "claim": "Engineering orientation 2026: Aug 18 resource fair (1 to 5 p.m.), Aug 20 advising drop-in and MATH CASE, Aug 21 Welcome Lunch, classes Aug 24; transfer move-in Aug 18",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief lines 398, 401, 418."
+  },
+  {
+   "claim": "Engineering began emailing admitted transfers from early June in 2024",
+   "source_url": "brief §4",
+   "status": "ok",
+   "note": "brief 'early June' row."
+  },
+  {
+   "claim": "Housing: apply within ten days of NetID; new transfers live on campus one academic year; exempt if two years on campus elsewhere or junior",
+   "source_url": "brief §6",
+   "status": "ok",
+   "note": "brief lines 326, 346, 933."
+  },
+  {
+   "claim": "Engineering advising contact adv_engineering@cornell.edu, (607) 255-7414",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief line 165."
+  },
+  {
+   "claim": "Courses seven or more years old generally not eligible; pass/fail needs written C-or-better statement; Cornell department decides from syllabus",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief lines 281, 923."
+  },
+  {
+   "claim": "Abbey Yang '25: advisor said biology credits should count, degree audit did not yet show them; spring transfers found classes full",
+   "source_url": "https://cornellsun.com/2023/01/26/spring-transfers-start-cornell-journey-mid-year-and-prepare-for-challenges-ahead/",
+   "status": "ok",
+   "note": "Opened the Sun article: Yang '25, advisor said she'd be fine with biology classes, credit not on DUST; Waleed Chouai '25 said most classes were closed. Page wording consistent."
+  },
+  {
+   "claim": "Moving to another Cornell college only after two semesters at Cornell (A&S rule for external transfers)",
+   "source_url": "brief §3",
+   "status": "ok",
+   "note": "brief line 141."
+  }
+ ],
+ "beats_top": {
+  "query": "cornell engineering transfer requirements",
+  "top_url": "",
+  "better": "n/a",
+  "why": "v3: coverage is decided by the topic brief and plan, not a beats-#1 test",
+  "changes": []
+ },
+ "fixes": [],
+ "brief_updates": [],
+ "core_answer": "right",
+ "reviewed_at": "2026-11-11",
+ "checked_by": "scripts/v3/check.sh",
+ "lint_fixes": [
+  "source url returned 404: https://www.cs.cornell.edu/node/17"
+ ],
+ "lint_rounds": 1
+}

@@ -32,10 +32,10 @@ sources:
   accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar 2026-27, Cornell Office of the University Registrar
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining
   title: Winter break dining, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day
   title: Service changes for July 4 holiday weekend, The Cornell Daily Sun, July 2, 2025
   accessed: '2026-11-10'
@@ -91,7 +91,7 @@ Students who live in campus housing and return to it for spring can apply for [w
 
 Cornell limits winter break housing to students returning to on-campus housing for spring. The fee is flat, as above. Only two one-week options exist, the week after fall term ends and the week before spring term starts. Students not living in an open community can apply only for the full break, in Residential Flex Spaces that Cornell calls extremely limited.
 
-For 2026-27, ten buildings are open: Ganędagǫ: Hall, High Rise 5, HILC/Low Rise 8, Hu Shih, Loving House, Mews, Toni Morrison, Townhouse Apartments, Cascadilla and Veterans House (Cornell winter break housing page). Residents of those buildings can stay in their current rooms. In HILC/Low Rise 8, Loving House and Veterans House, staying costs nothing extra.
+For 2026-27, ten buildings are open: Ganędagǫ: Hall, High Rise 5, HILC/Low Rise 8, Hu Shih, Loving House, Mews, Toni Morrison, Townhouse Apartments, Cascadilla and Veterans House (Cornell winter break housing page). Residents of those buildings still apply in the Housing and Dining Portal and pay the fee.
 
 ```figure
 kind: cost_table
@@ -118,14 +118,14 @@ rows:
   - {label: "Winter break housing deadline", date: "Dec. 1, 2026"}
   - {label: "Late-departure requests due", date: "Dec. 7, 2026"}
   - {label: "Residences close at 2 p.m.; meal plans end after brunch", date: "Dec. 20, 2026"}
-  - {label: "Campus mail and packages stop", date: "Dec. 23, 2026"}
+  - {label: "Last campus mail and package delivery (winter break housing page)", date: "Dec. 23, 2026"}
   - {label: "Cornell Dining shut", date: "Dec. 25, 2026 to Jan. 1, 2027"}
-  - {label: "Campus mail resumes", date: "Jan. 7, 2027"}
+  - {label: "Campus mail deliveries resume (winter break housing page)", date: "Jan. 7, 2027"}
   - {label: "Residences reopen at 9 a.m.; meal plans resume at lunch", date: "Jan. 19, 2027"}
-  - {label: "Spring term begins", date: "Jan. 25, 2027"}
+  - {label: "Spring term begins Jan. 25 (registrar); classes start Tuesday, Jan. 26 (closing notice)", date: "Jan. 25 and 26, 2027"}
 ```
 
-Dates come from the [registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar), the closing notice and the winter break housing page. Mail has a similar gap: Service Centers accept mail through the end of the semester, and carriers pause from the last delivery on Dec. 23 until Jan. 7. Order what you need to arrive before then.
+Term and break dates come from the [registrar](https://registrar.cornell.edu/calendars-exams/academic-calendar), which lists Jan. 25 as the day spring term begins, while the closing notice says classes begin Tuesday, Jan. 26. Housing and closing times come from the closing notice and the winter break housing page, and dining dates from Cornell Dining. Mail has a similar gap: Service Centers accept mail and packages through the end of the semester, the last delivery day is Dec. 23, and carriers resume on Jan. 7 ([winter break housing page](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing)). Order what you need to arrive before then.
 
 <!-- ad-break -->
 

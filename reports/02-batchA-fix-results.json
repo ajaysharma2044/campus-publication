@@ -1,0 +1,422 @@
+[
+ {
+  "slug": "ithaca-bikeshare-cost-cornell-students",
+  "file": "content/articles/getting-around/ithaca-bikeshare-cost-cornell-students.md",
+  "fix": {
+   "changed": true,
+   "what": "Problem 1 (unsupported hub claim): I fetched ithacabikeshare.org today. It gives no hub count and does not mention Bailey Hall or Campus Road, and the map is not readable as text. \"Last updated Nov 3, 2026\" is the page's own stamp, not the map's. I cut the sentence about more than 200 hubs near Bailey Hall and along Campus Road. In its place the page now says the operator shows current hub locations on the map on its site and in the app, so check it before you ride. That sentence is sourced to ithacabikeshare.org. I also removed the dependent line from the upper-year reader block (\"Hubs now sit on central campus, so a ride to class can end in one.\"). Problem 2 (tax wording): I rewrote the pay-as-you-go bullet to say the site lists the price plus tax, and the terms of use say the 8% state and local sales tax is included in rental charges. That matches terms section 2.9, so the bullet no longer implies 8% is added on top. Problem 3 (minor): in the price-history table, the January 2023 hub cell \"no fee ($1 credit for a hub)\" now reads \"no fee (next unlock waived after a hub return)\". This matches the Sun's 2023 guide, which says the unlock fee of the next trip is waived for riders who return the bike to a hub. The frontmatter already had updated: 2026-11-11. Title, slug, glance, images and the other reader blocks are unchanged.",
+   "sources_added": [],
+   "gaps": [
+    {
+     "item": "The operator's hub map marks more than 200 hubs, including central campus hubs near Bailey Hall and along Campus Road (plus the dependent upper-year reader line about hubs on central campus)",
+     "tried": "Fetched ithacabikeshare.org today: the map is embedded and not readable as text, and the page gives no count or named campus hubs. I also checked the page's other existing sources (Sun 2023 guide, The Ithacan 2023, Better Bike Share, Ithaca Times).",
+     "outcome": "Removed both. They were replaced with a sourced line telling readers to check current hub locations on the operator's map and app."
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "File edited: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-bikeshare-cost-cornell-students.md. I used a Python replace script through Bash (bypass mode prefers Bash) instead of the Edit tool. Each replacement had to match exactly once. lint-content prints 0 matches, and the em-dash count is 0. Nothing was committed or pushed."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "https://www.ithacabikeshare.org",
+    "https://www.ithacabikeshare.org/terms",
+    "https://cornellsun.com/2023/01/24/ithaca-bikeshare-a-comprehensive-guide-to-ithacas-newest-transportation-option/",
+    "https://theithacan.org/46872/news/ithaca-bikeshare-adds-parking-hubs-and-raises-costs-of-use"
+   ]
+  }
+ },
+ {
+  "slug": "ithaca-bus-to-boston-philadelphia-dc-toronto",
+  "file": "content/articles/getting-around/ithaca-bus-to-boston-philadelphia-dc-toronto.md",
+  "fix": {
+   "changed": true,
+   "what": "Edited /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-bus-to-boston-philadelphia-dc-toronto.md in place, working through the reviewer's four problems.\n\n(1) Hilly To Philly. Cornell's travel resources page, fetched today, links its \"Cornell-Philadelphia\" entry to http://www.bus.cbtcorp.net, not to hillytophilly.com. I fetched that site. It is titled \"Cornell\u2013Philadelphia Charter Bus\" and credits Cornell Parents of Greater Philadelphia. It lists the same $75 one-way and $140 round-trip fares, the same stops and the same 2026-27 dates (Nov 24/29, Dec 18/Jan 24, Feb 12/16, Mar 26/Apr 4) as hillytophilly.com. The paragraph now says Cornell's page links the Cornell-Philadelphia Charter Bus (bus.cbtcorp.net), which is organized by Cornell Parents of Greater Philadelphia, and that the Hilly To Philly site lists the same organizers, fares and dates. The Philadelphia row in the table now reads \"Cornell-Philadelphia charter (Hilly To Philly), $75, break dates only\". I added bus.cbtcorp.net to the sources list.\n\n(2) Megabus to Toronto. The Megabus route guide, fetched today, says \"Up to 2 services per day\" and gives 9:45 AM as both the earliest and the latest departure. The table now reads \"Megabus up to 2 a day, 9:45 a.m. listed\". The body now reads \"up to 2 trips a day, with a 9:45 a.m. departure\". I checked the stops (131 East Green St to 81 Bay St) and the fastest time (7 h 20 min) on the same page, and both match.\n\n(3) Toronto FlixBus, Nov 19. I re-fetched the CheckMyBus Toronto page and read the raw calendar markup. The cell for 2026-11-19 (Thursday) shows $32 marked as a best price. Nov 16 and Nov 17 are also $32, so Nov 19 stays.\n\n(4) Minor point on the $32 to $45 range. The same calendar shows lows from $32 to $45 between Nov 12 and Dec 4. Thanksgiving week, Nov 23 to 27, runs $38 to $45 ($41, $42, $45, $38, $45). The page's ranges hold, so nothing changed.\n\nupdated was already 2026-11-11 in the frontmatter. The title, slug, glance block, reader blocks and images were not touched.",
+   "sources_added": [
+    "http://www.bus.cbtcorp.net/"
+   ],
+   "gaps": [],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The lint script reports 0 matches and the em-dash count is 0. The pages fetched today are saved in /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/f: cu.html, cbt.html, h.html, mb.html and cmb.html. The CheckMyBus calendar also shows $32 on Dec 3 and Dec 4. The page doesn't list those dates, but it doesn't claim the $32 dates are the only ones either, so I left it alone. Nothing was committed or pushed."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none blocking. One optional nit: the Toronto paragraph and the table list the $32 dates as Mon Nov 16, Tue Nov 17 and Thu Nov 19. The CheckMyBus calendar also shows $32 on Thu Dec 3 and Fri Dec 4, so the list is incomplete for the Nov 12 to Dec 4 sample. That does not make any stated fact wrong.\n\nChecks:\n1. The lint script prints 0 matches. `grep -c \"\u2014\"` prints 0.\n2. I read the whole page. No sentence says what the sources lack or could not confirm. Every glance line, heading and FAQ question is answered in the body.\n3. Reviewer problems:\n   - Hilly To Philly: the Cornell travel resources page links its \"Cornell-Philadelphia\" entry to http://www.bus.cbtcorp.net. bus.cbtcorp.net reads \"A collaborative effort of Cornell Parents of Greater Philadelphia\". It lists $75 one-way and $140 round-trip, the same stops, and the same dates (Nov 24/29, Dec 18/Jan 24, Feb 12/16, Mar 26/Apr 4). hillytophilly.com carries the same fares and stops.\n   - Megabus: the route guide says \"Departures Up to 2 services per day\", and 9:45 AM is both the earliest and latest departure. It lists 131 East Green Street to 81 Bay St and a 7 hours 20 minutes fastest time. The page text matches.\n   - $32 on Nov 19: the CheckMyBus calendar shows data-day 2026-11-19 at $32 with the best-price class. Nov 16 and Nov 17 are also $32.\n   - Thanksgiving week, Nov 23 to 27: the calendar shows $41, $42, $45, $38, $45, so the stated $38 to $45 holds. Across the sample the range is $32 to $45.\n4. Every body URL is in the frontmatter sources, including http://www.bus.cbtcorp.net/ and hillytophilly.com.\n5. I found nothing invented. The claims about Cornell Parents of Greater Philadelphia and the charter stay within what the two charter sites say.",
+   "checked_sources": [
+    "fcs.cornell.edu travel resources",
+    "bus.cbtcorp.net",
+    "hillytophilly.com",
+    "ca.megabus.com route guide",
+    "checkmybus.com/ithaca-ny/toronto-on"
+   ]
+  }
+ },
+ {
+  "slug": "ithaca-to-jfk-lga-newark-airport-bus",
+  "file": "content/articles/getting-around/ithaca-to-jfk-lga-newark-airport-bus.md",
+  "fix": {
+   "changed": true,
+   "what": "Problem 1 (line 156, Cornell Sun 2024 quote): I removed the airport from the sentence. It now reads \"Before booking a dawn flight, plan the ride first: in 2024 the Student Assembly president said there was \"literally no transportation available\" for 5:30 a.m. flights.\" The article, fetched today, does not tie the quote to one airport, so neither does the sentence.\n\nProblem 2 (line 246, JFK times): I fetched jfkairport.com/transportation/public-transport again today. Its FAQ is in the page HTML (JSON-LD and the accordion data) and gives every figure on the page: E train about 50 min from Penn Station and 55 min from Grand Central Madison, A train about 60 min from below 14th Street, and LIRR about 30 min. The summarizer the reviewer used had missed this collapsed FAQ. The sentence stays, now worded \"The FAQ on the Port Authority's JFK transit page gives typical times\" so a reader can find the figures.\n\nProblem 3 (line 248, Sutphin and Jamaica): I moved the citation to the MTA JFK guide (mta.info/guides/airports/jfk), which is already a source accessed 2026-11-11. Fetched today, it says \"Take a Jamaica Center-bound train to Sutphin Blvd-Archer Av-JFK Airport\", then \"Transfer to the AirTrain at Jamaica Station\".\n\nProblem 4 (lines 235 and 248, FlixBus at Jamaica): FlixBus's own route page (global.flixbus.com/bus-routes/bus-ithaca-ny-new-york-ny), fetched today, lists Queens Jamaica (144th Pl/Archer Ave), 91-91 144th Pl, curbside on the east side of 144th Place. Line 235 now says the Jamaica stop is among the 13 Greyhound stops and that FlixBus's route page also lists it. Line 248 now reads \"The Jamaica stop, listed by both Greyhound and FlixBus, is curbside on 144th Place, just off Archer Avenue\", with each operator linked to its own page. I set that FlixBus source's accessed date to 2026-11-11.\n\nupdated is still 2026-11-11. Title, slug, glance, reader-block structure and images are unchanged.",
+   "sources_added": [],
+   "gaps": [],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "No new URLs were needed. Every citation is to a source already in the list: the MTA JFK guide was accessed 2026-11-11 already, and the FlixBus route page's accessed date is now 2026-11-11. curl got 403 from mta.info, so I read the MTA page with WebFetch. The Greyhound route page now shows \"from $47.98\", but the page's dated \"from $43.98 on Nov 8\" was out of scope, so I left it and its accessed date of 2026-11-08 unchanged. Edited file: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-to-jfk-lga-newark-airport-bus.md"
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "jfkairport.com/transportation/public-transport (JSON-LD FAQ: E train ~50 min Penn, ~55 min Grand Central Madison, A train ~60 min below 14th St, LIRR ~30 min)",
+    "cornellsun.com 2024/05 student-assembly article (quote 'For those 5:30 a.m. flights, there's literally no transportation available' by Kuehl, no airport named in the quote)",
+    "global.flixbus.com Ithaca-NY route page (Queens Jamaica 144th Pl/Archer Ave, 91-91 144th Pl, curbside east side of 144th Place just off Archer Avenue)",
+    "greyhound.com Queens Jamaica stop page and Ithaca-NY route page (13 NYC-area stops, Port Authority 625 8th Ave, Jamaica stop same description)",
+    "mta.info/guides/airports/jfk via WebFetch (Take a Jamaica Center-bound train to Sutphin Blvd-Archer Av-JFK Airport; Transfer to the AirTrain at Jamaica Station; $11.75, $3 + $8.75, $14 or $16)"
+   ]
+  }
+ },
+ {
+  "slug": "syracuse-airport-to-cornell-ourbus-car-service",
+  "file": "content/articles/getting-around/syracuse-airport-to-cornell-ourbus-car-service.md",
+  "fix": {
+   "changed": true,
+   "what": "Problem 1 (daily bus count): I fetched both OurBus route pages today. The Ithaca-to-SYR page says 4 direct departures a day and the SYR-to-Ithaca page says 3, so they contradict each other. I removed the \"three buses a day each way\" claim. In the route section, the paragraph now says only what the SYR-to-Ithaca page supports, that extra trips may be added on weekends when demand calls for them. I removed the claim about different times on holidays because the page lists holidays only as a possible cause of delay. I dropped \"three\" from the CheckMyBus Nov 15 sentence and kept the three listed arrival times. The paragraph now ends with \"Check the booking page for each day's departures and exact times.\" In the cost table, the OurBus note \"three buses a day\" became \"check the booking page for each day's buses\". A search found no \"three buses\" wording left in the Common mistakes bullets or anywhere else on the page. Problem 2 (minor): the Big D's row in the cost table said \"About 1 h 15 min by road\", which no Big D's source supports. It now says \"A private car ride; see driving times below\", so the row states no figure. The frontmatter already had updated: 2026-11-11. Title, slug, glance, reader blocks and images are unchanged.",
+   "sources_added": [],
+   "gaps": [
+    {
+     "item": "'Three buses a day each way' (route section and cost table)",
+     "tried": "Fetched https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny (says 4 direct departures a day) and https://www.ourbus.com/routes/syracuseairport-to-ithaca (says 3 departures a day)",
+     "outcome": "The two pages contradict each other, so I removed the count and pointed readers to the booking page"
+    },
+    {
+     "item": "'Different times on holidays' (route section)",
+     "tried": "SYR-to-Ithaca route page text. It names holidays only as a possible cause of delay and as a reason to book early",
+     "outcome": "Removed. The supported weekend demand-trips claim stays"
+    },
+    {
+     "item": "Big D's 'About 1 h 15 min by road' (cost table)",
+     "tried": "bigdslimos.com and the Cornell FCS travel resources page, both already cited on the page",
+     "outcome": "Neither gives a trip time. I removed the figure and the cell now points to the sourced driving section"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The fixes are in /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/syracuse-airport-to-cornell-ourbus-car-service.md. I made the edits with a short Python string-replace script, not the Edit tool, because the session's bypass-mode instructions say to work through Bash. Each replacement had to match exactly once. lint-content.py prints 0 matches and grep finds 0 em dashes. I committed and pushed nothing."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "Both reviewer problems are fixed, but I am returning false on check 5 because two unsourced travel times remain in the cost table.\n\nReviewer problems:\n1. The bus count. The Ithaca-to-SYR page says \"4 direct departures a day\" in one place and \"10 departures a day\" in another. The SYR-to-Ithaca page says \"3 direct departures a day\" and \"13 buses a day\". The claim \"three buses a day each way\" is gone from the whole page. The kept lines are supported by the pages:\n   - The weekend sentence matches \"Weekend Service : Additional demand-based trips may be added\".\n   - The CheckMyBus Nov 15 arrivals match (11:40 AM, 2:55 PM, 5:50 PM).\n   - The Ithaca stops match, including \"North Campus - Jessup Road in front of Robert Purcell Community Center\" on the SYR-to-Ithaca page.\n2. The Big D's row. It now reads \"A private car ride; see driving times below\" and states no figure.\n\nRemaining problems:\n- Cost table, UberX row, Time column: \"About 1 h 15 min by road\" is not in Uber's page. Uber supports only the $120 average fare, which I fetched. The only 1 h 15 min source is the Ithaca College page (\"one hour and fifteen minutes' drive (65 miles) from Ithaca College\"), which describes the drive to Ithaca College, not to Cornell. This is the same kind of unsourced time the writer removed from the Big D's row.\n- Cost table, Student Assembly charter row, Time column: \"About 1 h 15 min\" has no source. The cited Cornell Sun and Assembly pages give no trip time.\n\nChecks 1, 2 and 4 pass. The linter prints 0 matches and the page has 0 em dashes. No sentence says what the sources lack. Spot-checks of the Big D's text, the $120 Uber average and the 51.4 miles all hold. I did not re-fetch every other source on the page.",
+   "checked_sources": [
+    "https://www.ourbus.com/routes/ithaca-ny-to-syracuse-airport-ny",
+    "https://www.ourbus.com/routes/syracuseairport-to-ithaca",
+    "https://checkmybus.com/ithaca-ny/syracuse-ny-airport",
+    "https://www.uber.com/global/en/r/airports/syr/taxi/",
+    "https://fcs.cornell.edu/departments/transportation-delivery-services/alternative-transportation-options/travel-resources",
+    "https://bigdslimos.com/",
+    "https://www.cornellsun.com/article/2026/09/8kl4l6fodjwk",
+    "https://www.ithaca.edu/orientation/family-and-guest-resources/transportation"
+   ]
+  }
+ },
+ {
+  "slug": "how-to-check-an-ithaca-landlords-record",
+  "file": "content/articles/housing/how-to-check-an-ithaca-landlords-record.md",
+  "fix": {
+   "changed": true,
+   "what": "I fixed all 5 reviewer problems in place in /Users/ajaysharma/Ads/campus-publication/content/articles/housing/how-to-check-an-ithaca-landlords-record.md. The updated date was already 2026-11-11.\n\n(1) Line 109, residents threshold: I changed \"five or more unrelated residents\" to \"six or more unrelated residents\" for the three-year certificate, citing the City's Certificate of Compliance page (/146). The same page supports the one-year term for dormitories, fraternities and sororities. I also added a sentence from that page: the owner must schedule the next inspection before the current certificate expires. I removed the \"up to five years for a one- or two-family house\" term. Instead, the page now says every rental, from a one-family house to a fraternity, needs a housing inspection, citing the City's Housing Inspections page (/145).\n\n(2) Line 111: I deleted the whole paragraph claiming every lease must state the certificate status, the expiry date and a database link.\n\n(3) Line 105: I replaced \"the certificate is what the City issues after an inspection finds no code violations\" with what the City's /146 page actually says. The inspection checks structure, fire protection, exits, heating, electrical and plumbing systems against the housing, building and zoning codes.\n\n(4) Line 175: I changed the attribution from \"Graduate School staff\" to Denise Thompson, a manager at Cornell Off-Campus Living, and aligned the wording with her quote (\"your visa or your status at Cornell\"). I confirmed the quote on the Grad School page today.\n\n(5) Line 167: I replaced the uncited NetID claim. The page now says Off-Campus Living's listings site is free to use for those with Cornell credentials, citing the Grad School page. I added the finaid.cornell.edu link to the aid sentence, reworded to match its source: financial aid cannot help with a security deposit or first and last month's rent.\n\nI made one more change because ecode360 returned 403 again today, so nothing cited to it could be confirmed. I removed the other ecode-cited sentence: a rental without a certificate can be ordered vacated, and verified over-occupancy revokes the certificate at once. I also replaced the ecode360 entry in the frontmatter sources with the City's Housing Inspections page. The title, slug, glance block, reader blocks and images are unchanged. lint-content.py reports 0 matches and the em dash count is 0.",
+   "sources_added": [
+    "https://www.cityofithacany.gov/145/Housing-Inspections"
+   ],
+   "gaps": [
+    {
+     "item": "A certificate lasts up to five years for a one- or two-family house",
+     "tried": "ecode360.com/8390192 and its print view (both 403); the City's Certificate of Compliance (/146) and Housing Inspections (/145) pages, which give no term for 1- and 2-family houses",
+     "outcome": "Removed"
+    },
+    {
+     "item": "The City code requires every lease to state whether the rental has a valid certificate, its expiry and a link to the City database",
+     "tried": "ecode360 (403); City pages /146, /145 and /130",
+     "outcome": "Removed the paragraph"
+    },
+    {
+     "item": "The certificate is issued after an inspection finds no code violations",
+     "tried": "ecode360 (403); City page /146 (states the inspection's purpose but not the issuance condition)",
+     "outcome": "Replaced with the inspection scope as stated on /146"
+    },
+    {
+     "item": "A rental without a valid certificate can be ordered vacated, and verified over-occupancy revokes the certificate at once",
+     "tried": "ecode360 (403); City pages /146 and /145",
+     "outcome": "Removed (cited only to the unreachable ecode360)"
+    },
+    {
+     "item": "Parents cannot see Cornell's listing marketplace without a NetID",
+     "tried": "Grad School renting tips page (says the site is free for those with Cornell credentials; NetID is not named)",
+     "outcome": "Reworded to the source's 'Cornell credentials' wording and cited"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "I made the edits with a Python string-replace script that requires each target to match exactly once, rather than the Edit tool. The Grad School page returned 403 to curl, so I read it with WebFetch. Nothing was committed or deployed."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "https://www.cityofithacany.gov/145/Housing-Inspections",
+    "https://www.cityofithacany.gov/146/Certificate-of-Compliance",
+    "https://www.cityofithacany.gov/130/Building-Division",
+    "https://finaid.cornell.edu/living-campus",
+    "https://www.gradschool.cornell.edu/announcements/grad-tips-renting/ (via Wayback; live returns 403)"
+   ]
+  }
+ },
+ {
+  "slug": "toni-morrison-hall-cornell",
+  "file": "content/articles/housing/toni-morrison-hall-cornell.md",
+  "fix": {
+   "changed": true,
+   "what": "Problem (check 3, line 151, move-in unloading zone): I re-fetched Cornell's North Campus move-in instructions page today. It names the Dickson Hall loading dock and parking lot as Toni Morrison Hall's zone in four places: Mon Aug 17 after 8 pm, both Tue Aug 18 sections, Fri Aug 21 to Sat Aug 22 after 5 pm, and arrivals while the RPCC Service Center is closed. In the Aug 17 (8 am to 8 pm) and Aug 21 to 22 (9 am to 5 pm) windows, the page only says staff guide you to your building's unloading zone. I removed \"in every August arrival window\". The sentence now says the instructions \"name it as the hall's zone for evening arrivals, both Aug. 18 windows and arrivals while the RPCC Service Center is closed; in the daytime windows on Aug. 17 and Aug. 21 to 22, staff guide you to it.\" The rest of the paragraph checks out against the page and is unchanged: after-hours and closed-center arrivals go straight to the zone with no staff unloading help, and the timeslot covers arrival and check-in only. Frontmatter updated changed from 2026-11-10 to 2026-11-11. Title, slug, dek, meta, glance block, reader blocks and images are unchanged.",
+   "sources_added": [],
+   "gaps": [],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The only edit is in the move-in paragraph (line 151) of /Users/ajaysharma/Ads/campus-publication/content/articles/housing/toni-morrison-hall-cornell.md, plus the updated date. The move-in page was already in the sources with accessed 2026-11-11, so no source was added. lint-content found 0 banned-phrase matches and the em dash count is 0. Nothing was committed or pushed."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "Checks 1, 2, 4 and 5 pass. Lint reports 0 matches and the em dash count is 0. I read the whole page and found no research narration. Every body URL is in the frontmatter sources. The original \"every August arrival window\" claim is gone. Check 3 still fails on one line.\n\nLine 151 of content/articles/housing/toni-morrison-hall-cornell.md says the move-in page names the Dickson dock and lot \"as the hall's zone for evening arrivals, both Aug. 18 windows and arrivals while the RPCC Service Center is closed; in the daytime windows on Aug. 17 and Aug. 21 to 22, staff guide you to it.\"\n\nMy fetch of the North Campus move-in page shows three Aug. 18 sections, not two. The Tue Aug. 18 8:00 to 11:00 a.m. section does not name the zone. It says check-in is at RPCC rooms 103-105 and then you are guided to the building's zone, with staff unloading help. The Aug. 18 after-11:00 a.m. section and the after-8:00 p.m. section do name the Dickson Hall loading dock and parking lot for Toni Morrison Hall.\n\n\"Both Aug. 18 windows\" therefore overstates the page. A reader would assume the Aug. 18 morning window names the zone. The sentence's daytime exception also leaves out the Aug. 18 morning window.\n\nSupporting lines from the page, via a summarizing fetch:\n- Aug. 17 after 8 p.m.: \"Clara Dickson Hall/McLLU, Toni Morrison Hall\" with the Dickson dock and lot.\n- Aug. 18 after 11 a.m.: \"Staff unloading assistance will not be available.\"\n- Aug. 21 to 22 after 5 p.m.: the same zone and the same no-staff-help line.\n- Closed-center section: the same zone and the same no-staff-help line.\n- Timeslot: \"Your reserved timeslot is for arrival and check-in only, not unloading.\"\n\nSuggested fix: name the zone for Aug. 17 after 8 p.m., Aug. 18 after 11 a.m. and after 8 p.m., Aug. 21 to 22 after 5 p.m., and RPCC-closed arrivals. Say that in the daytime windows on Aug. 17, Aug. 18 (8 to 11 a.m.) and Aug. 21 to 22, staff guide you to your building's zone.",
+   "checked_sources": [
+    "https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus"
+   ]
+  }
+ },
+ {
+  "slug": "cornell-first-gen-low-income-hidden-costs",
+  "file": "content/articles/money/cornell-first-gen-low-income-hidden-costs.md",
+  "fix": {
+   "changed": true,
+   "what": "File: /Users/ajaysharma/Ads/campus-publication/content/articles/money/cornell-first-gen-low-income-hidden-costs.md, edited in place. (1) Opening: \"a few hundred dollars of books and personal spending\" is now \"a few thousand dollars\", which matches the $1,234 and $2,182 figures from Cornell's cost page. (2) FAQ \"Does the Access Fund cover rent or groceries?\": the answer now opens with \"No.\" It says rent and groceries are not among the fund's three categories and lists what each category covers. It also says the fund is not an emergency fund (verified on the Access Fund page today) and points urgent needs to the FGLI office (Barnes Hall, Room 200, FGLIEmpowerment@cornell.edu, also from that page). (3) Minor point about the health plan: I replaced the Sun's 2025-26 figures and the \"check the current year's price\" sentence with the official 2026-27 numbers from Cornell Student Health Benefits. The plan is $4,092 for 12 months. Returning students pay $2,046 a semester. Fall 2026 new students pay $1,705 plus $2,046. Enrollees may request a loan for the premium. Waivers must be approved every semester: the fall deadline was July 31, 2026, spring reverification is due January 31, 2027, and new spring students have until January 21, 2027. I updated the table row ($4,092 returning, $3,751 fall new students, 2026-27), the checklist figure label and step 3 to match (step 3 now names the January 31, 2027 deadline; after it the only option is a termination request for a prorated refund). I added the two new sources to the frontmatter with accessed 2026-11-11, and updated was already 2026-11-11. Title, slug, glance, reader blocks and images are unchanged.",
+   "sources_added": [
+    "https://studenthealthbenefits.cornell.edu/shp-costs-billing-dates-waiver-deadlines/shp-costs-billing-dates/shp-costs-dates-2026-27",
+    "https://studenthealthbenefits.cornell.edu/shp-costs-billing-dates-waiver-deadlines/waiveropt-out-deadlines"
+   ],
+   "gaps": [],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The lint script reported 0 banned-phrase matches and the em dash count is 0. The Cornell Daily Sun 2025 article is still in the sources list because the body cites it for the Van-Ess Grant quote. I made the edits with one exact-match Python replacement script instead of the Edit tool. Every replacement was asserted to match exactly once, and the file stayed in place with no rename or move."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "https://studenthealthbenefits.cornell.edu/shp-costs-billing-dates-waiver-deadlines/shp-costs-billing-dates/shp-costs-dates-2026-27",
+    "https://studenthealthbenefits.cornell.edu/shp-costs-billing-dates-waiver-deadlines/waiveropt-out-deadlines",
+    "https://scl.cornell.edu/FGLI/access-fund"
+   ]
+  }
+ },
+ {
+  "slug": "cornell-off-campus-jobs-ithaca-students-part-time",
+  "file": "content/articles/money/cornell-off-campus-jobs-ithaca-students-part-time.md",
+  "fix": {
+   "changed": true,
+   "what": "The reviewer raised one problem: the page stated $16.00 as the current upstate minimum wage without a date. I re-fetched https://dol.ny.gov/minimum-wage-0 today. Its \"Minimum Wage Updates\" section says that on January 1, 2027, New York's minimum wage \"will stay the same\", at $16.00 per hour outside NYC, Long Island and Westchester. Because the rate stays the same, $16.00 is the current rate as well as the 2027 one. Line 25 now says: \"The state labor department says New York's minimum wage outside New York City, Long Island and Westchester will stay the same on January 1, 2027, at $16.00 an hour, which sets the floor for most of it.\" The meta \"Pay starts at $16.\" now reads \"The upstate minimum wage is $16 an hour and stays there on January 1, 2027.\" Line 81's tip credit figures ($10.70 cash plus $5.30 credit, 2027) match the page again, so they are unchanged. I set the DOL source's accessed date to 2026-11-11 and set updated: 2026-11-11. The title, slug, images and other sections are untouched. File: /Users/ajaysharma/Ads/campus-publication/content/articles/money/cornell-off-campus-jobs-ithaca-students-part-time.md",
+   "sources_added": [],
+   "gaps": [],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "I added no new URL. The DOL source already in the list was re-fetched today and its accessed date changed to 2026-11-11. The other sources keep their 2026-11-07 accessed dates because this fix did not require re-fetching them. The reviewer's report says it did not open the Einhorn, Chamber, Student Employment, SCL or Sun pages."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "https://dol.ny.gov/minimum-wage-0",
+    "https://einhorn.cornell.edu/?p=407",
+    "https://einhorn.cornell.edu/opportunity/community-work-study-program/",
+    "https://business.tompkinschamber.org/jobs",
+    "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes",
+    "https://international.globallearning.cornell.edu/employment-and-taxes/f-1-cpt",
+    "https://scl.cornell.edu/growth-opportunities/student-employment/students",
+    "https://www.cornellsun.com/article/2026/11/vink-get-starbucks-actually-off-campus",
+    "https://www.cornellsun.com/article/2020/04/ithaca-in-numbers-layoffs-surge-as-covid-19-and-student-departures-devastates-hospitality-sales",
+    "https://www.cornellsun.com/article/2020/02/watch-sciencenter-brings-student-workers-into-the-ithaca-community"
+   ]
+  }
+ },
+ {
+  "slug": "how-to-save-money-at-cornell-student-discounts-ithaca",
+  "file": "content/articles/money/how-to-save-money-at-cornell-student-discounts-ithaca.md",
+  "fix": {
+   "changed": true,
+   "what": "Problem (check 2, Food section, 'Everywhere else' paragraph): deleted the sentence 'It does not name stores.' because it told readers what the source lacks. The rest of the paragraph stays, including the Cornell Health advice the reviewer already verified against health.cornell.edu/node/25941. Minor point (Anabel's 50% offer comes from a November 2025 update): the reviewer judged it acceptable as written, since the text already ties the offer to the shutdown and tells readers to confirm with Anabel's, so I left it unchanged. Set updated: 2026-11-11. Lint printed 0 banned-phrase matches and grep counted 0 em dashes. I did not change the title, slug, meta, glance block, reader blocks or images.",
+   "sources_added": [],
+   "gaps": [
+    {
+     "item": "'It does not name stores.' (Food section, Everywhere else paragraph)",
+     "tried": "The fix was a deletion, not a sourcing problem. The sentence told readers what the cited Cornell Health page (health.cornell.edu/node/25941) leaves out, which the no-research-gap rule forbids.",
+     "outcome": "Removed entirely."
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "I edited one file: /Users/ajaysharma/Ads/campus-publication/content/articles/money/how-to-save-money-at-cornell-student-discounts-ithaca.md. I did not fetch any sources this time because the only fix was a deletion. Nothing was committed or pushed."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "Check 3 fails on one claim. Food section, Anabel's paragraph: \"lists hours of noon to 7 p.m. Wednesday through Friday and noon to 3 p.m. Saturday, with changes around breaks, so confirm with the store before a trip.\" My fetch of https://www.anabelsgrocery.org on 2026-11-11 supports the hours (Wed - Fri 12-7PM, Sat 12-3PM) and the location (Anabel Taylor Hall Room 127). It contains no break, closure, holiday or recess notice. The earlier reviewer's \"fall-break closure notice\" is not on the page now. Either remove \"with changes around breaks\" and keep \"confirm with the store\", or find and cite a source that states the break changes.\n\nThe writer fix itself is correct. \"It does not name stores.\" is gone from the \"Everywhere else\" paragraph.\n\nPasses:\n- Check 1: lint prints 0 matches and grep -c \"\u2014\" prints 0.\n- Check 2, rest of page: no sentence says what a source lacks. Every glance row, heading and FAQ question is answered in the body.\n- Check 3, other kept facts:\n  - health.cornell.edu/node/25941 supports \"operates during the academic year\", \"SNAP cards are accepted\", the Nov 10, 2025 update (ten staple items, 50% off \"to all customers\", \"primarily used by those with deep financial need\"), and the shopping tips (try different Ithaca-area stores, rewards and free membership programs, generic brands, coupons, SNAP).\n  - museum.cornell.edu/visit supports the hours, free admission and the Nov 25-27 closure.\n  - fcs.cornell.edu/content/c2c-rates supports $93.50 one way and $187 round trip for students with a NetID, plus the temporary $6 surcharge.\n  - I did not re-fetch the TCAT, Short Line, Carshare, Graduate School, Sun or Ithacan pages. The earlier reviewer cleared them and the writer did not touch them.\n- Check 4: all body URLs, apart from the image credit and license links in the frontmatter, are in the frontmatter sources.\n- Check 5: nothing else invented. The hedges on the Anabel's 50% offer and the 2014 downtown card are acceptable.",
+   "checked_sources": [
+    "health.cornell.edu/node/25941",
+    "www.anabelsgrocery.org",
+    "museum.cornell.edu/visit/",
+    "fcs.cornell.edu/content/c2c-rates"
+   ]
+  }
+ },
+ {
+  "slug": "transfer-spring",
+  "file": "content/start/transfer-spring.md",
+  "fix": {
+   "changed": true,
+   "what": "I fixed all 7 reviewer problems in /Users/ajaysharma/Ads/campus-publication/content/start/transfer-spring.md, editing in place with Edit. Today I re-fetched the winter parking page, the AAP transfer page, the admissions transfer page, the orientation page, the 2022 Cornell Sun housing article and the 2024 Sun TCAT article.\n(1) The bullet on Collegetown leasing for the next year: I rewrote it to say only what the Sun 2022 article says. In early September 2022, Student Agencies was one of the first to start renting for the next school year, other agencies followed, and students began looking soon after arriving in August. The general opening claim and the 'about 18 months after arrival' inference are gone.\n(2) I removed the 'On or about August 1' Ithaca Renting bullet entirely, and dropped the ithacarenting.com source from the frontmatter because the body no longer uses it.\n(3) The December 1 bullet now names AAP only, without Hotel and without a 2026 year: 'December 1: spring internal-transfer deadline at AAP, for current Cornell students only'. The AAP page confirms internal transfer is for current Cornell students.\n(4) The April 15 bullet now reads 'all other required materials due', matching the admissions page.\n(5) The orientation bullet: I removed 'transfer small groups'. It now says transfer move-in and New Student Orientation, matching the page (Transfer Student Move-In Aug 18, 2026; NSO Aug 18 to 23).\n(6) The Jan 1 TCAT bullet now cites the 2024 Cornell Sun article for transfers getting the same free first-year pass. The Sun says first-year students, freshman and transfer students included, get a free OmniRide pass. That URL was already in the sources list.\n(7) The Nov 1 bullet now reads that the city's odd/even season opens (to Apr 1), with the rules enforced when snow removal is necessary. 'Already running' is gone.\nupdated is still 2026-11-11. The title, slug, glance, reader and images blocks are unchanged.",
+   "sources_added": [],
+   "gaps": [
+    {
+     "item": "On or about August 1, most Ithaca 12-month leases start; summer transfers shop downtown 'available now' units, sublets and Lansing complexes",
+     "tried": "Re-read the Ithaca Renting downtown page, a landlord page that gives no start date and never mentions Lansing, and checked the page's other housing sources",
+     "outcome": "Removed the bullet entirely and dropped the ithacarenting.com source from the frontmatter"
+    },
+    {
+     "item": "Collegetown leasing opens late August to September, and for a spring transfer the lease starts about 18 months after arrival",
+     "tried": "Fetched the 2022 Cornell Sun article, which only says Student Agencies and other agencies began renting in early September 2022 and students started looking after arriving in August",
+     "outcome": "Removed the general opening claim and the 18-month inference; kept only the 2022 pattern the article states"
+    },
+    {
+     "item": "Hotel School spring internal-transfer deadline of December 1, 2026",
+     "tried": "Fetched the AAP transfer page, which gives a December 1 spring internal deadline for AAP only and no year",
+     "outcome": "Removed Hotel and the 2026 year"
+    },
+    {
+     "item": "Named April 15 materials (College Report, Academic Evaluation, Mid-Term Report, transcripts)",
+     "tried": "Fetched the admissions transfer page, which says only 'All other required materials' are due April 15",
+     "outcome": "Replaced the list with 'all other required materials'"
+    },
+    {
+     "item": "Transfer small groups at orientation",
+     "tried": "Fetched the orientation page, which lists Transfer Student Move-In Aug 18, 2026 and NSO Aug 18 to 23 but no small groups",
+     "outcome": "Removed the small-groups phrase"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The lint printed 0 matches and the em dash count is 0. Every body URL already sat in the sources list with accessed 2026-11-11, so I added no new sources. I removed the now-unused ithacarenting.com entry. Nothing was committed or pushed."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "The seven reviewer problems are resolved, but two intro claims go beyond their sources and some years are inferred.\n\nChecks 1 and 4 pass. The lint printed 0 matches and the em dash count is 0. Every body URL is in the frontmatter sources. I did not scan every body link against the source list one by one beyond reading the page.\n\nFixes confirmed against the sources:\n- Collegetown leasing bullet (line 70): the 2022 Sun article says \"The Student Agencies building was one of the first places to begin renting for the 2023-2024 school year in early September.\" It also names Urban Ithaca, Lambrou and Modern Living Rentals as agencies that \"also began opening up their units for rent.\" A student says \"started looking shortly after arriving here in August.\" The bullet matches.\n- December 1 (line 90): the AAP page says \"Spring transfer deadline: December 1\" under Internal Transfer Applicants, for current Cornell students. It matches.\n- April 15 (line 92): the admissions page says \"All other required materials.\" It matches.\n- Orientation (line 94): the orientation page says \"Transfer Student Move-In: August 18, 2026\" and \"NSO: August 18-23, 2026.\" It matches.\n- Jan 1 TCAT (line 46): the 2024 Sun article says \"first-year students \u2014 including freshman and transfer students \u2014 who are given a free OmniRide bus pass.\" It matches.\n- Nov 1 (line 44): the winter parking page says the city \"enforces on-street odd-even parking rules from November 1-April 1 when snow removal is necessary.\" It matches.\n- Dec 1 to Apr 1 Cornell overnight rules, \"fall semester only,\" decisions \"late April through June,\" and \"within ten days of receiving your NetID\" for transfers are all supported.\n\nProblems remaining:\n1. Line 29: \"you are admitted after the Collegetown rush has picked over the year's apartments\" is not supported. The Sun article only says agencies began renting in early September and students started looking in August. It says nothing about the rush finishing before April to June admission. This is an inference stated as fact. Same sentence: \"you usually know no one to room with\" is a stretch. The housing page says only that most students have no roommate before they apply.\n2. Lines 29, 91, 92 and 93: \"fall 2027,\" \"March 15, 2027,\" \"April 15, 2027\" and \"late April through June 2027\" are not on the admissions page. I fetched it and it gives no year; it says only \"fall semester only,\" March 15, April 15 and \"late April through June.\" The years are inferred from today's date. The page also does not say \"Transfer Common App\" for March 15; it lists \"Application; application fee or fee waiver\" and a portfolio if required. The CSS Profile and FAFSA part rests on the aid page, which I did not re-fetch. The earlier review confirmed it.\n3. Line 35: \"the rules already in force if you arrive in January with a car\" conflicts with the page's own point that external transfer is fall only. It also conflicts with the Nov 1 and Dec 1 dates. The reader-facing description is wrong for this reader. The same January framing appears in lines 34 and 38.\n4. Line 68: the June 22 (2018) bullet turns one year's notice date from the 2018 Sun article into \"expect your notice late spring to June.\" The Cornell housing page says confirmations begin in mid-June. The \"late spring\" part is unsupported.\n\nI did not re-fetch the 2018 Sun article, the residential policy page, the C2C page or the permit page. Their bullets were confirmed in the earlier review.",
+   "checked_sources": [
+    "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/",
+    "https://aap.cornell.edu/undergraduate-admissions/transfer-applicants/",
+    "https://admissions.cornell.edu/apply/transfer-applicants",
+    "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation",
+    "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free",
+    "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules",
+    "https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/new-undergrad-application-process"
+   ]
+  }
+ },
+ {
+  "slug": "do-i-need-a-car-at-cornell-quiz",
+  "file": "content/tools/do-i-need-a-car-at-cornell-quiz/tool.md",
+  "fix": {
+   "changed": true,
+   "what": "I fixed the one problem the reviewer raised, and then fixed the companion tool.html, which still carried what the reviewer's fix had removed from the md.\n\n1. Reviewer problem, tool.md line 115: the \"Check before you decide\" bullet promised \"sale dates\", but the page gives none. It now reads \"permit eligibility and how permits are sold\", the reviewer's exact wording. I set updated: 2026-11-11 in the frontmatter.\n\n2. Companion tool.html, resident-permit check line: the result card still said the 2026-27 sale opened Aug 4, 2026. That date has no opened source; it was already deleted from the md. The same line ended with \"whether any are left now is not in our numbers\", which tells the reader about a research gap. For West and South housing it also cited a sale-notice summary saying resident permits were capped to North Campus residents, which misstates the source. I rewrote the line from the Cornell parking-students page, re-fetched today with a 200 response. It now says permits are sold first come, first served, while space lasts, at myparking.cornell.edu, and annual permits are valid through Aug 15. The page also confirms the $752.98 and $359.77 rates, the prorating dates, and the ND cap limited to North Campus residents of university-owned housing.\n\n3. Companion tool.html, forum source: first-years saw a line citing 2016 College Confidential percentages, which breaks rule 4 (no forum users as sources). I removed that line, its two NUMBERS entries and the forum-tally mention in the footer note.\n\nChecks: the linter prints 0 matches, the em dash count is 0 in both files, and the tool's script still parses. I did not change the title, slug, glance block, reader blocks or images.",
+   "sources_added": [],
+   "gaps": [
+    {
+     "item": "tool.html: 'The 2026-27 sale opened Aug 4, 2026' and the claim that resident permits were capped to North Campus residents, shown for West and South housing",
+     "tried": "Cornell parking-students page, fetched 2026-11-11: it has no sale-open date and limits only the ND (North Campus) permit to North Campus residents; fcs.cornell.edu/node/17809 was already recorded as a 403",
+     "outcome": "Removed; replaced with the sale rule and Aug 15 validity the parking-students page states"
+    },
+    {
+     "item": "tool.html: 2016 College Confidential forum tally (67% and 80%)",
+     "tried": "Not sourceable under rule 4, since forum users are not allowed as sources",
+     "outcome": "Removed the result line, its two NUMBERS entries and the forum-tally mention in the footer"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "I edited both files in place: /Users/ajaysharma/Ads/campus-publication/content/tools/do-i-need-a-car-at-cornell-quiz/tool.md and /Users/ajaysharma/Ads/campus-publication/content/tools/do-i-need-a-car-at-cornell-quiz/tool.html. A few tool.html result lines still say what the quiz leaves out of its own math, for example \"Airfares and rides to the airport are not in our numbers\". I left those as they are: they describe the quiz's limits, not a research gap, and they match the md's 'what the quiz does not cover' section. Nothing was committed or pushed."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none. Minor note only: the tool.md line \"Thanksgiving week ran about a third higher on other routes\" comes from our own fact-file calculation (facts.csv rows 3.2 and 4.1) and has no URL in the page sources. It is disclosed as other routes and the figures match (+33.3% mean), so I did not fail it.",
+   "checked_sources": [
+    "parking-students page: $752.98, $359.77, first-come first-served and space-available, myparking.cornell.edu, valid through August 15, proration Sept 1 and Aug 16, ND cap, free A/E for full assistantship, B Lot at all times plus A Lot after 2:30 pm, limited availability",
+    "Cornell Sun Williams St article: permits sold out within hours; the lot sold out quicker than in previous years",
+    "City of Ithaca permit issuance: $45 a year; issuance through landlords prohibited",
+    "lint-content: 0 matches; em dash count 0 in tool.md and tool.html",
+    "All tool.html URLs are in the tool.md frontmatter sources"
+   ]
+  }
+ },
+ {
+  "slug": "laundromats-in-ithaca-near-cornell-collegetown",
+  "file": "content/articles/daily-life/laundromats-in-ithaca-near-cornell-collegetown.md",
+  "fix": {
+   "changed": true,
+   "what": "Problem 1 ($1.50 fare): TCAT's fares page at tcatbus.com returned 403 to both curl and WebFetch, so I reworded the TCAT paragraph to match Cornell's bus pass page (fcs.cornell.edu, fetched today). It now says that if your CU ID is not accepted you may need to pay the $1.50 fare in cash, and that students can buy a discounted OmniRide pass for rides at other hours. I deleted the line saying undergraduates past their first year pay the $1.50 fare. I also deleted the cost-table row \"TCAT daytime round trip without a pass, two $1.50 fares, $3.00\", because nothing supported it. Problem 2 (qualifiers on \"Cornell students ride free\"): the section now says registered Cornell students enrolled in a degree program who have been in school a year or more ride free after 6 p.m. on weekdays and all weekend, citing Cornell. It adds that students without OmniRide passes can ride free in those hours, citing the Sun. The glance line now reads \"registered Cornell degree students\". The new-student line now says \"New students in degree programs get OmniRide privileges\", matching Cornell's wording. Problem 3 (the unsourced \"Dorm laundry is part of your room rate\" in the reader block): I removed the claim. The block now opens \"An apartment may not include laundry.\" I set the Sun source's accessed date to 2026-11-11 because I re-fetched it today. The updated field was already 2026-11-11. The title, slug, glance structure, reader block, images and figure block are kept, minus the one removed table row.",
+   "sources_added": [],
+   "gaps": [
+    {
+     "item": "Undergraduates past their first year pay the $1.50 TCAT fare at other times, plus the cost-table row 'TCAT daytime round trip without a pass, two $1.50 fares, $3.00'",
+     "tried": "curl and WebFetch of tcatbus.com/fares/, tcatbus.com, tcatbus.com/ride/fares/ and tcatbus.com/fares-passes/ (all 403); fcs.cornell.edu bus-services-privileges-passes (mentions $1.50 only as a cash fare when a CU ID is not accepted); the Cornell Daily Sun 2024 article (same context)",
+     "outcome": "Removed the claim and the table row. The $1.50 now appears only in Cornell's own context: cash when an ID is not accepted."
+    },
+    {
+     "item": "Reader block: 'Dorm laundry is part of your room rate'",
+     "tried": "Checked the page's existing sources; none state that laundry is included in the room rate",
+     "outcome": "Removed the sentence. The reader block now opens 'An apartment may not include laundry.'"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "I edited /Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/laundromats-in-ithaca-near-cornell-collegetown.md in place using a Python string replace in Bash, not the Edit tool. Each replacement was asserted to match exactly once. Lint prints 0 matches and the em-dash count is 0. TCAT's website blocks automated fetches with a 403, so no TCAT fare source could be added. Nothing was committed."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "fcs.cornell.edu bus-services-privileges-passes",
+    "cornellsun.com 2024/11 non-first-year TCAT article"
+   ]
+  }
+ },
+ {
+  "slug": "cheapest-ways-to-get-around-cornell",
+  "file": "content/articles/getting-around/cheapest-ways-to-get-around-cornell.md",
+  "fix": {
+   "changed": true,
+   "what": "Problem 1 (the general $1.50 daytime fare had no source): curl and WebFetch both got a 403 from tcatbus.com, so I opened TCAT's Fare and Pass Options page (tcatbus.com/fare-pass-options) in the browser pane. It says \"$1.50 for single adult ride\" and lists exact cash, Tcards, open card or phone payment and the Tfare app as ways to pay. I re-cited the $1.50 to that page in the past-first-year reader block, the bullet list (now \"TCAT's $1.50 single adult fare, paid in exact cash, by card or phone, or on the Tfare app\") and the fly-home reader block. The airport sentence and the airport FAQ cited flyithaca.com, which gives routes but no fare, so the routes stay cited to flyithaca and the $1.50 is now cited to the TCAT page. The page no longer says the fare is cash only: \"beats cash\" became \"beats single fares\", \"pay cash for class-time rides\" became \"pay the single fare\", and the example now reads \"$90 in single fares ... Single fares win by $110\". The closing line \"Otherwise you pay $1.50 in cash\" now reads that if your ID is not accepted at other times, Cornell's bus pass page says you may need to pay the $1.50 fare in cash, which is what that page states. With $1.50 now sourced, the 134-ride OmniRide break-even, the glance line, the table, the FAQ and the mistakes list stand unchanged. Problem 2 (the farebox glitch sentence misstated the Sun): it now follows the Sun. A switch in fare systems first stopped Cornell IDs from working, and TCAT fixed that by April 2024. Cornell then did not update its list of eligible riders until Oct. 16, 2024, so every student rode free at any hour until then. Title, slug, glance, images, dek and meta are unchanged. updated was already 2026-11-11, and every body URL is in the sources list.",
+   "sources_added": [
+    "https://tcatbus.com/fare-pass-options"
+   ],
+   "gaps": [],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "File edited: /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cheapest-ways-to-get-around-cornell.md. tcatbus.com returns 403 to curl and WebFetch, but the page loads in the browser pane. Its final URL is https://tcatbus.com/fare-pass-options, which www.tcatbus.com/ride/fare-pass-options redirects to. A check after the edit found no body URL missing from frontmatter sources. lint-content.py printed 0 matches and the em-dash count is 0."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked_sources": [
+    "https://tcatbus.com/fare-pass-options",
+    "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free",
+    "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes"
+   ]
+  }
+ }
+]

@@ -40,6 +40,33 @@ PATTERNS: list[tuple[str, str]] = [
     ("variant", r"(nothing|no page|no figure|no number) (we|the sources?) (found|opened|checked|read)"),
     ("variant", r"(gap|hole) in (our|the) (sources|research|coverage)"),
     ("variant", r"we (do not|don't) (know|have) (a|an|the) (figure|number|date|price|answer)"),
+    # forms the Phase 5 cluster agents found on pages the first list missed (reports/05-deferred.json), 2026-11-11
+    ("variant", r"(pages?|site|website|notice|rate page|fee page|policy page|calendar|handbook) (do not|does not|don't|doesn't|did not|didn't|never) (say|give|state|list|mention|name|cover|address|answer|explain|spell out|show)"),
+    ("variant", r"(gives?|lists?|offers?|publish(es)?|posts?|provides?|names?|states?) no (founding|price|prices|figure|figures|date|dates|amount|amounts|number|numbers|rate|rates|deadline|deadlines|cost|costs|hours|list|address|phone|fee|fees|total|totals|breakdown|cap|caps|limit|limits)"),
+    ("variant", r"no public (source|figure|data|number|list|record)"),
+    ("variant", r"(aren't|are not|isn't|is not|wasn't|was not) (covered|addressed|included|answered) here"),
+    ("variant", r"records behind this (page|guide|article)"),
+    ("variant", r"(page|notice|policy|policy page|document|pdf|table|chart) (is |was )?undated"),
+    ("variant", r"(amounts?|figures?|prices?|dates?|numbers?|rates?|hours|totals?) (is|are|was|were) not on (it|the page|that page|the site|the notice)"),
+    ("variant", r"(fact file|brief|our notes|the notes|our records) (has|have|had|holds|hold) no"),
+    ("variant", r"not in (our|the) (brief|fact file|notes|sources|corpus|records)"),
+    ("variant", r"no .{0,40}(story|article|page|figure|source|record|number|listing) (was|were|could be|has been|have been) (found|located|turned up)"),
+    ("variant", r"none (was |were )?confirmed"),
+    ("variant", r"we have (not|n't) (checked|verified|confirmed|read|opened|seen)"),
+    ("variant", r"(could not|couldn't|cannot|can't) be (confirmed|verified|located)"),
+    ("variant", r"(has|have) not been (read|checked|verified|confirmed) in"),
+    # forms the Phase 5 skeptics found after the second pass (reports/05-deferred-results.json), 2026-11-11: table cells and labels that
+    # describe what a listing or page leaves out, planner notes and references to the pipeline's own documents, and source-quality asides
+    ("variant", r"\|\s*(not|none|nothing) (listed|published|stated|named|printed|posted|shown|given|available|provided|disclosed|confirmed|found)\b[^|]{0,40}\|"),
+    ("variant", r"\|\s*(not|none|nothing) (listed|published|stated|named|printed|posted|shown|given|available|provided|disclosed|confirmed|found)\b[^|]{0,40}$"),
+    ("variant", r"\bnot (stated|printed|posted|disclosed)\b"),
+    ("variant", r"\b(price|prices|rate|rates|rent|rents|fee|fees|date|dates|year|hours|amount|amounts|figure|figures) (is |are |was |were )?not (posted|shown|listed|published|printed|given|stated)\b"),
+    ("variant", r"\bno (rates?|prices?|rents?|fees?|dates?|figures?|amounts?|hours) (shown|listed|posted|published|printed|given|stated)\b"),
+    ("variant", r"\b(topic brief|the brief, section|brief sections?|from the brief|in the brief|per the brief|brief inputs|brief figures?|fact file|facts\.csv|the fact sheet|our notes|planner notes?)\b"),
+    ("variant", r"\b(search snippet|snippet-only|seen only as|seen as a snippet|could not be opened|cannot be opened|failed to load|returned (a )?404|returns (a )?404|page not found)\b"),
+    ("variant", r"\b(page|site|website|listing|listings|notice|calendar|handbook|pdf|document|table|scorecard|brochure|flyer|map|form|portal)s? (says [^.|]{0,80} and )?(does not|doesn't|do not|don't|did not|didn't|never) (list|name|state|give|say|show|mention|publish|post|print|spell out|cover|address|answer|explain)\b"),
+    ("variant", r"\b(treat (them|it|this|these) as (a )?leads?|confirm with [A-Z][a-z]+ before relying|as (a )?leads?, not (facts?|figures?))\b"),
+    ("variant", r"\b(no guide covers (them|it|this) yet|no page covers (them|it|this) yet|not covered yet)\b"),
 ]
 COMPILED = [(kind, re.compile(p, re.I)) for kind, p in PATTERNS]
 FM_RE = re.compile(r"^---\n.*?\n---\n", re.S)
@@ -50,6 +77,9 @@ def body_text(path: Path) -> str:
     """The page body without frontmatter, URLs and Markdown link brackets; fenced blocks stay (glance, reader and figure text renders)."""
     raw = path.read_text(encoding="utf-8", errors="replace")
     body = FM_RE.sub("", raw, count=1)
+    fm = FM_RE.match(raw)
+    if fm:   # text the page renders from its frontmatter: captions and alt text under photos, the meta description, the dek and the title
+        body += "\n" + "\n".join(m.group(2) for m in re.finditer(r"^\s*(?:caption|alt|meta|dek|title|description): *(['\"]?)(.+?)\1\s*$", fm.group(0), re.M))
     body = URL_RE.sub(" ", body)
     body = re.sub(r"!\[[^\]]*\]", " ", body)
     return body

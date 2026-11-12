@@ -7,7 +7,7 @@ primary_query: renters insurance cornell students
 topic: housing
 school: cornell-university
 type: decision
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 59
 rewrites: content/articles/housing/cornell-off-campus-renters-insurance-cost.md
 queue_id: q-housing-0042
@@ -23,15 +23,15 @@ subject: Collegetown Ithaca
 tools:
 - off-campus-move-in-checklist-cornell
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: Living Off Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships
   title: Housing Vendor Partnerships, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny
   title: Cheap and best renters insurance in Ithaca, NY, SafeButler
   accessed: '2026-11-10'
@@ -61,8 +61,8 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -94,11 +94,14 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
+  title: Co-op Housing 2026-2027 Terms and Conditions, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Shops and apartment buildings along a Collegetown street in Ithaca
-  caption: Collegetown, directly south of Cornell's campus, where most undergraduate renters sign leases. No public source says whether its landlords require renters insurance; the lease you sign is the only answer.
+  caption: Collegetown, directly south of Cornell's campus, where most undergraduate renters sign leases. Whether your landlord requires renters insurance is set by the lease you sign.
   credit: desultrix / Wikimedia Commons
   credit_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
   license: CC BY-SA 2.0
@@ -116,15 +119,15 @@ kind: spoke
 - Liability cover matters most: a deposit is capped, and housemates can be billed for each other's damage.
 ```
 
-Cornell does not require renters insurance off campus, but its [off-campus checklist](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations) says to buy it, and your lease can require it. Ithaca quotes run $5 to $27 a month. Buy a policy with personal liability before you move in.
+Cornell does not require renters insurance off campus, but its [off-campus checklist](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations) says to buy it, and your lease can require it. Ithaca quotes run $5 to $27 a month. Buy a policy with personal liability before you move in.
 
 ## Is renters insurance required for Cornell students off campus?
 
-Not by Cornell. The checklist lists ["Purchase renter's insurance"](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations) as a step, next to reading the lease. No Cornell page makes it a condition of living off campus.
+Not by Cornell. The checklist lists ["Purchase renter's insurance"](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations) as a step, next to reading the lease. No Cornell page makes it a condition of living off campus.
 
-Your landlord can require it. A lease is a contract, and an insurance clause binds you like the rent clause does. The [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) covers the other clauses to check. No public source says how many Collegetown or downtown landlords ask for proof, so ask the leasing office before you sign.
+Your landlord can require it. A lease is a contract, and an insurance clause binds you like the rent clause does. The [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) covers the other clauses to check. Ask the leasing office whether it needs proof of a policy before you sign.
 
-Cornell's own advice sits on three pages, and none gives a price. The checklist says to buy a policy. The [Living Off Campus page](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus) names GradGuard as the preferred insurer. The [vendor page](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships) lists GradGuard's features and sign-up steps.
+Cornell's own advice sits on three pages. The checklist says to buy a policy. The [Living Off Campus page](https://scl.cornell.edu/residential-life/housing/living-off-campus) names GradGuard as the preferred insurer. The [vendor page](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships) lists GradGuard's features and sign-up steps.
 
 ## How much does renters insurance cost in Ithaca?
 
@@ -159,7 +162,7 @@ Say a junior takes a bed in a Collegetown 6-bedroom at Ithaca Renting's 2027-28 
 
 ## What is GradGuard, Cornell's preferred insurer?
 
-GradGuard College Renters Insurance is the insurer Cornell names, for students [on and off campus](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus). Cornell's [vendor page](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships) lists these features:
+GradGuard College Renters Insurance is the insurer Cornell names, for students [on and off campus](https://scl.cornell.edu/residential-life/housing/living-off-campus). Cornell's [vendor page](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships) lists these features:
 
 - no rate increase when you file a claim
 - no sub-limits on electronics
@@ -168,7 +171,7 @@ GradGuard College Renters Insurance is the insurer Cornell names, for students [
 - personal liability if you damage your residence
 - sign-up in the Housing and Dining Portal
 
-Cornell publishes no GradGuard premium for a Cornell student. For a price, get a quote at GradGuard.com/cornell. "Preferred" is Cornell's word, not a requirement, so a quote from any insurer is fine if it meets your lease.
+For a price, get a quote at gradguard.com/renters/cornell, the address in Cornell's [housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028). "Preferred" is Cornell's word, not a requirement, so a quote from any insurer is fine if it meets your lease.
 
 ## What does a policy cover that your lease and landlord do not?
 
@@ -176,7 +179,7 @@ A lease protects the landlord. A renters policy protects you. Two gaps matter in
 
 The first gap is your belongings. A landlord's building insurance pays for the building. Cornell's Greek housing page says chapter rent covers [housekeeping, utilities, internet, repairs and building insurance](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities), and it excludes personal belongings.
 
-The second gap is damage you cause. New York caps a security deposit, plus any rent paid in advance, at [one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108). A landlord can deduct [tenant-caused damage beyond normal wear](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits). Damage that costs more than the deposit is still owed. Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire), so each is responsible for the others' rent and damages for the term. Liability cover is the part of a policy that can pay that bill.
+The second gap is damage you cause. New York caps a security deposit, plus any rent paid in advance, at [one month's rent](https://www.nysenate.gov/legislation/laws/GOB/7-108). A landlord can deduct [tenant-caused damage beyond normal wear](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits). Damage that costs more than the deposit is still owed. Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire), so each is responsible for the others' rent and damages for the term. Liability cover is the part of a policy that can pay that bill.
 
 | Risk | Who pays without your own policy | What a renters policy adds |
 |---|---|---|
@@ -189,11 +192,11 @@ On the last row: the City ordered about 200 Asteri residents out of their downto
 
 ## Do dorm residents, co-op residents and parents need to think about it?
 
-Cornell's housing pages say nothing about insurance for belongings in a dorm room. Cornell does not state a price or a rule there, so ask Housing and Dining before you decide that a dorm needs no policy.
+Yes, dorm residents too. Cornell's [housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028) says the University is not liable for loss or damage to your personal property and that University insurance does not cover it. The license strongly encourages every resident to get renters insurance and names GradGuard as the preferred provider.
 
 A parent's homeowners policy is a second place to look. Whether it reaches a student's apartment depends on the insurer, so call the insurer and ask in plain words: does it cover my student's belongings and liability at this address?
 
-Greek chapters and co-ops raise their own questions, covered in the reader blocks below. The [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) explains what house rent buys.
+Greek chapters and co-ops raise their own questions, covered in the reader blocks below. The [co-ops and Greek houses guide](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) explains how a sophomore gets into each.
 
 ```reader "If you're a junior or senior already renting"
 Open your lease and search for "insurance." If it names a minimum, buy at least that. If it says nothing, insurance is still your call. The cover that protects your deposit is personal liability, which GradGuard lists for damage to your residence. The costly mistake is renewing for senior year without checking that last year's policy renewed with it.
@@ -204,11 +207,11 @@ Before you buy, ask your own insurer whether your home policy reaches your stude
 ```
 
 ```reader "If you're in a co-op or Greek house"
-Your house's insurance is not yours. Houses that hold second-years must carry [commercial liability insurance of at least $1,000,000 per occurrence](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing), which protects the house, not your laptop. GradGuard covers students on and off campus. Cornell's pages do not say what the eight Cornell-owned co-ops' insurance covers for residents, so email co-ops@cornell.edu or call [607-255-3445](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing). The mistake is assuming that "insurance is in the rent" means your things.
+Your house's insurance is not yours. Houses that hold second-years must carry [commercial liability insurance of at least $1,000,000 per occurrence](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing), which protects the house, not your laptop. GradGuard covers students on and off campus. In the eight Cornell-owned co-ops, the [co-op terms](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions) say University insurance does not cover your personal property and strongly encourage renters insurance. Questions go to co-ops@cornell.edu or [607-255-3445](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing). The mistake is assuming that "insurance is in the rent" means your things.
 ```
 
 ```reader "If you're an international student"
-Buy the policy on arrival, alongside the move-in inspection. If you signed a lease from abroad, read it again for an insurance clause. GradGuard's [vendor page](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships) lists worldwide property coverage, which helps if you carry a laptop home over break. You do not need an SSN [to rent an apartment](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). Cornell's page does not say whether other insurers ask for one, so ask each insurer before you apply.
+Buy the policy on arrival, alongside the move-in inspection. If you signed a lease from abroad, read it again for an insurance clause. GradGuard's [vendor page](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships) lists worldwide property coverage, which helps if you carry a laptop home over break. You do not need an SSN [to rent an apartment](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). Ask each insurer whether it needs one before you apply.
 ```
 
 ```reader "If you're a graduate or professional student"
@@ -263,5 +266,5 @@ Search your lease for the word "insurance" before you sign, then get three quote
 
 - [What a month off campus costs](/cornell/housing/what-a-month-off-campus-costs-cornell/): rent, power, bus and trash tags, with insurance in the total.
 - [Reading an Ithaca lease before you sign](/cornell/housing/how-to-read-ithaca-lease-before-signing/): the clauses to check, insurance among them.
-- [Cornell co-ops and Greek houses](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/): what house rent covers and how to get in.
+- [Cornell co-ops and Greek houses](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/): how a sophomore gets into a co-op or chapter house.
 - [Security deposit rules for Ithaca tenants](/cornell/housing/ithaca-security-deposit-rules-tenants/): the cap, the 14 days and the deductions.

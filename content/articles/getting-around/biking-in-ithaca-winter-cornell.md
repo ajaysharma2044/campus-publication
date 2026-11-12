@@ -260,11 +260,15 @@ Cornell's advice in the same article: register the bike and use a U-lock.
 
 **Are there showers for bike commuters?** At Johnson, [Sage Hall has showers at classroom level](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/). Cornell Recreation lists [locker rooms with showers and day-use lockers](https://scl.cornell.edu/recreation/recreation/recreation-locations/restroom-changing-facilities) at Helen Newman Hall and Teagle Hall, and a single shower in the lower-level restrooms at Noyes Community Recreation Center.
 
+## What to do next
+
+Check your brakes and lock before the first snow, and learn how to load the front rack on a TCAT bus. For the rest of the season, from snow days to parking, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).
+
 ## Related guides
 
-- [Getting to Ithaca and around Cornell, 2026-27](/getting-around/getting-to-ithaca-and-around-cornell/): the whole picture, from buses home to TCAT and parking.
-- [Biking at Cornell: rules, e-bikes, scooters and theft](/getting-around/cornell-bike-ebike-scooter-rules-theft/): registration, path rules and locks for the rest of the year.
-- [Ithaca Bikeshare cost for Cornell students](/getting-around/ithaca-bikeshare-cost-cornell-students/): plans, fees and when a pass pays off.
-- [Is TCAT free for Cornell students?](/getting-around/tcat-free-for-cornell-students-hours-routes/): who rides free, when and on which routes.
-- [Winter storms and Cornell travel](/getting-around/cornell-winter-storms-travel-driving-ithaca/): driving, buses and flights when the weather turns.
-- [Off-campus at Cornell: commute, buses and parking by area](/getting-around/getting-around-ithaca-off-campus-renters/): the commute from Collegetown, downtown, Fall Creek and West Hill.
+- [Getting to Ithaca and around Cornell, 2026-27](/cornell/getting-around/getting-to-ithaca-and-around-cornell/): the whole picture, from buses home to TCAT and parking.
+- [Biking at Cornell: rules, e-bikes, scooters and theft](/cornell/getting-around/cornell-bike-ebike-scooter-rules-theft/): registration, path rules and locks for the rest of the year.
+- [Ithaca Bikeshare cost for Cornell students](/cornell/getting-around/ithaca-bikeshare-cost-cornell-students/): plans, fees and when a pass pays off.
+- [Is TCAT free for Cornell students?](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/): who rides free, when and on which routes.
+- [Winter storms and Cornell travel](/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/): driving, buses and flights when the weather turns.
+- [Off-campus at Cornell: commute, buses and parking by area](/cornell/getting-around/getting-around-ithaca-off-campus-renters/): the commute from Collegetown, downtown, Fall Creek and West Hill.

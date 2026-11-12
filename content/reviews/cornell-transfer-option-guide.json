@@ -4,190 +4,100 @@
  "verdict": "pass",
  "fact_check": [
   {
-   "claim": "Transfer Option is an invitation to apply, not admission; cannot be deferred (A&S)",
-   "source_url": "brief §2.5",
+   "claim": "Transfer Option application due March 15 (2026 date), no fee; 'Application Available Winter 2027' link label; decisions rolling from mid-April, most late April/early May, some wait for final grades; Mid-Term Report can arrive after March 15",
+   "source_url": "https://admissions.cornell.edu/transfer-option-applicants",
    "status": "ok",
-   "note": "brief §2.5 and §6.3; matches A&S wording"
+   "note": "Opened the page; all match. Aid deadline year is not stated on the page; the page's March 15, 2027 for aid comes from the finaid page (brief)."
   },
   {
-   "claim": "A&S conditions: two semesters or three quarters, regionally accredited, 3.5 each semester, no grade below B-, summer does not count, no pre-approval, writing-intensive course, major shift warning",
-   "source_url": "brief §2.4/2.5",
+   "claim": "A&S: invitation, not an offer of admission; cannot be deferred; two semesters/three quarters, regionally accredited; 3.5 each semester, no grade below B-; no pre-approval; 60 Cornell credits and four semesters in residence",
+   "source_url": "brief §2",
    "status": "ok",
-   "note": "brief rows for A&S Transfer Option; page matches"
+   "note": "brief §2 (rows on A&S conditions, 60 credits, four semesters)."
   },
   {
-   "claim": "Application only for offer holders, old portal credentials, no fee, March 15 (2026 pattern), 'Application Available Winter 2027'",
-   "source_url": "brief §2.5 / §9",
+   "claim": "Extras by college: A&S none; CALS resume, schedule, AP, two essays, Landscape Architecture SlideRoom portfolio; Human Ecology resume, AP, 600-word essay, design supplement; Business resume, no interview; ILR AP scores",
+   "source_url": "https://admissions.cornell.edu/transfer-option-applicants",
    "status": "ok",
-   "note": "brief rows for TO deadline, fee, who uses the application"
+   "note": "fixed in place: Source says the Human Ecology design supplement applies only to Design and Environmental Analysis, Fashion Design and Fashion Design Management. Page said it for all Human Ecology applicants; qualified in the reader block and the table."
   },
   {
-   "claim": "Decisions rolling from mid-April, most late April or early May, some wait for final grades",
-   "source_url": "brief §2.2",
+   "claim": "Endowed tuition $73,946 and contract $49,816 for 2026-27; contract colleges are CALS, Human Ecology, ILR, Brooks and Dyson",
+   "source_url": "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters",
    "status": "ok",
-   "note": "brief decision-timing row"
+   "note": "fixed in place: Tuition figures match (brief §7). Chronicle names only CALS, Human Ecology and ILR as contract colleges and lists Brooks among endowed ones; Dyson is not mentioned. Page now lists the three the source names."
   },
   {
-   "claim": "TO extras by college (CALS, Human Ecology, SC Johnson, ILR, A&S none)",
-   "source_url": "brief §2.5",
+   "claim": "Billed $96,318 endowed / $72,188 NY contract; $99,734 and $75,604 with books and personal; fees $1,024, double $13,744, Unlimited meal plan $7,604",
+   "source_url": "brief §7",
    "status": "ok",
-   "note": "matches the 'TO college extras' row"
+   "note": "In brief. Recomputed: 73,946+1,024+13,744+7,604=96,318; 49,816+1,024+13,744+7,604=72,188."
   },
   {
-   "claim": "CALS contact cals_admissions@cornell.edu, 607-255-2036; Hotel sha_admissions@cornell.edu",
-   "source_url": "brief §2.7",
+   "claim": "The $24,130 gap between A&S and CALS resident bills",
+   "source_url": "brief §7",
    "status": "ok",
-   "note": "contact rows in the brief"
+   "note": "Recomputed 96,318 - 72,188 = 24,130."
   },
   {
-   "claim": "CALS 3.0 minimum, 3.5 Biological Sciences; Human Ecology 3.5 competitive; ILR most admits at least 3.4; letter grades wanted",
-   "source_url": "brief §2.4",
+   "claim": "Student Health Plan $1,705 fall plus $2,046 spring",
+   "source_url": "brief §7",
    "status": "ok",
-   "note": "matches brief GPA rows"
+   "note": "brief §7."
   },
   {
-   "claim": "Regular transfer: $85 fee or waiver, March 15, 2027, April 15, 2027 other materials, decisions late April through June",
-   "source_url": "brief §2.2",
+   "claim": "Aid: need-based only; up to $125,000 typical assets tuition covered, up to $75,000 full cost; CSS Profile 2098, FAFSA 002711 by March 15, 2027; HESC 0174/0175; CSS fee waived up to $100,000 AGI",
+   "source_url": "brief §7",
    "status": "ok",
-   "note": "brief rows and timeline"
+   "note": "brief rows (US deadline, Codes, CSS fee waiver)."
   },
   {
-   "claim": "Mid-Term Report is filled in by the applicant; College Report is a standing form, not a recommendation",
-   "source_url": "brief §2.3/6.2",
+   "claim": "Regular transfer: $85 fee or waiver, March 15, 2027 deadline, April 15, 2027 materials, decisions late April to June; SAT/ACT not required",
+   "source_url": "brief §2",
    "status": "ok",
-   "note": "brief states both"
+   "note": "brief §2 (application fee row, test policy)."
   },
   {
-   "claim": "Endowed tuition $73,946; NY contract $49,816; contract colleges CALS, Human Ecology, ILR, Brooks, Dyson",
-   "source_url": "brief §2.14",
+   "claim": "CALS 3.0 minimum, 3.5 Biological Sciences; Human Ecology 3.5 competitive; ILR most admits at least 3.4; CALS contact cals_admissions@cornell.edu, 607-255-2036; Hotel sha_admissions@cornell.edu",
+   "source_url": "brief §3",
    "status": "ok",
-   "note": "brief rows"
+   "note": "brief GPA rows and contact rows."
   },
   {
-   "claim": "Fees $1,024; double $13,744; Unlimited meal plan $7,604",
-   "source_url": "brief §2.14",
-   "status": "ok",
-   "note": "brief rows"
-  },
-  {
-   "claim": "Billed $96,318 endowed; $72,188 NY contract; $99,734 and $75,604 with books and personal",
-   "source_url": "brief §2.14 / §10.1",
-   "status": "ok",
-   "note": "recomputed: 73,946+1,024+13,744+7,604=96,318; 49,816+1,024+13,744+7,604=72,188; 99,734-96,318=3,416=1,234+2,182; 75,604-72,188=3,416"
-  },
-  {
-   "claim": "$24,130 gap between A&S and CALS resident billing",
-   "source_url": "own math",
-   "status": "ok",
-   "note": "96,318 - 72,188 = 24,130"
-  },
-  {
-   "claim": "Student Health Plan $1,705 fall plus $2,046 spring for a new fall entrant",
-   "source_url": "brief §2.17",
-   "status": "ok",
-   "note": "brief rows"
-  },
-  {
-   "claim": "Aid: need-based only; $125,000 tuition covered; $75,000 full cost; 100% of need met; Cornell Aid Estimate soon after admission",
-   "source_url": "brief §2.15",
-   "status": "ok",
-   "note": "brief rows"
-  },
-  {
-   "claim": "CSS Profile 2098, FAFSA 002711, March 15, 2027; HESC 0174/0175; CSS waiver up to $100,000 AGI",
-   "source_url": "brief §2.15",
-   "status": "ok",
-   "note": "brief rows"
-  },
-  {
-   "claim": "Housing: one year on campus, apply within ten days of NetID, no fee or deposit, West/South/North/Program Houses, confirmations mid-June",
+   "claim": "Housing: one academic year on campus, apply within ten days of NetID, no fee/deposit, confirmations mid-June, placement areas",
    "source_url": "brief §2.10",
    "status": "ok",
-   "note": "brief rows"
+   "note": "brief housing rows."
   },
   {
-   "claim": "2026 transfer move-in and Family Orientation August 18, a day after first-years; NSO August 18 to 23; family orientation details early May",
-   "source_url": "brief §2.11",
+   "claim": "2026 transfer move-in and Family Orientation August 18; NSO August 18 to 23; family orientation details arrive early May",
+   "source_url": "brief §6",
    "status": "ok",
-   "note": "brief rows (Aug 17 first-year, Aug 18 transfer)"
+   "note": "brief lines on fall 2026 move-in and family orientation."
   },
   {
-   "claim": "Tuition billed early July and January via Cashnet; parents see bills only if invited",
-   "source_url": "brief §2.14",
+   "claim": "Student/consultant attributions: College Confidential March 26-27, 2020 thread; Richard Ballard (Ithaca College, now CALS junior) in the Sun 2025; Koppelman Group 2023 (never seen own student denied; Reddit reasons flagged uncertain; CALS 3.0/3.5)",
+   "source_url": "brief §8",
    "status": "ok",
-   "note": "brief tuition-billing row"
-  },
-  {
-   "claim": "A&S needs at least 60 Cornell credits and four semesters in residence",
-   "source_url": "brief §2.5",
-   "status": "ok",
-   "note": "brief row"
-  },
-  {
-   "claim": "SAT/ACT neither required nor expected",
-   "source_url": "brief §2.3",
-   "status": "ok",
-   "note": "brief row"
+   "note": "Wording matches the brief's attributions; no added detail or pronouns."
   },
   {
    "claim": "Count of six student and consultant pieces, 2017 to 2026",
-   "source_url": "brief §7",
+   "source_url": "brief §8",
    "status": "ok",
-   "note": "voice-lane tally row"
+   "note": "brief theme table: Transfer Option confusion, 6, 2017 to 2026."
   },
   {
-   "claim": "College Confidential March 26-27, 2020: posters disagreed on guarantee; some cited a CALS FAQ about regular-pool review",
-   "source_url": "brief §7.5",
+   "claim": "2020 Sun story: ILR Transfer Option student from Penn State and a student from Maryland urged messaging classmates; Her Campus author says Cornell approved most of her classes after reviewing syllabi; 2016 Sun: about 30 transfers in North Campus lounges",
+   "source_url": "brief §8",
    "status": "ok",
-   "note": "matches brief"
+   "note": "brief lines on the 2020 Sun story, Her Campus, 2016 lounges."
   },
   {
-   "claim": "Richard Ballard (IC first year, now CALS junior) in the Sun, 2025: offer described inconsistently, feared second application as hard",
-   "source_url": "brief §7.5",
+   "claim": "Reddit commenter January 2026 said the Transfer Option application is the full Common App again with slight changes",
+   "source_url": "brief §8",
    "status": "ok",
-   "note": "matches, no added detail"
-  },
-  {
-   "claim": "Koppelman 2023: never seen own student denied after all requirements; flagged Reddit denial reasons as uncertain; most CALS TO majors 3.0, Bio Sci 3.5",
-   "source_url": "https://www.koppelmangroup.com/blog/2023/7/3/using-the-cornell-transfer-option-read-this-first",
-   "status": "ok",
-   "note": "opened page; the three statements are there ('grain of salt' for the Reddit reasons)"
-  },
-  {
-   "claim": "Reddit commenter January 2026: TO application is full Common App again with slight changes",
-   "source_url": "brief §7.5",
-   "status": "ok",
-   "note": "brief row, attributed to one commenter"
-  },
-  {
-   "claim": "Admissions student Q&A: TO admits found first friends in a large Discord; 2020 Sun story: ILR TO student from Penn State and a Maryland student urged messaging classmates",
-   "source_url": "brief §6.3 / §7",
-   "status": "ok",
-   "note": "brief rows"
-  },
-  {
-   "claim": "Her Campus: Cornell reviewed the author's syllabi and approved most classes after a TO year",
-   "source_url": "brief §7",
-   "status": "ok",
-   "note": "brief row"
-  },
-  {
-   "claim": "2016: about 30 transfers began fall in converted North Campus lounges, placement by application date",
-   "source_url": "https://cornellsun.com/2016/10/03/transfer-students-forced-to-live-in-north-campus-lounges/",
-   "status": "ok",
-   "note": "opened the Sun story: 30 transfers in converted Jameson and High Rise 5 lounges; placement by housing application date"
-  },
-  {
-   "claim": "Fall 2027 entrants will pay 2027-28 prices, which Cornell sets before early April aid offers",
-   "source_url": "none",
-   "status": "ok",
-   "note": "fixed in place: The clause 'which Cornell sets before early April aid offers' has no source and is not in the brief. Cut it; the page now says 'Fall 2027 entrants will pay 2027-28 prices.'"
-  },
-  {
-   "claim": "Worked example: 3.7 fall, spring midterm B+ average with one C+ misses the B- floor",
-   "source_url": "own example",
-   "status": "ok",
-   "note": "C+ is below B-; the example is labelled as hypothetical"
+   "note": "Reddit item in the brief; page tells reader to follow Cornell's page, not the thread."
   }
  ],
  "beats_top": {

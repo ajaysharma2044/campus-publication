@@ -36,7 +36,7 @@ sources:
 - url: https://www.cityofithacany.gov/145/Housing-Inspections
   title: Housing Inspections, City of Ithaca
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-08'
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
@@ -84,7 +84,7 @@ sources:
 - url: https://international.globallearning.cornell.edu/maintaining-your-status/legal-resources
   title: Legal Resources, Cornell Global Learning
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-07'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
@@ -156,7 +156,7 @@ images:
 - Code offices: City 607-274-6508, Town of Ithaca 607-273-1783, Lansing 607-533-7054, Cayuga Heights 607-257-5536 ext. 104.
 ```
 
-Yes, it matters. The City of Ithaca's renter protections, including the [120-day renewal notice](https://ecode360.com/27390826), the [Certificate of Compliance](https://www.cityofithacany.gov/146/Certificate-of-Compliance) and Cornell's [building safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments), stop at the city line. Before you sign in Cayuga Heights, Lansing, Varna or the outer parts of East Hill and South Hill, ask which municipality the address is in and call that code office.
+Yes, it matters. The City of Ithaca's renter protections, including the [120-day renewal notice](https://ecode360.com/27390826), the [Certificate of Compliance](https://www.cityofithacany.gov/146/Certificate-of-Compliance) and Cornell's [building safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments), stop at the city line. Before you sign in Cayuga Heights, Lansing, Varna or the outer parts of East Hill and South Hill, ask which municipality the address is in and call that code office.
 
 ```reader "If you're a grad student"
 The quieter, cheaper places grad students look at often sit on or past the line. Cayuga Heights is a separate village; parts of East Hill are in the Town of Ithaca; Lansing and Varna are outside the City. Lansing West (700 Warren Rd) showed 1BR units at [$1,038 and $1,193 in November 2026](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx), but no safety-tool record and no 120-day notice come with them. The mistake that costs most: assuming the City rules you read about cover you. Ask for the code office's inspection history instead.
@@ -172,7 +172,7 @@ Look at your lease's first page. In the City, a landlord must give you [120 days
 
 ## The city line, rule by rule
 
-Cornell's [neighborhoods page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods) describes areas by name, not by municipality. The name on the listing tells you little. An "Ithaca, NY 14850" mailing address covers places outside the City: the Cayuga Heights code office itself sits at [836 Hanshaw Road, Ithaca NY 14850](https://cayugaheights.gov/departments/code-enforcement/).
+Cornell's [neighborhoods page](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) describes areas by name, not by municipality. The name on the listing tells you little. An "Ithaca, NY 14850" mailing address covers places outside the City: the Cayuga Heights code office itself sits at [836 Hanshaw Road, Ithaca NY 14850](https://cayugaheights.gov/departments/code-enforcement/).
 
 | Rule | City of Ithaca | Town of Ithaca, Lansing, Cayuga Heights, Varna |
 |---|---|---|
@@ -227,7 +227,7 @@ More on how the rule and the waiver work: [Ithaca's 120-day lease renewal rule](
 
 Inside the City, a multiple dwelling needs a Certificate of Compliance, valid [3 years](https://www.cityofithacany.gov/146/Certificate-of-Compliance) (1 year for dorms, fraternities and sororities). The City's [Housing Inspections page](https://www.cityofithacany.gov/145/Housing-Inspections) says inspections are required for all residential rentals in the City. To check one, call the Building Division at 607-274-6508 or email ibd@cityofithaca.org. The [Building Division](https://www.cityofithacany.gov/130/Building-Division) sits in City Hall, 108 E. Green St., 4th floor, open weekdays 8:30 a.m. to 4:00 p.m.
 
-The Cornell and City safety tool shows sprinklers, smoke and carbon monoxide alarms, construction type and property use for [City rentals only](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments). Cornell Off-Campus Living [checks listings against](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/) the City's certificate of compliance database. A Lansing or Cayuga Heights listing has no such check behind it.
+The Cornell and City safety tool shows sprinklers, smoke and carbon monoxide alarms, construction type and property use for [City rentals only](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments). Cornell Off-Campus Living [checks listings against](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/) the City's certificate of compliance database. A Lansing or Cayuga Heights listing has no such check behind it.
 
 A certificate check matters. In 2018 the tenants at 117 Thurston Ave learned [only after signing](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/) that its certificate had expired in November 2015. It then took 53 days from their first complaint to a fixed heater.
 
@@ -317,7 +317,7 @@ If you sign from abroad, the address is your only safety check. Cornell [checks 
 
 ## FAQ
 
-**Is Collegetown in the City of Ithaca?** Yes. Collegetown, Fall Creek and downtown are City neighborhoods, so the 120-day rule, the certificate and the [safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments) all apply.
+**Is Collegetown in the City of Ithaca?** Yes. Collegetown, Fall Creek and downtown are City neighborhoods, so the 120-day rule, the certificate and the [safety tool](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments) all apply.
 
 **Do I need City trash tags in Cayuga Heights?** No. The [$6 City tags](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags) are for City collection; Cayuga Heights picks up trash with its own [Village tags](https://cayugaheights.gov/for-residents/household-yard-refuse/).
 

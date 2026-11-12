@@ -8,9 +8,15 @@ queue_id: q-housing-0079
 kind: start_here
 readers: [short-stay]
 brief: intel/off-campus-housing/brief.md
+sources:
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing", title: "Graduate and professional student campus housing, Cornell Student and Campus Life", accessed: "2026-11-11"}
+  - {url: "https://ithacarenting.com/collegetown/", title: "Collegetown listings, Ithaca Renting", accessed: "2026-11-11"}
+  - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Bus services, privileges and passes, Cornell Transportation and Delivery Services", accessed: "2026-11-11"}
+  - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/visiting-faculty-affiliate-campus-housing", title: "Visiting faculty and affiliate campus housing, Cornell Student and Campus Life", accessed: "2026-11-11"}
+  - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease", title: "Breaking a lease, Cornell Law School Tenant Advocacy", accessed: "2026-11-11"}
 ---
 
-You need housing in Ithaca for months, not a year: you're a visiting scholar, a postdoc, a spring arrival or a one-semester student, you often arrive mid-year, and you usually want a furnished place. Visiting scholars have no guaranteed Cornell housing. The decision in front of you: a Cornell option, a sublet or semester lease, or a full lease you'll have to leave early.
+You need housing in Ithaca for months, not a year: you're a visiting scholar, a postdoc, a spring arrival or a one-semester student, you often arrive mid-year, and you usually want a furnished place. Cornell does not guarantee on-campus housing for visiting faculty ([Cornell visiting faculty housing](https://scl.cornell.edu/residential-life/housing/campus-housing/visiting-faculty-affiliate-campus-housing)). The decision in front of you: a Cornell option, a sublet or semester lease, or a full lease you'll have to leave early.
 
 ## Read in this order
 
@@ -23,10 +29,9 @@ You need housing in Ithaca for months, not a year: you're a visiting scholar, a 
 
 ## Dates to watch
 
-- **Before arrival:** apply to Hasbrouck, which takes rolling applications on 12-month contracts ([Cornell housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)).
-- **December to January:** spring-semester supply is mostly sublets and semester leases; Ithaca Renting lists "Spring/Fall Semester 2027" rows ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
-- **Dec 31:** spring-entering degree students' free first-year TCAT rides end; visiting scholars' bus status is not in our sources ([Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)).
-- **July 31:** most Ithaca leases end, and the next ones start about August 1 ([209 Stewart listing](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095)).
+- **Before arrival:** graduate and professional students apply for campus housing on a rolling basis ([Cornell housing](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing)). Visiting faculty and Cornell affiliates can request a Hasbrouck apartment, offered as space allows, for a temporary, academic-year or 12-month stay; for temporary housing, email gradhousing@cornell.edu ([Cornell visiting faculty housing](https://scl.cornell.edu/residential-life/housing/campus-housing/visiting-faculty-affiliate-campus-housing)).
+- **Spring semester:** Ithaca Renting lists Collegetown studios and single rooms on "Spring Semester 2027" terms, alongside "Fall Semester 2027" and full-year "2027-2028" listings ([Ithaca Renting](https://ithacarenting.com/collegetown/)).
+- **Dec 31:** spring-entering degree students' free first-year TCAT rides end ([Cornell bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)).
 - **When you leave:** on a month-to-month, give one month's notice; a fixed-term lease needs none at its end ([Cornell Law tenant advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease)).
 
 ## When you're done

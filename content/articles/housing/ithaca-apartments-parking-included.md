@@ -65,6 +65,12 @@ sources:
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
+- url: https://www.travishyde.com/listings/detail/9dc6c8ea-ccb9-4242-8aad-1995082e539a
+  title: Westview Terrace listing, Travis Hyde Properties
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
+  title: Parking for Students, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -135,5 +141,5 @@ Ask each landlord three things in writing: whether the space is assigned, what i
 
 Related guides:
 - [Parking in Collegetown and downtown](/cornell/getting-around/parking-collegetown-downtown-ithaca-garages-permits/)
-- [Having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
+- [Cornell parking guide](/cornell/getting-around/cornell-parking-guide-campus-collegetown-ithaca/)
 - [Cornell student parking permits](/cornell/getting-around/cornell-student-parking-permit-cost-rules/)

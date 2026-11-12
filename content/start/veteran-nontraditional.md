@@ -34,7 +34,7 @@ You are a veteran, or you have been out of school two or more years, and you are
 - Before you apply: contact the Veterans Admissions Team ([admissions](https://admissions.cornell.edu/apply/transfer-applicants)).
 - March 15, 2027: Transfer Common App, fee or waiver, CSS Profile and FAFSA due ([admissions](https://admissions.cornell.edu/apply/transfer-applicants)).
 - April 15, 2027: all other materials due, including your recommendation and the Mid-Term Report ([admissions](https://admissions.cornell.edu/apply/transfer-applicants)).
-- Within ten days of getting your NetID: apply for housing, add the Veterans House extra application if you want it ([housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process)).
+- Within ten days of getting your NetID: apply for housing, add the Veterans House extra application if you want it ([housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 - Mid-August 2027 (2026 pattern: August 18 for transfers): move-in and New Student Orientation ([Tatkon Center](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation)).
 
 ## When you're done

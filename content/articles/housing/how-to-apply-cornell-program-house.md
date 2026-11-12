@@ -7,7 +7,7 @@ primary_query: how to apply to a cornell program house
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 130
 rewrites: ''
 readers:
@@ -21,13 +21,13 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing
   title: Upper-Level Undergraduate Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors
   title: Fall Housing Selection for Rising Juniors and Seniors, Cornell Housing
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergraduate Application Process, Cornell Housing
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates/program-houses
@@ -36,7 +36,7 @@ sources:
 - url: https://www.cornellsun.com/article/2026/03/bsu-town-hall-addresses-housing-financial-aid-and-federal-policy-concerns
   title: BSU town hall addresses housing, financial aid and federal policy concerns, The Cornell Daily Sun, March 2026
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates
@@ -62,7 +62,7 @@ images:
 - Program houses use the standard room rates and require a meal plan.
 ```
 
-To apply to a Cornell program house, rank it on the regular campus housing application when your selection round opens. Rising sophomores apply from Feb. 1 to April 4, 2027, and can list up to three program houses ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+To apply to a Cornell program house, rank it on the regular campus housing application when your selection round opens. Rising sophomores apply from Feb. 1 to April 4, 2027, and can list up to three program houses ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 ## What counts as a program house?
 
@@ -99,11 +99,11 @@ rows:
   - {label: "Join Priority Program House Selection, then open selection if you are not placed"}
 ```
 
-**First-years and new transfers.** Apply within 10 days of getting your NetID. You choose between a program house or a residence hall and a room type. If you do not apply to a program house, staff assign your hall by random auto-allocation, and you do not rank halls. Over 500 first-year and transfer students live in program houses. Confirmations go out from mid-June ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)).
+**First-years and new transfers.** Apply within 10 days of getting your NetID. You choose between a program house or a residence hall and a room type. If you do not apply to a program house, staff assign your hall by random auto-allocation, and you do not rank halls. Over 500 first-year and transfer students live in program houses. Confirmations go out from mid-June ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).
 
 **Rising sophomores.** The application closes at 11:59 p.m. on the last day. Time slots come April 7, Priority Program House Selection is April 12, and open selection runs April 13 to 16. Blocks of up to five can apply together (Cornell Housing, spring selection page).
 
-**Rising juniors and seniors.** The 2027-28 round ran Sept. 1 to Sept. 27, 2026, with Priority Program House Selection on Oct. 1. Program house beds can run out in later stages ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
+**Rising juniors and seniors.** The 2027-28 round ran Sept. 1 to Sept. 27, 2026, with Priority Program House Selection on Oct. 1. Program house beds can run out in later stages ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)).
 
 <!-- ad-break -->
 
@@ -115,7 +115,7 @@ For the other houses, the process can be lighter than students expect. At a Blac
 
 ## What does a program house cost?
 
-Program houses use the same room rates as residence halls: $13,744 for a double, $15,566 for a single, $16,595 for a super single and $12,644 for a triple per academic year ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). All undergraduates living in program houses must enroll in a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)). With Bear Traditional at $7,056 and the $50 fee, an upper-level double is $20,850 and a triple is $19,750.
+Program houses use the same room rates as residence halls: $13,744 for a double, $15,566 for a single, $16,595 for a super single and $12,644 for a triple per academic year ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). All undergraduates living in program houses must enroll in a meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates)). With Bear Traditional at $7,056 and the $50 fee, an upper-level double is $20,850 and a triple is $19,750.
 
 If you sign a license and change your mind, the calculator below estimates the cancellation fee.
 
@@ -137,6 +137,6 @@ Pick up to three houses, mark the closing date on your calendar, and read each h
 
 Related guides:
 
-- [Cornell co-ops and Greek houses: cost and how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
+- [Cornell co-op or Greek house instead of a dorm: how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/)
 - [Cornell transfer housing](/cornell/housing/cornell-transfer-housing/)
 - [Cornell off-campus housing guide](/cornell/housing/cornell-off-campus-housing-guide/)

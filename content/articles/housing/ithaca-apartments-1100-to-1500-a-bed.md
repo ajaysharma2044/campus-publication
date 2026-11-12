@@ -7,7 +7,7 @@ primary_query: ithaca apartments 1100 to 1500 a bed
 topic: housing
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 22
 rewrites: ''
 readers:
@@ -20,69 +20,69 @@ subject: Collegetown apartment buildings, Dryden Road, Ithaca
 tools:
 - ithaca-rent-commute-calculator
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://drydensouth.com/availability/
   title: Availability, Dryden South
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-campus housing listings, Ithaca College
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/51224
   title: 406 Stewart Ave. listing, CSP Management
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/48233
   title: 400-404 Stewart Ave. listing, CSP Management
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/27030
   title: 408 Stewart Ave. listing, CSP Management
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/17112
   title: 116 Osmun Place listing, CSP Management
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cspmgmt.managebuilding.com/Resident/public/rentals/21495
   title: 909 N. Cayuga St. listing, CSP Management
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/college-town/eddygate%20apartments
   title: Eddygate Apartments, Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/listings/detail/6b6707e7-3de2-48ad-8595-8c6afa4f5e64
   title: Lakeland Apartments listing, Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.travishyde.com/listings/detail/248c5d01-fe46-4c91-878e-e56b4947f195
   title: 108 Lake St. listing, Travis Hyde Properties
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/availability
   title: Availability, PPM Homes
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/villager-apartments-100016
   title: Villager Apartments listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962
   title: Pine Hill Apartments listing, Cornell off-campus housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
   title: The Ivy to establish new luxury housing in Collegetown, opens fall 2026, The Cornell Daily Sun, 2025
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: N.Y. General Obligations Law 7-108
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/living-campus
   title: Living off campus, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/graduate-students
   title: Graduate students, Cornell Financial Aid
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources
   title: Rental Listings & Resources, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images: []
 ---
 
@@ -94,7 +94,7 @@ images: []
 - Collegetown shares lease early: 14 of Ithaca Renting's 67 Collegetown listings for summer 2027 were already sold out.
 ```
 
-For $1,100 to $1,500 a month, you can rent a bed in a two- to five-bedroom Collegetown share, a downtown studio, or a small studio or one-bedroom near campus on your own. Over a 12-month lease, that budget comes to $13,200 to $18,000 a year, against $13,744 for a 2026-27 Cornell residence hall double ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+For $1,100 to $1,500 a month, you can rent a bed in a two- to five-bedroom Collegetown share, a downtown studio, or a small studio or one-bedroom near campus on your own. Over a 12-month lease, that budget comes to $13,200 to $18,000 a year, against $13,744 for a 2026-27 Cornell residence hall double ([Cornell housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What does $1,100 to $1,500 a bed get you in Ithaca?
 
@@ -154,7 +154,7 @@ Other landlords price by the apartment, so you divide by the number of bedrooms.
 | 406 Stewart Ave., 2BR | CSP Management | $2,300 a month | $1,150 | 0.40 mi |
 | 400-404 Stewart Ave., unit 2A, 3BR | CSP Management | $4,045 a month | $1,348.33 | 0.41 mi |
 | 327 Eddy St., 3BR | Goldenrod Real Estate | $3,600 to $3,900 a month | $1,200 to $1,300 | 0.37 mi |
-| 210-218 Delaware Ave., 3BR and 5BR | Not named on listing | $3,750 (3BR), $6,250 (5BR) a month | $1,250 | 0.51 mi |
+| 210-218 Delaware Ave., 3BR and 5BR |  | $3,750 (3BR), $6,250 (5BR) a month | $1,250 | 0.51 mi |
 | Eddygate, 110 Dryden Road, 3BR | Travis Hyde Properties | $3,940 to $4,275 a month | $1,313.33 to $1,425 | 0.34 mi |
 
 Sources: [Dryden South availability](https://drydensouth.com/availability/); PJ Apartments, Goldenrod and Delaware Ave. listings on the [Ithaca College off-campus housing site](https://offcampushousing.ithaca.edu/listing); CSP Management listings for [406 Stewart Ave.](https://cspmgmt.managebuilding.com/Resident/public/rentals/51224) and [400-404 Stewart Ave.](https://cspmgmt.managebuilding.com/Resident/public/rentals/48233); [Eddygate, Travis Hyde Properties](https://www.travishyde.com/college-town/eddygate%20apartments). Per-person figures divide the monthly rent by the bedrooms.
@@ -185,7 +185,7 @@ Yes, in a studio or a small one-bedroom. The trade-off is space or distance, and
 | Villager Apartments, 316 Highland Road (Beer Properties) | Studios, small 1BR | $1,115 to $1,230 | Gas, heat, hot water | 0.88 mi |
 | Pine Hill Apartments, 709 Triphammer Road (Beer Properties) | 1BRs | $1,390 to $1,490 | Gas, heat, hot water | 1.10 mi |
 
-Sources: Ithaca Renting downtown page; CSP Management listings for [408 Stewart Ave.](https://cspmgmt.managebuilding.com/Resident/public/rentals/27030), [116 Osmun Place](https://cspmgmt.managebuilding.com/Resident/public/rentals/17112) and [909 N. Cayuga St.](https://cspmgmt.managebuilding.com/Resident/public/rentals/21495); [PPM Homes availability](https://www.ppmhomes.com/availability); Travis Hyde listings for [108 Lake St.](https://www.travishyde.com/listings/detail/248c5d01-fe46-4c91-878e-e56b4947f195) and [Lakeland Apartments](https://www.travishyde.com/listings/detail/6b6707e7-3de2-48ad-8595-8c6afa4f5e64); Cornell off-campus marketplace listings for [Villager Apartments](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/villager-apartments-100016) and [Pine Hill Apartments](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962). Rows without a year print no lease year.
+Sources: Ithaca Renting downtown page; CSP Management listings for [408 Stewart Ave.](https://cspmgmt.managebuilding.com/Resident/public/rentals/27030), [116 Osmun Place](https://cspmgmt.managebuilding.com/Resident/public/rentals/17112) and [909 N. Cayuga St.](https://cspmgmt.managebuilding.com/Resident/public/rentals/21495); [PPM Homes availability](https://www.ppmhomes.com/availability); Travis Hyde listings for [108 Lake St.](https://www.travishyde.com/listings/detail/248c5d01-fe46-4c91-878e-e56b4947f195) and [Lakeland Apartments](https://www.travishyde.com/listings/detail/6b6707e7-3de2-48ad-8595-8c6afa4f5e64); Cornell off-campus marketplace listings for [Villager Apartments](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/villager-apartments-100016) and [Pine Hill Apartments](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/pine-hill-apartments-99962).
 
 The standout is 408 Stewart Ave., a 1920 building where utilities, internet and trash are included. Its Apt. 5 studio opens Aug. 9, 2027, and Apt. 2 opens June 11, 2027 (CSP Management). Twelve months of Apt. 5 is $13,800 ($1,150 x 12), $56 more than a Cornell double, for a place of your own with the bills paid.
 
@@ -254,12 +254,12 @@ Hold your landlord's renewal offer against the 2027-28 ranges in the tables abov
 **Is a per-bed price the same as a per-person price?**
 Yes, for one person in one bedroom. Ithaca Renting and Dryden South quote per person. PPM Homes, CSP Management and Travis Hyde quote the whole apartment, so a $4,045 three-bedroom is $1,348.33 a person. Check which one a listing uses before you split it with friends.
 
-**Why do some listings show no lease year?**
-Many listings on the Ithaca College and Cornell marketplaces, including the PJ Apartments, Goldenrod and Delaware Ave. listings above, print a price with no lease year or period. Ask the landlord which year the price covers and what it includes before you compare it with a 2027-28 price.
+**Are all these prices for the same lease year?**
+No. The Ithaca Renting Collegetown, Dryden South and CSP Management prices above are for 2027-28, and most of Ithaca Renting's downtown budget studios are for 2026-27. For the PJ Apartments, Goldenrod, Delaware Ave., PPM Homes, Travis Hyde and Beer Properties units, ask the landlord which year the price covers and what it includes before you compare it with a 2027-28 price.
 
 ## Before you sign
 
-Decide whether $1,100 to $1,500 is rent alone or rent plus utilities, and how many roommates you want. Cornell advises seeing a place in person before you sign ([Cornell rental listings](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/rental-listings-resources)), and read the whole lease before you pay anything. New to renting in Ithaca? Start with the [off-campus starter page](/start/off-campus/).
+Decide whether $1,100 to $1,500 is rent alone or rent plus utilities, and how many roommates you want. Cornell advises seeing a place in person before you sign ([Cornell rental listings](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/rental-listings-resources)), and read the whole lease before you pay anything. New to renting in Ithaca? Start with the [off-campus starter page](/start/off-campus/).
 
 **Related guides**
 

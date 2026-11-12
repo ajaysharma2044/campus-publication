@@ -33,7 +33,7 @@ sources:
 - url: https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed
   title: 'The Cornell Daily Sun: 301 College Ave. opens for student housing, Sept. 2026'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: 'Cornell Housing: Academic-year housing license'
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/news-events/news/residential-improvement-project-underway
@@ -85,7 +85,7 @@ Start with your building. Cornell lists shared kitchens in Cascadilla Hall, Shel
 
 Source: Cornell Housing pages for [Cascadilla Hall](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/cascadilla-hall), [Sheldon Court](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/sheldon-court), [Schuyler House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/schuyler-house) and [301 College Avenue](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue), and the [Townhouse renovation notice](https://scl.cornell.edu/news-events/news/residential-improvement-project-underway).
 
-The Sun reported in September 2026 that the kitchenettes at 301 College Ave. have no stoves ([The Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)). Cornell's housing license says full-size refrigerators are provided in the Townhouse Apartments and at 301 College Ave. ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+The Sun reported in September 2026 that the kitchenettes at 301 College Ave. have no stoves ([The Sun](https://www.cornellsun.com/article/2026/09/301-college-ave-opens-for-student-housing-resident-describes-it-as-incomplete-rushed)). Cornell's housing license says full-size refrigerators are provided in the Townhouse Apartments and at 301 College Ave. ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
 Cooperative houses are a different model. 660 Stewart Avenue, for one, lists an optional house meal plan five nights a week with one cooking night ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/660-stewart-avenue)).
 

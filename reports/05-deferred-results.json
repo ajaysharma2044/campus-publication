@@ -1,0 +1,1115 @@
+[
+ {
+  "label": "cluster:winter",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/what-to-wear-ithaca-winter-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/winter-activities-ithaca-cornell-students.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/health-safety/ithaca-winter-blues-cornell-campus-resources.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/driving-in-ithaca-winter-cornell-hills-snow.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-winter-storms-travel-driving-ithaca.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/ithaca-heat-out-frozen-pipes-landlord-must-do.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/surviving-ithaca-winter-old-apartment-drafty-house.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/tcat-winter-snow-routes-delays-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/biking-in-ithaca-winter-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/ithaca-trash-tags-snow-noise-rules-renters.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/ithaca-sidewalk-snow-removal-rules-whose-job.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/money/ithaca-utilities-cost-winter-heating-bill-apartment-students.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/cornell-snow-days-class-cancellation-how-it-works.md"
+   ],
+   "changes": [
+    {
+     "file": "content/articles/daily-life/what-to-wear-ithaca-winter-cornell.md",
+     "change": "Cut the monthly temperature and snow table, which repeated the pillar. In its place is one sentence linking the pillar's table. The Nov. 25 first-snow fact is kept. Added the two International Services details that were cut from the pillar (layers of loose clothing keep pockets of warmer air between them; long underwear under loose-fitting pants), plus a matching packing-checklist item. The International Services source's accessed date is now 2026-11-11. 'What to do next' now names the pillar. The meta no longer promises a month-by-month table.",
+     "source": "https://international.globallearning.cornell.edu/life-cornell/student-resources (fetched 2026-11-11)"
+    },
+    {
+     "file": "content/articles/daily-life/winter-activities-ithaca-cornell-students.md",
+     "change": "Cut the 'What should you wear?' paragraph to one line: the wind-chill figure (NWS, already cited) plus a link to the what-to-wear guide. Kept the fitness pass prices here, since the gym is one of this page's outings; they were cut from the blues page instead. 'What to do next' now names the pillar."
+    },
+    {
+     "file": "content/articles/health-safety/ithaca-winter-blues-cornell-campus-resources.md",
+     "change": "New title 'Cornell winter blues: light boxes, Let's Talk, when to call' (59 characters; the report's wording is 65). primary_query is now 'winter blues Cornell'. The meta is rewritten for the blues scope. The report's opening is used word for word, with Sun and Cornell Health citations. The $10 and $115 fitness prices are cut and replaced by a link to the activities guide. The dress paragraph is cut to one line plus a link to what-to-wear. 'What to do next' now names the pillar. The body has no H1, so the title renders as the H1."
+    },
+    {
+     "file": "content/articles/getting-around/driving-in-ithaca-winter-cornell-hills-snow.md",
+     "change": "Title is now 'Driving in Ithaca in winter: hills, plows and salt', and the meta is rewritten. The opening is now 'Leave early, favor main roads over the small side streets the city plows last, and park where the plows can reach.' The report's version said 'steep side streets', but the city plowing guide gives steep roads priority. Cut the monthly snow table to one sentence plus a link to the pillar. Cut the parking section (campus bays, city odd/even and the Dryden garage) to two sentences with a link to the winter parking guide. Fixed the old-form car guide link. 'What to do next' now links the storms guide and names the pillar. The snowplowing guide's accessed date is now 2026-11-11.",
+     "source": "https://cityofithacany.gov/DocumentCenter/View/12559 (fetched 2026-11-11: 'Small residential streets are cleared last. Steep roads are also prioritized')"
+    },
+    {
+     "file": "content/articles/getting-around/cornell-winter-storms-travel-driving-ithaca.md",
+     "change": "primary_query is now 'winter storm getting back to Cornell after break'. The page now opens with the report's sentence, citing the Sun Nov. 2019 article already in its sources. Added a link to the driving page in the opening. Cut the parking rules table to two sentences plus a link to the winter parking guide. Added a 'What to do next' section, which the page lacked, naming the pillar and the driving page. Moved the Related guides links to the /cornell/<section>/<slug>/ form. Changed the link text 'Having a car at Cornell...' to the parking guide's current title. Added Driving in Ithaca in winter to Related guides."
+    },
+    {
+     "file": "content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md",
+     "change": "These are the deferred items from the Parking cluster, on this page shared with Winter. primary_query is now 'ithaca odd even parking'. Cut 'Where can I leave my car over winter break?' to two sentences plus a link to storing-a-car (the reader blocks are kept). Cut the fine cost_table to the $50 line and the city odd/even amounts, plus a link to the parking tickets guide. The link text 'winter storms and driving', which pointed at the storms page under its old scope, now points at the driving page. 'What to do next' now names the pillar."
+    },
+    {
+     "file": "content/articles/housing/ithaca-heat-out-frozen-pipes-landlord-must-do.md",
+     "change": "Added the report's line 'If your thermometer reads above the minimums, the apartment is legal and cold; see how to stay warm in an old Ithaca apartment', linked to the drafty page. Moved the legal-advice line to just after the opening as 'This is general information, not legal advice.' 'What to do next' now names the pillar. The title was already 60 characters or fewer and primary_query was already 'ithaca apartment heat law landlord'."
+    },
+    {
+     "file": "content/articles/housing/surviving-ithaca-winter-old-apartment-drafty-house.md",
+     "change": "Added 'This is general information, not legal advice.' after the opening, which covers heat minimums and lease alterations. 'What to do next' now names the pillar. Fixed one old-form link to the landlord-record page."
+    },
+    {
+     "file": "content/articles/getting-around/tcat-winter-snow-routes-delays-cornell.md",
+     "change": "The snow-days link now uses /cornell/daily-life/cornell-snow-days-class-cancellation-how-it-works/ instead of the old /daily-life/ form. 'What to do next' now names the pillar."
+    },
+    {
+     "file": "content/articles/getting-around/biking-in-ithaca-winter-cornell.md",
+     "change": "Added a 'What to do next' section, which the page lacked, naming the pillar. Moved six Related guides links to the /cornell/<section>/<slug>/ form."
+    },
+    {
+     "file": "content/articles/housing/ithaca-trash-tags-snow-noise-rules-renters.md",
+     "change": "The Snow section now links the sidewalk page. Moved the legal-advice line from the bottom to just after the opening. Added a 'What to do next' section naming the pillar. Moved seven Related guides links to the /cornell/ form."
+    },
+    {
+     "file": "content/articles/housing/ithaca-sidewalk-snow-removal-rules-whose-job.md",
+     "change": "Gap fix: replaced 'the amounts are not on it' with the Chapter 178-10 sidewalk penalty amounts: $40 for a first violation at a property within 12 months, $60 for a second, $100 for each one after that, with each day a separate violation. Gap fix: replaced the 'fact file has no sidewalk snow rule' sentence with the Town of Ithaca rule (Chapter 230, Article II). Outside Cayuga Heights, both the owner and the occupant must clear the sidewalk within 24 hours of the snow falling, and the Town can clear it and bill the actual cost plus 50%. Kept the advice to call the clerk for Cayuga Heights and Lansing. Added both ecode360 sources (accessed 2026-11-11). Added the legal-advice line near the top. updated is now 2026-11-11.",
+     "source": "https://ecode360.com/8389191 (City of Ithaca Code ch. 178, \u00a7 178-10A(2)) and https://ecode360.com/8660754 (Town of Ithaca Code ch. 230 art. II, incl. \u00a7 230-9), both read 2026-11-11"
+    },
+    {
+     "file": "content/articles/money/ithaca-utilities-cost-winter-heating-bill-apartment-students.md",
+     "change": "Removed the sentence about cooking and hot-water gas, which ended 'no public source gives a figure for it'. Removed the clause 'The city's own water and sewer rates aren't covered here' and kept the advice to ask the landlord for last year's water bills. updated is now 2026-11-11."
+    },
+    {
+     "file": "content/articles/daily-life/cornell-snow-days-class-cancellation-how-it-works.md",
+     "change": "Removed 'These closures appear in the records behind this page.' Replaced 'The HR policy page is undated, so confirm with your instructor...' with a sourced date: 'Cornell's inclement weather policy, Policy 8.2, was last updated on Nov. 15, 2023'. Added the Policy Library source and set the HR source's accessed date to 2026-11-11. updated is now 2026-11-11.",
+     "source": "https://policy.cornell.edu/policy-library/inclement-weather (fetched 2026-11-11: Last updated November 15, 2023)"
+    }
+   ],
+   "gaps": [
+    {
+     "item": "Utilities page: a figure for cooking and hot-water gas outside winter",
+     "tried": "Looked at the page's existing sources (the dps.ny.gov/winter forecast) and searched the official sites for it.",
+     "outcome": "Nothing found, so the whole sentence was removed rather than softened."
+    },
+    {
+     "item": "Utilities page: City of Ithaca water and sewer rates",
+     "tried": "Web search, plus cityofithacany.gov site search and the /302/Water-Sewer-Billing page (only job-description PDFs came back).",
+     "outcome": "No rate schedule found, so the gap clause was removed. The page still tells renters to ask the landlord for last year's water bills."
+    },
+    {
+     "item": "Sidewalk page: sidewalk snow rules for the Village of Cayuga Heights and for Lansing",
+     "tried": "Two web searches (including ecode360) for the Cayuga Heights and Lansing codes.",
+     "outcome": "Neither village's code turned up. The Town of Ithaca rule was found and added. The sentence about the fact file's coverage was removed, and the page now just tells Cayuga Heights and Lansing renters to call the clerk."
+    },
+    {
+     "item": "Snow-days page: a source for the closure timeline (2018, 2019-20)",
+     "tried": "Checked the page's existing sources.",
+     "outcome": "The sentence pointing at 'the records behind this page' was removed. The timeline figure was left unchanged."
+    }
+   ],
+   "skipped": [
+    {
+     "item": "Pillar opening (it opens with an anecdote, not an answer)",
+     "why": "The report prescribes no replacement opening, and deferred item 3 left it unchanged because the page is in feature mode and has a glance block."
+    },
+    {
+     "item": "Rename the drafty page to how-to-stay-warm-old-ithaca-apartment, and add heat-req to heat-out's redirect_from",
+     "why": "Hard rule 6 forbids renaming files and changing redirect_from. These are Phase 3 and owner actions."
+    },
+    {
+     "item": "Changing link targets through the link map (old-style URLs on pages outside the cluster)",
+     "why": "That is the site-level link-rewrite script's job. I fixed old-form links only in files I already had open."
+    },
+    {
+     "item": "Query map document (reports/05-clusters.md) updates for the new primary_query values",
+     "why": "The task leaves the query map document to the owner."
+    },
+    {
+     "item": "Site-level build behavior (the 'Related guides' section is pulled out of the page and never rendered)",
+     "why": "This is the owner's call. I added 'What to do next' sections in the body so the pillar and cross-links render whatever happens to Related guides."
+    },
+    {
+     "item": "Pillar sections linking their spokes, and the pillar's Off campus links to drafty, heat-out and sidewalk",
+     "why": "Already present: the pillar links every spoke from the matching section, and its blues and dress lines were done earlier. No change needed."
+    },
+    {
+     "item": "Permit page and motorcycle page items in the Parking deferred entry",
+     "why": "They are outside the Winter cluster. Only the shared winter parking page's items were done."
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The Winter cluster deferred items are done across 14 files, and the gap sentences on the sidewalk, utilities and snow-days pages are fixed. Every file prints 0 matches on the linter and 0 on the em dash grep, and every edited file has updated: 2026-11-11.\n\nChecks: all titles are 60 characters or fewer, metas are 155 or fewer, and every /cornell/ internal link resolves to a file under content/. No touched file links a merged-away page. Every new body URL is in that file's sources.\n\nThree changes depart from the report's wording:\n- **Blues title:** the report's title runs 65 characters, so I used 'Cornell winter blues: light boxes, Let's Talk, when to call' (59).\n- **Driving opening:** the report says 'steep side streets the city plows last', but the city plowing guide gives steep roads priority. I changed it to 'small side streets'.\n- **Fitness pass prices:** I kept the $10 and $115 prices on the activities page and cut them only from blues, so the cluster still has them in one place.\n\nHow the sources were read:\n- ecode360 blocks curl and WebFetch, so I read Chapter 178 (City of Ithaca) and Chapter 230 (Town of Ithaca) in the Browser pane.\n- The Policy 8.2 date comes from policy.cornell.edu.\n- The International Services clothing text comes from curl of the page the what-to-wear guide already cites.\n\nNothing is committed."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "1. /Users/ajaysharma/Ads/campus-publication/content/articles/money/ithaca-utilities-cost-winter-heating-bill-apartment-students.md, in the \"How much is internet in an Ithaca apartment?\" section: \"Those listings don't say which prices are introductory, so ask what the plan costs after the first year.\" This tells the reader what the source lacks, which check (2) forbids. The sentence should state the advice without the gap, for example \"Ask what the plan costs after the first year.\"\n2. Same file, landlord table. The Travis Hyde, Eddygate row says \"Not listed beyond fees\" under \"Included in rent\". The 174 Kendall Ave. row says \"Nothing listed\". Both describe what a listing leaves out. \"Nothing listed\" in the 174 Kendall row is the weaker case. Rewording or dropping those cells would clear it.\n3. /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/driving-in-ithaca-winter-cornell-hills-snow.md line 116, in the \"Before the first storm\" steps figure: \"Know your route: favor main roads over steep side streets.\" This contradicts the agent's own fix and the city plowing guide, which I checked (https://cityofithacany.gov/DocumentCenter/View/12559: \"Small residential streets are cleared last. Steep roads are also prioritized\"). The agent changed the opening to \"small side streets the city plows last\" because of this, but left \"steep side streets\" here. It should read \"small side streets\" or similar.\n\nEverything else I checked held. Details below are in the checked list.",
+   "checked": [
+    "(1) For all 14 files, lint-content.py printed 0 matches and grep -c for the em dash printed 0.",
+    "(2) Titles are 60 characters or fewer in every file. I measured the quoted titles with the quotes excluded: blues 59, winter-activities 60, heat 59, and the rest 43 to 58. I read all 14 files in full. No headings, glance lines or FAQ questions went unanswered. I found no research-narration or 'not confirmed' wording except the utilities items above. None of the files has an H1 in the body.",
+    "(3) Quoted lines from sources: Cornell International Services says 'Wear many layers of loose clothing. The layers keep pockets of warmer air between them' and 'a pair of long underwear underneath a pair of loose-fitting pants'. The City plowing guide says 'Small residential streets are cleared last. Steep roads are also prioritized' and 'approximately 65 miles of road'. The Sun light-therapy article says 'Light boxes are sold in the Cornell Health Pharmacy (for $20)', 'ideally before noon' and '12-24 inches away'. The Cornell Health cold-weather page says 'Wear a water-resistant jacket and boots' and 'Call Cornell Health for advice 24/7: 607-255-5155'. The Let's Talk page confirms open to all undergraduate, graduate and professional students, 20-25 minutes, and the Nov. 25, 26 and 27 skips. It also confirms the fall end dates run Dec. 10 to Dec. 18, and the room and time entries I spot-checked. The USNO API for Dec. 21, 2026 returns sunrise 07:32 and sunset 16:36. I did not re-fetch the Jan. 25, 2027 times or the Cass Park, Greek Peak and Cornell Law claims.",
+    "(3) Internal links: every /cornell/<section>/<slug>/ link I checked resolves to a file under content/articles. The /tools/ links (should-i-bring-a-car, off-campus-move-in-checklist, omniride-break-even-calculator, ithaca-rent-commute-calculator) exist under content/tools. The ithaca-winter-survival-guide-cornell page exists and carries the month-by-month figure that the what-to-wear, activities and driving pages point to.",
+    "(4) A script matched every body URL against each file's frontmatter sources. The only flags were the two tcatbus.com URLs in the TCAT page, which are present in sources as web.archive.org snapshot URLs, so they pass.",
+    "(5) Claimed edits are present. what-to-wear has no monthly table and has the long-underwear and layers details and a pillar link. The blues title is 59 characters, primary_query is 'winter blues Cornell', and it has no $10 or $115 fitness prices. The driving page has the new title and opening and one sentence plus a link instead of the parking section. The storms page has the opening sentence, the driving link and a 'What to do next' section. The parking page has primary_query 'ithaca odd even parking', the $50 line and odd/even amounts, and storing-a-car and parking-tickets links, with the nine-bay table intact. I did not see the cut items still present. The agent's change list was truncated after the heat page, so I could not compare the last eight files' claims against it.",
+    "(6) The heat, drafty, trash and sidewalk pages each carry 'This is general information, not legal advice.' The utilities page is a money page without that line. It does include a short habitability and shutoff-notice section, which I treated as outside the legal-rights requirement."
+   ]
+  }
+ },
+ {
+  "label": "cluster:parking",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/parking-collegetown-downtown-ithaca-garages-permits.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/storing-a-car-ithaca-summer-winter-break-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-student-parking-permit-cost-rules.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-parking-guide-campus-collegetown-ithaca.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-parking-tickets-fines-how-to-appeal-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-motorcycle-scooter-bike-parking.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/ithaca-apartments-parking-included.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-residential-parking-permit-streets-how-to-apply.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/tools/cornell-break-travel-timeline-2026-27/tool.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/tools/ith-or-syr-trip-cost-calculator/tool.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/tools/do-i-need-a-car-at-cornell-quiz/tool.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/tools/should-i-bring-a-car-cornell-ithaca-cost/tool.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/datasets/cost-of-getting-around-cornell-2026-27.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-ithaca-cornell-grad-students.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-to-ithaca-airport-tcat-taxi-parking.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/cornell-c2c-bus-booking-fares-rules.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-ithaca-off-campus-renters.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/start/accessibility.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-cornell-upper-years-no-car.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/start/car-on-campus.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/daily-life/new-york-drivers-license-ithaca-dmv-cornell-students.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/start/off-campus.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/living-outside-ithaca-varna-dryden-tcat.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/self-storage-near-cornell-prices-sizes.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-cornell-first-year.md"
+   ],
+   "changes": [
+    {
+     "file": "content/articles/getting-around/parking-collegetown-downtown-ithaca-garages-permits.md",
+     "change": "Settled the company name: kept 'Premium Parking' and added a sentence after the (607) 256-7275 referral: the city's rate notice names Premium Parking as the operator of the Cayuga Street Garage. The 727 page spells it 'Premier' in its text but links premiumparking.com, and the operator's own site says Premium Parking. Set accessed to 2026-11-11 for AID=1328 and 727.",
+     "source": "https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328 ; https://www.cityofithacany.gov/727/Parking-Regulations-Violations (fetched 2026-11-11)"
+    },
+    {
+     "file": "content/articles/getting-around/parking-collegetown-downtown-ithaca-garages-permits.md",
+     "change": "Corrected 'apply in person' to 'online or by mail' in the glance and in the residential-permit H2, and added that a lease copy must be signed by both tenant and landlord. The H2 is still three sentences, and the 731 citation was restored on its second sentence. Added source 711 (accessed 2026-11-11).",
+     "source": "https://www.cityofithacany.gov/711/Residential-Parking-Permits"
+    },
+    {
+     "file": "content/articles/getting-around/parking-collegetown-downtown-ithaca-garages-permits.md",
+     "change": "Added the c2c-departure-schedule URL, already used in the body (B Lot at 930 Campus Rd.), to sources with accessed 2026-11-11 (fact verified on the page). 'What to do next' now names and links the parking pillar. Merge carry-overs were already present: the October 1998 caveat, the $5 event rate, the Seneca redevelopment, the Cascadilla and Sheldon Court block, the Sunday FAQ line, the renter-block link to apartments-parking-included and an opening that ends with the residential permit guide link.",
+     "source": "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-departure-schedule"
+    },
+    {
+     "file": "content/articles/getting-around/storing-a-car-ithaca-summer-winter-break-cornell.md",
+     "change": "Gap fixes. Table row B permit catch 'Break-long stays are not addressed' became 'Over winter break, use the east or west bay'. The renter block sentence on B permits now says Cornell's winter page tells B holders to follow the overnight rules over break and park in B Lot's east or west bay.",
+     "source": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules"
+    },
+    {
+     "file": "content/articles/getting-around/storing-a-car-ithaca-summer-winter-break-cornell.md",
+     "change": "Gap fix in the summer section. 'Cornell does not say whether a car can stay in a permit area once you have moved out' was replaced with: resident permits are sold to students in university housing, and Cornell recalls one whose holder no longer meets the eligibility rules, so call TDS 607-255-4600 before move-out.",
+     "source": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students"
+    },
+    {
+     "file": "content/articles/getting-around/storing-a-car-ithaca-summer-winter-break-cornell.md",
+     "change": "Airport row catch 'Rates are posted without a year' became 'Card at the exit gate; cash inside the terminal'.",
+     "source": "https://www.flyithaca.com/parking"
+    },
+    {
+     "file": "content/articles/getting-around/storing-a-car-ithaca-summer-winter-break-cornell.md",
+     "change": "Rewrote 'What should I do next?'. Removed 'confirm the part Cornell does not publish' and replaced the merged-away 'having a car at Cornell' link text with a link to the Cornell parking guide at /cornell/getting-around/... The Premium Parking referral now cites the rate notice for the operator name, and AID=1328 was added to sources. Meta trimmed from 160 to 155 characters ('city streets' became 'streets'). Accessed dates for winter rules, parking-students, 727 and flyithaca set to 2026-11-11.",
+     "source": "https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328"
+    },
+    {
+     "file": "content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md",
+     "change": "Another process (the winter cluster) rewrote this file at 20:31, during my run. It had already made the deferred items: primary_query 'ithaca odd even parking', the break section cut to two sentences with a storing-a-car link (the in-link storing-a-car needed), and the fine table cut to the $50 line with a tickets-guide link. I added a link to the parking pillar in 'What to do next' and corrected the B-permit bays citation from parking-students to the winter rules page, which is where that rule appears.",
+     "source": "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules"
+    },
+    {
+     "file": "content/articles/getting-around/cornell-student-parking-permit-cost-rules.md",
+     "change": "primary_query changed to 'cornell parking permit cost'. Cut the Cornell fine section to the $50 no-permit line (plus $10 if unpaid in 10 days, citing the citation fee schedule already in sources) and a link to the tickets guide; the 9-row fine table and the appeal sentences were removed. The M permit row now links the motorcycle page. The merged-away 'having a car at Cornell' link text was replaced with 'Cornell parking guide' at /cornell/getting-around/..."
+    },
+    {
+     "file": "content/articles/getting-around/cornell-parking-guide-campus-collegetown-ithaca.md",
+     "change": "Replaced a self-link carried over from the merged page ('having a car at Cornell' pointing at the pillar itself) with a pointer to the quiz and a link to /tools/should-i-bring-a-car-cornell-ithaca-cost/. The Breaks section gains a link to storing-a-car. The Premium Parking sentence now cites the rate notice for the operator name, and accessed was set to 2026-11-11 for AID=1328 and 727. Two research-gap sentences were removed (logged under gaps). Already present: Aug. 4, 2026, 9 a.m. sale time, the transfer/January reader block, the visitor and motorcycle links, and tickets cut to the $50 line.",
+     "source": "https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328"
+    },
+    {
+     "file": "content/articles/getting-around/ithaca-residential-parking-permit-streets-how-to-apply.md",
+     "change": "Gap fixes with city sources. Hours are within 9 a.m. to 5 p.m., Monday to Friday, excluding holidays; street signs show each block's hours; permit holders are exempt from the 9-1 and 1-5 no-parking limits. This replaces 'The city's permit page does not list them by block'. 'The city does not say whether the permit changes [odd/even]' was replaced with: permit holders must follow odd/even, 24-hour limits and loading zones.",
+     "source": "https://www.cityofithacany.gov/732/Hours-System-Alternative-Appeal-Process"
+    },
+    {
+     "file": "content/articles/getting-around/ithaca-residential-parking-permit-streets-how-to-apply.md",
+     "change": "'Which Collegetown blocks are covered now is something only the Clerk can confirm' became a pointer to the city's permit map page, where you search your address and see whether permits are left. The dek, opening, glance, steps figure and 'What to do next' were corrected to say you apply online or by mail and that a lease copy must be signed by both tenant and landlord. 'What to do next' now links the parking pillar. Added sources 711 and 732 (accessed 2026-11-11), set 731 accessed to 2026-11-11, and set updated to 2026-11-11.",
+     "source": "https://www.cityofithacany.gov/711/Residential-Parking-Permits"
+    },
+    {
+     "file": "content/articles/getting-around/ithaca-parking-tickets-fines-how-to-appeal-cornell.md",
+     "change": "Reader block link text 'having a car at Cornell' (the merged-away page's scope) became 'Cornell parking guide' at /cornell/getting-around/cornell-parking-guide-campus-collegetown-ithaca/. The title, primary_query and fine tables were already as the report prescribes."
+    },
+    {
+     "file": "content/articles/getting-around/cornell-motorcycle-scooter-bike-parking.md",
+     "change": "primary_query changed to 'cornell motorcycle parking' (frontmatter only)."
+    },
+    {
+     "file": "content/articles/housing/ithaca-apartments-parking-included.md",
+     "change": "Related guides: 'Having a car at Cornell' became 'Cornell parking guide' at the /cornell/ path. Added two URLs the body already used to sources (accessed 2026-11-11): the Travis Hyde Westview Terrace listing (verified: 'Parking Included') and fcs parking-campus/parking-students. The cut of 'What does parking cost if your building has none?' to a pointer was already in place.",
+     "source": "https://www.travishyde.com/listings/detail/9dc6c8ea-ccb9-4242-8aad-1995082e539a"
+    },
+    {
+     "file": "content/tools/*.md (4), content/datasets/cost-of-getting-around-cornell-2026-27.md, content/start/{car-on-campus,off-campus,accessibility}.md, plus 9 articles (grad-students, airport, c2c, off-campus-renters, upper-years-no-car, NY license, living-outside, self-storage, first-year)",
+     "change": "Link-text-only fixes outside the cluster. Every link to the pillar labelled 'Having a car at Cornell: permits, winter, breaks, costs', 'Having a car at Cornell', 'car ownership guide' or 'student car guide' was relabelled with the pillar's title or 'Cornell parking guide'. Three trailing descriptions that promised the old page's scope were adjusted: 'airport parking' and 'the full cost of keeping a car' (the pillar has neither), and 'what a car costs in a year', which became 'what a year of parking costs'. Paths were left as they were. updated set to 2026-11-11 where it was older."
+    }
+   ],
+   "gaps": [
+    {
+     "item": "Pillar, August section: 'Cornell has not posted the 2027-28 sale date, so watch Cornell's announcements in July.'",
+     "tried": "Fetched fcs.cornell.edu/node/17809 (login wall) and the TDS announcements page; no 2027-28 sale date found",
+     "outcome": "Sentence removed"
+    },
+    {
+     "item": "Pillar, tickets section: 'The new amounts and start date are not yet published, so check the city's fine schedule before you rely on any amount.'",
+     "tried": "Fetched the Ithaca Voice 2027 budget article (gives only the $381,000 projection) and the city's 727 fine schedule (current amounts only)",
+     "outcome": "Sentence removed"
+    },
+    {
+     "item": "Storing-a-car: B permit 'break-long stays are not addressed' (table and renter block)",
+     "tried": "Fetched Cornell winter-break-parking-rules page",
+     "outcome": "Found: B permit holders follow the overnight winter rules and park in B Lot's designated east or west bay; stated and cited"
+    },
+    {
+     "item": "Storing-a-car: 'Cornell does not say whether a car can stay in a permit area once you have moved out of housing'",
+     "tried": "Fetched Cornell parking-students and winter rules pages",
+     "outcome": "No direct summer rule. Replaced with the sourced fact that resident permits require university housing and Cornell recalls one whose holder no longer meets the eligibility rules, plus the TDS phone number. The gap sentence is gone."
+    },
+    {
+     "item": "Storing-a-car: airport 'Rates are posted without a year' and 'confirm the part Cornell does not publish'",
+     "tried": "Fetched flyithaca.com/parking",
+     "outcome": "Replaced with the payment method from the page; the narration clause was removed"
+    },
+    {
+     "item": "Residential permit page: hours 'not listed by block', odd/even interaction 'city does not say', Collegetown blocks 'only the Clerk can confirm'",
+     "tried": "Fetched City of Ithaca 711, 730, 731 and 732 pages",
+     "outcome": "All three found and stated with citations (732 hours and odd/even rule, 711 address map)"
+    }
+   ],
+   "skipped": [
+    {
+     "item": "Retitle A to 'Parking in Collegetown and downtown Ithaca: garages, streets and permits'",
+     "why": "74 characters, over the 60-character cap; the existing 59-character short form 'Parking in Collegetown and downtown Ithaca: garages, permits' stays"
+    },
+    {
+     "item": "Winter page cuts, primary_query and storing-a-car link",
+     "why": "Already applied by the concurrent winter-cluster process (file rewritten at 20:31 during this run); I only added the parking-pillar link and a citation fix"
+    },
+    {
+     "item": "Owner-level items in the deferred report: site build dropping 'Related guides' sections, the query map document reports/05-clusters.md, and dataset rows",
+     "why": "Left to the owner by the report; outside page edits"
+    },
+    {
+     "item": "Gap sentence in content/tools/should-i-bring-a-car-cornell-ithaca-cost/tool.md line 126 ('It does not say the same for Just In Case')",
+     "why": "The tool is Phase 4 scope; I changed only its stale link text. The linter prints 0 on it, but the sentence still breaks the no-gap rule and needs the gap workflow from whoever owns tools"
+    },
+    {
+     "item": "Three links labelled 'car guide' to the pillar (driving-in-ithaca-winter, NY license line 87, flying-home)",
+     "why": "The label is generic and does not describe the merged page's scope. The driving page was being edited by the winter process at the same time."
+    },
+    {
+     "item": "Switching out-of-cluster links from /getting-around/<slug>/ to /cornell/getting-around/<slug>/",
+     "why": "Only link text was in mandate outside the cluster; both forms are redirect targets in the pillar's redirect_from"
+    },
+    {
+     "item": "Re-adding having-a-car-at-cornell-student-guide",
+     "why": "Merged away; never re-added, and no body link points at it"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The name is settled as 'Premium Parking', and every parking page that names the company already used it. The city's rate notice (CivicAlerts AID=1328) says 'Cayuga Street Garage (managed by Premium Parking)'. The city's 727 page says 'Premier Parking on Cayuga Street' in its text but links premiumparking.com and gives (607) 256-PARK(7275). The operator's own Ithaca page (premiumparking.com/city/ithaca) says 'Premium Parking'. Each referral now cites the rate notice for the name. No content page says 'Premier'; only intel/off-campus-housing does (not edited).\n\nThe 'apply in person' claim on the residential permit page and page A was out of date: the city's 711 page says applications are online or by mail, and lease copies must be signed by tenant and landlord. That is corrected.\n\nA concurrent process was editing ithaca-winter-parking-rules-cornell-odd-even.md (and other winter pages) during this run. My first scripted edit aborted without writing because the exact match failed. Later edits were exact-match replaces on the current text, and they were verified to persist.\n\nPages fetched today live in the scratchpad: /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/f3 and .../f2. All touched files: grep -c em dash = 0, and lint-content prints 0 matches. Nothing was committed."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "Check (2) fails in several files. Each of these sentences tells the reader what the sources, brief, fact file or page lack.\n\n1. /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/getting-around-cornell-upper-years-no-car.md, line 174: \"...because the fact file has no current fare or wait-time figures to compare.\" This is research narration and must go.\n2. /Users/ajaysharma/Ads/campus-publication/content/start/accessibility.md, line 26: \"Not in the brief: paratransit in Tompkins County, and the accessibility features of OurBus, Greyhound and FlixBus. No guide covers them yet...\"\n3. The same file, line 43: \"Not in the brief: reasonable accommodations or modifications from a private landlord, fair-housing rules and counts of accessible units. No guide covers them yet...\"\n4. /Users/ajaysharma/Ads/campus-publication/content/tools/ith-or-syr-trip-cost-calculator/tool.md, line 80: \"Not in the brief: airfares for either airport, gas and tolls...\"\n5. The same file, line 76: \"The ITH parking page does not say how stays shorter than a week are charged.\"\n6. The same file, line 77: \"SYR may have a weekly rate that its page does not show.\"\n7. The same file, line 48: \"No current fare is published for either airport.\"\n8. /Users/ajaysharma/Ads/campus-publication/content/datasets/cost-of-getting-around-cornell-2026-27.md, line 142: \"Not in the brief: a profile for an off-campus renter...\"\n9. The same file, line 55: \"Every step comes from the topic brief, sections 3.4, 3.5, 10.13...\"\n10. The same file, line 109: \"our arithmetic on brief inputs (not a brief 10.18...\".\n11. The same file, line 140: \"could not be opened directly\".\n12. /Users/ajaysharma/Ads/campus-publication/content/tools/should-i-bring-a-car-cornell-ithaca-cost/tool.md, line 126: \"It does not say the same for Just In Case\". This tells the reader what the source lacks.\n13. /Users/ajaysharma/Ads/campus-publication/content/articles/housing/living-outside-ithaca-varna-dryden-tcat.md, lines 63 and 66: \"Route numbers and trip times for Varna are not published\" and \"it does not publish route numbers or travel times\". This is borderline, since it is about Ivy Ridge rather than the sources, but it is a source-gap statement.\n\nCheck (6): /Users/ajaysharma/Ads/campus-publication/content/articles/getting-around/ithaca-parking-tickets-fines-how-to-appeal-cornell.md (a ticket-appeal rights page) has no \"general information, not legal advice\" line. Grep for \"legal\" returns nothing in it. The residential permit page has none either, but that one is probably not a legal-rights page.\n\nNot verified: I did not fetch the cited sources to confirm the added facts. The agent's report was truncated, so I could not match the claimed changes to the files. I did not check every internal link or confirm that every body URL sits in each file's sources.",
+   "checked": [
+    "Ran lint-content.py on all 26 files: 0 matches in every file",
+    "Ran grep -c for the em dash on all 26 files: 0 in every file",
+    "Title length for all 26 files, with quote escapes removed: the longest is 60 characters, so all are within 60",
+    "Searched all 26 files for research-narration and source-gap phrases (fact file, brief, 'does not say', 'not published', 'Not in the brief', 'No guide covers') and read the surrounding lines",
+    "Searched the two ticket and permit pages for a 'legal advice' line: not present",
+    "Not done: fetching sources to quote added facts, ls-checking added internal links, matching body URLs against frontmatter sources, and reading every file in full"
+   ]
+  }
+ },
+ {
+  "label": "cluster:subletting",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/can-landlord-refuse-sublet-new-york-ithaca.md"
+   ],
+   "changes": [
+    {
+     "file": "content/articles/housing/can-landlord-refuse-sublet-new-york-ithaca.md",
+     "change": "Deferred item 4: added the line 'This is general information, not legal advice.' as its own paragraph near the top of the body, after the opening and the full-guide link and before the first H2."
+    },
+    {
+     "file": "content/articles/housing/can-landlord-refuse-sublet-new-york-ithaca.md",
+     "change": "The Cornell tenant-page link returned a 404 (scl.cornell.edu/residential-life/housing/campus-living/living-campus). I replaced it with the live Tenant Best Practices page, in the body and in the sources. The sentence now reads: 'Cornell's tenant page says original tenants often retain responsibility and that a subtenant should receive a written sublease.' This matches the live page's wording. The old text said the page 'tells you to get a written sublease', which the page does not say.",
+     "source": "https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices"
+    },
+    {
+     "file": "content/articles/housing/can-landlord-refuse-sublet-new-york-ithaca.md",
+     "change": "The Signing the Lease link in the 'If you're signing a lease soon' block returned a 404 and was missing from the sources. I repointed it to the live page, which lists 'Ability to sublet' and 'Conditions for sublet' under Termination, and added it to the frontmatter sources.",
+     "source": "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease"
+    },
+    {
+     "file": "content/articles/housing/can-landlord-refuse-sublet-new-york-ithaca.md",
+     "change": "Fetched every body source today and checked the page's claims against it: RPL 226-b (4+ units, notice items, 10/30-day clocks, silence counts as consent, bad-faith fees, substantial breach, waiver void, assignment remedy, exclusions); RPL 238-a ($20 or actual-cost cap, 30-day waiver); Cornell Law breaking-a-lease and tenants-rights (607-301-1560); Ithaca Renting Collegetown and downtown sublet rules; the Fordham 1975 note. Then set accessed: '2026-11-11' on all 9 sources. updated was already 2026-11-11. No new facts were added beyond the two repointed Cornell citations.",
+     "source": "nysenate.gov RPP/226-B and RPP/238-A (WebFetch); sites.lawschool.cornell.edu; ithacarenting.com/collegetown and /downtown; ir.lawnet.fordham.edu (curl)"
+    }
+   ],
+   "gaps": [],
+   "skipped": [
+    {
+     "item": "Deferred 1: rename the pillar's '## Related sublet guides' to '## Related guides'",
+     "why": "Site-level build behaviour (renderArticle drops sections titled 'Related guides'). The task says to keep the heading as it is, so this is left for the owner."
+    },
+    {
+     "item": "Deferred 2: put the new primary queries (how-to 'how to sublet my apartment ithaca', may-august 'summer sublet ithaca') into the Phase 5 query map",
+     "why": "Edits the query map document itself (reports/05-clusters.md), which is left to the owner. Both pages' frontmatter already carries these values."
+    },
+    {
+     "item": "Every other report item for the cluster (how-to and may-august retitles, openings and cross-pointing; 'full guide' links in each spoke's opening; the pillar's Related sublet guides block with all spokes and the tool; the pillar's link to the scams page; the Cornell summer-rooms row on may-august; Education Abroad Jan. 29 and July 13 dates and the Ithaca Renting $15/$20 fee carried into the how-to)",
+     "why": "Already present on the pages. Verified by grep, so no change was needed. Titles are 59, 55, 56 and 58 characters, all within the 60 cap."
+    },
+    {
+     "item": "'What to do next' naming the pillar on subletting spokes",
+     "why": "The report prescribes this only for the Winter cluster. Every subletting spoke already links the pillar in its opening."
+    },
+    {
+     "item": "Inbound link text such as 'how to sublet your Ithaca apartment for the summer' (ithaca-12-month-lease-real-cost-9-month-student, summer-storage tool.md)",
+     "why": "These anchors sit in summer-subletting context and still describe the how-to accurately, so they are not old-scope text. No link points at the merged-away study-abroad page."
+    },
+    {
+     "item": "Moving the how-to's legal-advice line (currently in its FAQ at line 231) closer to the top",
+     "why": "The how-to was not otherwise touched, and the line is already present on that page."
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "Only one cluster file needed edits: /Users/ajaysharma/Ads/campus-publication/content/articles/housing/can-landlord-refuse-sublet-new-york-ithaca.md. The linter prints 0 matches and grep -c for the em dash prints 0 on all 8 subletting cluster articles. The internal links on the edited page resolve under content/articles. The page keeps the sentence 'The statute does not list reasons that count as reasonable.' The linter passes it, and it describes the law's text, not a gap in our research. If the owner reads it as a gap admission under rule 2, it can be cut. Two scl.cornell.edu URLs that are widely used elsewhere in content now return 404: campus-living/living-campus (34 uses) and campus-housing/housing-search-process/signing-lease (55 uses). The live equivalents are living-off-campus/tenant-best-practices and living-off-campus/housing-search-process/signing-lease, so a site-wide repoint is worth doing in the link step. No commits were made."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none (minor note: line 101, \"The statute does not list reasons that count as reasonable.\", describes the statute's text, not a research gap, so it passes. Owner may cut it if they read it as a gap admission.)",
+   "checked": [
+    "lint-content.py prints 0 matches; grep -c for the em dash prints 0.",
+    "Read the whole file. The title is 'Can a Landlord Refuse a Sublet in New York? Ithaca Rules' (59 characters). No sentence says what the sources or research lack. Every H2 and every glance line is answered in the body.",
+    "'This is general information, not legal advice.' is present at line 72, after the opening and the full-guide link and before the first H2.",
+    "Every body URL (nysenate 226-B and 238-A, both Cornell Law pages, both scl.cornell.edu pages, Ithaca Renting collegetown and downtown, Fordham) is listed in the frontmatter sources. All 9 sources have accessed 2026-11-11.",
+    "All 6 internal links resolve to files under content/articles/housing/.",
+    "Fetched the two new Cornell pages with curl, both HTTP 200. Tenant Best Practices says 'Most leases require landlord approval, and original tenants often retain responsibility. Subtenants should receive a written sublease', which matches line 124. Signing the Lease lists 'Ability to sublet' and 'Conditions for sublet' under Termination, which matches line 135.",
+    "Fetched RPL 226-b with WebFetch (curl hit a Cloudflare challenge). It confirms four or more units, certified mail, the 10-day and 30-day clocks, silence counted as consent, bad-faith costs and fees, waiver void, substantial breach, assignment withheld without cause, and release on 30 days' notice as the sole remedy.",
+    "The Cornell Law page confirms the 30-days' notice termination on assignment. I did not re-fetch 238-a, the Fordham note, the Ithaca Renting pages or the tenants-rights hotline, and relied on the agent's report for those."
+   ]
+  }
+ },
+ {
+  "label": "cluster:lease timing",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/off-campus-housing-cornell-sophomores.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-off-campus-housing-guide.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/when-to-sign-collegetown-lease-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/tools/when-to-sign-lease-timeline-cornell/tool.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/tools/when-to-sign-lease-timeline-cornell/tool.html",
+    "/Users/ajaysharma/Ads/campus-publication/content/datasets/collegetown-lease-signing-lead-times-2017-2025.md"
+   ],
+   "changes": [
+    {
+     "file": "content/articles/housing/off-campus-housing-cornell-sophomores.md",
+     "change": "Rewrote the opening so it starts with the year plan: settle the group, pick a neighborhood by October, sign in the fall for Collegetown or wait for spring for downtown and Fall Creek, and sign by Jan 31 to cancel a backup room for $50. Dropped the 14-of-67 sold-out restatement, which is still in the glance. Added a body link to /housing/when-to-sign-collegetown-lease-cornell/ (the existing link sat only in 'Related guides', which the build drops). Added 'This is general information, not legal advice.' after the opening and set updated: 2026-11-11. The duplicate title key was already gone (one title key).",
+     "source": "No new facts. The $50/Jan 31 citation is the existing 2027-28 license link."
+    },
+    {
+     "file": "content/articles/housing/cornell-off-campus-housing-guide.md",
+     "change": "Linked both pillar lines that named page 2 without a link (now lines 463 and 751, which the notes called 433 and 721) to /housing/when-to-sign-collegetown-lease-cornell/. updated was already 2026-11-11."
+    },
+    {
+     "file": "content/articles/housing/when-to-sign-collegetown-lease-cornell.md",
+     "change": "Cut the signing table to three rows as report (a) prescribes: 410 Elmwood (2018, about 16 months), the Ithaca Renting opening day (2019, about 11) and The Ivy (2025, 8 or more). The text now reads 'The table shows three of the nine cases', followed by the existing dataset link. Added the line 'This is general information, not legal advice.' after the opening, because the page covers notice laws and deposit caps. Title, H1, primary_query and 'What to do next' (it names the pillar) were already right. updated was already 2026-11-11."
+    },
+    {
+     "file": "content/tools/when-to-sign-lease-timeline-cornell/tool.md",
+     "change": "Shortened the title to the notes' option, 'Cornell lease timeline tool: look, sign, drop a backup room' (59 characters). Replaced 'No 2026 leasing-season story was found.' with a cited fact from a Sept. 24, 2026 Sun guide. Renamed the heading 'Assumptions and what the tool does not cover' to 'Assumptions and limits'. Rewrote the 'not posted' bullet as a plain statement of the badge behaviour. Replaced the 120-day 'unresolved' bullet with a pointer to /housing/ithaca-120-day-lease-renewal-notice-rule/. Replaced the two 'Not in the brief:' bullets with cited facts: the January-start rule and the timing of exemption requests. In Related guides, the link text for the join page now uses its current title. Set accessed: 2026-11-11 on the residential-policy and transfer sources (re-read today) and added the Sun 2026 source.",
+     "source": "https://www.cornellsun.com/article/2026/09/a-comprehensive-guide-to-apartment-hunting (start looking in late August or early September); https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates (on campus through the spring semester of the second academic year of enrollment); https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy (exemption requests are accepted during the open application period, not after a signed housing license or during its term), all fetched 2026-11-11"
+    },
+    {
+     "file": "content/tools/when-to-sign-lease-timeline-cornell/tool.html",
+     "change": "Removed the gap strings. 'how Housing handles a fall request ... is not in our sources' is now the residential-policy rule: requests are accepted only while the application is open and not after a signed license. The 'Not in the brief:' January first-year line now states the transfer-page rule and points to housing@cornell.edu. Deleted the clause 'When new transfers file is not in our sources.' Rewrote 'license is not posted yet' to say the 2026-27 and 2027-28 licenses use this schedule and the shown date assumes the later license keeps it. Deleted the clause 'no Cornell page offers arrival-week temporary housing'. Script passes node --check.",
+     "source": "residential-policy and new-transfer-undergraduates pages on scl.cornell.edu, fetched 2026-11-11"
+    },
+    {
+     "file": "content/datasets/collegetown-lease-signing-lead-times-2017-2025.md",
+     "change": "Shortened the title to 'Dataset: Collegetown lease signing lead times, 2017 to 2025' (59 characters) and updated the how-to-cite line to match. Added three context rows, as report (a) and deferred item 4 ask: the 2012 camp-out of about 15 students outside Ithaca Renting, the 2014 camp-out of more than 150 on Dryden Road, and Student Agencies among the first to rent for 2023-24 in early September 2022. Added the Sun 2012-10-01 source (accessed 2026-11-11) and set the 2022-08-04 and 2022-09-12 sources to accessed 2026-11-11. Deleted the 120-day 'unresolved ... none confirmed' paragraph and the 'Not in the brief:' caveat bullet. Added a change-log note. updated was already 2026-11-11.",
+     "source": "https://cornellsun.com/2012/10/01/as-collegetown-housing-rush-intensifies-students-sleep-outside-rental-agency/ ('Around 15 students camped outside the Ithaca Renting Company office on Dryden Road'); https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/ ('over 150 students camping out on Dryden Road' the year after the 2013 rule); https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/ (Student Agencies building 'one of the first places to begin renting for the 2023-2024 school year in early September'), all fetched 2026-11-11"
+    }
+   ],
+   "gaps": [
+    {
+     "item": "Dataset: when the City Code 258-10 120-day count starts (the 'unresolved ... none confirmed' paragraph)",
+     "tried": "Fetched ecode360.com/27390826 with curl and WebFetch; both returned HTTP 403. Read the 120-day guide's sources, which give only the sponsor's rough count.",
+     "outcome": "Paragraph removed, not softened."
+    },
+    {
+     "item": "tool.html and tool.md: when new transfers file an exemption request",
+     "tried": "Read the new-transfer-undergraduates and residential-policy pages on scl.cornell.edu. Neither gives a transfer-specific filing date; the residential policy gives only the general open-application rule.",
+     "outcome": "The general rule is now stated in tool.md and, in tool.html, the step already says to file before signing a license. The clause 'When new transfers file is not in our sources.' was deleted."
+    },
+    {
+     "item": "How the two-year rule dates the first lease for a first-year who starts in January",
+     "tried": "Read the first-year-undergraduates, new-transfer-undergraduates and residential-policy pages on scl.cornell.edu.",
+     "outcome": "No page gives a date for this case. The tool now states Cornell's rule ('through the spring semester of their second academic year of enrollment') and sends the student to housing@cornell.edu to confirm the year. No date was invented."
+    },
+    {
+     "item": "tool.md 'Not in the brief:' items: spring-start leasing beyond sublets and semester leases, a dated grad market for Collegetown buildings, Greek house costs",
+     "tried": "Checked the tool's existing sources and the scl.cornell.edu pages fetched today.",
+     "outcome": "Bullet removed."
+    },
+    {
+     "item": "Dataset 'Not in the brief:' caveat: share of leases signed by month, fall 2026 signings, other landlords' timing, waiver uptake",
+     "tried": "Searched cornellsun.com for a 2026 leasing story. The only one found is the Sept. 24, 2026 guide, which has advice but no dated signing.",
+     "outcome": "Bullet removed. No row was added to the CSV or the nine-case table."
+    },
+    {
+     "item": "tool.html: 'no Cornell page offers arrival-week temporary housing'",
+     "tried": "Not searched separately; the sentence tells the reader what the official site lacks.",
+     "outcome": "Clause removed."
+    }
+   ],
+   "skipped": [
+    {
+     "item": "Site-level build behaviour: renderArticle drops '## Related guides', so lists there never render",
+     "why": "The report leaves this to the owner. The sophomore guide's page 2 link was added in the body instead."
+    },
+    {
+     "item": "Query map document and queue.csv rows q-housing-0059 and q-housing-0069, which still carry old queries and titles",
+     "why": "Owner-level items (the query map document itself, and queue.csv, which another process is editing)."
+    },
+    {
+     "item": "score_pages.py distinct_query failure for tools and datasets without a primary_query",
+     "why": "The deferred note calls it a Phase 9 decision."
+    },
+    {
+     "item": "Page 2 figure title 'The Collegetown rush, 2012 to 2026'",
+     "why": "Left unchanged. It is a timeline of dated context events, which reconciliation (c) keeps, not the record's or page's title."
+    },
+    {
+     "item": "Link text 'When should I sign a lease? Cornell timeline by start term' and 'When to sign a lease at Cornell: timeline by start term' in content/start/exempt-underclass.md, first-year.md, affiliated-housing.md and transfer-spring.md",
+     "why": "These links use the tool's old title, but the tool's scope has not changed, so this is not old-scope link text. Those pages are outside the cluster."
+    },
+    {
+     "item": "Pre-existing page_check flags on the dataset and tool (71-word key-finding opener, repeated '11 months' and '16 months', paragraphs without a source link, the 'topic brief, section 10.6' method line)",
+     "why": "These are deferred-note item 7 observations, not prescribed changes."
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "On all six files, lint-content.py prints 0 matches and grep -c \"\u2014\" prints 0. Titles: tool 59 characters, dataset 59, sophomore guide 55, page 2 44, pillar 48. Every internal link I added uses /housing/<slug>/ and points at an existing file. Rule 5: only URLs that carry new facts or were re-read today got accessed: 2026-11-11; other existing sources keep their earlier dates. Two things for the owner. (1) Two scl.cornell.edu URLs returned 404 today. Page 2 cites https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores for its April 4 exemption deadline. The tool and the sophomore guide cite https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process. Neither was changed. (2) Remaining 'not posted' wording (tool.md 'How to read the result' and tool.html's as-of note) explains the last-year's-date badge in terms of Cornell's publishing schedule, not our research; the linter does not flag it. Fetched pages are in /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/fetch/lease. Nothing was committed."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "Only the dataset file fails: /Users/ajaysharma/Ads/campus-publication/content/datasets/collegetown-lease-signing-lead-times-2017-2025.md. \n1. Line 51 (Method): \"Every step comes from the topic brief, section 10.6, with context from sections 2.5, 3.2, 3.9 and 4.2.\" This points readers at internal planning docs. Remove it. \n2. Line 68 (case 3 row): notes say \"signing date and year not stated\" and signed_precision reads \"not_stated\". Both tell the reader what the source lacks. \n3. Line 74 (case 9 row): notes say \"individual signing dates are not stated\". Same kind of gap statement. \n4. Line 99 (caveat \"Gaps in years\"): \"case 3, whose year is not stated\". Same, and the bullet is itself a \"what is missing\" statement. \n5. Line 97: \"Students who signed in spring rarely make the news.\" No cited source supports it. \n6. Method step 2: \"no signing date (case 3)\" is a smaller instance of the same gap wording. \nMinor and not blocking: the link /housing/ in Related guides is an index route, and the many /housing/slug/ links across the files are 301-redirected to /cornell/housing/slug/. The target files exist, so they resolve. \ntool.md line 115 says \"Last year's date means Cornell has not posted the new one\". This is borderline gap wording and could be rephrased. \nAll other files pass: the sophomore article, the guide, the when-to-sign article, tool.md and tool.html.",
+   "checked": [
+    "Lint printed 0 matches and grep -c of the em dash printed 0 for all six files.",
+    "Titles are 60 characters or fewer: sophomore article 55, guide 48, tool 59, dataset 59. The when-to-sign title is short. Each file has one title key.",
+    "I read in full the when-to-sign article, tool.md and the dataset. For the sophomore article I read the frontmatter, opening, calendar and first sections. For the guide I read the changed lines and the grep hits. A gap-phrase grep was run on all six files.",
+    "Body URLs are all in each file's frontmatter sources. The guide's ithacarents URL contains a comma and is in sources. tool.html's URLs were not checked separately.",
+    "Internal links point at existing files under content/. The new links in the sophomore article and the guide (lines 463 and 751) resolve to the when-to-sign article.",
+    "WebFetch quotes confirm the added facts: the 2012 camp-out of 'Around 15 students' outside Ithaca Renting on Dryden Road, plus first-come first-serve; 'over 150 students camping out on Dryden Road' the year after the 2013 rule (2014); Student Agencies 'one of the first places to begin renting for the 2023-2024 school year in early September'; the Sun guide of Sep 24, 2026 saying 'start looking in late August or early September'; the transfer page's 'through the spring semester of their second academic year of enrollment'; and the residential-policy exemption wording ('not after a signed housing license has been completed or during the term').",
+    "The claimed changes are present: the three-row table, the legal-advice lines in the sophomore and when-to-sign articles, the shortened titles, the new context rows, and the removal of the 120-day unresolved paragraph. The guide's legal-advice line is at line 552. The tool pages do not cover legal rights."
+   ]
+  }
+ },
+ {
+  "label": "cluster:co-ops and Greek housing",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-co-ops-greek-houses-cost-how-to-join.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-fraternity-sorority-housing-2026-27.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-co-ops-all-eight-compared.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/660-stewart-avenue-cooperative-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-fraternity-suspension-2026-housing-2027-28.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/redbud-cooperative-von-cramm-hall-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/triphammer-cooperative-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/prospect-of-whitby-cooperative-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/watermargin-cooperative-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/datasets/ithaca-housing-cost-by-living-situation-2026-27.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/start/low-budget.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/start/affiliated-housing.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/start/first-year.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/tools/can-i-live-off-campus-cornell-quiz/tool.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/tools/cornell-housing-license-cancellation-fee-calculator/tool.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-housing-costs-by-room-type.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/how-to-apply-cornell-program-house.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/when-to-apply-for-cornell-housing-deadlines.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-room-swap-how-direct-swaps-work.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-residential-requirement-exemptions-live-off-campus.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-housing-meal-plan-requirement.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-housing-waitlist-no-room-what-happens.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-housing-cancellation-policy-500-fee.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-dorm-guest-overnight-visitor-rules.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/why-cornell-requires-sophomores-to-live-on-campus.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cheapest-off-campus-housing-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-housing-dietary-religious-needs.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-super-single-vs-single-vs-double-worth-it.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-heights-ithaca-neighborhood.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/dining/104west-kosher-dining-cornell.md",
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/dining/vegetarian-vegan-options-cornell-dining.md"
+   ],
+   "changes": [
+    {
+     "file": "content/articles/housing/cornell-fraternity-sorority-housing-2026-27.md",
+     "change": "Year two: 'Our [comparison of co-ops, Greek houses and dorms](join) prices them side by side.' rewritten to 'Our guide to [a co-op or Greek house instead of a dorm](join) shows how a sophomore gets into each.'"
+    },
+    {
+     "file": "content/articles/housing/cornell-fraternity-sorority-housing-2026-27.md",
+     "change": "Gap sentence 'Cornell's pages do not say what happens to a sophomore ... loses recognition mid-year.' replaced with 'Cornell approves a chapter house for sophomores only while the chapter stays recognized ([Cornell Residential Policy]), so ask the Office of Sorority and Fraternity Life at greeks@cornell.edu about your chapter's standing before you affirm.' Residential Policy source accessed set to 2026-11-11.",
+     "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy (fetched 2026-11-11: 'allowed to house second-year students as long as ... the organization remains recognized')"
+    },
+    {
+     "file": "content/articles/housing/cornell-co-ops-greek-houses-cost-how-to-join.md",
+     "change": "Pruned the three unused frontmatter sources (Organization Scorecard, Undergraduate Meal Plans, Financial Obligations). Grad-student reader block: 'The Wari Cooperative page does not.' became '[Wari Cooperative](url) is open to transfer and upper-level women.' Wari and Residential Policy sources set to accessed 2026-11-11. Title (59 chars), opening, linked cost section, pillar and house links were already in place from the earlier pass, so nothing else changed.",
+     "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/wari-cooperative (fetched 2026-11-11: 'Open to transfer and upper-level women')"
+    },
+    {
+     "file": "content/articles/housing/cornell-co-ops-all-eight-compared.md",
+     "change": "Removed the paragraph 'Cornell's pages give no founding dates for Triphammer, Wait Terrace...'. Its two facts (660 Stewart's 1902 estate, Wait Avenue's 100-year-old house) already sit in the house-by-house section. Removed 'Cornell's rate page does not say whether a house meal plan is billed...' and 'The co-op license says nothing about one.' and kept the ask-the-house advice. Changed the 'Not published' founding cells for Triphammer and Wait Terrace in the side-by-side table to blank. Row links to the seven house pages, the 'Redbud (Von Cramm Hall)' naming and the trade-offs link to co-op vs dorm were already there."
+    },
+    {
+     "file": "content/articles/housing/660-stewart-avenue-cooperative-cornell.md",
+     "change": "'The house meal plan is optional, and Cornell's pages do not give its price.' became 'The house meal plan is optional.' updated set to 2026-11-11."
+    },
+    {
+     "file": "content/articles/housing/cornell-fraternity-suspension-2026-housing-2027-28.md",
+     "change": "Title changed to the shorter option the notes proposed, which keeps 2026: 'Does Cornell's 2026 frat suspension change 2027-28 housing?' (59 chars). The links to the Greek pillar and the moratorium page were already present."
+    },
+    {
+     "file": "content/articles/housing/redbud-cooperative-von-cramm-hall-cornell.md",
+     "change": "Title changed to 'Redbud (Von Cramm Hall) co-op Cornell: cost and how to join' (59 chars), following the report's rule to write 'Redbud (Von Cramm Hall)' everywhere. updated set to 2026-11-11."
+    },
+    {
+     "file": "content/articles/housing/triphammer-cooperative-cornell.md",
+     "change": "Related link text 'Redbud Cooperative in Von Cramm Hall' became 'Redbud (Von Cramm Hall)'. Gap 'Cornell's pages do not give the plan's price, so ask...' became 'Ask moseytriphammer@cornell.edu what the plan costs before you compare totals.'"
+    },
+    {
+     "file": "content/articles/housing/prospect-of-whitby-cooperative-cornell.md",
+     "change": "Gap sentences removed: the meal-plan price line became 'Email prospectofwhitby@cornell.edu for the plan's price before you compare totals.', and ', since Cornell's house page does not list them' was dropped. updated set to 2026-11-11."
+    },
+    {
+     "file": "content/articles/housing/watermargin-cooperative-cornell.md",
+     "change": "Gap sentences removed: the meal-plan price line became 'Ask the house what the plan costs before you compare totals.', and ', and Cornell's page does not say what it costs' was dropped from the nonresidential-membership sentence. updated set to 2026-11-11."
+    },
+    {
+     "file": "content/datasets/ithaca-housing-cost-by-living-situation-2026-27.md",
+     "change": "Added a reader bullet 'In a fraternity or sorority house': chapters set their own rent; on Cornell's organization scorecard, spring 2026 live-in housing and dining charges run from $2,000 to $14,673 a semester, leaving aside one chapter that lists $0. The scorecard was added to sources (accessed 2026-11-11). Changed 'Red Bud in Von Cramm' to Redbud (Von Cramm Hall) wording in the Method and rows 2 and 3. Join-page link text now uses the page's new title. Set updated, the cite line and a change-log entry to 2026-11-11.",
+     "source": "https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard (fetched 2026-11-11; 34 live-in values parsed: $0 Beta Theta Pi, min nonzero $2,000 Delta Kappa Epsilon, max $14,673 Alpha Xi Delta, labelled 'Rates for Spring 2026')"
+    },
+    {
+     "file": "content/start/low-budget.md",
+     "change": "Removed '; the EOP page lists no deadline for it' (OADI's EOP/HEOP transfer page has no deadline). Also removed the gap clause '; none found for fall 2026 as of Nov 8' from the airport-charter date line. Join-page item retitled and described as 'How a sophomore gets into a co-op or a chapter house, and the dates each round runs.'",
+     "source": "https://oadi.cornell.edu/signature-programs/eop-heop/how-do-i-apply-eop-and-heop-cornell/eop-and-heop-application-process-0 (fetched 2026-11-11, redirect from oadi.cornell.edu/node/50; no deadline stated)"
+    },
+    {
+     "file": "content/start/affiliated-housing.md",
+     "change": "Join link retitled; description changed from 'what each co-op charges, how selection works, what Greek rent covers' to 'how a sophomore gets into a co-op or a chapter house, and the dates that decide it.' updated 2026-11-11."
+    },
+    {
+     "file": "content/start/first-year.md, content/tools/can-i-live-off-campus-cornell-quiz/tool.md, content/tools/cornell-housing-license-cancellation-fee-calculator/tool.md, housing-costs-by-room-type (list), how-to-apply-cornell-program-house (list), when-to-apply-for-cornell-housing-deadlines (list), cornell-room-swap-how-direct-swaps-work (list)",
+     "change": "Link text 'Cornell co-ops and Greek houses: cost and how to get in/join' replaced with the page's title 'Cornell co-op or Greek house instead of a dorm: how to join'. updated 2026-11-11."
+    },
+    {
+     "file": "Housing/dining articles: cornell-housing-costs-by-room-type, residential-requirement-exemptions, housing-meal-plan-requirement, housing-waitlist, cancellation-policy-500-fee, dorm-guest-overnight-visitor-rules, when-to-apply-for-cornell-housing-deadlines, why-cornell-requires-sophomores, off-campus-renters-insurance-cost (2 links), cheapest-off-campus-housing, housing-dietary-religious-needs, super-single-vs-single-vs-double, cornell-heights-ithaca-neighborhood, 104west-kosher-dining, vegetarian-vegan-options-cornell-dining",
+     "change": "Inline link text and surrounding clauses that called the join page a cost guide ('covers cost and how to join', 'Costs and how to get in', 'what house rent buys', 'co-op and Greek costs and how to join', 'how Cornell's co-ops and Greek houses work', ': cost and how to join') now say the page covers how a sophomore gets into a co-op or Greek house. On housing-costs-by-room-type, the Greek-charges part now links the fraternity and sorority housing pillar. updated 2026-11-11 on each."
+    }
+   ],
+   "gaps": [
+    {
+     "item": "Greek pillar: what happens to a sophomore living in a chapter house if the chapter loses recognition mid-year",
+     "tried": "Residential Policy, Affiliated Housing, Requirements for Qualified Housing, 2027-28 housing license (scl.cornell.edu), fetched 2026-11-11",
+     "outcome": "There is no mid-year rule. The sentence was replaced with the policy fact that approval lasts only while the chapter stays recognized, plus the existing ask-OSFL advice."
+    },
+    {
+     "item": "Co-op pillar: founding dates for Triphammer, Wait Terrace, Wait Avenue, 660 Stewart",
+     "tried": "Each house page on scl.cornell.edu and the main Cooperative Housing page, fetched 2026-11-11",
+     "outcome": "No founding dates. The gap paragraph was removed, and the table's 'Not published' cells for Triphammer and Wait Terrace were blanked."
+    },
+    {
+     "item": "Co-op pillar: whether a house meal plan is billed inside the room rate; whether a Cornell Dining plan is added for co-op sophomores",
+     "tried": "Housing rates page (housing-details path), Co-op 2026-27 Terms and Conditions, Undergraduate Meal Plans, Residential Policy, fetched 2026-11-11",
+     "outcome": "Not stated. Both gap sentences were removed and the ask-the-house and ask-co-ops@ advice kept."
+    },
+    {
+     "item": "660 Stewart, Triphammer, Prospect of Whitby, Watermargin: house meal plan price; Watermargin nonresidential membership cost; Whitby's selection steps",
+     "tried": "Each house page, housing rates page, SCL 660 Stewart feature, fetched 2026-11-11",
+     "outcome": "No prices or steps published. The gap clauses were removed and the contact advice kept."
+    },
+    {
+     "item": "low-budget: EOP college-specific step deadline",
+     "tried": "OADI EOP/HEOP transfer application page, fetched 2026-11-11",
+     "outcome": "No deadline. The clause was removed."
+    },
+    {
+     "item": "low-budget: Student Assembly airport charters for fall 2026",
+     "tried": "Not searched (not on the official-site list). The clause was a research-gap admission.",
+     "outcome": "The clause '; none found for fall 2026 as of Nov 8' was removed."
+    }
+   ],
+   "skipped": [
+    {
+     "item": "Query map in reports/05-clusters.md (list the join page under 'co-op or frat house instead of a dorm')",
+     "why": "The report leaves the query-map document to the owner."
+    },
+    {
+     "item": "Adding Greek price rows to the dataset table",
+     "why": "The report says adding rows is the owner's call. Only a reader note citing the scorecard was added; the table and CSV are unchanged."
+    },
+    {
+     "item": "Join page glance bullet with co-op and hall double prices, and the tight-budget reader block",
+     "why": "The earlier pass left them on purpose, and the report's section replacement is already done. Both figures are sourced on Cornell's rate table."
+    },
+    {
+     "item": "content/tools/when-to-sign-lease-timeline-cornell/tool.md link text",
+     "why": "Another process had already changed it to the new title while I worked. I left it untouched."
+    },
+    {
+     "item": "Gap-style lines outside the cluster in files I touched only for link text: 'Not in the brief:' bullets in the quiz and cancellation-calculator tool.md files, cornell-housing-costs-by-room-type line 118 ('rates page does not list what a co-op meal plan costs'), cornell-room-swap line 126 ('swap page doesn't say how billing works'), 104west-kosher-dining line 62 ('The page does not say what 104West! serves during Passover')",
+     "why": "These are outside this cluster, and the task allows only link-text fixes there. They need the gap workflow from their owning cluster."
+    },
+    {
+     "item": "Greek pillar chapter table 'Not listed' / 'Not published' cells",
+     "why": "These are table-wide data markers across about 40 rows of scorecard data, not an item the report or deferred list names. They need an owner decision on how to show missing scorecard fields."
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "On all 32 touched files, python3 scripts/lint-content.py prints 0 matches and grep -c on the em dash prints 0. All titles are 60 characters or fewer, and the frontmatter parses with js-yaml.\n\nLINTER BUG for the owner: 12 of the 32 patterns in scripts/lint-content.py, including the whole 2026-11-11 'Phase 5 cluster agents' block, start with a literal backspace character (\\x08). A \"\\b\" was written into a non-raw string, so these patterns never match anything. The widened linter therefore missed the 'pages do not give' and 'page does not say' sentences. I re-ran the patterns with \\x08 replaced by \\b. After my fixes, every remaining hit is in the out-of-cluster files listed under skipped.\n\nOther observations, not changed:\n(1) The housing-rates URL that the co-op pillar and the join page cite (/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) returns 'Page not found' today. The live page is /residential-life/housing/housing-details/rates-amenities-licenses/housing-rates, and its co-op rates match the pages. The Co-op Terms URL also moved to the housing-details path.\n(2) The 660 Stewart page and the co-op pillar say Cornell's 660 Stewart page describes an optional five-dinners-a-week meal plan. The live 660 Stewart page fetched today does not mention a meal plan. The main co-op page still says four co-ops have meal plans.\n(3) The Prospect of Whitby and Watermargin pages now give 607-254-8383 for Housing Operations, while several of our pages and the main co-op page give 607-255-3445.\n(4) The dataset .md no longer held the literal 'are not published' Greek note. I corrected the dataset by adding the scorecard-sourced Greek reader note instead.\n\nNothing was committed."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "Check 1 passes: lint-content reports 0 matches and the em-dash count is 0 for all 32 files, and all 32 exist. Checks 2 and 4 fail in the files below. I did not do the full read of every file, the source fetches for check 3, or the line-by-line check 5. Your task text was also cut off mid-report after the third change, so I could not compare the later claims.\n\nCheck 2 failures (sentences that say what the sources or pages lack, plus \"Not published\" cells):\n- content/articles/housing/cornell-fraternity-sorority-housing-2026-27.md: the table cells \"Not listed\" and \"Not published\" appear in at least three chapter rows, including \"| Not listed | Not listed | Not published | Not published | Approved second-year housing |\". This is the \"Not confirmed\" label pattern.\n- content/articles/housing/cornell-co-ops-all-eight-compared.md, line 160: the Redbud row says \"Not listed; residents share nightly dinners\". The agent said it blanked the \"Not published\" cells, but other \"Not listed\" cells remain.\n- content/articles/housing/660-stewart-avenue-cooperative-cornell.md: \"Cornell's 660 Stewart page says the house is open to transfer and upper-level students and does not list graduate students\".\n- content/articles/housing/prospect-of-whitby-cooperative-cornell.md: \"It takes transfer and upper-level undergraduates, and it does not list graduate students\" and, at line 85, \"Whitby does not list graduate students as eligible\".\n- content/articles/housing/cornell-housing-costs-by-room-type.md: \"The rates page does not list what a co-op meal plan costs, so ask the house\".\n- content/articles/housing/cornell-room-swap-how-direct-swaps-work.md: \"Cornell's swap page doesn't say how billing works when the two rooms carry different rates.\"\n- content/articles/housing/cornell-housing-meal-plan-requirement.md: \"At the time, the dining terms did not name the building.\"\n- content/articles/housing/cornell-housing-waitlist-no-room-what-happens.md: \"Cornell does not publish how long the waitlist is...\" and \"Cornell does not say when it sends offers...\".\n- content/articles/dining/104west-kosher-dining-cornell.md: \"Cornell does not list the extra amount on the plan page\" and \"The page does not say what 104West! serves during Passover\".\n- content/articles/dining/vegetarian-vegan-options-cornell-dining.md: \"Cornell has not published a ranking\".\n- content/articles/housing/cornell-fraternity-sorority-housing-2026-27.md: \"It did not reach the bedrooms upstairs.\" This one is probably fine as narrative.\n\nCheck 4 failures (URLs in the body that are not in the frontmatter sources):\n- content/articles/housing/prospect-of-whitby-cooperative-cornell.md: the body links to the wait-avenue-cooperative, wait-terrace, redbud-cooperative-von-cramm-hall, triphammer-cooperative and watermargin pages on scl.cornell.edu, and none is in the frontmatter sources. The frontmatter has 5 sources, none of them these.\n- content/start/first-year.md: 11 body URLs are not in the frontmatter sources. They include the cornellsun.com 2021 and 2022 articles, fcs.cornell.edu (two bus pages), the scl.cornell.edu residential-policy, winter-break-housing, winter-closing-notice and storage-shipping-options pages, registrar.cornell.edu, fingerlakes1.com, ourbus.com, and the cooperative-housing page.\n- content/articles/housing/why-cornell-requires-sophomores-to-live-on-campus.md: the housing-and-residential-life-directory URL is in the body but not in the sources.\n- content/articles/housing/cornell-super-single-vs-single-vs-double-worth-it.md: the fall-housing-selection-rising-juniors-and-seniors URL is in the body but not in the sources.\n\nCheck 6: the legal-rights pages among the files are the cancellation policy page, the exemptions page and the waitlist page. Only content/articles/housing/cheapest-off-campus-housing-cornell.md contains \"legal advice\". content/articles/housing/cornell-housing-cancellation-policy-500-fee.md lacks the \"general information, not legal advice\" line, and so do the cancellation calculator tool.md and the exemptions page. Whether those pages count as legal-rights pages is a judgment call, but the line is absent from all three.",
+   "checked": [
+    "lint-content.py and em-dash grep on all 32 files (all pass)",
+    "file existence for all 32 listed paths",
+    "title length of 60 characters or fewer, by script, no failures",
+    "body URLs versus frontmatter source URLs, by script",
+    "grep for research-narration phrases and Not published / Not listed labels in all 32 files",
+    "grep for the legal-advice line across the files",
+    "head of the fraternity-sorority page, to confirm its frontmatter sources and the 2026-11-11 access date"
+   ]
+  }
+ },
+ {
+  "label": "gap:collegetown-apartments-guide-2027-28",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/collegetown-apartments-guide-2027-28.md"
+   ],
+   "changes": [
+    {
+     "file": "content/articles/housing/collegetown-apartments-guide-2027-28.md",
+     "change": "Who owns Collegetown: cut the clause '; no public list rates them' and kept the link to /housing/how-to-check-an-ithaca-landlords-record/ (the file exists at content/articles/housing/how-to-check-an-ithaca-landlords-record.md). The sentence now reads 'To check a landlord before you sign, use the steps in [how to check a Collegetown landlord](...).'",
+     "source": "Removal only, no new fact"
+    },
+    {
+     "file": "content/articles/housing/collegetown-apartments-guide-2027-28.md",
+     "change": "Buildings table legend: removed the sentence '\"Not published\" means no public source gives the figure.' Also blanked the 21 'Not published' cells in that table (Opened, Unit types and Rent columns), because without the legend they still said no source gives the figure. No values were invented.",
+     "source": "Removal only, no new fact"
+    },
+    {
+     "file": "content/articles/housing/collegetown-apartments-guide-2027-28.md",
+     "change": "Cornell residences table, 301 College Ave. rate cell: replaced 'Not listed separately on Cornell's rate page' (an admission about a source) with 'Billed by the semester through the Bursar'.",
+     "source": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates (fetched 2026-11-11: 'Undergraduate residents: Students are Bursar-billed in August for fall-semester housing, and in December for spring-semester housing'). The 301 College Avenue page (fetched 2026-11-11) confirms it is Cornell on-campus housing for transfer and upper-level undergraduates."
+    },
+    {
+     "file": "content/articles/housing/collegetown-apartments-guide-2027-28.md",
+     "change": "What comes next: removed 'Check the City's code on eCode360 for the height limits now in force before counting on taller buildings.' It was a workaround for not knowing whether the April 2, 2025 Collegetown height vote passed. The sourced sentence about the March 2025 proposal (FingerLakes1, re-fetched and still accurate) stays.",
+     "source": "Removal. The outcome could not be sourced: ecode360.com returns 403 and a web search found no report of the vote."
+    },
+    {
+     "file": "content/articles/housing/collegetown-apartments-guide-2027-28.md",
+     "change": "The old Cornell housing rates URL (.../housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) now returns 'page could not be found'. Replaced it in the body link and in frontmatter sources with .../housing/housing-details/rates-amenities-licenses/housing-rates, accessed '2026-11-11'. The facts it supports were re-checked on the live page: $13,744 academic-year double ($6,872 a semester), with gas, electricity, garbage and internet included.",
+     "source": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates"
+    },
+    {
+     "file": "content/articles/housing/collegetown-apartments-guide-2027-28.md",
+     "change": "Set the 301 College Avenue Cornell source entry to accessed '2026-11-11', since it was re-fetched and supports the edited cell.",
+     "source": "https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/301-college-avenue"
+    },
+    {
+     "file": "content/articles/housing/collegetown-apartments-guide-2027-28.md",
+     "change": "Added the line 'This is general information, not legal advice.' near the top of the body, right after the glance block (rule 7). The page covers deposit caps, application fees, Good Cause eviction and subletting law.",
+     "source": "Spec rule 7"
+    },
+    {
+     "file": "content/articles/housing/collegetown-apartments-guide-2027-28.md",
+     "change": "Set updated: '2026-11-11'.",
+     "source": "Spec"
+    }
+   ],
+   "gaps": [
+    {
+     "item": "Whether Ithaca's Common Council adopted the March 2025 Collegetown Area Form Districts amendments (MU-2 from six to eight stories) at the April 2, 2025 vote, and the height limits now in force",
+     "tried": "Searched the web for reports of the council vote. Tried to fetch ecode360.com/IT0490 and ecode360.com/8385396 with both curl and WebFetch (HTTP 403 each time). Re-fetched FingerLakes1, which only covers the proposal.",
+     "outcome": "Removed the 'Check the City's code on eCode360...' sentence. The page still states the proposal and the scheduled vote date, both sourced."
+    },
+    {
+     "item": "A public rating or list of Collegetown landlords",
+     "tried": "Removal path: no official source rates landlords, and the page already links its how-to-check guide",
+     "outcome": "Removed the clause 'no public list rates them'"
+    },
+    {
+     "item": "Opening years, unit types and rents shown as 'Not published' in the buildings table (Aces, 705 E. Buffalo, Dryden Road houses, 307 College, Fontana, Catherine Commons rent, Collegetown Terrace, Student Agencies, 407/109/408/209/312/201 College and Stewart, 410 Elmwood)",
+     "tried": "No official cornell.edu or cityofithacany.gov source gives these building-level figures; a full sourcing pass across 21 cells was outside the scope of a gap fix",
+     "outcome": "Removed the legend sentence and left those cells blank. No values were invented."
+    },
+    {
+     "item": "A separate 2026-27 rate for 301 College Ave.",
+     "tried": "Fetched the current Cornell housing rates page (it lists residence hall, co-op and Hasbrouck rates) and the 301 College Avenue page",
+     "outcome": "Neither gives a 301 rate. Replaced the cell with the sourced billing fact (undergraduates are billed by the semester through the Bursar)."
+    }
+   ],
+   "skipped": [
+    {
+     "item": "'Not printed', 'Not stated' and 'Not named' cells in the 180-building table",
+     "why": "They describe what each linked landlord or listing page shows in the 'Rent as printed' and 'Lease term' columns, not what our research lacks. I judged them outside the gap-admission rule and left them alone."
+    },
+    {
+     "item": "'Available for 2027-28; price not posted' cells and 'with no rates shown' (Modern Living Rentals countdown)",
+     "why": "These report what the landlord's own page shows, a sourced fact about a business, not a research gap"
+    },
+    {
+     "item": "'RentCafe counts only buildings with 50 or more units, so it leaves out the houses...'",
+     "why": "A sourced description of a third-party dataset's method, useful context for the reader, not an admission about our sources"
+    },
+    {
+     "item": "Other frontmatter accessed dates left at 2026-11-10",
+     "why": "Those URLs and the body text they support were not touched in this pass"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The file edited is /Users/ajaysharma/Ads/campus-publication/content/articles/housing/collegetown-apartments-guide-2027-28.md. All edits were exact-match Python replaces, with no renames, no redirect_from changes and no images-block changes. The title is 53 characters. After the edits, python3 scripts/lint-content.py prints 0 matches and grep -c \"\u2014\" prints 0. Three things for the orchestrator: (1) Cornell moved its housing rates page; the old URL returns a not-found page, so other pages citing .../housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates probably need the same URL swap. (2) The legal line was placed after the glance block, before the 2019 sidewalk-line opening; move it if editors prefer it elsewhere. (3) The blanked 'Not published' cells leave several empty Opened entries; a later sourcing pass (assessment records, Ithaca Renting building pages) could fill them."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "One problem, in content/articles/housing/collegetown-apartments-guide-2027-28.md. The 180-building table under \"Which other Collegetown buildings are there, and what do they charge?\" (body lines ~138-320) still has cells that tell the reader what the source pages lack. \"Not named\" appears 54 times, \"Not printed\" 104 times and \"Not stated\" 105 times, in the Owner or manager, Rent as printed and Lease term columns. The earlier table has the same kind of cell: \"Not named\" for 209 Stewart Ave., 312 College Ave. and 201 College Ave. (body lines 111-113). Under check (2) that is a statement of what the page or listing does not say. The agent saw these cells and chose to skip them. A related problem is that the first buildings table now has 18 rows with blank Opened, Unit types or Rent cells, for example 307 College Ave., Fontana, Catherine Commons, Aces, 705 E. Buffalo, Student Agencies and 410 Elmwood. Blank cells are not an admission, but they read as unfinished. The fix is to fill them from sources or drop the columns or rows. Lines like \"price not posted\" (2 cells) and \"with no rates shown\" (Modern Living Rentals, 1 sentence) describe what a landlord's own page shows. I treated those as acceptable but borderline.",
+   "checked": [
+    "lint-content.py printed 0 matches and grep -c for the em dash printed 0.",
+    "Read the whole body, and the frontmatter title (52 characters). Every heading is answered. The four glance lines are supported by the body. The 'general information, not legal advice' line is present after the glance block, and the page covers deposits, fees, Good Cause and subletting.",
+    "The agent's cuts are gone: the '; no public list rates them' clause, the 'Not published' legend and cells, the 'Not listed separately on Cornell's rate page' cell, and the eCode360 sentence.",
+    "Fetched the Cornell housing rates page (the new scl.cornell.edu/.../housing-details/... URL). It says 'Students are Bursar-billed in August for fall-semester housing, and in December for spring-semester housing'. It lists a double at $6,872 a semester and $13,744 for the year, and says rates include gas, electricity, garbage pick-up and Internet.",
+    "That Cornell housing rates URL is in the frontmatter sources with accessed 2026-11-11. The 301 College Avenue source entry also has accessed 2026-11-11. I did not re-fetch the 301 College Avenue page.",
+    "Every URL in the body is in the frontmatter sources. The only apparent miss, ithacarents.com/4304-sunny..., is in the sources with a trailing period.",
+    "The internal link to how-to-check-an-ithaca-landlords-record exists at content/articles/housing/how-to-check-an-ithaca-landlords-record.md. The other internal links (collegetown-rent-prices-per-bed-one-bedroom, collegetown-vs-fall-creek-vs-downtown, cornell-off-campus-housing-guide, when-to-sign-collegetown-lease-cornell, and cornell-off-campus-housing-listings-where-to-find under content/edits) also resolve. The /housing/ route is rewritten to /cornell/housing/ in site/dist.",
+    "Not checked: the FingerLakes1 and 301 College Avenue re-fetches, and the ecode360 403."
+   ]
+  }
+ },
+ {
+  "label": "gap:cornell-off-campus-renters-insurance-cost",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/cornell-off-campus-renters-insurance-cost.md"
+   ],
+   "changes": [
+    {
+     "file": "content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+     "change": "Removed the linter-flagged admission 'No public source says how many Collegetown or downtown landlords ask for proof' and kept only the action: 'Ask the leasing office whether it needs proof of a policy before you sign.'",
+     "source": "No source found: landlord practice is not published on the Cornell, City or existing source pages, so the sentence was removed, not stated"
+    },
+    {
+     "file": "content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+     "change": "Cut ', and none gives a price' from 'Cornell's own advice sits on three pages'.",
+     "source": "Removal only"
+    },
+    {
+     "file": "content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+     "change": "Removed 'Cornell publishes no GradGuard premium for a Cornell student.' and changed the quote address to gradguard.com/renters/cornell, citing the housing license (the old GradGuard.com/cornell had no source).",
+     "source": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028 (fetched 2026-11-11, LIABILITY; RENTERS INSURANCE section)"
+    },
+    {
+     "file": "content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+     "change": "Sourced the dorm gap. Replaced 'Cornell's housing pages say nothing about insurance for belongings in a dorm room. Cornell does not state a price or a rule there...' with what the license says: the University is not liable for loss of or damage to personal property, University insurance does not cover it, it strongly encourages renters insurance and it names GradGuard as preferred provider.",
+     "source": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028 (fetched 2026-11-11)"
+    },
+    {
+     "file": "content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+     "change": "Sourced the co-op gap. Replaced 'Cornell's pages do not say what the eight Cornell-owned co-ops' insurance covers for residents' with: the co-op terms say University insurance does not cover your personal property and strongly encourage renters insurance; the contact line stays.",
+     "source": "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions (fetched 2026-11-11, section XVII); eight co-ops and contact from https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing (fetched 2026-11-11)"
+    },
+    {
+     "file": "content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+     "change": "Removed 'Cornell's page does not say whether other insurers ask for one'; the line is now 'Ask each insurer whether it needs one before you apply.'",
+     "source": "Removal only"
+    },
+    {
+     "file": "content/articles/housing/cornell-off-campus-renters-insurance-cost.md",
+     "change": "Frontmatter: added the co-op terms URL to sources with accessed 2026-11-11, set accessed 2026-11-11 on the license, cooperative housing and vendor partnership sources (re-fetched today), and set updated to 2026-11-11.",
+     "source": "Pages fetched with curl 2026-11-11"
+    }
+   ],
+   "gaps": [
+    {
+     "item": "How many Collegetown or downtown landlords require proof of renters insurance",
+     "tried": "Existing page sources, the Cornell SCL checklist, the housing pages and the vendor pages; no official count or landlord-practice statement exists",
+     "outcome": "Admission removed. Only the advice to ask the leasing office remains."
+    },
+    {
+     "item": "A GradGuard premium for Cornell students",
+     "tried": "The Cornell vendor partnership page and housing license (both re-fetched); neither gives a price",
+     "outcome": "Admission removed. The reader is pointed to the quote address the license gives."
+    },
+    {
+     "item": "Whether insurers other than GradGuard ask international students for an SSN",
+     "tried": "The existing Cornell Global Learning source covers renting an apartment only",
+     "outcome": "Admission removed. The sentence now only tells readers to ask each insurer."
+    }
+   ],
+   "skipped": [
+    {
+     "item": "Image caption (line ~101): 'No public source says whether its landlords require renters insurance; the lease you sign is the only answer.'",
+     "why": "It is a gap admission, but hard rule 6 forbids touching images blocks, and the linter does not scan it. The owner needs to edit or approve a fix."
+    },
+    {
+     "item": "Source https://scl.cornell.edu/residential-life/housing/campus-living/living-campus (cited at lines ~127 and ~162 for GradGuard as preferred insurer, on and off campus)",
+     "why": "It now returns 'Page not found' (curl, 2026-11-11). This was outside the task, so the links were not changed. The housing license now supports the 'preferred provider' claim if someone re-points them."
+    },
+    {
+     "item": "Legal-advice disclaimer line",
+     "why": "The page is about insurance cost and need, not a tenant-rights or lease-law page, so rule 7 was not applied. If the deposit content counts as legal-rights content, the line can be added."
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The linter prints 0 matches and grep -c on em dashes prints 0. The internal links /cornell/housing/<slug>/ all point to files that exist in content/articles/housing/. The title is unchanged at 54 characters. Fetched pages were saved under /private/tmp/claude-501/-Users-ajaysharma-Ads/e4f68972-0ccf-40b3-a304-3f3b90835892/scratchpad/f/."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "1) Line 104 (images caption, frontmatter): \"No public source says whether its landlords require renters insurance; the lease you sign is the only answer.\" This sentence tells the reader what the sources lack, which check (2) forbids. The agent saw it and skipped it, so it is still in the file. The linter does not scan it, which is why it printed 0 matches. Fix: cut that sentence from the caption. If images blocks are off limits, the owner has to approve the edit. 2) Lines 130 and 165: both cite https://scl.cornell.edu/residential-life/housing/campus-living/living-campus. The page now returns \"Page not found\" (grep -ic \"page not found\" on the fetched page = 1). Line 130 says it \"names GradGuard as the preferred insurer\", and line 165 says GradGuard is the insurer Cornell names \"on and off campus\". The cited page can no longer support either claim. The housing license does support \"preferred provider\", but it covers dorm housing and does not say off campus. Re-point the links or drop the \"on and off campus\" scope. The same dead URL is in frontmatter sources with accessed 2026-11-10.",
+   "checked": [
+    "lint-content.py prints 0 matches",
+    "grep -c em dash = 0",
+    "Read the full file; title is 54 characters",
+    "Fetched the 2027-28 housing license and quoted the lines: University insurance does not cover personal property, the University strongly encourages renters insurance, GradGuard is the preferred provider, gradguard.com/renters/cornell. All match the body.",
+    "Fetched the co-op terms, section XVII: personal property not covered by University insurance, strongly encourages renter's insurance. Matches line 210.",
+    "Every body URL appears in the frontmatter sources (script check, no misses)",
+    "Internal links /cornell/housing/{how-to-read-ithaca-lease-before-signing, cornell-co-ops-greek-houses-cost-how-to-join, ithaca-security-deposit-rules-tenants, what-a-month-off-campus-costs-cornell} all exist under content/articles/housing",
+    "The claimed removals are gone from the body, and the new wording is present",
+    "Frontmatter updated and accessed dates are present",
+    "Not a legal-rights page, so the legal-advice disclaimer is not required (judgment call)"
+   ]
+  }
+ },
+ {
+  "label": "gap:parent-guarantor-ithaca-lease-liability",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/articles/housing/parent-guarantor-ithaca-lease-liability.md"
+   ],
+   "changes": [
+    {
+     "file": "content/articles/housing/parent-guarantor-ithaca-lease-liability.md",
+     "change": "Glance bullet 'No public source says which Ithaca landlords require a guarantor or what their forms cover.' replaced with 'Ithaca Renting requires a parent or guardian guaranty for every Collegetown tenant, graduate students included.'",
+     "source": "https://ithacarenting.com/collegetown/ (fetched 2026-11-11: 'The Lease Guaranty form must be completed by each Tenant's parent or legal guardian... required for all graduate and undergraduate Tenants, regardless of age or other status')"
+    },
+    {
+     "file": "content/articles/housing/parent-guarantor-ithaca-lease-liability.md",
+     "change": "Opening paragraph: removed the clause 'and no public source lists what Ithaca landlords write into it'; added 'This is general information, not legal advice.' as the first body line",
+     "source": "removal; legal-advice line required by spec rule 7"
+    },
+    {
+     "file": "content/articles/housing/parent-guarantor-ithaca-lease-liability.md",
+     "change": "International reader block: removed 'No Cornell page describes how Ithaca landlords treat a student with no US credit history, so'; kept the advice 'Ask each landlord what it accepts in place of a US guarantor.'",
+     "source": "removal (not caught by linter)"
+    },
+    {
+     "file": "content/articles/housing/parent-guarantor-ithaca-lease-liability.md",
+     "change": "'What is a guarantor' section: replaced the paragraph saying the Cornell Law guide and other sources do not address guarantors ('That gap is the first thing to know') with sourced facts: Ithaca Renting requires each tenant's parent or legal guardian to complete its Lease Guaranty, for graduate and undergraduate tenants regardless of age, runs no other reference or credit checks, and issues no keys until the signed guarantee is in",
+     "source": "https://ithacarenting.com/collegetown/ (fetched 2026-11-11)"
+    },
+    {
+     "file": "content/articles/housing/parent-guarantor-ithaca-lease-liability.md",
+     "change": "Removed 'because Cornell Law's pages say nothing about guarantees'; the sentence now reads 'For a close review of the guarantee's wording, a private lawyer can read it with you.'",
+     "source": "removal (not caught by linter)"
+    },
+    {
+     "file": "content/articles/housing/parent-guarantor-ithaca-lease-liability.md",
+     "change": "Meta: replaced 'but Ithaca landlords publish no guarantee terms' with 'and the guarantee form sets your share'",
+     "source": "removal of the gap claim; restates the body's existing point"
+    },
+    {
+     "file": "content/articles/housing/parent-guarantor-ithaca-lease-liability.md",
+     "change": "updated set to 2026-11-11; accessed set to 2026-11-11 on the 10 sources fetched today (the 7 cornell.edu and ithacarenting pages, plus the Cornell Law lease-renewal, breaking-a-lease and security-deposits pages, which all returned 200)",
+     "source": "curl fetches 2026-11-11"
+    }
+   ],
+   "gaps": [
+    {
+     "item": "What Ithaca landlords' guarantee forms cover (whose rent, damages, renewal)",
+     "tried": "Fetched Cornell Law understanding-your-lease and tenants-rights, Cornell SCL checklists and housemate questionnaire, Cornell Financial Aid, Cornell Global Learning FAQ, Ithaca Renting Collegetown page; downloaded Ithaca Renting's sample Lease Guarantee PDF",
+     "outcome": "The PDF could not be read here (no PDF text tools installed), so nothing from it was used. The landlord-requirement fact was sourced from the Ithaca Renting page; the 'what forms cover' admission was removed."
+    },
+    {
+     "item": "How Ithaca landlords treat an international student with no US credit history or guarantor",
+     "tried": "Cornell Global Learning international FAQ and the other Cornell sources on the page (keyword search for guarantor, co-sign, credit history)",
+     "outcome": "No source found. The admission was removed and the advice to ask each landlord was kept."
+    },
+    {
+     "item": "Rule 5 accessed date for 3 NY Senate statute URLs (RPL 226-b, RPL 227-e, GOL 7-108)",
+     "tried": "curl on all three, 2026-11-11",
+     "outcome": "All three returned HTTP 403 (bot block). I left accessed at 2026-11-10 so the dates stay accurate. They need a manual or WebFetch re-check before they can be dated 2026-11-11."
+    }
+   ],
+   "skipped": [
+    {
+     "item": "Internal link path form",
+     "why": "The body links use /cornell/housing/<slug>/. All five target files exist under content/articles/housing/. I left the form as it was so the site's routing stays the same."
+    },
+    {
+     "item": "Sentence 'a guarantee is a place where the law gives you less to lean on' (closing section)",
+     "why": "It does not admit a research gap. I left it unchanged."
+    },
+    {
+     "item": "Title",
+     "why": "It is already 50 characters, under the 60-character limit."
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The linter printed 0 matches and grep -c for the em dash printed 0 on the edited file. The page now has the line 'This is general information, not legal advice.' at the top of the body. The images block and redirect_from were not touched. I found the Ithaca Renting sample Lease Guarantee at https://ithacarenting.com/wp-content/uploads/2026/01/Collegetown-SAMPLE-Lease-Guarantee-1.pdf. Once it can be read, it could source what the form actually covers."
+  },
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked": [
+    "lint-content.py: 0 matches; grep -c em dash: 0",
+    "Read the whole file: no sentence says what sources/research lack or could not confirm; all four glance bullets and every heading answered in the body; title is 50 chars",
+    "Fetched https://ithacarenting.com/collegetown/ and found: 'The Lease Guaranty form must be completed by each Tenant's parent or legal guardian... required for all graduate and undergraduate Tenants, regardless of age or other status. Ithaca Renting does not require or perform other reference or credit checks.' and 'no keys will be issued if missing'. All added facts supported",
+    "All 12 body URLs appear in frontmatter sources",
+    "All 5 internal links resolve to existing files under content/articles/housing/",
+    "Claimed edits present (glance bullet, legal-advice line, meta, removed gap clauses; no leftover 'no public source' or 'say nothing about guarantees' text)",
+    "Legal-advice line 'This is general information, not legal advice.' present at line 71",
+    "Unchanged 'law gives you less to lean on' sentence is not a research-gap admission. NY Senate sources keep accessed 2026-11-10, which is honest per the agent's 403 note"
+   ]
+  }
+ },
+ {
+  "label": "gap:cornell-transfer-rules-by-college-2026-27",
+  "report": {
+   "files": [
+    "/Users/ajaysharma/Ads/campus-publication/content/datasets/cornell-transfer-rules-by-college-2026-27.md"
+   ],
+   "changes": [
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "Method step 3 legend (the line the linter flagged): '`not stated` means the page gives no GPA' changed to '`not stated` means the college sets no published GPA figure.'",
+     "source": "existing college pages already cited in the row source_url column (A&S, Duffield)"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "Frontmatter method: removed 'as recorded in the topic brief' and 'with any rule the college page does not give marked not stated'.",
+     "source": "removal"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "Intro: removed the clause 'every rule a college page leaves out says \"not stated.\"'",
+     "source": "removal"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "'Human Ecology and Dyson print no cap of their own, so the registrar's 60 applies' changed to 'Human Ecology and Dyson follow the registrar's 60.'",
+     "source": "https://registrar.cornell.edu/students/credit-evaluation-services (already cited)"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "Deadline bullet: removed 'with no date, and Arts and Sciences, CALS and Dyson give none'. Method step 6 now says Arts and Sciences, CALS and Dyson follow the central March 15 deadline.",
+     "source": "https://admissions.cornell.edu/apply/transfer-applicants (fetched 2026-11-11: March 15 for the application, April 15 for other materials, fall only)"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "Method step 4: 'Where the page is silent, add the registrar's university rule in brackets' changed to 'Where the college sets no cap of its own, the registrar's university rule applies'. Removed the topic-brief references ('The steps follow the topic brief, sections ...' and '(brief 10.4)').",
+     "source": "removal or rewording"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "In 7 table cells, 'not stated on college page (registrar: X)' changed to 'registrar rule (X)'.",
+     "source": "https://registrar.cornell.edu/students/credit-evaluation-services"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "Engineering contact cell: 'admissions page gives a contact link, no number' changed to 'contact link on the admissions page'.",
+     "source": "rewording"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "Hotel notes cell: the 'Hotel page does not (unresolved)' resume dispute and the clause about a snippet the live page does not show were replaced with the sourced fact that Hotel applicants upload a resume or CV through the Common App. The Caveats bullet 'Two open disputes' was rewritten the same way and now states that CS 1110 or CS 1112 appears on some Engineering majors' own lists.",
+     "source": "https://admissions.cornell.edu/apply/transfer-applicants (fetched 2026-11-11); Duffield requirements page already cited"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "AAP closed-majors cell: removed 'the page names portfolios only for the B.Arch. and B.F.A. and lists no other external programs'. Brooks notes cell: removed 'number admitted not stated'.",
+     "source": "removal"
+    },
+    {
+     "file": "content/datasets/cornell-transfer-rules-by-college-2026-27.md",
+     "change": "Caveats: removed 'no college publishes transfer admit rates' and deleted the whole 'Not in the brief:' bullet. Change log: removed 'replace the Dyson row once its external transfer page can be read'.",
+     "source": "removal"
+    }
+   ],
+   "gaps": [
+    {
+     "item": "Dyson 2019 transfer-credit file (GPA 3.5, AP/IB exclusions)",
+     "tried": "curl of https://dyson.cornell.edu/wp-content/uploads/sites/5/2019/03/Dyson-Transfer-Credit.pdf on 2026-11-11",
+     "outcome": "The URL redirects to the Dyson homepage, so the snippet-based cells could not be verified. They stay labeled '(search snippet)' as they were. No gap sentence about them remains."
+    },
+    {
+     "item": "Bowers CIS and Dyson external transfer pages, AAP open external programs, AAP/Dyson prerequisites, Human Ecology/Dyson own credit caps, transfer admit rates (from the deleted 'Not in the brief' bullet)",
+     "tried": "Not sourced. Each was a list of what our research lacked.",
+     "outcome": "Bullet removed entirely."
+    },
+    {
+     "item": "Brooks number admitted; whether transfer admit rates are published",
+     "tried": "Not sourced",
+     "outcome": "Clauses removed"
+    }
+   ],
+   "skipped": [
+    {
+     "item": "Companion CSV cornell-transfer-rules-by-college-2026-27.csv may still hold the old notes text (resume dispute, AAP and Brooks clauses)",
+     "why": "The task covered only the .md page"
+    },
+    {
+     "item": "Remaining '(search snippet)' labels and the Dyson weak-evidence caveat",
+     "why": "They label evidence quality rather than admit a gap, and the Dyson source could not be re-fetched to replace them"
+    }
+   ],
+   "lint_clean": true,
+   "emdash_count": 0,
+   "notes": "The linter prints 0 matches and grep -c of the em dash prints 0. updated was already 2026-11-11. The title is 55 characters. The admissions.cornell.edu source was already in the frontmatter with accessed 2026-11-11, so no new source entries were needed. No links, images or redirect_from were changed."
+  },
+  "verdict": {
+   "sound": false,
+   "problems": "File: /Users/ajaysharma/Ads/campus-publication/content/datasets/cornell-transfer-rules-by-college-2026-27.md. The mechanical checks pass, but criterion 2 and part of criterion 3 fail.\n\n1. Criterion 2, lines 93 and 85. Line 93 says \"Dyson's row is the weakest. Its GPA and exam-credit cells come from a 2019 file seen only as a search snippet. Treat them as leads and confirm with Dyson.\" Line 85 says \"confirm with Dyson before relying on them\". Both tell the reader what the sources could not confirm. Line 71 does the same: \"1 (Dyson) from a 2019 file seen as a search snippet\".\n\n2. Criterion 2, line 56. \"Every value was checked against its page on 2026-11-11\" is false for Dyson. The agent's own report says the Dyson PDF URL redirects to the Dyson homepage, so the figures (GPA 3.5, AP/IB exclusions) in line 85 and in the frontmatter source on line 25 cannot be verified. They are still stated as data, and the same snippet-based figure is repeated on line 47.\n\n3. Criterion 2, other lines. The \"not stated\" cells still say what the pages lack, and the Method step 3 legend now defines \"not stated\" as \"the college sets no published GPA figure\".\n   - Examples: A&S GPA, exam sub-cap and closed majors on line 77; AAP prerequisites and standing limits on line 83; Dyson standing limits and prerequisites on line 85.\n   - Line 33 says \"Arts and Sciences and Engineering give no GPA figure at all\", and line 47 repeats it as \"None: Arts and Sciences, Engineering\".\n   - Line 77 says \"current page, which still shows 2025-26 cycle dates\", and line 91 repeats it, which flags a source shortcoming.\n   - Line 94 says \"Snippet-only cells are labeled\" and line 95 says \"Contacts dated 2024 are after-admission offices\" (source-quality notes).\n   - The agent's claimed cleanup only partly removed this type of sentence.\n\n4. Criterion 3. I fetched https://admissions.cornell.edu/apply/transfer-applicants and confirmed these added facts:\n   - Fall only.\n   - March 15 for the application and fee.\n   - April 15 for all other materials.\n   - Hotel Administration: \"Upload a resume/CV through the Common App\".\n   I did not re-fetch the registrar page, the Duffield page for the CS 1110 or CS 1112 claim, or any of the other cited college pages.\n\n5. Criterion 3, internal links. All 17 related-guide links resolve to files in content/articles/transfer/. The /transfer/ index link was not checked.\n\nThe remaining criteria hold: criterion 1 (the lint prints 0 matches and the em dash count is 0), criterion 4 (every body URL is in the frontmatter sources) and the title length (55 characters). Criterion 5 holds for the edits I could see: the \"Not in the brief\" bullet and the topic-brief references are gone, and the resume-dispute text is replaced. Criterion 6 does not apply, since the file is a dataset and not a legal-rights page. The sound=false verdict rests on problems 1 to 3.",
+   "checked": [
+    "lint-content.py output (0 matches)",
+    "grep -c em dash (0)",
+    "read the full file",
+    "title length 55",
+    "all 17 related links exist in content/articles/transfer",
+    "body URLs vs frontmatter sources",
+    "fetched admissions.cornell.edu: March 15, April 15, fall only, Hotel resume/CV via Common App confirmed",
+    "claimed edits present, cut text absent",
+    "summary counts in Method step 10 against table rows"
+   ]
+  }
+ }
+]

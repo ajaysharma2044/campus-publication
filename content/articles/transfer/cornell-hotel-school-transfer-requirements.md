@@ -191,6 +191,17 @@ Nolan is one of Cornell's endowed schools, so New York residents get no tuition 
 
 Sophomore entrants must [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates). A double is $6,872 per semester for 2026-27. Students who enter as juniors are exempt and can rent.
 
+```figure
+kind: cost_table
+title: Nolan transfer, billed costs before aid, 2026-27
+rows:
+  - {label: "Tuition, endowed rate (no NY resident break)", value: "$73,946 a year"}
+  - {label: "Fees", value: "$1,024 a year"}
+  - {label: "Double room", value: "$6,872 per semester"}
+  - {label: "Our total: tuition, fees, double, Unlimited meal plan", value: "$96,318 a year"}
+  - {label: "Application fee (waived automatically for aid applicants who need it)", value: "$85"}
+```
+
 ## Common mistakes
 
 - **Applying as a current junior.** Nolan will not consider it, and the $85 fee is gone.

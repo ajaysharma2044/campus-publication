@@ -1,0 +1,76 @@
+[
+ {
+  "slug": "syracuse-airport-to-cornell-ourbus-car-service",
+  "file": "content/articles/getting-around/syracuse-airport-to-cornell-ourbus-car-service.md",
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked": [
+    "Lint printed 0 banned-phrase matches and grep -c for the em dash printed 0.",
+    "Read the whole page. No sentence says what the sources or research lack. Every heading, glance line and FAQ question is answered in the body. The Big D's cost cell says 'Ask when booking', which is reader instruction, not source narration.",
+    "Both edited Time cells (UberX and Student Assembly charter) now read 'By road; see the driving times below'. That resolves the objection: the unsourced 1 h 15 min is gone from both rows.",
+    "Uber page, fetched: average $120 from SYR to Ithaca over the last 12 months, and the page gives no trip time. This confirms the objection and the $120 claim.",
+    "Ithaca College page, fetched: 'approximately one hour and fifteen minutes' drive (65 miles)'.",
+    "Cornell conference services page, fetched: SYR is '60 miles northeast of Cornell's campus'.",
+    "OurBus route page, fetched: 51.4 miles, 1 h 25 min to 2 h 5 min, most fares $46.7 to $62.1, Sunday cheapest, south taxi queue outside Terminal A. These match the body.",
+    "Cornell Sun 2024 article, fetched: free charter buses after finals to the Ithaca and Syracuse airports, $18,000, 20 shuttles, undergraduates only. This supports the charter row's 'Free for undergraduates' and 'Only to the airports, after finals'.",
+    "Every URL in the body links to a source listed in the frontmatter, including the CheckMyBus, Uber, Ithaca College and conference services URLs. I did not re-fetch the other sources, which the edit did not touch.",
+    "I found nothing invented in the edited rows or the driving section."
+   ]
+  }
+ },
+ {
+  "slug": "toni-morrison-hall-cornell",
+  "file": "content/articles/housing/toni-morrison-hall-cornell.md",
+  "verdict": {
+   "sound": true,
+   "problems": "none (one minor ambiguity, not a defect: \"If you arrive after hours or while the RPCC Service Center is closed, go straight to that zone\" is correct for the after-8 p.m. (Aug. 17, 18), after-5 p.m. (Aug. 21-22) and Service Center closed windows. The Aug. 18 after-11 a.m. window still checks in at RPCC rooms 103-105 first and is then guided to the zone, but a 1 p.m. arrival is not \"after hours\" in plain reading.)",
+   "checked": [
+    "lint-content.py: 0 banned-phrase matches; grep -c em dash: 0",
+    "Read whole page: no sentence says what sources/research lack or could not confirm; every heading, glance line and FAQ question is answered in the body",
+    "Fetched the Cornell North Campus move-in page (via curl). Objection resolved: the Aug. 18 8-11 a.m. section lists only 'Check-in at RPCC room 103-105... Once checked-in, you'll be guided to your building's unloading zone' and has no Unloading Zones list.",
+    "Zone lines confirmed in the other windows: 'Dickson Hall loading dock and parking lot unloading spaces. Buildings: Clara Dickson Hall/McLLU, Toni Morrison Hall' appears under Aug. 17 after 8 p.m., Aug. 18 after 11 a.m., Aug. 18 after 8 p.m., Aug. 21-22 after 5 p.m. and 'Arrival when RPCC Service Center is Closed'",
+    "Aug. 17 8 a.m.-8 p.m. section: 'proceed to A-Lot to queue. From there, you'll be directed to your building's designated unloading zone'; Aug. 21-22 9-5 section: 'you'll be guided to your building's unloading zone'. Both support 'staff guide you'.",
+    "'Your reserved timeslot is for arrival and check-in only, not unloading.' and 'Staff unloading assistance will not be available' for the after-hours and closed-Service-Center windows both appear on the source page",
+    "Every URL in the body appears in the frontmatter sources (scripted check, none missing); the move-in URL is listed as a source",
+    "Nothing invented in the edited paragraph; I did not re-verify the other sources' facts, which this edit did not touch"
+   ]
+  }
+ },
+ {
+  "slug": "how-to-save-money-at-cornell-student-discounts-ithaca",
+  "file": "content/articles/money/how-to-save-money-at-cornell-student-discounts-ithaca.md",
+  "verdict": {
+   "sound": true,
+   "problems": "none",
+   "checked": [
+    "Lint printed '0 banned-phrase match(es)' and the em-dash grep count was 0.",
+    "Read the whole page. No sentence says what the sources, page or research lack or could not confirm. The Anabel's line 'confirm with the store before a trip' is advice to the reader, not a statement about the sources. Every heading, glance row and FAQ question is answered in the body.",
+    "Objection resolved. The 'changes around breaks' clause is gone from the Anabel's sentence, which now gives noon to 7 p.m. Wed-Fri and noon to 3 p.m. Sat. anabelsgrocery.org footer says 'Wed - Fri: 12-7PM' and 'Sat: 12-3PM', so the hours are supported. The same page gives 'Anabel Taylor Hall Room 127' and calls it 'a student-run nonprofit grocery store'. It does carry undated Instagram posts about fall-break closures, but the page does not state a general break policy, and the edit makes no claim either way.",
+    "Cornell Health node/25941 (fetched with curl) says Anabel's is 'a student-run grocery story offering discounted groceries', 'operates during the academic year' and 'SNAP cards are accepted'. It also has the 'November 10, 2025 update: In response to the government shutdown ... reduced pricing on ten of their most popular staple items ... 50% discount on groceries to all customers, with the intention that it is primarily used by those with deep financial need.' The tips line matches the 'Everywhere else' sentence: try different stores, rewards and membership programs, generic brands, coupons, SNAP eligibility.",
+    "Every URL in the body (sustainable bus-commuting, gradschool perks, cornellsun, coachusa shortline, fcs c2c-rates, ride-car-sharing, ithacacarshare, museum visit, health node/25941, anabelsgrocery.org, theithacan) is listed in the frontmatter sources. Internal links are relative site paths.",
+    "Nothing invented in the Anabel's and Food sections. I did not re-fetch the other sections' sources (TCAT, Short Line, C2C, Carshare, Johnson Museum, Ithacan), because they were outside the edit."
+   ]
+  }
+ },
+ {
+  "slug": "transfer-spring",
+  "file": "content/start/transfer-spring.md",
+  "verdict": {
+   "sound": true,
+   "problems": "none blocking. Minor notes: (a) the opening's \"Collegetown agencies began renting ... in early September\" slightly generalizes the Sun 2022 article, which says Student Agencies (captioned as in Collegetown) was one of the first to rent in early September and other agencies also opened units; (b) the transfer item 2 \"Can I transfer to Cornell? Eligibility and college quiz\" is unlinked with \"use it once it is live\", which is a planner note rather than a source-gap statement; (c) the \"Spring 2027\" bullet year is the author's framing, and the admissions page only says fall only; (d) the \"late cancelling costs\" claim in getting-around item 6 is not backed by a source I could check on this page, since it points to another guide.",
+   "checked": [
+    "lint-content.py: 0 matches; grep -c em dash: 0",
+    "Read the whole page: no sentence about what sources lack; all headings, glance lines and FAQ questions are answered in the body",
+    "admissions.cornell.edu: fall only; Mar 15 application, fee or waiver and portfolio due; Apr 15 other materials; 'late April through June' decisions; 'Transfer Common Application'; no years in page body",
+    "housing new-undergrad page: 'Most students do not have roommates before they apply for housing'; mid-June confirmations; apply within ten days of NetID (transfers too)",
+    "finaid page: transfer CSS Profile and FAFSA no later than March 15, 2027, which supports the 'with the CSS Profile and FAFSA' wording",
+    "bus passes page: privileges expire Aug 31 for fall entrants, valid from fall registration, no extensions; Sun 2024: first-year including transfer students get the free pass",
+    "Sun 2022: Student Agencies renting early September, other agencies followed, students looking after arriving in August",
+    "Sun 2018: transfers not notified until June 22",
+    "winter parking page: Nov 1 odd/even to Apr 1, Dec 1 overnight to Apr 1; C2C: Jan 6, 2027 trips on the 2027 link; parking-students: March 31 refund; orientation: Aug 18 move-in, Aug 18-23 NSO 2026; residential policy: exemption via housing application, not after a signed license, single academic year; AAP: spring transfer deadline December 1",
+    "Every external URL in the body appears in the frontmatter sources"
+   ]
+  }
+ }
+]

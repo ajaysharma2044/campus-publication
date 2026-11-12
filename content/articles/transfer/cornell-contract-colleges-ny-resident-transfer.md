@@ -88,8 +88,8 @@ sources:
 - url: https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/finances
   title: Transfer Finances, Tatkon Center for New Students
   accessed: '2026-11-11'
-- url: https://www.cs.cornell.edu/node/17
-  title: Transfer students, Cornell Computer Science
+- url: https://www.cs.cornell.edu/undergrad/csmajor/transfercredits
+  title: Transfer Credits, Cornell Computer Science
   accessed: '2026-11-11'
 - url: https://studenthealthbenefits.cornell.edu/shp-costs-billing-important-dates/shp-costs-dates-2026-27
   title: SHP Costs and Dates 2026-27, Cornell Student Health Benefits
@@ -149,7 +149,7 @@ Contract colleges charge New York residents a lower rate; endowed colleges charg
 | Nolan School of Hotel Administration | Endowed | $73,946 | $73,946 |
 | Architecture, Art and Planning (AAP) | Endowed | $73,946 | $73,946 |
 
-Two traps sit in that table. Dyson and the Hotel school both belong to the SC Johnson College of Business, yet only Dyson charges the resident rate. And computer science has no contract route: transfers reach it through [Engineering or Arts and Sciences](https://www.cs.cornell.edu/node/17), both endowed.
+Two traps sit in that table. Dyson and the Hotel school both belong to the SC Johnson College of Business, yet only Dyson charges the resident rate. And computer science has no contract route: transfers reach it through [Engineering or Arts and Sciences](https://www.cs.cornell.edu/undergrad/csmajor/transfercredits), both endowed.
 
 Both rates [rose 3.76% for 2026-27](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). For 2025-26 they were [$48,010 and $71,266](https://www.news.cornell.edu/stories/2025/03/board-trustees-approves-2025-26-budget-parameters). Prices for 2027-28, the year a fall 2027 transfer starts, are not set yet; the aid office says they are [confirmed before the early April 2027 offers](https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants).
 
@@ -189,11 +189,20 @@ Example: a New York transfer choosing between Arts and Sciences and ILR for a la
 
 Residency ["is determined at the time of your admission by the Admissions Office"](https://bursar.cornell.edu/students-parents/ny-state-residency/application-guidelines). It rests on a New York domicile, your permanent home, and "continuous residence in NYS for at least one year immediately preceding registration."
 
-If your family moves to New York after you enroll, the status can change, but slowly. After the first semester you apply to the University Bursar with documents. The [residency FAQ](https://bursar.cornell.edu/students-parents/ny-state-residency/residency-faq) describes two routes: parents who establish a New York domicile, or a financially independent student who documents independence and residence. Applications are due May 1 for fall and November 1 for spring. Approval is not retroactive and starts the semester after it is granted.
+If your family moves to New York after you enroll, the status can change, but slowly. Once you have matriculated, you apply to the University Bursar with documents. The [residency FAQ](https://bursar.cornell.edu/students-parents/ny-state-residency/residency-faq) describes two routes: parents who establish a New York domicile, or a financially independent student who documents independence and residence. Applications are due May 1 for fall and November 1 for spring. Approval is not retroactive and starts the semester after it is granted.
 
 ## Aid forms: HESC, CSS and FAFSA
 
 Every US transfer files the CSS Profile (code 2098) and FAFSA (002711) by [March 15, 2027 for fall 2027](https://finaid.cornell.edu/apply-aid/prospective-students-or-first-time-aid-applicants). New York residents also file with HESC at hesc.ny.gov. The code depends on the college: 0174 for a contract college, 0175 for an endowed one. File it even if you apply to an endowed college.
+
+```figure
+kind: timeline
+title: Aid and billing dates for a fall 2027 transfer
+rows:
+  - {label: "CSS Profile, FAFSA and HESC due", date: "March 15, 2027"}
+  - {label: "Aid offers, with 2027-28 prices confirmed", date: "Early April 2027"}
+  - {label: "Fall tuition bill arrives", date: "Early July 2027"}
+```
 
 The resident rate matters less if your family qualifies for large grants. Cornell meets [100% of demonstrated need](https://admissions.cornell.edu/apply/transfer-applicants), and families earning up to $125,000 with typical assets get [tuition covered by grants](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). Up to $75,000, grants, scholarships and work-study cover the full cost of attendance. The $24,130 gap bites hardest for families above those lines.
 
@@ -219,6 +228,20 @@ Switching from an endowed college into a contract college later is slow. Arts an
 
 In fall 2021, the newest by-college count Cornell has published, 472 of 674 transfers (70.0%, our math from the [IRP profile](https://irp.cornell.edu/wp-content/uploads/2021/08/Profile2021-Fall-Transfers.pdf)) entered the contract colleges counted in that profile. CALS alone took 243, ILR 116, Human Ecology 59 and Dyson 54. On the endowed side, Arts and Sciences took 102, Hotel 48, Engineering 37 and AAP 15. That year, 33.5% of transfers had New York residency.
 
+```figure
+kind: cost_table
+title: Fall 2021 transfers by college (674 in all)
+rows:
+  - {label: "CALS (contract)", value: "243"}
+  - {label: "ILR (contract)", value: "116"}
+  - {label: "Arts and Sciences (endowed)", value: "102"}
+  - {label: "Human Ecology (contract)", value: "59"}
+  - {label: "Dyson (contract)", value: "54"}
+  - {label: "Hotel (endowed)", value: "48"}
+  - {label: "Engineering (endowed)", value: "37"}
+  - {label: "AAP (endowed)", value: "15"}
+```
+
 ## SUNY and community college pathways
 
 Cornell admits about [100 community college transfers a year](https://www.news.cornell.edu/stories/2024/05/community-college-transfers-flourish-cornell) (Cornell Chronicle, 2024). Two current agreements involve New York community colleges.
@@ -233,7 +256,7 @@ Cornell admits about [100 community college transfers a year](https://www.news.c
 - **Applying to CALS to reach AEM.** [CALS transfers cannot change to or add AEM](https://cals.cornell.edu/education/admissions/undergraduate-admissions/transfer-applicants). For business, apply through Dyson.
 - **Skipping HESC or using the wrong code.** Cornell's aid page tells New York residents to file it with the CSS Profile and FAFSA by March 15. Use 0174 for a contract college, 0175 for an endowed one.
 - **Sending the HEOP certification form for a contract college.** CALS, Human Ecology, ILR, Brooks and Dyson want an email to stateprograms@cornell.edu.
-- **Counting on a residency change mid-year.** The Bursar approves changes only after the first semester, and never retroactively, so a family that moves after admission pays $73,946 for at least one semester.
+- **Counting on a residency change mid-year.** The Bursar takes applications only once you have matriculated, approval starts the semester after it is granted, and it is never retroactive, so a family that moves after admission pays $73,946 for at least one semester.
 
 ## FAQ
 

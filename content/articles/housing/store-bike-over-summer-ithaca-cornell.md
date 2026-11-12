@@ -36,7 +36,7 @@ sources:
 - url: http://www.bigredboxes.com/BRSS_Pricing
   title: BRSS storage pricing, Big Red Shipping and Storage
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options
   title: Storage and Shipping Options, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.ithacabikeshare.org
@@ -113,4 +113,4 @@ The same options work for a winter break. Riding through the winter is a differe
 
 ## What to do next
 
-Pick the cheapest indoor option you can reach. Call BRSS for a bike quote, and decide before the buildings close. Items left behind when residence halls [closed on May 17, 2026](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-out/storage-shipping-options) were donated. The [move-out options guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) covers the rest of the move.
+Pick the cheapest indoor option you can reach. Call BRSS for a bike quote, and decide before the buildings close. Items left behind when residence halls [closed on May 17, 2026](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/storage-shipping-options) were donated. The [move-out options guide](/cornell/getting-around/cornell-move-out-storage-shipping-options/) covers the rest of the move.

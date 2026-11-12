@@ -1,5 +1,5 @@
 ---
-title: 'Redbud Cooperative Von Cramm Hall Cornell: cost'
+title: 'Redbud (Von Cramm Hall) co-op Cornell: cost and how to join'
 mode: answer
 dek: Redbud is Cornell's largest co-op, with 34 residents at 623 University Ave. and the lowest room rates of the eight houses.
 meta: 'Redbud Cooperative in Von Cramm Hall at Cornell: 34 residents, founded 1956, 2026-27 rates from $2,765 a semester, and how selection works.'
@@ -7,7 +7,7 @@ primary_query: Redbud Cooperative Von Cramm Hall Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 100
 rewrites: ''
 readers:
@@ -27,7 +27,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions
   title: Co-op Housing 2026-2027 Terms and Conditions, Cornell Housing
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2023/03/06/underserved-and-minority-students-find-belonging-and-support-in-co-op-housing/
@@ -36,7 +36,7 @@ sources:
 - url: https://cornellsun.com/2019/02/11/open-house-day-highlights-unique-qualities-of-cornell-co-ops/
   title: Open House Day highlights unique qualities of Cornell co-ops, The Cornell Daily Sun, Feb. 11, 2019
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
   accessed: '2026-11-10'
 images: []
@@ -90,7 +90,7 @@ Redbud is one of five co-ops that list graduate students as eligible. The three 
 
 Each co-op runs its own selection, and selection starts in early November and early February ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing)). A Cornell Daily Sun report described entry as a "mosey," a set of events followed by a lottery weighted by financial need and diversity ([Cornell Daily Sun](https://cornellsun.com/2023/03/06/underserved-and-minority-students-find-belonging-and-support-in-co-op-housing/)). Write to co-ops@cornell.edu or call 607-255-3445 for Redbud's current steps.
 
-Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027. If you miss that date, you complete the requirement on campus ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, which our [affiliated housing page](/start/affiliated-housing/) explains. For other ways around the requirement, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+Rising sophomores must state their co-op plan on the 2027-28 application by March 15, 2027. If you miss that date, you complete the requirement on campus ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A co-op counts as affiliated housing, which our [affiliated housing page](/start/affiliated-housing/) explains. For other ways around the requirement, see the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ## What are the license terms?
 

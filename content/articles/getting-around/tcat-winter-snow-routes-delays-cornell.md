@@ -96,7 +96,7 @@ On a snow day, active detours show in the red alert bar on TCAT's home page ([TC
 
 ## How do big storms change service?
 
-Storms bring delays. In January 2026, a storm closed Cornell's Ithaca campus from noon on Jan. 25 to noon the next day. TCAT delayed its Monday service to 10 a.m. ([The Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Our [closures guide](/daily-life/cornell-snow-days-class-cancellation-how-it-works/) explains who decides.
+Storms bring delays. In January 2026, a storm closed Cornell's Ithaca campus from noon on Jan. 25 to noon the next day. TCAT delayed its Monday service to 10 a.m. ([The Cornell Daily Sun](https://cornellsun.com/article/2026/01/cornell-announces-ithaca-and-agritech-campuses-will-reopen-at-noon-on-monday)). Our [closures guide](/cornell/daily-life/cornell-snow-days-class-cancellation-how-it-works/) explains who decides.
 
 ## Does the winter schedule change?
 
@@ -132,4 +132,4 @@ No buses run on Thanksgiving, Christmas or New Year's Day, and service on other 
 
 ## What to do next
 
-Save TCAT's website and one tracking app on your phone before the first storm. Our guide to [getting around without a car](/cornell/getting-around/getting-around-cornell-upper-years-no-car/) has the full set of backups.
+Save TCAT's website and one tracking app on your phone before the first storm. Our guide to [getting around without a car](/cornell/getting-around/getting-around-cornell-upper-years-no-car/) has the full set of backups. For the rest of the season, from snow days to parking, read our [Ithaca winter survival guide](/cornell/daily-life/ithaca-winter-survival-guide-cornell/).

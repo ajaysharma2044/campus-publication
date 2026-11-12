@@ -42,7 +42,7 @@ sources:
 - url: https://finaid.cornell.edu/cost-attend
   title: Cost of Attendance, Cornell Financial Aid
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
@@ -68,9 +68,6 @@ sources:
   accessed: '2026-11-11'
 - url: https://reddit.sentinel-team.org/posts/1qbvg0g/snapshots/2026-01-16T10%3A01%3A13.578438Z
   title: r/Cornell Transfer Option thread (mirror), January 2026
-  accessed: '2026-11-11'
-- url: https://admissions.cornell.edu/node/6748
-  title: Cornell Admissions student Q&A
   accessed: '2026-11-11'
 - url: https://cornellsun.com/2020/12/09/lack-of-connection-marks-transition-to-cornell-for-transfers/
   title: Lack of Connection Marks Transition to Cornell for Transfers, The Cornell Daily Sun, December 9, 2020
@@ -119,7 +116,7 @@ Cornell's central Transfer Option page leaves the conditions to each college. Ge
 ```
 
 ```reader "If your Transfer Option is for Human Ecology or ILR"
-Human Ecology asks Transfer Option applicants for a resume, AP scores, a 600-word essay and a design supplement; ILR asks for AP scores ([Cornell Admissions](https://admissions.cornell.edu/transfer-option-applicants)). The bars these colleges set for all transfers are useful targets: Human Ecology calls a 3.5 competitive, and most ILR transfer admits have at least a 3.4. Both want letter grades in the courses that match your major. The mistake that costs most is writing the 600-word essay the week of March 15. Draft it over winter break.
+Human Ecology asks Transfer Option applicants for a resume, AP scores, a 600-word essay and, for design majors, a design supplement; ILR asks for AP scores ([Cornell Admissions](https://admissions.cornell.edu/transfer-option-applicants)). The bars these colleges set for all transfers are useful targets: Human Ecology calls a 3.5 competitive, and most ILR transfer admits have at least a 3.4. Both want letter grades in the courses that match your major. The mistake that costs most is writing the 600-word essay the week of March 15. Draft it over winter break.
 ```
 
 ```reader "If you're the parent paying for this"
@@ -211,7 +208,7 @@ The College Report is a standing form from your dean or registrar, not a recomme
 |---|---|
 | Arts and Sciences | None |
 | Agriculture and Life Sciences (CALS) | Resume, course schedule, AP scores, two essays; Landscape Architecture adds a portfolio via SlideRoom |
-| Human Ecology | Resume, AP scores, a 600-word essay, a design supplement |
+| Human Ecology | Resume, AP scores, a 600-word essay; a design supplement for Design and Environmental Analysis, Fashion Design and Fashion Design Management |
 | SC Johnson College of Business (Dyson, Hotel) | Resume; no interview |
 | Industrial and Labor Relations (ILR) | AP scores |
 
@@ -256,9 +253,9 @@ Some Cornell decisions wait for final grades, so you may hold both plans into Ma
 
 Once admitted, you follow the same path as any sophomore transfer. Arts and Sciences requires [at least 60 Cornell credits and four semesters in residence](https://as.cornell.edu/admissions/admissions-requirements-and-process). One year elsewhere plus four Cornell semesters is the usual four years.
 
-**Housing.** New transfers [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates). Apply on the Housing and Dining Portal [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process); there is no fee and no deposit. Transfers may be placed on West Campus, South Campus, North Campus or in Program Houses. That wording describes a required room, not a named building or a guarantee; the only building you pick by name is a Program House. Confirmations start in mid-June.
+**Housing.** New transfers [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates). Apply on the Housing and Dining Portal [within ten days of receiving your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process); there is no fee and no deposit. Transfers may be placed on West Campus, South Campus, North Campus or in Program Houses. That wording describes a required room, not a named building or a guarantee; the only building you pick by name is a Program House. Confirmations start in mid-June.
 
-**Cost.** Endowed tuition is [$73,946 for 2026-27, and New York residents in contract colleges pay $49,816](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). The contract colleges are CALS, Human Ecology, ILR, Brooks and Dyson. Families earning up to $125,000 with typical assets get tuition covered by grants, and up to $75,000 the full cost.
+**Cost.** Endowed tuition is [$73,946 for 2026-27, and New York residents in contract colleges pay $49,816](https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters). The contract colleges named in that announcement are CALS, Human Ecology and ILR. Families earning up to $125,000 with typical assets get tuition covered by grants, and up to $75,000 the full cost.
 
 ```figure
 kind: cost_table
@@ -277,7 +274,7 @@ Example: a New York family with a CALS Transfer Option compares the two Cornell 
 
 **Arrival.** In 2026, [transfer move-in and Family Orientation were August 18](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation), a day after first-year move-in. New Student Orientation ran August 18 to 23 and includes transfer small groups. Family orientation details [arrive in early May](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/orientation).
 
-**Friends.** Transfer Option admits [found first friends in a large Discord of other Transfer Option students](https://admissions.cornell.edu/node/6748) over the summer, in an admissions student Q&A. In a [2020 Sun story](https://cornellsun.com/2020/12/09/lack-of-connection-marks-transition-to-cornell-for-transfers/), an ILR Transfer Option student from Penn State and a student from Maryland both urged new transfers to message classmates and step outside their comfort zone. Join the Discord as soon as you are admitted.
+**Friends.** In a [2020 Sun story](https://cornellsun.com/2020/12/09/lack-of-connection-marks-transition-to-cornell-for-transfers/), an ILR Transfer Option student from Penn State and a student from Maryland both urged new transfers to message classmates and step outside their comfort zone. Start messaging other admits over the summer, before move-in.
 
 **Credits.** Each college evaluates your year-one credits after you commit. A [Her Campus Cornell article](https://www.hercampus.com/school/cornell/transfer-option-blessing-disguise/) says Cornell reviewed the author's syllabi and approved most of her classes after her Transfer Option year. Save every syllabus.
 

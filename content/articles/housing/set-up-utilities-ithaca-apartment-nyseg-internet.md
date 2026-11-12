@@ -23,10 +23,10 @@ sources:
 - url: https://www.nyseg.com/support/moving-help
   title: Moving Help, NYSEG
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and Considerations, Cornell Off-Campus Living
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out
   title: Moving Out, Cornell Off-Campus Living
   accessed: '2026-11-10'
 - url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
@@ -79,7 +79,7 @@ Only the ones your lease does not include. Listings vary a lot, so match each on
 
 Source: [209 Stewart Ave listing](https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095), [Ithaca Renting downtown page](https://ithacarenting.com/downtown/) and [Dryden South](https://drydensouth.com/common-questions/).
 
-Cornell's checklist tells you to include utilities when calculating what rent you can afford, and lists pets, parking and furniture among the features to check ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). The [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) covers what else to read before you sign.
+Cornell's checklist tells you to include utilities when calculating what rent you can afford, and lists pets, parking and furniture among the features to check ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)). The [lease guide](/cornell/housing/how-to-read-ithaca-lease-before-signing/) covers what else to read before you sign.
 
 ## How do you start NYSEG service?
 
@@ -90,7 +90,7 @@ Use whichever route is easier. NYSEG's moving help page lists a "Turn On Service
 3. If the meter is indoors, arrange access with your landlord, because NYSEG says indoor meters need access.
 4. Expect a safety inspection if service at the address has been inactive for more than two years.
 
-NYSEG's page is a secondary source here, so confirm the steps when you call. Ask about heating history too. Cornell suggests asking NYSEG for average annual heating bills before you commit, especially for West Hill cottages ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)).
+NYSEG's page is a secondary source here, so confirm the steps when you call. Ask about heating history too. Cornell suggests asking NYSEG for average annual heating bills before you commit, especially for West Hill cottages ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)).
 
 Rates are in motion. The state Public Service Commission approved a temporary NYSEG electric increase of 3.7% of revenues starting June 1, 2026, and a permanent decision was still pending in November 2026 ([FingerLakes1](https://www.fingerlakes1.com/2026/05/15/nyseg-and-rge-win-temporary-rate-hikes-as-larger-increases-still-loom/)). What a winter bill looks like is in the [utilities cost guide](/cornell/money/ithaca-utilities-cost-winter-heating-bill-apartment-students/).
 
@@ -110,7 +110,7 @@ off-campus-move-in-checklist-cornell
 
 ## How do you stop service when you leave?
 
-One week before move-out, schedule disconnection of electric, gas, phone, internet, cable and garbage for any you pay ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out)). Unpaid utilities owed to the landlord can come out of your deposit ([Cornell Law Tenants Advocacy Program](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits)). See the [deposit guide](/cornell/housing/moving-out-ithaca-apartment-deposit-back/).
+One week before move-out, schedule disconnection of electric, gas, phone, internet, cable and garbage for any you pay ([Cornell Off-Campus Living](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out)). Unpaid utilities owed to the landlord can come out of your deposit ([Cornell Law Tenants Advocacy Program](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits)). See the [deposit guide](/cornell/housing/moving-out-ithaca-apartment-deposit-back/).
 
 ```reader "If you're a low-budget renter"
 Compare the all-in rent, not the base rent. An $850 room with heat, electric and Wi-Fi can cost less than a cheaper room with three bills. The [monthly cost guide](/cornell/housing/what-a-month-off-campus-costs-cornell/) lays out the totals.

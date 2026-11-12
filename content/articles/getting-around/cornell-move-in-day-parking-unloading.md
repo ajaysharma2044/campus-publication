@@ -7,7 +7,7 @@ primary_query: cornell move-in day parking
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 209
 queue_id: q-getting-around-0046
 rewrites: content/articles/getting-around/cornell-move-in-day-parking-unloading.md
@@ -63,6 +63,9 @@ sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice
   title: 2026 Winter Closing Checklist, Cornell Student and Campus Life
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing
+  title: Housing, Cornell Student and Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Cornell University - North Campus area
@@ -88,7 +91,7 @@ On move-in day, unload at your building, then move the car to the 3-hour short-t
 
 ## Where do I unload and park on move-in day?
 
-Each building has its own page, and the North Campus page is the fullest. Follow the steps below, then check your building's page.
+Each building has its own move-in page. Follow the steps below, then check your building's page.
 
 ```figure
 kind: steps
@@ -128,7 +131,7 @@ rows:
   - {label: "Move-in; staff help ends 5 p.m.", date: "Sat., Aug. 22"}
 ```
 
-Tuesday is the trap: a family arriving after 11 a.m. unloads alone. On the Monday, the Cornell Daily Sun counted 3,681 first-years moving in from 8 a.m. to 8 p.m. ([Cornell Daily Sun](https://cornellsun.com/article/2026/08/this-is-the-place-i-want-to-be-incoming-freshmen-make-the-move-to-campus)). The 2027 dates are not posted yet. Check the North Campus page when the ticket opens.
+Tuesday is the trap: a family arriving after 11 a.m. unloads alone. On the Monday, the Cornell Daily Sun counted 3,681 first-years moving in from 8 a.m. to 8 p.m. ([Cornell Daily Sun](https://cornellsun.com/article/2026/08/this-is-the-place-i-want-to-be-incoming-freshmen-make-the-move-to-campus)). Cornell has not yet announced the 2027 move-in dates, so check the North Campus page when the ticket opens.
 
 ```reader "If you're a first-year"
 Most first-years live on North Campus. Check in during your timeslot, then unload. Cornell's [families page](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation) says first-years are discouraged from bringing a car, though limited permits exist. The costly mistake is leaving the car in the unloading space while you set up your room.
@@ -143,7 +146,7 @@ Register the plate at [MyParking.Cornell.edu](https://fcs.cornell.edu/department
 ```
 
 ```reader "If you need accessible parking or help"
-The accessible (AP) permit starts with Student Disability Services ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Cornell's move-in pages do not describe a separate accessible unloading area, so ask Housing at housing@cornell.edu or 607-255-5368 before the day. Uber and taxi drop-offs go to A Lot, so plan for the distance.
+The accessible (AP) permit starts with Student Disability Services ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). To arrange accessible unloading, call the Housing and Residential Life Office at 607-255-5368 before the day ([Cornell Housing](https://scl.cornell.edu/residential-life/housing)). Uber and taxi drop-offs go to A Lot, so plan for the distance.
 ```
 
 ```reader "If you arrive in spring"
@@ -175,4 +178,4 @@ In spring 2026, buildings closed at 2 p.m. on Sunday, May 17, and items left beh
 
 ## What to do next
 
-Print your ticket on Aug. 1, check your building's page, and plan to arrive before staff help ends. If you are coming by bus or plane, start with [getting to Ithaca and around Cornell](/cornell/getting-around/getting-to-ithaca-and-around-cornell/) and the [first-year transportation guide](/cornell/getting-around/getting-around-cornell-first-year/).
+Print your ticket after Aug. 1, check your building's page, and plan to arrive before staff help ends. If you are coming by bus or plane, start with [getting to Ithaca and around Cornell](/cornell/getting-around/getting-to-ithaca-and-around-cornell/) and the [first-year transportation guide](/cornell/getting-around/getting-around-cornell-first-year/).

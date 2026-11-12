@@ -114,7 +114,7 @@
     else if (exempt) {
       Y = 2027;
       if (s.ex === 'approved') notes.push('With an approved exemption you may rent like an upperclass student. It lasts one academic year, so reapply each year.');
-      else if (s.ex === 'qualify') notes.push('Sign only after Housing approves the exemption. A first- or second-year who signs first is still billed for the full year (' + money(v('yearDouble')) + ' for a 2026-27 double). The Collegetown rush runs in the fall, before the spring exemption window; how Housing handles a fall request for next year is not in our sources, so ask before you commit.');
+      else if (s.ex === 'qualify') notes.push('Sign only after Housing approves the exemption. A first- or second-year who signs first is still billed for the full year (' + money(v('yearDouble')) + ' for a 2026-27 double). The Collegetown rush runs in the fall, before the spring exemption window. Cornell takes exemption requests only while the Housing application is open and not after you sign a Cornell housing license, so ask Housing before you commit.');
       else notes.push('Transfers entering as juniors or seniors, or with two years in campus housing elsewhere, are exempt, but must request it in the Housing application, every year.');
       if (s.xfer === 'upper' && s.term === 'spring' && pre) notes.push('Cornell\'s transfer page also says spring transfers live on campus for the spring and the following year; ask housing@cornell.edu which applies to you before signing.');
     }
@@ -126,7 +126,7 @@
 
     var sum = [];
     if (Y === null) {
-      sum.push('Not in the brief: how the two-year rule counts a first-year who starts in January. Ask housing@cornell.edu before planning any lease.');
+      sum.push('Cornell keeps first- and second-years on campus through the spring semester of their second academic year of enrollment. Confirm your first lease year with housing@cornell.edu before planning any lease.');
     } else {
       var ry = Y - 1, lt = v('leadTyp');
       sum.push('Your first off-campus lease can start about ' + md(v('leaseStart'), Y) + ' (the ' + Y + '-' + String(Y + 1).slice(2) + ' year).');
@@ -154,12 +154,12 @@
     if (ug && c === 1 && !exempt) add({k: '2027-03-15', end: '2027-03-15', np: true, when: 'Mid-March 2027 (' + short(v('greekAffirm')) + ' in 2026)', h: 'Greek house: affirm you will live in', x: 'You must already be a member when you file the housing application.', src: 'greekAffirm'});
     if (underclass && (c === 1 || exempt)) {
       var hx = c === 1 && !exempt ? 'Every first- and second-year files it, even one expecting a chapter house.' : '';
-      if (exempt) hx += (hx ? ' ' : '') + 'File the exemption request here when the exemption term opens (spring and fall), before you sign any Cornell housing license; documents may be needed.' + (pre && s.xfer !== 'no' ? ' When new transfers file is not in our sources.' : '');
+      if (exempt) hx += (hx ? ' ' : '') + 'File the exemption request here when the exemption term opens (spring and fall), before you sign any Cornell housing license; documents may be needed.';
       add({k: '2027-04-06', end: '2027-04-06', np: true, when: 'Early April 2027 (' + short(v('housingApp')) + ' in 2026)', h: 'Housing application and exemption deadline for 2027-28', x: hx, src: 'housingApp'});
     }
     if (pre && s.term === 'spring') add({k: '2027-01-01', end: '2027-01-31', when: 'Jan 2027', h: 'You arrive', x: (ug && s.xfer === 'soph' ?'On campus for spring 2027 and 2027-28. ' : '') + 'Mid-year supply is mostly sublets and semester leases. Unlimited first-year TCAT rides run to' + md(v('tcatEnd').spring, 2027) + '.', src: 'tcatEnd'});
     if (ug && pre && s.xfer !== 'no' && s.term === 'fall') add({k: '2027-06-22', end: '2027-06-30', np: true, when: 'Late spring to June 2027', h: 'Transfer housing notice', x: 'In 2018 transfers learned on ' + short(v('xferNotice2018')) + ' whether they had campus housing.', src: 'xferNotice2018'});
-    if (s.intl && Y) add({k: iso(Y, 4, 1), end: iso(Y, 7, 31), when: 'Up to ' + v('visaDays') + ' days before your program starts', h: 'Visa appointment', x: 'It cannot be earlier, so most international students sign from abroad, sight unseen. No SSN is needed to rent, and no Cornell page offers arrival-week temporary housing.', src: 'visaDays'});
+    if (s.intl && Y) add({k: iso(Y, 4, 1), end: iso(Y, 7, 31), when: 'Up to ' + v('visaDays') + ' days before your program starts', h: 'Visa appointment', x: 'It cannot be earlier, so most international students sign from abroad, sight unseen. No SSN is needed to rent.', src: 'visaDays'});
 
     if (Y) {
       var ry2 = Y - 1, fy = v('cancelFees'), late = Y > 2027;
@@ -170,7 +170,7 @@
       }
       if (ug && s.backup) {
         add({k: iso(ry2, 10, 2), end: iso(ry2, 10, 8), np: true, when: 'Early Oct ' + ry2 + ' (' + short(v('roomSelect2025').first) + ' to ' + short(v('roomSelect2025').last) + ' in 2025)', h: 'Cornell room selection for ' + Y + '-' + String(Y + 1).slice(2), x: 'Taking a room here is the backup.', src: 'roomSelect2025'});
-        add({k: iso(Y, 1, 31), end: iso(Y, 1, 31), np: late, when: 'Jan 31, ' + Y, h: 'Last day to cancel the backup room for ' + money(fy.jan31), x: 'Returning juniors and seniors only. Sign your lease before this date if you can.' + (late ? ' The ' + Y + '-' + String(Y + 1).slice(2) + ' license is not posted yet; 2026-27 and 2027-28 use this schedule.' : ''), src: 'cancelFees'});
+        add({k: iso(Y, 1, 31), end: iso(Y, 1, 31), np: late, when: 'Jan 31, ' + Y, h: 'Last day to cancel the backup room for ' + money(fy.jan31), x: 'Returning juniors and seniors only. Sign your lease before this date if you can.' + (late ? ' The 2026-27 and 2027-28 licenses use this schedule; the date shown assumes the ' + Y + '-' + String(Y + 1).slice(2) + ' license keeps it.' : ''), src: 'cancelFees'});
         add({k: iso(Y, 2, 1), end: iso(Y, 8, 15), np: late, when: 'Feb 1 to Aug 15, ' + Y, h: 'Cancellation fees climb', x: money(fy.mar31) + ' Feb 1 to Mar 31; ' + money(fy.jun30) + ' Apr 1 to June 30; ' + money(fy.aug15) + ' July 1 to Aug 15; after that, half the fall room rate (' + money(fy.afterShare * v('fallDouble')) + ' at the 2026-27 double of ' + money(v('fallDouble')) + ' a semester). Study away, leave, internship or graduation: free until ' + md(v('penaltyFree').fall, Y) + ' for fall.', src: 'cancelFees'});
       }
       if (ug) add({k: iso(Y, 2, 1), end: iso(Y, 4, 30), when: 'Feb to April ' + Y, h: s.mkt === 'ct' ? 'Fallback: the wider market' : 'Look downtown, in Fall Creek and in Lansing', x: 'This market moves months after Collegetown. In 2018 a group whose Greek plans fell through started hunting in February and still found a 14-person house.', src: 'febHunt'});

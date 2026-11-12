@@ -14,9 +14,6 @@ sources:
 - url: https://finaid.cornell.edu/special-circumstances
   title: Special Circumstances, Cornell Student Financial Services
   accessed: '2026-11-07'
-- url: https://talk.collegeconfidential.com/t/has-anyone-had-success-appealing-their-cornell-financial-aid-offer/3702366
-  title: Has anyone had success appealing their Cornell financial aid offer?, College Confidential
-  accessed: '2026-11-07'
 - url: https://www.collegexpress.com/articles-and-advice/financial-aid/articles/financial-aid-admissions/how-appeal-your-college-financial-aid-package/
   title: How to Appeal Your College Financial Aid Package, CollegeXpress
   accessed: '2026-11-07'
@@ -33,7 +30,7 @@ images:
   license_url: https://creativecommons.org/licenses/by/4.0
 ---
 
-Yes, Cornell does change aid on appeal, but only for a narrow set of documented reasons, and we found no published success rate and no first-hand report of a win. Cornell's own page says an appeal is [a request to reconsider the specific information you provided on your financial aid application](https://finaid.cornell.edu/node/41699), and an approved one lowers your expected family contribution and raises your grant or endowed scholarship aid. Job loss, a big unreimbursed medical bill and an error on your application are in. Cost alone, a better offer from another school and a sibling in college are not. Below, each situation, what to attach and what to expect.
+Yes, Cornell does change aid on appeal, but only for a narrow set of documented reasons. Cornell's own page says an appeal is [a request to reconsider the specific information you provided on your financial aid application](https://finaid.cornell.edu/node/41699), and an approved one lowers your expected family contribution and raises your need-based aid. Job loss, a big unreimbursed medical bill and an error on your application are in. Cost alone, a better offer from another school and a sibling in college are not. Below, each situation, what to attach and what to expect.
 
 ## What Cornell will and will not consider
 
@@ -66,7 +63,7 @@ rows:
 | Offer from a peer school | Not considered; no merit aid and no matching | Nothing will change the answer |
 | Sibling in college | Older siblings' undergraduate costs are generally not considered | Only useful if tied to a separate qualifying event |
 
-The attachment column is our advice, because Cornell's pages stress documentation but [do not list documents for each circumstance](https://finaid.cornell.edu/special-circumstances). The office's page says appeals [submitted with incomplete or insufficient documentation cannot be considered and may be denied](https://finaid.cornell.edu/node/41699).
+The attachment column is our advice. Cornell asks for [clear supporting documentation for each circumstance](https://finaid.cornell.edu/node/41699) you want reconsidered, and says appeals appeals [submitted with incomplete or insufficient documentation cannot be considered and may be denied](https://finaid.cornell.edu/node/41699).
 
 ### Job loss
 
@@ -74,11 +71,11 @@ This is the textbook case, with two catches. The loss must be involuntary, and C
 
 ### Medical costs
 
-Cornell says [medical, dental and vision expenses, including copays and premiums](https://finaid.cornell.edu/node/41699), are generally not considered, while "excessive unreimbursed medical expenses" can be. The line between the two is not defined in numbers, so show the total, what insurance paid and what remains.
+Cornell says [medical, dental and vision expenses, including copays and premiums](https://finaid.cornell.edu/node/41699), are generally not considered, while "excessive unreimbursed medical expenses" can be. Show the total, what insurance paid and what remains.
 
 ### A better offer from another school
 
-This is the one most families ask about and the one Cornell rules out. Its page says requests to [match another school's merit aid](https://finaid.cornell.edu/node/41699) cannot be considered. In the College Confidential thread, two posters disagreed: SchoolMatch said Cornell does not match other schools' offers, while Momofthree24 said Cornell will review aid when a student has a better offer from a peer school. Cornell's page backs SchoolMatch on merit aid, and the page does not list a peer offer as a reason to appeal. A generic CollegeXpress guide does tell readers to [share better offers in writing](https://www.collegexpress.com/articles-and-advice/financial-aid/articles/financial-aid-admissions/how-appeal-your-college-financial-aid-package/), but it is written for schools in general. Follow Cornell's page.
+This is the one most families ask about and the one Cornell rules out. Its page says requests to [match another school's merit aid](https://finaid.cornell.edu/node/41699) cannot be considered, because Cornell offers no merit aid. A generic CollegeXpress guide does tell readers to [share better offers in writing](https://www.collegexpress.com/articles-and-advice/financial-aid/articles/financial-aid-admissions/how-appeal-your-college-financial-aid-package/), but it is written for schools in general. Follow Cornell's page.
 
 ### A sibling in college
 
@@ -86,14 +83,14 @@ Cornell says [undergraduate college costs for older siblings](https://finaid.cor
 
 ### Cost alone
 
-Sticker shock does not qualify. The original poster in the College Confidential thread, pxe, wrote of an estimated cost of about $92K a year and a plan to appeal over price. Replies from blossom, who said "I don't feel comfortable paying" is not grounds, and tsbna44, who said an appeal over not wanting to pay has essentially no chance, pointed the same way. Cornell's list agrees: it will not consider [inability or refusal to pay the expected contribution or to borrow](https://finaid.cornell.edu/node/41699).
+Sticker shock does not qualify. Cornell will not consider [inability or refusal to pay the expected contribution or to borrow](https://finaid.cornell.edu/node/41699).
 
 ## How to file
 
 1. If your CSS Profile or FAFSA has an error, correct it and email finaid@cornell.edu. Cornell notes that [corrections may not require an appeal](https://finaid.cornell.edu/node/41699).
 2. [Submit the documents Cornell asks for](https://finaid.cornell.edu/node/41699) first.
 3. File the appeal [after you receive a preliminary estimate or official offer](https://finaid.cornell.edu/node/41699), using the [Financial Aid Appeal Form](https://www.finaid.cornell.edu/appeal-application), with a short summary that cites each document.
-4. Wait. Appeals are reviewed in the order received, and the [typical response time is 10 to 15 business days](https://finaid.cornell.edu/node/41699). The page lists no filing deadline.
+4. Wait. Appeals are reviewed in the order received, and the [typical response time is 10 to 15 business days](https://finaid.cornell.edu/node/41699).
 5. First-year and transfer students whose enrollment deposit depends on the result must request a deposit extension through the Admission Portal.
 
 Questions go to finaid@cornell.edu or 607-255-5145; the office also takes [counselor appointments](https://finaid.cornell.edu/special-circumstances) by phone or video.
@@ -110,7 +107,7 @@ Our advice, drawn from the rules above:
 
 ## FAQ
 
-**Has anyone actually won an appeal?** We found no Cornell success rate and no first-hand win in the College Confidential thread, which closed in September 2026 with no reported outcomes. Cornell says only that approved appeals [may not result in additional grant aid](https://finaid.cornell.edu/node/41699).
+**Does an approved appeal always bring more grant money?** No. Cornell says approved appeals [may not result in additional grant or scholarship aid](https://finaid.cornell.edu/node/41699).
 
 **Can I appeal if my EFC is already $0?** No. Cornell lists [cases where your EFC is already $0](https://finaid.cornell.edu/node/41699) as ones it cannot consider.
 

@@ -50,10 +50,10 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing rates, Cornell Student and Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic-year housing license 2027-2028, Cornell Student and Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease
@@ -95,7 +95,7 @@ Check whether you can live off campus at all. Cornell requires spring transfers 
 ```
 
 ```reader "If you're coming back from study away or an exchange"
-Cornell's 2027-28 license lets students cancel for study away without a penalty if they tell Housing by [June 15, 2027 for fall or Dec. 1, 2027 for spring](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028). Otherwise the fee is $500. If you leave a private lease instead, the leaving-early rules apply, covered in the [breaking a lease guide](/cornell/housing/breaking-a-lease-early-ithaca-cornell/).
+Cornell's 2027-28 license lets students cancel for study away without a penalty if they tell Housing by [June 15, 2027 for fall or Dec. 1, 2027 for spring](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028). Otherwise the fee is $500. If you leave a private lease instead, the leaving-early rules apply, covered in the [breaking a lease guide](/cornell/housing/breaking-a-lease-early-ithaca-cornell/).
 ```
 
 ```reader "If you're a visiting scholar or postdoc"
@@ -104,7 +104,7 @@ Cornell offers some visiting faculty and affiliates temporary housing in Hasbrou
 
 ## How much does one semester cost?
 
-A furnished studio for spring 2027 costs about as much as a Cornell residence hall double for the same semester. Cornell charges [$6,872 per semester for a double](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) in 2026-27. At Collegetown Center's spring studio price, four months at $1,665 per bed is $6,660, and at $1,800 it is $7,200. The four-month figure is an example, because Ithaca Renting prices spring rows per bed per month and prints no end date.
+A furnished studio for spring 2027 costs about as much as a Cornell residence hall double for the same semester. Cornell charges [$6,872 per semester for a double](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) in 2026-27. At Collegetown Center's spring studio price, four months at $1,665 per bed is $6,660, and at $1,800 it is $7,200. The four-month figure is an example, because Ithaca Renting prices spring rows per bed per month and prints no end date.
 
 | Option | Price | Source note |
 |---|---|---|

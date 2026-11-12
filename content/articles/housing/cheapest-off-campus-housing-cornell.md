@@ -23,102 +23,102 @@ tools:
 - ithaca-rent-commute-calculator
 - ithaca-lease-fee-deposit-checker
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/downtown/
   title: Downtown properties and prices, Ithaca Renting
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/
   title: Ithaca, NY Rental Market Trends, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/
   title: Collegetown, Ithaca Rental Market Trends, RentCafe
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026
   title: The Ivy to establish new luxury housing in Collegetown, opens fall 2026, The Cornell Daily Sun
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same
   title: 'Unequal vs. Inequitable Housing: Why All Dorms Should Cost the Same, The Cornell Daily Sun, April 29, 2026'
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement
   title: Qualified Off-Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Campus Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing
   title: Cooperative Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing/redbud-cooperative-von-cramm-hall
   title: Redbud Cooperative in Von Cramm Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/
   title: Co-op residents face deteriorating houses, increasing rent costs, The Cornell Daily Sun, Oct. 21, 2024
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities
   title: Financial Obligations, Cornell Sorority & Fraternity Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/graduate-students
   title: Graduate Students, Cornell Financial Aid
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges & Passes, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/listing
   title: Off-Campus Housing listings, Ithaca College marketplace (source of EduExplained's building inventory)
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/4027-south-hill--kendall-ave-4-bedroom
   title: 174 Kendall Ave listing, Ithaca Rents
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.ppmhomes.com/listings/detail/3f1544f9-76c1-4375-91f6-b2400a52dbbf
   title: 119-121 Prospect St six-bedroom listing, PPM Homes
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/kelvin-place-apartments-237474
   title: Kelvin Place Apartments listing, Cornell Off-Campus Housing marketplace
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://offcampushousing.ithaca.edu/city/ithaca-college-ny/listing/209-stewart-avenue-235095
   title: 209 Stewart Avenue listing, Ithaca College Off-Campus Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/
   title: Cost of electricity in Ithaca, NY, EnergySage
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags
   title: Trash & Yard Waste Collection Tags, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://finaid.cornell.edu/living-campus
   title: Living Off Campus, Cornell Financial Aid
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/226-B
   title: New York Real Property Law 226-B
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
   title: New York Real Property Law 238-A
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits
   title: Security Deposits, Cornell Law School Tenant Advocacy guide
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: New York General Obligations Law 7-108
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard
   title: Organization Scorecard, Cornell Sorority & Fraternity Life
   accessed: '2026-11-11'
@@ -146,7 +146,7 @@ kind: reader_guide
 - Aid never pays the deposit, first month or summer rent: budget $3,180 on a $795 bed.
 ```
 
-The cheapest way to live at Cornell is a triple in Redbud, the co-op in Von Cramm Hall. It costs $2,765 a semester for 2026-27, or $5,530 for the school year ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Off campus, the cheapest bed is a share in a big apartment, from $775 a month.
+The cheapest way to live at Cornell is a triple in Redbud, the co-op in Von Cramm Hall. It costs $2,765 a semester for 2026-27, or $5,530 for the school year ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). Off campus, the cheapest bed is a share in a big apartment, from $775 a month.
 
 Every option below is priced as one person's cost for a year. Cornell's rooms cover two semesters. Apartments count 12 months of rent, the length of most local leases. The yardstick is a Cornell residence hall double at $6,872 a semester, or $13,744 a year, with gas, electricity, garbage and internet included. Spread over a year, that double equals $1,145.33 a month. The full method and all 28 base rows are in our [housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/).
 
@@ -231,10 +231,10 @@ Source: Cornell's 2026-27 housing rates and undergraduate meal plan prices. Each
 
 A quad is priced like a double, at $6,872 a semester. Only a one-room quad gets the triple rate. Whether rooms should be priced this differently is an open debate on campus. In an April 29, 2026 column in [The Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same), Ava Betnar '29 argued that Cornell should narrow the gap between single, double and triple rates.
 
-Sophomores have a cheaper door. Cornell's eight co-ops [count as second-year housing](https://scl.cornell.edu/residential-life/housing/campus-living/qualified-off-campus-housing), as do Greek and other affiliated houses. Co-ops do not appear on Cornell Dining's list of housing that carries the meal-plan requirement. A Redbud triple costs $7,114 less than a residence hall triple before any meal plan.
+Sophomores have a cheaper door. Cornell's eight co-ops [count as second-year housing](https://scl.cornell.edu/residential-life/housing/living-off-campus/affiliated-housing-second-year-housing-requirement), as do Greek and other affiliated houses. Co-ops do not appear on Cornell Dining's list of housing that carries the meal-plan requirement. A Redbud triple costs $7,114 less than a residence hall triple before any meal plan.
 
 ```reader "If you're a sophomore planning next year"
-Don't sign an apartment lease for your second year until your Cornell housing is settled. If you're joining a co-op or Greek house for 2027-28, affirm it by March 15, 2027. The application and exemption deadline is April 4, 2027 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A second-year can cancel a Cornell license only if accepted to a co-op, Greek or affiliated house before that deadline ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Don't sign an apartment lease for your second year until your Cornell housing is settled. If you're joining a co-op or Greek house for 2027-28, affirm it by March 15, 2027. The application and exemption deadline is April 4, 2027 at 11:59 p.m. ([Spring Housing Selection](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). A second-year can cancel a Cornell license only if accepted to a co-op, Greek or affiliated house before that deadline ([Academic Year Housing License 2027-2028](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 ```
 
 ## How do you get into a co-op?
@@ -245,7 +245,7 @@ Space is tight. The smallest house, [Wari](https://scl.cornell.edu/residential-l
 
 In 2024, The Cornell Daily Sun reported that [floors had collapsed in four of the eight co-ops](https://cornellsun.com/2024/10/21/co-op-residents-face-deteriorating-houses-increasing-rent-costs/) in recent years. Watermargin needed about $500,000 for a roof, and Cornell had raised and standardized co-op rents. Residents in the same report still praised the community.
 
-Greek houses are the other affiliated route. Cornell says their costs are [generally below residence hall or off-campus costs](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities). Each chapter's self-reported fees are on Cornell's [Sorority & Fraternity Life scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard). Across the 33 chapters that list a live-in charge above $0, the median is $7,150 for one spring semester of housing and dining. Rates date from spring 2023, 2025 or 2026, depending on the chapter. Rent covers housekeeping, utilities, internet, repairs and building insurance, and each chapter sets its own dues. Ask a chapter treasurer for the full yearly bill before you compare it with the tables above. Our guide to [co-op and Greek costs and how to join](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) covers each house.
+Greek houses are the other affiliated route. Cornell says their costs are [generally below residence hall or off-campus costs](https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities). Each chapter's self-reported fees are on Cornell's [Sorority & Fraternity Life scorecard](https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard). Across the 33 chapters that list a live-in charge above $0, the median is $7,150 for one spring semester of housing and dining. Rates date from spring 2023, 2025 or 2026, depending on the chapter. Rent covers housekeeping, utilities, internet, repairs and building insurance, and each chapter sets its own dues. Ask a chapter treasurer for the full yearly bill before you compare it with the tables above. Our guide to [getting into a co-op or Greek house](/cornell/housing/cornell-co-ops-greek-houses-cost-how-to-join/) shows how a sophomore gets into each.
 
 <!-- ad-break -->
 
@@ -253,7 +253,7 @@ Greek houses are the other affiliated route. Cornell says their costs are [gener
 
 Group size moves the price most. In Collegetown, the 2027-28 median bed costs $800 a month in a six-bedroom and $1,246.25 in a four-bedroom (Ithaca Renting). That gap is $446.25 a person a month, or $5,355 a year.
 
-The catch is the group. Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire). That means each tenant is on the hook for the whole rent if a housemate stops paying. A six-bedroom only stays cheap if six people stay.
+The catch is the group. Cornell says most local leases bind housemates ["jointly and severally"](https://scl.cornell.edu/residential-life/housing/living-off-campus/tenant-best-practices/study-abroad/housemate-compatibility-questionnaire). That means each tenant is on the hook for the whole rent if a housemate stops paying. A six-bedroom only stays cheap if six people stay.
 
 Distance is the second lever. EduExplained's inventory of Ithaca rentals priced 191 buildings by their cheapest per-person spot ([listings](https://offcampushousing.ithaca.edu/listing)). The median cheapest spot was $1,000 a month within half a mile of Ho Plaza, $900 at half a mile to a mile, and $837.25 beyond a mile.
 
@@ -272,7 +272,7 @@ Source: EduExplained inventory of 216 priced Ithaca buildings, 191 with a readab
 
 Across all 191 buildings, the median cheapest spot was $925 a month. In 136 buildings it was under the double's $1,145.33 monthly equivalent, and in 55 it was under $800 (EduExplained inventory).
 
-Farther out means a longer trip. Downtown sits 0.5 to 1.5 miles from campus, a 20- to 30-minute uphill walk ([Cornell's neighborhoods guide](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). Fall Creek is 0.5 to 1 mile, also uphill, with a frequent bus. South Hill is 1.5 to 3 miles. West Hill is 4 miles out, rural and not practical on foot, and Lansing is 5 to 10 miles, where Cornell recommends a bus or car. For any West Hill cottage, call NYSEG at (800) 572-1111 for its average yearly heating bill before you sign.
+Farther out means a longer trip. Downtown sits 0.5 to 1.5 miles from campus, a 20- to 30-minute uphill walk ([Cornell's neighborhoods guide](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). Fall Creek is 0.5 to 1 mile, also uphill, with a frequent bus. South Hill is 1.5 to 3 miles. West Hill is 4 miles out, rural and not practical on foot, and Lansing is 5 to 10 miles, where Cornell recommends a bus or car. For any West Hill cottage, call NYSEG at (800) 572-1111 for its average yearly heating bill before you sign.
 
 The bus closes much of the gap. After their first year, Cornell students ride TCAT free after 6 p.m. on weekdays and all weekend ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). An OmniRide pass for daytime rides costs $200 a year. A downtown 3BR bed at $9,540 a year plus that pass is $9,740, only $140 more than a Collegetown six-bedroom bed. Our comparison of [Collegetown, Fall Creek and downtown](/cornell/housing/collegetown-vs-fall-creek-vs-downtown-ithaca-where-to-live/) weighs the walk against the rent.
 
@@ -395,7 +395,7 @@ rows:
   - {label: "Most 12-month leases start", date: "About Aug. 1, 2027"}
 ```
 
-Sources: Cornell Cooperative Housing, the [2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028), Spring Housing Selection, Ithaca Renting.
+Sources: Cornell Cooperative Housing, the [2027-28 housing license](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028), Spring Housing Selection, Ithaca Renting.
 
 A returning junior or senior who holds a Cornell room as a backup pays more to cancel as the year goes on: $500 from Feb. 1, $1,000 from April 1 and $2,000 from July 1, 2027 (Cornell housing license).
 

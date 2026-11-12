@@ -49,6 +49,9 @@ sources:
 - url: https://health.cornell.edu/get-care/emergencies-after-hours-care
   title: Emergencies and After-Hours Care, Cornell Health
   accessed: '2026-11-11'
+- url: http://web.archive.org/web/20260815222031/https://health.cornell.edu/getcare/healthrequirements/undergrad-grad-prof
+  title: Health Requirements for Undergraduate, Graduate and Professional Students, Cornell Health (archived August 15, 2026)
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: The entrance of Cornell Health on Ho Plaza, a stone and glass building with steps up to its doors
@@ -104,7 +107,7 @@ Check the waiver rules before you assume your home-country or travel insurance q
 ```
 
 ```reader "If you're a graduate or professional student"
-The same deadlines apply to you, and the same waiver locks. Cornell's [graduate student start page](/start/grad-student/) links to funding and housing, which may affect how you pay for coverage. A student with a spouse or children should read the [student-family page](/start/student-family/).
+If you're a PhD student, the exception rule above applies to you instead of the standard waiver. Other graduate and professional students follow the same waiver criteria and deadlines as everyone else. Cornell's [graduate student start page](/start/grad-student/) links to funding and housing, which may affect how you pay for coverage. A student with a spouse or children should read the [student-family page](/start/student-family/).
 ```
 
 ## What health requirements must new students meet?
@@ -120,8 +123,8 @@ rows:
   - {label: "Health requirement submission opens", date: "Nov. 17, 2026"}
   - {label: "Requirements due", date: "Dec. 18, 2026"}
   - {label: "Enrollment hold if incomplete", date: "Dec. 22, 2026"}
-  - {label: "SHP waiver deadline, new spring students", date: "Jan. 21, 2027"}
   - {label: "Add/drop hold if incomplete", date: "Jan. 13, 2027"}
+  - {label: "SHP waiver deadline, new spring students", date: "Jan. 21, 2027"}
   - {label: "Spring reverification deadline", date: "Jan. 31, 2027"}
 ```
 
@@ -144,7 +147,7 @@ In an emergency, call 911 or Cornell's Public Safety Communications Center at [6
 
 The walk-in clinics need no appointment and are for non-emergency illnesses and injuries. The emergency department is also for urgent care when they are closed. Off campus, what you pay depends on your insurance.
 
-Cayuga Medical Center, Ithaca's only hospital, is the parent organization for many local primary care and specialty providers. Cayuga Health does not accept some common networks, including United Healthcare and Kaiser Permanente ([Cornell Student Health Benefits](https://studenthealthbenefits.cornell.edu/keep-your-own-health-insurance/student-health-insurance-criteria)). If Cayuga Health is not in your plan's network, you may need to use out-of-network benefits in Ithaca. Call the number on your insurance card to find in-network doctors.
+Cayuga Medical Center is Ithaca's only hospital. Cayuga Health does not accept some common networks, including United Healthcare and Kaiser Permanente ([Cornell Student Health Benefits](https://studenthealthbenefits.cornell.edu/keep-your-own-health-insurance/student-health-insurance-criteria)). If Cayuga Health is not in your plan's network, you may need to use out-of-network benefits in Ithaca. Call the number on your insurance card to find in-network doctors.
 
 ```reader "If you're a parent"
 Check who pays the plan in your family before the waiver deadline. You can read the [parent start page](/start/parent/) for billing contacts and other first-year questions.

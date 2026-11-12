@@ -3,7 +3,7 @@ title: Cornell student parking permit cost and who qualifies
 mode: answer
 dek: A resident permit is $752.98 a year and a commuter permit is $359.77; first-years can apply, though Cornell discourages it.
 meta: Cornell resident parking permits cost $752.98 a year, commuter $359.77, motorcycle $120.01. See who qualifies, when sales open and what tickets cost.
-primary_query: cornell student parking permit cost
+primary_query: cornell parking permit cost
 topic: getting-around
 school: cornell-university
 type: how-to
@@ -104,7 +104,7 @@ The price depends on where you live and how you reach campus. Cornell sets the r
 | North Campus resident (ND) | North Campus residents of university housing only; extremely limited and capped | $752.98 a year | Your signed area, plus A Lot at all times | Daily from Sept. 1 |
 | Student commuter (B) | Commuters only | $359.77 a year | B Lot always, A Lot after 2:30 p.m. | Daily from Aug. 16 |
 | Accessible (AP) | Contact Student Disability Services first | $359.77 a year | Permit-restricted spaces except reserved and MT spaces | From Aug. 16 |
-| Motorcycle (M) | Motorcycles, scooters and mopeds | $120.01 a year | Spaces signed for M permits | Monthly, nonrefundable |
+| [Motorcycle (M)](/cornell/getting-around/cornell-motorcycle-scooter-bike-parking/) | Motorcycles, scooters and mopeds | $120.01 a year | Spaces signed for M permits | Monthly, nonrefundable |
 | Outer Tier A and E | Graduate assistants with a full assistantship; not resident students | Free | Outer lots; E needs work in its zone | Not applicable |
 
 Source: Cornell Transportation, [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students).
@@ -117,7 +117,7 @@ Yes, but Cornell steers them away from it. The families page says first-years ar
 
 Cornell houses first-years in [North Campus residence halls and program houses](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing), so the resident permit they can buy is ND. ND is extremely limited: sales are capped, and only North Campus residents of university housing can buy it ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students)). Call Transportation and Delivery Services (TDS) at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services), Monday to Friday, 7:30 a.m. to noon, before you drive up.
 
-New first-years also [ride TCAT free from fall registration to Aug. 31 of the next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). If you are unsure a car is worth it, the quiz below weighs it against buses and shared cars. Our guide to [having a car at Cornell](/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers the full year.
+New first-years also [ride TCAT free from fall registration to Aug. 31 of the next year](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes). If you are unsure a car is worth it, the quiz below weighs it against buses and shared cars. Our [Cornell parking guide](/cornell/getting-around/cornell-parking-guide-campus-collegetown-ithaca/) covers the full year with a car.
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 
@@ -197,24 +197,7 @@ A permit buys a lot, not a space beside your class. For the full cost of a car a
 
 ## What are Cornell's parking fines?
 
-Fines rose on Sept. 1, 2023, the first increase since 2014, and permit or payment violations are about 85% of tickets ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)). Pay or file a written appeal within 10 calendar days of the ticket date. Tickets on a student's car can be sent to the bursar for payment ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations)).
-
-```figure
-kind: cost_table
-title: Cornell parking fines, from Sept. 1, 2023
-rows:
-  - {label: No permit or payment, value: "$50 (+$10 if unpaid in 10 days)"}
-  - {label: "Accessible space or aisle, fire lane, life-safety zone", value: "$150 and automatic tow"}
-  - {label: Reserved space or unauthorized permit, value: "$150"}
-  - {label: Boot release, value: "$150"}
-  - {label: Parking on grass, value: "$100"}
-  - {label: No parking zone, value: "$50"}
-  - {label: Winter parking rules, value: "$50"}
-  - {label: Over the time limit, value: "$35"}
-  - {label: Plate not visible, value: "$10"}
-```
-
-Source: Cornell Transportation, [citation fee schedule](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule) and [2023 fines notice](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1).
+Parking without a permit or payment, the most common ticket, costs $50, plus $10 if it is unpaid after 10 days ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/paying-appealing-citations/citation-fee-schedule)). Our [Cornell and Ithaca parking tickets guide](/cornell/getting-around/ithaca-parking-tickets-fines-how-to-appeal-cornell/) lists every Cornell and city fine and how to appeal.
 
 ## FAQ
 

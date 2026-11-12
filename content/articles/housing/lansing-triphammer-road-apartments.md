@@ -21,7 +21,7 @@ tools:
 - omniride-break-even-calculator
 - do-i-need-a-car-at-cornell-quiz
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
   title: Ithaca Neighborhoods, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx
@@ -54,7 +54,7 @@ sources:
 - url: https://reedgroup.github.io/GraduateStudentResources/LifeAtCornell.html
   title: Life at Cornell, Graduate Student Resources
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
@@ -71,7 +71,7 @@ images: []
 - Lansing is outside the City, so City rental rules and Cornell's safety lookup do not apply.
 ```
 
-North of campus along Triphammer and Warren roads, large apartment complexes charge less than Collegetown but sit 2 to 3 miles out. Cornell says to expect larger complexes, lower rents and regular buses, with the Shops at Ithaca Mall, Triphammer Mall and Cayuga Mall nearby ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods)). Most residents ride the bus or drive.
+North of campus along Triphammer and Warren roads, large apartment complexes charge less than Collegetown but sit 2 to 3 miles out. Cornell says to expect larger complexes, lower rents and regular buses, with the Shops at Ithaca Mall, Triphammer Mall and Cayuga Mall nearby ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods)). Most residents ride the bus or drive.
 
 ## How far is Lansing from campus?
 
@@ -109,7 +109,7 @@ Winston Square takes no guarantors or cosigners, so ask every complex whether it
 
 ## Which rules apply in Lansing?
 
-Lansing is a Town, not the City of Ithaca. The City's rental certificate and Cornell's safety lookup cover City rentals only, not Town, Lansing or Cayuga Heights ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments)). For a code question, the Town of Lansing office is at 607-533-7054 ([Cornell Law School Tenants Advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Our [City, Town and Lansing guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) explains the differences.
+Lansing is a Town, not the City of Ithaca. The City's rental certificate and Cornell's safety lookup cover City rentals only, not Town, Lansing or Cayuga Heights ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments)). For a code question, the Town of Lansing office is at 607-533-7054 ([Cornell Law School Tenants Advocacy](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). Our [City, Town and Lansing guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) explains the differences.
 
 ## Do you need a car?
 

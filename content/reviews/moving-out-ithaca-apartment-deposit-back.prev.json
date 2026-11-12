@@ -59,13 +59,13 @@
   },
   {
    "claim": "Cleaning conflict: Cornell page says 'charges for cleaning services will be deducted'; Law guide bans a separate fee",
-   "source_url": "brief §conflicts; https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
+   "source_url": "brief §conflicts; https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out",
    "status": "ok",
    "note": "Quote confirmed on fetched Cornell page; brief conflicts table says trust the law."
   },
   {
    "claim": "Cornell two-stage checklist: two weeks before (confirm date, schedule final inspection, review lease, change address); one week before (schedule disconnection of services, clean, forwarding address); move-out day (photograph rooms, keys)",
-   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out",
    "status": "ok",
    "note": "fixed in place: Fetched page lists only two timed stages; it has no move-out-day section, and 'clean' and 'forwarding address' are untimed items. The brief files clean and forwarding address under one week, so the page keeps that. Item 3 (photos, keys) was presented as Cornell's; relabeled '(our addition; Cornell's page has no move-out-day step)'."
   },

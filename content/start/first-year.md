@@ -3,7 +3,7 @@ title: "Cornell first-years: start here for travel and housing"
 meta: "For Cornell first-years in the dorms: get home for breaks, settle TCAT and the car question, and plan years two and three of housing before the rush."
 topic: getting-around
 topics: [getting-around, housing]
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0069
 queue_ids: [q-housing-0089]
 kind: start_here
@@ -47,7 +47,7 @@ Also plan around these: Cornell's Thanksgiving break runs Nov 25 to 29, 2026 ([R
 1. [Off-campus housing at Cornell: the 2026-27 guide](/housing/cornell-off-campus-housing-guide/): the whole off-campus market, from who may rent to moving out. Read it this year to see what years two and three involve.
 2. [Cornell sophomores: how to get a good junior-year lease](/housing/off-campus-housing-cornell-sophomores/): the path you'll be on next fall. Read it this spring, and again when sophomore fall starts.
 3. [Who can live off campus at Cornell: the rule and exemptions](/housing/cornell-residential-requirement-exemptions-live-off-campus/): why you can't sign a lease for year two without an approved exemption. Read it before anyone asks you to sign one.
-4. [Cornell co-ops and Greek houses: cost and how to get in](/housing/cornell-co-ops-greek-houses-cost-how-to-join/): the two ways to spend year two outside a residence hall. Read it now if either appeals; the co-op rounds start in November.
+4. [Cornell co-op or Greek house instead of a dorm: how to join](/housing/cornell-co-ops-greek-houses-cost-how-to-join/): the two ways to spend year two outside a residence hall. Read it now if either appeals; the co-op rounds start in November.
 5. [When to sign a Collegetown lease, and when waiting is fine](/housing/when-to-sign-collegetown-lease-cornell/): how far ahead junior-year leases go and which ones can wait. Read it in the spring, before you pick housemates.
 
 ## Tools: Housing

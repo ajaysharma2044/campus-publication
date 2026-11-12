@@ -75,6 +75,8 @@ kind: spoke
 
 If you rent a private apartment in the City of Ithaca, Good Cause Eviction covers you unless your building or landlord is exempt, and being a student is not an exemption. Your landlord can still raise the rent at renewal, but refusing to renew needs a legal reason ([WAMC](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections)).
 
+This page is general information, not legal advice.
+
 ## What is Good Cause Eviction, and when did Ithaca join?
 
 New York's Good Cause law took effect on April 20, 2024. Outside New York City it applies only where a city, town or village opts in ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)). Ithaca's Common Council voted 8-2 to opt in, and WAMC reported it on July 12, 2024. Ithaca was the fourth upstate city to do so, after Albany, Kingston and Poughkeepsie.

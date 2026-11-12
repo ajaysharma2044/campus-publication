@@ -23,19 +23,19 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy
   title: Residential Policy, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing
   title: Requirements for Qualified University-Recognized Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process
   title: Housing Search Process, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
@@ -56,7 +56,7 @@ sources:
 - url: https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/
   title: '''Desirable'' Collegetown Leases Leave Market up to 16 Months Before Residents Move In, The Cornell Daily Sun, Nov. 7, 2018'
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
+- url: https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory
   title: Housing and Residential Life Directory, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
@@ -109,7 +109,7 @@ rows:
   - {label: "Wait for written approval before you sign a lease or pay a deposit."}
 ```
 
-Source: [Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) and [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores).
+Source: [Cornell Residential Policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy) and [Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores).
 
 Cornell says only that "supporting documentation may be required." It doesn't list which papers it accepts for the age exemption. Have a government ID that shows your birth date ready in case Housing asks.
 
@@ -119,7 +119,7 @@ The same exemption covers your first year, but the timing is different. Request 
 
 ## When is the 2027-28 deadline?
 
-April 4, 2027, at 11:59 p.m. for rising sophomores. Cornell will not consider any request received after that ([Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+April 4, 2027, at 11:59 p.m. for rising sophomores. Cornell will not consider any request received after that ([Spring Housing Selection for Rising Sophomores](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
 ```figure
 kind: timeline
@@ -145,11 +145,11 @@ Cornell's [transfer housing page](https://scl.cornell.edu/residential-life/housi
 
 ## What happens if you sign a lease before approval?
 
-You pay twice. Cornell tells first- and second-years they "should not sign a lease" without an approved exemption ([Housing Search Process](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process)). Students who neither meet the requirement nor hold an exemption "will still be billed for the full year" ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
+You pay twice. Cornell tells first- and second-years they "should not sign a lease" without an approved exemption ([Housing Search Process](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process)). Students who neither meet the requirement nor hold an exemption "will still be billed for the full year" ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-housing/requirements-qualified-university-recognized-campus-housing)).
 
-Signing a campus license first is just as binding. First-years and second-years cannot cancel a housing assignment unless they leave the university, are approved for an exemption, or join an approved co-op or Greek house in time ([Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
+Signing a campus license first is just as binding. First-years and second-years cannot cancel a housing assignment unless they leave the university, are approved for an exemption, or join an approved co-op or Greek house in time ([Housing License 2027-28](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)).
 
-An unapproved lease sits on top of the campus year. A residence hall double costs $6,872 per semester for 2026-27 ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The Unlimited meal plan costs $7,604 a year, plus a $50 administrative fee each year ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+An unapproved lease sits on top of the campus year. A residence hall double costs $6,872 per semester for 2026-27 ([Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)). The Unlimited meal plan costs $7,604 a year, plus a $50 administrative fee each year ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table
@@ -161,7 +161,7 @@ rows:
   - {label: "Total", value: "$21,398"}
 ```
 
-Source: [Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates) and [Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). Cornell posts final 2027-28 rates in March 2027.
+Source: [Cornell Housing Rates](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates) and [Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans). Cornell posts final 2027-28 rates in March 2027.
 
 ```reader "If you're a parent"
 Don't pay a deposit or sign as a guarantor until your student shows you Housing's approval. Without it, Cornell bills the full room charge, $13,744 for a 2026-27 double, on top of the rent.
@@ -202,7 +202,7 @@ For where else to look, see our guide to [Cornell off-campus listings](/cornell/
 Yes. The age exemption is something you request, not a rule that removes you. If you don't file, you take part in room selection like any other first- or second-year.
 
 **Who reviews the request?**
-Housing Operations, at 1520 Clara Dickson Hall. Call 607-255-5368 or email housing@cornell.edu ([Housing and Residential Life Directory](https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)). The office handles applications, cancellations and exemptions.
+Housing Operations, at 1520 Clara Dickson Hall. Call 607-255-5368 or email housing@cornell.edu ([Housing and Residential Life Directory](https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory)). The office handles applications, cancellations and exemptions.
 
 **Related guides**
 - [Who can live off campus at Cornell: every exemption](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/)

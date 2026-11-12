@@ -26,7 +26,6 @@
 <fieldset class="tl-check"><legend>I'm staying in Ithaca over</legend>
 <input type="checkbox" id="cornell-break-travel-timeline-2026-27-thx"><label for="cornell-break-travel-timeline-2026-27-thx">Thanksgiving break</label>
 <input type="checkbox" id="cornell-break-travel-timeline-2026-27-win"><label for="cornell-break-travel-timeline-2026-27-win">Winter break</label>
-<input type="checkbox" id="cornell-break-travel-timeline-2026-27-sum"><label for="cornell-break-travel-timeline-2026-27-sum">Summer 2027</label>
 </fieldset>
 <div class="tl-check"><input type="checkbox" id="cornell-break-travel-timeline-2026-27-hide"><label for="cornell-break-travel-timeline-2026-27-hide">Hide dates that have already passed</label></div>
 </form>
@@ -74,13 +73,13 @@
     campusWinterWindow: {value: "5 p.m. to 7:30 a.m.", asOf: "2026-11-08", source: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules"},
     permitFine: {value: 50, asOf: "2026-11-08", source: "https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1"},
     winterFine: {value: 50, asOf: "2026-11-08", source: "https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/"},
-    closing2025: {value: "2025-12-21", asOf: "2026-11-08", source: "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice"},
+    closing2026: {value: "2026-12-20", asOf: "2026-11-11", source: "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice"},
+    reopen2027: {value: "2027-01-19", asOf: "2026-11-11", source: "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice"},
     c2cLast2026: {value: "2026-12-23", asOf: "2026-11-08", source: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service"},
     mailStop: {value: "2026-12-23", asOf: "2026-11-08", source: "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing"},
     springPassStart: {value: "2027-01-01", asOf: "2026-11-08", source: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes"},
     c2cFirst2027: {value: "2027-01-06", asOf: "2026-11-08", source: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service"},
     mailResume: {value: "2027-01-07", asOf: "2026-11-08", source: "https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing"},
-    classes2026: {value: "2026-01-13", asOf: "2026-11-08", source: "https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice"},
     fareJan: {value: 41, asOf: "2026-11-08", source: "https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/"},
     fareNov: {value: 66, asOf: "2026-11-08", source: "https://www.wanderu.com/en/bus/us-ny/ithaca/us-ny/new-york/"},
     residentPermit: {value: 752.98, asOf: "2026-11-08", source: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students"},
@@ -137,35 +136,34 @@
     {d: 'stopMove', show: function () { return true; }, h: 'Downtown bus stops move', x: function () { return 'OurBus moves to 235 S. Cayuga St; TCAT\'s East Seneca stops shift.'; }},
     {when: 'Mid-November', np: true, show: function (s) { return s.car !== 'none' && !s.spring; }, h: 'Cornell\'s yearly winter parking notice', x: function () { return 'The 2023 notice was dated ' + D('winterNotice2023') + '.'; }},
     {di: toIso(thxWed), src: 'thxWeekStart', show: function (s) { return !s.spring && !s.thx; }, h: 'Peak travel day: the Wednesday before Thanksgiving', x: function () { return 'Book now. In a Nov 8 sample, the cheapest fares for ' + D('thxWeekStart', true) + ' to ' + D('thxWeekEnd', true) + ' ran ' + v('premBinghamton') + '% to ' + v('premDC') + '% higher than earlier in November (' + premMean.toFixed(1) + '% on average, 3 routes). Cornell\'s no-class days are ' + D('thxBreakStart', true) + ' to ' + D('thxBreakEnd', true) + '.'; }},
-    {di: toIso(thx), src: 'thxWeekStart', show: function (s) { return !s.spring && s.thx; }, h: 'Thanksgiving Day, staying in Ithaca', x: function () { return 'Holiday TCAT service is not confirmed (a 2013 column said none ran on Thanksgiving). 2026 dining hours are not in our research.'; }},
+    {di: toIso(thx), src: 'thxWeekStart', show: function (s) { return !s.spring && s.thx; }, h: 'Thanksgiving Day, staying in Ithaca', x: function () { return 'Cornell Dining serves a Celebration of Gratitude Dinner at Morrison Dining from 11:30 a.m. to 2:30 p.m. Reserve by noon on Monday, Nov. 23; meal-plan students pay one swipe.'; }},
     {when: 'The weekend after Thanksgiving', show: function (s) { return !s.spring && !s.thx; }, h: 'Return trip: plan around storms', x: function () { return 'A storm starting ' + D('storm2019') + ' cancelled OurBus trips and stranded students. Keep a backup day.'; }},
     {d: 'breakHousingDeadline', show: function (s) { return s.win && !s.spring; }, h: 'Winter break housing deadline', x: function () { return 'Open to students returning to campus housing for spring. ' + M('breakWeek') + ' a week or ' + M('breakFull') + ' flat.'; }},
     {d: 'campusWinterStart', show: function (s) { return s.car !== 'none' && !s.spring; }, h: 'Campus winter overnight rule starts (to ' + D('winterEnd', true) + ')', x: function (s) { return (s.car === 'campus' ? 'FH, ND, SW and WD permit holders park in their own lots as usual. ' : '') + 'Others, when snow is forecast: ' + v('campusWinterWindow') + ' only in designated areas (A Lot west and mid bays, B Lot east and west bays, Forest Home garage, Hoy Road garage except the roof, and others). Winter-rules fine: ' + M('winterFine') + '.'; }},
-    {d: 'finalsEnd', show: function (s) { return !s.spring && !s.win; }, h: 'Peak travel day: last day of December finals', x: function () { return 'Free Student Assembly airport charters ran in finals week in fall 2024 and 2025; none found for fall 2026 as of Nov 8.'; }},
-    {when: 'Residences close for winter break', np: true, show: function (s) { return !s.spring; }, h: 'Residence halls close', x: function (s) { return (s.win ? 'Approved break housing is in ten open buildings; dining is usually closed the week the university is closed. ' : 'In 2025 undergraduate residences closed at 2 p.m. on ' + D('closing2025') + '. ') + (s.car !== 'none' ? 'Leave your car in your campus permit area, never on a city street, where it can be ticketed, towed and treated as abandoned.' : ''); }},
+    {d: 'finalsEnd', show: function (s) { return !s.spring && !s.win; }, h: 'Peak travel day: last day of December finals', x: function () { return 'OurBus names it one of its busiest days. Book early.'; }},
+    {d: 'closing2026', show: function (s) { return !s.spring; }, h: 'Residence halls close at 2 p.m.', x: function (s) { return (s.win ? 'Approved break housing is in ten open buildings; dining is usually closed the week the university is closed. ' : 'Undergraduate residences reopen at 9 a.m. on ' + D('reopen2027') + '. ') + (s.car !== 'none' ? 'Leave your car in your campus permit area, never on a city street, where it can be ticketed, towed and treated as abandoned.' : ''); }},
     {d: 'c2cLast2026', show: function (s) { return !s.spring && !s.win; }, h: 'Last C2C departures on the "2026" link', x: function () { return 'No booking link covers ' + fmt(toIso(new Date(toDate(v('c2cLast2026')).getTime() + 864e5)), true) + ' to ' + fmt(toIso(new Date(toDate(v('c2cFirst2027')).getTime() - 864e5)), true) + '.'; }},
     {d: 'mailStop', show: function (s) { return !s.spring && s.win; }, h: 'Campus mail and packages stop', x: function () { return 'They resume ' + D('mailResume', true) + '.'; }},
     {d: 'springPassStart', show: function (s) { return s.spring; }, h: 'Your free TCAT starts', x: function (s) { return 'It runs to ' + D('springPassEnd') + ', not to August, with no extensions.' + (s.car !== 'none' ? ' You arrive inside the campus winter rule (to ' + D('winterEnd', true) + ') and the city odd/even season. Permits bought now are prorated daily: ' + (s.car === 'campus' ? 'resident ' + M('residentPermit') : 'commuter ' + M('commuterPermit')) + ' for the full year.' : ''); }},
     {d: 'c2cFirst2027', show: function () { return true; }, h: 'First C2C departures on the "2027" link', x: function () { return 'Book these at c2cbus.transportation.cornell.edu, not the 2026 link.'; }},
     {d: 'mailResume', show: function (s) { return !s.spring && s.win; }, h: 'Campus mail resumes', x: function () { return ''; }},
-    {d: 'springClasses', show: function () { return true; }, h: 'Spring term begins', x: function (s) { return 'Recess ended ' + D('classes2026') + ' last year. ' + (s.spring ? 'Spring move-in dates are not in our research. ' : '') + 'Storms have cancelled January buses and flights (in January 2019, buses were banned on most state highways). January Ithaca-NYC bus fares averaged about $' + v('fareJan') + ' against about $' + v('fareNov') + ' in November (one aggregator, read Nov 8).'; }},
+    {d: 'springClasses', show: function () { return true; }, h: 'Spring term begins', x: function (s) { return 'Storms have cancelled January buses and flights (in January 2019, buses were banned on most state highways). January Ithaca-NYC bus fares averaged about $' + v('fareJan') + ' against about $' + v('fareNov') + ' in November (one aggregator, read Nov 8).'; }},
     {d: 'springBreakFri', show: function (s) { return true; }, h: 'Peak travel day: the Friday spring break begins', x: function () { return 'Cornell\'s no-class days run ' + fmt('2027-03-27', true) + ' to ' + D('springBreakEnd', true) + ', so the break begins after this Friday. OurBus names the Friday it begins as one of its busiest days. Book early.'; }},
     {d: 'refundDeadline', show: function (s) { return s.car !== 'none' || s.cont; }, h: 'Refund deadline', x: function (s) { return (s.car !== 'none' ? 'Last day to return your parking permit for a prorated refund. ' : '') + (s.cont ? 'Last day to return OmniRide for a refund, less ' + M('omniRefundFee') + '.' : ''); }},
     {d: 'winterEnd', show: function (s) { return s.car !== 'none'; }, h: 'Campus winter rule and city odd/even season end', x: function () { return ''; }},
-    {when: 'Early April', show: function () { return true; }, h: 'Book summer storage', x: function () { return 'Storage Scholars advises booking by early April. Big Red Shipping and Storage has limited slots and posts no prices.'; }},
-    {when: 'Mid-April', show: function (s) { return !s.sum; }, h: 'Student Assembly votes on free finals charters', x: function () { return 'Last year it adopted the money on ' + D('saVote2026') + '. Watch for sign-up.'; }},
+    {when: 'Early April', show: function () { return true; }, h: 'Book summer storage', x: function () { return 'Storage Scholars advises booking by early April. Big Red Shipping and Storage has limited slots.'; }},
+    {when: 'Mid-April', show: function () { return true; }, h: 'Student Assembly votes on free finals charters', x: function () { return 'Last year it adopted the money on ' + D('saVote2026') + '. Watch for sign-up.'; }},
     {when: 'May finals', np: true, show: function () { return true; }, h: 'Free charters to ITH and SYR, if funded again', x: function () { var c = v('saCharters2024'); return 'In 2024 they ran ' + fmt(c.first, true) + ' to ' + fmt(c.last, true) + ', with registration by ' + fmt(c.register, true) + '. Spring 2027 finals run ' + fmt(v('mayFinalsStart'), true) + ' to ' + fmt(v('mayFinalsEnd'), true) + '.'; }},
-    {when: 'Mid-May', np: true, show: function () { return true; }, h: 'Buildings close for move-out', x: function (s) { return 'In 2026 they closed at 2 p.m. on ' + D('moveOut2026') + '; anything left with no resident present was donated.' + (s.sum ? ' Summer housing is not in our research.' : ''); }},
-    {when: 'June', show: function (s) { return s.sum; }, h: 'Heat can cut TCAT service', x: function () { return 'Overheating buses forced cutbacks in June 2025.'; }},
+    {when: 'Mid-May', np: true, show: function () { return true; }, h: 'Buildings close for move-out', x: function (s) { return 'In 2026 they closed at 2 p.m. on ' + D('moveOut2026') + '; anything left with no resident present was donated.'; }},
     {d: 'cityPermitEnd', show: function (s) { return s.car === 'off'; }, h: 'City residential parking permits expire', x: function () { return 'The permit costs ' + M('cityPermit') + ' a year.'; }},
     {d: 'permitEnd2027', show: function (s) { return s.car !== 'none'; }, h: 'Your student parking permit expires', x: function () { return 'The 2027-28 sale date is not yet published; 2026 sales opened ' + D('permitSale') + '. Parking on campus without a permit or payment is a ' + M('permitFine') + ' ticket.'; }},
-    {d: 'passEnd2027', show: function (s) { return s.fall || s.cont; }, h: function (s) { return s.fall ? 'Your free first-year TCAT ends' : 'OmniRide passes expire'; }, x: function (s) { return s.fall ? (s.sum ? 'So your summer is covered. ' : '') + 'After that, daytime weekday rides cost ' + M('cashFare') + ', or OmniRide ' + M('omniRide') + ' a year.' : ''; }},
+    {d: 'passEnd2027', show: function (s) { return s.fall || s.cont; }, h: function (s) { return s.fall ? 'Your free first-year TCAT ends' : 'OmniRide passes expire'; }, x: function (s) { return s.fall ? 'After that, daytime weekday rides cost ' + M('cashFare') + ', or OmniRide ' + M('omniRide') + ' a year.' : ''; }},
     {d: 'springPassEnd', show: function (s) { return s.spring; }, h: 'Your free TCAT ends', x: function () { return 'Then ' + M('cashFare') + ' per daytime weekday ride, or ' + M('omniRide') + ' a year for OmniRide.'; }}
   ];
   var LABEL = {'fall-first': 'a fall 2026 first-year', 'fall-transfer': 'a fall 2026 transfer', 'spring': 'a January 2027 starter', 'continuing': 'a returning student'};
 
   function render() {
-    var s = {term: el('term').value, car: el('car').value, thx: el('thx').checked, win: el('win').checked, sum: el('sum').checked, hide: el('hide').checked};
+    var s = {term: el('term').value, car: el('car').value, thx: el('thx').checked, win: el('win').checked, hide: el('hide').checked};
     s.fall = s.term === 'fall-first' || s.term === 'fall-transfer'; s.spring = s.term === 'spring'; s.cont = s.term === 'continuing';
     var now = new Date(), today = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
     var rows = ROWS.filter(function (r) { return r.show(s); });
@@ -188,7 +186,7 @@
       '.' + (next ? ' Next: ' + fmt(next.start) + ', ' + (typeof next.h === 'function' ? next.h(s) : next.h) + '.' : '') +
       (np ? ' ' + np + ' of the dates ahead are not yet published for 2026-27, so we show last year\'s as a guide.' : '');
   }
-  ['term', 'car', 'thx', 'win', 'sum', 'hide'].forEach(function (id) { el(id).addEventListener('change', render); });
+  ['term', 'car', 'thx', 'win', 'hide'].forEach(function (id) { el(id).addEventListener('change', render); });
   render();
 })();
 </script>

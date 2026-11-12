@@ -70,7 +70,7 @@ sources:
 - url: https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants
   title: Tenants' Rights, New York State Attorney General
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out
   title: Moving In and Out, Cornell Off-Campus Living
   accessed: '2026-11-08'
 - url: https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags
@@ -91,7 +91,7 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' Rights Guide, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources
   title: Campus Living Resources, Cornell Student and Campus Life
   accessed: '2026-11-08'
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
@@ -112,7 +112,7 @@ sources:
 - url: https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords
   title: City Council votes to stiffen penalties for noncompliant landlords, The Cornell Daily Sun, March 2019
   accessed: '2026-11-08'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus
   title: Living Off Campus, Cornell Student and Campus Life
   accessed: '2026-11-08'
 - url: https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny
@@ -130,6 +130,9 @@ sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/landlord-access
   title: Landlord Access, Cornell Law School Tenants' Rights Guide
   accessed: '2026-11-08'
+- url: https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026
+  title: Good Cause Eviction Law, Required DHCR Notice, NYS Homes and Community Renewal, posted July 16, 2026, reposted August 17, 2026
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Houses and apartment buildings along a Collegetown street in Ithaca
@@ -154,13 +157,15 @@ images:
 ```glance
 - In the City of Ithaca, your landlord needs 120 days' written notice before renewing, showing or re-letting your unit, unless you initialed a bolded waiver on page one of your lease.
 - A rent increase of 5% or more, or a non-renewal, needs 30, 60 or 90 days' written notice; a 12-month lease usually means 60.
-- Under Good Cause (City of Ithaca, July 2024), an increase above the lower of 10% or 5% plus CPI is presumed unreasonable; buildings with a 2009-or-later certificate of occupancy are exempt.
+- Under Good Cause (City of Ithaca, July 2024), an increase above the lower of 10% or 5% plus CPI (8.15% in Tompkins County on the 2026 figure) is presumed unreasonable; buildings with a 2009-or-later certificate of occupancy are exempt.
 - Heat season in Ithaca runs Sept 15 to May 31: 68F by day when it is under 55F outside, 62F at night. Ask for repairs in writing.
 - Ask for a move-out inspection one to two weeks before you leave. The deposit or an itemized list is due within 14 days, or the landlord loses the right to keep any of it.
 - Free tenant advice: the Cornell Law hotline, 607-301-1560.
 ```
 
 If you rent in the City of Ithaca, the law is on your side more than most students assume. Your landlord must give [120 days' written notice before renewing or showing your unit](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/) unless you initialed a waiver, owes heat from Sept 15 to May 31, and must return your deposit or an itemized statement [within 14 days of move-out](https://www.nysenate.gov/legislation/laws/GOB/7-108). Put every request in writing, never withhold rent before getting advice, and ask for the move-out inspection.
+
+This is general information, not legal advice.
 
 ```reader "If you're a senior whose lease runs past graduation"
 Most Ithaca leases end July 31, so a May graduate still owes June and July. Three ways out: sublet, ask the landlord for a written early-termination agreement, or pay. In a building with four or more units you have a legal right to sublet; the landlord cannot unreasonably refuse, and silence after 30 days is consent ([RPL 226-b](https://www.nysenate.gov/legislation/laws/RPP/226-B)). In a house of three or fewer units, your lease decides. Cornell aid does not cover rent in unregistered months ([Financial Aid](https://finaid.cornell.edu/living-campus)). Give your landlord a forwarding address in writing before you leave, because the deposit clock runs 14 days from move-out. The costly mistake: leaving in May without a sublet, so housemates or you carry two months' rent.
@@ -171,7 +176,7 @@ Good Cause does not cover a building whose certificate of occupancy dates from J
 ```
 
 ```reader "If you rent outside the City of Ithaca"
-The 120-day rule is City of Ithaca code and stops at the city line, so the Town of Ithaca, Lansing and Cayuga Heights are not covered. Ithaca's Good Cause opt-in was a City vote ([WAMC](https://www.wamc.org/2024-07-12/ithaca-is-the-latest-upstate-city-to-opt-into-good-cause-renter-protections)). Not confirmed: whether those towns or villages have opted in. State law still covers you: the deposit cap and 14-day return, notice before a 5% or larger increase, habitability and retaliation protection. Repair complaints go to the Town of Ithaca (607-273-1783) or Town of Lansing (607-533-7054) code office, and small claims top out at $3,000 in town and village courts ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). The hotline advises anyone; full representation is for City residents only.
+The 120-day rule is City of Ithaca code and stops at the city line, so the Town of Ithaca, Lansing and Cayuga Heights are not covered. Good Cause does not reach them either: DHCR's 2026 list of municipalities that had opted in as of May 4, 2026 names the City of Ithaca but not the Town of Ithaca, Lansing or Cayuga Heights ([DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026)). State law still covers you: the deposit cap and 14-day return, notice before a 5% or larger increase, habitability and retaliation protection. Repair complaints go to the Town of Ithaca (607-273-1783) or Town of Lansing (607-533-7054) code office, and small claims top out at $3,000 in town and village courts ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). The hotline advises anyone; full representation is for City residents only.
 ```
 
 ```reader "If you're a tenant whose landlord won't answer"
@@ -179,7 +184,7 @@ Write it down: email or text with your name, address and the date, and send cert
 ```
 
 ```reader "If you're a parent paying the rent or deposit"
-New York caps the deposit plus any rent advance at one month's rent ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)), but at a renewal with higher rent the landlord may collect more to bring the deposit up to the new rent ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)). The deposit or an itemized statement is due 14 days after move-out; for a July 31 exit that is Aug 14, by our count. A willful violation can cost the landlord up to twice the deposit. Housemates on most local leases are jointly liable, so one leaving can shift rent onto your child. Not confirmed: how Ithaca landlords treat guarantors at renewal. The costly mistake: no move-out inspection, so the landlord's list is the only record.
+New York caps the deposit plus any rent advance at one month's rent ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)), but at a renewal with higher rent the landlord may collect more to bring the deposit up to the new rent ([NY Attorney General](https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants)). The deposit or an itemized statement is due 14 days after move-out; for a July 31 exit that is Aug 14, by our count. A willful violation can cost the landlord up to twice the deposit. Housemates on most local leases are jointly liable, so one leaving can shift rent onto your child. The costly mistake: no move-out inspection, so the landlord's list is the only record.
 ```
 
 ```reader "If you're an international student"
@@ -210,9 +215,7 @@ Students are often asked to renew within weeks of moving in, a pattern [the Sun 
 
 The catch is the waiver. It counts only if it is "explicitly written, bolded and initialed" on the lease's first page. So the first thing to check when a renewal offer lands in September is page one of your current lease. No initials, no waiver.
 
-The rule's sponsor, Alderperson Patrick Mehler, wrote that [a discussion about why you are waiving the days](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/) should be your first question. Compliance disputes can go to the City's housing court, City Attorney Ari Levine told WSKG; the article did not state penalties.
-
-Not confirmed: whether the 120 days count back from your lease end or forward from its start. The code text could not be read, so this page gives no earliest renewal date.
+The rule's sponsor, Alderperson Patrick Mehler, wrote that [a discussion about why you are waiving the days](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/) should be your first question. Compliance disputes can go to the City's housing court, City Attorney Ari Levine told WSKG.
 
 Renewing is also the default. An expired lease continues month-to-month unless proper non-renewal notice is given, and an auto-renew clause needs a separate written reminder 15 to 30 days before your opt-out deadline ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal)). You owe no notice to leave at the end of a fixed-term lease.
 
@@ -232,9 +235,9 @@ The second is Good Cause Eviction. Ithaca's Common Council [voted 8-2 to opt in]
 
 If you refuse reasonable renewal terms, the landlord can still remove you after written notice 30 to 90 days before the lease ends. Nonpayment tied to an unreasonable increase is not good cause ([RPL 216](https://www.nysenate.gov/legislation/laws/RPP/216)).
 
-Not confirmed: the CPI figure for 2026. DHCR usually publishes it by August 1.
+DHCR publishes the CPI figure each year by August 1. Its 2026 notice puts the Northeast Region figure, which applies to Tompkins County, at 3.15%, so the standard for Ithaca is 8.15% ([DHCR notice](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026)).
 
-Example: a junior on a 12-month lease pays $1,200 a month. The landlord offers renewal at $1,284, a 7% increase. Because it is 5% or more, 226-c requires 60 days' written notice. In a covered building, 7% is presumed unreasonable only if CPI is below 2%. Any increase above 10% is always over the line.
+Example: a junior on a 12-month lease pays $1,200 a month. The landlord offers renewal at $1,284, a 7% increase. Because it is 5% or more, 226-c requires 60 days' written notice. In a covered building, 7% sits under the 8.15% standard, so it is not presumed unreasonable; $1,298 or more (above 8.15%) would be.
 
 ### Is your building covered?
 
@@ -306,7 +309,7 @@ rows:
   - {label: "If money is withheld: demand letter, CDRC mediation, then small claims (up to $5,000 in Ithaca City Court)"}
 ```
 
-The two-weeks and one-week checklist is [Cornell Off-Campus Living's](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/moving-and-out). What the landlord can deduct, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits): unpaid rent, damage beyond normal wear, unpaid utilities owed to the landlord, moving and storing belongings you left, and excessive cleaning and trash removal. Routine turnover cleaning cannot be deducted, and a separate cleaning fee is banned. Cornell's own move-out page says cleaning charges will be deducted; trust the law over that wording.
+The two-weeks and one-week checklist is [Cornell Off-Campus Living's](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/moving-and-out). What the landlord can deduct, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits): unpaid rent, damage beyond normal wear, unpaid utilities owed to the landlord, moving and storing belongings you left, and excessive cleaning and trash removal. Routine turnover cleaning cannot be deducted, and a separate cleaning fee is banned. Cornell's own move-out page says cleaning charges will be deducted; trust the law over that wording.
 
 Late fees and attorney's fees cannot come out of the deposit. If the landlord misses the 14 days, it forfeits the right to keep any of it. A willful violation can bring punitive damages up to twice the deposit, and the landlord must prove withheld amounts were reasonable. In buildings with six or more units, the deposit must sit in an interest-bearing account, minus a 1% annual fee the landlord may keep.
 
@@ -326,7 +329,7 @@ An eviction cannot happen overnight. A 14-day rent demand comes first, and a cou
 |---|---|---|
 | Tenants Advocacy hotline | 607-301-1560 | Free advice on any of the above ([Cornell Law](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/)) |
 | LawNY (Tompkins) | (607) 273-3667 | Legal emergencies and free housing help |
-| Community Dispute Resolution Center | 607-273-9347 | Mediation, including deposits ([Cornell resources](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources)) |
+| Community Dispute Resolution Center | 607-273-9347 | Mediation, including deposits ([Cornell resources](https://scl.cornell.edu/residential-life/housing/living-off-campus/community-resources)) |
 | City Building Division | 607-274-6508 | Repairs and code complaints in the City |
 | NY Attorney General | 1-800-771-7755 | Deposit complaints after trying the landlord |
 
@@ -346,7 +349,7 @@ An eviction cannot happen overnight. A 14-day rent demand comes first, and a cou
 
 **Can my landlord enter to show the apartment to next year's tenants?** Only if the lease reserves entry, with [reasonable notice, often 24 hours](https://sites.lawschool.cornell.edu/tenants-advocacy/landlord-access), at reasonable hours. In the City, showing the unit also falls under the 120-day rule unless you waived it ([WSKG](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/)).
 
-**Do I need renters insurance?** Cornell's checklist says to buy it and names GradGuard as its preferred insurer, with no price published ([Cornell](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus)). Quotes run from about [$5 a month](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny) for Ithaca to [$27 a month](https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/) as a New York average, depending on the source and coverage. Not confirmed: whether Collegetown landlords require it.
+**Do I need renters insurance?** Cornell's checklist says to buy it and names GradGuard as its preferred insurer ([Cornell](https://scl.cornell.edu/residential-life/housing/living-off-campus)). Quotes run from about [$5 a month](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny) for Ithaca to [$27 a month](https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/) as a New York average, depending on the source and coverage.
 
 **What if a new owner buys my building?** A new owner that knew of your deposit is liable for it ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)).
 

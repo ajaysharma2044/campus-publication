@@ -1,7 +1,7 @@
 ---
 title: 'Grocery delivery Ithaca: options for Cornell students'
 mode: answer
-dek: Restaurant delivery in Ithaca takes City Bucks through Ithaca To Go, while grocery delivery fees are not listed by Cornell, so compare any app's checkout to a bus trip.
+dek: Restaurant delivery in Ithaca takes City Bucks through Ithaca To Go, while grocery delivery fees are set by each app, so compare any app's checkout to a bus trip.
 meta: 'Grocery delivery in Ithaca for Cornell students: Ithaca To Go with City Bucks, order-ahead pickup on campus, and how to weigh app fees against a bus trip.'
 primary_query: grocery delivery ithaca
 topic: dining

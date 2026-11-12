@@ -72,7 +72,7 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-11'
-- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergrad Application Process, Cornell Student & Campus Life
   accessed: '2026-11-11'
 - url: https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/finances
@@ -253,7 +253,7 @@ rows:
 
 The record moves to Cornell on the release date, so pick it around your travel and work plans. If you are graduating from your current school, the release date must be in SEVIS before your 60-day grace period ends. J-1 students follow similar steps with a 30-day grace period. Do not walk into the International Services office to activate status; Cornell asks you to do it online.
 
-Then housing. Apply through the Housing and Dining Portal [within ten days of getting your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing/new-undergrad-application-process). There is no fee or deposit. New transfers must [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates). The exceptions: you lived on campus two years at your previous school, or you enter as a junior or senior. In 2026, transfers moved in on [August 18](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation), the same day as Family Orientation.
+Then housing. Apply through the Housing and Dining Portal [within ten days of getting your NetID](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process). There is no fee or deposit. New transfers must [live on campus for one academic year](https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates). The exceptions: you lived on campus two years at your previous school, or you enter as a junior or senior. In 2026, transfers moved in on [August 18](https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-student-orientation), the same day as Family Orientation.
 
 ## Common mistakes
 

@@ -105,7 +105,7 @@
     function pct(x) { return (x * 100).toFixed(1) + '%'; }
     function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
 
-    // Bag fee for the year and a note; fee is null when the brief has no price.
+    // Bag fee for the year and a note; fee is null when the carrier publishes no price.
     function bags(key, count, legs) {
       if (key === 'ourbus') {
         var extra = Math.max(0, count - N('ourbusBagsFree'));

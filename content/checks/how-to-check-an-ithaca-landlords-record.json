@@ -23,7 +23,7 @@
   },
   {
    "claim": "Safety tool shows sprinklers, extinguishers, smoke/CO notification, construction type, code, property use; updates daily; City rentals only; launched 2017 with 1-5 star ratings; no scale shown now",
-   "source_url": "https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments",
+   "source_url": "https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments",
    "status": "ok",
    "note": "Fetched the tool page: contents, daily update and City-only scope match. Launch and star ratings are in the brief (Sept 2017 Chronicle)."
   },
