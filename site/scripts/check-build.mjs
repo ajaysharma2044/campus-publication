@@ -59,6 +59,9 @@ for (const t of new Set(manifest.pages.map((p) => p.topic))) { const from = `/${
 redirects.push('/editorial-policy/ /editorial-standards/ 301');
 redirects.push('/authors/footnote-daily-editors/ /authors/ajay-sharma/ 301');   // the editors' page before the 2026-11-10 rename
 redirects.push('/authors/eduexplained-editors/ /authors/ajay-sharma/ 301');   // the organization byline, replaced by the editor-in-chief's page (docs/v5 Phase 8)
+// the Netlify subdomain and the apex both 301 to the primary domain (LAUNCH_CHECKLIST.md, 2026-11-11); the host rules go first
+const primary = new URL(process.env.SITE_URL ?? 'https://www.eduexplained.com').host;
+if (primary !== 'eduexplained.netlify.app') redirects.unshift(`https://eduexplained.netlify.app/* https://${primary}/:splat 301!`, `http://eduexplained.netlify.app/* https://${primary}/:splat 301!`);
 await fs.writeFile(path.join(dist, '_redirects'), redirects.join('\n') + '\n');
 console.log(`check-build: ${files.length} pages, ${manifest.pages.length} content pages checked against their hubs, ${redirects.length} redirects written`);
 for (const w of warn) console.log('warning:', w);

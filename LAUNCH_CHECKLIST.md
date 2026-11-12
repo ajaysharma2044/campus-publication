@@ -4,12 +4,13 @@ Nothing below has been run. Each step is Ajay's to approve and trigger; the comm
 The custom domain is www.eduexplained.com (Ajay, 2026-11-11), registered on GoDaddy and connected to Netlify; site/site.config.ts defaults the site URL to it and config/monetization.yml carries it.
 
 ## Before the cutover
-- [ ] Put the domain in worker/.env as CAMPUS_LIVE_DOMAIN=www.eduexplained.com (the deploy script reads it; Claude never reads that file).
-- [ ] `worker/.venv/bin/python scripts/prelaunch/score_pages.py` is clean of surprises: reports/09-eligibility.csv lists the eligible pages and why the rest fail.
-- [ ] `worker/.venv/bin/python scripts/prelaunch/waves.py plan` wrote config/waves.json: wave 1 is the top 300 to 500 eligible pages, spread across sections, with the transfer section and the best housing, dining and tools pages included. Read the list.
-- [ ] `python3 scripts/lint-content.py` passes with no matches; `grep -r "—" content site/dist` prints nothing.
+- [ ] Put the domain in worker/.env as CAMPUS_LIVE_DOMAIN=www.eduexplained.com (the deploy script reads it; Claude never reads that file). Until then the production deploy is `CAMPUS_ENVIRONMENT=production CAMPUS_LIVE_DOMAIN=www.eduexplained.com bash scripts/deploy_netlify.sh` (used 2026-11-11 22:20 EST).
+- [x] (2026-11-11) `worker/.venv/bin/python scripts/prelaunch/score_pages.py` is clean of surprises: reports/09-eligibility.csv lists the eligible pages and why the rest fail.
+- [x] (2026-11-11, 336 pages) `worker/.venv/bin/python scripts/prelaunch/waves.py plan` wrote config/waves.json: wave 1 is the top 300 to 500 eligible pages, spread across sections, with the transfer section and the best housing, dining and tools pages included. Read the list.
+- [x] (2026-11-11) `python3 scripts/lint-content.py` passes with no matches; `grep -r "—" content site/dist` prints nothing.
 
 ## Cutover (in this order)
+Done 2026-11-11 22:20 EST: www.eduexplained.com is the primary domain on Netlify (eduexplained.com and eduexplained.netlify.app 301 to it), canonicals point at it, DNS at GoDaddy already pointed at Netlify. Still blocked: robots Disallow, noindex, empty sitemap, until the LAUNCHED step below.
 1. Set the site base URL and every canonical to https://www.eduexplained.com: `CAMPUS_ENVIRONMENT=production CAMPUS_LIVE_DOMAIN=www.eduexplained.com` in worker/.env (scripts/deploy_netlify.sh exports SITE_URL from it).
 2. In Netlify, set www.eduexplained.com as the primary domain of the project (id d857c4bd-18f3-47af-9a39-6d101c91cc0b) so every eduexplained.netlify.app URL 301s to the matching www.eduexplained.com URL (Netlify does this for the primary custom domain).
 3. Set LAUNCHED=true for the build (`LAUNCHED=true` in the environment the deploy runs in), promote wave 1 only (`worker/.venv/bin/python scripts/prelaunch/waves.py promote 1`), rebuild and deploy (`bash scripts/deploy_netlify.sh`).
