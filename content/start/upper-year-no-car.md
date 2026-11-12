@@ -10,6 +10,7 @@ kind: start_here
 readers: [upper-year-no-car]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md]
+index: false
 ---
 
 You're a sophomore, junior or senior with no car: you walk most places, ride TCAT and take the bus home for breaks. Your first-year bus pass is gone, so you're deciding what to pay for TCAT and whether Carshare or bikeshare fills the gaps. If you're moving off campus, there's a second decision: which neighborhood you can reach on foot or by bus, with groceries and winter hills in the picture. Each topic below has its own path; start with housing if a lease is on the table.

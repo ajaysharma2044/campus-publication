@@ -69,6 +69,7 @@ images:
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Ithaca_City_Hall,_Green_Street.jpg
 kind: spoke
+index: false
 ---
 
 

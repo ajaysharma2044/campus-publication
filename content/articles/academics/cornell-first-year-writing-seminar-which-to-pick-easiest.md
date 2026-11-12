@@ -16,6 +16,7 @@ sources:
   - {url: "https://www.cornellsun.com/article/2026/09/zuqdrbhzj2av", title: "FWS 101: Exploring First-Year Writing Seminars at Cornell, The Cornell Daily Sun, September 10, 2026", accessed: "2026-11-07"}
   - {url: "https://as.cornell.edu/news/ask-ambassador-how-my-first-year-writing-seminar-enriched-my-four-years", title: "Ask an ambassador: How my first-year writing seminar enriched my four years, Cornell Arts & Sciences", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 Cornell publishes no ranking of which First-Year Writing Seminar (FWS) is easiest, and the seminars are built to a common workload, so the practical way to choose is by interest and by what fits your schedule. Seats go [first come, first served](https://knight.as.cornell.edu/fws-guidelines) with no waiting lists, so the winning move is a ranked list of several seminars that fit your open time slots, ready before your enrollment window opens. For the spring 2027 term, pre-enrollment [runs November 18 to November 20, 2026](https://knight.as.cornell.edu/fws-ballot).

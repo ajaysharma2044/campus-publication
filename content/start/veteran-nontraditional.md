@@ -8,6 +8,7 @@ queue_id: q-transfer-0045
 kind: start_here
 readers: [veteran-nontraditional]
 brief: intel/transfer/brief.md
+index: false
 ---
 
 You are a veteran, or you have been out of school two or more years, and you are older than the typical transfer. Your questions are whether military training or old courses earn credit, who writes your recommendation when no recent professor knows you, whether to use the GI Bill or a Cornell aid package, and where you will live and fit in.

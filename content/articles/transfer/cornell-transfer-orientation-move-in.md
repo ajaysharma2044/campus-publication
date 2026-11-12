@@ -96,6 +96,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_1987_Commencement_Schoellkopf_Field.jpg
+index: false
 ---
 
 ```glance

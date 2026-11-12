@@ -67,6 +67,7 @@ images:
 redirect_from:
   - /cornell/getting-around/what-to-wear-ithaca-winter-cornell/
   - /getting-around/what-to-wear-ithaca-winter-cornell/
+index: false
 ---
 
 

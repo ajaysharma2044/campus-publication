@@ -120,6 +120,7 @@ images:
   author: Hbithaca
   source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2107_on_Route_30.jpg
 kind: pillar
+index: false
 ---
 
 

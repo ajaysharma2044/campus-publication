@@ -62,6 +62,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Helen_Newman_Hall.jpg
 subject:
 - Cornell University - Helen Newman Hall
+index: false
 ---
 
 No, not on alumni status alone. Cornell's [fitness center policies](https://scl.cornell.edu/recreation/recreation/fitness-centers/fitness-center-policies-faq) make a valid and current registration status with the university a condition of membership, and name the day pass as the only exception. That leaves three routes: a day pass bought for you by a current student, a membership that comes with a new Cornell status as a student or employee, or an Ithaca gym. The same policy page tells anyone here for a conference or a short stay to ask the Cornell Fitness Centers main office, so ask there before you build a plan around a workaround.

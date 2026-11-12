@@ -17,6 +17,7 @@ sources:
   - {url: "https://studentdisciplinedefense.com/academic-progression-at-cornell-university", title: "Academic Progression at Cornell University, Student Discipline Defense", accessed: "2026-11-07"}
   - {url: "https://cornellsun.com/2003/04/16/colleges-monitor-students-academics/", title: "Colleges Monitor Students' Academics, The Cornell Daily Sun, April 16, 2003", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 Cornell University in Ithaca mostly does not use the word probation. A student who misses the standards for good academic standing gets an academic action, usually a warning, after a college committee reviews the record. If you do not get back to good standing, the next steps are a required leave of absence or, in serious cases, withdrawal from the university. Separately, your financial aid has its own academic test, and you can fail it even while your college treats you as fine. The details differ by college, so find yours below. (Search results for this question often show Cornell College in Iowa, a different school.)

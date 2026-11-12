@@ -107,6 +107,7 @@ images:
   license_url: https://creativecommons.org/licenses/by/3.0
   author: Andrew Parmet
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_West_Campus_from_McGraw_Tower.jpg
+index: false
 ---
 
 

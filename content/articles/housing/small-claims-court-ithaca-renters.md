@@ -61,6 +61,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Tompkins_County_Family_Court_Ithaca_New_York.jpg
+index: false
 ---
 
 

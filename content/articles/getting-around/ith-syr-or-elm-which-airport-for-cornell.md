@@ -121,6 +121,7 @@ images: []
 subject:
 - TCAT bus Ithaca
 lead_photo: none-found 2026-11-11
+index: false
 ---
 ```glance
 - ITH has 2 scheduled nonstops: Delta to JFK and United to Washington Dulles. Newark ended in 2025.

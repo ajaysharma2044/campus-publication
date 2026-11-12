@@ -28,11 +28,17 @@ ELIG = REPO / "reports" / "09-eligibility.csv"
 SECTION_FLOOR = {"transfer": 12}   # the transfer section always rides in wave 1 (spec 9c); other sections get their share by score
 
 
+def hidden_topics() -> set[str]:
+    """Topics marked hidden: true in site/site.config.ts (fewer than five quality articles; hidden from navigation and kept unindexed)."""
+    cfg = (REPO / "site" / "site.config.ts").read_text(encoding="utf-8")
+    return set(re.findall(r"\{ id: '([a-z-]+)', hidden: true", cfg))
+
+
 def eligible() -> list[dict]:
     if not ELIG.exists():
         sys.exit("run scripts/prelaunch/score_pages.py first")
     with ELIG.open(encoding="utf-8") as f:
-        rows = [r for r in csv.DictReader(f) if r["eligible"] == "True"]
+        rows = [r for r in csv.DictReader(f) if r["eligible"] == "True" and r.get("section") not in hidden_topics()]   # a hidden hub stays unindexed (spec 7b)
     for r in rows:
         r["score"] = int(r["score"])
     return rows

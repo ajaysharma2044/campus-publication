@@ -8,6 +8,7 @@ queue_id: q-housing-0074
 kind: start_here
 readers: [away-semester]
 brief: intel/off-campus-housing/brief.md
+index: false
 ---
 
 You're a junior or senior on a 12-month Ithaca lease, or a student holding a Cornell housing license, and you'll study abroad, take leave or do a semester internship. Your housemates may stay behind on a joint lease. The decision in front of you: sublet, assign, negotiate a way out or cancel your Cornell license, and what each one leaves you owing while you're gone.

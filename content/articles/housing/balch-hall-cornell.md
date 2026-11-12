@@ -56,6 +56,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Balch_Hall,_Cornell_University_front_view.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+index: false
 ---
 
 

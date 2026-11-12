@@ -58,6 +58,7 @@ images: []
 redirect_from:
   - /cornell/getting-around/cornell-dorm-fire-safety-rules-candles-alarms-drills/
   - /getting-around/cornell-dorm-fire-safety-rules-candles-alarms-drills/
+index: false
 ---
 
 

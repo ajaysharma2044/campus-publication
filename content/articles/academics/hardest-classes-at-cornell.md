@@ -21,6 +21,7 @@ sources:
   - {url: "https://faq.enrollment.cornell.edu/kb/article/240-how-are-the-workload-and-stress-levels-at-cornell", title: "How are the workload and stress levels at Cornell?, Cornell Undergraduate Admissions FAQ", accessed: "2026-11-07"}
   - {url: "https://faq.enrollment.cornell.edu/kb/article/311-does-cornell-offer-a-tutoring-center", title: "Does Cornell offer a tutoring center?, Cornell Undergraduate Admissions FAQ", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 Cornell does not publish a list of its hardest classes, and it no longer gives you the data to build one. The Faculty Senate [approved Resolution 193 on Dec. 15, 2023](https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/), and median grades stopped appearing on transcripts for courses taken in Fall 2023 and later. So any ranking you see, including this one, rests on student and faculty reports. The course those reports name most often is CHEM 2070, General Chemistry I. After it come organic chemistry and biochemistry, and then it depends on your major.

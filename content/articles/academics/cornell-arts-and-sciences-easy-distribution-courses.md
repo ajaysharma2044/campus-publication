@@ -18,6 +18,7 @@ sources:
   - {url: "https://as.cornell.edu/registrar/transferring-credits", title: "Transferring Credits, Cornell College of Arts & Sciences", accessed: "2026-11-11"}
 images:
   - {file: "1.webp", alt: "Part of the Arts Quad at Cornell, with campus buildings and lawn", caption: "The Arts Quad, home of most College of Arts & Sciences classrooms.", credit: "P. Hughes / Wikimedia Commons", credit_url: "https://commons.wikimedia.org/wiki/File:Cornell_University_-_Partial_view_of_Arts_Quad.jpg", license: "CC BY-SA 4.0", license_url: "https://creativecommons.org/licenses/by-sa/4.0"}
+index: false
 ---
 
 Cornell publishes no ranked list of the easiest Arts & Sciences distribution courses. What you can do is cut the work with the rules. You need [a minimum of 8 courses to cover all 10 distribution categories](https://as.cornell.edu/degree-requirements), because faculty can list a course under up to two categories and [up to two courses may count twice](https://www.news.cornell.edu/stories/2018/11/arts-and-sciences-faculty-approves-new-undergrad-curriculum), so check each course's listing before you count on it. Distribution courses [can be taken S/U](https://as.cornell.edu/degree-requirements) if they are not also used for a major or minor requirement. Then pick the lightest option in each category from [the catalog's official per-category course lists](https://catalog.cornell.edu/enrollment-credit-requirements/distribution-codes/arts-sciences/), using the workload checks below.

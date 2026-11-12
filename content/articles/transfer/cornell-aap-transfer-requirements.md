@@ -71,6 +71,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Photo by Joe Mabel
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Milstein_Hall_01.jpg
+index: false
 ---
 
 ```glance

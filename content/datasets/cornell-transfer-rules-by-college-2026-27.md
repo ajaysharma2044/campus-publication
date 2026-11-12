@@ -28,6 +28,7 @@ sources:
   - {url: "https://admissions.cornell.edu/apply/transfer-applicants", title: "Cornell Undergraduate Admissions: transfer applicants", accessed: "2026-11-11"}
   - {url: "https://news.cornell.edu/stories/2026/03/board-trustees-approves-2026-27-budget-parameters", title: "Cornell Chronicle (March 2026): trustees approve 2026-27 budget parameters", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/get-involved/tatkon-center-new-students/new-students-cornell/transfer/course-enrollment/college-school-links", title: "Cornell Tatkon Center: transfer college and school links", accessed: "2026-11-11"}
+index: false
 ---
 
 Each Cornell college sets its own transfer rules, and they differ more than any one-line summary suggests. **Only CALS (3.0, or 3.5 for Biological Sciences), Dyson (3.5) and AAP (2.7) print a minimum GPA.** Hotel (3.3) and ILR (3.4) give what admitted transfers usually have, Human Ecology and Brooks call 3.5 competitive, and Arts and Sciences and Engineering publish no GPA figure for external transfers. Cornell's own FAQ says admitted transfers are "generally" 3.3 or better ([FAQ 325](https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/)).

@@ -89,6 +89,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: 颐园居
   source_url: https://commons.wikimedia.org/wiki/File:College_Park_Apartments_at_Ithaca,_NY_20240526.jpg
+index: false
 ---
 ```glance
 - Deposit cap: one month's rent, and that includes any "last month's rent," rent advance or pet deposit (New York GOL 7-108).

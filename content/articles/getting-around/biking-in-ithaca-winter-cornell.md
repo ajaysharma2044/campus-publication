@@ -104,6 +104,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Bicycles_parked_at_Milstein_Hall.jpg
+index: false
 ---
 
 ```glance

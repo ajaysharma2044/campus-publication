@@ -10,6 +10,7 @@ kind: start_here
 readers: [student-family]
 brief: intel/off-campus-housing/brief.md
 briefs: [intel/transfer/brief.md]
+index: false
 ---
 
 You are coming to Ithaca with a spouse, partner or child: most often as a grad or professional student on one stipend, sometimes as an undergraduate transfer. You need a family-sized place on a 12-month lease, a school district, health coverage for the people you bring and a way for your partner to get around. If you are a grad student, the choice is Hasbrouck or a private rental; if you are a transfer, Hasbrouck is not open to you, so the first questions are the one-year on-campus rule and what an exemption takes.

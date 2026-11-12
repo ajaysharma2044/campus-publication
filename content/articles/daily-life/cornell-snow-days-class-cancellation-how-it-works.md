@@ -49,6 +49,7 @@ redirect_from:
 - /cornell/getting-around/cornell-snow-days-class-cancellation-how-it-works/
 - /getting-around/cornell-snow-days-class-cancellation-how-it-works/
 lead_photo: none-found 2026-11-11
+index: false
 ---
 
 ```glance

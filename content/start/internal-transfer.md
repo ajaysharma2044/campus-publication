@@ -8,6 +8,7 @@ queue_id: q-transfer-0048
 kind: start_here
 readers: [internal-transfer]
 brief: intel/transfer/brief.md
+index: false
 ---
 
 You are already enrolled at Cornell and want to move to another Cornell college, including if you came to Cornell as an external transfer and now want to switch. Moving between colleges is internal transfer, a separate track with its own deadlines and GPA rules, not the Transfer Common App process that shows up first when you search. The decision in front of you is which college you can still apply to, whether you are eligible, and which deadline you are working toward.

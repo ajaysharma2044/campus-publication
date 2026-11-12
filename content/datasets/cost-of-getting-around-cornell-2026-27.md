@@ -25,6 +25,7 @@ sources:
   - {url: "https://www.checkmybus.com/ithaca-ny/binghamton-ny", title: "CheckMyBus: Ithaca to Binghamton buses", accessed: "2026-11-11"}
   - {url: "https://www.checkmybus.com/ithaca-ny/rochester-ny", title: "CheckMyBus: Ithaca to Rochester buses", accessed: "2026-11-11"}
   - {url: "https://www.checkmybus.com/ithaca-ny/washington-dc", title: "CheckMyBus: Ithaca to Washington, DC buses", accessed: "2026-11-11"}
+index: false
 ---
 
 A year of getting around Cornell in 2026-27 costs **$264 to $948** in these four profiles, depending on whether you have a car, buy a TCAT pass and which bus you take to New York. The cheapest is a first-year with no car riding OurBus at its floor fare. The dearest is an upper-year with an OmniRide pass who takes Cornell's Campus-to-Campus (C2C) bus four times. A resident parking permit alone is **$752.98**, or **$2.06 a day**, and **four C2C round trips cost about the same as one permit** ($748).

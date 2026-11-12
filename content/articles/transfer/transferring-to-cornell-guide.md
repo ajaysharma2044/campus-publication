@@ -229,6 +229,7 @@ images:
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   author: Cornell010 at English Wikipedia
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_med_01.jpg
+index: false
 ---
 
 ```glance

@@ -59,6 +59,7 @@ page_type: answer
 redirect_from:
   - /cornell/getting-around/voting-in-ithaca-cornell-student-register-polling-place/
   - /getting-around/voting-in-ithaca-cornell-student-register-polling-place/
+index: false
 ---
 
 

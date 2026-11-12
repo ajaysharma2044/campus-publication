@@ -8,6 +8,7 @@ queue_id: q-getting-around-0077
 kind: start_here
 readers: [beyond-nyc]
 brief: intel/getting-around/brief.md
+index: false
 ---
 
 Home is Boston, Philadelphia, New Jersey, Washington DC or Toronto, not New York City, and Cornell's own C2C bus only runs to Manhattan. The decision in front of you is which direct bus or connection gets you home without a car, where in Ithaca it leaves from, and which date to book before Thanksgiving prices climb. Read these in order; each guide carries the fares, times and sources.

@@ -109,8 +109,6 @@ sources:
 - url: https://www.ithacarents.com/105-127-college-avenue,-apt-1-%2D-furnished-2-bedroom-with-private-patio
   title: West Shore Apartments - 127 listing, ithacarents.com
   accessed: '2026-11-11'
-  title: 5 Deibler Drive, 5B, Freeville NY 13053 listing, ithacarents.com
-  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/1621-135a-kendall--move-in-8/1/2026
   title: 135 Kendall Ave, 135A listing, ithacarents.com
   accessed: '2026-11-11'
@@ -456,8 +454,6 @@ sources:
 - url: https://www.ithacarents.com/4563-unfurnished-sun-filled-1br-in-fall-creek-1e-walk-to-cornell--commons
   title: 310 Farm Street, Apt 1E listing, ithacarents.com
   accessed: '2026-11-11'
-  title: 115 Stewart Ave, 2N listing, ithacarents.com
-  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ironworks-ithaca-236868
   title: Ironworks Ithaca listing, offcampus.housing.cornell.edu
   accessed: '2026-11-11'
@@ -525,6 +521,7 @@ sources:
   title: The Outlook listing, offcampus.housing.cornell.edu
   accessed: '2026-11-11'
 images: []
+index: false
 ---
 
 

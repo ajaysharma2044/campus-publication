@@ -16,6 +16,7 @@ sources:
   - {url: "https://www.checkmybus.com/ithaca-ny/washington-dc", title: "checkmybus: Ithaca, NY to Washington, DC", accessed: "2026-11-11"}
   - {url: "https://www.checkmybus.com/ithaca-ny/syracuse-ny", title: "checkmybus: Ithaca, NY to Syracuse, NY", accessed: "2026-11-11"}
   - {url: "https://www.ourbus.com/blog/?p=6269", title: "OurBus blog: NYC to Ithaca schedule and peak travel days", accessed: "2026-11-11"}
+index: false
 ---
 
 On three bus routes out of Ithaca, the cheapest seat for Thanksgiving week (Mon Nov 23 to Fri Nov 27, 2026) cost 27.9% to 37.9% more than the cheapest seat earlier in November. The average jump was +33.4%. Those figures come from 51 dated fares on the Binghamton, Rochester and Washington DC routes, all read on Nov 8, 2026, two to three weeks before the trips.

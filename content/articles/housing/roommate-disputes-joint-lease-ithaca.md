@@ -53,6 +53,7 @@ sources:
   title: 'Ithaca Renting: Collegetown properties and per-bed prices'
   accessed: '2026-11-10'
 images: []
+index: false
 ---
 
 

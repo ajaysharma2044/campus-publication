@@ -20,6 +20,7 @@ sources:
   - {url: "https://finaid.cornell.edu/graduate-students", title: "Cornell Financial Aid: Graduate students", accessed: "2026-11-08"}
   - {url: "https://www.energysage.com/local-data/electricity-cost/ny/tompkins-county/ithaca/", title: "EnergySage: Cost of electricity in Ithaca, NY", accessed: "2026-11-08"}
   - {url: "https://scl.cornell.edu/get-involved/sorority-fraternity-life/organization-scorecard", title: "Cornell Student and Campus Life: Organization Scorecard, Sorority and Fraternity Life", accessed: "2026-11-11"}
+index: false
 ---
 
 A year of housing near Cornell costs one person **$5,530** at the cheapest (a co-op triple for two semesters) and **$28,104** at the dearest typical figure in this table (a Collegetown 1BR alone at RentCafe's average). The line to measure against is Cornell's 2026-27 residence hall double: [$13,744 for the academic year](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates), with gas, electricity, garbage and internet included. Eleven of the other 27 options come in under it, almost all of them big shared units or co-ops.

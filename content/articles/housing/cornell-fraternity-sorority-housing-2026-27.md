@@ -130,6 +130,7 @@ images:
 redirect_from:
   - /cornell/housing/cornell-fraternity-house-cost-live-in-rules/
   - /housing/cornell-fraternity-house-cost-live-in-rules/
+index: false
 ---
 
 

@@ -17,6 +17,7 @@ sources:
   - {url: "https://scl.cornell.edu/get-involved/sorority-fraternity-life/join/financial-obligations-sororities-fraternities", title: "Cornell Sorority and Fraternity Life: Financial obligations", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/co-op-housing-2026-2027-terms-and-conditions", title: "Cornell Housing and Residential Life: Co-op Housing 2026-2027 Terms and Conditions", accessed: "2026-11-11"}
   - {url: "https://web.archive.org/web/20260211065419/https://scl.cornell.edu/residential-life/housing/contact-us/housing-and-residential-life-directory", title: "Cornell Housing and Residential Life: Directory", accessed: "2026-11-11"}
+index: false
 ---
 
 This calculator tells you what Cornell charges to cancel a room on the date you cancel. Cornell housing is a license, not a lease, and its cancellation fee climbs with the calendar: $50 through Jan 31, then $500, $1,000, $2,000, and after Aug 15 half the fall room rate. Pick your status, the license year, what you are cancelling, why, the date and your room. The tool returns the fee, the penalty-free deadline if your reason qualifies, or a plain "you cannot cancel".

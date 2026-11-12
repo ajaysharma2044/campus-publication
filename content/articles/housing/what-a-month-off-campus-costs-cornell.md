@@ -133,6 +133,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Plumbago Capensis
   source_url: https://commons.wikimedia.org/wiki/File:Belleayre_Apartments_Ithaca_NY_1.jpg
+index: false
 ---
 
 ```glance

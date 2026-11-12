@@ -25,6 +25,7 @@ sources:
   - {url: "https://bowers.cornell.edu/offices/registrar", title: "Registrar, Cornell Bowers College of Computing and Information Science", accessed: "2026-11-11"}
   - {url: "https://catalog.cornell.edu/veterinary-medicine/", title: "College of Veterinary Medicine, Cornell University Catalog", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 Cornell's drop deadline for a regular semester course is the 57th day: [October 19 for fall 2026 and March 22 for spring 2027](https://registrar.cornell.edu/calendars-exams/academic-calendar). Drop before it and nothing shows on your transcript. Drop after it and you get a W, on a schedule each college sets. A Senate proposal to move the free drop to day 11 is still pending.

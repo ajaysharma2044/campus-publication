@@ -96,6 +96,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: 颐园居
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Goldwin_Smith_Hall_20240526.jpg
+index: false
 ---
 
 ```glance

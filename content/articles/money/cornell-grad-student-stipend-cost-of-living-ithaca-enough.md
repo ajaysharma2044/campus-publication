@@ -27,6 +27,7 @@ sources:
   - {url: "https://cornellsun.com/2023/03/23/guest-room-eight-percent-is-not-enough/", title: "Eight Percent Is Not Enough, The Cornell Daily Sun, March 23, 2023", accessed: "2026-11-07"}
   - {url: "https://www.cornellsun.com/article/2026/03/graduate-student-asks-nlrb-to-question-graduate-student-union-s-legality", title: "Graduate Student Asks NLRB to Question Graduate Student Union's Legality, The Cornell Daily Sun, March 2026", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 Yes, if you share costs or live in Cornell's cheaper units, and tightly if you rent a one-bedroom alone on the open market. The 2026-27 minimum for a TA, GA, RA or GRA is [$48,912 for 12 months ($36,684 for the nine-month academic year plus $12,228 for summer)](https://gradschool.cornell.edu/financial-support/stipend-rates/), effective August 21, 2026. That is about $4,076 a month before taxes. Tuition and the Student Health Plan are paid by your funding package, so rent is the number that decides how comfortable you are. The Tompkins County Workers' Center puts the [2026 living wage for a single adult at $25.08 an hour](https://www.tcworkerscenter.org/2026/04/tompkins-county-living-wage-updated-now-25-08-hour-detailed-study/), which is about $52,166 over a 2,080-hour year (our multiplication). The 12-month stipend sits about $3,250 under that line.

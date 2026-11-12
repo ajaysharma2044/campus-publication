@@ -20,6 +20,7 @@ sources:
   - {url: "https://cornellsun.com/2024/09/16/tias-its-time-to-weed-out-weeder-courses/", title: "Tias: It's time to weed out weeder courses, The Cornell Daily Sun, September 16, 2024", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2022/10/12/levin-the-problem-of-weed-out-classes/", title: "Levin: The problem of weed-out classes, The Cornell Daily Sun, October 12, 2022", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 The course Cornell pre-meds most often call the weed-out is CHEM 2070, General Chemistry I, taken in the first year, not organic chemistry. Cornell [stopped posting course median grades in 2011](https://news.cornell.edu/node/270308), so no median for either course is posted. Below are the course sequence Cornell's pre-health office lists, the prerequisites that force the order, and what the Cornell Daily Sun and its columnists have said about how hard the first course is.

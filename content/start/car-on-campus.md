@@ -8,6 +8,7 @@ queue_id: q-getting-around-0072
 kind: start_here
 readers: [car-on-campus]
 brief: intel/getting-around/brief.md
+index: false
 ---
 
 You live in university housing on North, West, South or at Hasbrouck, and you have a car here or are deciding whether to bring one. The questions in front of you: is a permit worth buying, where can the car sit overnight once snow season starts, and what happens to it over breaks. These pages answer them in the order you will hit them.

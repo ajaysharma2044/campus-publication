@@ -18,6 +18,7 @@ sources:
   - {url: "https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny", title: "Greyhound: Ithaca, NY to New York, NY", accessed: "2026-11-11"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-frequently-asked-questions", title: "Cornell Transportation: C2C frequently asked questions", accessed: "2026-11-11"}
   - {url: "https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/", title: "FingerLakes1: OurBus moves Ithaca stop to South Cayuga Street", accessed: "2026-11-11"}
+index: false
 ---
 
 On Nov 8, 2026, the cheapest advertised seat from Ithaca to New York City ran **$25 to $43** across six commercial carriers, and their average fares ran **$44.54 to $82.31**. Cornell's Campus-to-Campus (C2C) bus costs **$93.50** one way with a NetID and **$101** for everyone else. That makes C2C **2.83 to 3.74 times** the cheapest commercial seat and **1.51 times** the six carriers' mean average fare.

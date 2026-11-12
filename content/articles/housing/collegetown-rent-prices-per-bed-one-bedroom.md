@@ -53,6 +53,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/2.0
   author: Dougtone
   source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
+index: false
 ---
 -2026/27
   title: 'IthacaRents: 210 Stewart Avenue, 2BR unit'

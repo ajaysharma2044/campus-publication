@@ -134,6 +134,7 @@ images:
   license_url: https://creativecommons.org/licenses/by/4.0
   author: P. Hughes
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Duffield_Hall_03.jpg
+index: false
 ---
 
 ```glance

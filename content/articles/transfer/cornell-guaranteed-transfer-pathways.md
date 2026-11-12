@@ -103,6 +103,7 @@ images:
   license_url: ''
   author: Henry Van Auken
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Agriculture_Quad.jpg
+index: false
 ---
 
 ```glance

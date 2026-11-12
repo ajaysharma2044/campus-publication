@@ -17,6 +17,7 @@ sources:
   - {url: "https://www.duffield.cornell.edu/advising/course-enrollment-challenges/", title: "Course Enrollment Challenges, Cornell Engineering", accessed: "2026-11-07"}
   - {url: "https://www.cornellsun.com/article/2023/01/computer-and-information-science-students-struggle-with-course-enrollment-adding-stress-instead-of-classes", title: "Computer and Information Science Students Struggle with Course Enrollment, The Cornell Daily Sun, January 2023", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 To get into a full Cornell class, check the "wait list if class is full" box in Student Center, and keep a backup course in your schedule, because a waitlist is not a guarantee. Only [a limited number of classes have online wait lists](https://registrar.cornell.edu/students/enrollment/a-guide-to-enrollment), and the number Student Center shows you is not your real place in line. If there is no waitlist, or it is full, the next step is the department that offers the course. Here is the order to work in.

@@ -22,6 +22,7 @@ sources:
   - {url: "https://cornellsun.com/2021/12/07/as-finals-season-approaches-libraries-continue-adapting-to-student-needs/", title: "As finals season approaches, libraries continue adapting to student needs, The Cornell Daily Sun, December 7, 2021", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2022/04/14/what-your-favorite-study-spot-says-about-you/", title: "What your favorite study spot says about you, The Cornell Daily Sun, April 14, 2022", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 For a late night, go to the Cocktail Lounge in Uris Library: Cornell describes it as [available for quiet and group study 24 hours a day, 7 days a week](https://olinuris.library.cornell.edu/use/spaces), with a current Cornell ID needed after building hours. For true quiet, the Clark Physical Sciences Library and the Engineering Library are the other two libraries the [library hours page](https://www.library.cornell.edu/libraries/) lists as open around the clock. For groups, Mann 112 and the reservable rooms in Olin, Uris and Mann are the places to start. Hours change by semester and around finals, so check the linked pages before you walk across the Arts Quad.

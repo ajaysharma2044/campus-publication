@@ -8,6 +8,7 @@ queue_id: q-transfer-0038
 kind: start_here
 readers: [transfer-community-college]
 brief: intel/transfer/brief.md
+index: false
 ---
 
 You are at a two-year college, often working long hours, sometimes the first in your family at college, and Cornell can look out of reach or unaffordable. Cornell says it has no preference by type of school ([Cornell FAQ](https://faq.enrollment.cornell.edu/kb/article/325-does-cornell-prefer-transfer-applicants-from-certain-colleges-or-types-of-colleges/)). The decisions in front of you are whether a pathway fits or you apply openly, which courses to take so they transfer, and whether to apply after two semesters or four.

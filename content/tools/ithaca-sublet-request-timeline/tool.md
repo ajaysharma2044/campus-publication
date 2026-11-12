@@ -11,6 +11,7 @@ brief: intel/off-campus-housing/brief.md
 sources:
   - {url: "https://www.nysenate.gov/legislation/laws/RPP/226-B", title: "New York State Senate: Real Property Law section 226-B, right to sublease or assign", accessed: "2026-11-08"}
   - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease", title: "Cornell Law School Tenant Advocacy: Breaking a lease", accessed: "2026-11-11"}
+index: false
 ---
 
 This tool works out the dates in a New York sublet request. You enter how many units are in your building, the day your subtenant moves in, and the day you mail the request. It gives you the last day to mail, the last day the landlord can ask you for more information, the day the landlord's answer is due, and the day silence turns into consent. It also lists the seven things the request must contain. If your building has three or fewer units, it tells you instead that your lease, not the law, decides whether you can sublet.

@@ -82,6 +82,7 @@ images:
   author: Tomwsulcer
   source_url: https://commons.wikimedia.org/wiki/File:Students_walking_and_crossing_streets_with_clock_tower_in_distance_at_Cornell_University.jpg
 kind: spoke
+index: false
 ---
 
 

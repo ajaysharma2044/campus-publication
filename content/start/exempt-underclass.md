@@ -12,6 +12,7 @@ sources:
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy", title: "Residential policy, Cornell Student and Campus Life", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2022/09/12/hurt-for-housing-begins-early-causing-stress-for-students/", title: "Hunt for housing begins early, causing stress for students, The Cornell Daily Sun", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2022/08/04/nguyen-the-tale-of-cornells-broken-housing-market/", title: "The tale of Cornell's broken housing market, The Cornell Daily Sun", accessed: "2026-11-11"}
+index: false
 ---
 
 You are a first- or second-year who may meet one of Cornell's exemptions from the two-year residential requirement: married or partnered, a veteran, coming with legal dependents, 21 or older by the start of the year, a transfer entering as a junior or senior, or a local commuter. You may rent like an upperclass student, but only after Housing approves the exemption, and the Collegetown rush runs before the spring window. Read in this order before you sign anything.

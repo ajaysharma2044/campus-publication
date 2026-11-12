@@ -21,6 +21,7 @@ sources:
 redirect_from:
   - /cornell/housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/
   - /housing/summer-storage-vs-shipping-vs-sublet-cornell-cost/
+index: false
 ---
 
 This calculator finds the cheapest way to get through a summer away from your Ithaca apartment. You tell it whether your lease keeps running while you're gone, how many months you'll be away, your share of the rent, what a subtenant would pay you, and what you would pack. It then prices four plans: leave your things in your room (and sublet it furnished if you can), store them with Big Red Shipping and Storage (BRSS), rent a self-storage unit, or ship them home. All prices are as of Nov. 10, 2026.

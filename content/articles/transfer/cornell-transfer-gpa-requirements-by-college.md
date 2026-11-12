@@ -90,6 +90,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: P. Hughes
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_Entrance_to_Uris_Library.jpg
+index: false
 ---
 
 ```glance

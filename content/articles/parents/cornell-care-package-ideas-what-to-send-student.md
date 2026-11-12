@@ -16,6 +16,7 @@ sources:
   - {url: "https://faq.enrollment.cornell.edu/kb/article/317-how-is-the-weather-in-ithaca", title: "How is the weather in Ithaca?, Cornell Undergraduate Admissions FAQ", accessed: "2026-11-07"}
   - {url: "https://www.cornellsun.com/article/2023/01/freshmens-first-winter-a-culture-shock-for-students-from-warm-climates", title: "Freshmen's first winter a culture shock for students from warm climates, The Cornell Daily Sun, January 25, 2023", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 Send the box to the student's own service center, not a generic Cornell address, and put their NetID in the name line. Keep it to 50 pounds or less: that is the [Central Campus center's stated limit](https://web.archive.org/web/20251209224202/https://scl.cornell.edu/residential-life/service-centers-and-mail/central-campus-service-center) and matches Cornell's move-in guidance, but check your student's own center page for its limit. Fill the box with shelf-stable food and things that fit a small dorm room, and leave out anything Cornell bans in residence halls: toasters, coffee pots, candles and extension cords. Below is what to put in, what to leave out, and how the box reaches the student.

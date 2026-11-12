@@ -55,6 +55,7 @@ images:
 redirect_from:
   - /cornell/getting-around/cornell-dorm-mail-packages-service-center-pickup/
   - /getting-around/cornell-dorm-mail-packages-service-center-pickup/
+index: false
 ---
 
 

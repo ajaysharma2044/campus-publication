@@ -14,6 +14,7 @@ sources:
   - {url: "https://www.ithacacarshare.org/eligibility", title: "Ithaca Carshare: Eligibility", accessed: "2026-11-11"}
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students", title: "Cornell Transportation and Delivery Services: Student parking", accessed: "2026-11-11"}
   - {url: "https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing", title: "Cornell Sustainability: Ride and car sharing", accessed: "2026-11-11"}
+index: false
 ---
 
 Below about 78 hours of driving a year, the Just In Case student plan is the cheaper Ithaca Carshare plan; above it, It's My Car wins. Before tax the line sits at about 93 hours. Put in your hours, miles and vehicle and the tool gives the year's total for each plan, with the $20 sign-up, mileage and the 20% tax on usage, then tells you whether Carshare will approve you and how the total compares with a $752.98 Cornell parking permit.

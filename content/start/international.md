@@ -10,6 +10,7 @@ kind: start_here
 readers: [international]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md, intel/transfer/brief.md]
+index: false
 ---
 
 You are coming to Cornell from another country, with no US citizenship or approved permanent residency, probably no car, no SSN and often no US credit history. If you are transferring from another college, your first deadline is aid: the CSS Profile is due March 15, and missing it closes Cornell aid for good; after admission you move your F-1 or J-1 record to Cornell. Then come the same choices every international student faces: where to live, how to get here, and whether to go home or stay in Ithaca when breaks are too short for the trip.

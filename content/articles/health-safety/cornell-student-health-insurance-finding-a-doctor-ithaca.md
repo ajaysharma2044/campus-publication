@@ -65,6 +65,7 @@ images:
 redirect_from:
   - /cornell/getting-around/cornell-student-health-insurance-finding-a-doctor-ithaca/
   - /getting-around/cornell-student-health-insurance-finding-a-doctor-ithaca/
+index: false
 ---
 
 

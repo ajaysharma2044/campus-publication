@@ -44,6 +44,7 @@ sources:
   - {url: "https://cornellsun.com/2019/11/30/under-heavy-snow-forecast-university-mum-on-class-cancellation", title: "Under heavy snow forecast (Cornell Sun, 2019)", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2019/01/20/canceled-flights-and-impromptu-housing-winter-storm-frustrates-students-travel-plans-to-cornell/", title: "Winter storm frustrates travel to Cornell (Cornell Sun, 2019)", accessed: "2026-11-11"}
   - {url: "https://www.cornellsun.com/article/2019/01/tcat-prepares-to-swerve-away-winter-storm-conditions", title: "TCAT prepares for winter storm (Cornell Sun, 2019)", accessed: "2026-11-11"}
+index: false
 ---
 
 This checklist turns your situation into a dated to-do list for Thanksgiving 2026 or winter break 2026-27. Tell it the break, whether you are leaving or staying, how you travel, where your car sits and whether you are storing things, and it lists what to do now, before you leave, on travel day and on the way back, with the next deadline and how many days away it is. It also prices leaving a car at the Ithaca or Syracuse airport for the days you are away.

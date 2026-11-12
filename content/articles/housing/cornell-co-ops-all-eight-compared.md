@@ -127,6 +127,7 @@ images: []
 redirect_from:
   - /cornell/housing/how-cornell-co-ops-work-chores-meals-governance/
   - /housing/how-cornell-co-ops-work-chores-meals-governance/
+index: false
 ---
 
 

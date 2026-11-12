@@ -15,6 +15,7 @@ sources:
   - {url: "https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates", title: "Cornell Student and Campus Life: housing rates", accessed: "2026-11-08"}
   - {url: "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/", title: "RentCafe: Collegetown, Ithaca average rent", accessed: "2026-11-08"}
   - {url: "https://www.cornellsun.com/article/2025/12/the-ivy-to-establish-new-luxury-housing-in-collegetown-opens-fall-2026", title: "Cornell Daily Sun: The Ivy to establish new luxury housing in Collegetown", accessed: "2026-11-08"}
+index: false
 ---
 
 A bed in Collegetown for the 2027-28 lease year costs **$800 a month in a 6BR** and **$2,025 in a 1BR alone**, at the median asking rent on [Ithaca Renting's Collegetown page](https://ithacarenting.com/collegetown/) read on Nov 8, 2026. The bigger the unit, the cheaper the bed: a studio runs $1,765, a 2BR $1,377.50 per person, a 4BR $1,246.25. Over 12 months, only a 6BR, a 10BR, a room in a shared suite and (on a two-row mean) a 5BR come in under Cornell's 2026-27 residence hall double of [$13,744](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates).

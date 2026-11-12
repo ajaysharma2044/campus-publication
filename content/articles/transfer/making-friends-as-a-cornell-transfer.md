@@ -110,6 +110,7 @@ images:
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   author: Jakemiah
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Loving_House_Entrance.jpg
+index: false
 ---
 
 ```glance

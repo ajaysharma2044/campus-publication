@@ -24,6 +24,7 @@ sources:
   - {url: "https://studenthealthbenefits.cornell.edu/shp-costs-billing-dates-waiver-deadlines/shp-costs-billing-dates/shp-costs-dates-2026-27", title: "SHP Costs & Dates (2026-27), Cornell Student Health Benefits", accessed: "2026-11-11"}
   - {url: "https://studenthealthbenefits.cornell.edu/shp-costs-billing-dates-waiver-deadlines/waiveropt-out-deadlines", title: "Waiver/Opt-Out Deadlines, Cornell Student Health Benefits", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 The costs that catch first-gen and low-income students at Cornell are the ones nobody bills you for: a winter coat, a week of housing when the dorms close, the trip home, the student health plan, and a few thousand dollars of books and personal spending. Cornell's [Access Fund](https://scl.cornell.edu/FGLI/access-fund) covers some of them (winter clothing, a replacement laptop or phone, interview attire) and the rest have separate fixes. Below is each gap, what it costs when Cornell publishes a number, and where to get help. The Access Fund is open through April 15, 2027, and winter break housing is due December 1, so two of these have deadlines close by.

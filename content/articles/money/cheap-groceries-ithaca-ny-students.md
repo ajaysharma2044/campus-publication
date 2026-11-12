@@ -23,6 +23,7 @@ sources:
   - {url: "https://arc.bctr.cornell.edu/2024/08/09/new-york-nutrition-incentive-program-expands-access-to-healthy-produce", title: "New York nutrition incentive program expands access to healthy produce, Bronfenbrenner Center for Translational Research, Cornell, August 9, 2024", accessed: "2026-11-11"}
   - {url: "https://tcatbus.com", title: "TCAT, Tompkins Consolidated Area Transit", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 Without a car, shop at Anabel's Grocery on campus for staples and ride TCAT to Wegmans for the big trip. With a car, Wegmans, Aldi or Tops along Route 13/Meadow Street is the standard answer. The useful ranking is cost against effort: the cheapest store is not much use if getting there takes half your afternoon. Here is how the options work by situation.

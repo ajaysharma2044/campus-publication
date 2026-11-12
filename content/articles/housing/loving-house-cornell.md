@@ -57,6 +57,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_Loving_House_Entrance.jpg
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+index: false
 ---
 
 

@@ -22,6 +22,7 @@ sources:
   - {url: "https://www.studentagenciestutoring.com/", title: "Student Agencies Tutoring", accessed: "2026-11-11"}
   - {url: "https://www.studentagenciestutoring.com/services", title: "Services, Student Agencies Tutoring", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 Cornell's free tutoring is spread across several offices, and which one you use depends on your course and college. Undergraduates in any college can use the Learning Strategies Center (LSC) for [free drop-in group tutoring](https://lsc.cornell.edu/help-with-classes/help-with-cornell-courses/lsc-tutoring). Duffield Engineering undergraduates, and Biological and Environmental Engineering majors, also get [two free hours a week of tutoring](https://www.duffield.cornell.edu/tutoring/). Math students can use the Math Support Center, and anyone writing a paper can use the writing centers. Paid tutors fill the gaps, at about $28 an hour on average in Ithaca.

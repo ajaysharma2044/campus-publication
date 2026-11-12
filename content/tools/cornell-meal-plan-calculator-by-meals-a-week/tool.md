@@ -18,6 +18,7 @@ sources:
 redirect_from:
   - /cornell/dining/cornell-meal-plan-calculator-by-meals-a-week/
   - /dining/cornell-meal-plan-calculator-by-meals-a-week/
+index: false
 ---
 
 This calculator prices every Cornell Dining plan you are allowed to buy in 2026-27 against the number of dining-room meals you actually eat. You pick where you live and who you are, enter your meals a week, and choose which meals they are. It shows each plan's cost to you for a semester, what each swipe you use really costs, and how many meals a week the plan needs before it beats paying per meal. The cheapest plan for your numbers comes first.

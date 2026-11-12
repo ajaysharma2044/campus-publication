@@ -18,6 +18,7 @@ sources:
 redirect_from:
   - /cornell/housing/rent-split-calculator-unequal-rooms/
   - /housing/rent-split-calculator-unequal-rooms/
+index: false
 ---
 
 This calculator splits one apartment's rent among roommates whose bedrooms are not the same. You enter the total rent, the size of the whole apartment and the size of each bedroom. You also say which rooms have a private bathroom, a window and a closet, and what your group thinks each perk is worth. The tool splits the shared space evenly, charges each person for their own bedroom floor, then moves money from the people without a perk to the people with it. The shares always add up to the full rent.

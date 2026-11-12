@@ -57,6 +57,7 @@ images: []
 redirect_from:
   - /cornell/getting-around/set-up-utilities-ithaca-apartment-nyseg-internet/
   - /getting-around/set-up-utilities-ithaca-apartment-nyseg-internet/
+index: false
 ---
 
 

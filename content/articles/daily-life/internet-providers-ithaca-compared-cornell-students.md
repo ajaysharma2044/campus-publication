@@ -46,6 +46,7 @@ images:
 redirect_from:
   - /cornell/getting-around/internet-providers-ithaca-compared-cornell-students/
   - /getting-around/internet-providers-ithaca-compared-cornell-students/
+index: false
 ---
 
 

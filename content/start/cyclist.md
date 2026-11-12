@@ -8,6 +8,7 @@ queue_id: q-getting-around-0080
 kind: start_here
 readers: [cyclist]
 brief: intel/getting-around/brief.md
+index: false
 ---
 
 You ride a bike, an e-bike or an e-scooter to class on a hilly campus, maybe all year. Theft is common, and winter riding has no official guidance. The decisions in front of you: how to register, lock and store what you ride, whether to keep riding when the snow comes, and when Bikeshare or a bus with a bike rack does the job better.

@@ -14,6 +14,7 @@ sources:
   - {url: "https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes", title: "Bus services, privileges and passes, Cornell Transportation and Delivery Services", accessed: "2026-11-11"}
   - {url: "https://scl.cornell.edu/residential-life/housing/campus-housing/visiting-faculty-affiliate-campus-housing", title: "Visiting faculty and affiliate campus housing, Cornell Student and Campus Life", accessed: "2026-11-11"}
   - {url: "https://sites.lawschool.cornell.edu/tenants-advocacy/breaking-a-lease", title: "Breaking a lease, Cornell Law School Tenant Advocacy", accessed: "2026-11-11"}
+index: false
 ---
 
 You need housing in Ithaca for months, not a year: you're a visiting scholar, a postdoc, a spring arrival or a one-semester student, you often arrive mid-year, and you usually want a furnished place. Cornell does not guarantee on-campus housing for visiting faculty ([Cornell visiting faculty housing](https://scl.cornell.edu/residential-life/housing/campus-housing/visiting-faculty-affiliate-campus-housing)). The decision in front of you: a Cornell option, a sublet or semester lease, or a full lease you'll have to leave early.

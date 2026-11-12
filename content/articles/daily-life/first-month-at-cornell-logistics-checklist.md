@@ -147,6 +147,7 @@ images:
 redirect_from:
   - /cornell/getting-around/first-month-at-cornell-logistics-checklist/
   - /getting-around/first-month-at-cornell-logistics-checklist/
+index: false
 ---
 
 

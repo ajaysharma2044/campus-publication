@@ -20,6 +20,7 @@ sources:
   - {url: "https://finaid.cornell.edu/living-campus", title: "Cornell Financial Aid: living off campus", accessed: "2026-11-08"}
   - {url: "https://ithacarenting.com/collegetown/", title: "Ithaca Renting: Collegetown listings, 2027-28", accessed: "2026-11-08"}
   - {url: "https://cornellsun.com/2024/07/10/landlords-and-advocates-grapple-with-good-cause-eviction-law-at-public-hearing", title: "Cornell Daily Sun: landlords and advocates grapple with Good Cause Eviction law", accessed: "2026-11-08"}
+index: false
 ---
 
 This checker takes the rent on your lease and each charge your landlord wants, and tells you, line by line, whether New York law allows it and by how much it is over. It also turns your move-out date into the date your deposit is due back (14 days later), the window for a move-out inspection, what a court can add if the deposit is kept on purpose (up to twice the deposit), and whether the claim fits in Ithaca small claims court ($5,000). The limits are New York State law as read on Nov 8, 2026; they apply to an Ithaca lease the same way they apply anywhere in the state.

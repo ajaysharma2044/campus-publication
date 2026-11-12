@@ -14,6 +14,7 @@ sources:
   - {url: "https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free", title: "Cornell Daily Sun: Non-first-year Cornell students no longer able to access TCAT for free (Nov 2024)", accessed: "2026-11-11"}
   - {url: "https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/", title: "Downtown Ithaca Alliance: Five ways to pay your TCAT fare", accessed: "2026-11-11"}
   - {url: "https://web.archive.org/web/20261025111637/https://tcatbus.com/fare-pass-options", title: "TCAT: Fare and pass options (archived Oct 25, 2026; page updated 9/4/26)", accessed: "2026-11-11"}
+index: false
 ---
 
 This calculator tells you whether Cornell's discounted TCAT pass, OmniRide, costs less than paying $1.50 a ride. You enter who you are at Cornell, how many paid bus rides you take in a week, and for how many weeks. It tells you first whether you ride free already. If you don't, it multiplies your rides by the fare, sets that against the $200 pass, and tells you which is cheaper and by how much.

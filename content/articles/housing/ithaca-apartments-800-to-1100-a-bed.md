@@ -74,6 +74,7 @@ sources:
   title: Requirements for qualified university-recognized housing, Cornell Student & Campus Life
   accessed: '2026-11-11'
 images: []
+index: false
 ---
 
 

@@ -102,6 +102,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Hbithaca
   source_url: https://commons.wikimedia.org/wiki/File:TCAT_Bus_2602_on_Route_81.jpg
+index: false
 ---
 
 ```glance

@@ -19,6 +19,7 @@ sources:
   - {url: "https://www.cornellsun.com/2024/02/01/got-baggage-inside-cornells-luggage-transport-woes", title: "Cornell Daily Sun: Got baggage? Inside Cornell's luggage transport woes", accessed: "2026-11-08"}
   - {url: "https://www.greyhound.com/bus-routes/ithaca-ny-new-york-ny", title: "Greyhound: Ithaca to New York", accessed: "2026-11-08"}
   - {url: "https://www.ourbus.com/routes/ithaca-ny-to-new-york-ny", title: "OurBus: Ithaca to New York route", accessed: "2026-11-08"}
+index: false
 ---
 
 This calculator adds up what your bus trips between Cornell and New York City cost for the school year. Pick how many round trips you take, whether you ride C2C with a NetID or at the public fare, which commercial bus you would take instead, whether one trip is at Thanksgiving, and how many large bags you bring. It gives the year's total on Cornell's Campus-to-Campus (C2C) bus and on OurBus, FlixBus and Greyhound, each at the cheapest advertised seat and at the average fare, plus how much more C2C costs, what Thanksgiving adds, and the bag fees we have prices for. With the defaults (4 round trips, NetID, one Thanksgiving trip, 1 bag), C2C costs $748 and OurBus $216.65 at the floor or about $599.95 at the average.

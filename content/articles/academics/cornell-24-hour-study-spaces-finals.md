@@ -19,6 +19,7 @@ sources:
   - {url: "https://cornellsun.com/2021/12/07/as-finals-season-approaches-libraries-continue-adapting-to-student-needs/", title: "As finals season approaches, libraries continue adapting to student needs, The Cornell Daily Sun, December 7, 2021", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2019/01/25/library-director-outlines-alternate-24-hour-study-spaces-besides-cocktail-lounge", title: "Library director outlines alternate 24-hour study spaces besides Cocktail Lounge, The Cornell Daily Sun, January 25, 2019", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 Cornell's library hours page lists these as 24-hour spaces: the [Engineering Library, the Catherwood first-floor study space, the Law Library (Law community only), the Mann Library lobby, Physical Sciences (Clark) and the Uris Library Tower Entrance and Cocktail Lounge](https://spaces.library.cornell.edu/hours). Most require a Cornell ID card after the building closes. Fall 2026 study days are [December 8 to 10, and final exams run December 11 to 19](https://as.cornell.edu/index.php/registrar), so these are the rooms to know before then. Check the hours page the day you go.

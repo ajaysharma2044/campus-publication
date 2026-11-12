@@ -10,6 +10,7 @@ kind: start_here
 readers: [accessibility]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md, intel/transfer/brief.md]
+index: false
 ---
 
 You have a mobility or other disability and work through Student Disability Services (SDS), and you need accessible housing or other accommodations from your first day, whether you are arriving as a new transfer or already here. That can mean a room or unit with step-free access, a commute you can manage up Ithaca's hills, an accessible parking permit, wheelchair access on an intercity bus or help on move-in day, with the same deadlines, snow and early flights as everyone else and fewer fallbacks. Each topic below has its own reading order, in the order you will hit the questions.

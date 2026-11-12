@@ -152,6 +152,7 @@ images:
   license_url: https://creativecommons.org/licenses/by/2.0
   author: Upsilon Andromedae from Chicago, Illinois, USA
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown_(438384821).jpg
+index: false
 ---
 
 ```glance

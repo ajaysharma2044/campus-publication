@@ -20,6 +20,7 @@ sources:
   - {url: "https://business.cornell.edu/admissions/undergraduate/bs-hotel-administration/application-requirements/", title: "B.S. in Hotel Administration application requirements, Cornell", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/article/2023/01/self-discovery-sparks-internal-transfers-across-cornells-eight-undergraduate-colleges", title: "Self-discovery sparks internal transfers across Cornell's eight undergraduate colleges, The Cornell Daily Sun, January 2023", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 Internal transfer at Cornell is possible but never guaranteed, and how hard it is depends on the college you want. Each college sets its own requirements, but Cornell's central page applies [one rule to all of them](https://internaltransfer.cornell.edu/apply): you must remain in your home college for two semesters before you can enroll in a new one. Meeting the requirements does not guarantee admission, and [decisions are final with no appeal](https://internaltransfer.cornell.edu/apply). Cornell does not publish internal transfer acceptance rates, so the table below compares the rules each college sets: GPA, timing, courses and deadlines.

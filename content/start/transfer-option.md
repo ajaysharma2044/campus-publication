@@ -8,6 +8,7 @@ queue_id: q-transfer-0039
 kind: start_here
 readers: [transfer-option]
 brief: intel/transfer/brief.md
+index: false
 ---
 
 You applied to Cornell as a first-year and got a Transfer Option instead of admission. It is an invitation to apply for sophomore transfer after one full-time year at another school. It is not an offer of admission, and it cannot be deferred ([Arts and Sciences](https://as.cornell.edu/admissions/admissions-requirements-and-process)). The decisions in front of you: which courses and grades to aim for this year, when to file the Transfer Option application, and what to line up in case the answer is no.

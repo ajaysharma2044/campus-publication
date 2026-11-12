@@ -148,6 +148,7 @@ images:
 redirect_from:
   - /cornell/getting-around/having-a-car-at-cornell-student-guide/
   - /getting-around/having-a-car-at-cornell-student-guide/
+index: false
 ---
 
 

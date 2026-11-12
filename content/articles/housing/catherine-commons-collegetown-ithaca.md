@@ -34,6 +34,7 @@ sources:
   title: 'Maia on the Mic: The Collegetown housing hustle, The Cornell Daily Sun, Sept. 2025'
   accessed: '2026-11-11'
 images: []
+index: false
 ---
 
 

@@ -22,6 +22,7 @@ sources:
   - {url: "https://ithacaweek-ic.com/?p=16149", title: "Ithaca Week (Ithaca College), February 6, 2013", accessed: "2026-11-07"}
 images:
   - {file: "1.webp", alt: "A physics textbook open beside two Cornell course syllabuses", caption: "A Cornell physics course textbook and syllabuses. Whether you need the book at all is the first question to answer.", credit: "Jonathan Schilling / Wikimedia Commons", credit_url: "https://commons.wikimedia.org/wiki/File:Cornell_syllabuses_for_Physics_112_and_Physics_213_and_Halliday_and_Resnick_textbook_used_by_both.jpg", license: "CC BY-SA 4.0", license_url: "https://creativecommons.org/licenses/by-sa/4.0"}
+index: false
 ---
 
 If you are a Cornell undergraduate, you are already enrolled in the Cornell Academic Materials Program (CAMP), which charges [$295 per semester](https://www.cornellstore.com/about-textbooks) for your required course materials. You only buy used or cheap books elsewhere if you opt out before the deadline, and the opt-out covers every undergraduate course that semester. Graduate students are not in CAMP, so for them cheap means comparing prices and using the library.

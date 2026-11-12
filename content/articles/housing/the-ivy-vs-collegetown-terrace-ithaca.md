@@ -43,6 +43,7 @@ sources:
   title: The tale of Cornell's broken housing market, The Cornell Daily Sun, Aug. 4, 2022
   accessed: '2026-11-11'
 images: []
+index: false
 ---
 
 

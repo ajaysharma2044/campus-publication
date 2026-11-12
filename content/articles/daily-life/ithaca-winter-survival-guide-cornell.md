@@ -154,6 +154,7 @@ redirect_from:
 - /cornell/getting-around/ithaca-winter-survival-guide-cornell/
 - /getting-around/ithaca-winter-survival-guide-cornell/
 lead_photo: none-found 2026-11-11
+index: false
 ---
 
 

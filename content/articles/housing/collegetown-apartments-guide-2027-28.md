@@ -432,8 +432,6 @@ sources:
 - url: https://www.ithacarents.com/3763-114-stewart-avenue----2027/28-school-year-in-center-of-collegetown
   title: 114 Stewart Ave., Ithaca Rents
   accessed: '2026-11-10'
-  title: 115 Stewart Ave., Ithaca Rents
-  accessed: '2026-11-10'
 - url: https://www.ppmhomes.com/listings/detail/8a8cd89b-f24f-4e86-b7f1-e7805c550e11
   title: 119 Stewart Ave., PPM Homes
   accessed: '2026-11-10'
@@ -483,6 +481,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
+index: false
 ---
 
 

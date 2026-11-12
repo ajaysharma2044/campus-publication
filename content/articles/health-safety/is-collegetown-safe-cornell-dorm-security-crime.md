@@ -92,6 +92,7 @@ images:
 redirect_from:
   - /cornell/getting-around/is-collegetown-safe-cornell-dorm-security-crime/
   - /getting-around/is-collegetown-safe-cornell-dorm-security-crime/
+index: false
 ---
 
 

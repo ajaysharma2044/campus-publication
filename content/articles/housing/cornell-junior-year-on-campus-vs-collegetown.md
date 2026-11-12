@@ -60,6 +60,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
+index: false
 ---
 
 

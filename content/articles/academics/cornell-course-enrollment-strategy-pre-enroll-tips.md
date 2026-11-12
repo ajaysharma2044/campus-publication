@@ -22,6 +22,7 @@ sources:
   - {url: "https://cornellsun.com/2022/03/17/college-of-engineering-reduces-credit-limit-citing-mental-health-concerns/", title: "College of Engineering reduces credit limit, The Cornell Daily Sun, March 17, 2022", accessed: "2026-11-07"}
   - {url: "https://cornellsun.com/2021/11/14/yao-the-best-way-to-pre-enroll-is-waiting-until-add-drop/", title: "Yao: The best way to pre-enroll is waiting until add/drop, The Cornell Daily Sun, November 14, 2021", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 Build your schedule in the Student Center shopping cart before your appointment, enroll in the first minutes of your window, and keep backups. If a popular class is full, try again at add/drop, when dropped seats reopen. For spring 2027, [pre-enrollment runs November 10 to 20, 2026](https://registrar.cornell.edu/calendars-exams/academic-calendar), by class year, with graduate students first and first-years last.

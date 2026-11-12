@@ -113,15 +113,7 @@ sources:
   title: Maplewood Apartments, Greystar
   accessed: '2026-11-11'
 images: []
-- file: 1.webp
-  alt: Rainy view north from the Thurston Avenue Bridge toward Cornell's North Campus, with Balch Hall behind the trees
-  caption: North Campus from the Thurston Avenue Bridge, before the bridge was rebuilt. Visiting scholars have no guaranteed place in Cornell housing; their Cornell options are International Scholar House and, as space allows, the Hasbrouck grad apartments.
-  credit: Notyourbroom / Wikimedia Commons
-  credit_url: https://commons.wikimedia.org/wiki/File:Cornell_rainy_north_campus_from_bridge.jpg
-  license: CC BY 3.0
-  license_url: https://creativecommons.org/licenses/by/3.0
-  author: Notyourbroom
-  source_url: https://commons.wikimedia.org/wiki/File:Cornell_rainy_north_campus_from_bridge.jpg
+index: false
 ---
 
 ```glance

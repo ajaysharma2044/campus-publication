@@ -42,6 +42,7 @@ sources:
   - {url: "https://cornellsun.com/2018/11/07/desirable-collegetown-leases-leave-market-up-to-16-months-before-residents-move-in/", title: "Cornell Sun: Collegetown leases leave the market up to 16 months ahead (2018)", accessed: "2026-11-11"}
   - {url: "https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/collegetown/", title: "RentCafe: Collegetown average rents", accessed: "2026-11-11"}
   - {url: "https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf", title: "Cornell Common Data Set 2025-26", accessed: "2026-11-11"}
+index: false
 ---
 
 This tool turns the fall 2027 transfer cycle into your own list of dated steps, from today to the end of your first Cornell semester in December 2027. You pick your situation (sophomore or junior, four-year or community college, or Transfer Option) and the Cornell college you are applying to, and say whether you are international, a New York resident, or already lived on campus for two years elsewhere. It returns the steps that apply to you in order, with the course list and GPA signal for your college, the aid forms and codes for your status, the housing or lease steps, the July bill at 2026-27 prices, the health plan waiver, move-in and the exam credit request. It counts the days to your next fixed deadline from your device's date. Where Cornell has not yet announced the 2027 date, the row shows last cycle's date and a "2026 pattern" tag (or 2024 or 2025).

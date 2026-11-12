@@ -22,6 +22,7 @@ sources:
   - {url: "https://cornellsun.com/article/2025/11/grading-the-graders-empathy-for-professors-during-the-course-selection-process", title: "Grading the graders, The Cornell Daily Sun, November 10, 2025", accessed: "2026-11-07"}
   - {url: "https://cornellsun.com/2024/02/19/cornell-discontinues-median-grade-visibility-on-transcripts-15-years-after-inception/", title: "Cornell discontinues median grade visibility on transcripts, The Cornell Daily Sun, February 19, 2024", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 Use [CU Reviews](https://www.cureviews.org/) to judge the course and RateMyProfessors to judge the instructor, then read the newest written comments instead of the star average. Cornell no longer publishes official median grades, so no site gives you a reliable grade picture. Most students end up combining several sources, and that is the right instinct. Here is what each one is good for and where it misleads.

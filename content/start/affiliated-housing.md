@@ -8,6 +8,7 @@ queue_id: q-housing-0076
 kind: start_here
 readers: [affiliated-housing]
 brief: intel/off-campus-housing/brief.md
+index: false
 ---
 
 You live in one of Cornell's eight co-ops or a recognized fraternity or sorority house, or you want to, and either one counts as your second-year housing. The decisions in front of you are how to get a room, what it costs against a dorm, how to keep Cornell's housing application and license in order so you are not billed twice, and where you go for junior year. Read these in order; each guide carries the numbers and their sources.

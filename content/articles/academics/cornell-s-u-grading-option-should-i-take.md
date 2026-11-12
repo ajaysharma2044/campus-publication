@@ -20,6 +20,7 @@ sources:
   - {url: "https://prehealthadvising.cornell.edu/pre-professional-competencies/", title: "Pre-Professional Competencies, Cornell Health Professions Advising Center", accessed: "2026-11-11"}
   - {url: "https://cornellsun.com/2020/05/12/students-left-in-the-dark-over-grades-as-su-deadline-approaches/", title: "Students left in the dark over grades as S/U deadline approaches, The Cornell Daily Sun, May 12, 2020", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 Take a class S/U when it is a free elective or a distribution requirement outside your major and you want to explore without risking your GPA. Do not take it for anything that counts toward your major, or for prerequisites you will need for a professional school. Cornell sets the basic meaning, and each college sets its own limits, so check yours before you switch. Here is how it works and how to decide.

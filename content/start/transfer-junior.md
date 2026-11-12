@@ -8,6 +8,7 @@ queue_id: q-transfer-0037
 kind: start_here
 readers: [transfer-junior]
 brief: intel/transfer/brief.md
+index: false
 ---
 
 You have four semesters, an associate's degree or about 60 credits done, and you would arrive at Cornell as a junior, a path Cornell discourages for students coming from four-year schools ([Cornell FAQ](https://faq.enrollment.cornell.edu/kb/article/323-can-i-transfer-to-cornell-in-my-junior-year-from-another-college/)). The decision in front of you is whether to enter as a junior or sooner, which colleges still take you, and how many credits you lose. As a junior you are exempt from the residential requirement ([residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy)), so housing becomes a private lease you look for after an April to June admission.

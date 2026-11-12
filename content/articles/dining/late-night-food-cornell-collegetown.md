@@ -77,6 +77,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Louie%27s_Lunch_truck_at_Cornell_in_2020.jpg
+index: false
 ---
 
 

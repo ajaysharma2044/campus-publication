@@ -17,6 +17,7 @@ sources:
   - {url: "https://cals.cornell.edu/undergraduate-students/cals-student-services/academic-resources/transfer-non-cornell-credit", title: "Transfer Non-Cornell Credit, Cornell CALS", accessed: "2026-11-11"}
   - {url: "https://tompkinscortland.edu/tuition", title: "Student Accounts, Tompkins Cortland Community College", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 Cornell Summer Session is worth it when you need specific credits fast and your college has confirmed they count, because tuition is steep: [$2,013 per credit for 2027](https://bursar.cornell.edu/students-parents/tuition-rates-and-fees), so a three-credit course is [$6,039](https://sce.cornell.edu/courses/tuition/tuition). If the goal is only to bank credits, a cheaper course elsewhere can transfer, but only if your own college approves it first. The decision turns on which college you are in, so start there.

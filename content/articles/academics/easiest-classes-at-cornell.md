@@ -21,6 +21,7 @@ sources:
   - {url: "https://talk.collegeconfidential.com/t/which-is-the-easiest-stats-class/2002690", title: "Which is the Easiest Stats Class?, College Confidential", accessed: "2026-11-07"}
   - {url: "https://classes.cornell.edu/", title: "Class Roster, Cornell University", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 There is no reliable, current list of the easiest classes at Cornell, and the reason is official: the registrar says [median grade information is not calculated or made publicly available](https://registrar.cornell.edu/about/use-student-data). What exists instead is old student word of mouth, mostly intro-level courses in psychology, sociology, statistics and the earth sciences. This page collects what students have actually named, shows how old each claim is, and gives you a way to pick courses that does not depend on a stale forum post.

@@ -10,6 +10,7 @@ kind: start_here
 readers: [low-budget]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md, intel/transfer/brief.md]
+index: false
 ---
 
 You pay your own way or rely on aid, and every $10 matters: an upper-year undergrad or a grad on a thin stipend, or a first-generation, EOP or HEOP eligible or undocumented student for whom the money answer decides whether to transfer to Cornell at all. Three decisions sit in front of you: the cheapest workable place to live, knowing that once you leave campus aid does not cover the deposit, the first month or summer rent; the cheapest way to get home and around Ithaca, including whether a short break is worth the trip; and, if you are transferring, what aid will cover and whether the offer arrives before you commit. Read each path in order; each guide carries the numbers and their sources.

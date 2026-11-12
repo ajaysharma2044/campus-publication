@@ -8,6 +8,7 @@ queue_id: q-housing-0070
 kind: start_here
 readers: [sophomore]
 brief: intel/off-campus-housing/brief.md
+index: false
 ---
 
 You are a second-year living in a residence hall, a co-op or a Greek house this year, and your junior-year lease is free to sign. The catch is timing: the Collegetown rush for that lease runs in the fall of your sophomore year, often during prelims, so the decisions on where, with whom and when come before you feel ready. Read these in order and you will have made them.

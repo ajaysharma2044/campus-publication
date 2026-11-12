@@ -37,6 +37,7 @@ sources:
   - {url: "https://international.globallearning.cornell.edu/getting-started/f-1-transfer-students", title: "Cornell Global Learning: F-1 transfer students", accessed: "2026-11-11"}
   - {url: "https://international.globallearning.cornell.edu/getting-started/transfer-your-j-1-visa-cornell", title: "Cornell Global Learning: transfer your J-1 to Cornell", accessed: "2026-11-11"}
   - {url: "https://admissions.cornell.edu/veterans", title: "Cornell Admissions: veterans", accessed: "2026-11-11"}
+index: false
 ---
 
 This checklist builds the list of everything your Cornell transfer application needs for fall 2027 entry. Pick the college and major you are applying to and tick what fits you. The tool sorts every piece into four groups: before you apply, the first deadline (March 15, 2027), the second deadline (April 15, 2027) and after you are admitted. Each line says who completes the piece (you, your family, an official at your school, an instructor, each school's registrar or Cornell) and when it is due. Nothing is computed or estimated: it is Cornell's rules, matched to your situation.

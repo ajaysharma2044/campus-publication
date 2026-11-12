@@ -134,6 +134,7 @@ images:
   author: Kenneth C. Zirkel
   source_url: https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_Hall,_Cornell_University.jpg
 kind: reader_guide
+index: false
 ---
 
 

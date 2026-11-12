@@ -94,6 +94,7 @@ images:
   license_url: ''
   author: The Corner Book Stores
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_University_-_On_the_campus,_Arts_Quad.jpg
+index: false
 ---
 
 ```glance

@@ -50,6 +50,7 @@ images: []
 redirect_from:
   - /cornell/getting-around/new-york-drivers-license-ithaca-dmv-cornell-students/
   - /getting-around/new-york-drivers-license-ithaca-dmv-cornell-students/
+index: false
 ---
 
 

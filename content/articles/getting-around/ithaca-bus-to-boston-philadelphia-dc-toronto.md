@@ -129,6 +129,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Exterior_of_OurBus_.jpg
 subject:
 - Exterior of OurBus
+index: false
 ---
 
 ```glance

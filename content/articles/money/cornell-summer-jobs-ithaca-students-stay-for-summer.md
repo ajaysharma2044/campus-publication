@@ -58,6 +58,7 @@ images:
   credit_url: https://commons.wikimedia.org/wiki/File:Ithaca_Commons_(New_York).jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+index: false
 ---
 
 You can earn money in Ithaca over the summer from an on-campus student job, a paid or funded internship, an off-campus seasonal job, or by subletting your own room, and the numbers only work if you plan housing and food first. Cornell's student wage scale starts at [$16.00 an hour for Level I in 2026](https://www.studentemployment.cornell.edu/jobs/wages-and-classifications/student-wage-scale), while campus summer housing costs [$57.00 a night for a double or $69.50 for a single](https://scl.cornell.edu/residential-life/housing/campus-housing/summer-housing-campus), plus a $1.50 nightly admin fee.

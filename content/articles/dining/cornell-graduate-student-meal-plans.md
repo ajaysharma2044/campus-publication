@@ -48,6 +48,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:The_Big_Red_Barn_at_Cornell_University.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+index: false
 ---
 
 

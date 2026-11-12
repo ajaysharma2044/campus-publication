@@ -15,6 +15,7 @@ sources:
   - {url: "https://liberal-studies.engineering.cornell.edu/denied", title: "Denied Liberal Studies Petitions, Cornell Engineering", accessed: "2026-11-11"}
   - {url: "https://www.cornellsun.com/article/2022/03/students-express-concern-understanding-over-new-engineering-credit-limit", title: "Students Express Concern, Understanding Over New Engineering Credit Limit, The Cornell Daily Sun, March 31, 2022", accessed: "2026-11-11"}
 images: []
+index: false
 ---
 
 Cornell publishes no list of easy liberal studies courses. Use the [approved list](https://liberal-studies.engineering.cornell.edu/approved) to find courses that fit each category, then compare syllabi and workload yourself, and check the [denied list](https://liberal-studies.engineering.cornell.edu/denied) before counting on anything unlisted. The rules are below: if you entered in Fall 2024 or later, you need [at least 6 courses totaling a minimum of 18 credits](https://www.duffield.cornell.edu/courses-requirements/bachelor-science-requirements/liberal-studies/liberal-studies-requirements-for-students-entering-fall-2024-and-later/), with only two of them required at the 2000 level or higher.

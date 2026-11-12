@@ -40,6 +40,7 @@ sources:
   - {url: "https://events.cornell.edu/event/annual-celebration-of-gratitude-dinner-on-thanksgiving-day-2026", title: "Cornell events calendar: Annual Celebration of Gratitude Dinner on Thanksgiving Day", accessed: "2026-11-11"}
   - {url: "https://www.cityofithacany.gov/731/Permit-Issuance", title: "City of Ithaca: residential parking permit issuance", accessed: "2026-11-08"}
   - {url: "https://registrar.cornell.edu/calendars-exams/academic-calendar", title: "Cornell Registrar: academic calendar", accessed: "2026-11-08"}
+index: false
 ---
 
 This tool builds your own dated list of the travel, parking, bus-pass and break-housing deadlines between August 2026 and December 2027. You tell it when you started at Cornell, whether you have a car, and which breaks you will spend in Ithaca; it keeps only the dates that apply to you, in order, marks the ones already passed, and names the next one. Where Cornell has not yet published a 2026-27 date (finals charters, move-out), the row says "not yet published" and shows last year's date as a guide.

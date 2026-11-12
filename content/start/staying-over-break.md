@@ -8,6 +8,7 @@ queue_id: q-getting-around-0079
 kind: start_here
 readers: [staying-over-break]
 brief: intel/getting-around/brief.md
+index: false
 ---
 
 You are staying in Ithaca for Thanksgiving, winter break or both: home is far, the trip costs too much, or work or research keeps you here. The decisions in front of you are whether to apply for winter break housing, how you will get groceries and errands done while dining is closed and buses may run holiday service, and where a car can sit safely while campus empties. Read these in order; each guide carries the details and its sources.

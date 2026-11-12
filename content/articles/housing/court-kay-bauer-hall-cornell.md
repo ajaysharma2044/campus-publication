@@ -67,6 +67,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Kay_Hall_(left)_and_Bauer_Hall_(right),_Cornell_University.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+index: false
 ---
 
 

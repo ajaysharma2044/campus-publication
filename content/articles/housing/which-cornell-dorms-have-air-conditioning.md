@@ -76,6 +76,7 @@ images:
 redirect_from:
   - /cornell/getting-around/which-cornell-dorms-have-air-conditioning/
   - /getting-around/which-cornell-dorms-have-air-conditioning/
+index: false
 ---
 
 

@@ -655,8 +655,6 @@ sources:
 - url: https://www.ithacarents.com/4558-large-unit-in-historical-house
   title: 'IthacaRents.com: 4558 large unit in historical house'
   accessed: '2026-11-11'
-  title: 'IthacaRents.com: 4304 sunny 1br apartment close to cornell. furnished. january 1st move'
-  accessed: '2026-11-11'
 - url: https://www.ithacarents.com/3763-114-stewart-avenue-%2D%2D-2027/28-school-year-in-center-of-collegetown
   title: 'IthacaRents.com: 3763 114 stewart avenue 2027 / 28 school year in center of collegetown'
   accessed: '2026-11-11'
@@ -1083,8 +1081,6 @@ sources:
 - url: https://www.ithacarents.com/635-1-bedroom,-deibler-heights
   title: 'IthacaRents.com: 635 1 bedroom, deibler heights'
   accessed: '2026-11-11'
-  title: 'IthacaRents.com: 2843 modern two bedroom total electric apartment with eat in kitchen'
-  accessed: '2026-11-11'
 - url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/evergreen-pointe-236735
   title: 'Cornell Off-Campus Housing Marketplace: city / ithaca college ny / listing / evergreen pointe 236735'
   accessed: '2026-11-11'
@@ -1218,6 +1214,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Collegetown,_Ithaca.jpg
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
+index: false
 ---
 
 

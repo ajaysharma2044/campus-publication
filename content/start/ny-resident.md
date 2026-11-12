@@ -8,6 +8,7 @@ queue_id: q-transfer-0044
 kind: start_here
 readers: [ny-resident]
 brief: intel/transfer/brief.md
+index: false
 ---
 
 You live in New York and you are aiming at CALS, Human Ecology, ILR, Brooks or Dyson, the Cornell colleges where New York residents pay contract tuition; many of you are at a SUNY or CUNY school now. The decisions in front of you are which college fits both your subject and your bill, whether a SUNY pathway helps you, and which aid forms to file, HESC included, before March 15, 2027.

@@ -62,6 +62,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Cornell_Old_Central_Avenue.jpg
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
+index: false
 ---
 
 

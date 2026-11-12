@@ -23,6 +23,7 @@ sources:
 redirect_from:
   - /cornell/money/should-i-bring-a-car-cornell-ithaca-cost/
   - /money/should-i-bring-a-car-cornell-ithaca-cost/
+index: false
 ---
 
 ```glance

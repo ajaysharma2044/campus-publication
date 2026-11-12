@@ -94,6 +94,7 @@ images:
   author: Jerrye & Roy Klotz, MD
   source_url: https://commons.wikimedia.org/wiki/File:Tri-Delta_sorority_building_in_Cornell_Heights_Historic_District,_Ithaca,_Tompkins_County.jpg
 kind: spoke
+index: false
 ---
 
 

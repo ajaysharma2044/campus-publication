@@ -10,6 +10,7 @@ kind: start_here
 readers: [grad-student]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md]
+index: false
 ---
 
 You are a PhD student, a graduate assistant, or a master's or professional student. The undergraduate residential requirement does not apply to you, so you most likely rent off campus, in a later market than undergraduates, and you probably want somewhere quiet and away from undergraduate Collegetown. Two decisions follow: where to live and on what lease, and how you get to campus from there (a free or paid TCAT ride, a car and a permit, or Carshare). Each topic below has its own path; read the housing one first if you have not signed yet.

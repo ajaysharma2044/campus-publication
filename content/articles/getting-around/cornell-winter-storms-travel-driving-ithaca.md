@@ -132,6 +132,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/2.0
   author: Harald from Ithaca, NY, USA
   source_url: https://commons.wikimedia.org/wiki/File:Arts_Quad_after_the_Blizzard_(4392510277).jpg
+index: false
 ---
 
 ```glance

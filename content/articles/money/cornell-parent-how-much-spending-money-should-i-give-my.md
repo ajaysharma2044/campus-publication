@@ -13,6 +13,7 @@ sources:
   - {url: "https://www.merceradvisors.com/faq/how-much-spending-money-should-i-give-my-college-student-each-month/", title: "How much spending money should I give my college student each month, Mercer Advisors", accessed: "2026-11-07"}
   - {url: "https://talk.collegeconfidential.com/t/spending-money/1707056", title: "Spending money, College Confidential", accessed: "2026-11-07"}
 images: []
+index: false
 ---
 
 Plan on roughly $250 to $600 a month in cash for a Cornell undergraduate who lives on campus on the meal plan, and decide where in that range from three things: who pays for books, how much your student eats and travels off the plan, and whether they work. Cornell's aid office gives 2025-26 estimates of [$2,182 for personal expenses and $1,234 for books and course materials a year](https://finaid.cornell.edu/cost-attend), a $3,416 total that is not billed by the university. The page's 2026-27 section lists no figures for these lines. Spread over nine academic months, our assumption and not on Cornell's page, that is about $380 a month (our arithmetic). Housing, food on the plan, fees and tuition are billed separately, so they do not come out of this number.

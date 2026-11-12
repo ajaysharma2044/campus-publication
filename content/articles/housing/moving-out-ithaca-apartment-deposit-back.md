@@ -86,6 +86,7 @@ sources:
 images: []
 kind: spoke
 lead_photo: none-found 2026-11-11
+index: false
 ---
 
 

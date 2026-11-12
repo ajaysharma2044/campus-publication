@@ -8,6 +8,7 @@ queue_id: q-transfer-0040
 kind: start_here
 readers: [transfer-engineering]
 brief: intel/transfer/brief.md
+index: false
 ---
 
 You want a B.S. from Cornell Engineering, or computer science, which comes through either Engineering's B.S. or the Arts and Sciences B.A. ([Cornell CS](https://www.cs.cornell.edu/bachelor-arts-computer-science/apply)). Engineering asks for a fixed block of math, physics and chemistry courses before it reads an application, admits you straight into one major, and sets its own credit caps and exam score thresholds ([Engineering requirements](https://www.duffield.cornell.edu/admissions/transfer-applicants/requirements)). The decisions in front of you are whether that course block will be done or planned in time, which major to name, and how much of your credit will count.

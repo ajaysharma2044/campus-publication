@@ -50,6 +50,7 @@ sources:
   title: New Transfer Undergraduates, Cornell Student & Campus Life
   accessed: '2026-11-10'
 images: []
+index: false
 ---
 
 

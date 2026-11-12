@@ -64,6 +64,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Weill_Cornell_Medicine_at_1300_York_Avenue_NYC.jpg
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
+index: false
 ---
 
 

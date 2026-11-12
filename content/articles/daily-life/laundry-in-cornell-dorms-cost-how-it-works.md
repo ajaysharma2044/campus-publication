@@ -55,6 +55,7 @@ images: []
 redirect_from:
   - /cornell/getting-around/laundry-in-cornell-dorms-cost-how-it-works/
   - /getting-around/laundry-in-cornell-dorms-cost-how-it-works/
+index: false
 ---
 
 

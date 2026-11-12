@@ -55,8 +55,6 @@ sources:
 - url: https://triphammerapts.com/faqs/
   title: FAQs, Triphammer Apartments
   accessed: '2026-11-11'
-  title: 115 Stewart Ave. 1-bedroom listing, True Renew Homes on IthacaRents
-  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: New York General Obligations Law Section 7-108, New York State Senate
   accessed: '2026-11-11'
@@ -73,6 +71,7 @@ images:
   source_url: https://commons.wikimedia.org/wiki/File:Ithaca,_New_York_-_4370299698.jpg
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
+index: false
 ---
 
 

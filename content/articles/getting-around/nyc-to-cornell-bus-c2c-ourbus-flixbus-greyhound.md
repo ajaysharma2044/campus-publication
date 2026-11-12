@@ -121,6 +121,7 @@ images:
   license_url: https://creativecommons.org/licenses/by/2.0
   author: Ajay Suresh from New York, NY, USA
   source_url: https://commons.wikimedia.org/wiki/File:Weill_Cornell_Medicine_(48064045073).jpg
+index: false
 ---
 
 ```glance

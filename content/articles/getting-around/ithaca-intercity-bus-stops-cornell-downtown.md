@@ -110,6 +110,7 @@ images:
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   author: SM3544
   source_url: https://commons.wikimedia.org/wiki/File:Exterior_of_OurBus_.jpg
+index: false
 ---
 
 ```glance

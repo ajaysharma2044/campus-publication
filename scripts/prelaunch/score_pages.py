@@ -58,8 +58,8 @@ def main() -> int:
     images_final = {}
     fin = REPO / "reports" / "06-images-final.json"
     if fin.exists():
-        for e in json.loads(fin.read_text(encoding="utf-8")):
-            images_final[e["slug"]] = e.get("final", "keep")
+        raw = json.loads(fin.read_text(encoding="utf-8"))   # {slug: keep|removed} from replace_images.py, or a list of {slug, final}
+        images_final = dict(raw) if isinstance(raw, dict) else {e["slug"]: e.get("final", "keep") for e in raw}
     default_author = ""
     cfg = (REPO / "site" / "site.config.ts").read_text(encoding="utf-8")
     m = re.search(r"defaultAuthor:\s*'([^']+)'", cfg)

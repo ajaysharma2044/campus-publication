@@ -26,6 +26,7 @@ sources:
   - {url: "https://admissionsight.com/cornell-acceptance-rate/", title: "AdmissionSight: Cornell acceptance rate (third-party)", accessed: "2026-11-11"}
   - {url: "https://www.clastify.com/knowledge-hub/acceptance-rates/cornell-university/transfer", title: "Clastify: Cornell transfer acceptance rate (third-party)", accessed: "2026-11-11"}
   - {url: "https://www.koppelmangroup.com/blog/2026/1/21/how-to-transfer-to-cornell-2026", title: "Koppelman Group (2026-01-21): how to transfer to Cornell (third-party)", accessed: "2026-11-11"}
+index: false
 ---
 
 In fall 2025, **7,381 students applied to transfer to Cornell, 864 were admitted (11.7%) and 625 enrolled**, so 72.3% of admitted transfers came. Those are census counts from Cornell's own [Common Data Set 2025-26](https://irp.cornell.edu/wp-content/uploads/2026/09/Cornell-Common-Data-Set-2025-26.pdf), the only year with all three numbers from Cornell. Transfers made up **14.0% of new undergraduates in fall 2025 and 14.1% in fall 2026**, in line with Cornell Housing's "almost 15%" ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)).

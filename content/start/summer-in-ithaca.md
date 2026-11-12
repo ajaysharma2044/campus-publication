@@ -10,6 +10,7 @@ kind: start_here
 readers: [summer-in-ithaca]
 brief: intel/getting-around/brief.md
 briefs: [intel/off-campus-housing/brief.md]
+index: false
 ---
 
 You're working, interning or doing research in Ithaca from May to August. You either keep your 12-month lease, sublet someone else's place, or bridge the gap between a dorm and an off-campus lease, and your lease, bus pass and parking permit each end on a different summer date. The decisions in front of you: where you sleep in June and July, what to store or keep, how you'll get around once term ends, and what to renew before the August dates.

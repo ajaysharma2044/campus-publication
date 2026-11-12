@@ -8,6 +8,7 @@ queue_id: q-getting-around-0076
 kind: start_here
 readers: [far-from-home]
 brief: intel/getting-around/brief.md
+index: false
 ---
 
 Your home is in the Midwest, South or West, a bus does not reach it, and every break means a flight from Ithaca (ITH), Syracuse (SYR) or a New York City airport. The decision in front of you is which airport to fly from, how to get there from campus, and when to book, with luggage as a real cost and Thanksgiving short enough that a full travel day each way counts. Read these in order; each guide carries the details and its sources.
