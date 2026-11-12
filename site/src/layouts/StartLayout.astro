@@ -14,7 +14,7 @@ const topic = s.topics[0];
 const crumbs = [{ label: 'Home', href: '/' }, { label: s.school.short, href: schoolUrl(s.school) }, ...(topic ? [{ label: topic.label, href: topicUrl(s.school, topic) }] : []), { label: 'Start here', href: startIndexUrl }, { label: s.title }];
 const others = m.starts.filter((x) => x.url !== s.url && x.topics.some((t) => s.topics.some((tt) => tt.id === t.id))).slice(0, 6);
 ---
-<Base title={s.title} description={s.dek} path={s.url} school={s.school} current={topic?.id} jsonld={[breadcrumbList(crumbs), webPage({ title: s.title, dek: s.dek, url: s.url, updated: s.updated || undefined })]}>
+<Base title={s.title} description={s.dek} path={s.url} index={s.index} school={s.school} current={topic?.id} jsonld={[breadcrumbList(crumbs), webPage({ title: s.title, dek: s.dek, url: s.url, updated: s.updated || undefined })]}>
   <div class="page--article">
     <article class="main">
       <Breadcrumbs crumbs={crumbs} />

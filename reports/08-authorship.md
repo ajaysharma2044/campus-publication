@@ -20,11 +20,19 @@
 
 ## Sensitive topics
 
-- Legal-rights pages carrying the line 'This page is general information, not legal advice.' (or the tool form 'This is not legal advice.'): 37.
+- Legal-rights pages carrying the line 'This page is general information, not legal advice.' (or the tool form 'This is not legal advice.'): 39.
 
 ## Data labels (beds vs residents)
 
-- reports/08-labels.json not written yet.
+- Pages labeled: 7; bed-count source: https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion (fetched 2026-11-11; lists 'Toni Morrison Hall: 314 beds' and 'Ganędagǫ: Hall 577 beds'; McClintock 311, Hu Shih 429 and RBG 504 beds match Cornell's resident counts); skeptic verdict: NOT SOUND: One failure. File content/articles/housing/ganedago-hall-vs-toni-morrison-hall-cornell.md, line 136: the body links https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates ("Cornell housing rates"), and that URL is not in the frontmatter sources. It is the only URL in any of the 7 files that is missing. Thi
+
+- content/articles/housing/cornell-north-campus-dorms-compared.md: Added 'These are Cornell Housing's resident counts.' before the 306/564/311/429/504 paragraph. Added one sentence saying Welliver, the construction manager, counts beds and lists 314 for Toni Morrison and 577 for Ganędagǫ:. Labeled the big table's source line 'Residents column: Cornell Housing resid (source: Cornell Housing hall pages (re-fetched 2026-11-11); https://www.buildwelliver.com/projects/integrated-acquisition-and-development-cornell-university-north-campus-residential-expansion)
+- content/articles/housing/cornell-north-campus-new-dorms-vs-old-dorms.md: In 'How big are the halls?' added 'These are Cornell Housing's resident counts:' and inline links to the Ganędagǫ: and Toni Morrison hall pages, plus one sentence saying Welliver lists beds instead, 577 and 314. Added the Ganędagǫ:, Toni Morrison, Welliver and the already-cited Balch Hall page (prev (source: Cornell Housing hall pages; Welliver project page)
+- content/articles/housing/cornell-north-campus-residential-expansion-what-changed.md: Rewrote the figure's source line to 'Cornell Housing resident counts from the [Toni Morrison], [Ganędagǫ:], [Barbara McClintock], [Hu Shih] and [Ruth Bader Ginsburg] hall pages', linking each one, and added one Welliver bed-count sentence (314 and 577). Added the 5 hall pages and Welliver to sources (source: Cornell Housing hall pages; Welliver project page)
+- content/articles/housing/ganedago-hall-cornell.md: Opening sentence now reads 'holds 564 students by Cornell Housing's resident count'. The glance figure row is now 'Residents (Cornell Housing count)'. Added one Welliver sentence (577 beds) after the 'biggest residence building' line. The hall-page source now has accessed 2026-11-11, and the Wellive (source: Cornell Housing Ganędagǫ: page; Welliver project page)
+- content/articles/housing/ganedago-hall-vs-toni-morrison-hall-cornell.md: '564 residents against 306 in Cornell Housing's resident counts' in the opening paragraph. One Welliver sentence (577 and 314 beds). Table row is now 'Residents (Cornell Housing count)' and the table source line reads 'Cornell Housing hall pages (resident counts)'. The two Ganędagǫ: links went to an (source: Cornell Housing hall pages; Welliver project page)
+- content/articles/housing/how-cornell-assigns-first-year-roommates.md: Added 'By Cornell Housing's resident counts,' before 'Ganędagǫ: Hall holds 564 residents, Risley Hall 194 and Akwe:kon 35'. Added the three already-cited hall pages (Ganędagǫ:, Risley, Akwe:kon), which were missing from sources, with accessed 2026-11-11 (re-verified: 564, 194, 35). No bed count adde (source: Cornell Housing hall pages)
+- content/articles/housing/toni-morrison-hall-cornell.md: Opening sentence now reads 'holds 306 students by Cornell Housing's resident count'. Added one Welliver sentence (314 beds). The glance figure row is now 'Residents (Cornell Housing count)'. The hall-page source now has accessed 2026-11-11, and the Welliver source was added. updated was already 2026 (source: Cornell Housing Toni Morrison page; Welliver project page)
 
 ## Acceptance
 

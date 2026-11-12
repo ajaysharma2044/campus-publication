@@ -8,10 +8,11 @@ import Masthead from '../components/Masthead.astro';
 import SchoolSubnav from '../components/SchoolSubnav.astro';
 import Footer from '../components/Footer.astro';
 import AdSlot from '../components/AdSlot.astro';
-interface Props { title: string; description: string; path: string; ogImage?: string; ogType?: string; noindex?: boolean; searchable?: boolean; school?: School | null; current?: string; jsonld?: object[]; bodyClass?: string; preloadImage?: string; preloadSrcset?: string; preloadSizes?: string; preloadType?: string }
-const { title, description, path, ogImage = '/og-default.png', ogType = 'website', noindex = false, searchable = !noindex, school = null, current, jsonld = [], bodyClass, preloadImage, preloadSrcset, preloadSizes = '(min-width: 980px) 720px, 100vw', preloadType = 'image/avif' } = Astro.props;
+interface Props { title: string; description: string; path: string; ogImage?: string; ogType?: string; noindex?: boolean; index?: boolean; searchable?: boolean; school?: School | null; current?: string; jsonld?: object[]; bodyClass?: string; preloadImage?: string; preloadSrcset?: string; preloadSizes?: string; preloadType?: string }
+const { title, description, path, ogImage = '/og-default.png', ogType = 'website', noindex = false, index = false, searchable = !noindex, school = null, current, jsonld = [], bodyClass, preloadImage, preloadSrcset, preloadSizes = '(min-width: 980px) 720px, 100vw', preloadType = 'image/avif' } = Astro.props;
 const canonical = new URL(path, site.url).toString();
-const robots = !site.production || noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
+// docs/v5 Phase 9a: index only when the site is launched and the page's frontmatter says index: true; everything else noindex, follow (links are followed once crawlable)
+const robots = site.launched && index && !noindex ? 'index, follow, max-image-preview:large' : 'noindex, follow';
 const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 const ld = graph([organization(), webSite(), ...jsonld]);
 const anchor = site.ads.provider !== 'none';

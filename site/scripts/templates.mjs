@@ -10,7 +10,7 @@ export const TEMPLATES = [
   { n: 8, slug: 'data', url: '/styleguide/data/' },
   { n: 9, slug: 'comparison', url: '/styleguide/comparison/' },
   { n: 10, slug: 'cross-school-guide', url: '/styleguide/guide/' },
-  { n: 11, slug: 'author', url: '/authors/eduexplained-editors/' },
+  { n: 11, slug: 'author', url: '/authors/ajay-sharma/' },
   { n: 12, slug: 'trust', url: '/editorial-standards/' },
   { n: 13, slug: 'search', url: '/search/?q=meal+plan' },
   { n: 14, slug: '404', url: '/404.html' },

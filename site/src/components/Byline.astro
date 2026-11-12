@@ -1,9 +1,10 @@
 ---
 import type { Author } from '../../site.config';
 import { authorUrl, fmtDate, authorBySlug } from '../lib/model';
-interface Props { author: Author; updated: string; sourceCount?: number; reviewedBy?: string; reviewer?: Author; compact?: boolean; dataUpdated?: string }
-const { author, updated, sourceCount, reviewedBy, compact = false, dataUpdated } = Astro.props;
+interface Props { author: Author; updated: string; sourceCount?: number; reviewedBy?: string; reviewer?: Author; editedBy?: string; compact?: boolean; dataUpdated?: string }
+const { author, updated, sourceCount, reviewedBy, editedBy, compact = false, dataUpdated } = Astro.props;
 const reviewer = Astro.props.reviewer ?? (reviewedBy ? authorBySlug(reviewedBy) : null);
+const editor = editedBy ? authorBySlug(editedBy) : null;   // docs/v5 Phase 8: an Edited by line when the editor is not the author
 const initials = author.name.split(/\s+/).map((w) => w[0]).slice(0, 2).join('');
 ---
 <div class:list={['byline', { 'byline--compact': compact }]}>
@@ -15,6 +16,7 @@ const initials = author.name.split(/\s+/).map((w) => w[0]).slice(0, 2).join('');
       <span class="byline__updated">Updated {fmtDate(updated)}</span>
       {sourceCount ? <span>{sourceCount} {sourceCount === 1 ? 'source' : 'sources'}</span> : null}
     </p>
+    {editor && editor.slug !== author.slug && !compact ? <p class="byline__reviewed">Edited by <a href={authorUrl(editor)}>{editor.name}</a></p> : null}
     {reviewer && !compact ? <p class="byline__reviewed">Reviewed by <a href={authorUrl(reviewer)}>{reviewer.name}</a></p> : null}
   </div>
 </div>

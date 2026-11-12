@@ -28,11 +28,11 @@ const jsonld = [breadcrumbList(crumbsFor(page)), dataset({ title: page.title, de
   article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words })];
 if (b.faq.length) jsonld.push(faqPage(b.faq));
 ---
-<Base title={page.title} description={page.dek} path={page.url} ogType="article" school={page.school} current="data" noindex={page.sample} jsonld={jsonld}>
+<Base title={page.title} description={page.dek} path={page.url} index={page.index} ogType="article" school={page.school} current="data" noindex={page.sample} jsonld={jsonld}>
   <div class="page--article">
     <article class="main">
       <ArticleHead page={page} kicker="Data" />
-      <Byline author={page.author} updated={page.updated} sourceCount={page.sources.length} dataUpdated={d.updated} />
+      <Byline author={page.author} updated={page.updated} editedBy={page.editedBy} sourceCount={page.sources.length} dataUpdated={d.updated} />
       {b.shortAnswer ? <ShortAnswer html={b.shortAnswer} title="Key finding" /> : null}
       {d.chart ? <Chart title={d.chart.title} rows={d.chart.rows} unit={d.chart.unit ?? d.unit} source={d.chart.source} /> : null}
       <DataTable columns={d.columns} rows={d.rows} caption={page.title} csvHref={csvHref} foot={`Data updated ${fmtDate(d.updated)}. Download the CSV for the full table.`} />

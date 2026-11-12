@@ -22,7 +22,7 @@ const pageUrl = new URL(d.url, site.url).toString();
 const citation = `${site.name}, “${d.title}”, data as of ${fmtDate(d.asOf)}. ${pageUrl}`;
 const jsonld = [breadcrumbList(crumbs), datasetSchema({ title: d.title, dek: d.dek, url: d.url, updated: d.asOf, csv: d.csvHref || undefined, license: 'https://creativecommons.org/licenses/by/4.0/' })];
 ---
-<Base title={d.title} description={d.dek} path={d.url} school={d.school} current="data" jsonld={jsonld}>
+<Base title={d.title} description={d.dek} path={d.url} index={d.index} school={d.school} current="data" jsonld={jsonld}>
   <div class="page--article">
     <article class="main">
       <Breadcrumbs crumbs={crumbs} />

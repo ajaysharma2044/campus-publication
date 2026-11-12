@@ -28,11 +28,11 @@ const question = /\?$/.test(page.title) ? page.title : page.primaryQuery ? page.
 const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, image: page.lead?.src, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words }),
   faqPage([{ q: question, text: stripTags(b.shortAnswer) || page.dek }, ...b.faq])];
 ---
-<Base title={page.title} description={page.dek} path={page.url} ogType="article" ogImage={page.lead?.src} preloadSrcset={page.lead?.srcsetAvif || undefined} preloadImage={page.lead?.srcsetAvif ? undefined : page.lead?.src} school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
+<Base title={page.title} description={page.dek} path={page.url} index={page.index} ogType="article" ogImage={page.lead?.src} preloadSrcset={page.lead?.srcsetAvif || undefined} preloadImage={page.lead?.srcsetAvif ? undefined : page.lead?.src} school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
   <div class="page--article">
     <article class="main">
       <ArticleHead page={page} dek={false} />
-      <Byline author={page.author} updated={page.updated} sourceCount={page.sources.length} compact />
+      <Byline author={page.author} updated={page.updated} editedBy={page.editedBy} sourceCount={page.sources.length} compact />
       {b.shortAnswer ? <ShortAnswer html={b.shortAnswer} /> : null}
       {page.lead ? <LeadPhoto photo={page.lead} /> : null}
       <AdSlot size="300x250" position="inContent" />

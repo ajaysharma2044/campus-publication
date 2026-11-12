@@ -57,7 +57,8 @@ const redirectSources = new Set(redirects.map((l) => l.split(' ')[0]));
 for (const f of files) { const url = '/' + path.relative(dist, f).replace(/\\/g, '/').replace(/index\.html$/, ''); const html = await fs.readFile(f, 'utf8'); for (const m of html.matchAll(/href="(\/[^"#?]*)/g)) { if (redirectSources.has(m[1])) failures.push(`${url}: internal link hits a redirect: ${m[1]}`); } }
 for (const t of new Set(manifest.pages.map((p) => p.topic))) { const from = `/${t}/`; if (!exists.has(from) && !seen.has(from)) { seen.add(from); redirects.push(`${from} /${manifest.pages.find((p) => p.topic === t).school}/${t}/ 301`); } }
 redirects.push('/editorial-policy/ /editorial-standards/ 301');
-redirects.push('/authors/footnote-daily-editors/ /authors/eduexplained-editors/ 301');   // the editors' page before the 2026-11-10 rename
+redirects.push('/authors/footnote-daily-editors/ /authors/ajay-sharma/ 301');   // the editors' page before the 2026-11-10 rename
+redirects.push('/authors/eduexplained-editors/ /authors/ajay-sharma/ 301');   // the organization byline, replaced by the editor-in-chief's page (docs/v5 Phase 8)
 await fs.writeFile(path.join(dist, '_redirects'), redirects.join('\n') + '\n');
 console.log(`check-build: ${files.length} pages, ${manifest.pages.length} content pages checked against their hubs, ${redirects.length} redirects written`);
 for (const w of warn) console.log('warning:', w);

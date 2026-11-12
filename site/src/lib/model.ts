@@ -21,12 +21,12 @@ export interface Source { url: string; title: string; accessed?: string }
 export interface Page {
   id: string; slug: string; url: string; oldUrl: string; redirectFrom: string[]; title: string; dek: string; school: School; topic: Topic;
   pageType: PageType; updated: string; year: number; words: number; sources: Source[]; images: Photo[]; lead: Photo | null;
-  author: Author; reviewedBy?: string; body: RenderedArticle; sample: boolean; crossSchool: boolean; typeLabel: string;
+  author: Author; reviewedBy?: string; editedBy?: string; index: boolean; body: RenderedArticle; sample: boolean; crossSchool: boolean; typeLabel: string;
   data: CollectionEntry<'articles'>['data']; file: string; primaryQuery: string;
 }
-export interface Tool { slug: string; url: string; redirectFrom: string[]; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sources: Source[]; html: string; fragment: string; usedIn: Page[]; readers: string[]; file: string }
-export interface Dataset { slug: string; url: string; redirectFrom: string[]; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sampleSize: string; method: string; sources: Source[]; body: RenderedArticle; csvHref: string; csvRows: number; columns: string[]; rows: string[][]; csvText: string; file: string }
-export interface StartPage { slug: string; url: string; title: string; dek: string; topics: Topic[]; school: School; updated: string; html: string; readers: string[]; file: string }
+export interface Tool { slug: string; url: string; redirectFrom: string[]; index: boolean; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sources: Source[]; html: string; fragment: string; usedIn: Page[]; readers: string[]; file: string }
+export interface Dataset { slug: string; url: string; redirectFrom: string[]; index: boolean; title: string; dek: string; topic: Topic; school: School; updated: string; asOf: string; sampleSize: string; method: string; sources: Source[]; body: RenderedArticle; csvHref: string; csvRows: number; columns: string[]; rows: string[][]; csvText: string; file: string }
+export interface StartPage { slug: string; url: string; index: boolean; title: string; dek: string; topics: Topic[]; school: School; updated: string; html: string; readers: string[]; file: string }
 export interface SiteModel {
   pages: Page[];        // real pages (no samples)
   samples: Page[];
@@ -197,7 +197,7 @@ async function build(): Promise<SiteModel> {
     const page: Page = {
       id: p.entry.id, slug: p.slug, url: p.url, oldUrl: p.oldUrl, redirectFrom: p.redirectFrom, title: p.d.title.trim(), dek: p.d.meta.trim(), school: p.school, topic: p.topic,
       pageType: p.pageType, updated: p.d.updated, year: p.d.year ?? Number(String(p.d.updated).slice(0, 4)), words: body.words, sources, images, lead: images[0] ?? null,
-      author: authorBySlug(p.d.author), reviewedBy: p.d.reviewed_by, body, sample: p.sample, crossSchool: p.crossSchool, typeLabel: TYPE_LABELS[p.pageType],
+      author: authorBySlug(p.d.author), reviewedBy: p.d.reviewed_by, editedBy: (p.d as any).edited_by, index: (p.d as any).index === true, body, sample: p.sample, crossSchool: p.crossSchool, typeLabel: TYPE_LABELS[p.pageType],
       data: p.d, file: p.file, primaryQuery: p.d.primary_query ?? '',
     };
     validate(page);
@@ -207,7 +207,7 @@ async function build(): Promise<SiteModel> {
   const all = pre.map(make);
   const srcs = (d: any): Source[] => (d.sources ?? []).map((s: any) => ({ url: s.url, title: s.title || s.url, accessed: s.accessed }));
   const tools: Tool[] = toolDraft.map((t) => ({
-    slug: t.slug, url: t.url, redirectFrom: t.redirectFrom, title: t.e.data.title.trim(), dek: t.e.data.meta.trim(), topic: t.topic, school: school0, updated: t.e.data.updated, asOf: t.e.data.numbers_as_of,
+    slug: t.slug, url: t.url, redirectFrom: t.redirectFrom, index: (t.e.data as any).index === true, title: t.e.data.title.trim(), dek: t.e.data.meta.trim(), topic: t.topic, school: school0, updated: t.e.data.updated, asOf: t.e.data.numbers_as_of,
     sources: srcs(t.e.data), html: renderMarkdown(t.e.body ?? '', { sources: srcs(t.e.data), linkMap, knownUrls }).html, fragment: t.fragment, usedIn: usedIn.get(t.slug) ?? [],
     readers: t.e.data.readers ?? [], file: `content/tools/${t.slug}/tool.md`,
   }));
@@ -217,14 +217,14 @@ async function build(): Promise<SiteModel> {
     const table = csvText ? parseCsv(csvText) : [];
     const sources = srcs(d.e.data);
     return {
-      slug: d.slug, url: d.url, redirectFrom: d.redirectFrom, title: d.e.data.title.trim(), dek: d.e.data.meta.trim(), topic: d.topic, school: school0, updated: d.e.data.updated, asOf: d.e.data.as_of,
+      slug: d.slug, url: d.url, redirectFrom: d.redirectFrom, index: (d.e.data as any).index === true, title: d.e.data.title.trim(), dek: d.e.data.meta.trim(), topic: d.topic, school: school0, updated: d.e.data.updated, asOf: d.e.data.as_of,
       sampleSize: String(d.e.data.sample_size ?? ''), method: String(d.e.data.method ?? '').split(/\s+/).join(' '), sources,
       body: renderArticle(d.e.body ?? '', { sources, linkMap, knownUrls }), csvHref: csvText ? `/datasets/${d.slug}/${d.slug}.csv` : '', csvRows: Math.max(0, table.length - 1),
       columns: table[0] ?? [], rows: table.slice(1), csvText, file: `content/datasets/${d.slug}.md`,
     };
   }).sort((a, b) => (a.updated < b.updated ? 1 : -1));
   const starts: StartPage[] = startDraft.map((st) => ({
-    slug: st.slug, url: st.url, title: st.e.data.title.trim(), dek: st.e.data.meta.trim(), topics: st.topics, school: school0, updated: st.e.data.updated ?? '',
+    slug: st.slug, url: st.url, index: (st.e.data as any).index === true, title: st.e.data.title.trim(), dek: st.e.data.meta.trim(), topics: st.topics, school: school0, updated: st.e.data.updated ?? '',
     html: renderMarkdown(st.e.body ?? '', { linkMap, knownUrls }).html, readers: st.e.data.readers ?? [], file: `content/start/${st.slug}.md`,
   }));
   return { pages: all.filter((p) => !p.sample).sort((a, b) => (a.updated < b.updated ? 1 : -1)), samples: all.filter((p) => p.sample), tools, datasets, starts, schools: site.schools, topics: site.topics, linkMap, knownUrls };

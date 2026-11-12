@@ -14,7 +14,7 @@ interface Props { m: SiteModel; tool: Tool }
 const { m, tool } = Astro.props;
 const crumbs = [{ label: 'Home', href: '/' }, { label: tool.school.short, href: schoolUrl(tool.school) }, { label: tool.topic.label, href: topicUrl(tool.school, tool.topic) }, { label: 'Tools', href: toolsIndexUrl }, { label: tool.title }];
 ---
-<Base title={tool.title} description={tool.dek} path={tool.url} school={tool.school} current={tool.topic.id} jsonld={[breadcrumbList(crumbs), webPage({ title: tool.title, dek: tool.dek, url: tool.url, updated: tool.updated })]}>
+<Base title={tool.title} description={tool.dek} path={tool.url} index={tool.index} school={tool.school} current={tool.topic.id} jsonld={[breadcrumbList(crumbs), webPage({ title: tool.title, dek: tool.dek, url: tool.url, updated: tool.updated })]}>
   <div class="page--article">
     <article class="main">
       <Breadcrumbs crumbs={crumbs} />
