@@ -3,7 +3,7 @@
 7a. The transfer section was built with the v3 pipeline (scripts/v3: research in five lanes, brief, readers, plan, write, check, publish) as topic `transfer` in topics.yml, data-first: a Common Data Set section D dataset with its CSV and trend chart, one page per undergraduate college (the college structure confirmed from Cornell's site during research), the Guaranteed Transfer option, community college transfer, credit evaluation by college, housing (linking the existing page), orientation, a first-semester checklist, and a deadlines tool. Every page carries the v3 publish requirements (lint, lead photo or figures, reader blocks, sources) and passed the check step before publish.sh took it.
 
 - Transfer pages on disk: 38 (Counter({'spoke': 23, 'reader_guide': 6, 'tool': 5, 'dataset': 3, 'pillar': 1}))
-- Published: 26 (articles 18, tools 5, datasets 3); not yet published: ['/transfer/cornell-arts-and-sciences-transfer-requirements/', '/transfer/cornell-contract-colleges-ny-resident-transfer/', '/transfer/cornell-engineering-transfer-guide/', '/transfer/cornell-hotel-school-transfer-requirements/', '/transfer/cornell-transfer-acceptance-rate/', '/transfer/cornell-transfer-application-materials/', '/transfer/cornell-transfer-cost-first-year/', '/transfer/cornell-transfer-credit-how-many-credits-transfer/', '/transfer/cornell-transfer-gpa-requirements-by-college/', '/transfer/cornell-transfer-option-guide/', '/transfer/making-friends-as-a-cornell-transfer/', '/transfer/transferring-to-cornell-guide/']
+- Published: 38 (articles 30, tools 5, datasets 3); not yet published: none
 - Common Data Set dataset published: yes: /datasets/cornell-transfer-admissions-data-2017-2026/
 - Start paths that include the transfer section: 13
 - Acceptance (at least 10 published pages including the CDS dataset): PASS
@@ -40,33 +40,33 @@
 |---|---|---|---|
 | /transfer/community-college-to-cornell/ | reader_guide | published | Community college to Cornell: the transfer guide for 2027 |
 | /transfer/cornell-aap-transfer-requirements/ | spoke | published | Cornell AAP transfer requirements: portfolio, GPA, B.Arch. |
-| /transfer/cornell-arts-and-sciences-transfer-requirements/ | spoke | written | Transferring into Cornell Arts and Sciences: the rules |
+| /transfer/cornell-arts-and-sciences-transfer-requirements/ | spoke | published | Transferring into Cornell Arts and Sciences: the rules |
 | /transfer/cornell-brooks-school-transfer-requirements/ | spoke | published | Cornell Brooks School transfer: courses, GPA and timing |
 | /transfer/cornell-cals-transfer-requirements/ | spoke | published | Transferring into Cornell CALS: majors, courses and GPA |
-| /transfer/cornell-contract-colleges-ny-resident-transfer/ | spoke | written | NY resident transfers: Cornell contract college tuition |
+| /transfer/cornell-contract-colleges-ny-resident-transfer/ | spoke | published | NY resident transfers: Cornell contract college tuition |
 | /transfer/cornell-dyson-transfer-requirements/ | spoke | published | Cornell Dyson transfer requirements: courses, GPA, dates |
-| /transfer/cornell-engineering-transfer-guide/ | reader_guide | written | Cornell Engineering and CS transfer requirements, fall 2027 |
+| /transfer/cornell-engineering-transfer-guide/ | reader_guide | published | Cornell Engineering and CS transfer requirements, fall 2027 |
 | /transfer/cornell-financial-aid-transfer-students/ | spoke | published | Cornell financial aid for transfers: need-based, no merit |
 | /transfer/cornell-guaranteed-transfer-pathways/ | spoke | published | Is there a guaranteed transfer to Cornell? Every pathway |
-| /transfer/cornell-hotel-school-transfer-requirements/ | spoke | written | Cornell Hotel School transfer: courses, GPA and dates |
+| /transfer/cornell-hotel-school-transfer-requirements/ | spoke | published | Cornell Hotel School transfer: courses, GPA and dates |
 | /transfer/cornell-human-ecology-transfer-requirements/ | spoke | published | Transferring into Cornell Human Ecology: courses and GPA |
 | /transfer/cornell-ilr-transfer-requirements/ | spoke | published | Transferring into Cornell ILR: courses, GPA and essays |
 | /transfer/cornell-spring-transfer-fall-only/ | spoke | published | Can you transfer to Cornell for spring? Fall only now |
-| /transfer/cornell-transfer-acceptance-rate/ | spoke | written | Cornell transfer acceptance rate: 11.7% in fall 2025 |
+| /transfer/cornell-transfer-acceptance-rate/ | spoke | published | Cornell transfer acceptance rate: 11.7% in fall 2025 |
 | /transfer/cornell-transfer-ap-ib-exam-credit/ | spoke | published | Do AP and IB credits count when you transfer to Cornell? |
-| /transfer/cornell-transfer-application-materials/ | spoke | written | Cornell transfer application: every piece and who does it |
+| /transfer/cornell-transfer-application-materials/ | spoke | published | Cornell transfer application: every piece and who does it |
 | /transfer/cornell-transfer-as-a-junior/ | reader_guide | published | Transferring to Cornell as a junior: credits and housing |
-| /transfer/cornell-transfer-cost-first-year/ | spoke | written | Cornell transfer cost 2026-27: $95,218 to $99,169 billed |
+| /transfer/cornell-transfer-cost-first-year/ | spoke | published | Cornell transfer cost 2026-27: $95,218 to $99,169 billed |
 | /transfer/cornell-transfer-course-enrollment-academics/ | spoke | published | Cornell transfer course enrollment: add/drop and academics |
-| /transfer/cornell-transfer-credit-how-many-credits-transfer/ | spoke | written | How many credits transfer to Cornell? Caps and evaluation |
+| /transfer/cornell-transfer-credit-how-many-credits-transfer/ | spoke | published | How many credits transfer to Cornell? Caps and evaluation |
 | /transfer/cornell-transfer-deadlines-decision-dates/ | spoke | published | Cornell transfer deadlines for fall 2027 and decision dates |
-| /transfer/cornell-transfer-gpa-requirements-by-college/ | spoke | written | What GPA you need to transfer to Cornell, by college |
+| /transfer/cornell-transfer-gpa-requirements-by-college/ | spoke | published | What GPA you need to transfer to Cornell, by college |
 | /transfer/cornell-transfer-low-income-budget/ | reader_guide | published | Transferring to Cornell on a tight budget: what aid covers |
-| /transfer/cornell-transfer-option-guide/ | reader_guide | written | Cornell Transfer Option: is it guaranteed, and what now? |
+| /transfer/cornell-transfer-option-guide/ | reader_guide | published | Cornell Transfer Option: is it guaranteed, and what now? |
 | /transfer/cornell-transfer-orientation-move-in/ | spoke | published | Cornell transfer orientation and move-in, day by day |
 | /transfer/international-transfer-to-cornell/ | reader_guide | published | International transfer to Cornell: aid, credit and F-1 steps |
-| /transfer/making-friends-as-a-cornell-transfer/ | spoke | written | Making friends as a Cornell transfer: what worked |
-| /transfer/transferring-to-cornell-guide/ | pillar | written | Transferring to Cornell: the complete guide for fall 2027 |
+| /transfer/making-friends-as-a-cornell-transfer/ | spoke | published | Making friends as a Cornell transfer: what worked |
+| /transfer/transferring-to-cornell-guide/ | pillar | published | Transferring to Cornell: the complete guide for fall 2027 |
 | /transfer/veterans-transferring-to-cornell/ | spoke | published | Veterans and older students transferring to Cornell |
 | /tools/cornell-transfer-application-checklist/ | tool | published | Cornell transfer application checklist by college |
 | /tools/cornell-transfer-cost-calculator/ | tool | published | Cornell transfer cost calculator: required year, 2026-27 |
@@ -109,7 +109,7 @@ Rule: a hub with fewer than five quality articles is hidden from navigation and 
 | housing | 224 | 193 | visible |
 | money | 14 | 19 | visible |
 | parents | 0 | 1 | hidden |
-| transfer | 39 | 30 | visible |
+| transfer | 51 | 30 | visible |
 
 - Visible hubs with fewer than 5 articles: none
 - Hidden hubs: ['academics', 'alumni', 'careers', 'parents']
