@@ -24,7 +24,7 @@ sources:
   - {url: "https://www.spectrum.com/internet", title: "Spectrum Internet plans", accessed: "2026-11-11"}
   - {url: "https://www.visible.com/plans/base", title: "Visible base plan", accessed: "2026-11-11"}
 images: []
-index: true
+index: false
 ---
 
 A Cornell student who rents a room in a shared Collegetown house should plan on about $1,500 to $2,030 a month during the school year before utilities and phone, and about $1,600 to $2,240 with them. A room in a higher-end apartment costs more: about $2,150 to $3,030 before utilities. That is our sum, not a Cornell number: rent of [$800 to $1,300 per person in Collegetown houses](https://www.cornellsun.com/article/2025/09/maia-on-the-mic-the-collegetown-housing-hustle), plus groceries, books, personal spending, an optional bus pass, and sourced estimates for electricity and heat, internet and a phone plan. Cornell's own budget is higher on food and lower on rent, and the third-party "cost of living" sites that rank for this query are city-wide calculators, not student budgets. Below is each line, where it comes from, and what to check before you sign a lease.

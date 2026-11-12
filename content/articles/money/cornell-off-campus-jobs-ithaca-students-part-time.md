@@ -20,7 +20,7 @@ sources:
   - {url: "https://www.cornellsun.com/article/2020/04/ithaca-in-numbers-layoffs-surge-as-covid-19-and-student-departures-devastates-hospitality-sales", title: "Ithaca in Numbers: Layoffs Surge as COVID-19 and Student Departures Devastate Hospitality Sales, The Cornell Daily Sun, April 6, 2020", accessed: "2026-11-07"}
   - {url: "https://www.cornellsun.com/article/2020/02/watch-sciencenter-brings-student-workers-into-the-ithaca-community", title: "Sciencenter brings student workers into the Ithaca community, The Cornell Daily Sun, February 2020", accessed: "2026-11-07"}
 images: []
-index: true
+index: false
 ---
 
 If you have Federal Work-Study, the best off-campus job is a Community Work-Study placement, where [work-study covers 75 to 100 percent of the wage](https://einhorn.cornell.edu/?p=407) at an Ithaca or Tompkins County nonprofit, school or municipality. If you do not, you are looking at hotels, banquet and kitchen work, Collegetown shops and private tutoring, where you apply on your own. The state labor department says New York's [minimum wage outside New York City, Long Island and Westchester will stay the same on January 1, 2027, at $16.00 an hour](https://dol.ny.gov/minimum-wage-0), which sets the floor for most of it. The harder part is fitting a shift around classes and a bus schedule, which is what this page is about.

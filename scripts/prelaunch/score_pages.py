@@ -89,7 +89,10 @@ def main() -> int:
             except ValueError:
                 recent = False
             img_ok = images_final.get(slug, "keep") == "keep" or not fm.get("images")
+            qrow = QROWS.get(str(fm.get("queue_id") or ""))
+            built = (qrow is None) or (qrow.get("status") == "published")   # the site leaves out a page whose queue row is not published (site/src/lib/model.ts)
             checks = {
+                "built": built,
                 "linter": rel not in lint_bad,
                 "sources3": len(official) >= 3 and not forum,
                 "data_element": has_table or has_figure or has_our_figure,
@@ -107,10 +110,10 @@ def main() -> int:
         others = [o for o in seen.get(r["primary_query"], []) if o is not r and all(o[c] for c in ("linter", "sources3", "data_element", "author_and_date", "images"))]
         r["distinct_query"] = bool(r["primary_query"]) and not others
     for r in rows:
-        checks = [r[c] for c in ("linter", "sources3", "distinct_query", "data_element", "author_and_date", "images")]
+        checks = [r[c] for c in ("built", "linter", "sources3", "distinct_query", "data_element", "author_and_date", "images")]
         r["eligible"] = all(checks)
         r["score"] = sum(checks) + (1 if r["kind"] in ("tool", "dataset") else 0) + (1 if r["words"] >= 2500 else 0) + (1 if r["sources_official"] >= 8 else 0)
-        r["failing"] = ";".join(c for c in ("linter", "sources3", "distinct_query", "data_element", "author_and_date", "images") if not r[c])
+        r["failing"] = ";".join(c for c in ("built", "linter", "sources3", "distinct_query", "data_element", "author_and_date", "images") if not r[c])
     out = REPO / "reports" / "09-eligibility.csv"
     cols = ["url", "kind", "section", "eligible", "score", "failing", "index", "words", "sources_official", "forum_sources", "author", "updated", "primary_query", "file"]
     with out.open("w", newline="", encoding="utf-8") as f:

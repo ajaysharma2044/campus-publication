@@ -13,7 +13,7 @@ sources:
   - {url: "https://cornellsun.com/2024/04/22/a-cheapskates-guide-to-navigating-cornell", title: "A Cheapskate's Guide to Navigating Cornell, The Cornell Daily Sun, April 22, 2024", accessed: "2026-11-07"}
   - {url: "https://www.wegmans.com/stores/ithaca-ny", title: "Wegmans Ithaca store page", accessed: "2026-11-07"}
   - {url: "https://health.cornell.edu/services/nutrition-services/affordable-food", title: "Affordable Food Resources, Cornell Health", accessed: "2026-11-07"}
-index: true
+index: false
 ---
 
 Aldi was about $57 cheaper than Wegmans on a 50-item basket in a [September 2025 Northeast survey](https://www.marketreportblog.com/2025/09/the-cheapest-grocery-stores-in-northeast.html), though none of the surveyed stores were in Ithaca. Wegmans is the store with a documented bus trip from campus, and we found no Price Chopper in Ithaca. Nobody has published a current Ithaca price comparison and we did not price a basket ourselves, so treat this as the best-supported answer rather than a measured one. If you want one rule: buy staples at Aldi when you have a ride, and use Wegmans for everything else.
