@@ -7,7 +7,7 @@ primary_query: how to cope with Ithaca winter Cornell resources
 topic: health-safety
 school: cornell-university
 type: roundup
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 279
 rewrites: ''
 readers:
@@ -39,6 +39,9 @@ sources:
 - url: https://www.nrcc.cornell.edu/wxstation/ithaca/normal.html
   title: Ithaca climate normals 1991-2020, Northeast Regional Climate Center
   accessed: '2026-11-10'
+- url: https://health.cornell.edu/services/mental-health-care/lets-talk
+  title: "Let's Talk drop-in consultation, Cornell Health"
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: The curved glass 2017 addition to Cornell Health along Campus Road at Cornell
@@ -71,13 +74,28 @@ Cold adds to it. The 1991-2020 normals put January's mean temperature at 22.8F (
 
 ## What does Cornell Health offer?
 
-Three things show up in the sources behind this page.
+Cornell Health covers light, someone to talk to and advice at any hour.
 
-- **Light boxes.** The Cornell Health Pharmacy sells them for $20. The Sun reports using one for 30 minutes soon after waking, before noon, 12 to 24 inches from your face, at up to 10,000 lux, a measure of light brightness.
-- **Let's Talk.** A drop-in counseling service, described in the same story.
+- **Light boxes.** The Cornell Health Pharmacy sells them for $20. Writing in The Sun, a Cornell Health psychiatric nurse practitioner advises a 10,000-lux box (lux measures brightness) for 30 minutes soon after waking, ideally before noon, set off to the side at the distance its instructions give, 12 to 24 inches for many boxes. If you have a diagnosed condition, ask a Cornell Health clinician before you buy one.
+- **Let's Talk.** Free, confidential drop-in talks with a Cornell Health counselor, open to all Cornell undergraduate, graduate and professional students. No appointment is needed. Visits are first-come, first-served and last about 20 to 25 minutes. Cornell Health calls them informal consultations, not regular counseling, and not for urgent concerns ([Cornell Health](https://health.cornell.edu/services/mental-health-care/lets-talk)).
 - **An advice line.** Cornell Health runs a 24-hour advice line at 607-255-5155 ([Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety)).
 
-Hours and locations for Let's Talk are not in the sources behind this page, so check Cornell Health's website or call the advice line. Whether a light box suits you is a medical question, so ask a Cornell Health clinician before you buy one for a diagnosed condition.
+Let's Talk runs Monday through Friday during the semester, in campus buildings and by Zoom. Busy sessions can run out of time before everyone is seen, so arrive early or come back the next weekday ([Cornell Health](https://health.cornell.edu/services/mental-health-care/lets-talk)). These are the fall 2026 drop-in times.
+
+| Day | Time | Where |
+|---|---|---|
+| Monday | 2:30 to 4 p.m. | Tatkon Center, South Balch Hall |
+| Tuesday | 2 to 3:30 p.m. | CCC Building, Room 222B, or Zoom |
+| Tuesday | 3:30 to 5 p.m. | Sage Hall, Room 201E |
+| Wednesday | 1:30 to 3 p.m. | Willard Straight Hall, Room 203, or Zoom |
+| Wednesday | 3 to 4:30 p.m. | Ives Hall, Room 133 |
+| Thursday | 11:30 a.m. to 1 p.m. | Caldwell Hall, Room 341, or Zoom |
+| Thursday | 1 to 2:30 p.m. | CCC Building, Room 119B |
+| Thursday | 4 to 5:30 p.m. | Lynah Rink, Room 103 |
+| Friday | 10 to 11:30 a.m. | Zoom |
+| Friday | 1:30 to 3 p.m. | Rockefeller Hall, Room 438 |
+
+Fall 2026 schedule from [Cornell Health](https://health.cornell.edu/services/mental-health-care/lets-talk), which posts the Zoom links and any changes. The Ives Hall session skips Nov. 25, no sessions run Nov. 26 or 27, and fall sessions end between Dec. 10 and Dec. 18.
 
 <!-- ad-break -->
 
@@ -103,8 +121,8 @@ Break is the darkest and quietest stretch, with dining shut and fewer people aro
 
 ## When should you call someone?
 
-Call [Cornell Health's advice line](https://health.cornell.edu/about/news/cold-weather-safety) at 607-255-5155 if your mood is making it hard to sleep, study or eat, or if you feel unsafe. It runs 24 hours a day. Do not wait for spring to feel better first.
+Call [Cornell Health's advice line](https://health.cornell.edu/about/news/cold-weather-safety) at 607-255-5155 if your mood is making it hard to sleep, study or eat, or if you feel unsafe. It runs 24 hours a day. Do not wait for spring to feel better first. In a crisis, call 911 ([Cornell Health](https://health.cornell.edu/services/mental-health-care/lets-talk)).
 
 ## What to do next
 
-Walk to Cornell Health soon to ask about a light box and Let's Talk hours, and put the advice line number in your phone.
+Ask the Cornell Health Pharmacy about a light box, pick a Let's Talk time that fits your week, and put the advice line number in your phone.

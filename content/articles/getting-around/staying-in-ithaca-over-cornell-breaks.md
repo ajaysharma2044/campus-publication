@@ -7,7 +7,7 @@ primary_query: Cornell winter break housing staying in Ithaca
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 277
 rewrites: /getting-around/staying-in-ithaca-over-cornell-breaks/
 queue_id: q-getting-around-0041
@@ -26,10 +26,10 @@ tools:
 sources:
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice
   title: Winter Closing Notice, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://registrar.cornell.edu/calendars-exams/academic-calendar
   title: Academic Calendar 2026-27, Cornell Office of the University Registrar
   accessed: '2026-11-10'
@@ -53,7 +53,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://flyithaca.com/taxis
   title: Taxis, Ithaca Tompkins International Airport
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
   title: Winter and Break Parking Rules, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
@@ -89,9 +89,9 @@ Students who live in campus housing and return to it for spring can apply for [w
 
 ## Who can stay, and what does it cost?
 
-The page limits winter break housing to students returning to on-campus housing for spring. The fee is flat, as above. Only two one-week options exist, the week after fall term ends and the week before spring term starts. Students not living in an open community can apply only for the full break.
+Cornell limits winter break housing to students returning to on-campus housing for spring. The fee is flat, as above. Only two one-week options exist, the week after fall term ends and the week before spring term starts. Students not living in an open community can apply only for the full break, in Residential Flex Spaces that Cornell calls extremely limited.
 
-For 2026-27, ten buildings are open: Ganędagǫ: Hall, High Rise 5, HILC/Low Rise 8, Hu Shih, Loving House, Mews, Toni Morrison, Townhouse Apartments, Cascadilla and Veterans House (Cornell winter break housing page).
+For 2026-27, ten buildings are open: Ganędagǫ: Hall, High Rise 5, HILC/Low Rise 8, Hu Shih, Loving House, Mews, Toni Morrison, Townhouse Apartments, Cascadilla and Veterans House (Cornell winter break housing page). Residents of those buildings can stay in their current rooms. In HILC/Low Rise 8, Loving House and Veterans House, staying costs nothing extra.
 
 ```figure
 kind: cost_table
@@ -106,8 +106,6 @@ rows:
 The residences close at 2 p.m. on Sunday, Dec. 20 and stay closed for 30 days, to Jan. 19, so anyone staying the whole stretch should take the full-break rate. Staff do safety and maintenance inspections over the break and can enter for repairs ([closing notice](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)).
 
 Off-campus renters need no housing application, but the city's street parking rules still apply to them. If your flight leaves late on closing day, request a later departure in the Housing and Dining Portal by Dec. 7.
-
-The page does not say whether approved students keep their own room or move to an open building. Ask your Residence Hall Director or House Assistant Dean, whom the closing notice names as contacts.
 
 ## What are the key dates?
 
@@ -135,15 +133,13 @@ Dates come from the [registrar](https://registrar.cornell.edu/calendars-exams/ac
 
 Plan to buy your own food for most of a month. Meal plans end with brunch on closing day and resume with lunch the day halls reopen. Fall BRB, the declining-balance dollars on your ID, work at cafes and stores through Thursday, Dec. 24. Cornell Dining then shuts from Dec. 25 through Jan. 1, and from Jan. 4 to Jan. 19 fall BRB work wherever a location is open. City Bucks, which pay at off-campus businesses, can be added during the shutdown. Hours for each location are on Cornell Dining Now ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/winter-break-dining)).
 
-The winter break housing page does not mention Thanksgiving, and no Thanksgiving housing application appears there. Ask your Residence Hall Director before you plan to stay for that break.
-
 ## How do you get around while you are here?
 
 Your Cornell ID is your bus pass. First-years ride TCAT free until Aug. 31, and PhD students and graduate assistants get a free OmniRide pass. After first year, rides are free after 6 p.m. on weekdays and all weekend, and a weekday daytime ride is $1.50 ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)). Our [TCAT guide](/cornell/getting-around/tcat-free-for-cornell-students-hours-routes/) has the routes.
 
-TCAT does not run every day. It runs no buses on Independence Day, New Year's Day, Memorial Day, Juneteenth, Thanksgiving or Christmas ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day)). Over break, that means Thanksgiving Day, Christmas and New Year's Day. TCAT's reduced schedule on the other break days is on its own site, so check it before you plan a trip.
+TCAT does not run every day. It runs no buses on Independence Day, New Year's Day, Memorial Day, Juneteenth, Thanksgiving or Christmas ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day)). Over break, that means Thanksgiving Day, Christmas and New Year's Day.
 
-Taxis are the fallback. The airport lists Ithaca Airport Cab, Collegetown Cab and Ithaca Dispatch, says taxis are available at the airport 24/7, and posts no fares ([Ithaca airport](https://flyithaca.com/taxis)).
+Taxis are the fallback, and the airport says they are available there 24/7. Ithaca Airport Cab (607-252-9052), Collegetown Cab (607-588-8888) and Ithaca Dispatch (607-277-7777) quote prices by phone, and Collegetown Cab also books online ([Ithaca airport](https://flyithaca.com/taxis)).
 
 Daylight and cold matter too. On Dec. 21, the sun sets at 4:36 p.m. ([U.S. Naval Observatory](https://aa.usno.navy.mil/api/rstt/oneday?date=2026-12-21&coords=42.44,-76.50&tz=-5)). Cornell Health runs a 24-hour advice line at 607-255-5155 ([Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety)).
 
@@ -162,7 +158,7 @@ Join before break. Members must be 18 with a full license held two years, and dr
 Students in university housing can leave a car in their permit area, a policy that applies year-round. Never leave one on a city street over break, since Cornell warns it can be treated as abandoned, ticketed and towed ([winter and break parking rules](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)).
 
 ```reader "If you're staying over break"
-Apply in the Housing and Dining Portal by the deadline, since the page names no late option. Pick the full break if you stay the whole stretch. The costliest mistake is assuming buses run on holidays. Our [staying over break page](/start/staying-over-break/) collects the start-here steps.
+Apply in the Housing and Dining Portal by the deadline, even if your building stays open. Pick the full break if you stay the whole stretch. The costliest mistake is assuming buses run on holidays. Our [staying over break page](/start/staying-over-break/) collects the start-here steps.
 ```
 
 ```reader "If you're an international student"
@@ -179,7 +175,7 @@ When home takes a full day each way, a short break is hard to use for travel. De
 
 ## Common mistakes
 
-- Missing the application deadline: the page gives no late option, and without approval you pay $60 an hour after the 2 p.m. close.
+- Missing the application deadline: only approved students may stay, and a resident still in the building after the 2 p.m. close pays $60 an hour.
 - Expecting a package over break: mail waits until January.
 - Counting on dining halls: the shutdown runs more than a week.
 - Planning a bus ride on a no-service holiday.

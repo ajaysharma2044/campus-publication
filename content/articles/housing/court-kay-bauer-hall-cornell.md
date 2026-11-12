@@ -7,7 +7,7 @@ primary_query: Court-Kay-Bauer Hall Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 69
 rewrites: ''
 readers:
@@ -20,10 +20,10 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/court-kay-bauer-hall
   title: Court-Kay-Bauer Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall
   title: Oasis on North Campus, The Cornell Daily Sun, Nov. 9, 2026
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community
   title: Sober Living Community, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -48,6 +48,15 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://www.cornellsun.com/article/2019/08/attention-freshman-the-backstory-of-your-new-north-campus-home
+  title: 'Attention Freshman: The Backstory of Your New North Campus Home, The Cornell Daily Sun, Aug. 24, 2019'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
+  title: Winter Break Housing, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/winter-break-closing-checklist
+  title: Winter Break 2026 Closing Checklist, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Kay Hall and Bauer Hall, two brick wings of Court-Kay-Bauer Hall on Cornell's North Campus
@@ -64,8 +73,8 @@ images:
 ```glance
 - Court-Kay-Bauer opened in 2001 and holds 275-plus first-years in corridor singles and doubles.
 - The Sober Living Community opened in fall 2026 on Bauer's fourth floor with 38 residents.
-- Cornell's page lists air filtration but does not state air conditioning.
-- Cars unload at the Helen Newman lot, and winter break housing is not on the open list.
+- In 2019 The Cornell Daily Sun counted it among the few North Campus halls with air conditioning.
+- Cars unload at the Helen Newman lot, and the hall closes over winter break.
 ```
 
 Court-Kay-Bauer Hall is a first-year residence on Cornell's North Campus, built in 2001 as three linked halls. It holds [275-plus students](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/court-kay-bauer-hall) in corridor singles and doubles. Since fall 2026 its Bauer wing also houses the Sober Living Community.
@@ -79,14 +88,14 @@ rows:
   - {label: "Residents", value: "275-plus; Sober Living has 38"}
   - {label: "Room types", value: "Singles and doubles"}
   - {label: "Layout", value: "Corridor"}
-  - {label: "Cooling", value: "Air filtration; air conditioning not stated"}
+  - {label: "Cooling", value: "Air conditioning (Sun, 2019); system-controlled air filtration"}
   - {label: "2026-27 room rate", value: "$13,744 (double) to $15,566 (single) per year"}
   - {label: "Dining", value: "Chosen from North's three dining rooms"}
   - {label: "Who lives there", value: "First-years; Sober Living takes all years"}
   - {label: "How to get in", value: "Random assignment; Sober Living through the housing application"}
 ```
 
-Source: Cornell Housing hall page, Cornell Daily Sun and Housing Rates 2026-2027. Cornell's page gives no street address.
+Source: Cornell Housing hall page, Cornell Daily Sun and Housing Rates 2026-2027.
 
 ## What is Court-Kay-Bauer Hall, and where does its name come from?
 
@@ -96,11 +105,13 @@ Court Hall opened in 2001 with Mews Hall and a new community center, and about 6
 
 It is a floor for students who choose a substance-free life. It opened in fall 2026 on the fourth floor of Bauer with 38 residents, and it was first offered in Fall Housing Selection that year. The Cornell Daily Sun reported on it on Nov. 9, 2026, and said Cornell planned its first review in mid-fall ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall)).
 
-Cornell describes it as not a true program house. You mark your interest on the housing application, and Cornell's fall selection page says Sober Living needs an additional application beyond the regular one ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). The community is new, so its results are not yet public. Ask Housing what the first review found before you rely on it.
+Cornell describes it as not a true program house. You mark your interest on the housing application, and Cornell's fall selection page says Sober Living needs an additional application beyond the regular one ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/fall-housing-selection-rising-juniors-and-seniors)). Housing told the Sun that feedback from fall 2026 and spring 2027 will guide changes for the following year. It can also add space if interest grows.
 
 ## What is living in Court-Kay-Bauer like?
 
-Bedrooms open onto a hallway and floors share bathrooms. Cornell's hall page lists air filtration and does not state air conditioning, so ask housing@cornell.edu if heat matters. A Faculty-in-Residence lives in the building. As of November 2026, Professor of Communication Connie Yuan holds that role (Cornell Housing).
+Bedrooms open onto a hallway and floors share bathrooms. Cornell says the rooms have system-controlled air filtration (Cornell Housing). In 2019, The Cornell Daily Sun named Court-Kay-Bauer, Mews Hall, the Townhouses and Ecology House as the only North Campus housing with air conditioning ([Cornell Daily Sun](https://www.cornellsun.com/article/2019/08/attention-freshman-the-backstory-of-your-new-north-campus-home)).
+
+A Faculty-in-Residence lives in the building. As of November 2026, Professor of Communication Connie Yuan holds that role (Cornell Housing). Mail is addressed to your name and NetID, 107 Robert Purcell, your room number and building, Cornell University, Ithaca, NY 14853 (Cornell Housing).
 
 The wider rules for North halls are in [North Campus dorms compared](/cornell/housing/cornell-north-campus-dorms-compared/).
 
@@ -140,7 +151,7 @@ The hall does not change the rate, so room type is the lever. A triple costs les
 
 ## Where do you unload on move-in day?
 
-In fall 2026, Cornell sent Court-Kay-Bauer cars to the Helen Newman lot ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). Cornell's 2026-27 winter break list does not include the hall. The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
+In fall 2026, Cornell sent Court-Kay-Bauer cars to the Helen Newman lot ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The hall closes for winter break at 2 p.m. on Dec. 20, 2026 ([closing checklist](https://scl.cornell.edu/residential-life/housing/housing-details/winter-break-closing-checklist)). Residents who must stay can apply by Dec. 1 for one of the few flex spaces in an open hall, at $500 for the whole break ([winter break housing](https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets and timing.
 
 ## What to do next
 

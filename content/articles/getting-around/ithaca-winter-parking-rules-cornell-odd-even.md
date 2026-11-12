@@ -7,7 +7,7 @@ primary_query: ithaca winter parking rules odd even
 topic: getting-around
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 207
 queue_id: q-getting-around-0037
 rewrites: content/articles/getting-around/ithaca-winter-parking-rules-cornell-odd-even.md
@@ -42,7 +42,10 @@ sources:
   accessed: '2026-11-10'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
   title: Winter and Break Parking Rules, Cornell Transportation and Delivery Services
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf
+  title: Rules and Regulations for the Control of Traffic and Parking on the Grounds of Cornell University, 2023-24, Cornell Transportation Services
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students
   title: Parking for Students, Cornell Transportation and Delivery Services
   accessed: '2026-11-10'
@@ -106,7 +109,7 @@ The city's rule is your main risk. Move the car to the right side on active nigh
 
 ## What is Cornell's winter overnight parking rule?
 
-From Dec. 1 to April 1, when it is snowing or snow is forecast, overnight parking from 5 p.m. to 7:30 a.m. is allowed only in designated areas, which are open to all registered vehicles ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). The page ties the rule to both the dates and the snow, and it does not say whether a dry night inside the dates is exempt. Treat every night in the season as covered.
+From Dec. 1 to April 1, when it is snowing or snow is forecast, overnight parking from 5 p.m. to 7:30 a.m. is allowed only in designated areas, which are open to all registered vehicles ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). Cornell's written regulations cover every night of the season, snow or not: from 1 a.m. to 5 a.m., cars may park only in the designated areas ([Cornell parking regulations, 2023-24](https://fcs.cornell.edu/sites/default/files/2023-12/Control%20of%20Traffic%20and%20Parking_complete-2023-24.pdf)).
 
 | Designated area | Which part |
 |---|---|
@@ -132,18 +135,17 @@ Being in a designated area does not make the space free. Without a permit for th
 
 ## Where can I leave my car over winter break?
 
-Leave it in your campus permit area or off the street. Cornell's rules say a car left on a city street over winter break can be treated as abandoned, ticketed, towed and impounded. Students in university housing can leave a car in their permit area, and that policy applies year-round.
+Leave it in your campus permit area or off the street. Cornell's rules say a car left on a city street over winter break can be treated as abandoned, ticketed, towed and impounded. Students in university housing can leave a car in their permit area.
 
 The 2026-27 winter closing makes the stakes clear. All undergraduate residences close Sunday, Dec. 20, 2026, at 2 p.m. and reopen Tuesday, Jan. 19, 2027, at 9 a.m. ([Cornell Student and Campus Life](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/winter-closing-notice)). That is 30 days, ten times the 72-hour line. The closing checklist says to leave cars only in designated on-campus lots.
 
 | Where you leave it | Over break |
 |---|---|
 | Your resident permit area | Allowed |
+| B Lot, with a B permit | Allowed in its designated east and west bays ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)) |
 | B Lot, riding Cornell's C2C bus | Free if you email c2cbus@cornell.edu with plate and dates ([Cornell Transportation](https://fcs.cornell.edu/node/12488)) |
 | City street | Ticket, tow and possible impound |
 | City garage | No long-term parking; ask before you leave a car |
-
-The [student permit page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) does not spell out break rules for a B commuter permit, so ask Transportation and Delivery Services at 607-255-4600 before you leave.
 
 ```reader "If you're staying in Ithaca over break"
 Break nights still count. Winter break housing costs [$125 for a one-week option or $500 for the full break](https://scl.cornell.edu/sub/sub/residential-life/housing/campus-housing/winter-break-housing), and applications close Dec. 1, the same day the campus winter overnight rule starts ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)). See our guide to [staying in Ithaca over breaks](/cornell/getting-around/staying-in-ithaca-over-cornell-breaks/).
@@ -157,7 +159,7 @@ A January arrival lands inside both seasons. Register your plate before you driv
 
 ## What do winter parking tickets cost?
 
-Cornell's winter-rules fine is in the [2023 schedule](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/), the first rise since 2014 ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)). The winter page lists no separate fine for break violations.
+Cornell's winter-rules fine is in the [2023 schedule](https://cornellsun.com/2023/09/04/on-campus-parking-violation-fines-increase-for-first-time-since-2014/), the first rise since 2014 ([Cornell Transportation](https://fcs.cornell.edu/announcements/2023-08-01/citation-fines-increasing-september-1)). The same fines apply over break, since Cornell's parking policy covers all student break periods ([Cornell Transportation](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules)).
 
 ```figure
 kind: cost_table

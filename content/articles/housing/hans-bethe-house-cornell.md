@@ -7,7 +7,7 @@ primary_query: Hans Bethe House Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 77
 rewrites: ''
 readers:
@@ -20,24 +20,30 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system/hans-bethe-house
   title: Hans Bethe House, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3035
-  title: West Campus House main building addresses, Cornell Facilities and Campus Services
-  accessed: '2026-11-10'
+- url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3033
+  title: Hans Bethe House building record, Cornell Facilities and Campus Services
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2005/01/28/board-approves-wcri-phase-3
   title: Board Approves WCRI Phase 3, The Cornell Daily Sun, Jan. 28, 2005
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs
   title: Room Selection FAQs, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction
   title: McFaddin Hall Will Not House Students for Fall 2026 Due to Upcoming Construction, The Cornell Daily Sun, Sept. 22, 2025
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+- url: https://fcs.cornell.edu/bid-projects/mcfaddin-buttress-repair-leaning-chimney-removal
+  title: McFaddin Buttress Repair + Leaning Chimney Removal, Cornell Facilities and Campus Services
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027
+  title: Cornell Dining Terms and Conditions 2026-2027, Cornell Dining
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms
   title: Dining Rooms, Cornell Dining
   accessed: '2026-11-10'
@@ -50,15 +56,12 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system
   title: West Campus House System, Cornell Student & Campus Life
   accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs
-  title: Room Selection FAQs (share of rising sophomores in West Campus), Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Housing
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/new-transfer-undergraduates
   title: New Transfer Undergraduates, Cornell Housing
   accessed: '2026-11-10'
@@ -82,7 +85,7 @@ images:
 - McFaddin Hall, home to about 60 Bethe residents, was left out of 2026-27 selection.
 ```
 
-Hans Bethe House is a West Campus House that opened in 2007 and holds more than 350 students, mostly sophomores. Rooms have no air conditioning, and the House Meal Plan is required. A double costs $13,744 for the 2026-27 academic year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+Hans Bethe House is a West Campus House that opened in 2007 and holds more than 350 students, mostly sophomores. Rooms have no air conditioning, and the House Meal Plan is required. A double costs $13,744 for the 2026-27 academic year ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is Hans Bethe House?
 
@@ -111,11 +114,11 @@ The rules shared by all five Houses, including the meal plan and the selection p
 
 ## What is it like to live in Bethe House?
 
-Most students live in suites. Bethe has 38 suites, and most hold five people: three singles, one double, a bathroom and a sitting area ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). Not every suite is offered in room selection.
+Most students live in suites. Bethe has 38 suites, and most hold five people: three singles, one double, a bathroom and a sitting area ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)). Not every suite is offered in room selection.
 
 Bethe Main sits on the old Sperry Hall site. The Cornell Daily Sun reported in 2005 that the building came from a $43 million phase that added 300 beds and the Noyes Community and Recreation Center ([The Cornell Daily Sun](https://cornellsun.com/2005/01/28/board-approves-wcri-phase-3)).
 
-What sets Bethe apart from the other Houses is McFaddin Hall, a nearby building that holds about 60 of its residents. The quads exist only there. Cornell left McFaddin out of 2026-27 selection because of major outside construction that starts in summer 2026 and runs well into fall 2026 ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction)). The sources cited here do not say when McFaddin reopens, so ask Housing and Residential Life before you rank Bethe for a quad.
+What sets Bethe apart from the other Houses is McFaddin Hall, a nearby building that holds about 60 of its residents. The quads exist only there. Cornell left McFaddin out of 2026-27 selection because of major outside construction expected to run from summer 2026 well into the fall semester ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/09/mcfaddin-hall-will-not-house-students-for-fall-2026-due-to-upcoming-construction)). Cornell's facilities office scheduled its McFaddin repair contract to finish by Oct. 30, 2026. The contract covers rebuilding sections of the buttresses with new stone and taking down nine brick chimneys ([Cornell Facilities and Campus Services](https://fcs.cornell.edu/bid-projects/mcfaddin-buttress-repair-leaning-chimney-removal)). If you want a quad, check the Bed Availability Report in the Housing and Dining Portal for open McFaddin rooms before your timeslot ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)).
 
 Food is a selling point. Jansen's Dining Room is inside the House ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms)). Each Wednesday from 6 to 7 p.m. it serves only House residents, fellows and guests, then opens to everyone at 7 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms/west-campus-house-dinners)). Two Sun reviewers scored the five West Campus dinners during the week of Oct. 24, 2022. Bethe averaged 8 out of 10, the highest of the five, and it closed earliest, at 7:30 ([The Cornell Daily Sun](https://cornellsun.com/2022/11/07/a-comprehensive-review-of-west-campus-dining/)). Two reviewers and one week make a snapshot, not a rating.
 
@@ -130,9 +133,7 @@ Cornell prices rooms by type, not by House, so a Bethe double costs what a doubl
 
 Source: Cornell Housing rates for 2026-27 and Cornell Dining. Totals add the House Meal Plan and the yearly fee to the room rate.
 
-The sources cited here list no separate rate for Bethe's suites, so check the rates page for the bedroom type you would get.
-
-Residents cannot change or cancel the House Meal Plan while they live in the West Campus Houses. Whether that plan beats cooking for yourself is worked out in [Is the Cornell meal plan worth it?](/cornell/money/cornell-meal-plan-worth-it/).
+Residents cannot change or cancel the House Meal Plan while they live in the West Campus Houses ([Cornell Dining terms](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/deadlines-terms/cornell-dining-terms-and-conditions-2026-2027)). Whether that plan beats cooking for yourself is worked out in [Is the Cornell meal plan worth it?](/cornell/money/cornell-meal-plan-worth-it/).
 
 Compare housing alone with a bed off campus. A bed in a Collegetown four-bedroom has a median asking rent of $14,955 over 12 months, which is $1,211 more than the double, and the double already includes utilities ([2026-27 housing cost dataset](/datasets/ithaca-housing-cost-by-living-situation-2026-27/)). The full comparison, with food, is in [Is off campus cheaper than a Cornell dorm?](/cornell/housing/is-off-campus-cheaper-than-cornell-dorm/).
 
@@ -140,9 +141,9 @@ Compare housing alone with a bed off campus. A bed in a Collegetown four-bedroom
 
 ## How do you get a spot in Bethe House?
 
-You rank it in room selection, and not everyone who wants a West Campus House gets one. About 20% of rising sophomores could select West Campus spaces in past years. Most lived on North and South Campus, and a student who did not select was assigned what was left ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/residential-programs/apply-housing/current-undergrad-application-process/room-selection-faqs)).
+You rank it in room selection, and not everyone who wants a West Campus House gets one. About 20% of rising sophomores could select West Campus spaces in past years. Most lived on North and South Campus, and a student who did not select was assigned what was left ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/room-selection-faqs)).
 
-For 2027-28, rising sophomores apply from Feb. 1 to April 4, 2027, at 11:59 p.m. Timeslots come out April 7, and open room selection runs April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Cornell offers continued occupancy from sophomore to senior year, so a spot can last.
+For 2027-28, rising sophomores apply from Feb. 1 to April 4, 2027, at 11:59 p.m. Timeslots come out April 7, and open room selection runs April 13 to 16 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)). Cornell offers continued occupancy from sophomore to senior year, so a spot can last ([West Campus House System](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/west-campus-house-system)).
 
 If you would rather rent, compare the options in [off-campus housing for Cornell sophomores](/cornell/housing/off-campus-housing-cornell-sophomores/) before the April 4 exemption deadline.
 
@@ -155,11 +156,11 @@ About 15% of West Campus House residents are transfer students ([West Campus Hou
 
 Plan for heat, because Bethe has no air conditioning.
 
-Check the cancellation schedule too. A returning junior or senior who cancels a 2027-28 license pays $50 through Jan. 31, $500 from Feb. 1 to March 31, $1,000 from April 1 to June 30 and $2,000 from July 1 to Aug. 15 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
+Check the cancellation schedule too. A returning junior or senior who cancels a 2027-28 license pays $50 through Jan. 31, $500 from Feb. 1 to March 31, $1,000 from April 1 to June 30 and $2,000 from July 1 to Aug. 15 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/academic-year-housing-license-2027-2028)). The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
 ## What to do next
 
-Decide whether you want a suite or a double, then price that room with the House Meal Plan. Rank Bethe alongside the other Houses and ask Housing about McFaddin's reopening date.
+Decide whether you want a single or a double, then price it with the House Meal Plan. Rank Bethe alongside the other Houses, and if you want a quad, check McFaddin in the Bed Availability Report first.
 
 Related guides:
 

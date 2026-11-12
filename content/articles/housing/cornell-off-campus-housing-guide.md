@@ -5,7 +5,7 @@ primary_query: cornell off campus housing
 topic: housing
 school: cornell-university
 type: roundup
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0028
 kind: pillar
 readers:
@@ -278,6 +278,36 @@ sources:
 - url: https://ag.ny.gov/resources/individuals/tenants-homeowners/tenants
   title: Tenants, New York State Attorney General
   accessed: '2026-11-08'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  title: Spring Housing Selection for Rising Sophomores, 2027-2028, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://ithacarenting.com/tenants/
+  title: Tenants, Ithaca Renting Company
+  accessed: '2026-11-11'
+- url: https://www.cityofithacany.gov/752/Community-Dashboard
+  title: Community Dashboard, Ithaca Police Department, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://www.cityofithacany.gov/m/newsflash/Archive/Item/1403?arcId=1917
+  title: Ithaca Police Department Launches Updated Community Dashboard, City of Ithaca, April 27, 2026
+  accessed: '2026-11-11'
+- url: https://www.nysenate.gov/legislation/laws/EXC/296
+  title: New York Executive Law 296, NY Senate
+  accessed: '2026-11-11'
+- url: 'https://ithacarents.com/1428-three-bedroom-2,000-east-hill-in-ithaca-available-from-oct-2026'
+  title: Three-bedroom house at 219 Snyder Hill Rd, East Hill, IthacaRents listing
+  accessed: '2026-11-11'
+- url: https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ithaca-super-nice-cayuga-heights-home-adjacent-to-cornell-campus--237688
+  title: 419 Triphammer Rd listing, Cornell Off-Campus Housing Marketplace
+  accessed: '2026-11-11'
+- url: https://ithacarents.com/4027-south-hill--kendall-ave-4-bedroom
+  title: Four-bedroom house at 174 Kendall Ave, South Hill, IthacaRents listing
+  accessed: '2026-11-11'
+- url: https://www.cityofithacany.gov/DocumentCenter/View/1400
+  title: 2010 Census Neighborhood Statistics Program and neighborhoods map, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://townithacany.gov/new-neighborhood-code/
+  title: New Neighborhood Code, Town of Ithaca
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: The former home of physicist Hans Bethe in Ithaca, New York
@@ -314,7 +344,7 @@ Entering as a sophomore, you live on campus for one academic year; a spring tran
 ```
 
 ```reader "If you're an international student"
-You do not need a Social Security number to rent an apartment, per [Cornell International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). New York caps the deposit plus any rent paid in advance at one month's rent, so a demand for months up front runs into the law. Signing from abroad, check a City address on Cornell's safety tool and ask the City about its Certificate of Compliance before you pay. A landlord dispute does not affect your visa status, per [Cornell Graduate School staff](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). Not confirmed: how Ithaca landlords handle guarantors and missing US credit history. More in renting as an international student.
+You do not need a Social Security number to rent an apartment, per [Cornell International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students). New York caps the deposit plus any rent paid in advance at one month's rent, so a demand for months up front runs into the law. Signing from abroad, check a City address on Cornell's safety tool and ask the City about its Certificate of Compliance before you pay. A landlord dispute does not affect your visa status, per [Cornell Graduate School staff](https://www.gradschool.cornell.edu/announcements/grad-tips-renting/). Line up a guarantor first: Ithaca Renting requires [parents to guarantee a student's lease](https://ithacarenting.com/tenants/) and issues no keys until that guarantee is signed. More in renting as an international student.
 ```
 
 ```reader "If you're a grad student"
@@ -322,7 +352,7 @@ About 95% of graduate and professional students live off campus, per [Cornell's 
 ```
 
 ```reader "If you're a parent"
-Compare per person per year. Cornell's 2026-27 double is $13,744 with utilities. At one landlord's 2027-28 Collegetown medians, a 6-bedroom bed runs $9,600 a year, a 4-bedroom $14,955 and a 1-bedroom alone $24,300. [Cornell aid](https://finaid.cornell.edu/living-campus) does not cover the deposit, first and last month's rent, or unregistered months. On most local leases each housemate owes the whole rent if another stops paying. Not confirmed: whether Collegetown landlords require a guarantor, or crime figures by neighborhood. Without a NetID you can still call the City at 607-274-6508 about a building's Certificate of Compliance. More in the parent's guide.
+Compare per person per year. Cornell's 2026-27 double is $13,744 with utilities. At one landlord's 2027-28 Collegetown medians, a 6-bedroom bed runs $9,600 a year, a 4-bedroom $14,955 and a 1-bedroom alone $24,300. [Cornell aid](https://finaid.cornell.edu/living-campus) does not cover the deposit, first and last month's rent, or unregistered months. On most local leases each housemate owes the whole rent if another stops paying. Ithaca Renting, the landlord behind those medians, requires [parents to guarantee a student's lease](https://ithacarenting.com/tenants/). The Ithaca Police Department's [Community Dashboard](https://www.cityofithacany.gov/752/Community-Dashboard) shows [calls for service and where incidents happen](https://www.cityofithacany.gov/m/newsflash/Archive/Item/1403?arcId=1917). Without a NetID you can still call the City at 607-274-6508 about a building's Certificate of Compliance. More in the parent's guide.
 ```
 
 ```reader "If you're on a tight budget"
@@ -334,15 +364,15 @@ Rent keeps running while you are gone unless a sublet, an assignment or a writte
 ```
 
 ```reader "If you're a first-year"
-You cannot live off campus next year either: year two is a residence hall, a co-op or a recognized Greek house. The 2026-27 housing application was due [April 6, 2026](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy), and co-op selection opens in [early November and early February](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing). Start sizing up junior-year housemates now, but sign only with people you have lived near: a [2020 Sun column](https://www.cornellsun.com/article/2020/10/dery-cornell-should-actively-help-house-students-off-campus) warned that large groups are likely to lose people. See who can live off campus.
+You cannot live off campus next year either: year two is a residence hall, a co-op or a recognized Greek house. The 2027-28 housing application runs [Feb 1 to April 4, 2027](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), and co-op selection opens in [early November and early February](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/cooperative-housing). Start sizing up junior-year housemates now, but sign only with people you have lived near: a [2020 Sun column](https://www.cornellsun.com/article/2020/10/dery-cornell-should-actively-help-house-students-off-campus) warned that large groups are likely to lose people. See who can live off campus.
 ```
 
 ```reader "If you're a first- or second-year with an exemption"
-Married students, veterans (not ROTC), students with legal dependents, students 21 or older by the start of the year, junior or senior transfers and local commuters can be exempt, per [Cornell's residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy). Request it in the Housing application while it is open, before you sign a Cornell license, and reapply each year; the 2026-27 deadline was April 6, 2026. Sign a lease only after approval, or you are billed for the full Cornell year. Not confirmed: how Housing handles a fall request for the next year, when the Collegetown rush runs.
+Married students, veterans (not ROTC), students with legal dependents, students 21 or older by the start of the year, junior or senior transfers and local commuters can be exempt, per [Cornell's residential policy](https://scl.cornell.edu/residential-life/housing/campus-housing/residential-policy). Request it in the Housing application while it is open, before you sign a Cornell license, and reapply each year. For 2027-28 the second-year exemption deadline is [April 4, 2027 at 11:59 p.m.](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), months after the fall Collegetown rush. Sign a lease only after approval, or you are billed for the full Cornell year.
 ```
 
 ```reader "If you need an accessible place"
-Register with Student Disability Services first; [Cornell's grad housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing) sends students with disability housing needs there. An [accessible parking permit (AP)](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students) costs $359.77 a year, after you contact SDS. Hills decide the commute: Fall Creek and downtown are 20 to 30 minute uphill walks. Dryden South and [Collegetown Court](https://ithacarenting.com/unit-details/?uid=223) list elevators. The safety tool shows sprinklers and alarms for City rentals. Not confirmed: accessible-unit counts or how private landlords handle accommodation requests.
+Register with Student Disability Services first; [Cornell's grad housing page](https://scl.cornell.edu/residential-life/housing/campus-housing/graduate-professional-student-campus-housing) sends students with disability housing needs there. An [accessible parking permit (AP)](https://fcs.cornell.edu/departments/transportation-delivery-services/parking/parking-students) costs $359.77 a year, after you contact SDS. Hills decide the commute: Fall Creek and downtown are 20 to 30 minute uphill walks. Dryden South and [Collegetown Court](https://ithacarenting.com/unit-details/?uid=223) list elevators. The safety tool shows sprinklers and alarms for City rentals. [New York law](https://www.nysenate.gov/legislation/laws/EXC/296) bars a landlord from refusing a reasonable accommodation in its rules or services that your disability makes necessary, an animal that eases it included. It also bars refusing a reasonable modification you pay for, though where reasonable the landlord can require you to restore the interior when you leave.
 ```
 
 ## What's in this guide
@@ -368,7 +398,7 @@ Biggest first. Each one has its stage below.
 
 | Decision | The answer for most students | When it is decided |
 |---|---|---|
-| Can I live off campus? | Juniors, seniors and grads, yes. First-years and sophomores only with an approved exemption | Exemption in the Housing application, April 6 in 2026 (Stage 1) |
+| Can I live off campus? | Juniors, seniors and grads, yes. First-years and sophomores only with an approved exemption | Exemption in the Housing application, by April 4 in 2027 (Stage 1) |
 | When do I sign? | Collegetown: the fall before. Downtown, Fall Creek, Lansing, grads: spring | September to November of sophomore year for Collegetown (Stage 2) |
 | How much will it cost? | Under $1,145 a month per person on 12 months beats the $13,744 double | At signing: rent, deposit and first month (Stage 2) |
 | Where? | Collegetown to walk; downtown or Fall Creek to save about 20% to 28% per bed and walk 20 to 30 minutes uphill | With the timing decision (Stage 2) |
@@ -409,7 +439,7 @@ rows:
 - Transfers with two years on campus elsewhere, or entering as a junior or senior.
 - Commuters who have lived at least six months with a custodial parent or guardian within 25 miles of campus.
 
-Request one in the Housing application while the exemption term is open, and not after you have signed a Cornell housing license. Documents may be required, and each exemption lasts one academic year. For 2026-27, every first- and second-year had to file the application by April 6, 2026, chapter-house residents included. Not confirmed: the 2027-28 deadline.
+Request one in the Housing application while the exemption term is open, and not after you have signed a Cornell housing license. Documents may be required, and each exemption lasts one academic year. For 2026-27, every first- and second-year had to file the application by April 6, 2026, chapter-house residents included. For 2027-28, the application opens Feb 1, 2027 and closes [April 4 at 11:59 p.m.](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores), which is also the deadline for second-year exemption requests.
 
 ```tool can-i-live-off-campus-cornell-quiz```
 
@@ -487,11 +517,11 @@ Collegetown is closest and costs most. Downtown per-bed prices run about 20% to 
 | Collegetown | 0.1 to 0.5 mi | Up to 15-minute walk; lower Collegetown uphill | $800 (6BR) to $2,025 (1BR) per bed, 2027-28 | Yes |
 | Fall Creek | 0.5 to 1 mi | 20 to 30 minutes uphill; frequent bus | 1BRs at [$1,600 and $1,700](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/cosy-quiet-comfortable-fall-creek-gem.-238258), 709 N Tioga St | Yes |
 | Downtown and the Commons | 0.5 to 1.5 mi | 20 to 30 minutes uphill; bus | $795 (3BR) to $1,625 (1BR) per bed, mostly 2026-27 | Yes |
-| East Hill and Belle Sherman | 0.75 to 2 mi | Cornell says 15 minutes level; at 3 mph, 1 to 2 miles takes 20 to 40 (our arithmetic) | No price sample | Partly |
-| Cayuga Heights | 1 to 4 mi | Up to 30 minutes level; little shopping | No price sample | No, a separate village |
-| South Hill | 1.5 to 3 mi | 15 minutes downhill to downtown, then transit | No price sample | Partly |
+| East Hill and Belle Sherman | 0.75 to 2 mi | Cornell says 15 minutes level; at 3 mph, 1 to 2 miles takes 20 to 40 (our arithmetic) | 3BR house at [$2,000 a month](https://ithacarents.com/1428-three-bedroom-2,000-east-hill-in-ithaca-available-from-oct-2026) plus utilities, 219 Snyder Hill Rd, from Oct 2026 | Partly |
+| Cayuga Heights | 1 to 4 mi | Up to 30 minutes level; little shopping | Room in a 6BR house, [$920 a month with utilities](https://offcampus.housing.cornell.edu/city/ithaca-college-ny/listing/ithaca-super-nice-cayuga-heights-home-adjacent-to-cornell-campus--237688), 419 Triphammer Rd | No, a separate village |
+| South Hill | 1.5 to 3 mi | 15 minutes downhill to downtown, then transit | 4BR at [$650 a person](https://ithacarents.com/4027-south-hill--kendall-ave-4-bedroom) plus heat and electricity, 174 Kendall Ave, 2027-28 | Partly |
 | Lansing | 5 to 10 mi | Bus or car | 1BR "now" units [$1,038 and $1,193](https://www.rentcafe.com/apartments/ny/ithaca/lansing-west-apartments/default.aspx), Nov 2026 | No |
-| West Hill | 4 mi | Not practical on foot | Cornell warns cottages may be uninsulated, with very high heating bills | Not stated |
+| West Hill | 4 mi | Not practical on foot | Cornell warns cottages may be uninsulated, with very high heating bills | Partly: a [City neighborhood](https://www.cityofithacany.gov/DocumentCenter/View/1400) and [Town land](https://townithacany.gov/new-neighborhood-code/) |
 
 For West Hill, Cornell suggests asking NYSEG (800-572-1111) for a cottage's average annual heating bill before signing.
 
@@ -513,13 +543,13 @@ Cornell's [Off-Campus Housing Marketplace](https://scl.cornell.edu/residential-l
 
 For a City address, ask the Building Division about the [Certificate of Compliance](https://www.cityofithacany.gov/146/Certificate-of-Compliance) at 607-274-6508. Then look the address up on the [Cornell and City safety tool](https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments), which shows sprinklers, smoke and carbon monoxide alarms and construction type. It does not rate the landlord, and it covers City rentals only. In 2018, tenants at 117 Thurston Ave learned [after signing](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/) that its certificate had expired in 2015. They then waited 53 days from their first complaint to a fixed heater.
 
-Cornell's [lease page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) lists questions for a landlord: years in business, who repairs, the emergency contact, how long the last tenants stayed. Call a past tenant about repairs and the deposit. No current independent review source exists for the big Collegetown landlords, so this check is the one you get. In a new building, ask the plan if it opens late: in 2016, Fontana left [more than 50 students with Aug 1 leases](https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless) without an apartment into September.
+Cornell's [lease page](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease) lists questions for a landlord: years in business, who repairs, the emergency contact, how long the last tenants stayed. Call a past tenant about repairs and the deposit. In a new building, ask the plan if it opens late: in 2016, Fontana left [more than 50 students with Aug 1 leases](https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless) without an apartment into September.
 
 Get every promise in writing. Before you sign, check the sublet clause, auto-renew terms, snow and trash duties, parking and the occupancy limit.
 
 ### The law in one table
 
-New York law is better for tenants than most students assume.
+New York law is better for tenants than most students assume. This page is general information, not legal advice.
 
 | Item | The rule | Source |
 |---|---|---|
@@ -538,7 +568,7 @@ Expect to pay first month's rent plus a deposit at signing. Check any charge her
 
 ### The 120-day waiver box
 
-The City rule took effect May 31, 2022, and covers leases of nine months or longer, as WSKG reported. A landlord skips the notice only with a waiver explicitly written, bolded and initialed on the lease's first page. The rule's sponsor, Patrick Mehler, wrote that a discussion of [why you are waiving the days](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/) should be your first question about any rental. Not confirmed: whether the 120 days count back from the lease end or forward from its start. Counting back from a July 31, 2027 lease end gives April 2, 2027, but Mehler's own examples count from the lease start, so no date is safe to rely on. More in the 120-day renewal rule.
+The City rule took effect May 31, 2022, and covers leases of nine months or longer, as WSKG reported. The landlord's written notice must come [at least 120 days before](https://wskg.org/ithaca-landlords-must-now-give-renters-120-days-before-renewing-leases/) it renews your lease or advertises the unit to new renters. The rule's sponsor, Patrick Mehler, counted from the lease start: a lease starting June 1 means deciding about renewal [by October 1](https://cornellsun.com/2022/04/18/mehler-student-tenants-rights-shifting-in-your-favor/), and an August lease gives you until December. A landlord skips the notice only with a waiver explicitly written, bolded and initialed on the lease's first page. Mehler wrote that a discussion of why you are waiving the days should be your first question about any rental. More in the 120-day renewal rule.
 
 For a free lease review, call the Cornell Law [Tenants Advocacy hotline](https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/) at 607-301-1560. Clause by clause: reading an Ithaca lease. The deposit law: Ithaca security deposit rules.
 
@@ -550,7 +580,7 @@ Most of the market is not Collegetown, and it moves later.
 
 **Transfers and late arrivals** shop the leftovers: downtown "available now" units, sublets and Lansing complexes. In November 2026, Lansing West offered rent free until January 2027 to applicants by Nov 14 who move in by Dec 1.
 
-**International students.** Visa appointments cannot come more than 120 days before your program starts, per [International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students), so many leases are signed from abroad. No Cornell page offers arrival-week temporary housing. If you cannot travel home over a break, you may ask [housing@cornell.edu](https://global.cornell.edu/resources/immigration-advice-and-resources) about on-campus housing. Ithaca Renting includes heat and hot water at all its properties; elsewhere, ask. More in renting as an international student.
+**International students.** Visa appointments cannot come more than 120 days before your program starts, per [International Services](https://international.globallearning.cornell.edu/life-cornell/faq-international-students), so many leases are signed from abroad. If you cannot travel home over a break, you may ask [housing@cornell.edu](https://global.cornell.edu/resources/immigration-advice-and-resources) about on-campus housing. Ithaca Renting includes heat and hot water at all its properties; elsewhere, ask. More in renting as an international student.
 
 **Families.** Married students and students with dependents are exempt from the undergraduate rule, renewed each year. Hasbrouck family units run $1,475 to $1,530 a month on 12-month contracts, two adults at most. Example: on a private 2-bedroom at [RentCafe's Ithaca average](https://www.rentcafe.com/average-rent-market-trends/us/ny/ithaca/) of $2,459, the first month plus a one-month deposit is $4,918 at signing. Spouses and partners with a CU ID can buy the OmniRide pass. More in housing for students with families.
 
@@ -562,7 +592,7 @@ Most of the market is not Collegetown, and it moves later.
 
 1. Accept the landlord's move-in inspection, sign the condition record and photograph every room.
 2. Set up what you pay: NYSEG, internet if not included, and City trash tags at [$6 each or $36 for six](https://www.cityofithacany.gov/168/Trash-Yard-Waste-Collection-Tags) (from Jan 1, 2026) if trash is not included.
-3. Buy renters insurance. GradGuard is [Cornell's preferred insurer](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships), with no price published. Quotes run from about $5 a month ([SafeButler](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny)) to $27 ([Insure.com's New York average](https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/)). Not confirmed: whether Collegetown landlords require proof. More in renters insurance off campus.
+3. Buy renters insurance; Ithaca Renting's leases [require it](https://ithacarenting.com/tenants/). GradGuard is [Cornell's preferred insurer](https://scl.cornell.edu/residential-life/housing/housing-details/housing-vendor-partnerships). Quotes run from about $5 a month ([SafeButler](https://www.safebutler.com/cheap-best-renters-insurance-ithaca-ny)) to $27 ([Insure.com's New York average](https://www.insure.com/renters-insurance/average-renters-insurance-cost-in-new-york/)). More in renters insurance off campus.
 4. Give the landlord the name of anyone living with you who is not on the lease, within 30 days. New York lets a single tenant add [one occupant plus immediate family](https://www.nysenate.gov/legislation/laws/RPP/235-F); on a shared lease, tenants plus occupants cannot exceed the names on it.
 
 ```tool off-campus-move-in-checklist-cornell```

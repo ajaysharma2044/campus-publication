@@ -7,7 +7,7 @@ primary_query: how to stay warm in an old Ithaca apartment
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 280
 rewrites: ''
 readers:
@@ -27,7 +27,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://dps.ny.gov/winter
   title: Winter energy outlook, New York State Department of Public Service
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/ithaca-neighborhoods
   title: Ithaca neighborhoods, Cornell Student and Campus Life
   accessed: '2026-11-10'
@@ -42,7 +42,10 @@ sources:
   accessed: '2026-11-10'
 - url: https://health.cornell.edu/about/news/cold-weather-safety
   title: Cold weather safety, Cornell Health
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://international.globallearning.cornell.edu/life-cornell/student-resources
+  title: Student Resources, Cornell International Services
+  accessed: '2026-11-11'
 - url: https://ithacarenting.com/collegetown/
   title: Collegetown properties, Ithaca Renting
   accessed: '2026-11-10'
@@ -78,7 +81,7 @@ Ask the landlord two more things: who pays for heat, and what last winter's bill
 
 ## How do you stay warm without turning up the heat?
 
-The sources behind this page do not give costs or savings for window film, draft stoppers or space heaters, so treat the list below as advice and check each product's label.
+New York's Department of Public Service advises sealing air leaks around windows and doors. It also says to open the curtains on winter days for free heat from the sun ([NY Department of Public Service](https://dps.ny.gov/winter)).
 
 - **Dress first.** Cornell Health recommends layers, a water-resistant jacket and boots, and covering hands and ears, and the same layers help indoors ([Cornell Health](https://health.cornell.edu/about/news/cold-weather-safety)).
 - **Find the draft.** Hold your hand near window edges, door bottoms and outlets on a windy day, and list the leaks.
@@ -89,6 +92,8 @@ The sources behind this page do not give costs or savings for window film, draft
 ## Is it safe?
 
 Check the alarms before you add any heat source. A smoke detector is required by law, and Cornell's renter checklist tells you to check exits and buy renter's insurance ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)). For City rentals, Cornell Off-Campus Living and the City Building Division run an online tool that shows fire protection, extinguishers and smoke and carbon monoxide alarm systems ([Cornell safe living page](https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living/housing-search-process/safe-living-environments)).
+
+Follow the manufacturer's instructions for any space heater, and never heat the apartment with a gas oven. Long use of an open oven in a closed house can create carbon monoxide, the department warns ([NY Department of Public Service](https://dps.ny.gov/winter)).
 
 <!-- ad-break -->
 

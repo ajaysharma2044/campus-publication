@@ -7,7 +7,7 @@ primary_query: Holland International Living Center Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 90
 rewrites: ''
 readers:
@@ -17,9 +17,9 @@ readers:
 subject: Holland International Living Center, Low Rise 8, Cornell North Campus, Ithaca
 tools: []
 sources:
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc
   title: Holland International Living Center (HILC), Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates-campus-housing
   title: First-Year Undergraduate Campus Housing, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -31,22 +31,25 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans
   title: Undergraduate Meal Plans, Cornell Dining
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process
   title: New Undergraduate Application Process, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores
   title: Spring Housing Selection for Rising Sophomores, Cornell Housing
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus
   title: 'Move Instructions: North Campus, Cornell Housing'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/moving-campus
+  title: Moving in on Campus, Cornell Housing
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Entrance of the Holland International Living Center on Cornell's North Campus, under a wooden pergola
@@ -67,11 +70,11 @@ images:
 - Rooms have no air conditioning.
 ```
 
-The Holland International Living Center, called HILC, is a program house in Low Rise 8 on North Campus with more than 160 residents. Its cluster rooms have no air conditioning. A triple costs $12,644 for 2026-27, the same as in any residence hall ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)).
+The Holland International Living Center, called HILC, is a program house in Low Rise 8 on North Campus with more than 160 residents. Its cluster rooms have no air conditioning. A triple costs $12,644 for 2026-27, the same as in any residence hall ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/rates-amenities-licenses/housing-rates)).
 
 ## What is the Holland International Living Center?
 
-It is an on-campus program house, a themed residence organized around a shared interest. This one centers on international living. It opened in 1970 in Low Rise 8 and was renamed in 1985 ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)). The house lists hilc@cornell.edu for questions ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)).
+It is an on-campus program house, a themed residence organized around a shared interest. This one is built around cross-cultural exchange, and international and domestic students live there together. It opened in 1970 in Low Rise 8 and was renamed in 1985 ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc)). The house lists hilc@cornell.edu for questions ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc)).
 
 ```figure
 kind: cost_table
@@ -90,11 +93,11 @@ rows:
 
 Source: Cornell Student & Campus Life, Cornell Housing and Cornell Dining.
 
-HILC holds 160-plus residents ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)). The shared rules for all 13 houses are in [Cornell program houses compared](/cornell/housing/cornell-program-houses-compared/).
+HILC holds 160-plus residents ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc)). The shared rules for all 13 houses are in [Cornell program houses compared](/cornell/housing/cornell-program-houses-compared/).
 
 ## What is the room layout?
 
-Each group of rooms in HILC holds one double, one triple and two singles, with one shared bathroom, and the rooms have no air conditioning ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/holland-international-living-center-hilc)). Adding the beds gives seven students per bathroom.
+Each group of rooms in HILC holds one double, one triple and two singles, with one shared bathroom, and the rooms have no air conditioning ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc)). Adding the beds gives seven students per bathroom.
 
 ## What does HILC cost?
 
@@ -114,9 +117,9 @@ A share of a downtown three-bedroom has a median asking rent of $9,540 over 12 m
 
 ## How do you get into HILC?
 
-New students list a program house on the housing application. They apply within 10 days of getting a NetID, and halls not chosen are assigned by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/new-undergrad-application-process)). Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027, and program house priority selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
+New students list a program house on the housing application. Cornell asks them to apply within 10 days of getting a NetID. Anyone who does not choose a program house gets a hall by random auto-allocation ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/new-undergrad-application-process)). Rising sophomores can list up to three program houses. For 2027-28, the application closes April 4, 2027, and program house priority selection is April 12 ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/apply-housing-campus/current-undergraduate-application-process/spring-housing-selection-rising-sophomores)).
 
-A program house counts as on-campus housing, so living there meets the two-year residential requirement. If you want to live off campus, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
+A program house counts as on-campus housing, so living there meets the two-year residential requirement ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)). If you want to live off campus, check the [exemption rules](/cornell/housing/cornell-residential-requirement-exemptions-live-off-campus/).
 
 ```reader
 If you're an international student
@@ -127,7 +130,9 @@ HILC stays open over winter break, and its residents stay free. Other open build
 
 Check the cancellation schedule before you commit. The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
-On move-in day, program houses use Program House Drive. In fall 2026, first-years moved in on Mon., Aug. 17, transfers on Tue., Aug. 18, and upper-level students on Aug. 21 and 22. Cornell turned away U-Hauls and trailers ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The sources cited here do not list this house's mix of international and American residents, so ask the house before you rank it.
+In years when housing is tight, Cornell can place students who did not list HILC in its open spaces ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc)).
+
+On move-in day, HILC residents unload on Program House Drive ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-north-campus)). In fall 2026, first-years moved in on Mon., Aug. 17, transfers on Tue., Aug. 18, and upper-level students on Aug. 21 and 22. Cornell turned away U-Hauls and trailers ([Cornell Housing](https://scl.cornell.edu/sub/sub/residential-life/housing/housing-details/moving-campus)).
 
 ## What to do next
 

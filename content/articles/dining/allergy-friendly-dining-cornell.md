@@ -124,7 +124,7 @@ A classmate can pick up a tray for you at any residential dining room after you 
 
 Three problems come up. A label is missing: ask staff or skip the item. A menu changes: check NetNutrition again. The room cannot meet your needs: call the Dining Nutrition Office at 108 Appel Commons, or the Dining Contracts Office at (607) 255-5952, Monday to Friday, 8 a.m. to 5 p.m. ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/about-dining/contact-cornell-dining)). Cornell's pages in this guide do not explain how to get a plan exemption for a medical diet, so ask the contracts office what documents it needs.
 
-If you carry medication, plan refills before the semester. Wegmans' pharmacy is open Monday to Friday from 8:30 a.m. to 9 p.m., Saturday until 6 p.m. and Sunday until 4 p.m. ([Wegmans](https://www.wegmans.com/stores/ithaca-ny)). For nearer options, see [pharmacies near campus](/cornell/daily-life/pharmacy-near-cornell-campus-ithaca/).
+If you carry medication, plan refills before the semester. Wegmans' pharmacy is open Monday to Friday from 8:30 a.m. to 9 p.m., Saturday until 6 p.m. and Sunday until 4 p.m. ([Wegmans](https://www.wegmans.com/stores/ithaca-ny)). For nearer options, see [pharmacies near campus](/health-safety/pharmacy-near-cornell-campus-ithaca/).
 
 ## What to do next
 

@@ -1,13 +1,13 @@
 ---
 title: "How to check an Ithaca landlord's record before you sign"
 mode: answer
-dek: No independent list ranks Ithaca landlords, so you check the building's certificate, the safety tool and two past tenants before you sign.
+dek: Before you sign in Ithaca, check the building's Certificate of Compliance, Cornell's safety tool and two past tenants.
 meta: 'How to check a landlord''s record in Ithaca: the certificate call, Cornell''s safety tool, questions for past tenants and what each check misses.'
 primary_query: how to check a landlord's record in ithaca
 topic: housing
 school: cornell-university
 type: how-to
-updated: '2026-11-10'
+updated: '2026-11-11'
 queue_id: q-housing-0084
 idea_id: 173
 rewrites: /cornell/housing/ithaca-landlords-to-avoid-collegetown-reviews/
@@ -21,48 +21,51 @@ subject: Dryden Road Collegetown Ithaca
 tools:
 - ithaca-lease-fee-deposit-checker
 sources:
+- url: https://ecode360.com/8390192
+  title: City of Ithaca Code, section 210-43, Certificate of compliance
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
   title: Certificate of Compliance, City of Ithaca
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/130/Building-Division
   title: Building Division, City of Ithaca
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-living/housing-search-process/safe-living-environments
+  accessed: '2026-11-11'
+- url: https://www.cityofithacany.gov/182/Freedom-of-Information-Law-Requests
+  title: Freedom of Information Law Requests, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://safety.offcampusliving.cornell.edu/default
+  title: Safety Program for Off-Campus Living, Cornell University
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/safe-living-environments
   title: Safe Living Environments, Cornell Student and Campus Life
-  accessed: '2026-11-10'
-- url: https://news.cornell.edu/node/289146
-  title: Off-campus rental safety ratings, Cornell Chronicle, Sept. 2017
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
-  title: Signing a Lease, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
+  title: Signing the Lease, Cornell Student and Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
+  title: Checklists and Considerations, Cornell Student and Campus Life
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/
   title: Cornell student abandons house, sleeps in library, The Cornell Daily Sun, Nov. 2018
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2020/03/06/as-students-struggle-to-find-housing-three-ilr-juniors-form-new-ithaca-tenants-union/
   title: Three ILR juniors form new Ithaca Tenants Union, The Cornell Daily Sun, March 2020
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/GOB/7-108
   title: General Obligations Law 7-108, New York State Senate
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/238-A
   title: Real Property Law 238-a, New York State Senate
-  accessed: '2026-11-10'
-- url: https://www.veryapt.com/ApartmentReview-a16145-cliffside-terrace-apartments-ithaca
-  title: Cliffside Terrace reviews, Veryapt
-  accessed: '2026-11-10'
-- url: https://www.veryapt.com/ApartmentReview-a23680-ivy-ridge-ithaca
-  title: Ivy Ridge reviews, Veryapt
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://finaid.cornell.edu/living-campus
+  title: Living Off-Campus, Cornell Financial Aid
+  accessed: '2026-11-11'
 - url: https://www.gradschool.cornell.edu/announcements/grad-tips-renting/
   title: 'Grad tips: renting, Cornell Graduate School'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://international.globallearning.cornell.edu/life-cornell/faq-international-students
   title: FAQ for international students, Cornell Global Learning
-  accessed: '2026-11-10'
-- url: https://cornellsun.com/2004/12/02/good-bad-and-slummy-collegetown-landlords/
-  title: Good, bad and slummy Collegetown landlords, The Cornell Daily Sun, Dec. 2004
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Dryden Road in Collegetown, Ithaca, seen looking north from College Avenue, with storefronts and apartment buildings along the street
@@ -96,25 +99,23 @@ redirect_from:
 - Outside the City, none of these City checks apply.
 ```
 
-You check a landlord's record in three steps: call the City of Ithaca Building Division about the building's Certificate of Compliance, look the address up on Cornell's safety tool, and ask two past tenants Cornell's reference questions. The certificate is the City's inspection permit for rental buildings ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)).
-
-## Why is there no list of landlords to avoid?
-
-The published record on named Ithaca landlords is old or thin. A 2004 Sun feature reported that one landlord company had a reputation for fighting over deposits, and it is 22 years old ([The Cornell Daily Sun](https://cornellsun.com/2004/12/02/good-bad-and-slummy-collegetown-landlords/)). No source gives a complaint database or recent independent reviews of the big Collegetown companies. Size says nothing about quality in either direction, so the method below checks the building and the people who lived in it.
+Before you sign, check an Ithaca landlord's record three ways: confirm the building's Certificate of Compliance with the City Building Division, look the address up on Cornell's safety tool, and call two past tenants with Cornell's reference questions. The certificate is what the City issues after an inspection finds no code violations ([City of Ithaca Code](https://ecode360.com/8390192)).
 
 ## How do you check a Certificate of Compliance?
 
-The City requires a certificate for multiple dwellings, meaning buildings with three or more units or units with six or more unrelated residents, plus dormitories, fraternities and sororities. A multiple dwelling's certificate lasts three years. A fraternity or sorority's lasts one year ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)). The City page lists a six-person trigger, while a code excerpt says five, so go by five if your group is that size.
+Every rental in the City of Ithaca needs a valid certificate, from a one-family house to a fraternity. A certificate lasts up to five years for a one- or two-family house. It lasts up to three years for a building with three or more units or a unit with five or more unrelated residents, and one year for a dormitory, fraternity or sorority ([City of Ithaca Code](https://ecode360.com/8390192)).
 
-The City page lists no public lookup (Cornell Student and Campus Life), so call the Building Division at 607-274-6508 or email ibd@cityofithaca.org. Ask three questions:
+The lease is the first place to look. The same code section requires every lease to state whether the rental has a valid certificate, when it expires and a link to the City's certificate database, where the certificate can be verified. Ask for the lease before you sign and check all three.
+
+Then call the Building Division at 607-274-6508 ([City of Ithaca](https://www.cityofithacany.gov/146/Certificate-of-Compliance)) or email ibd@cityofithaca.org. Ask three questions:
 
 1. Does this address have a valid certificate, and when does it expire?
 2. Are there open complaints or violations?
 3. Is the occupancy on the lease legal for this unit?
 
-The office is at 108 E. Green St., City Hall, fourth floor, open 8:30 a.m. to 4 p.m. on weekdays ([Building Division](https://www.cityofithacany.gov/130/Building-Division)). If the certificate has lapsed, ask the landlord in writing when the inspection is booked and wait for the answer before you sign.
+The office is at 108 E. Green St., City Hall, fourth floor, open 8:30 a.m. to 4 p.m. on weekdays ([Building Division](https://www.cityofithacany.gov/130/Building-Division)). For copies of a building's inspection and complaint records, file a Freedom of Information Law request with the City, online or on paper ([City of Ithaca](https://www.cityofithacany.gov/182/Freedom-of-Information-Law-Requests)). If the certificate has lapsed, ask the landlord in writing when the inspection is booked and wait for the answer before you sign.
 
-The stakes are real. In 2018, tenants at 117 Thurston Ave. learned after signing that the certificate had expired in November 2015. It took 53 days from the first complaint to a reported fix of the heater ([The Cornell Daily Sun](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/)).
+The stakes are real. A rental without a valid certificate violates the City housing code and can be ordered vacated until it complies, and verified over-occupancy revokes the certificate at once ([City of Ithaca Code](https://ecode360.com/8390192)). In 2018, tenants at 117 Thurston Ave. learned after signing that the certificate had expired in November 2015. It took 53 days from the first complaint to a reported fix of the heater ([The Cornell Daily Sun](https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/)). If an order to vacate reaches your building, see [what to do after an eviction or vacate order](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/).
 
 ## What does Cornell's safety tool show?
 

@@ -5,7 +5,7 @@ primary_query: Cornell graduate student TCAT parking
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0053
 kind: reader_guide
 readers:
@@ -58,9 +58,6 @@ sources:
 - url: https://lawschool.cornell.edu/life-at-cornell-law/housing
   title: Housing, Cornell Law School
   accessed: '2026-11-08'
-- url: https://forum.thegradcafe.com/topic/153-ithaca-ny/?page=8
-  title: Ithaca, NY, The GradCafe Forums
-  accessed: '2026-11-08'
 - url: https://cornellsun.com/2023/09/19/ithaca-carshare-to-resume-operations-march-2024/
   title: Ithaca Carshare to Resume Operations March 2024, The Cornell Daily Sun, September 19, 2023
   accessed: '2026-11-08'
@@ -103,6 +100,12 @@ sources:
 - url: https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/
   title: Facing Operator and Bus Shortages, TCAT Board Prolongs Suspension of Routes 14S and 83, The Cornell Daily Sun, April 25, 2024
   accessed: '2026-11-08'
+- url: https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/
+  title: Student Perks and Discounts, Cornell Graduate School
+  accessed: '2026-11-11'
+- url: https://fcs.cornell.edu/permit_fees
+  title: Employee Parking Privileges and Permit Fees, Cornell Transportation and Delivery Services
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Black-and-white photo of a car parked on a country road beneath a tall wooden railroad trestle
@@ -135,7 +138,7 @@ The [Johnson MBA page](https://business.cornell.edu/students/by-program/mba-stud
 ```
 
 ```reader "If you're moving here with a spouse, partner or children"
-Your spouse or partner can buy an OmniRide at 116 Maple Ave for TCAT night routes; the bus-pass page lists routes 90 and 92 for that pass, so confirm with Transportation Services at 607-255-4600. On TCAT, children under 12 ride free with a paying adult. On the C2C bus to NYC, a child under 2 rides free on a lap; from age 2 every child needs a paid seat, and there are no child discounts. For grocery runs with kids, an Ithaca Carshare minivan or a car of your own matters more than the bus.
+With a Cornell ID card, your spouse or partner can buy the OmniRide student bus pass for TCAT night routes from Transportation Services, 116 Maple Ave (607-255-4600). On TCAT, children under 12 ride free with a paying adult. On the C2C bus to NYC, a child under 2 rides free on a lap; from age 2 every child needs a paid seat, and there are no child discounts. For grocery runs with kids, an Ithaca Carshare minivan or a car of your own matters more than the bus.
 ```
 
 ```reader "If you travel to NYC or Weill for work"
@@ -151,11 +154,11 @@ The rules split on two questions: are you a PhD student or graduate assistant, a
 | PhD student | Free OmniRide, all hours | B permit $359.77, unless on a full assistantship | $93.50 personal |
 | Graduate assistant (full assistantship), living off campus | Free OmniRide, all hours | Free Outer Tier A and E permits | $93.50 personal; $86 department travel |
 | Graduate assistant in university housing | Free OmniRide | Not eligible for free A or E | $93.50 |
-| New master's, MBA or law student | Free in the first year (MBA page) | B permit $359.77 | $93.50 |
+| New master's, MBA or law student | Free in the first year | B permit $359.77 | $93.50 |
 | Second-year master's or professional student | Free after 6 p.m. weekdays and weekends; else $1.50 or $200 a year | B permit $359.77 | $93.50 |
-| Spouse or partner | OmniRide for night routes, bought at 116 Maple Ave | No permit row | $101 public fare |
+| Spouse or partner | OmniRide for night routes, bought at 116 Maple Ave | Daily Decision zones, open to everyone | $101 public fare |
 
-Sources: [bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes); [student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students); [C2C rates](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates).
+Sources: [bus passes](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes); [Graduate School](https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/); [student parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students); [short-term parking](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/short-term-parking-options); [C2C rates](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-rates).
 
 ## The bus: who rides free
 
@@ -167,7 +170,7 @@ TCAT is the default. The Cornell ID is the pass. Cornell's rule has three tiers:
 
 The $200 pass is prorated monthly and expires Aug 31. You can return it for a refund until Mar 31, less $40.
 
-Not confirmed: the bus-pass page names "first-year students in degree programs" and does not name new master's or professional students. Only the [MBA page](https://business.cornell.edu/students/by-program/mba-students/living-in-ithaca/) states the free first year outright. A new MPS, MEng or LLM student should call Transportation Services at 607-255-4600 before paying for anything.
+The free first year covers master's and professional students too. Cornell's [Graduate School](https://www.gradschool.cornell.edu/student-experience/student-perks-and-discounts/) says all registered Cornell students ride every TCAT bus free in their first year.
 
 Why the rules feel slippery: until mid-October 2024 a farebox glitch let every student ride free. After Cornell fixed the eligibility list, non-first-years were denied at fareboxes in daytime hours, per the [Cornell Sun's November 2024 report](https://www.cornellsun.com/article/2024/11/non-first-year-cornell-students-no-longer-able-to-access-tcat-for-free). In free hours, drivers override a rejected ID.
 
@@ -181,13 +184,13 @@ Example: a second-year MBA student who rides Route 10 in from downtown four morn
 
 ### Getting around at night and in a family
 
-The [Blue Light bus on Route 92](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation) runs nightly from 6:30 p.m. to 2:30 a.m., year-round. For a spouse or partner, Cornell sells an OmniRide at 116 Maple Ave for night routes. The bus-pass page lists routes 90 and 92 for that pass and 90, 92 and 93 elsewhere, so ask which you are buying. Not confirmed: the price of the spouse pass.
+The [Blue Light bus on Route 92](https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation) runs nightly from 6:30 p.m. to 2:30 a.m., year-round. A spouse or partner with a Cornell ID card can buy the [OmniRide student bus pass](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) at 116 Maple Ave, good for unlimited rides on TCAT night routes.
 
 For children, the [Downtown Ithaca fare guide](https://www.downtownithaca.com/five-ways-to-pay-your-tcat-fare/) says riders under 12 go free with a paying adult. The same guide lists the ways to pay: exact cash, a tapped card or phone, the TFare app, or a T-card.
 
 ### Is the bus reliable enough to live on?
 
-Late TCAT buses are the most corroborated complaint about getting around Ithaca, raised in 10 distinct articles and threads from 2019 to March 2026. Student government's [March 2026 resolution](https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026) calls the buses late and unreliable. It also asks Cornell to fund free passes for all undergraduates and graduate workers; the president returned it on Apr 24, 2026, and no outcome is public. The [law school's housing page](https://lawschool.cornell.edu/life-at-cornell-law/housing) says many law students go without a car and find the bus reliable. Track buses in Bus Tracker or MyStop rather than trusting Google Maps times alone.
+Student government's [March 2026 resolution](https://assembly.cornell.edu/resolutions/student-assembly/sa-r69-2025-2026) calls the buses late and unreliable and blames inadequate funding. It also asks Cornell to fund free passes for all undergraduates and graduate workers; the president returned it on Apr 24, 2026. The [law school's housing page](https://lawschool.cornell.edu/life-at-cornell-law/housing) says many law students go without a car and find the bus reliable. Track buses in Bus Tracker or MyStop rather than trusting Google Maps times alone.
 
 Renting on West Hill or in Cayuga Heights? Routes 14S and 83, which served those areas and Cornell, have been [suspended since fall 2023](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/). Check the route from a listing to your building before you sign.
 
@@ -219,9 +222,9 @@ Winter adds two rule sets. The city's [odd/even rule](https://ecode360.com/83956
 
 ## Do you need a car at all?
 
-Voices split. A poster on [GradCafe](https://forum.thegradcafe.com/topic/153-ithaca-ny/?page=8) said a car is "a pretty good thing to have" for groceries and big-box stores, but did not own one and got by on a bus pass, a car-share service and rides with friends. The [Cornell Sun in 2023](https://cornellsun.com/2023/09/19/ithaca-carshare-to-resume-operations-march-2024/) described a grad student who used Carshare as a safety net, moved to Bikeshare when Carshare paused, and planned to buy a car.
+For occasional trips, Ithaca Carshare is the middle path between the bus and a car of your own. The [Cornell Sun in 2023](https://cornellsun.com/2023/09/19/ithaca-carshare-to-resume-operations-march-2024/) described a grad student who used Carshare as a safety net, moved to Bikeshare when Carshare paused, and planned to buy a car.
 
-Ithaca Carshare is the middle path. Cornell subsidizes annual student memberships, grad students included. The [student plans](https://www.ithacacarshare.org/students-commuters) are:
+Cornell subsidizes annual student memberships, grad students included. The [student plans](https://www.ithacacarshare.org/students-commuters) are:
 
 ```figure
 kind: cost_table
@@ -239,7 +242,7 @@ The [rates page](https://www.ithacacarshare.org/rates) adds 8% sales tax and a 1
 
 Example: a law student with a partner and no car books 40 hours a year for grocery and pediatrician trips. Just In Case costs $30 plus $360 in hourly charges, $390 before mileage, taxes and the $20 sign-up. It's My Car costs $310 plus $240, or $550. Just In Case wins by $160.
 
-Check [eligibility](https://www.ithacacarshare.org/eligibility) first. You need to be 18 with a full license held 2 or more years. Under 21, you need your own policy with at least $300,000 per-accident liability. A foreign license needs an official driving record; an International Driving Permit is not accepted. Carshare has [four campus pickup spots plus four in Collegetown and nearby](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing). In a 2013-era Cornell report, 54% of trips by on-campus students were grocery runs.
+Check [eligibility](https://www.ithacacarshare.org/eligibility) first. You need to be 18 with a full license held 2 or more years. Under 21, you need your own policy with at least $300,000 per-accident liability. A foreign license needs an official driving record; an International Driving Permit is not accepted. Carshare has [four campus pickup spots plus four in Collegetown and nearby](https://sustainable.cornell.edu/campus-initiatives/transportation/ride-car-sharing).
 
 ## Trips to NYC and Weill
 
@@ -257,7 +260,7 @@ The booking system changed on [Nov 4, 2026](https://fcs.cornell.edu/announcement
 
 The [policies page](https://fcs.cornell.edu/departments/transportation-delivery-services/campus-campus-bus-service/c2c-policies-regulations) sets the family rules. A child under 2 rides free on a lap. From age 2 a child needs a paid seat, with no child discount. A stroller that takes a seat counts as a passenger. Cancelling costs $10 a seat at least 8 hours ahead and $30 inside 8 hours.
 
-Example: a PhD student, a partner without a NetID and a 4-year-old ride to Weill. The student pays $93.50 and the partner $101. If the child's seat prices at the public fare, the trip is $295.50 one way. Not confirmed: which fare applies to a child seat booked on a Cornell account.
+Example: a PhD student, a partner without a NetID and a 4-year-old ride to Weill. The student pays $93.50. Fares follow each passenger's own eligibility, per Cornell's [booking-system FAQ](https://fcs.cornell.edu/announcements/2026-10-22/new-campus-campus-reservation-system-launches-november-4), so the partner and the child each pay the $101 public fare. The trip is $295.50 one way.
 
 Driving to the bus? C2C riders [park free in B Lot](https://fcs.cornell.edu/node/12488) if they email c2cbus@cornell.edu with the plate and dates.
 
@@ -293,11 +296,11 @@ Grad students in Ithaca over the summer keep riding on the pass until Aug 31.
 
 ## FAQ
 
-**Do postdocs get the free bus pass?** The bus-pass page names PhD students and graduate assistants, not postdocs. Cornell [employees, affiliates included, ride TCAT free](https://fcs.cornell.edu/announcements/2024-10-22/unlimited-tcat-access-faculty-staff) with a Cornell photo ID, so ask Transportation Services at 607-255-4600 which category your appointment falls in.
+**Do postdocs get the free bus pass?** Yes. Cornell's [postdoc office](https://postdocs.cornell.edu/postdoc-life/living-in-ithaca) says postdocs working on the Ithaca campus can enroll in the OmniRide commuter program for unlimited TCAT rides at all hours. Cornell [employees, affiliates included, ride TCAT free](https://fcs.cornell.edu/announcements/2024-10-22/unlimited-tcat-access-faculty-staff) with a Cornell photo ID.
 
-**Can I buy a faculty or staff permit as a grad student?** Yes, with a full assistantship on the Ithaca main campus, per the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students). Prices are not on that page.
+**Can I buy a faculty or staff permit as a grad student?** Yes, with a full assistantship on the Ithaca main campus, per the [student parking page](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students). On the [employee fee schedule](https://fcs.cornell.edu/permit_fees), Perimeter permits cost the same as a B permit, Mid permits $574.91 to $752.98 a year and most Central permits $806.37, tax included. You pay by credit card, check or bursar bill, not in payroll installments.
 
-**I live in university graduate housing. Do I get a free permit?** No. The page says resident students are not eligible for a free A or E permit. Your option is a resident permit, $752.98 a year.
+**I live in university graduate housing. Do I get a free permit?** No. The page says resident students are not eligible for a free A or E permit. You can buy a resident permit, $752.98 a year, or a faculty and staff R (North Campus) or WE (West Campus) permit, which costs the same as a B permit on the employee fee schedule.
 
 **Can my partner use Ithaca Carshare on my plan?** A student plan covers up to two drivers, per [Ithaca Carshare](https://www.ithacacarshare.org/students-commuters). Each driver pays the $20 sign-up and must meet the eligibility rules.
 

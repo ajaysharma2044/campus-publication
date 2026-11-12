@@ -7,7 +7,7 @@ primary_query: High Rise 5 Cornell dorm
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 71
 rewrites: ''
 readers:
@@ -21,13 +21,13 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/high-rise-5
   title: 'High Rise #5, Cornell Student & Campus Life'
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations
   title: Residence Hall Configurations, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/
   title: New North Campus Dorms Widen Housing Condition Disparities, The Cornell Daily Sun, Sept. 9, 2021
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -39,13 +39,19 @@ sources:
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/winter-break-housing
   title: Winter Break Housing, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://findfacilities-prod.fcs.cornell.edu/facilitypage/3205
+  title: '3205, North Campus High Rise 5, Cornell Facilities and Campus Services'
+  accessed: '2026-11-11'
+- url: https://www.cornellsun.com/article/2024/11/inside-where-class-of-2028-has-called-home
+  title: Inside Where Class of 2028 Has Called Home, The Cornell Daily Sun, Nov. 6, 2024
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: High Rise 5, a brick residence tower on Cornell's North Campus, seen from below
@@ -61,7 +67,7 @@ images:
 
 ```glance
 - High Rise 5 opened in 1971 and houses 200-plus first-years in unit-style rooms.
-- Rooms run from singles to quints, and Cornell lists no air conditioning in rooms.
+- Rooms run from singles to quints, with no air conditioning.
 - Each unit shares a study room, a lounge and a kitchen.
 - Cars unload at the Robert Purcell lot, and the hall is open over winter break in 2026-27 only.
 ```
@@ -72,19 +78,19 @@ High Rise 5 is a tower for first-years on Cornell's North Campus. It opened in 1
 kind: cost_table
 title: High Rise 5 at a glance
 rows:
-  - {label: "Location", value: "North Campus, steps from Robert Purcell and Morrison Dining; unload at the Robert Purcell lot"}
+  - {label: "Location", value: "225 Jessup Road on North Campus, steps from Robert Purcell and Morrison Dining; unload at the Robert Purcell lot"}
   - {label: "Opened", value: "1971"}
   - {label: "Residents", value: "200-plus"}
   - {label: "Room types", value: "Singles to quints"}
   - {label: "Layout", value: "Corridor units with kitchens"}
   - {label: "Cooling", value: "No air conditioning in rooms"}
-  - {label: "2026-27 room rate", value: "$12,644 (triple) to $15,566 (single) per year; no quint rate posted"}
+  - {label: "2026-27 room rate", value: "$12,644 (triple) to $15,566 (single) per year"}
   - {label: "Dining", value: "Morrison Dining and Bear Necessities nearby"}
   - {label: "Who lives there", value: "First-year students"}
   - {label: "How to get in", value: "Random assignment after the first-year application"}
 ```
 
-Source: Cornell Housing hall page, Residence Hall Configurations and Housing Rates 2026-2027. Cornell's page gives no street address.
+Source: Cornell Housing hall page, Residence Hall Configurations and Housing Rates 2026-2027; street address from the [Cornell Facilities building record](https://findfacilities-prod.fcs.cornell.edu/facilitypage/3205).
 
 ## What sets High Rise 5 apart?
 
@@ -94,15 +100,15 @@ Quints, rooms for five, exist here and in Jameson Hall and Clara Dickson Hall. T
 
 ## What is living in High Rise 5 like?
 
-It is a 1971 tower, and cooling is the issue. Cornell's hall page lists no air conditioning in rooms, which puts it with 12 North buildings in that group. In 2021 a High Rise 5 resident told The Cornell Daily Sun his hall should cost less because it lacked air conditioning, while a resident of another older hall said nobody should pay less for an older dorm ([Cornell Daily Sun](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/)). Cornell charges one rate for both.
+It is a 1971 tower, and cooling is the issue. Its rooms have no air conditioning ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/high-rise-5)), and Cornell's hall pages say the same of 11 other North Campus buildings, Jameson among them. In 2021 a High Rise 5 resident told The Cornell Daily Sun his hall should cost less because it lacked air conditioning, while a resident of another older hall said nobody should pay less for an older dorm ([Cornell Daily Sun](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/)). Cornell charges one rate for both.
 
-Cornell's pages do not carry recent resident reviews of the building. If heat or noise matters, bring a fan and ask Housing for the current floor plan.
+A 2024 Sun feature on first-year halls singled out the Skylounge. A resident from the class of 2028 said she made friends there early in the year, and she praised the building staff and the ping pong tables ([Cornell Daily Sun](https://www.cornellsun.com/article/2024/11/inside-where-class-of-2028-has-called-home)).
 
 The wider rules for North halls sit in [North Campus dorms compared](/cornell/housing/cornell-north-campus-dorms-compared/).
 
 ## What does a room in High Rise 5 cost?
 
-Cornell prices by room type, not by building, so High Rise 5 costs what the same room costs in a 2022 hall ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). Cornell's table posts no rate for quints. The rate covers gas, electricity, trash pickup and internet, and there is no security deposit. First-years also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
+Cornell prices by room type, not by building, so High Rise 5 costs what the same room costs in a 2022 hall ([Cornell Housing rates](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates)). The rate covers gas, electricity, trash pickup and internet, and there is no security deposit. First-years also buy the Unlimited meal plan ([Cornell Dining](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans)).
 
 ```figure
 kind: cost_table

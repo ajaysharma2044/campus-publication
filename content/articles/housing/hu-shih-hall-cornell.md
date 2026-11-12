@@ -7,7 +7,7 @@ primary_query: Hu Shih Hall Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 64
 rewrites: ''
 readers:
@@ -21,7 +21,7 @@ tools:
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall
   title: Hu Shih Hall, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/housing-rates
   title: Housing Rates 2026-2027, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -46,6 +46,18 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/rates-amenities-licenses/academic-year-housing-license-2027-2028
   title: Academic Year Housing License 2027-2028, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://news.cornell.edu/stories/2021/03/residence-hall-names-honor-mcclintock-hu-cayuga-nation
+  title: Residence hall names honor McClintock, Hu, Cayuga Nation, Cornell Chronicle, March 23, 2021
+  accessed: '2026-11-11'
+- url: https://news.cornell.edu/stories/2018/09/display-visualizes-north-campus-residential-expansion
+  title: Display visualizes North Campus Residential Expansion, Cornell Chronicle, Sept. 28, 2018
+  accessed: '2026-11-11'
+- url: https://news.cornell.edu/stories/2021/09/new-residence-halls-save-energy-eco-friendly-features
+  title: New residence halls save energy with eco-friendly features, Cornell Chronicle, Sept. 22, 2021
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall
+  title: Barbara McClintock Hall, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Hu Shih Hall, a 2022 brick and metal residence hall on Cornell's North Campus, seen from the north
@@ -61,7 +73,7 @@ images:
 
 ```glance
 - Hu Shih Hall opened in 2022 and houses 429 first-years in corridor-style singles, doubles and quads.
-- Cornell's hall page does not say whether rooms have air conditioning, so ask before you count on it.
+- Cornell planned the hall to be cooled through its district cooling system, anchored by Lake Source Cooling.
 - First-years do not pick a hall; staff assign it by random auto-allocation.
 - Cars unload on Program House Drive, and the hall stays open over winter break.
 ```
@@ -73,30 +85,33 @@ kind: cost_table
 title: Hu Shih Hall at a glance
 rows:
   - {label: "Location", value: "North Campus; unload on Program House Drive"}
+  - {label: "Mailing address", value: "Name, NetID, 107 Robert Purcell, room number and building, Cornell University, Ithaca, NY 14853"}
   - {label: "Opened", value: "2022"}
   - {label: "Residents", value: "429"}
   - {label: "Room types", value: "Singles, doubles and quads"}
   - {label: "Layout", value: "Corridor, mixed-gender floors"}
-  - {label: "Cooling", value: "Not stated on Cornell's hall page"}
+  - {label: "Cooling", value: "Designed for Cornell's district cooling, anchored by Lake Source Cooling"}
   - {label: "2026-27 room rate", value: "$13,744 (double) to $15,566 (single) per year"}
   - {label: "Dining", value: "Chosen from North's three dining rooms"}
   - {label: "Who lives there", value: "First-year students"}
   - {label: "How to get in", value: "Random assignment after the first-year application"}
 ```
 
-Source: Cornell Housing hall page, Residence Hall Configurations and Housing Rates 2026-2027. Cornell's page gives no street address.
+Source: Cornell Housing hall page, Residence Hall Configurations and Housing Rates 2026-2027; cooling from the Cornell Chronicle (2018).
 
 ## Who was Hu Shih?
 
-Hu Shih Hall is one of three halls that opened in August 2022, with Barbara McClintock and Ruth Bader Ginsburg halls, adding 1,200 beds after a project that took six and a half years ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
+Hu Shih (1891-1962) was a Chinese scholar and diplomat who earned a Cornell B.A. in 1914 ([Cornell Chronicle](https://news.cornell.edu/stories/2021/03/residence-hall-names-honor-mcclintock-hu-cayuga-nation)). While at Cornell, he led the campaign to replace classical Chinese, a literary language that was hard to master, with an easier living language that opened literature and learning to far more people in China. As a sophomore, he organized a gift of more than 300 Chinese books to the Cornell University Library. He was a leader of China's New Culture and May Fourth movements, and he served as China's ambassador to the United States and as chancellor of Peking University. When Cornell announced the name in March 2021, the Chronicle reported that it would be the university's first individual building named for a person of Asian descent or for an international student.
+
+Hu Shih, Barbara McClintock and Ruth Bader Ginsburg halls were the final three buildings of the North Campus Residential Expansion. Together they added 1,200 beds in fall 2022, after a project that took six and a half years ([Cornell Chronicle](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life)).
 
 ## What is living in Hu Shih Hall like?
 
-Corridor style means your bedroom opens onto a hallway and you share a bathroom with the floor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). Most North halls work this way. Hu Shih shares a bike room with Barbara McClintock Hall, so the two halls act like neighbors.
+Corridor style means your bedroom opens onto a hallway and you share a bathroom with the floor ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)). Most North halls work this way. Hu Shih shares its bike room with Barbara McClintock Hall, which has none of its own ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall)), so the two halls act like neighbors.
 
-Cornell's hall page does not say whether rooms are cooled. The pages for all three 2022 halls leave the question open (Cornell Housing). If heat matters, email housing@cornell.edu before move-in and plan for a fan.
+Cornell planned Hu Shih and the rest of the expansion's halls to be cooled through its district cooling system, which is anchored by Lake Source Cooling ([Cornell Chronicle](https://news.cornell.edu/stories/2018/09/display-visualizes-north-campus-residential-expansion)). Lake Source Cooling cools buildings with water from Cayuga Lake ([Cornell Chronicle](https://news.cornell.edu/stories/2021/09/new-residence-halls-save-energy-eco-friendly-features)).
 
-This page covers only what Cornell's pages state. The category rules for North halls, from room types to assignment, are in [North Campus dorms compared](/cornell/housing/cornell-north-campus-dorms-compared/).
+The category rules for North halls, from room types to assignment, are in [North Campus dorms compared](/cornell/housing/cornell-north-campus-dorms-compared/).
 
 ## What does a room in Hu Shih Hall cost?
 
@@ -136,13 +151,9 @@ The hall does not change the room rate, so the one lever on the housing bill is 
 
 In fall 2026, Cornell sent cars for Hu Shih to Program House Drive, one of several unloading zones on North, and turned away U-Hauls and trailers ([move-in instructions](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus)). The [move-in parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) covers tickets, timing and where to wait.
 
-## What does Cornell not say about Hu Shih Hall?
-
-Cornell's hall page gives no street address and no statement on cooling. Cornell's pages also carry no resident reviews of Hu Shih Hall. To learn more, email housing@cornell.edu.
-
 ## What to do next
 
-Fill in the first-year application within 10 days of getting your NetID (Cornell Housing). List room types you can live with, since the room type, not the hall, sets your price.
+Fill in the first-year application within 10 days of getting your NetID (Cornell Housing). List room types you can live with, since the room type, not the hall, sets your price. Questions about the hall itself go to hu_shih@cornell.edu ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall)).
 
 ## Related guides
 

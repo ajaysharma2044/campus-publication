@@ -5,7 +5,7 @@ primary_query: ithaca eviction process tenant rights
 topic: housing
 school: cornell-university
 type: scenario
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0045
 kind: spoke
 readers:
@@ -22,7 +22,7 @@ tools:
 sources:
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings
   title: Eviction Proceedings, Cornell Law School Tenants Advocacy Program
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/tenants-rights/
   title: Tenants' Rights Guide, Cornell Law School Tenants Advocacy Program
   accessed: '2026-11-08'
@@ -40,10 +40,10 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords
   title: City Council Votes to Stiffen Penalties for Noncompliant Landlords, The Cornell Daily Sun, March 2019
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme
   title: 'Asteri''s Aftermath: Displacement, Dangerous Conditions and a Predatory Cash-for-Keys Scheme, The Cornell Daily Sun, March 2026'
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.nysenate.gov/legislation/laws/RPP/216
   title: New York Real Property Law Section 216, NY State Senate
   accessed: '2026-11-08'
@@ -86,6 +86,15 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire
   title: Housemate Compatibility Questionnaire, Cornell Student & Campus Life
   accessed: '2026-11-08'
+- url: https://www.nyc.gov/site/hra/help/new-york-emergency-rental-assistance-program-erap.page
+  title: New York State Emergency Rental Assistance Program (ERAP), NYC Human Resources Administration
+  accessed: '2026-11-11'
+- url: https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026
+  title: Good Cause Eviction Law Notice, August 2026, NYS Homes and Community Renewal (DHCR)
+  accessed: '2026-11-11'
+- url: https://www.nysenate.gov/legislation/laws/RPA/735
+  title: New York Real Property Actions and Proceedings Law Section 735, NY State Senate
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: The Ithaca Commons pedestrian mall seen from its west entrance at Cayuga Street, with shops on both sides
@@ -131,7 +140,7 @@ If you co-signed or pay the rent, a nonpayment case is the one to stop early. Th
 
 ## Day one: who to call
 
-Call before you answer the landlord, sign anything or move out. Each of these is free.
+Call before you answer the landlord, sign anything or move out. Each of these is free. This page is general information, not legal advice.
 
 | Who | Phone | What they do |
 |---|---|---|
@@ -165,7 +174,7 @@ rows:
 
 1. **The certified notice.** If rent is not paid within 5 days of the due date, the landlord sends a notice by certified mail. For rent due on the 1st, it cannot go out before the 7th.
 2. **The 14-day demand.** A written rent demand cannot be served until at least 6 days after rent was due. You then have 14 days to pay or leave before the landlord can file. Paying in full inside this window is the cheapest exit.
-3. **The petition.** If the landlord files, the court papers must be served 10 to 17 days before the hearing. If they are posted on your door and mailed, service is completed within 20 days, per the guide.
+3. **The petition.** If the landlord files, the court papers must be served 10 to 17 days before the hearing. Papers posted on your door or slipped under it must also be mailed to you within one day, under [RPAPL 735](https://www.nysenate.gov/legislation/laws/RPA/735).
 4. **The hearing.** You can usually request one 14-day adjournment on the hearing day. Use it to get a lawyer and gather receipts, texts and repair records.
 5. **After a judgment.** A judge may delay the eviction up to one year for hardship. You can appeal within 30 days of service.
 6. **Removal.** Only by law enforcement after 14 days' notice, on business days, between sunrise and sunset.
@@ -174,7 +183,7 @@ Example: rent of $1,100 is due on November 1 and not paid. The certified notice 
 
 If the rent went unpaid because the landlord would not fix the heat or a leak, say so in court with your written repair requests. The [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance) reports abatements in court of about 10% to 20% for minor problems, about 30% for moderate ones, and 50% to 60% for the most serious.
 
-New York's rental assistance program could once cover up to 12 months of back rent and utilities, per the [eviction guide](https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings). Not confirmed: whether it takes applications in 2026; ask LawNY.
+New York's Emergency Rental Assistance Program could cover up to 12 months of back rent and utilities, per the [eviction guide](https://sites.lawschool.cornell.edu/tenants-advocacy/eviction-proceedings). It stopped taking applications after January 20, 2023, per [New York City's Human Resources Administration](https://www.nyc.gov/site/hra/help/new-york-emergency-rental-assistance-program-erap.page). For help with back rent, call 2-1-1 or LawNY.
 
 ## If your landlord won't renew: holdovers and Good Cause
 
@@ -199,7 +208,7 @@ Coverage is the catch. Exempt under [RPL 214](https://www.nysenate.gov/legislati
 
 ## If the City orders your building vacated
 
-A vacate order comes from the City when a building is unsafe to live in. Since a [2019 Common Council vote](https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords), renting an unsafe unit is a misdemeanor, punishable by a fine of up to $500 and up to 30 days. The same rule makes landlords pay displaced tenants double the monthly rent, prorated per day.
+A vacate order comes from the City when a building is unsafe to live in. Since a [2019 Common Council vote](https://www.cornellsun.com/article/2019/03/city-council-votes-to-stiffen-penalties-for-noncompliant-landlords), renting an unsafe unit is a misdemeanor, punishable by a fine of up to $500 and up to 30 days. The same rule makes landlords pay displaced tenants double the monthly rent, prorated per day, until the problems are fixed or the lease ends.
 
 The 2026 example is Asteri, a 181-unit building on the Commons owned by Vecino Group that opened in August 2024. The [Cornell Daily Sun reported](https://www.cornellsun.com/article/2026/03/asteri-s-aftermath-displacement-dangerous-conditions-and-a-predatory-cash-for-keys-scheme) that the City ordered about 200 residents out on March 4, 2026, and lifted the order on March 20. Residents were offered $2,000 to leave within five days and release their claims. A city official and the Ithaca Tenants Union called the offer predatory. The county then set aside $50,000 for legal aid.
 
@@ -233,8 +242,6 @@ What to do the day an order lands:
 4. Sign nothing that releases claims until LawNY or the hotline has read it.
 5. Keep receipts for every night you pay for somewhere else.
 
-Not confirmed: whether rent is owed for the days a vacate order is in force; ask the hotline.
-
 Delays at new buildings are a related risk. In 2016, Fontana's late opening at 327 Eddy St left over 50 students with August 1 leases without a home, and the landlord offered $30 a day or a hotel room, the [Sun reported](https://www.cornellsun.com/article/2016/09/delayed-collegetown-apartment-opening-leaves-e2-80-88students-homeless).
 
 ## Immigration status and eviction
@@ -256,7 +263,7 @@ With a lease, a tenant cannot be evicted because of immigration status unless th
 
 **Where is eviction court in Ithaca?** Ithaca City Court, 118 East Clinton Street, hears housing cases and small claims up to $5,000, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance).
 
-**Does Good Cause apply if I live in the Town of Ithaca or Lansing?** Outside New York City it applies only where a municipality opts in, per the [lease renewal page](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal), and the City of Ithaca did. Not confirmed: whether the Town of Ithaca or Lansing has. For code problems, the Town of Ithaca's office is (607) 273-1783 and Lansing's is (607) 533-7054, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance).
+**Does Good Cause apply if I live in the Town of Ithaca or Lansing?** No. Outside New York City it applies only where a municipality opts in, per the [lease renewal page](https://sites.lawschool.cornell.edu/tenants-advocacy/lease-renewal). On the state's [2026 opt-in list](https://hcr.ny.gov/good-cause-eviction-law-notice-august-2026), current to May 4, 2026, the City of Ithaca is the only Tompkins County municipality. For code problems, the Town of Ithaca's office is (607) 273-1783 and Lansing's is (607) 533-7054, per the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance).
 
 **If my housemates stop paying, am I on the hook?** Yes, on most local leases: Cornell says they bind housemates [jointly and severally](https://scl.cornell.edu/residential-life/housing/campus-living/living-campus/study-abroad/housemate-compatibility-questionnaire), so each is responsible for the others' rent. Pay your share in a way you can prove and call the hotline at (607) 301-1560.
 

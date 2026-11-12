@@ -5,7 +5,7 @@ primary_query: ithaca tenant rights security deposit law
 topic: housing
 school: cornell-university
 type: how-to
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-housing-0032
 kind: spoke
 subject:
@@ -79,9 +79,9 @@ sources:
 - url: https://cornellsun.com/2004/12/02/good-bad-and-slummy-collegetown-landlords/
   title: Good, Bad and Slummy Collegetown Landlords, The Cornell Daily Sun, December 2, 2004
   accessed: '2026-11-08'
-- url: https://www.leaselenses.com/blog/new-york-ithaca-security-deposit-ordinance/
-  title: 'Ithaca Security Deposit Rules: What the Rental Housing Ordinance Adds to New York Law, LeaseLenses'
-  accessed: '2026-11-07'
+- url: https://ecode360.com/8391400
+  title: 'City of Ithaca Code Chapter 258, Rental Housing, Article I: Security Deposits, eCode360'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: CollegeTown-2018-10-21
@@ -168,6 +168,8 @@ A deposit is not the landlord's money. The [Attorney General](https://ag.ny.gov/
 
 In a building with six or more units, the deposit must go in a New York interest-bearing account at the prevailing rate. The landlord tells you the bank's name and address and the amount in writing. The landlord may keep a 1% annual administrative fee. You choose to get the interest each year, as a credit against rent, or at the end of the lease (GOL 7-103).
 
+Inside the City of Ithaca, the city's own deposit law ([Chapter 258, Article I, of the city code](https://ecode360.com/8391400), adopted in 1992) adds a step for buildings of any size. The landlord must give you a written receipt for the deposit and tell you in writing where it is held: the bank's name and address if it is in a bank, and whether the account pays interest.
+
 When the rent rises at renewal, the landlord may collect more to bring the deposit up to the new monthly rent. If the building is sold, a new owner who knew of the deposit becomes [liable for it](https://www.nysenate.gov/legislation/laws/GOB/7-108).
 
 ## The two inspections
@@ -202,17 +204,19 @@ The landlord carries the burden of proving that any amount withheld is reasonabl
 
 Source: the [Cornell Law guide](https://sites.lawschool.cornell.edu/tenants-advocacy/security-deposits) and GOL 7-108.
 
+Inside the City of Ithaca, a lease may make you pay City code tickets on the property (those written under Chapter 178). The landlord must then tell you about each ticket within three weeks of the court sending it, or lose the right to charge it to you or take it from the deposit ([City Code 258-6](https://ecode360.com/8391400)).
+
 ## The 14-day deadline, and the 30 days you may see
 
 The landlord must return the rest of the deposit with an itemized statement within 14 days after you vacate, so the clock starts the day you leave. Miss that, and the landlord forfeits the right to keep any of it.
 
-You may also see "30 days" for Ithaca. That number comes from older City of Ithaca code text, Chapter 258. The state's 14 days controls. A [September 2026 landlord-tenant blog](https://www.leaselenses.com/blog/new-york-ithaca-security-deposit-ordinance/) reads the city chapter as adding a written receipt stating where the deposit is held, and a presumption of willfulness after 30 days.
+You may also see "30 days" for Ithaca. That number is in the city's deposit law, [Chapter 258](https://ecode360.com/8391400). It gives a landlord 30 days after the tenancy ends, or after you hand back the unit if that is later, to return the full deposit or send a written statement of reasons for keeping part of it. The statement must give a good-faith cost estimate for each item of damage and come with the balance. State law applies inside the city as well, and its 14 days is the shorter deadline.
 
-Not confirmed: the current text of City of Ithaca Chapter 258, including whether it allows up to three times a wrongly withheld deposit plus attorney fees, as the blog says. The Cornell Law guide lists no Ithaca-only deposit rule.
+The 30 days still matters inside the city, because Chapter 258 carries its own penalty. If a landlord willfully and without good cause keeps all or part of a deposit, a court may award up to three times the amount wrongly withheld, plus reasonable attorney's fees and court costs. A landlord who lets the 30 days pass without returning the deposit, or without sending that statement and the balance, is presumed to be withholding willfully and without good cause. The triple award and the fees do not apply when the landlord made a good-faith estimate and returned the balance on time.
 
 ## Cornell's cleaning-charge line
 
-Cornell's move-out page says the full deposit should come back if the apartment is clean and in satisfactory condition, but also that "charges for cleaning services will be deducted." Read that with the law beside it. A flat cleaning fee is banned. Cleaning a unit left dirty beyond normal wear may be deducted, but routine turnover cleaning may not. Trust the statute and the Cornell Law guide over the housing page.
+Cornell's move-out page says the full deposit should come back if the apartment is clean and in satisfactory condition, but also that "charges for cleaning services will be deducted." Read that with the law beside it. A flat cleaning fee is banned. Cleaning a unit left dirty beyond normal wear may be deducted, but routine turnover cleaning may not. Inside the City of Ithaca, [Chapter 258](https://ecode360.com/8391400) also makes you responsible for leaving the unit in an overall clean condition, as it was when you moved in, apart from normal wear and tear. Trust the statute and the Cornell Law guide over the housing page.
 
 ## Getting it back when the landlord keeps it
 
@@ -229,7 +233,7 @@ rows:
 1. **Write first.** Send a demand letter citing GOL 7-108, the 14-day date and the amount, and keep a copy.
 2. **Mediate.** The Community Dispute Resolution Center handles tenant cases at [607-273-9347](https://scl.cornell.edu/residential-life/housing/campus-living/campus-living-resources).
 3. **Complain to the state.** The Attorney General takes deposit complaints after you have tried the landlord: 1-800-771-7755.
-4. **Sue in small claims.** Ithaca City Court, 118 East Clinton Street, hears claims up to $5,000; town and village courts cap at $3,000. Ask for actual damages, plus punitive damages up to twice the deposit if the violation was willful.
+4. **Sue in small claims.** Ithaca City Court, 118 East Clinton Street, hears claims up to $5,000; town and village courts cap at $3,000. Ask for actual damages, plus punitive damages up to twice the deposit if the violation was willful. At a City of Ithaca address, the city's Chapter 258 penalty applies too.
 
 ```figure
 kind: cost_table
@@ -268,9 +272,11 @@ Deposit fights are an old Ithaca complaint. The Sun reported in [2004](https://c
 
 **What if my landlord sells the building?** A new owner who knew of your deposit is liable for returning it ([GOL 7-108](https://www.nysenate.gov/legislation/laws/GOB/7-108)).
 
-**Do these rules apply in Lansing or Cayuga Heights?** Yes. The deposit and fee rules are state law, so they apply across New York, inside the City of Ithaca and outside it. Small claims outside the City go to town or village courts, capped at $3,000.
+**Do these rules apply in Lansing or Cayuga Heights?** Yes. The deposit and fee rules are state law, so they apply across New York, inside the City of Ithaca and outside it. The City's own Chapter 258 adds its rules only at City addresses. Small claims outside the City go to town or village courts, capped at $3,000.
 
 **Can my landlord charge for lost keys?** Up to 110% of the actual cost of a copy, until more than three copies of the same key in a calendar year ([RPL 235-i](https://www.nysenate.gov/legislation/laws/RPP/235-I)).
+
+This page is general information, not legal advice.
 
 ## Related guides
 

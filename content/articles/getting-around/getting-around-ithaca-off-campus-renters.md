@@ -1,11 +1,11 @@
 ---
 title: 'Off-campus at Cornell: commute, buses and parking by area'
-meta: Walk 15 to 20 minutes from Collegetown, bus from downtown, plan around the suspended West Hill routes, and park on a $359.77 B permit or $45 city permit.
+meta: Walk 15 to 20 minutes from Collegetown, bus from downtown, change buses at the Commons from West Hill, and park on a $359.77 B permit or $45 city permit.
 primary_query: Collegetown commute to Cornell parking bus
 topic: getting-around
 school: cornell-university
 type: scenario
-updated: 2026-11-08
+updated: 2026-11-11
 queue_id: q-getting-around-0052
 kind: reader_guide
 readers:
@@ -20,21 +20,33 @@ sources:
 - url: https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk
   title: 'Embrace your inner intellectual: go on a midnight walk, The Cornell Daily Sun, October 2025'
   accessed: '2026-11-08'
-- url: https://www.rome2rio.com/s/Ithaca-Commons/Cornell-University
-  title: Ithaca Commons to Cornell University, Rome2rio
-  accessed: '2026-11-08'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods
+  title: Ithaca Neighborhoods, Cornell Student and Campus Life
+  accessed: '2026-11-11'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes
   title: Bus Services, Privileges and Passes, Cornell Facilities and Campus Services
   accessed: '2026-11-08'
 - url: https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/
   title: Facing operator and bus shortages, TCAT board prolongs suspension of routes 14S and 83, The Cornell Daily Sun, April 25, 2024
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
+- url: https://tcatbus.com/bus-schedules
+  title: Route Schedules 2026-2027, TCAT
+  accessed: '2026-11-11'
+- url: https://tcatbus.com/tcats-2026-fall-service/
+  title: TCAT's 2026 fall service period operates from Sun. Aug. 16 through Sat. Dec. 19, TCAT
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/11/03/ithaca-and-tcat-will-move-downtown-bus-stops-nov-9/
   title: Ithaca and TCAT will move downtown bus stops Nov. 9, FingerLakes1, November 3, 2026
   accessed: '2026-11-08'
 - url: https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/
   title: OurBus moves Ithaca stop to South Cayuga Street Monday as TCAT shifts stops, FingerLakes1, November 6, 2026
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
+- url: https://www.greyhound.com/bus/ithaca-ny
+  title: Bus to Ithaca, NY, Greyhound
+  accessed: '2026-11-11'
+- url: https://www.flixbus.com/bus/ithaca-ny/ithaca
+  title: 'FlixBus stop: Ithaca, NY, FlixBus'
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/families/cornell-family-resource-hub/parking-transportation
   title: Parking and Transportation, Cornell Family Resource Hub
   accessed: '2026-11-08'
@@ -71,6 +83,21 @@ sources:
 - url: https://www.cityofithacany.gov/731/Permit-Issuance
   title: Permit Issuance, City of Ithaca
   accessed: '2026-11-08'
+- url: https://www.cityofithacany.gov/730/Permit-Allocation
+  title: Permit Allocation, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://www.cityofithacany.gov/732/Hours-System-Alternative-Appeal-Process
+  title: Hours, System Alternative and Appeal Process, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://www.cityofithacany.gov/727/Parking-Regulations-Violations
+  title: Parking Regulations and Violations, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://www.cityofithacany.gov/faq.aspx?TID=53
+  title: Street Cleaning FAQs, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://ithacavoice.org/2026/03/curb-your-enthusiasm-ithaca-towing-fees-set-to-rise/
+  title: 'Curb your enthusiasm: Ithaca towing fees set to rise, The Ithaca Voice, March 20, 2026'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328
   title: Parking rate changes, City of Ithaca news, posted December 18, 2025
   accessed: '2026-11-08'
@@ -85,7 +112,7 @@ sources:
   accessed: '2026-11-07'
 - url: https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules
   title: Winter and Break Parking Rules, Cornell Transportation and Delivery Services
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 - url: https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/
   title: Ithaca sidewalk snow rules in effect, FingerLakes1, February 14, 2026
   accessed: '2026-11-08'
@@ -103,7 +130,7 @@ sources:
   accessed: '2026-11-08'
 - url: https://www.ithacabikeshare.org
   title: Ithaca Bikeshare
-  accessed: '2026-11-08'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Black-and-white photo of a car parked under a tall wooden railroad trestle on a country road
@@ -117,30 +144,30 @@ images:
 ---
 
 ```glance
-- Collegetown to central campus: 15 to 20 minutes on foot. The Commons is about 2 miles, so ride TCAT Route 10.
+- Collegetown to central campus: 15 to 20 minutes on foot. From the Commons or Fall Creek it is 20 to 30 minutes uphill, or ride TCAT.
 - After first year, TCAT is free after 6 p.m. on weekdays and all weekend; daytime rides are $1.50, or $200 a year for OmniRide.
-- West Hill routes 14S and 83 have been suspended since fall 2023; plan a car, a bike or a long transfer.
+- West Hill is about 4 miles out: ride Route 14 to the Commons, then Route 10 on weekdays.
 - From Mon Nov 9, 2026 the downtown East Seneca bus stops shift; Route 10 stays on North Tioga St.
 - Parking: Cornell B commuter permit $359.77 a year, Daily Decision from about $1 a day, city residential permit $45 a year.
 - Odd/even street parking runs Nov 1 to Apr 1; a car left on a city street over break can be towed as abandoned.
 ```
 
-From Collegetown, walk: central campus is [15 to 20 minutes on foot](https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk), and from downtown most renters ride TCAT, which after first year is [free after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) and $1.50 a ride otherwise. If you keep a car, the [student commuter (B) permit costs $359.77](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) for the year, and a [city residential street permit costs $45](https://www.cityofithacany.gov/731/Permit-Issuance). West Hill is the hard case: routes 14S and 83 have been [suspended since fall 2023](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/).
+From Collegetown, walk: central campus is [15 to 20 minutes on foot](https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk), and from downtown most renters ride TCAT, which after first year is [free after 6 p.m. on weekdays and all weekend](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes) and $1.50 a ride otherwise. If you keep a car, the [student commuter (B) permit costs $359.77](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/parking-students) for the year, and a [city residential street permit costs $45](https://www.cityofithacany.gov/731/Permit-Issuance). West Hill is the hard case: it is [about 4 miles out](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods), and [Route 14](https://tcatbus.com/bus-schedules) goes to the Commons, not campus, so you change there to Route 10.
 
 ```reader "If you're renting in Collegetown"
 Walk. Central campus is 15 to 20 minutes away through the Arts Quad, so you do not need a car to reach class. If you have one, the street outside is the problem: a 2022 Sun story had a Collegetown street-parker worried that plows would pile snowbanks around the car, and the city's odd/even rule runs Nov 1 to Apr 1. The Dryden Road garage charges $2.25 an hour with an $18 daily maximum, and the city has proposed a $232 monthly 24/7 permit there. The mistake that costs most: leaving the car on the street over winter break, where it can be ticketed, towed and treated as abandoned.
 ```
 
 ```reader "If you're renting downtown or near the Commons"
-The Commons is about 2 miles from campus, about 40 minutes on foot by our estimate at 3 mph, uphill. Ride Route 10, which stays on North Tioga St after the Nov 9, 2026 stop changes. Daytime weekday rides cost $1.50 each after first year. Two a day, five days a week, is $15 a week, and the $200 OmniRide pass pays for itself after 134 paid rides by our math. Evenings after 6 p.m. and weekends are free. The mistake that costs most: sending friends to the Seneca Street garage, closed since spring 2026; the Cayuga Street garage at 245 S. Cayuga St has more than 300 spaces.
+The Commons is about a mile from campus, an uphill walk of 20 to 30 minutes. Ride Route 10, which stays on North Tioga St after the Nov 9, 2026 stop changes. Daytime weekday rides cost $1.50 each after first year. Two a day, five days a week, is $15 a week, and the $200 OmniRide pass pays for itself after 134 paid rides by our math. Evenings after 6 p.m. and weekends are free. The mistake that costs most: sending friends to the Seneca Street garage, closed since spring 2026; the Cayuga Street garage at 245 S. Cayuga St has more than 300 spaces.
 ```
 
 ```reader "If you're renting on West Hill or in Cayuga Heights"
-Routes 14S and 83, which served West Hill, Cornell and Cayuga Heights, have been suspended since fall 2023, and the TCAT board extended the suspension on Apr 25, 2024. A rider's letter, read at the April 17, 2024 TCAT board meeting and reported by the Ithaca Journal, described a 55-minute unsheltered wait on the transfer home. Price a car before you sign: the B permit is $359.77 a year, or Daily Decision parking runs from about $1 a day. The mistake that costs most: planning a daily commute around a route that is not running. Not confirmed: whether either route returned for fall 2026; check Bus Tracker or MyStop.
+West Hill is about 4 miles out, and Cornell Housing calls it inconvenient for students. Route 14 runs daily to the Commons, not campus; change there to Route 10, which runs weekdays only. The 14S West Hill Shopper, suspended in October 2023, is back Monday to Saturday for Wegmans and Walmart. From Cayuga Heights, campus is up to a 30-minute level walk. Route 31 serves Highland Avenue, and Route 83 is off the fall 2026 schedule. Price a car before you sign: the B permit is $359.77 a year, or Daily Decision parking runs from about $1 a day. The mistake that costs most: signing before you time the trip in Bus Tracker or MyStop.
 ```
 
 ```reader "If you're renting in Fall Creek"
-Ithaca Carshare keeps cars around Fall Creek, Collegetown and downtown, which covers grocery runs without owning a car. If you drive, the $45 city residential permit is yours to get, not your landlord's: bring your registration and lease to the City Clerk at 108 E Green St. It runs to July 31 with no partial-year price. The mistake that costs most: assuming the landlord handles the permit. Not confirmed: a sourced walking time or TCAT route for Fall Creek; trace yours in Bus Tracker before the lease starts.
+Campus is an uphill walk of 20 to 30 minutes. Routes 13 and 17 run daily to the Commons. On weekdays, two Route 36 trips leave downtown at 8:22 and 9:07 a.m. and run through Fall Creek to Cornell. Ithaca Carshare keeps cars around Fall Creek, Collegetown and downtown, which covers grocery runs without owning a car. If you drive, check your address in the city's Residential Services Search Tool. Only residents of R1- and R2-zoned homes in the permit zone can buy the $45 permit. It is yours to get, not your landlord's: bring your registration and lease to the City Clerk at 108 E Green St. The mistake that costs most: assuming the landlord handles the permit.
 ```
 
 ```reader "If you're a PhD student or graduate assistant renting off campus"
@@ -152,17 +179,20 @@ Two of the costs on this page are free for you. PhD students and graduate assist
 | Where you rent | On foot | Bus | What to watch |
 |---|---|---|---|
 | Collegetown | 15 to 20 min to central campus | Rarely worth the wait | Snowbanks around street cars after plowing |
-| Downtown, the Commons | About 40 min (2 miles, our estimate) | Route 10 from North Tioga St | Paid daytime rides after first year |
-| West Hill, Cayuga Heights | Long and steep | 14S and 83 suspended since fall 2023 | A 55-minute unsheltered transfer wait (one 2024 letter) |
-| Fall Creek | Not confirmed | Not confirmed | Carshare cars nearby |
+| Downtown, the Commons | 20 to 30 min, uphill | Route 10 from North Tioga St | Paid daytime rides after first year |
+| West Hill | About 4 miles | Route 14 to the Commons, then Route 10 | Route 10 runs weekdays only |
+| Cayuga Heights | Up to 30 min, level | Route 31 via Highland Ave | Route 83 is off the fall 2026 schedule |
+| Fall Creek | 20 to 30 min, uphill | Routes 13 and 17 to the Commons; two weekday Route 36 trips to campus | Carshare cars nearby |
 
 Collegetown is the easy one. The [Sun's 2025 walking column](https://cornellsun.com/article/2025/10/embrace-your-inner-intellectual-go-on-a-midnight-walk) puts the walk through the Arts Quad at 15 to 20 minutes.
 
-Downtown is [about 2 miles](https://www.rome2rio.com/s/Ithaca-Commons/Cornell-University) from campus. At an assumed 3 mph that is about 40 minutes on foot, and the hill makes it slower. Route 10 is the [downtown and campus route](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting) Cornell names for this trip.
+Downtown and Fall Creek sit at the base of East Hill. Cornell Housing puts the Commons [about a mile from campus](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods) and Fall Creek half a mile to a mile. Both are an uphill walk of 20 to 30 minutes. Route 10 is the [downtown and campus route](https://sustainable.cornell.edu/focus-areas/transportation/bus-commuting) Cornell names for this trip.
 
-Not confirmed for 2026: Route 10's frequency. TCAT's Summer 2024 sheet showed a bus every 6 to 12 minutes on weekdays, an expected wait of 3 to 6 minutes by our math.
+In the fall 2026 schedule, [Route 10 runs every 6 minutes](https://tcatbus.com/tcats-2026-fall-service/) from 9 a.m. to noon on weekdays. That is an average wait of 3 minutes by our math. Service ends at 7:12 p.m., and the route [runs Monday to Friday only](https://tcatbus.com/bus-schedules). On weekends, Routes 30W, 32, 37 and 51 run from the Commons to campus.
 
-West Hill lost its buses. Routes 14S and 83 were suspended in fall 2023 for lack of drivers and vehicles, and the [TCAT board extended the suspension](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/) in April 2024.
+Fall Creek has two daily routes to the Commons, [13 and 17](https://tcatbus.com/bus-schedules). In the fall 2026 schedule, two weekday Route 36 trips leave downtown at [8:22 and 9:07 a.m.](https://tcatbus.com/tcats-2026-fall-service/) and run through Fall Creek to Cornell.
+
+West Hill, on the city's northwest side along the lake, is [about 4 miles from campus](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/ithaca-neighborhoods). [Route 14](https://tcatbus.com/bus-schedules) runs daily between West Hill and the Commons, where Route 10 takes over on weekdays. Routes 14S and 83 were [suspended in October 2023](https://cornellsun.com/2024/04/25/facing-operator-and-bus-shortages-tcat-board-prolongs-suspension-of-routes-14s-and-83/) for lack of drivers and buses. Route 14S, the West Hill Shopper to Wegmans and Walmart, is back on the [fall 2026 schedule](https://tcatbus.com/tcats-2026-fall-service/), Monday to Saturday. Route 83 is not, and [Route 31](https://tcatbus.com/bus-schedules) serves Highland Avenue and Central Campus. From Cayuga Heights, Cornell Housing puts campus up to a 30-minute level walk.
 
 ## The downtown stop changes on Nov 9, 2026
 
@@ -175,7 +205,7 @@ On Monday Nov 9, 2026 the city and TCAT [move the downtown stops](https://www.fi
 | Route 10 | North Tioga St, unchanged | 10 |
 | OurBus to NYC | 235 S. Cayuga St | OurBus only |
 
-Only OurBus is [named as moving](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/). Greyhound, FlixBus and Trailways pages still list 131 E Green St. Updates appear on TCAT's website, Bus Tracker and the MyStop app.
+The new OurBus stop is [beside the South Cayuga parking garage](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/). [Greyhound](https://www.greyhound.com/bus/ithaca-ny) and [FlixBus](https://www.flixbus.com/bus/ithaca-ny/ithaca) list their downtown stop at 131 E Green St, curbside in front of Urban Outfitters. FlixBus says your ticket shows the current address. Updates appear on TCAT's website, Bus Tracker and the MyStop app.
 
 ## What the bus costs you
 
@@ -232,7 +262,7 @@ rows:
 
 The permit covers one plate and is issued first come, first served. A replacement is free if you return the remnants; otherwise it is $45 again. Renew each summer for the new lease year.
 
-Not confirmed: which Collegetown streets need the permit, and whether a Cornell permit counts on them. Read the street signs.
+Only residents of [R1- and R2-zoned homes in the permit zone](https://www.cityofithacany.gov/730/Permit-Allocation) can buy one. An R1 property gets two permits, and an R2 property two per unit, four at most. In permit blocks, [signed no-parking windows](https://www.cityofithacany.gov/732/Hours-System-Alternative-Appeal-Process) fall on weekdays between 9 a.m. and 5 p.m., excluding holidays. Permit holders are exempt from them, but still follow odd/even and the 24-hour rule. On weekdays, a car parked on a city street must [move at least once every 24 hours](https://www.cityofithacany.gov/727/Parking-Regulations-Violations). To check a block, type the address into the city's [Residential Services Search Tool](https://www.cityofithacany.gov/727/Parking-Regulations-Violations).
 
 **City garages and meters.** Since [Jan 5, 2026](https://www.cityofithacany.gov/CivicAlerts.aspx?AID=1328), on-street ParkMobile and pay-station zones cost $2.50 an hour. Coin-only meters farther out stay at $1.50.
 
@@ -257,15 +287,15 @@ Example: a Collegetown renter with no off-street spot parks in the Dryden garage
 
 | Rule | Dates | What it means |
 |---|---|---|
-| City odd/even | Nov 1 to Apr 1, when snow removal is needed | Park on the side the date allows, or risk a ticket and tow |
+| City odd/even | Nov 1 to Apr 1, 7 p.m. to 6 a.m., when snow removal is needed | Park on the side the date allows, or risk a ticket and tow |
 | Campus winter overnight | Dec 1 to Apr 1, when snow is forecast, 5 p.m. to 7:30 a.m. | Only in the designated bays and garages |
 | Winter break | Every break | Never leave a car on a city street |
 
-The [city odd/even rule](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules) runs Nov 1 to Apr 1, enforced when snow removal is needed. In February 2026 it was [in effect](https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/), even side on even dates and odd side on odd dates. Not confirmed: the rule's nightly hours; read the signs on your street.
+The [city odd/even rule](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules) runs Nov 1 to Apr 1, enforced when snow removal is needed. It was [in effect in February 2026](https://www.fingerlakes1.com/2026/02/14/ithaca-sidewalk-snow-rules-in-effect/). [From 7 p.m. to 6 a.m.](https://www.cityofithacany.gov/727/Parking-Regulations-Violations), cars park on the odd-numbered side on odd dates and the even side on even dates. For alerts, text SIREN to 67283 and pick the Odd/Even Parking Notifications list. A ticket is $15, rising to $30 and $45 for repeats within 18 months.
 
 On campus, from Dec 1 to Apr 1 when snow is forecast, overnight parking from 5 p.m. to 7:30 a.m. is [limited to designated areas](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules), open to all registered vehicles. For a commuter, the useful ones are the east and west bays of B Lot, the west and mid bays of A Lot, Forest Home garage, and Hoy Road garage except the roof. A and B lots are plowed first. The winter-rules fine is $50.
 
-Over break, Cornell warns that a car left on a city street may be treated as abandoned, ticketed, towed and possibly impounded. Line up an off-street spot or a garage before you leave. Not confirmed: the tow and impound cost, and whether a B permit holder may leave a car in B Lot over break; ask Transportation Services at [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes).
+Over break, Cornell warns that a car left on a city street may be treated as abandoned, ticketed, towed and possibly impounded. The city can treat a car unmoved for 72 hours as abandoned and [tow it at the owner's expense](https://www.cityofithacany.gov/727/Parking-Regulations-Violations). A police-dispatched tow costs [$275 plus tax](https://www.cityofithacany.gov/faq.aspx?TID=53), paid in cash, plus [$50 a day in storage](https://ithacavoice.org/2026/03/curb-your-enthusiasm-ithaca-towing-fees-set-to-rise/). An abandoned-vehicle ticket is $25, and Police Dispatch, 607-272-3245, handles towed-car questions. City garages offer no long-term parking. The city points drivers to long-term parking on Cayuga Street, across from the Hotel Ithaca, at 607-256-7275. Over winter break, Cornell tells B permit holders to park in the [designated winter bays of their own lot](https://fcs.cornell.edu/departments/transportation-delivery-services/parking-campus/winter-break-parking-rules).
 
 In 2022 the Sun reported a Collegetown street-parker [worried that snowbanks would pile around the car](https://cornellsun.com/2022/11/21/dont-let-it-snow-students-express-concerns-over-driving-conditions-as-temperatures-fall/) after plowing, and another student's front-wheel-drive car struggled on the wet hills.
 
@@ -286,16 +316,16 @@ rows:
 
 ## Do you need the car at all?
 
-In Collegetown, probably not: class is a 15 to 20 minute walk. Ithaca Carshare keeps [about 20 vehicles](https://www.ithacacarshare.org) around Downtown, Fall Creek, Collegetown and East Hill for groceries and big errands. For short hops, [Ithaca Bikeshare](https://www.ithacabikeshare.org) charges $1.50 to start a ride plus $0.25 a minute, so a 20-minute ride is $6.50 before tax by our math, with no student discount listed. West Hill renters have the strongest case for a car while 14S and 83 stay suspended.
+In Collegetown, probably not: class is a 15 to 20 minute walk. Ithaca Carshare keeps [about 20 vehicles](https://www.ithacacarshare.org) around Downtown, Fall Creek, Collegetown and East Hill for groceries and big errands. For short hops, [Ithaca Bikeshare](https://www.ithacabikeshare.org) charges $1.50 to start a ride plus $0.25 a minute, so a 20-minute ride is $6.50 before tax by our math. A $60 monthly plan, plus tax, includes 30 minutes of riding a day. West Hill renters, who change buses at the Commons, have the strongest case for a car.
 
 ```tool do-i-need-a-car-at-cornell-quiz```
 
 ## Common mistakes
 
-- **Planning a West Hill commute on 14S or 83.** Both have been suspended since fall 2023; one 2024 rider's letter described a 55-minute unsheltered wait on the transfer home.
+- **Expecting Route 14 to reach campus.** It runs between West Hill and the Commons; change there to Route 10, which runs weekdays only.
 - **Assuming TCAT is free all day.** After first year, daytime weekday rides cost $1.50 each; 134 of them cost more than the $200 OmniRide.
 - **Asking the landlord for the city permit.** The city will not issue it to a landlord for a tenant; go to 108 E Green St yourself with your lease.
-- **Leaving the car on the street over break.** It can be ticketed, towed and impounded as abandoned.
+- **Leaving the car on the street over break.** It can be ticketed, towed and impounded as abandoned; the tow is $275 plus tax, and storage $50 a day.
 - **Parking on campus without paying.** $50 a ticket, plus $10 after 10 days; $150 and a tow in a fire lane.
 - **Sending visitors to the Seneca Street garage or promising free Saturday parking.** The garage closed in spring 2026, and Saturdays now cost $2.25 an hour in garages.
 - **Trusting Google Maps for bus times.** One student in 2022 relied on Google Maps, waited, and took an Uber; use Bus Tracker or MyStop.
@@ -308,7 +338,7 @@ In Collegetown, probably not: class is a 15 to 20 minute walk. Ithaca Carshare k
 
 **Can my partner ride TCAT on my pass?** No, but spouses and partners can buy their own OmniRide for night routes at [116 Maple Ave](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes).
 
-**Where do I catch the NYC bus from downtown now?** From Nov 9, 2026 OurBus boards at [235 S. Cayuga St](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/); Greyhound, FlixBus and Trailways still list 131 E Green St.
+**Where do I catch the NYC bus from downtown now?** From Nov 9, 2026 OurBus boards at [235 S. Cayuga St](https://www.fingerlakes1.com/2026/11/06/ourbus-moves-ithaca-stop-to-south-cayuga-street-monday-as-tcat-shifts-stops/); Greyhound and FlixBus list 131 E Green St.
 
 **Who do I call about Cornell parking?** Transportation Services, 116 Maple Ave, [607-255-4600](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes).
 

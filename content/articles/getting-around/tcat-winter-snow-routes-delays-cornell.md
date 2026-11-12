@@ -2,12 +2,12 @@
 title: 'TCAT snow routes and delays in winter: what to expect'
 mode: answer
 dek: TCAT keeps running in snow, but dispatchers pick snow routes on the day, so check live detours before you leave.
-meta: 'TCAT in winter: who picks snow routes, which Cornell routes detoured in 2019, how a 2026 storm delayed service, holidays with no buses and how to check.'
+meta: 'TCAT in winter: which routes have snow detours and the streets they skip, how a 2026 storm delayed service, reduced holiday service and how to check.'
 primary_query: TCAT snow routes delays winter
 topic: getting-around
 school: cornell-university
 type: explainer
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 274
 rewrites: ''
 readers:
@@ -53,6 +53,12 @@ sources:
 - url: https://cornellsun.com/article/2025/11/guest-room-from-bikes-to-buses-how-to-sustainably-navigate-campus-this-fall
   title: 'Guest room: from bikes to buses, how to sustainably navigate campus this fall, The Cornell Daily Sun, Nov. 11, 2025'
   accessed: '2026-11-10'
+- url: https://web.archive.org/web/20260304083123/https://tcatbus.com/learn/snow-detours/
+  title: Snow Detours 2025-2026, TCAT (Internet Archive copy, March 4, 2026)
+  accessed: '2026-11-11'
+- url: https://web.archive.org/web/20251219220619/https://tcatbus.com/winter-holidays/
+  title: 'Winter Holidays: Reduced service starts Sun. 12/21, TCAT news release, Dec. 18, 2025 (Internet Archive copy, Dec. 19, 2025)'
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: A blue TCAT bus pulling into Seneca Street Station in downtown Ithaca on a wet day
@@ -76,11 +82,17 @@ TCAT runs through the winter, but when snow hits, dispatchers send buses on snow
 
 ## What is a snow route?
 
-A snow route is a detour that keeps a bus off roads that are too steep or too slick in a storm. TCAT dispatch decides which routes to use, so no fixed list applies to every storm.
+A snow route is a planned detour around a road that snow or ice makes unsafe for a bus. TCAT switches these detours on route by route and posts a map for each one. For the 2025-26 winter, it had snow detours ready for six routes ([TCAT](https://web.archive.org/web/20260304083123/https://tcatbus.com/learn/snow-detours/)):
 
-The one documented example on Cornell routes is from January 2019. Routes 51, 92 and 93 detoured around parts of University, Stewart and Thurston Avenues (Cornell Daily Sun, same story).
+- Route 11 stays on South Aurora Street and uses Hillview Place, skipping Hudson Street between the two.
+- Routes 14 and 14S skip Chestnut Street and Campbell Avenue and use Elm Street, Hector Street and Trumansburg Road instead.
+- Route 36 skips Lake Street between University Avenue and Falls Street and uses Cayuga Street instead.
+- Route 51 skips the loop of Snyder Hill Road, Skyvue Road and Eastern Heights Drive.
+- Route 92 skips Stewart Avenue, Thurston Avenue, Fall Creek Drive and Barton Place and uses University Avenue instead.
 
-TCAT does not publish a snow-route map in the sources behind this page. Before a forecast storm, look at TCAT's own site and apps, or call 607-277-RIDE on weekdays from 7:30 a.m. to 5:00 p.m. ([Cornell Transportation and Delivery Services](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)).
+Stewart and Thurston Avenues were on the list in 2019 too. That January, TCAT's snow plans for lines 51, 92 and 93 avoided stretches of University, Stewart and Thurston Avenues ([The Cornell Daily Sun](https://www.cornellsun.com/article/2019/01/tcat-prepares-to-swerve-away-winter-storm-conditions)).
+
+On a snow day, active detours show in the red alert bar on TCAT's home page ([TCAT](https://web.archive.org/web/20260304083123/https://tcatbus.com/learn/snow-detours/)). You can also call TCAT at 607-277-RIDE on weekdays from 7:30 a.m. to 5:00 p.m. ([Cornell Transportation and Delivery Services](https://fcs.cornell.edu/departments/transportation-delivery-services/sustainable-transportation-options/bus-services-privileges-passes)).
 
 ## How do big storms change service?
 
@@ -88,9 +100,9 @@ Storms bring delays. In January 2026, a storm closed Cornell's Ithaca campus fro
 
 ## Does the winter schedule change?
 
-Check tcatbus.com for the schedule that applies to the date you travel.
+Yes. Over the 2025-26 holidays, TCAT ran reduced service from Sunday, Dec. 21, through Sunday, Jan. 4. Routes 90 and 92 did not run, Route 81 started later and ran fewer trips, and service ended early on Christmas Eve and New Year's Eve. TCAT announced the cuts on Dec. 18, 2025, three days ahead. Its winter-spring schedule started Jan. 11, 2026 ([TCAT](https://web.archive.org/web/20251219220619/https://tcatbus.com/winter-holidays/)).
 
-Holidays are the other change. TCAT runs every day of the year except Independence Day, New Year's Day, Memorial Day, Juneteenth, Thanksgiving and Christmas ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day)). For break travel and what to do without buses, see our [winter storms guide](/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/).
+TCAT runs every day of the year except Independence Day, New Year's Day, Memorial Day, Juneteenth, Thanksgiving and Christmas ([The Cornell Daily Sun](https://www.cornellsun.com/article/2025/07/service-changes-for-july-4-holiday-weekend-tcat-buses-curbside-recycling-city-offices-will-be-closed-on-independence-day)). For break travel and what to do without buses, see our [winter storms guide](/cornell/getting-around/cornell-winter-storms-travel-driving-ithaca/).
 
 <!-- ad-break -->
 

@@ -8,7 +8,7 @@ primary_query: cornell north campus dorms
 topic: housing
 school: cornell-university
 type: comparison
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 1
 rewrites: ''
 readers:
@@ -175,6 +175,18 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/moving-campus/move-instructions/move-instructions-north-campus
   title: Move-In Instructions for North Campus, Cornell Student & Campus Life
   accessed: '2026-11-10'
+- url: https://cornellsun.com/2004/05/06/dorm-disparities-cause-controversy/
+  title: Dorm Disparities Cause Controversy, The Cornell Daily Sun (May 6, 2004)
+  accessed: '2026-11-11'
+- url: https://www.cornellsun.com/article/2019/08/attention-freshman-the-backstory-of-your-new-north-campus-home
+  title: 'Attention Freshman: The Backstory of Your New North Campus Home, The Cornell Daily Sun (Aug. 24, 2019)'
+  accessed: '2026-11-11'
+- url: https://news.cornell.edu/stories/2021/09/new-residence-halls-save-energy-eco-friendly-features
+  title: New residence halls save energy with eco-friendly features, Cornell Chronicle (Sept. 22, 2021)
+  accessed: '2026-11-11'
+- url: https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall
+  title: "'Oasis on North Campus': Cornell Opens Sober Living Community in Court-Kay-Bauer Hall, The Cornell Daily Sun (Nov. 9, 2026)"
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Risley Hall, a red-brick Gothic residence hall on Cornell's North Campus, seen across Thurston Avenue in autumn
@@ -191,7 +203,7 @@ images:
 ```glance
 - Every North Campus hall charges the same 2026-27 rate by room type, whatever the building's age.
 - First-years do not rank halls; you choose program house or residence hall, room type and roommate.
-- Twelve North Campus buildings, home to at least 2,384 residents, list no air conditioning in rooms.
+- Twelve North Campus buildings, home to at least 2,384 residents, have no air conditioning in rooms.
 - Rising sophomores pick rooms April 13 to 16, 2027; about one in five lands on West Campus.
 ```
 
@@ -338,23 +350,25 @@ Room size varies too. Dickson, Jameson and High Rise 5 have quints. Some High Ri
 
 ## Who has air conditioning
 
-On North, cooling depends almost entirely on when a building went up. Each hall's Cornell page states its status, and they fall into four groups.
+On North, cooling depends almost entirely on when a building went up. The halls fall into four groups.
 
 ```figure
 kind: cost_table
-title: Cooling in North Campus rooms, as each hall's Cornell page states it
+title: Cooling in North Campus rooms
 rows:
   - {label: "Temperature-controlled or room air conditioning: Toni Morrison, Ganędagǫ:, Balch, Townhouse Apartments, Ecology House", value: "5 buildings, 1,496+ residents"}
-  - {label: "System-controlled air filtration, cooling not stated: Court-Kay-Bauer, Mews", value: "2 buildings, 535+ residents"}
-  - {label: "Cooling not stated: Barbara McClintock, Hu Shih, Ruth Bader Ginsburg", value: "3 buildings, 1,244 residents"}
+  - {label: "Air conditioning, with system-controlled air filtration: Court-Kay-Bauer, Mews", value: "2 buildings, 535+ residents"}
+  - {label: "Lake Source Cooling: Barbara McClintock, Hu Shih, Ruth Bader Ginsburg", value: "3 buildings, 1,244 residents"}
   - {label: "No air conditioning in rooms: Risley, Anna Comstock (LLC), Clara Dickson, Mary Donlon, Low Rises 6 to 10, Jameson, High Rise 5, Akwe:kon", value: "12 buildings, 2,384+ residents"}
 ```
 
-Source: Cornell Housing hall and program house pages. Resident counts are the figures each page gives; "+" means the page says "or more."
+Source: Cornell Housing hall and program house pages; The Cornell Daily Sun (2019) for Court-Kay-Bauer and Mews; Cornell Chronicle (2021) for the 2022 halls. Resident counts are the figures each hall page gives; "+" means the page says "or more."
 
 Twelve buildings, holding at least 2,384 of the 5,659-plus residents these pages list (counting each building once), have no air conditioning in rooms. That is about 42% (2,384 divided by 5,659). A few soften it. Donlon's formal lounge and library are air conditioned, and so is the main lounge in Low Rise 6. Language House rooms, inside Toni Morrison Hall, are temperature-controlled ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house)). In the Townhouses and Ecology House, residents set the air conditioning themselves.
 
-The pages for the three 2022 halls are silent on cooling, so if it matters to you, ask housing@cornell.edu before you count on it. Students have pushed on this gap for years. In 2021 a High Rise 5 resident told the Sun his hall "should be cheaper" because it had no air conditioning, while a HILC resident said nobody should pay less for being placed in an older dorm ([Cornell Daily Sun](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/)).
+Court-Kay-Bauer and Mews rooms have system-controlled air filtration, and in 2019 The Cornell Daily Sun counted both halls among the few North residences with air conditioning ([Cornell Daily Sun](https://www.cornellsun.com/article/2019/08/attention-freshman-the-backstory-of-your-new-north-campus-home)). The three 2022 halls came from the same expansion as Toni Morrison and Ganędagǫ:. In 2021 the Cornell Chronicle reported that the expansion's halls combine rooftop solar panels with Lake Source Cooling, the university system that cools buildings with water from Cayuga Lake ([Cornell Chronicle](https://news.cornell.edu/stories/2021/09/new-residence-halls-save-energy-eco-friendly-features)).
+
+Cooling also feeds the argument over price. In 2021 a High Rise 5 resident told the Sun his hall "should be cheaper" because it had no air conditioning, while a HILC resident said nobody should pay less for being placed in an older dorm ([Cornell Daily Sun](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/)).
 
 ## The program houses
 
@@ -371,12 +385,12 @@ Program houses are themed communities built around a shared identity, interest o
 | Loving House | Mews Hall | LGBTQIA+ community | 30 |
 | Multicultural Living Learning Unit (McLLU) | Clara Dickson Hall | Diversity in all forms | 47 |
 | Risley Residential College | Prudence Risley Hall | Arts and creativity | 194 |
-| Sober Living Community | Bauer Hall (Court-Kay-Bauer) | Substance-free living | Not stated |
+| Sober Living Community | Bauer Hall (Court-Kay-Bauer) | Substance-free living | 38 (fall 2026) |
 | Ujamaa Residential College | Low Rise 10 | Black heritage worldwide | 144 |
 
-Source: Cornell Housing program house pages. Language House is for upper-level students; the rest take first-years, transfers and upper-level students.
+Source: Cornell Housing program house pages; Sober Living Community count from The Cornell Daily Sun (Nov. 9, 2026). Language House is for upper-level students; the rest take first-years, transfers and upper-level students.
 
-To join the Sober Living Community, you mark your interest on your housing application ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community)). Loving House, inside Mews, has 30 residents in singles and doubles ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). Language House offers Spanish, French, Mandarin, Korean and American Sign Language for 2026-27. Its page says its future location is still being decided.
+The Sober Living Community opened in fall 2026 ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall)). To join, you mark your interest on your housing application ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community)). Loving House, inside Mews, has 30 residents in singles and doubles ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house)). Language House offers Spanish, French, Mandarin, Korean and American Sign Language for 2026-27. Its page says its future location is still being decided.
 
 Some houses add perks of their own. Upper-level Ecology House residents get a free bus pass ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)). JAM has its 24-hour practice room. Some program houses also charge a fee on top of rent: in 2021, JAM charged residents $70 a year ([Cornell Daily Sun](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/)). Ask each house about current fees before you apply.
 
@@ -437,7 +451,7 @@ rows:
   - {label: "Super single", value: "$8,298 per semester; $16,595 per year"}
 ```
 
-Source: Cornell Housing, Housing Rates 2026-2027. The table lists no separate rate for quints.
+Source: Cornell Housing, Housing Rates 2026-2027.
 
 A double costs $13,744 for 2026-27. A triple saves $1,100 a year against a double ($13,744 minus $12,644). A quad costs the same as a double, while a one-room quad is billed like a triple. A single, or a double in the Townhouses, costs $1,822 more than a double (Cornell Housing rates).
 
@@ -455,7 +469,9 @@ rows:
 
 Source: Cornell Housing rates and Cornell Dining meal plans, 2026-27.
 
-Why does a 1913 hall cost the same as a 2022 hall? Cornell's rate page gives no reason. Students have argued both sides in the Sun. In 2021, a Donlon resident warned that pricing by quality would sort richer students into the new halls ([Cornell Daily Sun](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/)). In April 2026, a Sun writer from the class of 2029 argued that equal prices are the fair system and that Cornell should shrink the gap between room types instead ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same)). She noted that students who need to save often choose triples, so room type, not building, is where money already changes how students live.
+Why does a 1913 hall cost the same as a 2022 hall? Cornell's housing office gave its reason in 2004. Pam Zinder, then interim manager of the housing and dining office, told the Sun that Cornell once had "numerous rates to address different room sizes and amenities." That did not feel fair to all students, she said, because amenities, room size and building type are "all in the eye of the beholder." After reviewing its peers, Cornell moved to a condensed rate structure based on the number of people in a room. Zinder also tied the rule to budgeting. If students could rank their choice of building, she said, the office may not be able to forecast its budgets accurately ([Cornell Daily Sun](https://cornellsun.com/2004/05/06/dorm-disparities-cause-controversy/)).
+
+Students have argued both sides in the Sun since. In 2021, a Donlon resident warned that pricing by quality would sort richer students into the new halls ([Cornell Daily Sun](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/)). In April 2026, a Sun writer from the class of 2029 argued that equal prices are the fair system and that Cornell should shrink the gap between room types instead ([Cornell Daily Sun](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same)). She noted that students who need to save often choose triples, so room type, not building, is where money already changes how students live.
 
 ```reader "If you're a parent reading the bill"
 Cornell bills housing in August for fall and in December for spring; dining is billed in July and January. A triple is the one way to cut the first-year bill. Plan for heat instead of price: the hall is assigned at random, and air conditioning comes with the hall.
@@ -494,7 +510,7 @@ Move-in on North runs on timeslots and tickets ([Cornell Housing](https://scl.co
 | Prudence Risley Hall (Risley Residential College) | Near Robert Purcell Community Center and Appel Commons | 1913 | 194 | Singles, doubles | Corridor; all-gender bathrooms above the first floor | No AC | Program house: first-years, transfers, upper-level | $13,744 to $15,566 |
 | Balch Hall | North Campus; own loading dock | 1929; renovated, reopened 2024 and 2025 | 230+ | Singles, doubles | Corridor | Thermostat in each room | Women: first-years and upper-level | $13,744 to $15,566 |
 | Anna Comstock Hall (Latino Living Center) | Across from Risley | Named 1940; LLC since 1994 | 55 | Singles, doubles | Suites | No AC | Program house: all years | $13,744 to $15,566 |
-| Clara Dickson Hall | Central North Campus | 1946 | 460+ | Singles to quints | Corridor | No AC | Half first-years, half sophomores (north wing) | $12,644 to $15,566; no quint rate posted |
+| Clara Dickson Hall | Central North Campus | 1946 | 460+ | Singles to quints | Corridor | No AC | Half first-years, half sophomores (north wing) | $12,644 to $15,566 |
 | McLLU (in Clara Dickson Hall) | Two floors of Dickson | 1991 | 47 | Singles, triples | Corridor | No AC | Program house: all years | $12,644 to $15,566 |
 | Hurlburt House (Ecology House) | Off Triphammer Road, near the Africana Studies Library | 1953; student housing 1966; Ecology House 1971 | 96 | Doubles only, private bathroom each | Corridor | Room AC, resident-controlled | Program house: all years | $13,744 |
 | Mary Donlon Hall | Near Robert Purcell Community Center | 1961 | 450+ | Singles, doubles, quads | Corridor | No AC; lounge and library cooled | First-years | $13,744 to $15,566 |
@@ -503,23 +519,23 @@ Move-in on North runs on timeslots and tickets ([Cornell Housing](https://scl.co
 | Low Rise 8 (HILC) | Near Robert Purcell Community Center and Appel Commons | 1970; Holland name 1985 | 160+ | Clusters: 1 double, 1 triple, 2 singles | Corridor clusters | No AC | Program house: all years | $12,644 to $15,566 |
 | Low Rise 9 (JAM) | Near Robert Purcell Community Center and Appel Commons | 1970; JAM since 2000 | 166 | Clusters: 1 double, 1 triple, 2 singles | Corridor clusters | No AC | Program house: all years | $12,644 to $15,566 |
 | Low Rise 10 (Ujamaa) | Near Robert Purcell Community Center, Appel Commons and the Africana Center | 1970; Ujamaa since 1972 | 144 | Clusters: 1 double, 1 triple, 2 singles | Corridor clusters | No AC | Program house: all years | $12,644 to $15,566 |
-| Jameson Hall (High Rise 1) | Steps from Robert Purcell and Morrison Dining | 1971; renamed 1996 | 200+ | Singles to quints | Corridor units with kitchens | No AC | First-years | $12,644 to $15,566; no quint rate posted |
-| High Rise 5 | Steps from Robert Purcell and Morrison Dining | 1971 | 200+ | Singles to quints | Corridor units with kitchens | No AC | First-years | $12,644 to $15,566; no quint rate posted |
+| Jameson Hall (High Rise 1) | Steps from Robert Purcell and Morrison Dining | 1971; renamed 1996 | 200+ | Singles to quints | Corridor units with kitchens | No AC | First-years | $12,644 to $15,566 |
+| High Rise 5 | Steps from Robert Purcell and Morrison Dining | 1971 | 200+ | Singles to quints | Corridor units with kitchens | No AC | First-years | $12,644 to $15,566 |
 | Townhouse Apartments (A to H) | Near Robert Purcell, Morrison Dining and Bear Necessities | 1986 | 300+ | 4- and 6-person apartments of doubles | Apartment | Room AC, manual | Upper-level, including sophomores | $15,566 (Townhouse double) |
 | Akwe:kon | Near Robert Purcell Community Center | 1991 | 35 | Singles, doubles | Corridor | No AC | Program house: all years | $13,744 to $15,566 |
-| Court-Kay-Bauer Hall (Sober Living Community in Bauer) | Unloads at Helen Newman lot | 2001 | 275+ | Singles, doubles | Corridor | Air filtration; AC not stated | First-years; Sober Living all years | $13,744 to $15,566 |
-| Mews Hall (Loving House inside) | Next to Appel Commons | 2001 | 260+ (Loving House 30) | Singles, doubles | Corridor | Air filtration; AC not stated | First-years; Loving House all years | $13,744 to $15,566 |
+| Court-Kay-Bauer Hall (Sober Living Community in Bauer) | Unloads at Helen Newman lot | 2001 | 275+ | Singles, doubles | Corridor | AC; system-controlled air filtration | First-years; Sober Living all years | $13,744 to $15,566 |
+| Mews Hall (Loving House inside) | Next to Appel Commons | 2001 | 260+ (Loving House 30) | Singles, doubles | Corridor | AC; system-controlled air filtration | First-years; Loving House all years | $13,744 to $15,566 |
 | Toni Morrison Hall (Language House inside) | Houses Morrison Dining and Crossings Café | 2021 | 306 (Language House 50+) | Singles, doubles | Suites | Temperature-controlled | Upper-level | $13,744 to $15,566 |
 | Ganędagǫ: Hall | Unloads at Robert Purcell lot | 2021 | 564 | Singles, doubles | Suites, single-gender | Temperature-controlled | Transfers and upper-level | $13,744 to $15,566 |
-| Barbara McClintock Hall | North Campus; shares Hu Shih's bike room | 2022 | 311 | Singles, doubles, quads | Corridor, mixed-gender floors | Not stated | First-years | $13,744 to $15,566 |
-| Hu Shih Hall | Unloads on Program House Drive | 2022 | 429 | Singles, doubles, quads | Corridor, mixed-gender floors | Not stated | First-years | $13,744 to $15,566 |
-| Ruth Bader Ginsburg Hall | Home of Novick's Café | 2022 | 504 | Singles, doubles, quads | Corridor, mixed-gender floors | Not stated | First-years | $13,744 to $15,566 |
+| Barbara McClintock Hall | North Campus; shares Hu Shih's bike room | 2022 | 311 | Singles, doubles, quads | Corridor, mixed-gender floors | Lake Source Cooling | First-years | $13,744 to $15,566 |
+| Hu Shih Hall | Unloads on Program House Drive | 2022 | 429 | Singles, doubles, quads | Corridor, mixed-gender floors | Lake Source Cooling | First-years | $13,744 to $15,566 |
+| Ruth Bader Ginsburg Hall | Home of Novick's Café | 2022 | 504 | Singles, doubles, quads | Corridor, mixed-gender floors | Lake Source Cooling | First-years | $13,744 to $15,566 |
 
-Source: Cornell Housing hall and program house pages, Residence Hall Configurations and Housing Rates 2026-2027; opening years for 2021 and 2022 from the Cornell Chronicle. Cornell's pages give no street addresses; every North resident's mail goes to 107 Robert Purcell. Rate bands span the room types each page lists; a one-room quad is billed at the triple rate and a quad at the double rate.
+Source: Cornell Housing hall and program house pages, Residence Hall Configurations and Housing Rates 2026-2027; opening years for 2021 and 2022 and Lake Source Cooling from the Cornell Chronicle; air conditioning in Court-Kay-Bauer and Mews from The Cornell Daily Sun (2019). Rate bands cover each hall's singles, doubles, triples and quads; a one-room quad is billed at the triple rate and a quad at the double rate.
 
 ## What comes next
 
-North Campus is not finished changing. Language House needs a new home, and Cornell has not named it. The Townhouse kitchen and bathroom renewals that began with units G and H in 2024 have more clusters to reach. The 2018 plan also listed overdue maintenance, including accessibility work, at Balch, Clara Dickson and Risley ([Cornell Daily Sun](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/)). Balch is the one that has been finished.
+North Campus is not finished changing. The Townhouse kitchen and bathroom renewals that began with units G and H in 2024 have more clusters to reach. The 2018 plan also listed overdue maintenance, including accessibility work, at Balch, Clara Dickson and Risley ([Cornell Daily Sun](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/)). Balch is the one that has been finished.
 
 The bigger question is the one the Sun's writers keep raising: whether one price for every building stays fair as the gap between old and new halls widens. After year two, most students leave North for Collegetown and beyond, and our [off-campus housing guide](/cornell/housing/cornell-off-campus-housing-guide/) picks up the story there.
 
@@ -539,13 +555,9 @@ rows:
   - {label: "Rising sophomores: application and exemption deadline", date: "April 4, 2027"}
   - {label: "Program House Priority Selection", date: "April 12, 2027"}
   - {label: "Rising sophomore Open Room Selection", date: "April 13 to 16, 2027"}
-  - {label: "New students: housing confirmations begin (2026 pattern)", date: "Mid-June 2027"}
-  - {label: "Direct room swap window (2026 pattern)", date: "Mid-June to mid-July 2027"}
-  - {label: "Move-In Tickets available; last day to change a move-in timeslot", date: "Aug. 1, 2027"}
-  - {label: "First-year move-in (Aug. 17 in 2026)", date: "Mid-August 2027"}
 ```
 
-Source: Cornell Housing pages on winter break housing, rising sophomore selection, new student applications, moving in and the 2027-28 license. Dates marked "2026 pattern" repeat the 2026 schedule until Cornell posts 2027 dates.
+Source: Cornell Housing pages on winter break housing, rising sophomore selection and the 2027-28 license.
 
 ## Checklist: before you pick or accept a North room
 
@@ -556,7 +568,7 @@ rows:
   - {label: "Decide whether a program house fits you; it is the only way to steer toward a building"}
   - {label: "Rank room types by price as well as comfort: triples and one-room quads cost the least"}
   - {label: "If heat affects your health, register with Student Disability Services before you apply"}
-  - {label: "Check the cooling line for your building in the table above, and ask housing@cornell.edu if it says not stated"}
+  - {label: "Check the cooling line for your building in the table above"}
   - {label: "If you may stay over winter break, pick a building on the open list or check the Winter Break option"}
   - {label: "Rising sophomores: form a block of up to five and pick backups in two or three buildings"}
   - {label: "Sign your license only when you are sure; first-years and sophomores cannot cancel it to move off campus"}
@@ -570,5 +582,5 @@ rows:
 - Cornell Housing hall pages: [Balch](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/balch-hall); [Barbara McClintock](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/barbara-mcclintock-hall); [Clara Dickson](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/clara-dickson-hall); [Court-Kay-Bauer](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/court-kay-bauer-hall); [Ganędagǫ:](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduates/residence-halls/ganedago-hall); [High Rise 5](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/high-rise-5); [Hu Shih](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/hu-shih-hall); [Jameson](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/jameson-hall); [Low Rise 6](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/low-rise-6); [Low Rise 7](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/low-rise-7); [Mary Donlon](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mary-donlon-hall); [Mews](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/mews-hall); [Ruth Bader Ginsburg](https://scl.cornell.edu/residential-life/housing/campus-housing/first-year-undergraduates/residence-halls/ruth-bader-ginsburg-hall); [Toni Morrison](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/toni-morrison-hall); [Townhouse Apartments](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/residence-halls/townhouse-apartments).
 - Cornell Housing program house pages: [Akwe:kon](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/akwekon); [Ecology House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house); [HILC](https://scl.cornell.edu/residential-life/housing/campus-housing/upperlevel-undergraduate-campus-housing/program-houses/holland-international-living-center-hilc); [JAM](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/just-about-music-jam); [Language House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/language-house); [Latino Living Center](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/latino-living-center-llc); [Loving House](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/loving-house); [McLLU](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/multicultural-living-learning-unit-mcllu); [Risley](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college); [Sober Living Community](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/sober-living-community); [Ujamaa](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ujamaa-residential-college).
 - Cornell Dining: [Undergraduate Meal Plans 2026-2027](https://scl.cornell.edu/residential-life/dining/meal-plans-rates/undergraduate-meal-plans); [Dining Rooms](https://scl.cornell.edu/residential-life/dining/eateries-menus/dining-rooms); [Cafes, Food Courts and Coffeehouses](https://scl.cornell.edu/residential-life/dining/eateries-menus/cafes-food-courts-coffeehouses).
-- Cornell news: [Cornell welcomes students, marks milestone in residential life](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life), Cornell Chronicle, Aug. 15, 2022; [A peek inside Balch Hall as renovations near completion](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion), July 12, 2024; [Residential Improvement Project Underway](https://scl.cornell.edu/news-events/news/residential-improvement-project-underway), July 11, 2024.
-- The Cornell Daily Sun: [North Campus Grand Opening](https://cornellsun.com/2001/09/04/north-campus-grand-opening/), Sept. 4, 2001; [University Releases Full Plan to Expand North Campus](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/), Aug. 27, 2018; [New North Campus Dorms Widen Housing Condition Disparities](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/), Sept. 9, 2021; [From Leaky Showers to Lonely Suites](https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/), Oct. 13, 2021; [As Cornell Requires University Housing for Sophomores, Students Weigh Options](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/), Nov. 8, 2021; [Beginning At Balch](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm), Oct. 2, 2024; [Unequal vs. Inequitable Housing](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same), April 29, 2026.
+- Cornell news: [Cornell welcomes students, marks milestone in residential life](https://news.cornell.edu/stories/2022/08/cornell-welcomes-students-marks-milestone-residential-life), Cornell Chronicle, Aug. 15, 2022; [A peek inside Balch Hall as renovations near completion](https://scl.cornell.edu/news-events/news/peek-inside-balch-hall-renovations-near-completion), July 12, 2024; [Residential Improvement Project Underway](https://scl.cornell.edu/news-events/news/residential-improvement-project-underway), July 11, 2024; [New residence halls save energy with eco-friendly features](https://news.cornell.edu/stories/2021/09/new-residence-halls-save-energy-eco-friendly-features), Cornell Chronicle, Sept. 22, 2021.
+- The Cornell Daily Sun: [North Campus Grand Opening](https://cornellsun.com/2001/09/04/north-campus-grand-opening/), Sept. 4, 2001; [Dorm Disparities Cause Controversy](https://cornellsun.com/2004/05/06/dorm-disparities-cause-controversy/), May 6, 2004; [University Releases Full Plan to Expand North Campus](https://cornellsun.com/2018/08/27/university-releases-full-plan-to-expand-north-campus-to-house-100-percent-of-freshmen-and-sophomores/), Aug. 27, 2018; [Attention Freshman: The Backstory of Your New North Campus Home](https://www.cornellsun.com/article/2019/08/attention-freshman-the-backstory-of-your-new-north-campus-home), Aug. 24, 2019; [New North Campus Dorms Widen Housing Condition Disparities](https://cornellsun.com/2021/09/10/housing-conditions-across-campus-are-they-fair/), Sept. 9, 2021; [From Leaky Showers to Lonely Suites](https://cornellsun.com/2021/10/13/from-leaky-showers-to-lonely-suites-student-residents-voice-concerns-about-new-north-campus-dorms/), Oct. 13, 2021; [As Cornell Requires University Housing for Sophomores, Students Weigh Options](https://cornellsun.com/2021/11/09/as-cornell-requires-university-housing-for-sophomores-students-weigh-options/), Nov. 8, 2021; [Beginning At Balch](https://www.cornellsun.com/article/2024/10/beginning-at-balch-life-at-north-campuss-newest-dorm), Oct. 2, 2024; [Unequal vs. Inequitable Housing](https://www.cornellsun.com/article/2026/04/unequal-vs-inequitable-housing-why-all-dorms-should-cost-the-same), April 29, 2026; ['Oasis on North Campus': Cornell Opens Sober Living Community in Court-Kay-Bauer Hall](https://www.cornellsun.com/article/2026/11/oasis-on-north-campus-cornell-opens-sober-living-community-in-court-kay-bauer-hall), Nov. 9, 2026.

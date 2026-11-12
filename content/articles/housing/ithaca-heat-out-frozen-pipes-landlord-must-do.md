@@ -23,7 +23,7 @@ sources:
   accessed: '2026-11-10'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance
   title: Building Issues and Maintenance, Cornell Law School Tenants' Advocacy
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://sites.lawschool.cornell.edu/tenants-advocacy/landlord-access
   title: Landlord Access, Cornell Law School Tenants' Advocacy
   accessed: '2026-11-10'
@@ -35,22 +35,28 @@ sources:
   accessed: '2026-11-10'
 - url: https://ccetompkins.org/your-home-money/tenant-landlord-issues
   title: Tenant-landlord issues, Cornell Cooperative Extension of Tompkins County
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
 - url: https://www.cityofithacany.gov/130/Building-Division
   title: Building Division, City of Ithaca
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations
+  accessed: '2026-11-11'
+- url: https://www.cityofithacany.gov/146/Certificate-of-Compliance
+  title: Certificate of Compliance, City of Ithaca
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations
   title: Checklists and considerations, Cornell Student and Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease
-  title: Signing a lease, Cornell Student and Campus Life
-  accessed: '2026-11-10'
-- url: https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living
-  title: Living off campus, Cornell Student and Campus Life
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease
+  title: Signing the lease, Cornell Student and Campus Life
+  accessed: '2026-11-11'
 - url: https://cayugaheights.gov/departments/code-enforcement/
   title: Code Enforcement, Village of Cayuga Heights
-  accessed: '2026-11-10'
+  accessed: '2026-11-11'
+- url: https://www.law.cornell.edu/regulations/new-york/19-NYCRR-1203.3
+  title: 19 NYCRR 1203.3, Minimum features of a program for administration and enforcement, Cornell Legal Information Institute
+  accessed: '2026-11-11'
+- url: https://www.nysenate.gov/legislation/laws/GOB/5-321
+  title: Agreements exempting lessors from liability for negligence void and unenforceable, General Obligations Law 5-321, New York State Senate
+  accessed: '2026-11-11'
 - url: https://cornellsun.com/2018/11/25/cornell-student-abandons-house-sleeps-in-library-after-months-long-dispute-with-landlord/
   title: Cornell student abandons house, sleeps in library after months-long dispute with landlord, The Cornell Daily Sun, Nov. 25, 2018
   accessed: '2026-11-10'
@@ -111,7 +117,7 @@ rows:
 
 Log the outdoor temperature with each reading too, since the 68F minimum applies only when it is under 55F outside. Follow every phone call with a written message. Certified mail gives proof, though a text or email also counts as writing. New York sets no fixed number of days for a repair, so your dated record is the proof of how long the landlord waited ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)).
 
-Before you sign, Cornell's lease-review checklist tells renters to ask who handles repairs and which contact method the landlord prefers for general and emergency issues ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/signing-lease)). Keep that answer where you can find it in January.
+Before you sign, Cornell's lease-review checklist tells renters to ask who handles repairs and which contact method the landlord prefers for general and emergency issues ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)). Keep that answer where you can find it in January.
 
 <!-- ad-break -->
 
@@ -119,16 +125,18 @@ Before you sign, Cornell's lease-review checklist tells renters to ask who handl
 
 A frozen or burst pipe is a plumbing and water problem, and both sit on the habitability list above. Report it the same way: in writing, with photos and the time you noticed it.
 
-The sources behind this page do not say who pays for a burst-pipe repair or for belongings it damages. Cornell's renter checklist says to buy renter's insurance ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/housing-search-process/checklists-and-considerations)), so call your insurer and read your policy. Cornell's Off-Campus Living team, at 607-255-5368, offers help with maintenance requests and conflicts with landlords ([Living off campus](https://scl.cornell.edu/residential-life/housing/campus-housing/campus-living)).
+The landlord generally has to repair it, unless a tenant, another occupant or a guest caused the damage. Your damaged belongings are a separate claim. A habitability case cannot recover their lost value, and getting paid for them takes a different legal proceeding ([Cornell Law tenants guide](https://sites.lawschool.cornell.edu/tenants-advocacy/building-issues-maintenance)). A lease clause that excuses the landlord from paying for property damage caused by the negligence of the landlord or its employees in running or maintaining the building is void ([General Obligations Law 5-321](https://www.nysenate.gov/legislation/laws/GOB/5-321)).
+
+Cornell's renter checklist says to buy renter's insurance ([Cornell Student and Campus Life](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/checklists-and-considerations)), so call your insurer and read your policy. For questions about your lease or your landlord, call Cornell's Off-Campus Living office at 607-255-2310 ([Signing the lease](https://scl.cornell.edu/residential-life/housing/living-off-campus/housing-search-process/signing-lease)).
 
 Expect the landlord or a plumber to come in fast. The lease sets entry rules, and notice runs from 24 hours to one week depending on the reason. Emergencies allow entry without notice. If the lease does not reserve a right of entry, the landlord has none, even for repairs ([Cornell Law landlord access guide](https://sites.lawschool.cornell.edu/tenants-advocacy/landlord-access)).
 
 ## Who enforces the heat rules?
 
-In the City of Ithaca, the Building Division takes complaints. It sits in City Hall, 108 E. Green St., 4th floor, open Monday to Friday from 8:30 a.m. to 4:00 p.m. The phone number is 607-274-6508, the email is ibd@cityofithaca.org and the online route is the "Report a Concern" form. The page lists Rob Fell-DeWalt as director of code enforcement ([City of Ithaca](https://www.cityofithacany.gov/130/Building-Division)).
+In the City of Ithaca, the Building Division takes complaints. It sits in City Hall, 108 E. Green St., 4th floor, open Monday to Friday from 8:30 a.m. to 4:00 p.m. Its main line is 607-274-6510, the email is ibd@cityofithaca.org and the online route is the "Report a Concern" form. Rob Fell-DeWalt is director of code enforcement ([City of Ithaca](https://www.cityofithacany.gov/130/Building-Division)). Housing inspection questions go to 607-274-6508, weekdays from 8 a.m. to 4 p.m. ([City of Ithaca, Certificate of Compliance](https://www.cityofithacany.gov/146/Certificate-of-Compliance)).
 
 ```reader "If you rent outside the City of Ithaca"
-The City Building Division covers City rentals. In the Village of Cayuga Heights, the code office is at 836 Hanshaw Road, with Code Enforcement Officer Craig Southard at 607-257-5536, ext. 104. Its page describes building, zoning and short-term rental permits and says nothing about heat complaints, so call and ask whether he takes them ([Village of Cayuga Heights](https://cayugaheights.gov/departments/code-enforcement/)). Ask which heat season applies at your address as well, since the statewide season starts Oct. 1, not Sept. 15. Our [City, Town and Cayuga Heights guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows which office covers your address.
+The City Building Division covers City rentals. Elsewhere, the county extension's steps end with a formal complaint to the local Building Department or Code Enforcement Officer ([Cornell Cooperative Extension](https://ccetompkins.org/your-home-money/tenant-landlord-issues)). In the Village of Cayuga Heights, that is Code Enforcement Officer Craig Southard, at 836 Hanshaw Road and 607-257-5536, ext. 104 ([Village of Cayuga Heights](https://cayugaheights.gov/departments/code-enforcement/)). State rules require every local government that enforces the state building codes to have a procedure for complaints that a building breaks them ([19 NYCRR 1203.3](https://www.law.cornell.edu/regulations/new-york/19-NYCRR-1203.3)). Ask the office which heat season it enforces, since the statewide season starts Oct. 1, not Sept. 15. Our [City, Town and Cayuga Heights guide](/cornell/housing/city-of-ithaca-vs-town-lansing-cayuga-heights-renters/) shows which office covers your address.
 ```
 
 ```reader "If you're an international student"
@@ -166,3 +174,5 @@ A landlord who stops paying the utility bill triggers advance notice for tenants
 ## What to do next
 
 Photograph your thermostat, save the lease section on repairs and put the Building Division number in your phone. If a building is ordered emptied, read our [vacate order guide](/cornell/housing/ithaca-eviction-vacate-order-what-to-do/). Planning a first off-campus year? Start with our [guide for juniors and seniors renting](/cornell/housing/off-campus-housing-cornell-juniors-seniors-renting/).
+
+This page is general information, not legal advice.

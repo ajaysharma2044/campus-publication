@@ -69,7 +69,7 @@ You need a current Cornell ID for almost all of these. The Mann page says access
 
 ## Late-night food and the fallback
 
-The same 2026 Sun guide lists [Bear Necessities (Robert Purcell Community Center) open till 2 a.m., Jansen's Market (Noyes) till 1 a.m., and the Collegetown 7-Eleven open 24 hours](https://www.cornellsun.com/article/2026/03/your-guide-to-a-successful-all-nighter). If a space is full or closed for a holiday, an Ithaca cafe is not something we could verify as open late, so treat the library list as your plan A and B. For medicine or supplies at odd hours, see our guide to [pharmacies near campus and late options](/daily-life/pharmacy-near-cornell-campus-ithaca/).
+The same 2026 Sun guide lists [Bear Necessities (Robert Purcell Community Center) open till 2 a.m., Jansen's Market (Noyes) till 1 a.m., and the Collegetown 7-Eleven open 24 hours](https://www.cornellsun.com/article/2026/03/your-guide-to-a-successful-all-nighter). If a space is full or closed for a holiday, an Ithaca cafe is not something we could verify as open late, so treat the library list as your plan A and B. For medicine or supplies at odd hours, see our guide to [pharmacies near campus and late options](/health-safety/pharmacy-near-cornell-campus-ithaca/).
 
 ## Common mistakes
 

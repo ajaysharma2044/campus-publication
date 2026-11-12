@@ -7,7 +7,7 @@ primary_query: Ecology House Cornell
 topic: housing
 school: cornell-university
 type: place
-updated: '2026-11-10'
+updated: '2026-11-11'
 idea_id: 88
 rewrites: ''
 readers:
@@ -18,8 +18,8 @@ subject: Ecology House in Hurlburt House, Cornell North Campus, Ithaca
 tools: []
 sources:
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house
-  title: Ecology House and program house founding years, Cornell Student & Campus Life
-  accessed: '2026-11-10'
+  title: Ecology House, Cornell Student & Campus Life
+  accessed: '2026-11-11'
 - url: https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/risley-residential-college
   title: Program house resident counts, Cornell Student & Campus Life
   accessed: '2026-11-10'
@@ -47,6 +47,12 @@ sources:
 - url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information
   title: Important Loading and Parking Information, Cornell Housing
   accessed: '2026-11-10'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations
+  title: Residence Hall Configurations, Cornell Student & Campus Life
+  accessed: '2026-11-11'
+- url: https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-ecologyhurlburt-house
+  title: Move-In Instructions for Ecology/Hurlburt House, Cornell Housing
+  accessed: '2026-11-11'
 images:
 - file: 1.webp
   alt: Hurlburt House, the brick building that houses Ecology House on Cornell's North Campus, in spring 1996
@@ -93,9 +99,11 @@ The shared rules for all 13 houses are in [Cornell program houses compared](/cor
 
 ## What sets Ecology House apart from other program houses?
 
-Its rooms. Most North Campus program houses have corridor rooms or clusters that share a bathroom. Ecology House is a corridor building where each room has a private bath ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-and-residential-life-and-faculty-involvement-campus/residence-hall-configurations)), and every room is a double. Roommates share a heating and air conditioning unit ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)).
+Its rooms. Most North Campus program houses have corridor rooms or clusters that share a bathroom. Ecology House is a corridor building where each room has a private bath ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/housing-details/residence-hall-configurations)), and every room is a double. Roommates share a heating and air conditioning unit and a compost bin ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)).
 
-The sources cited here do not describe Ecology House's events, facilities or distance to class. Check Cornell's page for those details, or email the house staff.
+The theme shows up in the rest of the building too. Cornell lists a greenhouse, an apple orchard and a bike share program and workshop among the house's sustainable amenities. Residents also share a textbook lending library and a swap shop. Upper-level residents get a free bus pass, as every Cornell first-year already does. Indoors there is a large kitchen, two study lounges, a TV room, a woodshop and a lounge with pool and ping pong. Out back, a large yard and patio are used for campfires, hammocks and occasional camping.
+
+Programming includes an annual Adirondack retreat, student-led committees, recycling programs and sustainability projects. Faculty and community fellows attend house events, dine with residents and lead trips to lectures, plays, films and concerts. The house sits on North Campus off Triphammer Road, near the Africana Studies Library ([Cornell Student & Campus Life](https://scl.cornell.edu/residential-life/housing/campus-housing/upper-level-undergraduates/program-houses/ecology-house)).
 
 ## What does Ecology House cost?
 
@@ -122,7 +130,7 @@ A program house counts as on-campus housing, so living there meets the two-year 
 
 Check the cancellation schedule before you commit. The [cancellation fee calculator](/tools/cornell-housing-license-cancellation-fee-calculator/) turns your date into a number.
 
-Plan your move too. Move-out loading uses the Ecology House lot ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information)). The sources cited here list no move-in unloading zone for Ecology House, so check the [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) and your move-in email.
+Plan your move too. At move-in, you unload at the Ecology/Hurlburt House unloading zone, sign out carts and carry your own things in ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-campus/move-instructions/move-instructions-ecologyhurlburt-house)). Move-out loading uses the Ecology House lot ([Cornell Housing](https://scl.cornell.edu/residential-life/housing/housing-details/moving-out/important-loading-and-parking-information)). The [move-in day parking guide](/cornell/getting-around/cornell-move-in-day-parking-unloading/) explains the Move-In Ticket and where the car goes after you unload.
 
 ## What to do next
 
