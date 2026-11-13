@@ -27,7 +27,7 @@ const dek = `${topic.blurb} Every ${school.short} ${topic.label.toLowerCase()} g
 const crumbs = [{ label: 'Home', href: '/' }, { label: school.short, href: schoolUrl(school) }, { label: topic.label }];
 const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek, url, items: [...items.map((p) => ({ title: p.title, url: p.url })), ...extra.flatMap((g) => g.rows.map((r) => ({ title: r.title, url: r.url })))] })];
 ---
-<Base title={title} description={dek} path={url} school={school} current={topic.id} jsonld={jsonld}>
+<Base title={title} description={dek} path={url} school={school} current={topic.id} index={!topic.hidden} jsonld={jsonld}>
   <div class="page--article">
     <div class="main">
       <Breadcrumbs crumbs={crumbs} />
