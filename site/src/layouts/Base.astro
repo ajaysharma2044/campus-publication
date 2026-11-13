@@ -11,8 +11,8 @@ import AdSlot from '../components/AdSlot.astro';
 interface Props { title: string; description: string; path: string; ogImage?: string; ogType?: string; noindex?: boolean; index?: boolean; searchable?: boolean; school?: School | null; current?: string; jsonld?: object[]; bodyClass?: string; preloadImage?: string; preloadSrcset?: string; preloadSizes?: string; preloadType?: string }
 const { title, description, path, ogImage = '/og-default.png', ogType = 'website', noindex = false, index = true, searchable = !noindex, school = null, current, jsonld = [], bodyClass, preloadImage, preloadSrcset, preloadSizes = '(min-width: 980px) 720px, 100vw', preloadType = 'image/avif' } = Astro.props;
 const canonical = new URL(path, site.url).toString();
-// docs/v5 Phase 9a: nothing is indexed until the site is launched. After launch, articles, tools, datasets and start pages pass their frontmatter index field (false unless promoted); the homepage, hubs, indexes and trust pages pass nothing and default to indexed; noindex always wins. Everything else is noindex, follow (links are followed once crawlable)
-const robots = site.launched && index && !noindex ? 'index, follow, max-image-preview:large' : 'noindex, follow';
+// docs/v5 Phase 9a: nothing is indexed until the site is launched. After launch every page is index, follow (Ajay, 2026-11-12: everything indexable) except pages that set noindex (search, 404, styleguide and samples, thanks), which are noindex, follow. The index prop and the frontmatter index field no longer gate indexing (links are followed once crawlable)
+const robots = site.launched && !noindex ? 'index, follow, max-image-preview:large' : 'noindex, follow';
 const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 const ld = graph([organization(), webSite(), ...jsonld]);
 const anchor = site.ads.provider !== 'none';
