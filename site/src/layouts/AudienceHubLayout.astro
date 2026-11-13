@@ -27,7 +27,7 @@ const extra = [
 ].filter((g) => g.rows.length);
 const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek, url, items: all.map((p) => ({ title: p.title, url: p.url })) })];
 ---
-<Base title={title} description={dek} path={url} school={school} current={audience.id} jsonld={jsonld}>
+<Base title={title} description={dek} path={url} school={school} current={audience.id} index={!topic.hidden} jsonld={jsonld}>
   <div class="page--article">
     <div class="main">
       <Breadcrumbs crumbs={crumbs} />

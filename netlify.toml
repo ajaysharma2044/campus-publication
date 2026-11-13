@@ -1,4 +1,4 @@
-# Netlify config for the hosted preview: noindex headers, static cache, 404 redirect. The real site build is deployed with
+# Netlify config for the hosted preview: security headers, static cache, 404 redirect. The real site build is deployed with
 # `bash scripts/deploy_netlify.sh` (build/site, the R8 local publish output); the fixture preview (build/preview) is only for design QA.
 [build]
   publish = "build/preview"
@@ -7,7 +7,6 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
