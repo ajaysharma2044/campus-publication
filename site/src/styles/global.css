@@ -381,7 +381,7 @@ mark { background: transparent; color: inherit; }
 .ad--336x280 .ad__unit { max-width: 336px; min-height: var(--ad-h-336x280); }
 .ad--728x90 .ad__unit { max-width: 728px; min-height: var(--ad-h-728x90); }
 .ad--970x250 .ad__unit { max-width: 970px; min-height: var(--ad-h-970x250); }
-.ad--320x50 .ad__unit { max-width: 320px; min-height: var(--ad-h-320x50); }
+.ad--320x50 .ad__unit { max-width: 320px; min-height: var(--ad-h-320x50); } /* A live AdSense unit takes its size from the element, so the ins gets the exact reserved height (no inline styles: check-build). */ .ad--300x600 ins.ad__unit { height: var(--ad-h-300x600); } .ad--300x250 ins.ad__unit { height: var(--ad-h-300x250); } .ad--336x280 ins.ad__unit { height: var(--ad-h-336x280); } .ad--728x90 ins.ad__unit { height: var(--ad-h-728x90); } .ad--970x250 ins.ad__unit { height: var(--ad-h-970x250); } .ad--320x50 ins.ad__unit { height: var(--ad-h-320x50); }
 .ad--outline .ad__unit { outline: 1px dashed var(--rule); outline-offset: -1px; }
 .ad--leaderboard { margin: var(--s-7) auto; }
 .ad--anchor { position: fixed; left: 0; right: 0; bottom: 0; margin: 0; background: var(--paper); border-top: 1px solid var(--rule); padding: var(--s-1) 0; z-index: 50; }

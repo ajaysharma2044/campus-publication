@@ -1,7 +1,7 @@
 /* EduExplained: the little client-side behavior the templates need. Loaded deferred; every page works without it. */
 (function () {
   'use strict';
-  // Masthead: a shadow once the page has scrolled.
+  /* Ads: an AdSense unit is filled once, only if it is visible; lazy units wait until they are near the viewport. The ins gets the adsbygoogle class at fill time so each push fills that unit. */ (function () { var units = [].slice.call(document.querySelectorAll('ins.ad__unit[data-ad-slot]')); if (!units.length) return; var fill = function (el) { if (el.className.indexOf('adsbygoogle') !== -1 || !el.offsetWidth) return; el.className += ' adsbygoogle'; try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch (e) {} }; var lazy = []; units.forEach(function (el) { var box = el.closest('.ad'); if (box && box.getAttribute('data-ad-lazy') === 'true' && 'IntersectionObserver' in window) lazy.push(el); else fill(el); }); if (lazy.length) { var io = new IntersectionObserver(function (entries) { entries.forEach(function (en) { if (en.isIntersecting) { io.unobserve(en.target); fill(en.target); } }); }, { rootMargin: '400px 0px' }); lazy.forEach(function (el) { io.observe(el); }); } })(); // Masthead: a shadow once the page has scrolled.
   var mast = document.querySelector('.masthead');
   if (mast) {
     var onScroll = function () { mast.classList.toggle('masthead--scrolled', window.scrollY > 8); };

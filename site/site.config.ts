@@ -46,9 +46,9 @@ export const site = {
     // included (Ajay: the whole site), loads the AdSense script in its head (site verification and Auto ads) and /ads.txt
     // carries Google's line, whatever the provider; only the dev server leaves it out. The fixed units need provider
     // 'adsense' and a slot id per position.
-    provider: 'none' as AdProvider,
+    provider: 'adsense' as AdProvider,
     adsenseClient: 'ca-pub-7711546311538806',
-    slots: { sidebar: '', leaderboard: '', inContent: '', anchor: '' },
+    slots: { sidebar: '1818144319', leaderboard: '6415864871', inContent: '3789701539', anchor: '' },   // AdSense display units created 2026-11-16; anchor stays empty (no fixed-position unit of our own)
   },
   newsletter: {
     // Placeholder endpoint: the NewsletterSignup form posts here. OWNER: replace with the list provider's endpoint.
