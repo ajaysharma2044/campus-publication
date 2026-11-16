@@ -12,8 +12,8 @@ const [w, h] = size.split('x').map(Number);
 ---
 <div class:list={['ad', `ad--${size}`, `ad--${position}`, { 'ad--outline': provider === 'none' && dev, 'sidebar__sticky': sticky, 'ad--desktop': device === 'desktop', 'ad--mobile': device === 'mobile' }]} data-ad-position={position} data-ad-size={size} data-ad-lazy={lazy ? 'true' : 'false'} aria-hidden={provider === 'none' ? 'true' : undefined}>
   {label ? <p class="ad__label">Advertisement</p> : null}
-  {provider === 'adsense' && site.ads.adsenseClient ? (
-    <ins class="ad__unit adsbygoogle" data-ad-client={site.ads.adsenseClient} data-ad-slot={(site.ads.slots as any)[position] ?? ''} data-ad-format="fixed" data-full-width-responsive="false" data-ad-width={w} data-ad-height={h}></ins>
+  {provider === 'adsense' && site.ads.adsenseClient && (site.ads.slots as any)[position] ? (
+    <ins class="ad__unit" data-ad-client={site.ads.adsenseClient} data-ad-slot={(site.ads.slots as any)[position] ?? ''} data-full-width-responsive="false"></ins>
   ) : (
     <div class="ad__unit"></div>
   )}
