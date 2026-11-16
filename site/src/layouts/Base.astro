@@ -15,7 +15,7 @@ const canonical = new URL(path, site.url).toString();
 const robots = site.launched && !noindex ? 'index, follow, max-image-preview:large' : 'noindex, follow';
 const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 const ld = graph([organization(), webSite(), ...jsonld]);
-const anchor = site.ads.provider !== 'none';
+const anchor = site.ads.provider !== 'none' && !!site.ads.slots.anchor;
 ---
 <!doctype html>
 <html lang="en">
