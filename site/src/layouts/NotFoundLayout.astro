@@ -10,7 +10,7 @@ const { m } = Astro.props;
 const hubs = site.schools.slice(0, 5);
 const topics = site.topics.slice(0, 5);
 ---
-<Base title="Page not found" description="We couldn't find that page." path="/404/" noindex>
+<Base meta={{ pageType: 'not_found' }} title="Page not found" description="We couldn't find that page." path="/404/" noindex>
   <div class="page--single notfound">
     <div class="main">
       <header class="head"><p class="kicker">Error 404</p><h1>We couldn't find that page</h1><p class="dek">The address may have changed when a guide was updated, or it was never here. Search for what you need, or start from a school hub.</p></header>

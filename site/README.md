@@ -13,11 +13,12 @@ npm run dev          # live preview at http://localhost:4321 (ad slots outlined,
 npm run preview      # serve dist/
 npm run screenshots  # reports/templates/*.png at 375 and 1280 (Playwright from the repo root)
 npm run lighthouse   # reports/lighthouse/*.report.html + README.md (Chrome for Testing)
+SITE_ANALYTICS_PREVIEW=1 npm run build && node scripts/qa-analytics.mjs   # Google tag instrumentation check (Google blocked, dataLayer read)
 ```
 
 ## Where things are
 
-- `site.config.ts`: site name, URL, production switch, ad provider (`none | adsense | other`), newsletter endpoint, schools, topics, audience stages, place fact fields, authors, nav and footer.
+- `site.config.ts`: site name, URL, production switch, analytics (Google tag id, GTM container or GA4 measurement id, from the environment or config/monetization.yml), ad provider (`none | adsense | other`), newsletter endpoint, schools, topics, audience stages, place fact fields, authors, nav and footer.
 - `src/content.config.ts`: the collections (`articles` from `../content/articles`, `pages` from `../content/pages` plus `src/content/pages-extra`, `samples` for the styleguide).
 - `src/lib/model.ts`: content-to-template mapping, URLs, validation (a throw fails the build), hub groupings.
 - `src/lib/markdown.ts`: Markdown rendering, figure blocks, footnote markers, FAQ and related extraction.

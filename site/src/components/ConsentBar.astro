@@ -1,0 +1,18 @@
+---
+/* The consent bar for analytics (and ad personalization). Rendered only when analytics is enabled; public/analytics.js removes
+   it once a choice cookie (ee_consent) exists and sends the choice to Google Consent Mode. No script: the bar stays visible
+   and nothing beyond consent-mode "denied" pings is recorded. */
+import { site } from '../../site.config';
+const ads = site.ads.provider !== 'none' && !!site.ads.adsenseClient;
+---
+<div class="consent" role="dialog" aria-labelledby="consent-title" aria-describedby="consent-desc" data-consent>
+  <div class="consent__text">
+    <p class="consent__title" id="consent-title">Help us understand what works</p>
+    <p class="consent__desc" id="consent-desc">We use Google Analytics to count which guides, tools and sources are used, on what kind of device. Nothing you type and no personal details are sent.{ads ? ' Ads appear either way; with your consent they can be personalized.' : ''} <a href="/privacy/">What we collect</a>.</p>
+  </div>
+  <div class="consent__actions">
+    {ads ? <button class="btn btn--navy" type="button" data-consent-choice="all">Allow analytics and personalized ads</button> : null}
+    <button class="btn btn--navy" type="button" data-consent-choice="analytics">Allow analytics{ads ? ' only' : ''}</button>
+    <button class="btn btn--outline" type="button" data-consent-choice="none">No thanks</button>
+  </div>
+</div>

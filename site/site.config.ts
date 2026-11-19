@@ -26,6 +26,24 @@ export interface Author {
   avatar?: string;  // path under /public
 }
 
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+import yaml from 'js-yaml';
+
+/* Google Analytics 4: the measurement id comes from GA4_MEASUREMENT_ID in the environment, else from config/monetization.yml
+   (analytics.ga4_measurement_id, the one place both renderers read). Analytics loads only on a production build
+   (SITE_PRODUCTION=1) or when SITE_ANALYTICS_PREVIEW=1 is set for an instrumentation check; never in `astro dev`. */
+function ga4FromConfig(): string {
+  try {
+    const here = dirname(fileURLToPath(import.meta.url));
+    const doc = yaml.load(readFileSync(resolve(here, '../config/monetization.yml'), 'utf8')) as any;
+    return String(doc?.analytics?.google_tag_id || doc?.analytics?.ga4_measurement_id || '').trim();
+  } catch { return ''; }
+}
+const ga4Id = (process.env.GOOGLE_TAG_ID ?? process.env.GA4_MEASUREMENT_ID ?? '').trim() || ga4FromConfig();
+const TAG_RE = /^(G-[A-Z0-9]{6,12}|GTM-[A-Z0-9]{6,10})$/;
+
 export const site = {
   name: 'EduExplained',
   tagline: 'Research-first guides for students, parents and alumni',
@@ -39,6 +57,13 @@ export const site = {
   organization: {
     legalName: 'EduExplained',                 // OWNER: legal entity (content/pages/about.md carries the same placeholder)
     sameAs: [] as string[],
+  },
+  analytics: {
+    ga4MeasurementId: TAG_RE.test(ga4Id) ? ga4Id : '',   // 'G-…' (gtag) or 'GTM-…' (Tag Manager container; the GA4 tag is configured inside GTM)
+    isGtm: ga4Id.startsWith('GTM-'),
+    // true on the live build; SITE_ANALYTICS_PREVIEW=1 turns it on for a preview build so the events can be checked offline
+    enabled: TAG_RE.test(ga4Id) && (process.env.SITE_PRODUCTION === '1' || process.env.SITE_ANALYTICS_PREVIEW === '1'),
+    environment: process.env.SITE_PRODUCTION === '1' ? 'production' : 'preview',
   },
   ads: {
     // provider: which network renders the fixed units (AdSlot); 'none' keeps them as empty reserved space.

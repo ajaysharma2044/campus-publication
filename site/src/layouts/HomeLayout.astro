@@ -44,7 +44,7 @@ const editors = authorBySlug(site.defaultAuthor);
 const sizesLead = '(min-width: 980px) 480px, 100vw';
 const sizesCard = '(min-width: 980px) 240px, 50vw';
 ---
-<Base title={`${site.name}: ${site.tagline}`} description={`${site.tagline} of Cornell University and Ithaca. Every price, date and rule links to the official page it came from.`} path="/" bodyClass="home" searchable={false} preloadSrcset={lead?.lead?.srcsetAvif} preloadSizes={sizesLead}>
+<Base meta={{ pageType: 'home' }} title={`${site.name}: ${site.tagline}`} description={`${site.tagline} of Cornell University and Ithaca. Every price, date and rule links to the official page it came from.`} path="/" bodyClass="home" searchable={false} preloadSrcset={lead?.lead?.srcsetAvif} preloadSizes={sizesLead}>
 
   {strip.length ? (
     <section class="strip" aria-label="Latest data">

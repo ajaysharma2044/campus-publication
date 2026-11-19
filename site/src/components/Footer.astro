@@ -19,7 +19,7 @@ const year = new Date().getUTCFullYear();
       ))}
     </div>
     <div class="footer__bottom">
-      <p class="footer__disclaimer">{site.footer.disclaimer}</p>
+      <p class="footer__disclaimer">{site.footer.disclaimer} {site.analytics.enabled ? <a href="/privacy/" data-consent-open>Cookie choices</a> : null}</p>
       <p>© {year} {site.name}</p>
     </div>
   </div>

@@ -25,7 +25,7 @@ const jsonld = [breadcrumbList(crumbsFor(page)), article({ title: page.title, de
   itemList(c.items.map((it) => ({ title: it.name, url: it.url ?? page.url })), page.title)];
 if (b.faq.length) jsonld.push(faqPage(b.faq));
 ---
-<Base title={page.title} description={page.dek} path={page.url} index={page.index} ogType="article" school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
+<Base meta={{ pageType: page.crossSchool ? 'guide' : page.pageType, author: page.author.slug, words: page.words }} title={page.title} description={page.dek} path={page.url} index={page.index} ogType="article" school={page.school} current={page.topic.id} noindex={page.sample} jsonld={jsonld}>
   <div class="page--article">
     <article class="main">
       <ArticleHead page={page} />

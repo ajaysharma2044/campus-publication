@@ -250,13 +250,17 @@ def head_scripts(cfg: dict, production: bool, ads: bool = True) -> str:
     if not production:
         return ""
     out = []
-    ga = str(cfg["analytics"].get("ga4_measurement_id") or "").strip()
+    ga = str(cfg["analytics"].get("google_tag_id") or cfg["analytics"].get("ga4_measurement_id") or "").strip()
     consent_url = str(cfg["consent"].get("script_url") or "").strip()
     if consent_url:
         out.append("<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
                    "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script>")
         out.append(f'<script src="{html.escape(consent_url)}" async data-consent-provider="{html.escape(str(cfg["consent"].get("provider") or ""))}"></script>')
-    if ga:
+    if ga and ga.startswith("GTM-"):   # Tag Manager container (Ajay's snippet, 2026-11-19); the GA4 tag lives inside the container
+        out.append(f'<script async src="https://www.googletagmanager.com/gtm.js?id={html.escape(ga)}"></script>'
+                   "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());"
+                   "window.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});</script>")
+    elif ga:
         out.append(f'<script async src="https://www.googletagmanager.com/gtag/js?id={html.escape(ga)}"></script>'
                    f"<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{html.escape(ga)}');</script>")
     grow = cfg["grow"]

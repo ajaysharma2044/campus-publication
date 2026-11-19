@@ -10,7 +10,8 @@ site:
   production: false       # true removes noindex, allows crawling and lists the sitemap; the --production flag does the same
 
 analytics:
-  ga4_measurement_id: ""  # G-XXXXXXXXXX from the GA4 property
+  google_tag_id: "GTM-W9MM7GZL"   # Ajay, 2026-11-19: the Google Tag Manager container; a GA4 measurement id (G-...) also works here
+  ga4_measurement_id: ""  # G-XXXXXXXXXX from the GA4 property (used when google_tag_id is empty)
   gsc_verification: ""    # the content value of Google Search Console's HTML-tag verification
 
 consent:

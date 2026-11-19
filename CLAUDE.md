@@ -24,5 +24,8 @@ Research-first guides for students, parents and alumni of Cornell University and
 ## Rules
 Every hard fact links to its source; student experience is paraphrased and attributed; never invent facts, numbers, quotes or people. Respect robots and site terms; no logins; no bulk scraping; photos only with a reuse license or written permission, credited and relevant. Quality fixes go in prompts, the style guide, the exemplar and the briefs, never in code rules; no new gates, scores or databases. Secrets live only in `worker/.env`, never read by Claude. Commit per step; never force-push.
 
+## Analytics
+Google tag (DECISIONS 46): `site/site.config.ts` reads `GOOGLE_TAG_ID`/`GA4_MEASUREMENT_ID` or `config/monetization.yml` (GTM-W9MM7GZL, Ajay's Tag Manager container; a `G-` id also works); the loader and `site/public/analytics.js` ship only on a production build (or `SITE_ANALYTICS_PREVIEW=1`), consent-gated by `ConsentBar.astro`. Check: `cd site && SITE_ANALYTICS_PREVIEW=1 npm run build && node scripts/qa-analytics.mjs`.
+
 ## Running
 Python `worker/.venv` (pyyaml, markdown, jinja2, httpx, Pillow). Deploy: `bash scripts/deploy_netlify.sh`. Logs: `build/runs/v2/`.

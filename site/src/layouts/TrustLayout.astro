@@ -9,7 +9,7 @@ const { title, dek, path, html, updated, noindex = false, kicker = 'EduExplained
 const crumbs = [{ label: 'Home', href: '/' }, { label: title }];
 const TRUST_LINKS = [['About', '/about/'], ['Editorial standards', '/editorial-standards/'], ['Sources', '/sources/'], ['Corrections', '/corrections/'], ['Contact', '/contact/'], ['Privacy', '/privacy/'], ['Advertise', '/advertise/']].filter(([, h]) => h !== path);
 ---
-<Base title={title} description={dek} path={path} noindex={noindex} jsonld={[breadcrumbList(crumbs), webPage({ title, dek, url: path, updated })]}>
+<Base meta={{ pageType: 'trust' }} title={title} description={dek} path={path} noindex={noindex} jsonld={[breadcrumbList(crumbs), webPage({ title, dek, url: path, updated })]}>
   <div class="page--single">
     <article class="main">
       <Breadcrumbs crumbs={crumbs} />

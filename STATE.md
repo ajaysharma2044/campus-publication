@@ -15,3 +15,6 @@ Updated: 2026-11-11 23:55 EST. LAUNCHED: wave 1 (331 pages) is indexable at http
 
 ## Ajay's next command
 Submit the sitemap in Search Console and Bing (his logins). Next content: `cd /Users/ajaysharma/Ads/campus-publication && scripts/v3/run.sh money` (or `dining`).
+
+## Analytics (2026-11-19)
+Google tag wired into the Astro site (DECISIONS 46): Ajay's GTM container GTM-W9MM7GZL in `config/monetization.yml`, consent-gated single loader, `site/public/analytics.js` reporting reading, navigation, search, tools, feedback, newsletter, consent, web vitals and errors with no personal data; checked offline by `site/scripts/qa-analytics.mjs`. **Reaches readers at the next production deploy**; inside GTM the GA4 configuration and event tags still have to be created and the container published; previews carry no tag unless `SITE_ANALYTICS_PREVIEW=1`.

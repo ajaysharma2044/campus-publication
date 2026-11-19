@@ -7,6 +7,8 @@
 # Preview vs live: with CAMPUS_ENVIRONMENT=production and CAMPUS_LIVE_DOMAIN set in the environment (worker/.env, exported by the
 # caller) the Astro build drops noindex, writes robots.txt from config/crawlers.yml, fills the sitemap and serves the IndexNow key;
 # otherwise it is a noindex preview with canonical URLs on eduexplained.netlify.app. Going live is still a separate decision.
+# Analytics: GA4_MEASUREMENT_ID (or config/monetization.yml analytics.ga4_measurement_id) is read by site/site.config.ts;
+# the loader is emitted only on a production build (SITE_PRODUCTION=1) or with SITE_ANALYTICS_PREVIEW=1 for a check.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"

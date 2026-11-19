@@ -22,7 +22,7 @@ const crumbs = [{ label: 'Home', href: '/' }, { label: school.short }];
 const title = `${school.short} Student Guide`;
 const jsonld = [breadcrumbList(crumbs), collectionPage({ title, dek: school.dek, url: schoolUrl(school), items: all.map((p) => ({ title: p.title, url: p.url })) })];
 ---
-<Base title={title} description={school.dek} path={schoolUrl(school)} school={school} jsonld={jsonld}>
+<Base meta={{ pageType: 'school_hub' }} title={title} description={school.dek} path={schoolUrl(school)} school={school} jsonld={jsonld}>
   <div class="page--article">
     <div class="main">
       <Breadcrumbs crumbs={crumbs} />

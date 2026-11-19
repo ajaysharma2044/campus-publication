@@ -8,14 +8,26 @@ import Masthead from '../components/Masthead.astro';
 import SchoolSubnav from '../components/SchoolSubnav.astro';
 import Footer from '../components/Footer.astro';
 import AdSlot from '../components/AdSlot.astro';
-interface Props { title: string; description: string; path: string; ogImage?: string; ogType?: string; noindex?: boolean; index?: boolean; searchable?: boolean; school?: School | null; current?: string; jsonld?: object[]; bodyClass?: string; preloadImage?: string; preloadSrcset?: string; preloadSizes?: string; preloadType?: string }
-const { title, description, path, ogImage = '/og-default.png', ogType = 'website', noindex = false, index = true, searchable = !noindex, school = null, current, jsonld = [], bodyClass, preloadImage, preloadSrcset, preloadSizes = '(min-width: 980px) 720px, 100vw', preloadType = 'image/avif' } = Astro.props;
+import ConsentBar from '../components/ConsentBar.astro';
+export interface PageMeta { pageType?: string; author?: string; words?: number }
+interface Props { title: string; description: string; path: string; ogImage?: string; ogType?: string; noindex?: boolean; index?: boolean; searchable?: boolean; school?: School | null; current?: string; jsonld?: object[]; bodyClass?: string; preloadImage?: string; preloadSrcset?: string; preloadSizes?: string; preloadType?: string; meta?: PageMeta }
+const { title, description, path, ogImage = '/og-default.png', ogType = 'website', noindex = false, index = true, searchable = !noindex, school = null, current, jsonld = [], bodyClass, preloadImage, preloadSrcset, preloadSizes = '(min-width: 980px) 720px, 100vw', preloadType = 'image/avif', meta = {} } = Astro.props;
 const canonical = new URL(path, site.url).toString();
 // docs/v5 Phase 9a: nothing is indexed until the site is launched. After launch every page is index, follow (Ajay, 2026-11-12: everything indexable) except pages that set noindex (search, 404, styleguide and samples, thanks), which are noindex, follow. The index prop and the frontmatter index field no longer gate indexing (links are followed once crawlable)
 const robots = site.launched && !noindex ? 'index, follow, max-image-preview:large' : 'noindex, follow';
 const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
 const ld = graph([organization(), webSite(), ...jsonld]);
 const anchor = site.ads.provider !== 'none' && !!site.ads.slots.anchor;
+// Google Analytics 4 (site.config analytics): one loader, Consent Mode v2 denied by default, no automatic page_view (public/analytics.js sends it with page parameters)
+const ga = site.analytics.enabled && !import.meta.env.DEV ? site.analytics.ga4MeasurementId : '';
+const consentDefault = "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'denied',personalization_storage:'denied',security_storage:'granted',wait_for_update:500});";
+// GTM container (Ajay's snippet, 2026-11-19): dataLayer, consent defaults, gtag('js'), the gtm.start push, then gtm.js. GA4 measurement id: the gtag config instead.
+const gaInline = !ga ? '' : site.analytics.isGtm
+  ? `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}${consentDefault}gtag('js',new Date());window.dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});`
+  : `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}${consentDefault}gtag('js',new Date());gtag('config','${ga}',{send_page_view:false,allow_google_signals:false,allow_ad_personalization_signals:false,cookie_flags:'SameSite=Lax;Secure'});`;
+const gaSrc = site.analytics.isGtm ? `https://www.googletagmanager.com/gtm.js?id=${ga}` : `https://www.googletagmanager.com/gtag/js?id=${ga}`;
+const indexed = site.launched && !noindex ? 'yes' : 'no';
+const pageType = meta.pageType ?? (bodyClass ?? '').replace(/^page--/, '') ?? '';
 ---
 <!doctype html>
 <html lang="en">
@@ -42,10 +54,13 @@ const anchor = site.ads.provider !== 'none' && !!site.ads.slots.anchor;
   <link rel="preload" href="/fonts/LibreFranklin-Variable.woff2" as="font" type="font/woff2" crossorigin />
   {preloadSrcset ? <link rel="preload" as="image" imagesrcset={preloadSrcset} imagesizes={preloadSizes} type={preloadType} fetchpriority="high" /> : preloadImage ? <link rel="preload" as="image" href={preloadImage} fetchpriority="high" /> : null}
   <script type="application/ld+json" set:html={JSON.stringify(ld)} />
+  {ga ? <script is:inline set:html={gaInline} /> : null}
+  {ga ? <script is:inline async src={gaSrc}></script> : null}
   <script src="/site.js" defer></script>
+  {ga ? <script is:inline src="/analytics.js" defer></script> : null}
   {site.ads.adsenseClient && !import.meta.env.DEV ? <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.ads.adsenseClient}`} crossorigin="anonymous"></script> : null}
 </head>
-<body class:list={[bodyClass, { 'body-has-anchor': anchor }]}>
+<body class:list={[bodyClass, { 'body-has-anchor': anchor }]} data-page-type={pageType} data-school={school?.slug ?? ''} data-topic={current ?? ''} data-author={meta.author ?? ''} data-words={meta.words ?? ''} data-indexed={indexed} data-environment={site.analytics.environment} data-tag-kind={site.analytics.isGtm ? 'gtm' : 'gtag'}>
   <a class="skip" href="#main">Skip to content</a>
   <Masthead />
   {school ? <SchoolSubnav school={school} current={current} /> : null}
@@ -54,5 +69,6 @@ const anchor = site.ads.provider !== 'none' && !!site.ads.slots.anchor;
   </main>
   <Footer />
   {anchor ? <AdSlot size="320x50" position="anchor" device="mobile" lazy={false} /> : null}
+  {ga ? <ConsentBar /> : null}
 </body>
 </html>

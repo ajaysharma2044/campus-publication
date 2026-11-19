@@ -28,7 +28,7 @@ const jsonld = [breadcrumbList(crumbsFor(page)), dataset({ title: page.title, de
   article({ title: page.title, dek: page.dek, url: page.url, updated: page.updated, author: { name: page.author.name, url: authorUrl(page.author), kind: page.author.kind }, words: page.words })];
 if (b.faq.length) jsonld.push(faqPage(b.faq));
 ---
-<Base title={page.title} description={page.dek} path={page.url} index={page.index} ogType="article" school={page.school} current="data" noindex={page.sample} jsonld={jsonld}>
+<Base meta={{ pageType: page.crossSchool ? 'guide' : page.pageType, author: page.author.slug, words: page.words }} title={page.title} description={page.dek} path={page.url} index={page.index} ogType="article" school={page.school} current="data" noindex={page.sample} jsonld={jsonld}>
   <div class="page--article">
     <article class="main">
       <ArticleHead page={page} kicker="Data" />

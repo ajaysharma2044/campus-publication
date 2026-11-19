@@ -616,3 +616,19 @@ mark { background: transparent; color: inherit; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } .strip { overflow-x: auto; } }
 @media print { .masthead, .footer, .sidebar, .ad, .newsletter, .skip, .feedback { display: none; } .page--article { display: block; } }
+
+/* Consent bar (analytics / ad personalization). Sits above the mobile anchor ad; removed by public/analytics.js after a choice. */
+.consent { position: fixed; left: 0; right: 0; bottom: 0; z-index: 70; background: var(--navy); color: #fff; padding: var(--s-4); display: grid; gap: var(--s-3); grid-template-columns: 1fr; box-shadow: 0 -2px 12px rgba(0,0,0,.18); }
+.consent a { color: #fff; }
+.consent__title { margin: 0 0 var(--s-1); font-family: var(--serif); font-weight: 600; font-size: var(--fs-4); }
+.consent__desc { margin: 0; font-size: var(--fs-2); line-height: 1.5; color: #E6EAF2; }
+.consent__actions { display: flex; flex-wrap: wrap; gap: var(--s-2); align-items: center; }
+.consent .btn { border-color: #fff; }
+.consent .btn--navy { background: #fff; color: var(--navy); }
+.consent .btn--navy:hover { background: #E6EAF2; color: var(--navy); }
+.consent .btn--outline { color: #fff; }
+.consent .btn--outline:hover { background: rgba(255,255,255,.12); color: #fff; }
+body.body-has-anchor .consent { bottom: 50px; }
+@media (min-width: 760px) { .consent { grid-template-columns: 1fr auto; align-items: center; padding: var(--s-4) var(--s-6); } }
+@media (prefers-reduced-motion: no-preference) { .consent { animation: consent-in .25s ease-out; } @keyframes consent-in { from { transform: translateY(100%); } to { transform: none; } } }
+@media print { .consent { display: none; } }
