@@ -8,14 +8,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 const require = createRequire(path.resolve('../package.json'));
 const { chromium } = require('playwright');
-const dist = path.resolve('dist');
+const dist = path.resolve(process.env.DIST || 'dist');
 const MIME = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.woff2': 'font/woff2', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.avif': 'image/avif', '.webp': 'image/webp' };
 const srv = http.createServer((req, res) => { let p = decodeURIComponent(req.url.split('?')[0]); if (p.endsWith('/')) p += 'index.html'; let f = path.join(dist, p);
   if (!fs.existsSync(f) && fs.existsSync(f + '.html')) f += '.html'; if (!fs.existsSync(f) || fs.statSync(f).isDirectory()) { res.writeHead(404); res.end(); return; }
   res.writeHead(200, { 'content-type': MIME[path.extname(f)] || 'application/octet-stream' }); fs.createReadStream(f).pipe(res); });
 const PII = /@|\d{3}[-.\s]\d{3}[-.\s]\d{4}|test person|secret query/i;
 const pick = (dir, re) => { const out = []; (function walk(d) { for (const e of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, e.name); if (e.isDirectory()) walk(p); else if (e.name === 'index.html' && re.test(p)) out.push('/' + path.relative(dist, path.dirname(p)).replace(/\\/g, '/') + '/'); } })(dir); return out; };
-async function drain(page, events) { const items = await page.evaluate(() => (window.dataLayer || []).map(a => { if (a && typeof a === 'object' && !Array.isArray(a) && !(a.length >= 0 && a[0])) { if (a.event && a.event !== 'gtm.js') { const { event, ...rest } = a; return { name: event, params: rest }; } return null; } const arr = Array.from(a); if (arr[0] === 'event') return { name: arr[1], params: arr[2] || {} }; if (arr[0] === 'consent') return { name: '__consent_' + arr[1], params: arr[2] || {} }; return null; }).filter(Boolean)); events.push(...items); await page.evaluate(() => { window.dataLayer.length = 0; }); }
+async function drain(page, events) { const items = await page.evaluate(() => (window.dataLayer || []).map(a => { if (a && typeof a === 'object' && !Array.isArray(a) && !(a.length >= 0 && a[0])) { if (a.event && a.event !== 'gtm.js') { const { event, ...rest } = a; return { name: event, params: rest }; } return null; } const arr = Array.from(a); if (arr[0] === 'event') return { name: arr[1], params: arr[2] || {} }; if (arr[0] === 'consent') return { name: '__consent_' + arr[1], params: arr[2] || {} }; return null; }).filter(Boolean)); events.push(...items); await page.evaluate(() => { if (window.dataLayer) window.dataLayer.length = 0; }); }
 (async () => {
   await new Promise(r => srv.listen(0, '127.0.0.1', r)); const port = srv.address().port; const base = `http://127.0.0.1:${port}`;
   const article = pick(dist, /cornell\/(housing|money|transfer)\/[^/]+\/index\.html$/).find(u => !/\/(housing|money|transfer)\/$/.test(u));
@@ -25,6 +25,7 @@ async function drain(page, events) { const items = await page.evaluate(() => (wi
   const events = []; const page = await ctx.newPage();
   page.on('pageerror', e => console.log('pageerror', e.message));
   await page.goto(base + article, { waitUntil: 'networkidle' });
+  console.log('article', article, 'dataLayer?', await page.evaluate(() => Array.isArray(window.dataLayer)));
   const loaders = await page.evaluate(() => document.querySelectorAll('script[src*="googletagmanager"]').length);
   const body = await page.evaluate(() => ({ ...document.body.dataset }));
   await page.waitForSelector('[data-consent]', { timeout: 5000 }); await drain(page, events); const before = events.slice();
@@ -34,11 +35,11 @@ async function drain(page, events) { const items = await page.evaluate(() => (wi
   await page.evaluate(() => { const a = document.querySelector('.toc a'); if (a) a.click(); });
   await page.evaluate(() => { const f = document.querySelector('.feedback__form'); if (f) { f.addEventListener('submit', e => e.preventDefault()); f.querySelector('[name=need]').value = 'test person wants secret query'; f.requestSubmit(f.querySelector('button[value=no]')); } });
   await page.waitForTimeout(300); await drain(page, events);
-  if (tool) { await page.goto(base + tool, { waitUntil: 'networkidle' }); const inp = await page.$('.tool-embed input, .tool-embed select'); if (inp) { await inp.focus(); await page.keyboard.type('5'); } await page.waitForTimeout(300); await drain(page, events); }
+  if (tool) { await page.goto(base + tool, { waitUntil: 'networkidle' }); const inp = await page.$('.tool-embed input[type=number], .tool-embed input[type=text], .tool-embed select'); if (inp) { await inp.fill('7').catch(() => {}); await inp.dispatchEvent('input'); await inp.dispatchEvent('change'); } await page.waitForTimeout(400); await drain(page, events); console.log('tool events', events.filter(e => /^tool_/.test(e.name)).map(e => e.name)); }
   await page.goto(base + '/search/', { waitUntil: 'networkidle' });
   await page.evaluate(() => { const f = document.querySelector('form.search'); if (f) { f.addEventListener('submit', e => e.preventDefault()); f.querySelector('input').value = 'meal plan test@example.com 555-123-4567'; f.requestSubmit(); } });
   await page.waitForTimeout(200); await drain(page, events);
-  await page.goto(base + '/404/', { waitUntil: 'networkidle' }); await page.waitForTimeout(200); await drain(page, events);
+  await page.goto(base + '/404.html', { waitUntil: 'networkidle' }); await page.waitForTimeout(200); await drain(page, events);
   const consentCookie = (await ctx.cookies()).find(c => c.name === 'ee_consent');
   await browser.close(); srv.close();
   const names = events.map(e => e.name); const has = n => names.includes(n);

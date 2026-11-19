@@ -35,11 +35,19 @@ import yaml from 'js-yaml';
    (analytics.ga4_measurement_id, the one place both renderers read). Analytics loads only on a production build
    (SITE_PRODUCTION=1) or when SITE_ANALYTICS_PREVIEW=1 is set for an instrumentation check; never in `astro dev`. */
 function ga4FromConfig(): string {
-  try {
-    const here = dirname(fileURLToPath(import.meta.url));
-    const doc = yaml.load(readFileSync(resolve(here, '../config/monetization.yml'), 'utf8')) as any;
-    return String(doc?.analytics?.google_tag_id || doc?.analytics?.ga4_measurement_id || '').trim();
-  } catch { return ''; }
+  // Vite bundles this file, so import.meta.url is not reliable: look for config/monetization.yml from the build's working
+  // directory (site/) upward, then from this file's directory.
+  const starts = [process.cwd(), dirname(fileURLToPath(import.meta.url))];
+  for (const start of starts) {
+    let dir = start;
+    for (let i = 0; i < 4; i++) {
+      try {
+        const doc = yaml.load(readFileSync(resolve(dir, 'config/monetization.yml'), 'utf8')) as any;
+        return String(doc?.analytics?.google_tag_id || doc?.analytics?.ga4_measurement_id || '').trim();
+      } catch { dir = resolve(dir, '..'); }
+    }
+  }
+  return '';
 }
 const ga4Id = (process.env.GOOGLE_TAG_ID ?? process.env.GA4_MEASUREMENT_ID ?? '').trim() || ga4FromConfig();
 const TAG_RE = /^(G-[A-Z0-9]{6,12}|GTM-[A-Z0-9]{6,10})$/;
